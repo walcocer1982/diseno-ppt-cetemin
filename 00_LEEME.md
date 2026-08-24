@@ -99,20 +99,62 @@ Devuelve tres cosas:
 | `S1_guion.md` | **el documento que revisas y firmas** |
 | la revisión | lo que está mal medido, y lo que hay que mirar |
 
-### El flujo completo
+### El flujo completo, desde que llega el material
+
+**Dos fases.** La A se hace **una vez por curso** y sirve para todas sus sesiones; la B se repite **en cada sesión**.
+
+#### Fase A · una vez por curso — la hace el instructor líder
 
 ```
-1 · TRIANGULACIÓN Y SÍLABO   auditar capacidad, indicadores y contenidos (§03)
-2 · SESIONES                 repartir las 12 y redactar su aprendizaje esperado
-3 · PUNTOS CLAVE             3 a 5 por sesión, con su desarrollo
-4 · EL CASO                  empezando por el guion de lo que el alumno debe responder (§06)
-5 · LÁMINAS                  cada una con su punto clave, su idea y qué debe mostrar
-6 · IMÁGENES                 producir, verificar y APROBAR
-7 · disenar.py               generar · guion · revisar
-8 · FIRMAR                   en el guion, tras mirar lo señalado
+0 · DEJAR EL PAQUETE
+    Suelta la carpeta del ciclo en  _Entrada/  y pide «procesa la entrada»
+    (triangulación · sílabo · recursos de evaluación · sesiones · PPT)
+
+1 · PROCESAR LA ENTRADA
+    Se lee, se clasifica y se archiva en 01_Insumos/
+    El curso se da de alta en cursos.csv
+
+2 · AUDITAR TRIANGULACIÓN Y SÍLABO — en ese orden (§03)
+    Capacidad · indicadores · contenidos · evaluación
+    Todo desajuste va a observaciones.csv
+
+    ⚠  Capacidad e indicadores NO se reformulan: bajan del 7A.
+       Lo que se hace es REPORTARLOS. El líder informa por correo
+       a Walther Alcocer y lo anota en `aprobado_por`.
+
+3 · DEFINIR LOS DOS COLABORATIVOS — antes que las sesiones
+    TC1 y TC2 con sus casos y sus rúbricas
+    → casos.csv · rubricas.csv
+
+4 · REPARTIR LAS SESIONES
+    Cuántas son lo dice la ficha del curso: 12 en los de 48 h,
+    24 en los de 96 h. No se da por supuesto.
+    → sesiones.csv
 ```
 
-**Los pasos 1 a 6 tocan la base de datos. El 7 es un comando. El 8 es tuyo.**
+> **Por qué los TC van antes que las sesiones.** El §04 lo llama **diseño hacia atrás**: *«primero se define el colaborativo integrador, y de ahí se derivan los casitos de cada sesión»*. Las sesiones existen para preparar el TC de su bloque — si se diseñan primero, el TC termina pidiendo lo que no se enseñó, o al revés.
+
+#### Fase B · una vez por sesión
+
+```
+5 · PUNTOS CLAVE      3 a 5 por sesión, con su desarrollo
+                      un punto clave repartido en N láminas necesita 3N ideas
+
+6 · EL CASO           empezando por el guion de lo que el alumno debe
+                      responder al exponer (§06)
+
+7 · LÁMINAS           cada una con su punto clave, qué idea desarrolla
+                      y qué debe mostrar su imagen
+
+8 · IMÁGENES          producir · verificar (la máquina mide)
+                      · APROBAR (el instructor mira)
+
+9 · disenar.py        genera el PPT, el guion y la revisión
+
+10 · FIRMAR           en el guion, después de mirar lo señalado
+```
+
+**Quién hace qué:** los pasos 0 a 8 los trabaja el instructor líder en su carpeta. El 9 es un comando. El 10 es su firma — y en el paso 2, cuando el hallazgo toca capacidad o indicadores, **informa por correo y espera**.
 
 ### Las reglas que el sistema hace cumplir solo
 
