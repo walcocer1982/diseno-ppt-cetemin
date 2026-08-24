@@ -1,0 +1,75 @@
+# =============================================================
+#  Qué NO se versiona
+#
+#  A Git va el MÉTODO: doctrina, base de datos, guiones, scripts
+#  y las imágenes terminadas. Todo eso son unos pocos MB.
+#
+#  NO van las FUENTES pesadas (insumos, catálogos, tesis): se
+#  distribuyen por el Drive institucional o se vuelven a
+#  descargar desde su URL, que está citada en la base de datos.
+# =============================================================
+
+# --- Credenciales: NUNCA -------------------------------------
+.env
+.env.*
+!.env.example
+*.key
+tokens.json
+uso.jsonl
+
+# --- Insumos originales: 4,9 GB ------------------------------
+# Hay archivos de hasta 1,6 GB; GitHub rechaza los de más de 100 MB.
+01_Insumos/
+
+# --- Material de inducción del instructor --------------------
+# Pertenece al proceso de GTH (inducción al puesto), no al diseño
+# instruccional. El repositorio que clonan los líderes es para
+# DISEÑAR CURSOS. Se conserva en local y va por el Drive institucional.
+02_Instructor-nuevo/
+
+# --- Bandeja de entrada --------------------------------------
+_Entrada/*
+!_Entrada/.gitkeep
+!_Entrada/00_LEEME.md
+
+# --- Catálogos de fabricante y tesis (material de terceros) ---
+# ~35 MB. Se citan en 05_Base-de-datos/imagenes.csv con su URL:
+# quien los necesite los descarga. No se redistribuyen por el repo.
+04_Recursos-graficos/*/equipos/**/*.pdf
+04_Recursos-graficos/*/planos/*.pdf
+
+# --- Intermedios de generación -------------------------------
+# Los crudos que devuelve el modelo antes de verificar.
+**/_*_crudo.png
+**/_planos_detectados/
+
+# --- Python ---------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Sistema operativo ----------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Descartado y trabajo intermedio ---------------------------
+# Lo que se apartó al ordenar: se conserva en local por si hace
+# falta revisarlo, pero no viaja en el repositorio.
+04_Recursos-graficos/_descartado/
+
+# Archivos de proceso: referencias y pasos intermedios de una
+# imagen. El entregable se queda; el camino hasta él, no.
+**/_*.png
+**/_*.jpg
+**/_*.py
+
+# --- Entregables: se GENERAN, no se versionan ------------------
+# El PPT y el guion salen de la base con `python 05_Base-de-datos/disenar.py`.
+# Versionarlos duplica la fuente y los deja desincronizarse en silencio,
+# que es justo lo que este proyecto evita. Quien clone, genera.
+03_Entregables-diseño/*/*.pptx
+03_Entregables-diseño/*/*.md
+!03_Entregables-diseño/00_LEEME.md
+!03_Entregables-diseño/*/01_*.md

@@ -1,0 +1,14 @@
+actividad_id,sesion_id,orden,momento,minutos,rutina,actividad,materiales
+ACT-EOM-METEXP-S1-01,EOM-METEXP-S1,1,conexion,12,Veo–Pienso–Me pregunto,"Se proyecta la fotografía de un frente de labor con taladros perforados y carga instalada. Cada estudiante escribe qué ve, qué piensa que está pasando y qué se pregunta. Puesta en común.",Fotografía de frente de labor
+ACT-EOM-METEXP-S1-02,EOM-METEXP-S1,2,conexion,8,,"Se presenta el aprendizaje previsto de la sesión, los puntos clave y cómo se comprueba.",Lámina de triangulación
+ACT-EOM-METEXP-S1-03,EOM-METEXP-S1,3,adquisicion,10,¿Qué te hace decir eso? (intercalada),El ciclo de minado: por qué es cíclico y qué encadena cada vuelta.,Esquema del ciclo
+ACT-EOM-METEXP-S1-04,EOM-METEXP-S1,4,adquisicion,15,¿Qué te hace decir eso? (intercalada),"Perforación: su función en el ciclo, tipos de labor y equipos que la ejecutan (jackleg, jumbo).",Siluetas de jumbo y jackleg
+ACT-EOM-METEXP-S1-05,EOM-METEXP-S1,5,adquisicion,15,¿Qué te hace decir eso? (intercalada),"Voladura: su función, secuencia de encendido y resultado esperado.",Esquema de secuencia de encendido
+ACT-EOM-METEXP-S1-06,EOM-METEXP-S1,6,adquisicion,5,,Dónde caen perforación y voladura dentro de la secuencia completa del ciclo.,Esquema del ciclo
+ACT-EOM-METEXP-S1-A1,EOM-METEXP-S1,7,aplicacion,5,,"1 · Planteamiento. El instructor presenta el caso: el disparo soplado de la rampa 340, quién está involucrado y qué está en juego.",Ficha del caso
+ACT-EOM-METEXP-S1-A2,EOM-METEXP-S1,8,aplicacion,8,,2 · Comprensión. Preguntas guía al grupo: ¿cuál es el problema? ¿qué pudo salir mal? ¿cómo podría haberse evitado?,Esquema del ciclo · secuencia de encendido
+ACT-EOM-METEXP-S1-09,EOM-METEXP-S1,9,discusion,20,Afirmación–Apoyo–Pregunta,Dos equipos exponen su ficha y el resto contrasta. Cada intervención se formula como 'afirmo… me apoyo en… me pregunto…'.,
+ACT-EOM-METEXP-S1-A3,EOM-METEXP-S1,10,aplicacion,20,Ponerse dentro,"3 · Formulación. En equipos de 3, cada equipo toma el rol de perforista o cargador de explosivos, describe su turno —qué hace, en qué orden, con qué equipo y materiales— y formula su hipótesis de dónde falló.",Ficha de las dos operaciones
+ACT-EOM-METEXP-S1-10,EOM-METEXP-S1,11,reflexion,4,Titular,Cada estudiante escribe un titular de una línea que capture qué es el ciclo de minado.,
+ACT-EOM-METEXP-S1-A4,EOM-METEXP-S1,12,aplicacion,7,,4 · Valoración. El instructor guía a sopesar las hipótesis: ¿cuál explica mejor lo que se ve en el frente? ¿qué evidencia falta?,
+ACT-EOM-METEXP-S1-11,EOM-METEXP-S1,13,reflexion,6,,"Cierre: la siguiente sesión completa el ciclo con carguío, acarreo y sostenimiento.",

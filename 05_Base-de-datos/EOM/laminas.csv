@@ -1,0 +1,290 @@
+lamina_id,sesion_id,orden,tipo,momento,minutos,titulo,texto,contenido_id,idea,que_muestra,imagen_id
+L170,EOM-METEXP-S10,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L171,EOM-METEXP-S10,2,subportada-sesion,,2,Sesión N°10,Selección aplicada a yacimientos tipo cuerpo masivo,,,,
+L172,EOM-METEXP-S10,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L173,EOM-METEXP-S10,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Seleccionar y justificar el método de explotación para yacimientos tipo cuerpo masivo según sus características.,,,,
+L174,EOM-METEXP-S10,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
+L175,EOM-METEXP-S10,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L176,EOM-METEXP-S10,7,tema,adquisicion,15,CARACTERÍSTICAS DE UN YACIMIENTO TIPO CUERPO M,Características de un yacimiento tipo cuerpo masivo,,,,
+L177,EOM-METEXP-S10,8,tema,adquisicion,15,MÉTODOS APLICABLES A CUERPO MASIVO Y SUS CONDI,Métodos aplicables a cuerpo masivo y sus condiciones,,,,
+L178,EOM-METEXP-S10,9,tema,adquisicion,15,JUSTIFICACIÓN DE LA ELECCIÓN CON CRITERIOS DE ,"Justificación de la elección con criterios de costo, dilución y seguridad",,,,
+L179,EOM-METEXP-S10,10,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L180,EOM-METEXP-S10,11,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
+L181,EOM-METEXP-S10,12,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
+L182,EOM-METEXP-S10,13,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L183,EOM-METEXP-S10,14,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
+L184,EOM-METEXP-S10,15,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
+L185,EOM-METEXP-S10,16,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L186,EOM-METEXP-S10,17,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
+L187,EOM-METEXP-S10,18,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
+L188,EOM-METEXP-S10,19,tapa,,0,,,,,,
+L189,EOM-METEXP-S11,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L190,EOM-METEXP-S11,2,subportada-sesion,,2,Sesión N°11,Selección en yacimientos con múltiples cuerpos (combinación de métodos),,,,
+L191,EOM-METEXP-S11,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L192,EOM-METEXP-S11,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,"Seleccionar y combinar métodos de explotación en un yacimiento con múltiples cuerpos, justificando la elección por zona.",,,,
+L193,EOM-METEXP-S11,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
+L194,EOM-METEXP-S11,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L195,EOM-METEXP-S11,7,tema,adquisicion,15,YACIMIENTOS CON MÚLTIPLES CUERPOS,Yacimientos con múltiples cuerpos: por qué un solo método no basta,,,,
+L196,EOM-METEXP-S11,8,tema,adquisicion,15,CRITERIOS PARA ZONIFICAR EL YACIMIENTO,Criterios para zonificar el yacimiento,,,,
+L197,EOM-METEXP-S11,9,tema,adquisicion,15,COMBINACIÓN DE MÉTODOS,Combinación de métodos: compatibilidad entre zonas y secuencia de minado,,,,
+L198,EOM-METEXP-S11,10,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L199,EOM-METEXP-S11,11,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
+L200,EOM-METEXP-S11,12,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
+L201,EOM-METEXP-S11,13,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L202,EOM-METEXP-S11,14,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
+L203,EOM-METEXP-S11,15,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
+L204,EOM-METEXP-S11,16,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L205,EOM-METEXP-S11,17,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
+L206,EOM-METEXP-S11,18,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
+L207,EOM-METEXP-S11,19,tapa,,0,,,,,,
+L208,EOM-METEXP-S12,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L209,EOM-METEXP-S12,2,subportada-sesion,,2,Sesión N°12,Evaluación TC2 — Selección justificada en escenario complejo,,,,
+L210,EOM-METEXP-S12,3,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L211,EOM-METEXP-S12,4,contenido,aplicacion,15,Indicaciones de la sustentación,"Orden, tiempo y criterios de la rúbrica",,,,
+L212,EOM-METEXP-S12,5,contenido,aplicacion,90,Sustentación por equipos,Cada equipo sustenta; se evalúa con rúbrica,,,,
+L213,EOM-METEXP-S12,6,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L214,EOM-METEXP-S12,7,contenido,discusion,20,Retroalimentación,Qué estuvo bien y qué mejorar,,,,
+L215,EOM-METEXP-S12,8,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L216,EOM-METEXP-S12,9,contenido,reflexion,8,Cierre del bloque,Capacidades demostradas y qué sigue,,,,
+L217,EOM-METEXP-S12,10,tapa,,0,,,,,,
+L061,EOM-METEXP-S4,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L062,EOM-METEXP-S4,2,subportada-sesion,,2,Sesión N°4,Métodos: sub level stoping; block caving,,,,
+L063,EOM-METEXP-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L064,EOM-METEXP-S4,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Describir los métodos de sub level stoping y block caving: sus operaciones y condiciones de aplicación.,,,,
+L065,EOM-METEXP-S4,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
+L066,EOM-METEXP-S4,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L067,EOM-METEXP-S4,7,tema,adquisicion,12,SUB LEVEL STOPING,Sub level stoping: preparación por subniveles y secuencia de extracción,,,,
+L068,EOM-METEXP-S4,8,tema,adquisicion,11,CONDICIONES DE APLICACIÓN DEL SUB LEVEL STOPIN,Condiciones de aplicación del sub level stoping,,,,
+L069,EOM-METEXP-S4,9,tema,adquisicion,11,BLOCK CAVING,Block caving: hundimiento del bloque y flujo del mineral,,,,
+L070,EOM-METEXP-S4,10,tema,adquisicion,11,CONDICIONES DE APLICACIÓN DEL BLOCK CAVING,Condiciones de aplicación del block caving,,,,
+L071,EOM-METEXP-S4,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L072,EOM-METEXP-S4,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
+L073,EOM-METEXP-S4,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
+L074,EOM-METEXP-S4,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L075,EOM-METEXP-S4,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
+L076,EOM-METEXP-S4,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
+L077,EOM-METEXP-S4,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L078,EOM-METEXP-S4,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
+L079,EOM-METEXP-S4,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
+L080,EOM-METEXP-S4,20,tapa,,0,,,,,,
+L081,EOM-METEXP-S5,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L082,EOM-METEXP-S5,2,subportada-sesion,,2,Sesión N°5,Métodos: sublevel caving; método superficial,,,,
+L083,EOM-METEXP-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L084,EOM-METEXP-S5,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Describir el método de sublevel caving y el método de explotación superficial: sus operaciones y condiciones de aplicación.,,,,
+L085,EOM-METEXP-S5,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
+L086,EOM-METEXP-S5,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L087,EOM-METEXP-S5,7,tema,adquisicion,12,SUBLEVEL CAVING,Sublevel caving: secuencia de hundimiento por subniveles,,,,
+L088,EOM-METEXP-S5,8,tema,adquisicion,11,CONDICIONES DE APLICACIÓN DEL SUBLEVEL CAVING,Condiciones de aplicación del sublevel caving,,,,
+L089,EOM-METEXP-S5,9,tema,adquisicion,11,EXPLOTACIÓN SUPERFICIAL,"Explotación superficial: bancos, rampas y secuencia de avance",,,,
+L090,EOM-METEXP-S5,10,tema,adquisicion,11,CUÁNDO EL YACIMIENTO SE EXPLOTA EN SUPERFICIE ,Cuándo el yacimiento se explota en superficie y no en subterránea,,,,
+L091,EOM-METEXP-S5,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L092,EOM-METEXP-S5,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
+L093,EOM-METEXP-S5,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
+L094,EOM-METEXP-S5,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L095,EOM-METEXP-S5,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
+L096,EOM-METEXP-S5,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
+L097,EOM-METEXP-S5,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L098,EOM-METEXP-S5,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
+L099,EOM-METEXP-S5,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
+L100,EOM-METEXP-S5,20,tapa,,0,,,,,,
+L101,EOM-METEXP-S6,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L102,EOM-METEXP-S6,2,subportada-sesion,,2,Sesión N°6,Evaluación TC1 — Describir y comparar métodos,,,,
+L103,EOM-METEXP-S6,3,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L104,EOM-METEXP-S6,4,contenido,aplicacion,15,Indicaciones de la sustentación,"Orden, tiempo y criterios de la rúbrica",,,,
+L105,EOM-METEXP-S6,5,contenido,aplicacion,90,Sustentación por equipos,Cada equipo sustenta; se evalúa con rúbrica,,,,
+L106,EOM-METEXP-S6,6,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L107,EOM-METEXP-S6,7,contenido,discusion,20,Retroalimentación,Qué estuvo bien y qué mejorar,,,,
+L108,EOM-METEXP-S6,8,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L109,EOM-METEXP-S6,9,contenido,reflexion,8,Cierre del bloque,Capacidades demostradas y qué sigue,,,,
+L110,EOM-METEXP-S6,10,tapa,,0,,,,,,
+L111,EOM-METEXP-S7,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L112,EOM-METEXP-S7,2,subportada-sesion,,2,Sesión N°7,Criterios de selección I: geología y geomecánica,,,,
+L113,EOM-METEXP-S7,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L114,EOM-METEXP-S7,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,"Analizar las condiciones geológicas y geomecánicas del yacimiento (forma, potencia, buzamiento, RMR) como criterio de selección del método.",,,,
+L115,EOM-METEXP-S7,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
+L116,EOM-METEXP-S7,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L117,EOM-METEXP-S7,7,tema,adquisicion,12,FORMA Y POTENCIA DEL YACIMIENTO COMO CRITERIO ,Forma y potencia del yacimiento como criterio de selección,,,,
+L118,EOM-METEXP-S7,8,tema,adquisicion,11,BUZAMIENTO Y SU EFECTO SOBRE EL MÉTODO APLICAB,Buzamiento y su efecto sobre el método aplicable,,,,
+L119,EOM-METEXP-S7,9,tema,adquisicion,11,CALIDAD DEL MACIZO ROCOSO (RMR) Y COMPETENCIA ,Calidad del macizo rocoso (RMR) y competencia de cajas,,,,
+L120,EOM-METEXP-S7,10,tema,adquisicion,11,CÓMO SE LEE LA INFORMACIÓN GEOLÓGICA Y GEOMECÁ,Cómo se lee la información geológica y geomecánica para decidir,,,,
+L121,EOM-METEXP-S7,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L122,EOM-METEXP-S7,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
+L123,EOM-METEXP-S7,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
+L124,EOM-METEXP-S7,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L125,EOM-METEXP-S7,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
+L126,EOM-METEXP-S7,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
+L127,EOM-METEXP-S7,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L128,EOM-METEXP-S7,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
+L129,EOM-METEXP-S7,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
+L130,EOM-METEXP-S7,20,tapa,,0,,,,,,
+L131,EOM-METEXP-S8,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L132,EOM-METEXP-S8,2,subportada-sesion,,2,Sesión N°8,"Criterios de selección II: productividad, costos y seguridad",,,,
+L133,EOM-METEXP-S8,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L134,EOM-METEXP-S8,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,"Analizar la productividad, los costos, la dilución/recuperación y la seguridad como criterios de selección del método.",,,,
+L135,EOM-METEXP-S8,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
+L136,EOM-METEXP-S8,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L137,EOM-METEXP-S8,7,tema,adquisicion,12,PRODUCTIVIDAD DEL MÉTODO,Productividad del método: ritmo de extracción y mecanización,,,,
+L138,EOM-METEXP-S8,8,tema,adquisicion,11,COSTOS,Costos: inversión de preparación frente a costo de operación,,,,
+L139,EOM-METEXP-S8,9,tema,adquisicion,11,DILUCIÓN Y RECUPERACIÓN,Dilución y recuperación: qué se pierde y qué se contamina,,,,
+L140,EOM-METEXP-S8,10,tema,adquisicion,11,SEGURIDAD,Seguridad: exposición del personal según el método,,,,
+L141,EOM-METEXP-S8,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L142,EOM-METEXP-S8,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
+L143,EOM-METEXP-S8,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
+L144,EOM-METEXP-S8,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L145,EOM-METEXP-S8,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
+L146,EOM-METEXP-S8,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
+L147,EOM-METEXP-S8,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L148,EOM-METEXP-S8,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
+L149,EOM-METEXP-S8,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
+L150,EOM-METEXP-S8,20,tapa,,0,,,,,,
+L151,EOM-METEXP-S9,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L152,EOM-METEXP-S9,2,subportada-sesion,,2,Sesión N°9,Selección aplicada a yacimientos tipo veta,,,,
+L153,EOM-METEXP-S9,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L154,EOM-METEXP-S9,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Seleccionar y justificar el método de explotación para yacimientos tipo veta según sus características.,,,,
+L155,EOM-METEXP-S9,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
+L156,EOM-METEXP-S9,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L157,EOM-METEXP-S9,7,tema,adquisicion,15,CARACTERÍSTICAS DE UN YACIMIENTO TIPO VETA,Características de un yacimiento tipo veta,,,,
+L158,EOM-METEXP-S9,8,tema,adquisicion,15,MÉTODOS APLICABLES A VETA Y POR QUÉ SE DESCART,Métodos aplicables a veta y por qué se descartan los demás,,,,
+L159,EOM-METEXP-S9,9,tema,adquisicion,15,JUSTIFICACIÓN DE LA ELECCIÓN CON CRITERIOS GEO,Justificación de la elección con criterios geológicos y de productividad,,,,
+L160,EOM-METEXP-S9,10,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L161,EOM-METEXP-S9,11,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
+L162,EOM-METEXP-S9,12,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
+L163,EOM-METEXP-S9,13,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L164,EOM-METEXP-S9,14,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
+L165,EOM-METEXP-S9,15,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
+L166,EOM-METEXP-S9,16,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L167,EOM-METEXP-S9,17,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
+L168,EOM-METEXP-S9,18,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
+L169,EOM-METEXP-S9,19,tapa,,0,,,,,,
+LAM-EOM-METEXP-S1-01,EOM-METEXP-S1,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+LAM-EOM-METEXP-S1-02,EOM-METEXP-S1,2,subportada-sesion,,0,Sesión N°1,Ciclo de minado y operaciones unitarias I: perforación y voladura,,,,
+LAM-EOM-METEXP-S1-03,EOM-METEXP-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+LAM-EOM-METEXP-S1-04,EOM-METEXP-S1,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en esta labor?
+·  ¿Qué PIENSO que está pasando ahí?
+·  ¿Qué ME PREGUNTO?",,,un frente con los taladros perforados y el trazo marcado,IMG-FRENTE-PERFORACION
+LAM-EOM-METEXP-S1-05,EOM-METEXP-S1,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
+LAM-EOM-METEXP-S1-06,EOM-METEXP-S1,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+LAM-EOM-METEXP-S1-ADQ1,EOM-METEXP-S1,7,tema,adquisicion,7,EL CICLO DE MINADO,,C101,"1,2,3","las cinco operaciones encadenadas, con perforación y voladura resaltadas",IMG-CICLO-S1
+LAM-EOM-METEXP-S1-ADQ2,EOM-METEXP-S1,8,tema,adquisicion,6,LAS CINCO OPERACIONES,,C101,"4,5,6",el ciclo completo con sus cinco operaciones activas,IMG-CICLO-COMPLETO
+LAM-EOM-METEXP-S1-ADQ3,EOM-METEXP-S1,9,tema,adquisicion,7,EL TRAZO DEL FRENTE,,C102,"1,2,3","dónde va cada taladro en el frente: arranque, ayudas y contorno",IMG-MALLA-FRENTE
+LAM-EOM-METEXP-S1-ADQ4,EOM-METEXP-S1,10,tema,adquisicion,7,PERFORAR CON JUMBO,,C102,"4,5,6","un jumbo de dos brazos, con sus vigas de avance",IMG-JUMBO
+LAM-EOM-METEXP-S1-ADQ5,EOM-METEXP-S1,11,tema,adquisicion,6,PERFORAR CON JACKLEG,,C102,"7,8,9,10","un jackleg con su pierna de avance, manguera de aire y línea de agua",IMG-JACKLEG
+LAM-EOM-METEXP-S1-ADQ6,EOM-METEXP-S1,12,tema,adquisicion,6,CARGAR EL TALADRO,,C103,"1,2,3,4","qué va dentro del taladro y en qué orden, desde el fondo",IMG-CARGA-TALADRO
+LAM-EOM-METEXP-S1-ADQ7,EOM-METEXP-S1,13,tema,adquisicion,6,LA SECUENCIA DE ENCENDIDO,,C103,"5,6,7,8,9","las fases del disparo: arranque, ayudas y periferia",IMG-SECUENCIA-ENCENDIDO
+LAM-EOM-METEXP-S1-11,EOM-METEXP-S1,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+LAM-EOM-METEXP-S1-12,EOM-METEXP-S1,15,contenido,aplicacion,5,"Dos frentes, un solo reporte","Son las 6 de la mañana en la mina Santa Rosa y entra la guardia de día.
+La guardia de noche trabajó en dos frentes: la RAMPA 340, mecanizada, y la GALERÍA 285, veta angosta.
+Los dos quedaron perforados y disparados — pero el maestro se fue sin dejar el reporte de guardia.
+
+Sin ese reporte nadie puede entrar: no se sabe si el disparo salió completo ni si el frente está desatado.",,,,
+LAM-EOM-METEXP-S1-13,EOM-METEXP-S1,16,contenido,aplicacion,8,¿Qué necesita saber quien entra?,"¿Qué operaciones tuvieron que ocurrir en ese frente, y en qué orden?
+¿Qué equipo se usó, y por qué ese y no el otro?
+¿Qué pasa si la guardia entrante no sabe si el frente está desatado?",,,,
+LAM-EOM-METEXP-S1-FICHA1,EOM-METEXP-S1,17,contenido,aplicacion,2,RAMPA 340 · su ficha,"Este es el frente del primer equipo.
+Todo lo que necesitan está aquí — salvo una cosa: con qué se perforó.",,,,IMG-FICHA-RAMPA
+LAM-EOM-METEXP-S1-FICHA2,EOM-METEXP-S1,18,contenido,aplicacion,2,GALERÍA 285 · su ficha,"Este es el frente del segundo equipo.
+Misma ficha, otros números. Y la misma pregunta abierta.",,,,IMG-FICHA-GALERIA
+LAM-EOM-METEXP-S1-14,EOM-METEXP-S1,19,contenido,aplicacion,23,Reconstruyan el reporte de su frente,"1 · Lean la ficha: veta, sección, taladros, sostenimiento.
+2 · Deduzcan con qué equipo se perforó, y por qué ese.
+3 · Listen las operaciones que tuvieron que ocurrir, en orden.
+4 · Para cada una: equipo · materiales · resultado esperado.
+5 · Redacten el reporte y repartan la exposición.",,,,
+LAM-EOM-METEXP-S1-15,EOM-METEXP-S1,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+LAM-EOM-METEXP-S1-16,EOM-METEXP-S1,21,contenido,discusion,15,"Los dos frentes, lado a lado","Un equipo de cada frente expone su reporte.
+
+Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
+LAM-EOM-METEXP-S1-17,EOM-METEXP-S1,22,contenido,discusion,5,Lo que hay que fijar,"Las operaciones del ciclo, en orden, empezando por el desatado.
+Qué equipo va en cada tipo de labor, y por qué.
+Sin cara libre el disparo comprime en vez de romper.",,,,
+LAM-EOM-METEXP-S1-18,EOM-METEXP-S1,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+LAM-EOM-METEXP-S1-19,EOM-METEXP-S1,24,contenido,reflexion,4,Titular,Escribe un titular de una línea que capture qué es el ciclo de minado.,,,,
+LAM-EOM-METEXP-S1-20,EOM-METEXP-S1,25,contenido,reflexion,6,¿Qué me llevo?,"¿Logramos describir las operaciones de perforación y voladura?
+Para la próxima sesión: el ciclo se completa con carguío, acarreo y sostenimiento.",,,,
+LAM-EOM-METEXP-S1-21,EOM-METEXP-S1,26,tapa,,0,,,,,,
+LAM-EOM-METEXP-S2-01,EOM-METEXP-S2,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+LAM-EOM-METEXP-S2-02,EOM-METEXP-S2,2,subportada-sesion,,0,Sesión N°2,"Ciclo de minado y operaciones unitarias II: carguío, acarreo y sostenimiento",,,,
+LAM-EOM-METEXP-S2-03,EOM-METEXP-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+LAM-EOM-METEXP-S2-04,EOM-METEXP-S2,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en esta labor después del disparo?
+·  ¿Qué PIENSO que hay que hacer ahora?
+·  ¿Qué ME PREGUNTO?",,,material roto en el frente y el equipo entrando a limpiar,IMG-SCOOP-CARGANDO
+LAM-EOM-METEXP-S2-05,EOM-METEXP-S2,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
+LAM-EOM-METEXP-S2-06,EOM-METEXP-S2,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+LAM-EOM-METEXP-S2-07,EOM-METEXP-S2,7,tema,adquisicion,7,SACAR EL MATERIAL,,C105,"1,2,3",un scooptram cargando material roto en el frente,IMG-SCOOP-CARGANDO
+LAM-EOM-METEXP-S2-08,EOM-METEXP-S2,8,tema,adquisicion,6,CUANDO NO ENTRA EL SCOOPTRAM,,C105,"4,5,6",con qué se limpia según la sección de la labor,IMG-CARGUIO-SECCION
+LAM-EOM-METEXP-S2-09,EOM-METEXP-S2,9,tema,adquisicion,6,HASTA DÓNDE LLEGA EL ACARREO,,C105,"7,8,9",el recorrido del material: del frente al echadero o al camión,IMG-RECORRIDO-MATERIAL
+LAM-EOM-METEXP-S2-10,EOM-METEXP-S2,10,tema,adquisicion,7,SOSTENER LA LABOR,,C106,"1,2,3",una labor con pernos y malla ya instalados,IMG-SOSTENIMIENTO
+LAM-EOM-METEXP-S2-11,EOM-METEXP-S2,11,tema,adquisicion,7,"PERNO, MALLA Y CUADROS",,C106,"4,5,6,7",los cuatro sostenimientos comparados según el RMR,IMG-ELEMENTOS-SOST
+LAM-EOM-METEXP-S2-12,EOM-METEXP-S2,12,tema,adquisicion,6,EL DESATADO NO ES UN PASO,,C107,"1,2,3",el orden después del disparo: ventilar · desatar · limpiar · sostener,IMG-DESATADO
+LAM-EOM-METEXP-S2-13,EOM-METEXP-S2,13,tema,adquisicion,6,LOS SERVICIOS DEL FRENTE,,C107,"4,5,6,7,8,9","la sección de la labor con la manga de ventilación, aire, agua y cuneta",IMG-SECCION-LABOR
+LAM-EOM-METEXP-S2-14,EOM-METEXP-S2,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+LAM-EOM-METEXP-S2-15,EOM-METEXP-S2,15,contenido,aplicacion,5,El frente que nadie limpió,"En la mina Santa Rosa el disparo de la RAMPA 340 salió completo, pero la guardia terminó
+y el frente quedó sin limpiar: el material sigue ahí y la labor sin sostener.
+
+El jefe de mina necesita saber qué falta hacer antes de que entre la siguiente guardia,
+y en qué orden — porque hacerlo al revés es un accidente.",,,,
+LAM-EOM-METEXP-S2-16,EOM-METEXP-S2,16,contenido,aplicacion,8,¿Qué falta y en qué orden?,"¿Qué operaciones quedan pendientes en ese frente?
+¿Cuál va primero y por qué no puede ser otra?
+¿Qué pasa si se entra a cargar antes de desatar?",,,,
+LAM-EOM-METEXP-S2-17,EOM-METEXP-S2,17,contenido,aplicacion,2,RAMPA 340 · su ficha,El frente del primer equipo.,,,,IMG-FICHA-S2-RAMPA
+LAM-EOM-METEXP-S2-18,EOM-METEXP-S2,18,contenido,aplicacion,2,GALERÍA 285 · su ficha,El frente del segundo equipo.,,,,IMG-FICHA-S2-GALERIA
+LAM-EOM-METEXP-S2-19,EOM-METEXP-S2,19,contenido,aplicacion,23,Planifiquen la limpieza de su frente,"1 · Lean la ficha: material roto, sección, sostenimiento instalado, distancia a la tolva.
+2 · Deduzcan con qué equipo se limpia ese frente, y por qué ese.
+3 · Ordenen las operaciones que faltan, desde que entra la guardia.
+4 · Para cada una: equipo · materiales · qué deja lista para la siguiente.
+5 · Redacten el plan de guardia y repartan la exposición.",,,,
+LAM-EOM-METEXP-S2-20,EOM-METEXP-S2,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+LAM-EOM-METEXP-S2-21,EOM-METEXP-S2,21,contenido,discusion,15,"Los dos frentes, lado a lado","Un equipo de cada frente expone su plan.
+
+Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
+LAM-EOM-METEXP-S2-22,EOM-METEXP-S2,22,contenido,discusion,5,Lo que hay que fijar,"El orden no es opcional: desatar · ventilar · limpiar · sostener.
+El equipo de limpieza lo decide la sección de la labor.
+El sostenimiento lo decide la calidad del macizo.",,,,
+LAM-EOM-METEXP-S2-23,EOM-METEXP-S2,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+LAM-EOM-METEXP-S2-24,EOM-METEXP-S2,24,contenido,reflexion,4,Titular,Escribe un titular de una línea sobre por qué el orden de las operaciones no se altera.,,,,
+LAM-EOM-METEXP-S2-25,EOM-METEXP-S2,25,contenido,reflexion,6,¿Qué me llevo?,"¿Podemos describir las cinco operaciones del ciclo completo?
+Para la próxima sesión: cómo se clasifican los métodos de explotación.",,,,
+LAM-EOM-METEXP-S2-26,EOM-METEXP-S2,26,tapa,,0,,,,,,
+LAM-EOM-METEXP-S3-01,EOM-METEXP-S3,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+LAM-EOM-METEXP-S3-02,EOM-METEXP-S3,2,subportada-sesion,,0,Sesión N°3,Clasificación de los métodos · corte y relleno · cámaras y pilares,,,,
+LAM-EOM-METEXP-S3-03,EOM-METEXP-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+LAM-EOM-METEXP-S3-04,EOM-METEXP-S3,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en esta labor?
+·  ¿Qué PIENSO que sostiene el techo?
+·  ¿Qué ME PREGUNTO?",,,un tajeo abierto donde se vea qué sostiene el vacío,IMG-CORTE-RELLENO
+LAM-EOM-METEXP-S3-05,EOM-METEXP-S3,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
+LAM-EOM-METEXP-S3-06,EOM-METEXP-S3,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+LAM-EOM-METEXP-S3-07,EOM-METEXP-S3,7,tema,adquisicion,7,TRES FORMAS DE SOSTENER EL VACÍO,,C108,"1,2,3,4",los tres grupos de métodos comparados por cómo sostienen el vacío,IMG-TRES-GRUPOS
+LAM-EOM-METEXP-S3-08,EOM-METEXP-S3,8,tema,adquisicion,7,CORTE Y RELLENO: CÓMO AVANZA,,C109,"1,2,3","la secuencia del corte y relleno: cortes horizontales que suben, cada uno rellenado",IMG-CORTE-RELLENO
+LAM-EOM-METEXP-S3-09,EOM-METEXP-S3,9,tema,adquisicion,6,PARA QUÉ SIRVE EL RELLENO,,C109,"4,5,6","los tipos de relleno comparados: detrítico, hidráulico, cementado y en pasta",IMG-TIPOS-RELLENO
+LAM-EOM-METEXP-S3-10,EOM-METEXP-S3,10,tema,adquisicion,6,CUÁNDO SE USA CORTE Y RELLENO,,C110,"1,2,3,4","las condiciones del yacimiento que piden corte y relleno: veta angosta, buzamiento alto, cajas malas",IMG-COND-CORTE-RELLENO
+LAM-EOM-METEXP-S3-11,EOM-METEXP-S3,11,tema,adquisicion,7,CÁMARAS Y PILARES: EL PILAR SOSTIENE,,C111,"1,2,3","un tajeo de cámaras y pilares visto en planta, con el damero de pilares y cámaras",IMG-CAMARAS-PILARES
+LAM-EOM-METEXP-S3-12,EOM-METEXP-S3,12,tema,adquisicion,6,LO QUE SE QUEDA EN LOS PILARES,,C111,"4,5",la sección de un manto con los pilares dejados y el mineral que se pierde en ellos,IMG-CAMARAS-PILARES
+LAM-EOM-METEXP-S3-13,EOM-METEXP-S3,13,tema,adquisicion,6,CUÁNDO SE USA CÁMARAS Y PILARES,,C112,"1,2,3,4","las condiciones que piden cámaras y pilares: manto horizontal, techo competente, ley baja",IMG-COND-CAMARAS
+LAM-EOM-METEXP-S3-14,EOM-METEXP-S3,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+LAM-EOM-METEXP-S3-15,EOM-METEXP-S3,15,contenido,aplicacion,5,"Dos yacimientos, dos métodos","La minera Santa Rosa tiene dos zonas por abrir y quiere saber cómo se explota cada una.
+
+ZONA NORTE · veta de 1,10 m, buzamiento 78°, cajas de RMR 38, ley alta
+ZONA SUR · manto de 6,00 m, buzamiento 8°, techo de RMR 65, ley baja
+
+El jefe de mina pide describir el método que corresponde a cada una — y por qué ese.",,,,
+LAM-EOM-METEXP-S3-16,EOM-METEXP-S3,16,contenido,aplicacion,8,¿Qué le pide cada yacimiento al método?,"¿Qué sostiene el vacío en cada zona?
+¿Se puede dejar mineral sin extraer en la zona norte? ¿Y en la sur?
+¿Qué pasa si se aplica el método de una zona en la otra?",,,,
+LAM-EOM-METEXP-S3-17,EOM-METEXP-S3,17,contenido,aplicacion,2,ZONA NORTE · su ficha,El yacimiento del primer equipo.,,,la ficha de datos de la zona norte,IMG-FICHA-S3-NORTE
+LAM-EOM-METEXP-S3-18,EOM-METEXP-S3,18,contenido,aplicacion,2,ZONA SUR · su ficha,El yacimiento del segundo equipo.,,,la ficha de datos de la zona sur,IMG-FICHA-S3-SUR
+LAM-EOM-METEXP-S3-19,EOM-METEXP-S3,19,contenido,aplicacion,23,Describan el método de su zona,"1 · Lean la ficha: potencia, buzamiento, RMR, ley.
+2 · Deduzcan qué método corresponde, y por qué ese y no el otro.
+3 · Describan sus labores y su secuencia de avance.
+4 · Digan qué sostiene el vacío y qué pasa con el mineral que queda.
+5 · Redacten la descripción y repartan la exposición.",,,,
+LAM-EOM-METEXP-S3-20,EOM-METEXP-S3,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+LAM-EOM-METEXP-S3-21,EOM-METEXP-S3,21,contenido,discusion,15,"Las dos zonas, lado a lado","Un equipo de cada zona expone su método.
+
+Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
+LAM-EOM-METEXP-S3-22,EOM-METEXP-S3,22,contenido,discusion,5,Lo que hay que fijar,"El método lo pide el yacimiento, no lo elige el gusto.
+Corte y relleno recupera todo pero es caro; cámaras y pilares es barato pero deja mineral.
+Lo que decide: potencia, buzamiento, calidad de la roca y ley.",,,,
+LAM-EOM-METEXP-S3-23,EOM-METEXP-S3,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+LAM-EOM-METEXP-S3-24,EOM-METEXP-S3,24,contenido,reflexion,4,Titular,Escribe un titular de una línea sobre qué diferencia a un método soportado de uno con relleno.,,,,
+LAM-EOM-METEXP-S3-25,EOM-METEXP-S3,25,contenido,reflexion,6,¿Qué me llevo?,"¿Podemos describir dos métodos y decir cuándo se usa cada uno?
+Para la próxima sesión: sublevel stoping y block caving.",,,,
+LAM-EOM-METEXP-S3-26,EOM-METEXP-S3,26,tapa,,0,,,,,,

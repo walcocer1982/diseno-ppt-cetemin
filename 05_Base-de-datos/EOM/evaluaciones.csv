@@ -1,0 +1,7 @@
+evaluacion_id,curso_id,bloque_id,evento,indicador_id,dimension,instrumento,peso
+EV-EOM-METEXP-CV1,EOM-METEXP,EOM-METEXP-B1,CV1,IND-EOM-METEXP-1,Conocimiento,Cuestionario en plataforma,5
+EV-EOM-METEXP-CV2,EOM-METEXP,EOM-METEXP-B2,CV2,IND-EOM-METEXP-3,Conocimiento,Cuestionario en plataforma,5
+EV-EOM-METEXP-EP,EOM-METEXP,EOM-METEXP-B1,EP,IND-EOM-METEXP-1;IND-EOM-METEXP-2,Conocimiento,Cuestionario en plataforma,20
+EV-EOM-METEXP-EF,EOM-METEXP,EOM-METEXP-B2,EF,IND-EOM-METEXP-1;IND-EOM-METEXP-2;IND-EOM-METEXP-3,Conocimiento,Cuestionario en plataforma,20
+EV-EOM-METEXP-TC1,EOM-METEXP,EOM-METEXP-B1,TC1,IND-EOM-METEXP-1;IND-EOM-METEXP-2,Habilidades,Rúbrica de sustentación,25
+EV-EOM-METEXP-TC2,EOM-METEXP,EOM-METEXP-B2,TC2,IND-EOM-METEXP-3,Habilidades,Rúbrica de sustentación,25

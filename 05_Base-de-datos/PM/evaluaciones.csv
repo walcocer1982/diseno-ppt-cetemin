@@ -1,0 +1,7 @@
+evaluacion_id,curso_id,bloque_id,evento,dimension,instrumento,peso
+EV-MAT-CV1,PM-MAT,PM-MAT-B1,CV1,Conocimiento,Cuestionario en plataforma,5
+EV-MAT-CV2,PM-MAT,PM-MAT-B2,CV2,Conocimiento,Cuestionario en plataforma,5
+EV-MAT-EP,PM-MAT,PM-MAT-B1,EP,Conocimiento,Cuestionario en plataforma,20
+EV-MAT-EF,PM-MAT,PM-MAT-B2,EF,Conocimiento,Cuestionario en plataforma,20
+EV-MAT-TC1,PM-MAT,PM-MAT-B1,TC1,Habilidades,Rúbrica de sustentación,25
+EV-MAT-TC2,PM-MAT,PM-MAT-B2,TC2,Habilidades,Rúbrica de sustentación,25

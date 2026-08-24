@@ -1,0 +1,4 @@
+indicador_id,capacidad_id,descripcion
+IND-EOM-METEXP-1,CAP-EOM-METEXP,Describe las operaciones unitarias del ciclo de minado de acuerdo a las características de la actividad de operación minera según casuística.
+IND-EOM-METEXP-2,CAP-EOM-METEXP,Describe los principales métodos de explotación minera y sus características.
+IND-EOM-METEXP-3,CAP-EOM-METEXP,Explica la selección del método de explotación minera según las características del yacimiento planteadas en casuísticas.
