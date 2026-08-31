@@ -37,6 +37,7 @@ Sesión en vivo (guion = plantilla 003; proyección = plantilla 004)
 | 08 | [Criterios de calidad](08_criterios-de-calidad.md) | Los 8 errores, su raíz y checklist, mapeados a las plantillas |
 | 09 | [Inventario de fuentes](09_inventario-fuentes.md) | Archivos fuente, repositorio, qué documento manda |
 | 10 | [Imágenes y siluetas de equipos](10_imagenes-y-siluetas-de-equipos.md) | **De dónde sale el equipo (tesis → catálogo)**, figura citada vs silueta vs corte, capas, check y registro de errores |
+| 11 | [Cómo se produce un PPT de sesión](11_legibilidad-de-laminas-y-esquemas.md) | **Cómo se pide, qué lleva y de qué tamaño va**: insumos mínimos, presupuesto de láminas y minutos, esqueleto, rutina y técnica por momento, tamaños de texto e imagen, paleta y anti-patrones |
 
 ## Invariantes (no se tocan)
 

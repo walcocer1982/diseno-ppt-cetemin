@@ -192,7 +192,38 @@ def nota(s, *bloques: str) -> None:
         s.notes_slide.notes_text_frame.text = t
 
 
-def texto(s, x, y, w, h, t, size, color=AZUL, bold=True, al=PP_ALIGN.LEFT, ls=1.15):
+# Bandas de tamano acordadas con el instructor lider (31/08/2026): los titulos
+# van entre 36 y 40 pt y el cuerpo entre 20 y 24. No es preferencia estetica:
+# por debajo de eso el texto no se lee al proyectar en una sesion virtual.
+TITULO_MAX, TITULO_MIN = 40, 36
+CUERPO_MAX, CUERPO_MIN = 24, 20
+
+
+def cabe(t, size, w_in, h_in, ls=1.15):
+    """Estima si el texto entra en la caja a ese cuerpo.
+
+    Un caracter ocupa ~0.50*size pt de ancho y cada linea ls*1.2*size pt de
+    alto. Es estimacion para ELEGIR el tamano, no medida al pixel.
+    """
+    por_linea = max(1, int(w_in / (0.50 * size / 72.0)))
+    lineas = sum(max(1, -(-len(p) // por_linea)) for p in str(t).split(chr(10)))
+    return lineas * ls * 1.2 * size / 72.0 <= h_in
+
+
+def ajustar(t, w_in, h_in, maximo, minimo, ls=1.15):
+    """Mayor tamano de la banda con el que el texto cabe; nunca baja del minimo."""
+    size = maximo
+    while size > minimo and not cabe(t, size, w_in, h_in, ls):
+        size -= 1
+    return size
+
+
+def texto(s, x, y, w, h, t, size, color=AZUL, bold=True, al=PP_ALIGN.LEFT, ls=1.15,
+          banda=None):
+    if banda == 'titulo':
+        size = ajustar(t, w, h, TITULO_MAX, TITULO_MIN, ls)
+    elif banda == 'cuerpo':
+        size = ajustar(t, w, h, CUERPO_MAX, CUERPO_MIN, ls)
     tf = s.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h)).text_frame
     tf.word_wrap = True
     tf.vertical_anchor = MSO_ANCHOR.MIDDLE
@@ -292,24 +323,28 @@ def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) 
         elif t == "triangulacion":
             # Las TRES zonas arrancan a la misma altura. El icono generico de
             # banco de imagenes se fue: no dice nada y desentona con la marca.
-            texto(s, 3.91, 0.72, 5.72, 0.70, "APRENDIZAJE PREVISTO", 29, AZUL, True, PP_ALIGN.CENTER)
-            texto(s, 1.47, 1.50, 10.22, 1.10,
-                  "Al finalizar la sesión podremos…" + chr(10) + ses["aprendizaje_esperado"],
-                  19, AZUL, False, PP_ALIGN.CENTER, 1.25)
+            texto(s, 3.80, 0.66, 5.95, 0.72, "APRENDIZAJE PREVISTO", 30, AZUL, True, PP_ALIGN.CENTER)
+            texto(s, 1.40, 1.38, 10.36, 1.34,
+                  # El aprendizaje esperado baja del indicador y viene en TERCERA
+                  # persona ("Describe qué es…"). Con el encabezado antiguo
+                  # —"Al finalizar la sesion podremos…"— la frase no concordaba.
+                  "Al finalizar la sesión, el estudiante:" + chr(10) + ses["aprendizaje_esperado"],
+                  19, AZUL, False, PP_ALIGN.CENTER, 1.20, banda="cuerpo")
             b = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(1.47), Inches(2.72), Inches(10.22), Inches(0.035))
             b.fill.solid(); b.fill.fore_color.rgb = AMBAR; b.line.fill.background()
             for x, titulo in ((0.55, "PUNTOS CLAVES"), (7.20, "EVALUACIÓN")):
-                texto(s, x, 3.05, 5.20, 0.62, titulo, 24, AZUL, True, PP_ALIGN.LEFT)
+                texto(s, x - 0.05, 3.02, 5.25, 0.62, titulo, 26, AZUL, True, PP_ALIGN.LEFT)
             # en esta zona va el TITULO corto del punto clave, no el punto entero
             puntos = [p["contenido"] for p in puntos_de(sesion_id, carrera)]
-            texto(s, 0.60, 3.70, 5.10, 1.60,
-                  chr(10).join("•  " + p for p in puntos), 13, AZUL, False, PP_ALIGN.LEFT, 1.35)
+            texto(s, 0.55, 3.62, 5.25, 2.55,
+                  chr(10).join("•  " + p for p in puntos), 13, AZUL, False, PP_ALIGN.LEFT, 1.25,
+                  banda="cuerpo")
             caso = next((c for c in leer(RAIZ / carrera / "casos.csv")
                          if c["bloque_id"] == ses["bloque_id"]), None)
-            texto(s, 7.25, 3.70, 5.10, 1.60,
+            texto(s, 7.20, 3.62, 5.25, 2.55,
                   (caso.get("evaluacion_lamina") or caso.get("producto", "")[:190] if caso
                    else "Actividad de aplicación de la sesión."),
-                  15, AZUL, False, PP_ALIGN.LEFT, 1.45)
+                  15, AZUL, False, PP_ALIGN.LEFT, 1.25, banda="cuerpo")
 
         elif t == "tema":
             # DOS DISENOS que se turnan. No se puede espejar el panel: viene del
@@ -318,19 +353,23 @@ def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) 
             n_tema += 1
             if n_tema % 2 == 1:
                 # A · panel oscuro a la izquierda, imagen a la derecha
-                texto(s, 0.43, 1.75, 5.67, 1.30, l["titulo"], 30, BLANCO, True, PP_ALIGN.CENTER, 1.2)
+                texto(s, 0.43, 1.60, 5.67, 1.60, l["titulo"], 30, BLANCO, True, PP_ALIGN.CENTER, 1.2,
+                      banda="titulo")
                 b = bajada_de(l, sesion_id, carrera) or l["texto"]
                 if b:
-                    texto(s, 0.68, 3.30, 5.20, 2.40, b, 14, AMBAR, False, PP_ALIGN.LEFT, 1.55)
+                    texto(s, 0.62, 3.35, 5.35, 3.30, b, 14, AMBAR, False, PP_ALIGN.LEFT, 1.30,
+                          banda="cuerpo")
                 hueco = (6.55, 0.85, 6.15, 5.85)
             else:
                 # B · fondo claro en DOS COLUMNAS: imagen a la izquierda, texto
                 # a la derecha. El titulo arriba con la imagen debajo dejaba la
                 # lamina partida en bandas y la imagen chica.
-                texto(s, 6.90, 1.30, 5.90, 1.20, l["titulo"], 30, AZUL, True, PP_ALIGN.LEFT, 1.15)
+                texto(s, 6.90, 1.15, 5.90, 1.55, l["titulo"], 30, AZUL, True, PP_ALIGN.LEFT, 1.15,
+                      banda="titulo")
                 b = bajada_de(l, sesion_id, carrera) or l["texto"]
                 if b:
-                    texto(s, 6.95, 2.75, 5.70, 3.00, b, 14, AZUL, False, PP_ALIGN.LEFT, 1.60)
+                    texto(s, 6.90, 2.85, 5.85, 3.55, b, 14, AZUL, False, PP_ALIGN.LEFT, 1.30,
+                          banda="cuerpo")
                 hueco = (0.55, 1.15, 5.90, 5.20)
             im2 = im if (im and (im.get("estado") == "aprobada"
                                  or (borrador and im.get("estado") == "verificada"))) else None
@@ -342,12 +381,14 @@ def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) 
                               or (borrador and im.get("estado") == "verificada"))                       and (RAIZ.parent / im["archivo"]).exists()
             if con_img:
                 # texto a la izquierda, evidencia a la derecha
-                texto(s, 0.85, 0.95, 5.60, 0.85, l["titulo"], 26, AZUL, True, PP_ALIGN.LEFT)
-                texto(s, 0.90, 2.10, 5.50, 3.60, cuerpo_de(l, act), 14,
-                      AZUL, False, PP_ALIGN.LEFT, 1.60)
+                texto(s, 0.85, 0.80, 5.60, 1.20, l["titulo"], 26, AZUL, True, PP_ALIGN.LEFT,
+                      banda="titulo")
+                texto(s, 0.88, 2.15, 5.60, 4.10, cuerpo_de(l, act), 14,
+                      AZUL, False, PP_ALIGN.LEFT, 1.35, banda="cuerpo")
                 colocar(s, RAIZ.parent / im["archivo"], 6.85, 1.35, 6.00, 4.70)
                 continue
-            texto(s, 0.92, 0.88, 11.5, 0.6, l["titulo"], 28, AZUL, True, PP_ALIGN.CENTER)
+            texto(s, 0.92, 0.72, 11.5, 0.95, l["titulo"], 28, AZUL, True, PP_ALIGN.CENTER,
+                  banda="titulo")
             cuerpo = l["texto"]
             # En APLICACION la consigna completa vive en el plan de sesion: el
             # instructor tiene que poder leerla tal cual, no resumida.
@@ -361,15 +402,18 @@ def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) 
                 # dos bloques: el primero es el dato (a la izquierda, ambar),
                 # el segundo la instruccion (a la derecha). Antes se apilaba
                 # todo a la izquierda y media lamina quedaba vacia.
-                texto(s, 0.95, 2.15, 5.30, 2.60, bloques[0], 16, AZUL, True, PP_ALIGN.LEFT, 1.75)
+                texto(s, 0.95, 2.00, 5.30, 3.60, bloques[0], 16, AZUL, True, PP_ALIGN.LEFT, 1.35,
+                      banda="cuerpo")
                 b = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(6.45), Inches(2.15),
                                        Inches(0.035), Inches(3.20))
                 b.fill.solid(); b.fill.fore_color.rgb = AMBAR; b.line.fill.background()
-                texto(s, 6.90, 2.15, 5.60, 3.20, bloques[1], 15, AZUL, False, PP_ALIGN.LEFT, 1.65)
+                texto(s, 6.90, 2.00, 5.60, 3.60, bloques[1], 15, AZUL, False, PP_ALIGN.LEFT, 1.35,
+                      banda="cuerpo")
             else:
                 largo = len(cuerpo) > 220
-                texto(s, 1.4, 2.0, 10.5, 3.4, cuerpo, 15 if largo else 19,
-                      AZUL, False, PP_ALIGN.LEFT if largo else PP_ALIGN.CENTER, 1.5)
+                texto(s, 1.4, 1.90, 10.5, 3.90, cuerpo, 15,
+                      AZUL, False, PP_ALIGN.LEFT if largo else PP_ALIGN.CENTER, 1.35,
+                      banda="cuerpo")
 
     prs.save(salida)
     for a in revisar(laminas, imgs, sesion_id, carrera):

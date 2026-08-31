@@ -50,13 +50,14 @@ def normalizar(t: str) -> str:
     return re.sub(r"\s+", " ", sin_tildes(t).lower())[:120]
 
 
-def revisar(sesion_id: str) -> int:
+def revisar(sesion_id: str, ppt_ruta=None) -> int:
     carrera = sesion_id.split("-")[0]
     laminas = sorted([l for l in leer(RAIZ / carrera / "laminas.csv")
                       if l["sesion_id"] == sesion_id], key=lambda r: int(r["orden"]))
     ses = next(s for s in leer(RAIZ / carrera / "sesiones.csv") if s["sesion_id"] == sesion_id)
     curso = next(c for c in leer(RAIZ / "cursos.csv") if c["curso_id"] == ses["curso_id"])
-    ppt = (RAIZ.parent / "03_Entregables-diseño" /
+    ppt = Path(ppt_ruta) if ppt_ruta else (
+           RAIZ.parent / "03_Entregables-diseño" /
            f"{carrera}-{sin_tildes(curso['nombre_curso'])}" /
            f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx")
     if not ppt.exists():
@@ -83,6 +84,19 @@ def revisar(sesion_id: str) -> int:
         if pal > techo:
             fallos.append(f"{i} · {titulo} — muro de texto ({pal} palabras, máx {techo})")
 
+        # El defecto contrario al muro de texto: la lamina flaca. Una lamina de
+        # tema con menos de tres ideas propias deja al instructor sin de que
+        # hablar durante sus minutos (§07: "una lamina vacia es falta de
+        # contenido, no de diseno").
+        if l.get("tipo") == "tema" and l.get("idea", "").strip():
+            r = l["idea"].replace(",", "-").split("-")
+            try:
+                n_ideas = int(r[-1]) - int(r[0]) + 1
+            except ValueError:
+                n_ideas = 0
+            if 0 < n_ideas < 3:
+                fallos.append(f"{i} · {titulo} — lámina flaca: {n_ideas} idea(s), el molde son 3 a 4")
+
         # el cuerpo sin el titulo: si dos laminas dicen lo mismo, una sobra
         cuerpo = normalizar(t.replace(titulo, "", 1))
         if len(cuerpo) > 30:
@@ -101,9 +115,23 @@ def revisar(sesion_id: str) -> int:
             else:
                 lineas.setdefault(k, i)
 
-        # el texto de la lamina tiene que ser el suyo
+        # Una lamina que ANUNCIA una imagen y no la trae deja la actividad rota.
+        # Paso en la S1 de SI: la lamina del Veo-Pienso-Me pregunto decia "mira
+        # la fotografia" y no habia fotografia. La regla vieja solo exigia
+        # imagen en Adquisicion, asi que el fallo pasaba limpio.
+        anuncia = re.search(r"(mira|observa|revisa|analiza)[^.]{0,40}"
+                            r"(la |esta |el |este )?(fotograf|imagen|esquema|figura|cuadro|foto)",
+                            (l.get("texto", "") or "").lower())
+        if anuncia and not l.get("imagen_id", "").strip():
+            fallos.append(f"{i} · {titulo} — ANUNCIA una imagen que la lámina no tiene")
+
+        # el texto de la lamina tiene que ser el suyo.
+        # OJO: normalizar() recorta a 120 caracteres — util para indexar lineas,
+        # ruinoso aqui. En una subportada con la unidad didactica delante, el
+        # texto propio caia fuera del recorte y la lamina se marcaba sin fallo.
         propio = normalizar(l.get("texto", ""))
-        if propio and len(propio) > 30 and propio[:60] not in normalizar(t):
+        completo = re.sub(r"\s+", " ", sin_tildes(t).lower())
+        if propio and len(propio) > 30 and propio[:60] not in completo:
             fallos.append(f"{i} · {titulo} — el texto proyectado NO es el de la lámina")
 
         if l.get("momento") == "adquisicion" and l.get("tipo") in ("tema", "contenido"):
@@ -171,5 +199,10 @@ def revisar(sesion_id: str) -> int:
 
 
 if __name__ == "__main__":
-    n = revisar(sys.argv[1] if len(sys.argv) > 1 else "EOM-METEXP-S1")
+    # El PPT ya no vive siempre en la ruta por defecto: cada carrera organiza su
+    # carpeta de entregables. Se admite  revisar_ppt.py <sesion_id> [ruta.pptx]
+    args = sys.argv[1:]
+    sid = args[0] if args else "EOM-METEXP-S1"
+    ruta = next((Path(a) for a in args[1:] if a.lower().endswith(".pptx")), None)
+    n = revisar(sid, ruta)
     sys.exit(1 if n else 0)

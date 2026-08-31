@@ -24,6 +24,7 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 | Tocar casos, rúbricas o evaluación | §06 |
 | Llenar plantillas 001–005 | §03 pipeline · §04 matriz |
 | Producir imágenes de equipos | §10 |
+| Pedir, armar o revisar un PPT de sesión | **§11 cómo se produce** (insumos, presupuesto, tamaños, paleta) · §07 anatomía |
 | Juzgar si algo está bien hecho | §08 criterios de calidad |
 
 ## Reglas que no se negocian
