@@ -97,7 +97,7 @@ def revisar(carrera: str) -> int:
             if i not in indicadores:
                 mal(f"cita un indicador inexistente: {i}")
 
-        # 7-8 · bloque y producto. Las casos A y B A/B NO aplican al colaborativo:
+        # 7-8 · bloque y producto. Los casos A y B A/B NO aplican al colaborativo:
         # son de los casos de sesion (decision del 01/09/2026).
         for campo, etq in (("bloque_id", "bloque"), ("producto", "producto")):
             if not (c.get(campo) or "").strip():
@@ -127,7 +127,10 @@ def revisar(carrera: str) -> int:
             total = sum(int(f.get("puntos_max") or 0) for f in filas)
             if total != PUNTOS_TOTAL:
                 mal(f"la rubrica suma {total} puntos, debe sumar {PUNTOS_TOTAL}")
-            ajenos = {f["indicador_id"] for f in filas} - set(inds) - {"transversal"}
+            # un criterio puede evaluar mas de un indicador: se separan por ";".
+            # Sin esto, "IND-2;IND-3" se leia como un indicador inexistente.
+            todos = {i.strip() for f in filas for i in f["indicador_id"].split(";")}
+            ajenos = todos - set(inds) - {"transversal"}
             if ajenos:
                 mal(f"criterios que evaluan un indicador ajeno al caso: {sorted(ajenos)}")
 

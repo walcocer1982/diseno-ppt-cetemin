@@ -61,7 +61,7 @@ Excelente  →  demuestra que la disyuntiva es falsa: se arma integrado
 | **Incertidumbre** | Admite defensa por los dos lados, y una tercera salida mejor que ambas |
 | **Riesgo** | Entra personal a planta sin mapa de riesgos; y la empresa puede perder el contrato |
 
-**Un solo caso.** Se descartó la caso B: todos los equipos trabajan sobre Huanza. El efecto anticopia se resuelve en la sustentación, donde el instructor pregunta a cada integrante por una parte que no expuso (protocolo del criterio 5).
+**Un solo caso.** Se descartó el caso B: todos los equipos trabajan sobre Huanza. El efecto anticopia se resuelve en la sustentación, donde el instructor pregunta a cada integrante por una parte que no expuso (protocolo del criterio 5).
 
 ---
 

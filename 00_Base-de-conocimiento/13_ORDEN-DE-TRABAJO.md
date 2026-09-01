@@ -17,7 +17,7 @@ Complementa al [§03](03_pipeline-de-plantillas.md) —que dice qué plantillas 
                     ↓
    ②  LOS APRENDIZAJES ESPERADOS              10 o 20, uno por sesión
                     ↓
-   ③  DOS VARIANTES DE CASO POR SESIÓN        mismo procedimiento, otros datos
+   ③  LOS DOS CASOS DE LA SESIÓN           caso A y caso B, otros datos
                     ↓
    ④  LA CONCRECIÓN DE LA LISTA               una línea: qué es «completo» hoy
                     ↓

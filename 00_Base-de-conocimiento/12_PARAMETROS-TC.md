@@ -323,7 +323,7 @@ def revisar(carrera: str) -> int:
             if i not in indicadores:
                 mal(f"cita un indicador inexistente: {i}")
 
-        # 7-8 · bloque y producto (las casos A y B A/B son de los casos de sesion)
+        # 7-8 · bloque y producto (los casos A y B A/B son de los casos de sesion)
         for campo, etq in (("bloque_id", "bloque"), ("producto", "producto")):
             if not (c.get(campo) or "").strip():
                 mal(f"sin {etq}")

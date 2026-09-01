@@ -38,7 +38,7 @@ Ficha del caso — campos:
 - **Programa de estudios**
 - **Unidad didáctica** (curso)
 - **Indicador(es) de logro de la capacidad**
-- **Descripción del caso** (suele venir en dos casos A y B A y B: mismo procedimiento, distintos números)
+- **Descripción del caso** (suele venir en dos casos A y B: mismo procedimiento, distintos números)
 - **Pregunta gatilladora**
 - **Recursos**
 

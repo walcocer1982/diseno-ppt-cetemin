@@ -74,7 +74,7 @@ Los cinco ítems y la escala **no van a ninguna tabla**: viven aquí y dentro de
 
 ## Cómo se usa en clase — tres minutos
 
-1. **Se muestra ANTES de trabajar.** La lámina «Los cinco de siempre» va en la Aplicación, después del encargo y las casos A y B. El estudiante sabe con qué se le va a mirar antes de empezar.
+1. **Se muestra ANTES de trabajar.** La lámina «Los cinco de siempre» va en la Aplicación, después del encargo y los casos A y B. El estudiante sabe con qué se le va a mirar antes de empezar.
 2. Al terminar, **el equipo se marca a sí mismo**.
 3. **Después marca el instructor.**
 4. **Donde no coinciden está la conversación.** Un equipo que se pone 20 y saca 12 tiene un problema distinto al que se pone 12 y saca 12: el primero no sabe mirarse, el segundo sí y necesita ayuda.
