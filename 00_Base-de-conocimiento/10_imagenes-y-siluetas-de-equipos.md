@@ -309,6 +309,36 @@ Errores reales cometidos generando estas imágenes, su causa y la corrección. *
 
 ---
 
+## Los dos estados de una imagen, y por qué no deben frenarte
+
+`imagenes.csv` guarda un `estado` por imagen. Solo hay dos que importan:
+
+| Estado | Qué significa | ¿Entra a la lámina? |
+|---|---|---|
+| **verificada** | La proporción **se midió** contra las cotas del catálogo, o el esquema se midió contra su lienzo. Es medición, no opinión | **Sí.** Es la barra del `CLAUDE.md` |
+| **aprobada** | Además, el instructor líder la firmó | Sí, y es la que exige `--estricto` |
+
+**Verificada ya basta.** Antes el generador exigía la firma y, cuando faltaba, el PPT salía **sin figuras y sin decirlo**: el aviso quedaba entre otras líneas y las láminas se armaban vacías. Eso ya no pasa — lo verificado entra, y el aviso dice cuáles faltan firmar.
+
+**Firmar es un comando, no un trámite:**
+
+```
+python aprobar_imagenes.py SI          firma todas las verificadas de la carrera
+python aprobar_imagenes.py SI --ver    solo muestra cuáles firmaría
+```
+
+Estampa quién firma —el instructor líder de esa carrera— y la fecha. **No revisa nada ni toca archivos**: la revisión es la verificación, que ya pasó. Lo que no está verificado no lo toca, y lo dice.
+
+**Y cuando el entregable va a revisión de dirección:**
+
+```
+python generar_ppt.py SI-SGCSSMA-S1 --estricto
+```
+
+Ahí sí, solo entran las firmadas.
+
+---
+
 ## 7. Dónde vive el trabajo
 
 - **Pruebas y generación:** `C:\Users\LEGION\Claude\Imagenes-ppt\<equipo>\` (fuera del proyecto).

@@ -1,1 +1,5 @@
 indicador_id,capacidad_id,descripcion
+IND-SI-SGCSSMA-1,CAP-SI-SGCSSMA,"Describe el proceso del Sistema Integrado de Gestión de Calidad, Seguridad y Salud en el Trabajo, y Medio Ambiente, considerando las normas ISO."
+IND-SI-SGCSSMA-2,CAP-SI-SGCSSMA,"Describe el proceso de Gestión de Calidad, considerando la normativa vigente ISO 9001."
+IND-SI-SGCSSMA-3,CAP-SI-SGCSSMA,"Describe el Sistema de Gestión de Seguridad y Salud en el Trabajo, considerando la normativa vigente ISO 45001 y la norma nacional vigente."
+IND-SI-SGCSSMA-4,CAP-SI-SGCSSMA,"Describe el Sistema de Gestión Ambiental, considerando la normativa vigente ISO 14001."

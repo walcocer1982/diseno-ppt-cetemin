@@ -1,0 +1,3 @@
+cotejo_id,caso_id,sesion_id,curso_id,n,item,contenido_id,observable
+COT-SI-SGCSSMA-S1,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,1,COMPLETO,,"cada documento con su letra del SSOMAC · los que faltan y los vencidos, señalados · cada hueco con a quién deja desprotegido"
+COT-SI-SGCSSMA-S2,CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,SI-SGCSSMA,1,COMPLETO,,"cada hecho en su etapa del ciclo · la etapa donde se rompió, señalada · cada parte interesada con lo que esperaba y lo que le costó"
