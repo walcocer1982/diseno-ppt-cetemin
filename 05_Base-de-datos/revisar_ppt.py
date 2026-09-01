@@ -32,7 +32,7 @@ warnings.filterwarnings("ignore")
 from pptx import Presentation
 from pptx.util import Emu
 
-from generar_ppt import RAIZ, leer, sin_tildes
+from generar_ppt import RAIZ, leer, sin_tildes, destino
 
 MAX_PALABRAS = 90        # por encima, muro de texto (error #5 del §08)
 MAX_TRIANGULACION = 110  # la triangulacion es densa POR DISEÑO (§07): muestra
@@ -56,10 +56,8 @@ def revisar(sesion_id: str, ppt_ruta=None) -> int:
                       if l["sesion_id"] == sesion_id], key=lambda r: int(r["orden"]))
     ses = next(s for s in leer(RAIZ / carrera / "sesiones.csv") if s["sesion_id"] == sesion_id)
     curso = next(c for c in leer(RAIZ / "cursos.csv") if c["curso_id"] == ses["curso_id"])
-    ppt = Path(ppt_ruta) if ppt_ruta else (
-           RAIZ.parent / "03_Entregables-diseño" /
-           f"{carrera}-{sin_tildes(curso['nombre_curso'])}" /
-           f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx")
+    # una sola regla de ruta, la de generar_ppt: el revisor mira lo que el generador escribe
+    ppt = Path(ppt_ruta) if ppt_ruta else destino(carrera, ses, curso)
     if not ppt.exists():
         raise SystemExit(f"No existe el PPT: {ppt}\n       Genéralo antes con generar_ppt.py")
 
@@ -80,6 +78,10 @@ def revisar(sesion_id: str, ppt_ruta=None) -> int:
                            "Al finalizar la sesión podremos…"):
                 t = t.replace(rotulo, "")
             pal = len(t.split())
+        # La lamina de cotejo no es prosa: es una tabla de referencia, siempre la misma,
+        # que el alumno lee por su linea. Contarle palabras como a un muro no dice nada.
+        if l.get("tipo") == "cotejo":
+            continue
         techo = MAX_TRIANGULACION if l.get("tipo") == "triangulacion" else MAX_PALABRAS
         if pal > techo:
             fallos.append(f"{i} · {titulo} — muro de texto ({pal} palabras, máx {techo})")

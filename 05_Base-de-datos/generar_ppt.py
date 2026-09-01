@@ -43,6 +43,7 @@ DISENO = {
     "triangulacion":      "slideLayout2",
     "tema":               "slideLayout6",
     "contenido":          "slideLayout13",
+    "cotejo":             "slideLayout13",
     "tapa":               "slideLayout3",
 }
 ILEGALES = tuple(':*?"<>|/\\')
@@ -146,7 +147,8 @@ def revisar(laminas: list[dict], imgs: dict, sesion_id: str, carrera: str) -> li
         if not im:
             avisos.append(f"{l['titulo']} — SIN IMAGEN")
         elif im.get("estado") != "aprobada":
-            avisos.append(f"{l['titulo']} — imagen {im['imagen_id']} sin aprobar ({im.get('estado','?')})")
+            avisos.append(f"{l['titulo']} — imagen {im['imagen_id']} entra, pero sin firmar "
+                          f"({im.get('estado','?')}) · fírmalas con: python aprobar_imagenes.py {carrera}")
     n = len(puntos_de(sesion_id, carrera))
     if not 3 <= n <= 5:
         avisos.append(f"la sesión tiene {n} puntos clave; el molde son 3 a 5 (§07)")
@@ -237,7 +239,53 @@ def texto(s, x, y, w, h, t, size, color=AZUL, bold=True, al=PP_ALIGN.LEFT, ls=1.
             r.font.color.rgb = color; r.font.name = "Oswald"
 
 
-def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) -> Path:
+# ── Los cinco de siempre (§13 ④) ─────────────────────────────────────────
+# Cinco items binarios, cuatro puntos cada uno. Identicos en los 35 cursos: lo que
+# cambia por sesion es la concrecion del item 1, que vive en listas_cotejo.csv.
+COTEJO = [
+    ("COMPLETO", "ningún paso del encargo, ninguna fila ni casilla sin resolver"),
+    ("CON LOS DATOS DEL CASO", "cada afirmación se apoya en un dato; ninguna sale de suponer"),
+    ("CON EL TÉRMINO CORRECTO", "los términos de la sesión aparecen, y bien usados"),
+    ("CON EL PORQUÉ", "la norma, la causa o la consecuencia que lo sustenta"),
+    ("SUSTENTADO POR TODOS", "cada integrante expone, y responde sobre lo que no expuso"),
+]
+COTEJO_ESCALA = ("5 de 5   →   20\n"
+                 "4 de 5   →   16\n"
+                 "3 de 5   →   12\n"
+                 "2 de 5   →     8\n"
+                 "1 de 5   →     4\n"
+                 "0 de 5   →     0")
+
+LISTA = ("aprobada", "verificada")  # la barra del CLAUDE.md: verificada basta para colocarla
+
+
+def colocable(im: dict | None, estricto: bool = False) -> bool:
+    """¿Esta imagen puede ir en la lámina? Verificada basta; con --estricto hace falta la firma."""
+    if not im:
+        return False
+    return im.get("estado") == "aprobada" or (not estricto and im.get("estado") in LISTA)
+
+
+def destino(carrera: str, ses: dict, curso: dict) -> Path:
+    """Donde va el PPT. Manda la carpeta del curso si existe — es donde el equipo los busca.
+
+    Y si ya hay un PPT de esa sesion, se reusa SU nombre: se actualiza el archivo, no se crea
+    uno al lado con otro titulo. La regla es del §13: nunca se duplica un entregable.
+    """
+    base = RAIZ.parent / "03_Entregables-diseño"
+    for ciclo in sorted(base.glob(f"{carrera} - Ciclo *")):
+        for cur in sorted(ciclo.glob(f"* - {curso['curso_id']} - *")):
+            carpeta = cur / "PPT"
+            if carpeta.is_dir():
+                previos = sorted(carpeta.glob(f"S{ses['nro_sesion']}_*.pptx"))
+                if previos:
+                    return previos[0]
+                return carpeta / f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx"
+    return (base / f"{carrera}-{sin_tildes(curso['nombre_curso'])}" /
+            f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx")
+
+
+def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False) -> Path:
     carrera = sesion_id.split("-")[0]
     laminas = sorted([l for l in leer(RAIZ / carrera / "laminas.csv")
                       if l["sesion_id"] == sesion_id], key=lambda r: int(r["orden"]))
@@ -248,9 +296,7 @@ def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) 
     curso = next(c for c in leer(RAIZ / "cursos.csv") if c["curso_id"] == ses["curso_id"])
     imgs = {i["imagen_id"]: i for i in leer(RAIZ / "imagenes.csv")}
 
-    salida = salida or (RAIZ.parent / "03_Entregables-diseño" /
-                        f"{carrera}-{sin_tildes(curso['nombre_curso'])}" /
-                        f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx")
+    salida = salida or destino(carrera, ses, curso)
     salida.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy(PLANTILLA, salida)
 
@@ -371,14 +417,35 @@ def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) 
                     texto(s, 6.90, 2.85, 5.85, 3.55, b, 14, AZUL, False, PP_ALIGN.LEFT, 1.30,
                           banda="cuerpo")
                 hueco = (0.55, 1.15, 5.90, 5.20)
-            im2 = im if (im and (im.get("estado") == "aprobada"
-                                 or (borrador and im.get("estado") == "verificada"))) else None
+            im2 = im if colocable(im, estricto) else None
             if im2 and (RAIZ.parent / im2["archivo"]).exists():
                 colocar(s, RAIZ.parent / im2["archivo"], *hueco)
 
+        elif t == "cotejo":
+            # La misma lamina en las 24 sesiones y en las tres carreras: el alumno
+            # se aprende los cinco de tanto verlos. Solo cambia la linea de abajo.
+            texto(s, 0.92, 0.62, 11.5, 0.90, "Los cinco de siempre", 28, AZUL, True,
+                  PP_ALIGN.CENTER, banda="titulo")
+            texto(s, 0.85, 1.52, 8.20, 0.44,
+                  "Con cuatro de cinco, apruebas. Con tres, no.", 16, AZUL, True, PP_ALIGN.LEFT)
+            texto(s, 0.85, 2.05, 8.20, 3.60,
+                  chr(10).join("%d · %s — %s" % (i, n, r) for i, (n, r) in enumerate(COTEJO, 1)),
+                  15, AZUL, False, PP_ALIGN.LEFT, 1.45, banda="cuerpo")
+            b = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(9.45), Inches(2.05),
+                                   Inches(0.035), Inches(3.40))
+            b.fill.solid(); b.fill.fore_color.rgb = AMBAR; b.line.fill.background()
+            texto(s, 9.85, 2.05, 2.70, 3.60, COTEJO_ESCALA, 15, AZUL, False, PP_ALIGN.LEFT, 1.45)
+            concrecion = next((c.get("observable", "") for c in leer(RAIZ / carrera / "listas_cotejo.csv")
+                               if c.get("sesion_id") == sesion_id), "") \
+                if (RAIZ / carrera / "listas_cotejo.csv").exists() else ""
+            if concrecion:
+                texto(s, 0.85, 5.80, 11.60, 1.00,
+                      "Hoy, «completo» es:  " + concrecion, 14, AZUL, False, PP_ALIGN.LEFT, 1.25,
+                      banda="cuerpo")
+            continue
+
         else:  # contenido
-            con_img = im and (im.get("estado") == "aprobada"
-                              or (borrador and im.get("estado") == "verificada"))                       and (RAIZ.parent / im["archivo"]).exists()
+            con_img = colocable(im, estricto) and (RAIZ.parent / im["archivo"]).exists()
             if con_img:
                 # texto a la izquierda, evidencia a la derecha
                 texto(s, 0.85, 0.80, 5.60, 1.20, l["titulo"], 26, AZUL, True, PP_ALIGN.LEFT,
@@ -424,10 +491,9 @@ def generar(sesion_id: str, salida: Path | None = None, borrador: bool = False) 
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     sid = args[0] if args else "EOM-METEXP-S1"
-    # --borrador coloca tambien las imagenes VERIFICADAS pero aun sin aprobar,
-    # para poder revisar la sesion entera antes de firmarlas. El entregable
-    # sigue exigiendo la aprobacion.
-    borrador = "--borrador" in sys.argv
-    f = generar(sid, borrador=borrador)
+    # Por defecto entra lo VERIFICADO, que es la barra del CLAUDE.md. --estricto exige
+    # ademas la firma del instructor lider, para el entregable que se manda a revision.
+    estricto = "--estricto" in sys.argv
+    f = generar(sid, estricto=estricto)
     p = Presentation(f)
     print(f"{f.relative_to(RAIZ.parent)}\n{len(p.slides)} diapositivas · {f.stat().st_size//1024//1024} MB")

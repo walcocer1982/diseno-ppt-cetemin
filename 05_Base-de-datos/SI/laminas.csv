@@ -1,1 +1,150 @@
-lamina_id,sesion_id,orden,momento,minutos,slides,titulo,texto,imagen_id
+lamina_id,sesion_id,orden,tipo,momento,minutos,titulo,texto,contenido_id,idea,que_muestra,imagen_id
+L001,SI-SGCSSMA-S1,1,portada,,0,SEGURIDAD INDUSTRIAL,SEDE ABQ,,,,
+L002,SI-SGCSSMA-S1,2,subportada-sesion,,0,Sesión N°1,Marco del SIG (SSOMAC) y qué es la ISO 9001,,,,
+L003,SI-SGCSSMA-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L004,SI-SGCSSMA-S1,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve eres tú el día de hoy?",,,escala de ánimo de nueve pinturas célebres numeradas,IMG-ESCALA-ANIMO
+L005,SI-SGCSSMA-S1,5,contenido,conexion,2,El curso en una lámina,Dos bloques. Cada uno cierra con un trabajo colaborativo que vale el 25 % de la nota.,,,los dos bloques del curso con sus sesiones y el colaborativo que cierra cada uno,IMG-SI-CURSO-BLOQUES
+L006,SI-SGCSSMA-S1,6,contenido,conexion,2,Cómo se califica,"La mitad de la nota sale de los dos trabajos colaborativos.
+
+Nota mínima aprobatoria: 13.",,,"peso de cada evento calificado, en barras",IMG-SI-EVALUACION
+L007,SI-SGCSSMA-S1,7,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,los cinco momentos de la sesión con lo que se hace y los minutos de cada uno,IMG-SI-RUTA-S1
+L008,SI-SGCSSMA-S1,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L009,SI-SGCSSMA-S1,9,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa el mural de la entrada de esta contratista.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que esta empresa está controlando · qué te PREGUNTAS",,,"mural de la entrada de una contratista con sus documentos a la vista, sin ningún juicio escrito",IMG-SI-MURAL-ENTRADA
+L010,SI-SGCSSMA-S1,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L011,SI-SGCSSMA-S1,11,tema,adquisicion,5,Qué es un sistema de gestión,,C-SI-SGCSSMA-S1-1,1-3,"esquema de las piezas de un sistema de gestión: política, objetivos, procesos y registros",IMG-SI-SG-PIEZAS
+L012,SI-SGCSSMA-S1,12,tema,adquisicion,4,Para qué sirve tenerlo,,C-SI-SGCSSMA-S1-1,4-7,"contraste entre una operación sin sistema y otra con sistema, en dos columnas",IMG-SI-SIN-CON-SISTEMA
+L013,SI-SGCSSMA-S1,13,tema,adquisicion,5,Las cuatro letras del SSOMAC,,C-SI-SGCSSMA-S1-2,1-4,las cuatro letras de SSOMAC con el objeto de cada sistema,IMG-SI-SSOMAC-LETRAS
+L014,SI-SGCSSMA-S1,14,tema,adquisicion,5,Qué norma respalda a cada letra,,C-SI-SGCSSMA-S1-2,5-8,cada letra del SSOMAC con su norma y su carácter: obligatoria o voluntaria,IMG-SI-NORMAS-SSOMAC
+L015,SI-SGCSSMA-S1,15,tema,adquisicion,4,Integrar no es juntar carpetas,,C-SI-SGCSSMA-S1-2,9-11,cuatro sistemas separados frente a un sistema integrado con una sola política y un solo cuerpo documental,IMG-SI-INTEGRAR
+L016,SI-SGCSSMA-S1,16,tema,adquisicion,5,Qué es un proceso,,C-SI-SGCSSMA-S1-3,1-3,"un proceso con su entrada, sus actividades, su salida y su responsable",IMG-SI-PROCESO
+L017,SI-SGCSSMA-S1,17,tema,adquisicion,4,El mapa de procesos,,C-SI-SGCSSMA-S1-3,4-6,"mapa de procesos de una contratista de mantenimiento: estratégicos, operativos y de apoyo",IMG-SI-MAPA-PROCESOS
+L018,SI-SGCSSMA-S1,18,tema,adquisicion,5,Lo que los cuatro sistemas comparten,,C-SI-SGCSSMA-S1-3,7-10,los elementos comunes sobre el ciclo PHVA,IMG-SI-PHVA-COMUNES
+L019,SI-SGCSSMA-S1,19,tema,adquisicion,4,La ISO 9001,,C-SI-SGCSSMA-S1-4,1-4,"ficha de la ISO 9001: internacional, voluntaria, certificable, enfoque a procesos",IMG-SI-ISO9001-FICHA
+L020,SI-SGCSSMA-S1,20,tema,adquisicion,4,"Voluntaria, pero exigida por el cliente",,C-SI-SGCSSMA-S1-4,5-7,cadena cliente minero → registro de proveedores → exigencia de certificación,IMG-SI-ISO9001-CLIENTE
+L021,SI-SGCSSMA-S1,21,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L022,SI-SGCSSMA-S1,22,contenido,aplicacion,4,"El encargo, igual para todos","Una contratista tiene que entregar la carpeta que autoriza el ingreso, y le faltan documentos.
+El cliente pide ocho; la relación completa está en tu hoja.
+
+1 · Clasifiquen cada documento por letra del SSOMAC
+2 · Señalen los que faltan o están vencidos
+3 · Describan qué queda sin cubrir y a quién deja desprotegido",,,,
+L023,SI-SGCSSMA-S1,23,contenido,aplicacion,4,Variante A · Servicios Mineros Huanza,"Mantenimiento mecánico · 78 trabajadores · 48 horas para entrar a planta
+
+Lo que hay en el archivador:
+· la política, firmada en marzo
+· la matriz de residuos del taller, de enero
+· el programa de mantenimiento preventivo del año
+· los exámenes médicos, vencimiento 12/03 del año pasado
+· la hoja de datos del aceite hidráulico, edición 2019
+· el acta del comité de agosto",,,"los ocho documentos de la carpeta de Huanza, como fichas numeradas",IMG-SI-CARPETA-HUANZA
+L024,SI-SGCSSMA-S1,24,contenido,aplicacion,4,Variante B · Transportes del Sur,"Acarreo de mineral · 45 trabajadores · 5 días para entrar a mina
+
+Lo que aparece al abrir el archivador:
+· la política, con la línea de firma en blanco
+· el programa de manejo de residuos, de febrero
+· los cargos de entrega de EPP, firmados uno por uno
+· los exámenes médicos, vigentes hasta noviembre
+· la hoja de datos del combustible, edición 2017
+· el acta del comité de julio
+· una encuesta de satisfacción del año pasado",,,"los ocho documentos de la carpeta de Transportes del Sur, como fichas numeradas",IMG-SI-CARPETA-TRANSPORTES
+L025,SI-SGCSSMA-S1,25,contenido,aplicacion,28,A trabajar,"Equipos de 3.   ·   Tiempo: 26 min + 2 min para ordenar la sustentación
+
+Los impares toman la variante A; los pares, la B.
+
+VERDE — es de una sola letra
+ÁMBAR — sirve a dos o más
+ROJO — no logramos ubicarlo
+
+Al cerrar: qué queda sin cubrir y a quién deja desprotegido.",,,,
+L026,SI-SGCSSMA-S1,26,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L027,SI-SGCSSMA-S1,27,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L028,SI-SGCSSMA-S1,28,contenido,discusion,20,Empecemos por los ámbar,"2 min por equipo, alternando A y B.   ·   Formato:
+
+AFIRMACIÓN — qué letra le pusimos
+APOYO — en qué dato del documento nos basamos
+PREGUNTA — qué nos quedó sin resolver
+
+Dos empresas distintas y huecos distintos: ¿por qué salen los mismos ámbar?",,,,
+L029,SI-SGCSSMA-S1,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L030,SI-SGCSSMA-S1,30,contenido,reflexion,5,Tu titular de hoy,"Si esta sesión fuera una noticia, ¿cuál sería el titular?
+
+Una sola línea, en el chat.",,,,
+L031,SI-SGCSSMA-S1,31,contenido,reflexion,5,Antes de irnos,"Volvamos a las preguntas que dejaste en el mural del inicio.
+
+La próxima sesión: el ciclo PHVA y el contexto de la organización en la ISO 9001.
+Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
+L032,SI-SGCSSMA-S1,32,tapa,,0,,,,,,
+S2-L001,SI-SGCSSMA-S2,1,portada,,0,SEGURIDAD INDUSTRIAL,SEDE ABQ,,,,
+S2-L002,SI-SGCSSMA-S2,2,subportada-sesion,,0,Sesión N°2,"Ciclo PHVA, términos clave y contexto de la organización",,,,
+S2-L003,SI-SGCSSMA-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+S2-L004,SI-SGCSSMA-S2,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve eres tú el día de hoy?",,,escala de ánimo de nueve pinturas célebres numeradas,IMG-ESCALA-ANIMO
+S2-L005,SI-SGCSSMA-S2,5,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,los cinco momentos de la sesión con lo que se hace y los minutos de cada uno,IMG-SI-RUTA-S2
+S2-L006,SI-SGCSSMA-S2,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+S2-L007,SI-SGCSSMA-S2,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"Los documentos que marcaste en ÁMBAR servían a más de una letra del SSOMAC.
+
+Si un mismo registro sirve a dos sistemas, ¿quién más espera algo de esta empresa?",,,"los ocho documentos de la carpeta de Huanza, ya clasificados",IMG-SI-CARPETA-HUANZA
+S2-L008,SI-SGCSSMA-S2,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Lee la carta que la minera envió a Huanza.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que falló · qué te PREGUNTAS",,,"carta de reclamo con fechas y cifras, sin ningún juicio escrito",IMG-SI-RECLAMO
+S2-L009,SI-SGCSSMA-S2,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+S2-L010,SI-SGCSSMA-S2,10,tema,adquisicion,5,El ciclo PHVA,,C-SI-SGCSSMA-S2-1,1-3,las cuatro etapas del ciclo con la acción que corresponde a cada una,IMG-SI-PHVA-ETAPAS
+S2-L011,SI-SGCSSMA-S2,11,tema,adquisicion,4,Un reclamo recorriendo el ciclo,,C-SI-SGCSSMA-S2-1,4-6,la falla del molino 3 situada en las cuatro etapas del PHVA,IMG-SI-PHVA-RECLAMO
+S2-L012,SI-SGCSSMA-S2,12,tema,adquisicion,5,Qué pasa si no se cierra,,C-SI-SGCSSMA-S2-1,7-10,"contraste entre quedarse en planificar y hacer, y cerrar el ciclo",IMG-SI-PHVA-SIN-CIERRE
+S2-L013,SI-SGCSSMA-S2,13,tema,adquisicion,5,"Cliente, parte interesada y satisfacción",,C-SI-SGCSSMA-S2-2,1-4,los tres términos de la norma definidos por separado,IMG-SI-TERMINOS
+S2-L014,SI-SGCSSMA-S2,14,tema,adquisicion,4,La satisfacción se mide,,C-SI-SGCSSMA-S2-2,5-7,las cuatro evidencias con que se mide la satisfacción del cliente,IMG-SI-SATISFACCION
+S2-L015,SI-SGCSSMA-S2,15,tema,adquisicion,5,Qué es el contexto,,C-SI-SGCSSMA-S2-3,1-3,"la empresa en el centro, con lo de fuera y lo de dentro",IMG-SI-CONTEXTO
+S2-L016,SI-SGCSSMA-S2,16,tema,adquisicion,4,Lo que viene de fuera,,C-SI-SGCSSMA-S2-3,4-6,"cliente, normativa, competencia y mercado laboral",IMG-SI-CONTEXTO-EXT
+S2-L017,SI-SGCSSMA-S2,17,tema,adquisicion,4,Lo que hay dentro,,C-SI-SGCSSMA-S2-3,7-9,"personal, equipos, procesos y cultura",IMG-SI-CONTEXTO-INT
+S2-L018,SI-SGCSSMA-S2,18,tema,adquisicion,5,Quiénes esperan algo de la empresa,,C-SI-SGCSSMA-S2-4,1-4,los cuatro grupos que rodean a la contratista,IMG-SI-PARTES-QUIENES
+S2-L019,SI-SGCSSMA-S2,19,tema,adquisicion,4,Qué espera cada una,,C-SI-SGCSSMA-S2-4,5-8,tabla de cada parte interesada con lo que espera,IMG-SI-PARTES-ESPERA
+S2-L020,SI-SGCSSMA-S2,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+S2-L021,SI-SGCSSMA-S2,21,contenido,aplicacion,5,"El encargo, igual para todos","Un servicio se entregó a tiempo y aun así falló.
+
+1 · Ubiquen cada hecho del relato en la etapa del ciclo que le corresponde
+2 · Armen la relación de partes interesadas y qué esperaba cada una, separando lo de fuera de lo de dentro
+3 · Señalen en qué etapa se rompió el ciclo y a quién le costó",,,,
+S2-L022,SI-SGCSSMA-S2,22,contenido,aplicacion,0,Variante A · Servicios Mineros Huanza,"Motor de la faja 3, comprometido en 36 horas. Se escribió el procedimiento, se asignaron dos mecánicos y se pidieron los repuestos. Terminado en 31 horas; el cliente firmó la conformidad.
+
+A los ocho días el motor se detuvo: el acople estaba mal alineado. Nadie midió la alineación al cerrar — la ficha de entrega no la pedía.
+
+S/ 8 000 descontados · el superintendente pide evaluar el cambio de contratista · los dos mecánicos rehacen el trabajo en su día de descanso.",,,,
+S2-L023,SI-SGCSSMA-S2,23,contenido,aplicacion,0,Variante B · Transportes del Sur,"900 toneladas en una semana. Se planificaron doce viajes diarios, se asignaron cuatro volquetes y se programó el chequeo de frenos antes de cada salida. Cerró con 880 toneladas y el cliente pagó completo.
+
+El viernes un volquete se quedó sin frenos en la bajada del kilómetro 4 y terminó contra el talud; el conductor salió ileso. La revisión estaba firmada — la firmó el propio conductor, sin bajar de la unidad.
+
+El caserío vecino cerró la vía dos días.",,,,
+S2-L024,SI-SGCSSMA-S2,24,contenido,aplicacion,30,A trabajar,"Equipos de 4.   ·   Tiempo: 26 min de trabajo + 2 min para ordenar la sustentación
+
+Los impares toman la variante A; los pares, la B.
+
+PÓNGANSE DENTRO — dentro del equipo, cada integrante toma una voz: el cliente · quien hizo el trabajo · quien mira desde fuera · la empresa. Escriban desde esa voz qué esperaba y qué perdió.
+
+Al cerrar: en qué etapa se rompió el ciclo.",,,,
+S2-L025,SI-SGCSSMA-S2,25,cotejo,aplicacion,5,Los cinco de siempre,,,,,
+S2-L026,SI-SGCSSMA-S2,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+S2-L027,SI-SGCSSMA-S2,27,contenido,discusion,20,"Dos empresas, la misma etapa","2 min por equipo, alternando A y B.   ·   Formato:
+
+AFIRMACIÓN — en qué etapa se rompió
+APOYO — en qué dato del relato nos basamos
+PREGUNTA — qué nos quedó sin resolver
+
+Dos empresas distintas y fallas distintas: ¿por qué se rompen en la misma etapa?",,,,
+S2-L028,SI-SGCSSMA-S2,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+S2-L029,SI-SGCSSMA-S2,29,contenido,reflexion,5,Tu titular de hoy,"Si esta sesión fuera una noticia, ¿cuál sería el titular?
+
+Una sola línea, en el chat.",,,,
+S2-L030,SI-SGCSSMA-S2,30,contenido,reflexion,5,Antes de irnos,"¿Logramos el aprendizaje esperado?
+¿Qué funcionó?
+¿Cómo se han sentido?
+
+Volvamos a las preguntas que dejaste sobre la carta.
+La próxima sesión: liderazgo, política de calidad, roles y objetivos.",,,,
+S2-L031,SI-SGCSSMA-S2,31,tapa,,0,,,,,,

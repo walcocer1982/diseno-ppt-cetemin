@@ -73,3 +73,7 @@ desktop.ini
 03_Entregables-diseño/*/*.md
 !03_Entregables-diseño/00_LEEME.md
 !03_Entregables-diseño/*/01_*.md
+
+# Los PPT del ciclo viven en <CARRERA> - Ciclo N/<curso>/PPT/ — tres niveles,
+# que el patron de arriba no alcanzaba. Pesan 6 MB cada uno y se generan.
+03_Entregables-diseño/**/*.pptx

@@ -213,7 +213,7 @@ El título ya lo pone la lámina. Se generan con cabecera propia solo si van a v
 
 - Viven en `04_Recursos-graficos/<CARRERA>/esquemas/`.
 - Los recursos comunes a las tres carreras —como la escala de ánimo— viven en `04_Recursos-graficos/comun/dinamicas/`.
-- Se registran en `imagenes.csv` con `categoria=esquema`, `estado=verificada` y su descripción; pasan a `aprobada` cuando el instructor líder las mira.
+- Se registran en `imagenes.csv` con `categoria=esquema`, `estado=verificada` y su descripción. **Verificada basta para que la figura entre a la lámina** — es la barra del `CLAUDE.md`. La firma del instructor líder se estampa de un golpe con `python aprobar_imagenes.py <CARRERA>`, y solo se exige cuando se genera con `--estricto`, para el entregable que va a revisión.
 - La tipografía disponible en los equipos del proyecto es **Arial**. Las de marca (Barlow, Oswald) no están instaladas.
 
 ### La paleta

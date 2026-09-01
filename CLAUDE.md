@@ -16,7 +16,7 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 
 ## Antes de trabajar, lee la base
 
-`00_Base-de-conocimiento/` es la doctrina del proyecto — 10 documentos numerados con [índice propio](00_Base-de-conocimiento/00_INDICE.md). **Léela antes de proponer nada.** Los más citados:
+`00_Base-de-conocimiento/` es la doctrina del proyecto — 14 documentos numerados con [índice propio](00_Base-de-conocimiento/00_INDICE.md). **Léela antes de proponer nada.** Los más citados:
 
 | Si vas a… | Lee |
 |---|---|
@@ -24,6 +24,9 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 | Tocar casos, rúbricas o evaluación | §06 |
 | Llenar plantillas 001–005 | §03 pipeline · §04 matriz |
 | Producir imágenes de equipos | §10 |
+| **Empezar el diseño de un curso** | **§13 orden de trabajo** — colaborativos primero, PPT al final |
+| Evaluar una sesión, o armar el cuaderno del instructor | **§14 lista de cotejo** — los cinco de siempre, iguales en las tres carreras |
+| Redactar un caso o un colaborativo | **§12 parámetros del TC** (14 parámetros, relato, fuente real) · §06 |
 | Pedir, armar o revisar un PPT de sesión | **§11 cómo se produce** (insumos, presupuesto, tamaños, paleta) · §07 anatomía |
 | Juzgar si algo está bien hecho | §08 criterios de calidad |
 
