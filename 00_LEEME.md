@@ -118,9 +118,10 @@ Devuelve tres cosas:
     Capacidad · indicadores · contenidos · evaluación
     Todo desajuste va a observaciones.csv
 
-    ⚠  Capacidad e indicadores NO se reformulan: bajan del 7A.
-       Lo que se hace es REPORTARLOS. El líder informa por correo
-       a Walther Alcocer y lo anota en `aprobado_por`.
+    Capacidad e indicadores bajan del 7A y figuran en el sílabo:
+    si se replantean, el cambio arrastra al documento oficial.
+    El líder decide y lo REGISTRA en observaciones.csv —
+    qué cambió, por qué y quién lo decidió.
 
 3 · DEFINIR LOS DOS COLABORATIVOS — antes que las sesiones
     TC1 y TC2 con sus casos y sus rúbricas
@@ -154,7 +155,9 @@ Devuelve tres cosas:
 10 · FIRMAR           en el guion, después de mirar lo señalado
 ```
 
-**Quién hace qué:** los pasos 0 a 8 los trabaja el instructor líder en su carpeta. El 9 es un comando. El 10 es su firma — y en el paso 2, cuando el hallazgo toca capacidad o indicadores, **informa por correo y espera**.
+**Quién hace qué:** los pasos 0 a 8 los trabaja el instructor líder en su carpeta. El 9 es un comando. El 10 es su firma.
+
+**El líder decide sobre su curso.** Lo único que no es opcional es **dejar registro**: cada corrección que toque capacidad, indicadores o contenidos oficiales va a `observaciones.csv` con su motivo y su firma. Eso es lo que permite, meses después, distinguir una mejora de un descuido.
 
 ### Las reglas que el sistema hace cumplir solo
 
