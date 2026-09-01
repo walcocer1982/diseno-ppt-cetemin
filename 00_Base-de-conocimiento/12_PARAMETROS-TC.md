@@ -42,7 +42,7 @@ La técnica metodológica se reconoce porque entra con un conector: *a través d
 | 7 | **Bloque y sesiones** | cuándo se dan pautas y cuándo se sustenta | `casos.csv · bloque_id` |
 | 8 | **Producto** | qué entrega, con qué formato y duración | `casos.csv · producto` |
 | 9 | **Roles** | de qué responde cada integrante | `casos.csv · producto` |
-| 10 | ~~Variantes A / B~~ | **no aplica al colaborativo** — ver §13 | solo en casos de sesión |
+| 10 | ~~Casos A / B~~ | **no aplica al colaborativo** — ver §13 | solo en casos de sesión |
 | **11** | **Formato narrativo** | el caso se cuenta como historia, no como ficha | ⚠️ no se registra |
 | **12** | **Entregable real de mina** | qué documento de trabajo entrega | ⚠️ no se registra |
 | **13** | **Fuente real** | de qué tesis salen los datos | ⚠️ no se registra |
@@ -187,7 +187,7 @@ No son criterio del instructor: son constantes del sistema.
 | **Los criterios 1–3 los nombra el caso** | siguen el recorrido entender → resolver → interpretar |
 | **La rúbrica no puede pedir más que el indicador** | si el indicador dice *identifica*, la rúbrica no califica *recomienda* |
 | **Un rol por integrante** | la nota es del equipo, pero cada uno responde por su parte |
-| **El colaborativo NO lleva variantes** | un solo caso para toda la clase: es la evaluación del bloque y todos rinden sobre lo mismo. Las variantes A y B son de los **casos de sesión** (§13) |
+| **El colaborativo no lleva caso A y caso B** | un solo caso para toda la clase: es la evaluación del bloque y todos rinden sobre lo mismo. Los casos A y B son de los **casos de sesión** (§13) |
 | **Sin costos ni productividad** en EOM | no hay curso previo de matemática ni economía (`OBS-13`) |
 
 ---
@@ -323,7 +323,7 @@ def revisar(carrera: str) -> int:
             if i not in indicadores:
                 mal(f"cita un indicador inexistente: {i}")
 
-        # 7-8 · bloque y producto (las variantes A/B son de los casos de sesion)
+        # 7-8 · bloque y producto (las casos A y B A/B son de los casos de sesion)
         for campo, etq in (("bloque_id", "bloque"), ("producto", "producto")):
             if not (c.get(campo) or "").strip():
                 mal(f"sin {etq}")

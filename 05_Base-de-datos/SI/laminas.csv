@@ -33,7 +33,7 @@ El cliente pide ocho; la relación completa está en tu hoja.
 1 · Clasifiquen cada documento por letra del SSOMAC
 2 · Señalen los que faltan o están vencidos
 3 · Describan qué queda sin cubrir y a quién deja desprotegido",,,,
-L023,SI-SGCSSMA-S1,23,contenido,aplicacion,4,Variante A · Servicios Mineros Huanza,"Mantenimiento mecánico · 78 trabajadores · 48 horas para entrar a planta
+L023,SI-SGCSSMA-S1,23,contenido,aplicacion,4,Caso A · Servicios Mineros Huanza,"Mantenimiento mecánico · 78 trabajadores · 48 horas para entrar a planta
 
 Lo que hay en el archivador:
 · la política, firmada en marzo
@@ -42,7 +42,7 @@ Lo que hay en el archivador:
 · los exámenes médicos, vencimiento 12/03 del año pasado
 · la hoja de datos del aceite hidráulico, edición 2019
 · el acta del comité de agosto",,,"los ocho documentos de la carpeta de Huanza, como fichas numeradas",IMG-SI-CARPETA-HUANZA
-L024,SI-SGCSSMA-S1,24,contenido,aplicacion,4,Variante B · Transportes del Sur,"Acarreo de mineral · 45 trabajadores · 5 días para entrar a mina
+L024,SI-SGCSSMA-S1,24,contenido,aplicacion,4,Caso B · Transportes del Sur,"Acarreo de mineral · 45 trabajadores · 5 días para entrar a mina
 
 Lo que aparece al abrir el archivador:
 · la política, con la línea de firma en blanco
@@ -54,7 +54,7 @@ Lo que aparece al abrir el archivador:
 · una encuesta de satisfacción del año pasado",,,"los ocho documentos de la carpeta de Transportes del Sur, como fichas numeradas",IMG-SI-CARPETA-TRANSPORTES
 L025,SI-SGCSSMA-S1,25,contenido,aplicacion,28,A trabajar,"Equipos de 3.   ·   Tiempo: 26 min + 2 min para ordenar la sustentación
 
-Los impares toman la variante A; los pares, la B.
+Los impares toman la caso A; los pares, la B.
 
 VERDE — es de una sola letra
 ÁMBAR — sirve a dos o más
@@ -111,19 +111,19 @@ S2-L021,SI-SGCSSMA-S2,21,contenido,aplicacion,5,"El encargo, igual para todos","
 1 · Ubiquen cada hecho del relato en la etapa del ciclo que le corresponde
 2 · Armen la relación de partes interesadas y qué esperaba cada una, separando lo de fuera de lo de dentro
 3 · Señalen en qué etapa se rompió el ciclo y a quién le costó",,,,
-S2-L022,SI-SGCSSMA-S2,22,contenido,aplicacion,0,Variante A · Servicios Mineros Huanza,"Motor de la faja 3, comprometido en 36 horas. Se escribió el procedimiento, se asignaron dos mecánicos y se pidieron los repuestos. Terminado en 31 horas; el cliente firmó la conformidad.
+S2-L022,SI-SGCSSMA-S2,22,contenido,aplicacion,0,Caso A · Servicios Mineros Huanza,"Motor de la faja 3, comprometido en 36 horas. Se escribió el procedimiento, se asignaron dos mecánicos y se pidieron los repuestos. Terminado en 31 horas; el cliente firmó la conformidad.
 
 A los ocho días el motor se detuvo: el acople estaba mal alineado. Nadie midió la alineación al cerrar — la ficha de entrega no la pedía.
 
 S/ 8 000 descontados · el superintendente pide evaluar el cambio de contratista · los dos mecánicos rehacen el trabajo en su día de descanso.",,,,
-S2-L023,SI-SGCSSMA-S2,23,contenido,aplicacion,0,Variante B · Transportes del Sur,"900 toneladas en una semana. Se planificaron doce viajes diarios, se asignaron cuatro volquetes y se programó el chequeo de frenos antes de cada salida. Cerró con 880 toneladas y el cliente pagó completo.
+S2-L023,SI-SGCSSMA-S2,23,contenido,aplicacion,0,Caso B · Transportes del Sur,"900 toneladas en una semana. Se planificaron doce viajes diarios, se asignaron cuatro volquetes y se programó el chequeo de frenos antes de cada salida. Cerró con 880 toneladas y el cliente pagó completo.
 
 El viernes un volquete se quedó sin frenos en la bajada del kilómetro 4 y terminó contra el talud; el conductor salió ileso. La revisión estaba firmada — la firmó el propio conductor, sin bajar de la unidad.
 
 El caserío vecino cerró la vía dos días.",,,,
 S2-L024,SI-SGCSSMA-S2,24,contenido,aplicacion,30,A trabajar,"Equipos de 4.   ·   Tiempo: 26 min de trabajo + 2 min para ordenar la sustentación
 
-Los impares toman la variante A; los pares, la B.
+Los impares toman la caso A; los pares, la B.
 
 PÓNGANSE DENTRO — dentro del equipo, cada integrante toma una voz: el cliente · quien hizo el trabajo · quien mira desde fuera · la empresa. Escriban desde esa voz qué esperaba y qué perdió.
 

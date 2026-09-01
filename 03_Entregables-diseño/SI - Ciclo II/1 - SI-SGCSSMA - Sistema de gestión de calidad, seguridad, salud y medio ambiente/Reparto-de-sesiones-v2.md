@@ -124,4 +124,4 @@ Esto ya no es reordenar contenidos: es cambiar la unidad didáctica. Hay que ree
 
 ## Siguiente paso
 
-Los aprendizajes esperados ya están en `05_Base-de-datos/SI/sesiones.csv`, en nivel **describe**, y la matriz los toma de ahí. Sigue el **paso ③** del [§13](../../../00_Base-de-conocimiento/13_ORDEN-DE-TRABAJO.md): las **dos variantes de caso** por sesión — mismo procedimiento, otra empresa y otros datos.
+Los aprendizajes esperados ya están en `05_Base-de-datos/SI/sesiones.csv`, en nivel **describe**, y la matriz los toma de ahí. Sigue el **paso ③** del [§13](../../../00_Base-de-conocimiento/13_ORDEN-DE-TRABAJO.md): las **dos casos** por sesión — mismo procedimiento, otra empresa y otros datos.

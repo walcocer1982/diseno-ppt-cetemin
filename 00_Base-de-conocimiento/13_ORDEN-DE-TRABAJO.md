@@ -45,13 +45,13 @@ Complementa al [§03](03_pipeline-de-plantillas.md) —que dice qué plantillas 
 
 Se diseñan **primero**, con el [§12](12_PARAMETROS-TC.md) en la mano: sus parámetros, el relato en párrafos y el riesgo sin rotular.
 
-> **El colaborativo no lleva variantes: es un solo caso para toda la clase.** Es la evaluación del bloque y todos tienen que rendir sobre lo mismo — si cada mitad resuelve un caso distinto, las notas dejan de ser comparables. Las variantes A y B son de los **casos de sesión**, donde sí sirven: ahí el trabajo es formativo y lo que se busca es que dos equipos no se copien.
+> **El colaborativo no lleva casos A y B: es un solo caso para toda la clase.** Es la evaluación del bloque y todos tienen que rendir sobre lo mismo — si cada mitad resuelve un caso distinto, las notas dejan de ser comparables. Los casos A y B son de los **casos de sesión**, donde sí sirven: ahí el trabajo es formativo y lo que se busca es que dos equipos no se copien.
 
 Sale de aquí:
 
 | | Dónde vive |
 |---|---|
-| El caso de TC1 y el de TC2, **uno cada uno, sin variantes** | `casos.csv` · `alcance = colaborativo` |
+| El caso de TC1 y el de TC2, **uno cada uno, un solo caso** | `casos.csv` · `alcance = colaborativo` |
 | Las dos rúbricas: 5 criterios × 4 puntos = 20 | `rubricas.csv` |
 | Qué indicador evalúa cada criterio | `rubricas.csv · indicador_id` |
 
@@ -92,20 +92,20 @@ Cada aprendizaje esperado tiene que **tributar a un criterio** de TC1 o de TC2. 
 
 ---
 
-## ③ Dos variantes de caso por sesión
+## ③ Dos casos por sesión
 
-**Son variantes, no dos casos distintos.** Mismo procedimiento, mismos pasos, misma respuesta esperada — **cambian la empresa y los datos**. Existen para que dos equipos no se copien y para que la discusión pueda cruzarlas.
+**Son dos casos con el mismo procedimiento, no dos casos distintos.** Mismo procedimiento, mismos pasos, misma respuesta esperada — **cambian la empresa y los datos**. Existen para que dos equipos no se copien y para que la discusión pueda cruzarlas.
 
-**Y son solo de la sesión.** El colaborativo va sin variantes (paso ①): ahí se califica y todos deben rendir sobre el mismo caso.
+**Y son solo de la sesión.** El colaborativo va con un solo caso (paso ①): ahí se califica y todos deben rendir sobre el mismo caso.
 
-> **El error que hay que evitar.** En la sesión 1 de SI se hicieron primero dos casos que se resolvían de forma distinta: uno pedía clasificar documentos y el otro razonar sobre la constancia del servicio. Eso no son variantes: son dos sesiones metidas en una. Hubo que rehacerlo.
+> **El error que hay que evitar.** En la sesión 1 de SI se hicieron primero dos casos que se resolvían de forma distinta: uno pedía clasificar documentos y el otro razonar sobre la constancia del servicio. Eso no es caso A y caso B: son dos sesiones metidas en una. Hubo que rehacerlo.
 
 Se redactan con las reglas del [§12](12_PARAMETROS-TC.md), en versión corta: **relato, datos dentro de la historia, riesgo sin rotular y sin nombrar la respuesta**.
 
 | | Dónde vive |
 |---|---|
 | Descripción, pregunta gatilladora, producto | `casos.csv` · `alcance = sesion` |
-| El texto de cada variante | `casos.csv · variante_a` y `variante_b` |
+| El texto de cada caso | `casos.csv · caso_a` y `caso_b` |
 
 **Y el caso de sesión tributa al colaborativo:** la suma de los casos de un bloque construye el caso del TC que lo cierra ([§04](04_matriz-y-distribucion.md)).
 
@@ -163,7 +163,7 @@ laminas.csv  →  generar_ppt.py  →  revisar_ppt.py  →  mirar lo marcado  �
 
 ## El seguimiento
 
-**La matriz de distribución es el tablero.** Tiene una fila por sesión y una columna por paso: aprendizaje esperado · a qué criterio tributa · variante A · variante B · lista de cotejo · puntos clave · PPT. Verde lo hecho, rojo lo que falta, y un bloque de avance con el porcentaje de cada paso.
+**La matriz de distribución es el tablero.** Tiene una fila por sesión y una columna por paso: aprendizaje esperado · a qué criterio tributa · caso A · caso B · lista de cotejo · puntos clave · PPT. Verde lo hecho, rojo lo que falta, y un bloque de avance con el porcentaje de cada paso.
 
 **Dos reglas sobre la matriz:**
 
@@ -179,13 +179,13 @@ python matriz.py
 
 ## Lista de comprobación del curso
 
-- [ ] ¿Los dos colaborativos están en `casos.csv` —**uno cada uno, sin variantes**— con sus rúbricas de 5 criterios?
+- [ ] ¿Los dos colaborativos están en `casos.csv` —**uno cada uno, un solo caso**— con sus rúbricas de 5 criterios?
 - [ ] ¿`revisar_tc.py` pasa?
 - [ ] ¿Hay 10 o 20 aprendizajes esperados, según la carga?
 - [ ] ¿Cada uno tributa a un criterio, y cabe dentro de su indicador?
 - [ ] ¿Cada criterio de rúbrica tiene al menos una sesión que lo alimenta?
 - [ ] ¿Cada contenido oficial del temario llega a algún aprendizaje esperado?
-- [ ] ¿Cada sesión tiene sus **dos variantes**, con el mismo procedimiento?
+- [ ] ¿Cada sesión tiene sus **dos casos A y B**, con el mismo procedimiento?
 - [ ] ¿Cada sesión tiene su línea de concreción en `listas_cotejo.csv`?
 - [ ] ¿La concreción de «completo» son los pasos del encargo de esa sesión?
 - [ ] ¿De 3 a 5 puntos clave por sesión, todos con `origen`?

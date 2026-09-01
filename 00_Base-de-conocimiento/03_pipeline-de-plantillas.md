@@ -166,7 +166,7 @@ Un punto clave que depende de una fuente que aún no se tiene se escribe con el 
 
 1. **El guion con minutaje NO está en el PPT — está en la plantilla 003.** El PPT (004) es solo lo proyectable; el **plan de sesión con actividades, duración y materiales por momento** vive en el documento 003A/003B/003C/003D. Por eso los PPT no tienen notas del orador.
 
-2. **Sincrónica (003A/B) = virtual · Dirigida (003C/D) = presencial.** El diseño de la sesión se hace en la variante que corresponda a la modalidad del ciclo (Ciclo I presencial → dirigida; Ciclo II virtual → sincrónica). El contenido pedagógico (ruta de 5 momentos) es el mismo; cambia el soporte.
+2. **Sincrónica (003A/B) = virtual · Dirigida (003C/D) = presencial.** El diseño de la sesión se hace en la caso que corresponda a la modalidad del ciclo (Ciclo I presencial → dirigida; Ciclo II virtual → sincrónica). El contenido pedagógico (ruta de 5 momentos) es el mismo; cambia el soporte.
 
 ## Flujo de trabajo del diseño (cómo encadenan)
 

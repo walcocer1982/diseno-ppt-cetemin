@@ -97,7 +97,7 @@ def revisar(carrera: str) -> int:
             if i not in indicadores:
                 mal(f"cita un indicador inexistente: {i}")
 
-        # 7-8 · bloque y producto. Las variantes A/B NO aplican al colaborativo:
+        # 7-8 · bloque y producto. Las casos A y B A/B NO aplican al colaborativo:
         # son de los casos de sesion (decision del 01/09/2026).
         for campo, etq in (("bloque_id", "bloque"), ("producto", "producto")):
             if not (c.get(campo) or "").strip():

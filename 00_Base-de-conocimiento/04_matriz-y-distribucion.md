@@ -8,8 +8,8 @@ Encabezado (Curso · N° de horas) + tabla principal:
 
 | Columna | Contenido |
 |---|---|
-| CAPACIDAD | Capacidad del curso *(invariante — baja del 7A)* |
-| INDICADORES DE LOGRO DE CAPACIDAD | Indicadores *(invariante)* |
+| CAPACIDAD | Capacidad del curso *(incaso — baja del 7A)* |
+| INDICADORES DE LOGRO DE CAPACIDAD | Indicadores *(incaso)* |
 | BLOQUE | Bloque 1, 2… *(cantidad según horas)* |
 | SESIÓN | Sesión 1…12 (o 1…24) |
 | CONTENIDO | Temas de la sesión |

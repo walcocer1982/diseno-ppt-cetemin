@@ -2,7 +2,7 @@
 
 El **plan de la sesión** —no el PPT— vive en las plantillas 003. Es donde están las **actividades, el minutaje y los materiales** por momento. El PPT (004) es solo la proyección de este plan.
 
-## Variantes según modalidad y tipo
+## Casos A y B según modalidad y tipo
 
 | Plantilla | Modalidad | Tipo de sesión |
 |---|---|---|
