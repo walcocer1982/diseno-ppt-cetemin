@@ -15,6 +15,15 @@ se cambia aqui y en el CLAUDE.md.
 import csv, io, os, sys
 from datetime import date
 
+import sys
+
+# La consola de Windows viene en cp1252 y revienta con "✘" o "·".
+# Sin esto el script hace su trabajo y muere al IMPRIMIRLO. Ya paso.
+for _f in (sys.stdout, sys.stderr):
+    try: _f.reconfigure(encoding="utf-8", errors="replace")
+    except Exception: pass
+
+
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 CSV = os.path.join(RAIZ, "imagenes.csv")
 

@@ -30,6 +30,15 @@ from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.enum.shapes import MSO_SHAPE
 
+import sys
+
+# La consola de Windows viene en cp1252 y revienta con "✘" o "·".
+# Sin esto el script hace su trabajo y muere al IMPRIMIRLO. Ya paso.
+for _f in (sys.stdout, sys.stderr):
+    try: _f.reconfigure(encoding="utf-8", errors="replace")
+    except Exception: pass
+
+
 RAIZ = Path(__file__).resolve().parent
 GRAF = RAIZ.parent / "04_Recursos-graficos"
 PLANTILLA = GRAF / "comun/plantilla/PLANTILLA-CETEMIN_sesion.pptx"

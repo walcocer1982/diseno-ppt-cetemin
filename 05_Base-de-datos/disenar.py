@@ -32,12 +32,21 @@ import generar_ppt
 import generar_md
 import revisar_ppt
 
+import sys
+
+# La consola de Windows viene en cp1252 y revienta con "✘" o "·".
+# Sin esto el script hace su trabajo y muere al IMPRIMIRLO. Ya paso.
+for _f in (sys.stdout, sys.stderr):
+    try: _f.reconfigure(encoding="utf-8", errors="replace")
+    except Exception: pass
+
+
 
 def main(sesion_id: str, borrador: bool) -> int:
     print(f"\n{'='*68}\n  {sesion_id}{'   (borrador)' if borrador else ''}\n{'='*68}")
 
     print("\n1 · PPT")
-    ppt = generar_ppt.generar(sesion_id, borrador=borrador)
+    ppt = generar_ppt.generar(sesion_id, estricto=not borrador)
     print(f"    {ppt.name}")
 
     print("\n2 · Guion de verificación")
