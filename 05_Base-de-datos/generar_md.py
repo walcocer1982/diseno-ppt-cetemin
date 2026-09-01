@@ -26,6 +26,15 @@ from pathlib import Path
 
 from generar_ppt import (RAIZ, leer, sin_tildes, bajada_de, punto_de, revisar)
 
+import sys
+
+# La consola de Windows viene en cp1252 y revienta con "✘" o "·".
+# Sin esto el script hace su trabajo y muere al IMPRIMIRLO. Ya paso.
+for _f in (sys.stdout, sys.stderr):
+    try: _f.reconfigure(encoding="utf-8", errors="replace")
+    except Exception: pass
+
+
 MOMENTOS = {"conexion": "CONEXIÓN", "adquisicion": "ADQUISICIÓN", "aplicacion": "APLICACIÓN",
             "discusion": "DISCUSIÓN", "reflexion": "REFLEXIÓN"}
 

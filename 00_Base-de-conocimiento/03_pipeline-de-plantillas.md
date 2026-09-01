@@ -19,7 +19,7 @@
 
 Lo que se saca de este paso, antes de seguir:
 
-1. **La capacidad y los indicadores, transcritos literalmente.** No se reformulan (regla 2 del `CLAUDE.md`).
+1. **La capacidad y los indicadores, transcritos literalmente** — primero como están, antes de juzgarlos. Lo que se cambie después queda registrado (regla 2 del `CLAUDE.md`).
 2. **Si capacidad, indicadores y contenidos hablan de lo mismo.** Aquí aparecen los desajustes de origen.
 3. **Los contenidos oficiales**, que son la materia prima de los puntos clave.
 4. **Toda diferencia entre triangulación y sílabo**, registrada en `observaciones.csv`.
@@ -28,18 +28,18 @@ Lo que se saca de este paso, antes de seguir:
 
 Terminado el paso se emite un **juicio corto y por partes** —qué está bien, qué falla y con qué evidencia—, no un resumen de lo leído. Sirve para decidir si se sigue o se para.
 
-### Cuando un indicador es impreciso: no se toca, se acota en la rúbrica
+### Cuando un indicador es impreciso, mira primero si basta la rúbrica
 
-Un indicador vago —*"describe los **principales** métodos"*, sin decir cuántos— hace que dos evaluadores califiquen distinto el mismo trabajo. La tentación es corregirlo. **No se corrige.**
-
-**La precisión se pone donde sí es nuestra:** en la rúbrica y en el aprendizaje esperado de cada sesión.
+Un indicador vago —*"describe los **principales** métodos"*, sin decir cuántos— hace que dos evaluadores califiquen distinto el mismo trabajo. Se puede corregir el indicador; pero antes conviene ver si la rúbrica ya resuelve el problema.
 
 ```
-indicador (7A, intocable)  →  "los principales métodos"
-rúbrica  (nuestra)         →  "los seis métodos del curso"
+indicador (7A)      →  "los principales métodos"
+rúbrica  (nuestra)  →  "los seis métodos del curso"
 ```
 
-Se obtiene la misma consistencia de calificación **sin gastar la excepción de la regla 2** — que conviene reservar para lo de fondo. *El indicador es el techo; la rúbrica es la que mide.*
+**Se obtiene la misma consistencia de calificación sin abrir una diferencia con el sílabo.** No es una prohibición: es que la vía barata suele bastar, y conviene reservar el cambio del indicador para lo que de verdad no se puede resolver abajo.
+
+*El indicador es el techo; la rúbrica es la que mide.*
 
 ### Pedir aprobación es dar la ubicación
 
@@ -58,9 +58,13 @@ Vale igual para textos: si se pide validar una rúbrica, se dice el archivo, la 
 
 ### Toda decisión se firma
 
-Una observación no se cierra sola. Por eso `observaciones.csv` lleva **`decision`** y **`aprobado_por`**: qué se resolvió y quién lo aprobó, con fecha. La aprobación es del **instructor líder de la carrera**; si toca capacidad o indicadores, de **Walther Alcocer**.
+Una observación no se cierra sola. Por eso `observaciones.csv` lleva **`decision`** y **`aprobado_por`**: qué se resolvió, por qué y quién lo decidió, con fecha.
 
-> Ejemplo real: `OBS-EOM-METEXP-12` — *"Opción A · no se toca el indicador; la precisión va a la rúbrica y al aprendizaje esperado"* · Walther Alcocer · 2026-08-13.
+**Decide el instructor líder de la carrera**, también cuando toca capacidad o indicadores. No hace falta autorización previa de nadie: lo que hace falta es que quede escrito.
+
+> **Por qué se registra igual.** Capacidad e indicadores figuran en el sílabo, así que cambiarlos abre una diferencia entre la base y el documento oficial. El registro no es un permiso — es lo que permite, meses después, **saber si esa diferencia fue una mejora o un descuido**, y tramitar la corrección del sílabo cuando toque.
+
+> Ejemplo real: `OBS-EOM-METEXP-12` — *"Opción A · no se toca el indicador; la precisión va a la rúbrica y al aprendizaje esperado"*, firmado y fechado.
 
 ## Paso 2 · Sesiones, aprendizajes esperados y puntos clave
 

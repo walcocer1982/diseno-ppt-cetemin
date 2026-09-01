@@ -34,6 +34,15 @@ from pptx.util import Emu
 
 from generar_ppt import RAIZ, leer, sin_tildes, destino
 
+import sys
+
+# La consola de Windows viene en cp1252 y revienta con "✘" o "·".
+# Sin esto el script hace su trabajo y muere al IMPRIMIRLO. Ya paso.
+for _f in (sys.stdout, sys.stderr):
+    try: _f.reconfigure(encoding="utf-8", errors="replace")
+    except Exception: pass
+
+
 MAX_PALABRAS = 90        # por encima, muro de texto (error #5 del §08)
 MAX_TRIANGULACION = 110  # la triangulacion es densa POR DISEÑO (§07): muestra
                          # aprendizaje, puntos clave y evaluacion de un vistazo,

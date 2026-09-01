@@ -47,26 +47,6 @@ L214,EOM-METEXP-S12,7,contenido,discusion,20,Retroalimentación,Qué estuvo bien
 L215,EOM-METEXP-S12,8,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
 L216,EOM-METEXP-S12,9,contenido,reflexion,8,Cierre del bloque,Capacidades demostradas y qué sigue,,,,
 L217,EOM-METEXP-S12,10,tapa,,0,,,,,,
-L061,EOM-METEXP-S4,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L062,EOM-METEXP-S4,2,subportada-sesion,,2,Sesión N°4,Métodos: sub level stoping; block caving,,,,
-L063,EOM-METEXP-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L064,EOM-METEXP-S4,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Describir los métodos de sub level stoping y block caving: sus operaciones y condiciones de aplicación.,,,,
-L065,EOM-METEXP-S4,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
-L066,EOM-METEXP-S4,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L067,EOM-METEXP-S4,7,tema,adquisicion,12,SUB LEVEL STOPING,Sub level stoping: preparación por subniveles y secuencia de extracción,,,,
-L068,EOM-METEXP-S4,8,tema,adquisicion,11,CONDICIONES DE APLICACIÓN DEL SUB LEVEL STOPIN,Condiciones de aplicación del sub level stoping,,,,
-L069,EOM-METEXP-S4,9,tema,adquisicion,11,BLOCK CAVING,Block caving: hundimiento del bloque y flujo del mineral,,,,
-L070,EOM-METEXP-S4,10,tema,adquisicion,11,CONDICIONES DE APLICACIÓN DEL BLOCK CAVING,Condiciones de aplicación del block caving,,,,
-L071,EOM-METEXP-S4,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L072,EOM-METEXP-S4,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
-L073,EOM-METEXP-S4,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
-L074,EOM-METEXP-S4,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L075,EOM-METEXP-S4,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
-L076,EOM-METEXP-S4,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
-L077,EOM-METEXP-S4,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L078,EOM-METEXP-S4,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
-L079,EOM-METEXP-S4,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
-L080,EOM-METEXP-S4,20,tapa,,0,,,,,,
 L081,EOM-METEXP-S5,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
 L082,EOM-METEXP-S5,2,subportada-sesion,,2,Sesión N°5,Métodos: sublevel caving; método superficial,,,,
 L083,EOM-METEXP-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
@@ -288,3 +268,47 @@ LAM-EOM-METEXP-S3-24,EOM-METEXP-S3,24,contenido,reflexion,4,Titular,Escribe un t
 LAM-EOM-METEXP-S3-25,EOM-METEXP-S3,25,contenido,reflexion,6,¿Qué me llevo?,"¿Podemos describir dos métodos y decir cuándo se usa cada uno?
 Para la próxima sesión: sublevel stoping y block caving.",,,,
 LAM-EOM-METEXP-S3-26,EOM-METEXP-S3,26,tapa,,0,,,,,,
+LAM-EOM-METEXP-S4-01,EOM-METEXP-S4,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+LAM-EOM-METEXP-S4-02,EOM-METEXP-S4,2,subportada-sesion,,0,Sesión N°4,Sublevel stoping y block caving,,,,
+LAM-EOM-METEXP-S4-03,EOM-METEXP-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+LAM-EOM-METEXP-S4-04,EOM-METEXP-S4,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en este tajeo?
+·  ¿Qué PIENSO que pasó con la roca de arriba?
+·  ¿Qué ME PREGUNTO?",,,"un tajeo vacío de gran altura, donde se vea que nada lo sostiene",IMG-SLS
+LAM-EOM-METEXP-S4-05,EOM-METEXP-S4,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
+LAM-EOM-METEXP-S4-06,EOM-METEXP-S4,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+LAM-EOM-METEXP-S4-07,EOM-METEXP-S4,7,tema,adquisicion,7,SUBLEVEL STOPING: LA PREPARACIÓN,,C113,"1,2,3","un tajeo de sublevel stoping en sección, con los subniveles y los taladros largos",IMG-SLS
+LAM-EOM-METEXP-S4-08,EOM-METEXP-S4,8,tema,adquisicion,6,CÓMO SALE EL MINERAL,,C113,"4,5,6",el mineral cayendo por gravedad al nivel de extracción y el scooptram recogiéndolo,IMG-SLS
+LAM-EOM-METEXP-S4-09,EOM-METEXP-S4,9,tema,adquisicion,6,CUÁNDO SE USA SUBLEVEL STOPING,,C114,"1,2,3,4,5","las condiciones que pide el sublevel stoping, contrastadas con las del block caving",IMG-COND-SLS
+LAM-EOM-METEXP-S4-10,EOM-METEXP-S4,10,tema,adquisicion,7,BLOCK CAVING: QUITAR EL APOYO,,C115,"1,2,3",la socavación de la base del bloque y el bloque fracturándose por su propio peso,IMG-BLOCK-CAVING
+LAM-EOM-METEXP-S4-11,EOM-METEXP-S4,11,tema,adquisicion,6,EL MINERAL FLUYE SOLO,,C115,"4,5,6","el flujo del mineral hacia los puntos de extracción, y la subsidencia en superficie",IMG-BLOCK-CAVING
+LAM-EOM-METEXP-S4-12,EOM-METEXP-S4,12,tema,adquisicion,6,CUÁNDO SE USA BLOCK CAVING,,C116,"1,2,3,4,5","las condiciones que pide el block caving, contrastadas con las del sublevel stoping",IMG-COND-BC
+LAM-EOM-METEXP-S4-13,EOM-METEXP-S4,13,tema,adquisicion,7,SOSTENER O HUNDIR,,C1104,"1,2,3,4","los dos métodos enfrentados: uno deja el vacío abierto, el otro lo provoca",IMG-COND-SLS
+LAM-EOM-METEXP-S4-14,EOM-METEXP-S4,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+LAM-EOM-METEXP-S4-15,EOM-METEXP-S4,15,contenido,aplicacion,5,"Dos cuerpos, dos decisiones","La minera Santa Rosa reconoció dos cuerpos mineralizados y quiere abrir los dos.
+
+CUERPO A · 40 m de potencia, contornos definidos, RMR 68, ley media
+CUERPO B · 200 × 150 m en planta y 300 m de alto, RMR 42, ley baja
+
+El jefe de mina pide describir cómo se explota cada uno — y qué pasa con el vacío.",,,,
+LAM-EOM-METEXP-S4-16,EOM-METEXP-S4,16,contenido,aplicacion,8,¿Qué hace cada método con el vacío?,"¿Qué sostiene el hueco en cada cuerpo?
+¿Cuál de los dos se puede detener a mitad de camino?
+¿Qué pasa en la superficie sobre cada uno?",,,,
+LAM-EOM-METEXP-S4-17,EOM-METEXP-S4,17,contenido,aplicacion,2,CUERPO A · su ficha,El yacimiento del primer equipo.,,,la ficha de datos del cuerpo A,IMG-FICHA-S4-A
+LAM-EOM-METEXP-S4-18,EOM-METEXP-S4,18,contenido,aplicacion,2,CUERPO B · su ficha,El yacimiento del segundo equipo.,,,la ficha de datos del cuerpo B,IMG-FICHA-S4-B
+LAM-EOM-METEXP-S4-19,EOM-METEXP-S4,19,contenido,aplicacion,23,Describan el método de su cuerpo,"1 · Lean la ficha: dimensiones, contornos, RMR, ley, qué hay en superficie.
+2 · Deduzcan qué método corresponde, y por qué el otro no serviría.
+3 · Describan la preparación y cómo sale el mineral.
+4 · Digan qué pasa con el vacío y qué se ve desde arriba.
+5 · Redacten la descripción y repartan la exposición.",,,,
+LAM-EOM-METEXP-S4-20,EOM-METEXP-S4,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+LAM-EOM-METEXP-S4-21,EOM-METEXP-S4,21,contenido,discusion,15,"Los dos cuerpos, lado a lado","Un equipo de cada cuerpo expone su método.
+
+Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
+LAM-EOM-METEXP-S4-22,EOM-METEXP-S4,22,contenido,discusion,5,Lo que hay que fijar,"El sublevel stoping confía en la roca; el block caving no la sostiene, la hunde.
+El volumen decide: el hundimiento solo se paga con tonelaje.
+Y una vez iniciado el hundimiento, no se puede parar.",,,,
+LAM-EOM-METEXP-S4-23,EOM-METEXP-S4,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+LAM-EOM-METEXP-S4-24,EOM-METEXP-S4,24,contenido,reflexion,4,Titular,Escribe un titular de una línea sobre qué se gana y qué se pierde al hundir un bloque.,,,,
+LAM-EOM-METEXP-S4-25,EOM-METEXP-S4,25,contenido,reflexion,6,¿Qué me llevo?,"¿Podemos describir los dos métodos y decir qué hace cada uno con el vacío?
+Para la próxima sesión: sublevel caving y explotación superficial.",,,,
+LAM-EOM-METEXP-S4-26,EOM-METEXP-S4,26,tapa,,0,,,,,,
