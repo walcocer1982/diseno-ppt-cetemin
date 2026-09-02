@@ -143,7 +143,7 @@ Las que cuestan **0 minutos** son las que se intercalan sin ocupar bloque: *¿Qu
 
 **Antes pensaba… ahora pienso…** (Reflexión). Dos frases al cierre. Hace visible el cambio y le da al instructor evidencia real de si la sesión movió algo.
 
-**Titular** (Reflexión). *"Si esta sesión fuera una noticia, ¿cuál sería el titular?"* Obliga a jerarquizar: qué fue lo esencial.
+~~**Titular** (Reflexión)~~ — **retirada el 2026-09-01, decisión de Jorge Canchiz.** No se usa: la Reflexión se cierra con «Antes de irnos», que ya pregunta si se logró el aprendizaje esperado, qué funcionó y cómo llegaron. El titular añadía cinco minutos y otra consigna sobre la misma idea.
 
 ### Cómo se registra
 

@@ -77,3 +77,13 @@ desktop.ini
 # Los PPT del ciclo viven en <CARRERA> - Ciclo N/<curso>/PPT/ — tres niveles,
 # que el patron de arriba no alcanzaba. Pesan 6 MB cada uno y se generan.
 03_Entregables-diseño/**/*.pptx
+
+# --- Archivos de bloqueo de Office ----------------------------
+# Word y Excel los crean mientras el documento esta abierto.
+~$*
+
+# --- Estado local del guardian de PPT -------------------------
+# Son los SHA-1 de los PPT DE ESTA MAQUINA: sirven para detectar
+# que alguien edito un PPT a mano y no volver a generarlo encima.
+# En otro clon no corresponden a nada.
+05_Base-de-datos/huellas_ppt.json

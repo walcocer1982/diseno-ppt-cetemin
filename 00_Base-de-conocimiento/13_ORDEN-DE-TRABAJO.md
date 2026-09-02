@@ -28,6 +28,26 @@ Complementa al [§03](03_pipeline-de-plantillas.md) —que dice qué plantillas 
 
 **Cada paso se hace para el anterior.** Si un paso no sirve al de arriba, sobra.
 
+### El orden no se salta, y menos por el final
+
+**Regla de Jorge Canchiz, repetida el 2026-09-02:**
+
+> **No se habla de armar el PPT sin tener antes los dos casos, y sin haber comprobado que de verdad demuestran el aprendizaje esperado.**
+> **Recién con los casos delante se eligen los puntos clave.**
+> **Y el PPT se arma AL FINAL, pensando en cumplir los puntos clave y en lo que los casos A y B piden.**
+
+| | Se hace | Mirando a |
+|---|---|---|
+| ② | El aprendizaje esperado, partido en sus partes | El indicador y el criterio al que tributa |
+| ③ | **Los dos casos** | Que cada parte del AE tenga un paso del encargo que la demuestre |
+| ④ | La concreción de la lista | Los pasos del encargo |
+| ⑤ | **Los puntos clave** | **Que el caso se pueda resolver.** Salen del temario oficial, pero *cuáles* y *con qué desarrollo* lo decide el caso |
+| ⑥ | El PPT | Los puntos clave y lo que los casos piden |
+
+**Por qué el PPT va último, y no es una manía de orden.** Cuando se empieza por las láminas, las láminas deciden el contenido: aparecen puntos clave inventados para llenar diapositivas, y casos escritos para encajar en lo que ya se dibujó. Pasó en la S1 y en la S2, y costó rehacerlas.
+
+**Y el paso ⑤ tiene dos amos, no uno.** Los puntos clave bajan del temario oficial —eso no se negocia— pero **el caso decide cuáles de ellos entran y qué ideas se desarrollan**. Un punto clave que el caso no necesita se enseña y no se aplica: es el error que dejó huérfano *«por qué la empresa se ordena por procesos»* en la S1.
+
 > **Por qué la lista de cotejo va antes que los puntos clave.** Parece invertido y no lo es: la lista dice **qué tiene que quedar observable**, y los puntos clave son **lo que hay que enseñar para que lo esté**. Al revés se enseña primero y luego se busca qué evaluar, que es como se acaba evaluando algo que la sesión no enseñó.
 
 ---
@@ -94,6 +114,40 @@ Cada aprendizaje esperado tiene que **tributar a un criterio** de TC1 o de TC2. 
 
 ## ③ Dos casos por sesión
 
+### Antes de escribir una sola línea: leer el aprendizaje esperado
+
+**Regla de Jorge Canchiz, 2026-09-01. No se negocia.**
+
+**Nunca se trabaja a ciegas.** Antes de crear el caso A, el caso B o cualquier pieza de una sesión, se abre el aprendizaje esperado de esa sesión y **se lee entero, palabra por palabra**.
+
+Y no basta leerlo: hay que **partirlo y comprobar que cada mitad tiene quién la demuestre**.
+
+| Paso | Cómo se comprueba |
+|---|---|
+| 1 | Partir el aprendizaje esperado en sus partes. *«Describe qué información documentada exige la ISO 9001 **y por qué su cumplimiento es voluntario, a diferencia del sistema que manda la ley**»* son **dos** |
+| 2 | Para cada parte, señalar **qué punto clave la enseña** |
+| 3 | Para cada parte, señalar **qué paso del encargo la hace demostrar** |
+| 4 | Si una parte no tiene punto clave o no tiene paso, **el caso está incompleto** — se corrige antes de seguir |
+| 5 | Y el conjunto tiene que caber en el indicador y servir al criterio al que la sesión tributa |
+
+> **De dónde sale esta regla.** La S4 se escribió sin hacerlo. Sus dos casos quedaban impecables y **la segunda mitad del aprendizaje esperado no se demostraba en ninguna parte**: un equipo podía resolver el caso perfecto sin tocar nunca la diferencia entre lo voluntario y lo obligatorio. Y esa mitad estaba ahí porque la S4 tributa al criterio 1 del TC1, que la pide.
+>
+> **Un caso bonito que no demuestra el aprendizaje esperado es trabajo perdido.**
+
+### Y la matriz se actualiza siempre
+
+Cada vez que una sesión avanza —caso, concreción, puntos clave, PPT— **se regenera la matriz de distribución**:
+
+```
+python matriz.py
+```
+
+**Un solo archivo por curso, y se genera; no se escribe a mano ni se duplica.** Nada de `_v2` ni `_final`. Si hay dos matrices, alguien va a leer la equivocada.
+
+---
+
+
+
 **Son dos casos con el mismo procedimiento, no dos casos distintos.** Mismo procedimiento, mismos pasos, misma respuesta esperada — **cambian la empresa y los datos**. Existen para que dos equipos no se copien y para que la discusión pueda cruzarlas.
 
 **Y son solo de la sesión.** El colaborativo va con un solo caso (paso ①): ahí se califica y todos deben rendir sobre el mismo caso.
@@ -101,6 +155,66 @@ Cada aprendizaje esperado tiene que **tributar a un criterio** de TC1 o de TC2. 
 > **El error que hay que evitar.** En la sesión 1 de SI se hicieron primero dos casos que se resolvían de forma distinta: uno pedía clasificar documentos y el otro razonar sobre la constancia del servicio. Eso no es caso A y caso B: son dos sesiones metidas en una. Hubo que rehacerlo.
 
 Se redactan con las reglas del [§12](12_PARAMETROS-TC.md), en versión corta: **relato, datos dentro de la historia, riesgo sin rotular y sin nombrar la respuesta**.
+
+### Que sea retador, no descriptivo
+
+**Un caso que solo describe un desorden no da nada que pensar.** «Hay tres archivos con el mismo nombre, descríbelo» se resuelve leyendo. Estos cinco ingredientes lo cambian, y caben en 170 palabras:
+
+| | Qué es | Ejemplo (S4) |
+|---|---|---|
+| **Un reloj** | Algo se decide en una fecha | *El acta se firma el viernes* |
+| **Un número que duele** | La consecuencia tiene precio | *S/ 8 000 por día de atraso* |
+| **Alguien que se juega algo** | Una persona con nombre y cargo | *El jefe de laboratorio que recibió la revisión 4* |
+| **Un riesgo contado de pasada** | Nunca rotulado como riesgo | *«En otra obra un soporte cedió con la faja cargada; no hubo heridos porque era domingo»* |
+| **Un dato que contradice** | Lo que parece bien hecho y no lo está | *El registro de torque está completo y dentro de tolerancia — la de la revisión vieja* |
+
+**El quinto es el que separa las notas.** Sin él, todos los equipos llegan a lo mismo leyendo. Con él, el equipo que solo lee llega a la conclusión contraria.
+
+### La empresa cambia en cada sesión
+
+**El colaborativo tiene su propia empresa, y no aparece en ninguna sesión.**
+
+> **Regla de Jorge Canchiz, 2026-09-01: los trabajos colaborativos son independientes de los casos de sesión.** No comparten empresa. Si la misma contratista sale en la clase y en el trabajo calificado, el estudiante reconoce el patrón antes de pensar — y el TC deja de medir lo que cree medir.
+
+En SI-SGCSSMA, **Servicios Mineros Huanza S.A.C. es exclusiva de los dos colaborativos**. Ninguna sesión la menciona.
+
+**Los casos de sesión, no.** Cada sesión estrena empresa y **rubro distinto**: laboratorio de ensayo, montaje electromecánico, voladura, sostenimiento, perforación diamantina, manejo de residuos, catering, transporte de concentrado, planta de tratamiento de agua…
+
+### El caso se basta a sí mismo
+
+**Regla de Jorge Canchiz, 2026-09-01.** Un caso de sesión **no depende de recursos externos**: ni plantillas, ni anexos, ni extractos de norma. Lo único que el equipo recibe es **el relato**.
+
+| De dónde sale cada cosa | |
+|---|---|
+| Los datos | **Del relato.** Si hace falta un número, va dentro de la historia |
+| El criterio para juzgarlos | **De la sesión.** Es lo que se acaba de enseñar en la Adquisición |
+| La estructura del producto | **Del encargo.** Cuatro pasos, cuatro filas en una hoja en blanco |
+
+**Por qué, y no es solo por ahorrar trabajo:** si el criterio viene en una hoja, el alumno **copia**. Si tiene que salir de la sesión, tuvo que haberla escuchado. La hoja convierte una tarea de aplicación en una de transcripción.
+
+> **Esto es de los casos de SESIÓN.** Los **colaborativos sí llevan recursos** —el anexo de datos, la relación para marcar—: ahí son dos horas de trabajo autónomo, se califica, y el instrumento es lo que hace que quepa en el tiempo (§12).
+
+### Y el nombre de la empresa, sobrio
+
+**Nombre técnico, descriptivo del rubro, con su forma societaria.** Como se llaman de verdad las contratistas.
+
+| Así sí | Así no |
+|---|---|
+| Servicios Analíticos Industriales S.A.C. | Andes Analítica |
+| Ingeniería y Montaje Electromecánico S.A.C. | Montajes Chalhuane |
+| Servicios Mineros Huanza S.A.C. | MineraPro · GeoAndes · SafeMining |
+
+**Nada de nombres de marca ni de fantasía.** El caso tiene que leerse como un expediente, no como un anuncio: el alumno va a trabajar con empresas que se llaman así, y el nombre no debe distraer de los datos.
+
+> **Y el texto del caso es dato, no markdown.** Nada de `**negritas**` ni de viñetas dentro del CSV: ese texto se dibuja en la ficha del caso tal cual, y los asteriscos salen impresos. Si algo tiene que destacar, lo destaca la frase, no el formato.
+
+Tres razones, y ninguna es estética:
+
+1. **El alumno deja de reconocer el patrón.** Con la misma empresa veinte veces, a la quinta ya sabe qué le van a preguntar.
+2. **El contenido se ve en contextos distintos**, que es lo que permite transferirlo. Un control de documentos en un laboratorio y en una obra de montaje no se parecen, y el criterio es el mismo.
+3. **El egresado va a trabajar en cualquiera de esos rubros**, no en la contratista de mantenimiento del ejemplo.
+
+> **Lo que sí se mantiene:** el caso A y el caso B de una misma sesión son **dos empresas distintas resolviendo lo mismo**. Eso no cambia — es lo que hace que se puedan cruzar en la Discusión.
 
 | | Dónde vive |
 |---|---|
@@ -111,7 +225,7 @@ Se redactan con las reglas del [§12](12_PARAMETROS-TC.md), en versión corta: *
 
 ---
 
-## ④ La lista de cotejo — **los cinco de siempre**
+## ④ La lista de cotejo — **la lista de cotejo**
 
 **El instrumento completo está en el [§14](14_LISTA-DE-COTEJO.md).** Aquí solo lo que hace falta para no equivocar el paso.
 

@@ -16,7 +16,7 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 
 ## Antes de trabajar, lee la base
 
-`00_Base-de-conocimiento/` es la doctrina del proyecto — 14 documentos numerados con [índice propio](00_Base-de-conocimiento/00_INDICE.md). **Léela antes de proponer nada.** Los más citados:
+`00_Base-de-conocimiento/` es la doctrina del proyecto — 15 documentos numerados con [índice propio](00_Base-de-conocimiento/00_INDICE.md). **Léela antes de proponer nada.** Los más citados:
 
 | Si vas a… | Lee |
 |---|---|
@@ -25,14 +25,15 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 | Llenar plantillas 001–005 | §03 pipeline · §04 matriz |
 | Producir imágenes de equipos | §10 |
 | **Empezar el diseño de un curso** | **§13 orden de trabajo** — colaborativos primero, PPT al final |
-| Evaluar una sesión, o armar el cuaderno del instructor | **§14 lista de cotejo** — los cinco de siempre, iguales en las tres carreras |
+| **Evaluar el trabajo de una sesión** | **§14 lista de cotejo** — cinco criterios de 0 a 4, los mismos en las 24 sesiones, los 35 cursos y las tres carreras. Se genera con `python cotejo_excel.py <CURSO>` |
+| Citar un artículo de la Ley 29783, la RM 050 o el DS 024 | **§15 marco legal** — verificado contra el texto publicado. Si no está ahí, se verifica antes de citarlo |
 | Redactar un caso o un colaborativo | **§12 parámetros del TC** (14 parámetros, relato, fuente real) · §06 |
 | Pedir, armar o revisar un PPT de sesión | **§11 cómo se produce** (insumos, presupuesto, tamaños, paleta) · §07 anatomía |
 | Juzgar si algo está bien hecho | §08 criterios de calidad |
 
 ## Reglas que no se negocian
 
-1. **El aprendizaje esperado gobierna el diseño.** Es la raíz de los 8 errores del §08: cuando el objetivo de la clase no manda, todo lo demás se desalinea. Si una actividad, lámina o caso no sirve al aprendizaje esperado, sobra.
+1. **El aprendizaje esperado gobierna el diseño.** Es la raíz de los 8 errores del §08: cuando el objetivo de la clase no manda, todo lo demás se desalinea. Si una actividad, lámina o caso no sirve al aprendizaje esperado, sobra. **Y se lee ANTES de escribir nada de esa sesión**, partido en sus partes: cada una necesita un punto clave que la enseñe y un paso del encargo que la demuestre (§13 ③). Nunca se trabaja a ciegas.
 2. **Capacidad e indicadores de logro bajan del 7A: si se cambian, queda registrado.** Vienen del formato oficial del MINEDU y **deben figurar en el sílabo de cada curso**, así que un cambio arrastra al documento oficial. El instructor líder puede replantearlos cuando el diseño lo exija — **no necesita autorización previa** —, pero **todo cambio se registra en `05_Base-de-datos/observaciones.csv`** con qué se cambió, por qué, y quién lo decidió (`decision` y `aprobado_por`).
 
    > Lo que se protege no es el texto: es **poder reconstruir por qué el sílabo dice una cosa y la base dice otra**. Sin ese rastro, dentro de seis meses nadie sabe si fue una mejora o un descuido.
@@ -40,6 +41,8 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 4. **La precisión no se confía, se mide.** Lo que hace legítimo usar el modelo no es que acierte, sino que el resultado **se comprueba contra las cotas del catálogo** y se corrige la proporción. Sin ese control, generar sería inventar. Con él, el modelo pone el estilo y nosotros ponemos la métrica.
 5. **Al dibujar un equipo, paso 0 = revisar TODAS las vistas** del catálogo (perfil, frontal, planta) antes de trazar nada. La firma de una pieza cambia con la vista: una rueda es círculo en perfil y rectángulo en planta.
 6. **Ante una contradicción entre documentos**, manda el Reglamento Interno v03 (§09).
+7. **Ningún PPT se toca si no se ha pedido explícitamente.** El instructor líder ordena sus láminas a mano —mueve imágenes, ajusta cuadros, borra lo que sobra— y regenerar el archivo borra ese trabajo sin avisar. Cuando sí se pide un cambio, se hace **quirúrgico**: se edita esa lámina y no se rehace el archivo. Y **las láminas se buscan por su título, no por su número**: la misma lámina cae en posiciones distintas en cada sesión. `generar_ppt.py` guarda una huella de cada PPT y se planta si detecta edición manual; ese freno no se salta con `--forzar` sin permiso.
+8. **Jamás se duplica un documento: se actualiza el que existe.** Si hace falta cambiar un entregable —una matriz, una rúbrica, un anexo—, se corrige **el archivo que ya está**, no se crea uno al lado con otro nombre o con «_v2». Dos versiones del mismo documento se desincronizan en silencio, y dentro de un mes nadie sabe cuál manda.
 
 ## Dónde va cada cosa
 
@@ -52,6 +55,7 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 | `03_Entregables-diseño/` | Lo que se **genera** desde la base de datos: planes de sesión, PPT, casos |
 | `04_Recursos-graficos/` | **Lo que resulta:** logo, siluetas, figuras, y los scripts que las generan |
 | `05_Base-de-datos/` | **La fuente de verdad del diseño:** CSV enlazados. Comunes en la raíz; el diseño de cada carrera en `EOM/`, `PM/`, `SI/`. Si el diseño cambia, cambia aquí primero |
+| `06_Bitacora/` | **Un MD por día de trabajo**, con fecha por nombre. Lo que se decidió, lo que se descubrió y por qué. No lleva el detalle de lo hecho —eso está en los archivos— sino **lo que no se puede reconstruir leyendo el resultado** |
 
 **No versionado en Git:** `01_Insumos/` (4,9 GB, va por Drive institucional), `_Entrada/`, los `.env` y los PDF de catálogo. Ver `.gitignore`.
 
