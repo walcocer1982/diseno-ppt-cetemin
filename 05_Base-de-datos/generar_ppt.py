@@ -17,6 +17,7 @@ Uso:  python generar_ppt.py EOM-METEXP-S1
 from __future__ import annotations
 
 import csv
+import re
 import shutil
 import sys
 import unicodedata
@@ -53,11 +54,14 @@ DISENO = {
     "tema":               "slideLayout6",
     "contenido":          "slideLayout13",
     "cotejo":             "slideLayout13",
+    "caso":               "slideLayout13",
     "tapa":               "slideLayout3",
 }
 ILEGALES = tuple(':*?"<>|/\\')
 AZUL, AMBAR, BLANCO = RGBColor(0x0D,0x26,0x32), RGBColor(0xFF,0xC5,0x05), RGBColor(0xFF,0xFF,0xFF)
+GRISC, GRIS = RGBColor(0xEE,0xF1,0xF3), RGBColor(0x6C,0x7A,0x82)
 W, H = Inches(13.333), Inches(7.5)
+SUELO, LOGO_X = 6.70, 2.60      # por debajo y a la izquierda de ahi esta el logo
 
 
 def leer(ruta: Path) -> list[dict]:
@@ -152,7 +156,10 @@ def revisar(laminas: list[dict], imgs: dict, sesion_id: str, carrera: str) -> li
             continue
         if not bajada_de(l, sesion_id, carrera).strip():
             avisos.append(f"{l['titulo']} — SIN CONTENIDO (falta contenido_id o su desarrollo)")
-        im = imgs.get(l.get("imagen_id", ""))
+        iid = l.get("imagen_id", "")
+        if iid == "IMG-ESCALA-ANIMO":
+            iid = escala_animo(ses["nro_sesion"])
+        im = imgs.get(iid)
         if not im:
             avisos.append(f"{l['titulo']} — SIN IMAGEN")
         elif im.get("estado") != "aprobada":
@@ -180,8 +187,15 @@ def colocar(s, ruta: Path, x, y, w, h) -> None:
         ancho, alto = w, w / prop
     else:
         alto, ancho = h, h * prop
-    s.shapes.add_picture(str(ruta), Inches(x + (w - ancho) / 2),
-                         Inches(y + (h - alto) / 2), Inches(ancho), Inches(alto))
+    px, py = x + (w - ancho) / 2, y + (h - alto) / 2
+    # EL LOGO. Vive abajo a la izquierda. Una figura ancha que baje de 6,70 lo tapa;
+    # una estrecha y centrada no llega hasta el. Asi que solo se encoge la que estorba.
+    # La medida sale de la S3, donde Jorge ajusto las dos laminas a mano.
+    if py + alto > SUELO and px < LOGO_X:
+        f = (SUELO - py) / alto
+        ancho, alto = ancho * f, alto * f
+        px = x + (w - ancho) / 2
+    s.shapes.add_picture(str(ruta), Inches(px), Inches(py), Inches(ancho), Inches(alto))
 
 
 def cuerpo_de(l: dict, act: dict | None) -> str:
@@ -248,24 +262,28 @@ def texto(s, x, y, w, h, t, size, color=AZUL, bold=True, al=PP_ALIGN.LEFT, ls=1.
             r.font.color.rgb = color; r.font.name = "Oswald"
 
 
-# ── Los cinco de siempre (§13 ④) ─────────────────────────────────────────
-# Cinco items binarios, cuatro puntos cada uno. Identicos en los 35 cursos: lo que
-# cambia por sesion es la concrecion del item 1, que vive en listas_cotejo.csv.
-COTEJO = [
-    ("COMPLETO", "ningún paso del encargo, ninguna fila ni casilla sin resolver"),
-    ("CON LOS DATOS DEL CASO", "cada afirmación se apoya en un dato; ninguna sale de suponer"),
-    ("CON EL TÉRMINO CORRECTO", "los términos de la sesión aparecen, y bien usados"),
-    ("CON EL PORQUÉ", "la norma, la causa o la consecuencia que lo sustenta"),
-    ("SUSTENTADO POR TODOS", "cada integrante expone, y responde sobre lo que no expuso"),
-]
-COTEJO_ESCALA = ("5 de 5   →   20\n"
-                 "4 de 5   →   16\n"
-                 "3 de 5   →   12\n"
-                 "2 de 5   →     8\n"
-                 "1 de 5   →     4\n"
-                 "0 de 5   →     0")
+# ── La lista de cotejo (§14) ─────────────────────────────────────────────
+# El instrumento va dibujado: 04_Recursos-graficos/comun/esquemas/lista-de-cotejo.png.
+# Es el mismo en los 35 cursos y en las tres carreras — por eso vive en comun/ y no
+# se escribe en ninguna tabla. Lo unico que cambia por sesion es la concrecion,
+# que sale de listas_cotejo.csv.
+COTEJO_IMG = GRAF / "comun/esquemas/lista-de-cotejo.png"
 
 LISTA = ("aprobada", "verificada")  # la barra del CLAUDE.md: verificada basta para colocarla
+
+
+def escala_animo(nro_sesion: str) -> str:
+    """Cuál de las tres escalas de ánimo toca hoy. Rota cada tres sesiones.
+
+    S1, S4, S7… la 1 · S2, S5, S8… la 2 · S3, S6, S9… la 3. Vale para los 35 cursos:
+    la lámina pide IMG-ESCALA-ANIMO y aquí se resuelve, para que nadie tenga que
+    acordarse de cambiarla curso por curso.
+    """
+    try:
+        n = int(nro_sesion)
+    except (TypeError, ValueError):
+        return "IMG-ESCALA-ANIMO-1"
+    return "IMG-ESCALA-ANIMO-%d" % ((n - 1) % 3 + 1)
 
 
 def colocable(im: dict | None, estricto: bool = False) -> bool:
@@ -273,6 +291,51 @@ def colocable(im: dict | None, estricto: bool = False) -> bool:
     if not im:
         return False
     return im.get("estado") == "aprobada" or (not estricto and im.get("estado") in LISTA)
+
+
+HUELLAS = RAIZ / "huellas_ppt.json"
+
+
+def huella(p: Path) -> str:
+    """SHA-1 del archivo. Con esto se sabe si alguien lo toco despues de generarlo."""
+    import hashlib
+    h = hashlib.sha1()
+    with open(p, "rb") as f:
+        for trozo in iter(lambda: f.read(1 << 20), b""):
+            h.update(trozo)
+    return h.hexdigest()
+
+
+def _huellas() -> dict:
+    import json
+    try:
+        return json.loads(HUELLAS.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def anotar_huella(p: Path) -> None:
+    import json
+    d = _huellas()
+    d[p.name] = huella(p)
+    HUELLAS.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+
+
+def proteger(p: Path, forzar: bool) -> None:
+    """Se planta si el PPT se edito a mano. El trabajo del instructor manda."""
+    if forzar or not p.exists():
+        return
+    previa = _huellas().get(p.name)
+    ahora = huella(p)
+    if previa == ahora:
+        return
+    motivo = ("se editó a mano después de la última generación"
+              if previa else "no lo generó este script, o es anterior al control de huellas")
+    raise SystemExit(
+        f"\n  NO SE SOBRESCRIBE: {p.name}\n"
+        f"  {motivo}.\n\n"
+        f"  Lo que hay en ese archivo no está en la base: si se regenera, se pierde.\n"
+        f"  Si de verdad quieres rehacerlo:  python generar_ppt.py {p.stem[:2]} --forzar\n")
 
 
 def destino(carrera: str, ses: dict, curso: dict) -> Path:
@@ -286,7 +349,12 @@ def destino(carrera: str, ses: dict, curso: dict) -> Path:
         for cur in sorted(ciclo.glob(f"* - {curso['curso_id']} - *")):
             carpeta = cur / "PPT"
             if carpeta.is_dir():
-                previos = sorted(carpeta.glob(f"S{ses['nro_sesion']}_*.pptx"))
+                # Coincide con S4_algo.pptx y tambien con «S4 Algo.pptx»: si el equipo
+                # renombra el archivo a mano —y lo hace—, hay que seguir escribiendo EN EL
+                # SUYO. Con el patron estricto se creaban dos PPT para la misma sesion.
+                n = ses["nro_sesion"]
+                previos = sorted(p for p in carpeta.glob("*.pptx")
+                                 if re.match(rf"S{n}(?!\d)", p.stem))
                 if previos:
                     return previos[0]
                 return carpeta / f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx"
@@ -294,7 +362,8 @@ def destino(carrera: str, ses: dict, curso: dict) -> Path:
             f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx")
 
 
-def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False) -> Path:
+def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False,
+            forzar: bool = False) -> Path:
     carrera = sesion_id.split("-")[0]
     laminas = sorted([l for l in leer(RAIZ / carrera / "laminas.csv")
                       if l["sesion_id"] == sesion_id], key=lambda r: int(r["orden"]))
@@ -307,6 +376,8 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False) 
 
     salida = salida or destino(carrera, ses, curso)
     salida.parent.mkdir(parents=True, exist_ok=True)
+    # ANTES de copiar la plantilla encima: si el archivo se toco a mano, aqui se para
+    proteger(salida, forzar)
     shutil.copy(PLANTILLA, salida)
 
     prs = Presentation(salida)
@@ -330,7 +401,10 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False) 
 
         # Notas del orador: que se hace en este momento (plan 003A) y que hay
         # detras de la imagen que se esta proyectando (imagenes.csv).
-        im = imgs.get(l.get("imagen_id", ""))
+        iid = l.get("imagen_id", "")
+        if iid == "IMG-ESCALA-ANIMO":
+            iid = escala_animo(ses["nro_sesion"])
+        im = imgs.get(iid)
         # La lamina de tema desarrolla SU punto clave; las demas siguen la
         # actividad del momento. Emparejar todo por momento hacia que la lamina
         # de VOLADURA llevara la nota del ciclo de minado.
@@ -359,13 +433,18 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False) 
             s.shapes.add_picture(str(FONDOS / "03_tapa.jpg"), 0, 0, W, H)
 
         elif t == "subportada-sesion":
-            b = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(6.13), Inches(1.45), Inches(0.10), Inches(1.84))
+            b = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(6.66), Inches(1.74), Inches(0.10), Inches(1.84))
             b.fill.solid(); b.fill.fore_color.rgb = AMBAR; b.line.fill.background()
-            texto(s, 0.21, 0.97, 5.72, 2.59, f"Unidad Didáctica\n{curso['nombre_curso'].upper()}",
+            texto(s, 0.74, 1.26, 5.72, 2.59, f"Unidad Didáctica\n{curso['nombre_curso'].upper()}",
                   27, AZUL, True, PP_ALIGN.RIGHT)
-            texto(s, 6.32, 1.08, 4.91, 1.91, f"{l['titulo']}\n{l['texto'].upper()}", 27)
-            texto(s, 2.03, 3.44, 3.90, 0.38, curso["carrera"].upper(), 16, AZUL, False, PP_ALIGN.RIGHT)
-            s.shapes.add_picture(str(MARCA / "si_triangulacion-icono.png"), Inches(4.86), Inches(3.90), Inches(2.58))
+            # si la lamina no trae el tema, se toma de la base: en S3 y S4 quedo vacio
+            # y la subportada decia «Sesión N°4» y nada mas.
+            tema = (l["texto"] or ses["tema"]).upper()
+            texto(s, 6.85, 1.37, 4.91, 1.91, l["titulo"] + chr(10) + tema, 27)
+            texto(s, 2.56, 3.73, 3.90, 0.38, curso["carrera"].upper(), 16, AZUL, False, PP_ALIGN.RIGHT)
+            # icono agrandado y bajado: medida que Jorge ajusto a mano en la subportada de la S1
+            s.shapes.add_picture(str(MARCA / "si_triangulacion-icono.png"),
+                                 Inches(4.90), Inches(4.34), Inches(3.73))
 
         elif t == "subportada-momento":
             ico = MARCA / f"si_{l['momento'].upper()}.png"
@@ -431,25 +510,35 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False) 
                 colocar(s, RAIZ.parent / im2["archivo"], *hueco)
 
         elif t == "cotejo":
-            # La misma lamina en las 24 sesiones y en las tres carreras: el alumno
-            # se aprende los cinco de tanto verlos. Solo cambia la linea de abajo.
-            texto(s, 0.92, 0.62, 11.5, 0.90, "Los cinco de siempre", 28, AZUL, True,
+            # La misma lamina en las 24 sesiones y en las tres carreras.
+            texto(s, 0.92, 0.45, 11.5, 0.75, "Lista de cotejo", 30, AZUL, True,
                   PP_ALIGN.CENTER, banda="titulo")
-            texto(s, 0.85, 1.52, 8.20, 0.44,
-                  "Con cuatro de cinco, apruebas. Con tres, no.", 16, AZUL, True, PP_ALIGN.LEFT)
-            texto(s, 0.85, 2.05, 8.20, 3.60,
-                  chr(10).join("%d · %s — %s" % (i, n, r) for i, (n, r) in enumerate(COTEJO, 1)),
-                  15, AZUL, False, PP_ALIGN.LEFT, 1.45, banda="cuerpo")
-            b = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(9.45), Inches(2.05),
-                                   Inches(0.035), Inches(3.40))
+            if COTEJO_IMG.exists():
+                colocar(s, COTEJO_IMG, 0.70, 1.25, 4.60, 5.10)
+            # A la derecha, COMO SE USA. Es lo que convierte la lista en aprendizaje y
+            # no en un control, y hasta ahora solo estaba en la doctrina.
+            texto(s, 5.95, 1.70, 6.90, 0.80, "Márcate tú primero.", 34, AZUL, True, PP_ALIGN.LEFT)
+            texto(s, 5.95, 2.60, 6.90, 0.80, "Después marco yo.", 34, GRIS, False, PP_ALIGN.LEFT)
+            b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(5.95), Inches(3.60),
+                                   Inches(6.90), Inches(1.35))
             b.fill.solid(); b.fill.fore_color.rgb = AMBAR; b.line.fill.background()
-            texto(s, 9.85, 2.05, 2.70, 3.60, COTEJO_ESCALA, 15, AZUL, False, PP_ALIGN.LEFT, 1.45)
-            concrecion = next((c.get("observable", "") for c in leer(RAIZ / carrera / "listas_cotejo.csv")
-                               if c.get("sesion_id") == sesion_id), "") \
-                if (RAIZ / carrera / "listas_cotejo.csv").exists() else ""
-            if concrecion:
-                texto(s, 0.85, 5.80, 11.60, 1.00,
-                      "Hoy, «completo» es:  " + concrecion, 14, AZUL, False, PP_ALIGN.LEFT, 1.25,
+            b.shadow.inherit = False
+            texto(s, 6.25, 3.90, 6.30, 0.80, "Donde no coincidamos, ahí conversamos.",
+                  28, AZUL, True, PP_ALIGN.LEFT)
+            texto(s, 5.95, 5.20, 6.90, 0.55, "No lleva nota: te dice cómo vas.",
+                  20, GRIS, False, PP_ALIGN.LEFT)
+            # SIN la concrecion al pie: repetia el encargo, que el alumno acaba de ver
+            # dos laminas antes. Sigue en listas_cotejo.csv y en el guion del instructor.
+            continue
+
+        elif t == "caso":
+            # La ficha del caso, dibujada. La lamina no repite el texto: lo lleva la figura.
+            texto(s, 0.92, 0.50, 11.5, 0.80, l["titulo"], 30, AZUL, True, PP_ALIGN.CENTER,
+                  banda="titulo")
+            if im and (RAIZ.parent / im["archivo"]).exists():
+                colocar(s, RAIZ.parent / im["archivo"], 0.60, 1.30, 12.10, 5.75)
+            elif l["texto"]:
+                texto(s, 0.92, 1.40, 11.5, 5.40, l["texto"], 18, AZUL, False, PP_ALIGN.LEFT, 1.30,
                       banda="cuerpo")
             continue
 
@@ -492,6 +581,7 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False) 
                       banda="cuerpo")
 
     prs.save(salida)
+    anotar_huella(salida)
     for a in revisar(laminas, imgs, sesion_id, carrera):
         print(f"  !!  {a}")
     return salida
@@ -503,6 +593,8 @@ if __name__ == "__main__":
     # Por defecto entra lo VERIFICADO, que es la barra del CLAUDE.md. --estricto exige
     # ademas la firma del instructor lider, para el entregable que se manda a revision.
     estricto = "--estricto" in sys.argv
-    f = generar(sid, estricto=estricto)
+    # --forzar rehace un PPT aunque se haya editado a mano. Solo cuando lo pide quien lo edito.
+    forzar = "--forzar" in sys.argv
+    f = generar(sid, estricto=estricto, forzar=forzar)
     p = Presentation(f)
     print(f"{f.relative_to(RAIZ.parent)}\n{len(p.slides)} diapositivas · {f.stat().st_size//1024//1024} MB")

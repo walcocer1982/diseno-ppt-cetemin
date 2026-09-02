@@ -57,21 +57,64 @@ def an(d, t, f):
     return a[2] - a[0]
 
 
-def cen(d, x, y, w, t, px, color, bold=True, margen=30):
-    """Centra el texto y, si no cabe, baja de punto hasta que quepa."""
+PX_MIN = 44                  # 12,7 pt proyectados: por debajo no se lee al proyectar
+AVISOS = []                  # lo que no cupo en su caja. `guardar` lo canta
+
+
+def _cabe(d, t, f, w):
+    return an(d, t, f) <= w
+
+
+def cen(d, x, y, w, t, px, color, bold=True, margen=30, alto=None):
+    """Centra el texto. Si no cabe: baja de punto hasta PX_MIN y despues ENVUELVE.
+
+    Antes bajaba hasta 26 px —7,5 pt proyectados—, que no se lee. Y lo que seguia
+    sin caber salia cortado. Ahora ninguna de las dos cosas.
+    """
+    util = w - margen
     f = fu(px, bold)
-    while an(d, t, f) > w - margen and px > 26:
+    while not _cabe(d, t, f, util) and px > PX_MIN:
         px -= 2
         f = fu(px, bold)
-    d.text((x + (w - an(d, t, f)) / 2, y), t, font=f, fill=color)
+    if _cabe(d, t, f, util):
+        d.text((x + (w - an(d, t, f)) / 2, y), t, font=f, fill=color)
+        return y + px * 1.25
+    lineas = envolver(d, t, px, util, bold)
+    if alto and len(lineas) * px * 1.25 > alto:
+        AVISOS.append("«%s…» no cabe en su caja ni envuelto" % t[:44])
+    for i, l in enumerate(lineas):
+        fl = fu(px, bold)
+        d.text((x + (w - an(d, l, fl)) / 2, y + i * px * 1.25), l, font=fl, fill=color)
+    return y + len(lineas) * px * 1.25
 
 
-def izq(d, x, y, t, px, color, bold=False):
-    d.text((x, y), t, font=fu(px, bold), fill=color)
+def izq(d, x, y, t, px, color, bold=False, ancho=None):
+    """Texto a la izquierda. Con `ancho`, ENVUELVE en vez de salirse de la caja.
+
+    Sin `ancho` se comporta como antes — pero entonces nadie garantiza que quepa,
+    y por eso `filas_letra` y `tabla` ahora siempre lo pasan.
+    """
+    f = fu(px, bold)
+    if ancho is None or _cabe(d, t, f, ancho):
+        d.text((x, y), t, font=f, fill=color)
+        return y + px * 1.25
+    px2 = px
+    while px2 > PX_MIN and not _cabe(d, t, fu(px2, bold), ancho):
+        px2 -= 2
+    lineas = envolver(d, t, px2, ancho, bold)
+    for i, l in enumerate(lineas):
+        d.text((x, y + i * px2 * 1.25), l, font=fu(px2, bold), fill=color)
+    return y + len(lineas) * px2 * 1.25
 
 
-def envolver(d, t, px, ancho):
-    f, lineas, act = fu(px), [], ""
+def envolver(d, t, px, ancho, bold=False):
+    """Parte el texto en lineas que caben en `ancho`.
+
+    OJO con `bold`: la negrita es mas ancha. Midiendo en redonda un texto que luego se
+    dibuja en negrita, la linea se pasa y se corta. Le paso el mismo peso con el que se
+    va a dibujar.
+    """
+    f, lineas, act = fu(px, bold), [], ""
     for p in t.split():
         s = (act + " " + p).strip()
         if an(d, s, f) <= ancho:
@@ -100,6 +143,11 @@ def guardar(im, nombre, destino):
     im.save(os.path.join(destino, nombre), "PNG")
     print("   %-42s %sx%s · cuerpo %.1f pt" % (nombre, im.width, im.height,
                                                6.0 * CUE / im.width * 72))
+    # El numero no ve el borde: un esquema puede medir 15 pt y tener una linea
+    # cortada. Lo que no cupo se canta aqui, y la lista se vacia para el siguiente.
+    for a in AVISOS:
+        print("      !! %s" % a)
+    del AVISOS[:]
     return im
 
 
@@ -109,7 +157,7 @@ def banda(d, y, alto, texto, px=NOTA, fondo=GRISC, tinta=AZUL):
     cen(d, 50, y + (alto - px) / 2 - 6, W - 100, texto, px, tinta)
 
 
-# ── las seis formas que ya funcionan ──────────────────────────────────────
+# ── las siete formas que ya funcionan ──────────────────────────────────────
 def filas_letra(d, filas, y=60, alto=280, sep=30):
     """(letra, NOMBRE, detalle, color) — para siglas: SSOMAC, PHVA…"""
     for letra, nombre, det, col in filas:
@@ -117,8 +165,10 @@ def filas_letra(d, filas, y=60, alto=280, sep=30):
         d.rounded_rectangle([50, y, 300, y + alto], 20, fill=col)
         d.rectangle([260, y, 300, y + alto], fill=col)
         cen(d, 50, y + alto / 2 - 58, 250, letra, 92, AZUL if col == AMBAR else BLANCO)
-        izq(d, 350, y + 62, nombre, TIT, AZUL, True)
-        izq(d, 350, y + 155, det, CUE, GRIS)
+        # el ancho util es hasta el margen derecho: sin pasarlo, el detalle se cortaba
+        util = W - 50 - 350 - 40
+        izq(d, 350, y + 62, nombre, TIT, AZUL, True, ancho=util)
+        izq(d, 350, y + 155, det, CUE, GRIS, ancho=util)
         y += alto + sep
     return y
 
@@ -127,17 +177,30 @@ def tabla(d, encabezados, filas, cortes, y=60):
     """Comparar por columnas. filas = [([col1...], [col2...], destacado, fondo, tinta)]"""
     x = cortes
     d.rectangle([x[0], y, x[-1], y + 100], fill=AZUL)
-    for i, t in enumerate(encabezados):
-        cen(d, x[i], y + 26, x[i + 1] - x[i], t, 48, BLANCO)
+    # Los encabezados se miden ANTES de dibujarlos y bajan de punto JUNTOS. Midiendo cada
+    # uno por su lado, el que no cabia se envolvia y la segunda linea salia de la banda.
+    px = 48
+    while px > PX_MIN and any(not _cabe(d, e, fu(px, True), x[i + 1] - x[i] - 30)
+                              for i, e in enumerate(encabezados)):
+        px -= 2
+    for i, e in enumerate(encabezados):
+        if not _cabe(d, e, fu(px, True), x[i + 1] - x[i] - 30):
+            AVISOS.append("el encabezado «%s» no cabe en su columna ni a %d px" % (e, px))
+        cen(d, x[i], y + (100 - px) / 2 - 6, x[i + 1] - x[i], e, px, BLANCO)
     y += 100
     for celdas, destacado, fondo, tinta in filas:
-        alto = 60 + max(len(c) for c in celdas) * 66
+        # una celda larga se envuelve: la fila tiene que crecer con ella
+        lineas = max(len(envolver(d, c, CUE, x[j + 1] - x[j] - 64))
+                     for j, col in enumerate(celdas) for c in col)
+        alto = 60 + max(len(c) for c in celdas) * 66 + (lineas - 1) * 66
         d.rectangle([x[0], y, x[-1], y + alto], fill=BLANCO, outline=(214, 220, 224), width=3)
         if destacado:
             d.rectangle([x[-2] + 14, y + 20, x[-1] - 14, y + alto - 20], fill=fondo)
         for j, col in enumerate(celdas):
+            # el ancho de ESA columna, menos los margenes: antes se salia a la de al lado
+            util = x[j + 1] - x[j] - 64
             for i, t in enumerate(col):
-                izq(d, x[j] + 32, y + (alto - len(col) * 64) / 2 + i * 64, t, CUE, AZUL)
+                izq(d, x[j] + 32, y + (alto - len(col) * 64) / 2 + i * 64, t, CUE, AZUL, ancho=util)
         if destacado:
             cen(d, x[-2], y + alto / 2 - 26, x[-1] - x[-2], destacado, 46, tinta)
         y += alto
@@ -200,8 +263,56 @@ def comparativa(d, izquierda, derecha, filas, y=50):
     return y
 
 
+def caso(d, empresa, ficha, hechos, color=AZUL2, y=60, alto=250, cols=2):
+    """La ficha de un caso de sesion: cabecera con la empresa, y los hechos en cajas.
+
+    empresa = "CASO A"   ficha = "Planificacion, recursos y documentacion del SGC"
+    hechos  = [texto, ...]  — uno por caja, se envuelven solos
+
+    DOS COLUMNAS por defecto. A una sola, seis parrafos dan una imagen mas alta que ancha,
+    y al encajarla en una lamina apaisada el cuerpo se proyecta a 9 pt. Con dos, a 22 pt.
+    """
+    # la cabecera CRECE con su texto: con una ficha larga, la banda fija de 190 px
+    # la cortaba por la mitad y el nombre de la empresa se salia de la caja
+    lf = envolver(d, ficha, NOTA, W - 180, bold=True)
+    alto_cab = 120 + len(lf) * int(NOTA * 1.3)
+    d.rounded_rectangle([50, y, W - 50, y + alto_cab], 18, fill=color)
+    cen(d, 50, y + 30, W - 100, empresa, TIT, BLANCO)
+    for i, l in enumerate(lf):
+        cen(d, 50, y + 112 + i * int(NOTA * 1.3), W - 100, l, NOTA, BLANCO)
+    y0 = y + alto_cab + 30
+
+    ancho = (W - 100 - 30 * (cols - 1)) / cols
+    util = ancho - 90
+    filas = -(-len(hechos) // cols)
+    altos = []
+    for h in hechos:
+        altos.append(max(alto, 70 + len(envolver(d, h, CUE, util)) * 66))
+    # todas las cajas de una misma fila comparten alto: si no, la rejilla queda coja
+    por_fila = [max(altos[i * cols:(i + 1) * cols] or [alto]) for i in range(filas)]
+
+    for k, h in enumerate(hechos):
+        col, fil = k % cols, k // cols
+        x = 50 + col * (ancho + 30)
+        yy = y0 + sum(por_fila[:fil]) + fil * 24
+        caja = por_fila[fil]
+        d.rounded_rectangle([x, yy, x + ancho, yy + caja], 16, fill=GRISC)
+        d.rounded_rectangle([x, yy, x + 24, yy + caja], 16, fill=color)
+        d.rectangle([x + 12, yy, x + 24, yy + caja], fill=color)
+        lineas = envolver(d, h, CUE, util)
+        for i, l in enumerate(lineas):
+            izq(d, x + 60, yy + (caja - len(lineas) * 66) / 2 + i * 66, l, CUE, AZUL)
+    return y0 + sum(por_fila) + (filas - 1) * 24
+
+
 def fichas(d, items, y=50, alto=300, cols=2, pie=None):
-    """Elementos numerados a clasificar. items = [texto, ...]"""
+    """Elementos numerados a clasificar. items = [texto, ...]
+
+    OJO: el texto se envuelve solo y el salto de linea se trata como un espacio. Poner
+    "ROTULO
+detalle" NO da dos bloques: da "ROTULO detalle" corrido. Para rotulo y
+    detalle separados, usa `tabla` de dos columnas.
+    """
     ancho = (W - 100 - 40 * (cols - 1)) / cols
     for i, t in enumerate(items):
         x = 50 + (i % cols) * (ancho + 40)

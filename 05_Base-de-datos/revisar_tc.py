@@ -117,7 +117,12 @@ def revisar(carrera: str) -> int:
 
         # 13 · fuente real: se busca una cita o un enlace de repositorio
         fuente = (c.get("fuente") or "") + " " + (c.get("recursos") or "") + " " + desc
-        if not re.search(r"\(\s*(19|20)\d{2}\s*\)|repositorio\.|tesis\.|alicia\.", fuente, re.I):
+        # El §12 pide anclar el caso en una fuente real. Cuando el curso decide trabajar
+        # con un caso construido, la exigencia pasa a ser DECLARARLO: un caso sin fuente
+        # y sin decision escrita sigue siendo un caso a ciegas.
+        declarado = re.search(r"caso construido|DECISION", fuente, re.I)
+        if not declarado and not re.search(
+                r"\(\s*(19|20)\d{2}\s*\)|repositorio\.|tesis\.|alicia\.", fuente, re.I):
             print("   ·  sin fuente real citada (tesis de repositorio) — parametro 13")
 
         # rubrica: 5 criterios, 20 puntos, ninguno ajeno al indicador del caso

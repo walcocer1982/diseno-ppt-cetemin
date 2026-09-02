@@ -44,7 +44,10 @@ for _f in (sys.stdout, sys.stderr):
 
 
 MAX_PALABRAS = 90        # por encima, muro de texto (error #5 del §08)
-MAX_TRIANGULACION = 110  # la triangulacion es densa POR DISEÑO (§07): muestra
+MAX_TRIANGULACION = 120  # DECISION de Jorge Canchiz, 2026-09-02: la lamina se queda como
+                         # esta. Recortarla obligaria a quitar algo que el formato oficial
+                         # pide. Era el unico aviso que quedaba en la S1 y la S3.
+                         # la triangulacion es densa POR DISEÑO (§07): muestra
                          # aprendizaje, puntos clave y evaluacion de un vistazo,
                          # y por eso NO cuenta como muro de texto
 W_IN, H_IN = 13.333, 7.5

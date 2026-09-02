@@ -24,7 +24,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from generar_ppt import (RAIZ, leer, sin_tildes, bajada_de, punto_de, revisar)
+from generar_ppt import (RAIZ, leer, sin_tildes, bajada_de, punto_de, revisar, destino)
 
 import sys
 
@@ -43,8 +43,10 @@ def generar(sesion_id: str) -> Path:
     carrera = sesion_id.split("-")[0]
     laminas = sorted([l for l in leer(RAIZ / carrera / "laminas.csv")
                       if l["sesion_id"] == sesion_id], key=lambda r: int(r["orden"]))
-    if not laminas:
-        raise SystemExit(f"No hay laminas para {sesion_id}")
+    # Sin laminas el guion sigue sirviendo: es el documento de revision del DISEÑO
+    # —aprendizaje esperado, puntos clave, los dos casos y la lista de cotejo—, que
+    # es justo lo que hay que aprobar ANTES de armar el PPT (§13 ⑥).
+    previo = not laminas
     ses = next(s for s in leer(RAIZ / carrera / "sesiones.csv") if s["sesion_id"] == sesion_id)
     curso = next(c for c in leer(RAIZ / "cursos.csv") if c["curso_id"] == ses["curso_id"])
     imgs = {i["imagen_id"]: i for i in leer(RAIZ / "imagenes.csv")}
@@ -55,7 +57,9 @@ def generar(sesion_id: str) -> Path:
 
     total = sum(int(l["minutos"] or 0) for l in laminas)
     o = [f"# Sesión {ses['nro_sesion']} · {ses['tema']}", "",
-         f"**{curso['nombre_curso']}** · {curso['carrera']} · {len(laminas)} diapositivas · **{total} min**", "",
+         f"**{curso['nombre_curso']}** · {curso['carrera']} · "
+         + ("**diseño para revisar · el PPT todavía no se ha armado**"
+            if previo else f"{len(laminas)} diapositivas · **{total} min**"), "",
          "> Documento de verificación. Se genera desde la base: para cambiarlo, se cambia el CSV.", "",
          "## Aprendizaje esperado", "", f"> {ses['aprendizaje_esperado']}", ""]
     ind = inds.get(ses.get("indicador_id", ""))
@@ -75,6 +79,33 @@ def generar(sesion_id: str) -> Path:
         o += ["## El caso de la sesión", "", f"**{c['caso_id']}**", "", f"> {c['descripcion']}", "",
               f"**Pregunta gatilladora:** {c.get('pregunta_gatilladora','')}", "",
               f"**Producto:** {c.get('producto','')}", ""]
+        # el texto COMPLETO de los dos casos: es lo que el instructor tiene que leer
+        # y corregir antes de que se arme el PPT (§13 ③)
+        # Los dos casos EN DOBLE ENTRADA, parrafo contra parrafo. Asi se revisa de un
+        # vistazo si son equivalentes: mismo procedimiento, otra empresa y otros datos.
+        # Si un caso tiene mas parrafos que el otro, se ve — y suele querer decir que
+        # uno de los dos esta cojo.
+        if c.get("caso_a") or c.get("caso_b"):
+            pa = [p.strip() for p in (c.get("caso_a") or "").split(chr(10) + chr(10)) if p.strip()]
+            pb = [p.strip() for p in (c.get("caso_b") or "").split(chr(10) + chr(10)) if p.strip()]
+            o += ["### Los dos casos, uno frente al otro", "",
+                  "| CASO A | CASO B |", "|---|---|"]
+            for i in range(max(len(pa), len(pb))):
+                a = pa[i].replace("|", chr(92) + "|") if i < len(pa) else ""
+                b = pb[i].replace("|", chr(92) + "|") if i < len(pb) else ""
+                o.append(f"| {a} | {b} |")
+            o.append("")
+            if len(pa) != len(pb):
+                o += [f"> ⚠ El caso A tiene {len(pa)} párrafos y el B {len(pb)}. "
+                      "Los dos casos deben correr en paralelo.", ""]
+        if c.get("evaluacion_lamina"):
+            o += [f"*{c['evaluacion_lamina']}*", ""]
+        conc = [x for x in leer(RAIZ / carrera / "listas_cotejo.csv")
+                if x.get("sesion_id") == sesion_id] if (RAIZ / carrera / "listas_cotejo.csv").exists() else []
+        if conc:
+            o += ["### Lista de cotejo · qué es «completo» hoy", "",
+                  "Los cinco ítems son fijos (§14). Lo que cambia por sesión es esta línea, "
+                  "y son los pasos del encargo:", "", f"> {conc[0].get('observable','')}", ""]
 
     recursos = [i for i in leer(RAIZ / "imagenes.csv")
                 if i["imagen_id"] not in {l.get("imagen_id") for l in laminas}
@@ -89,7 +120,7 @@ def generar(sesion_id: str) -> Path:
 
     o += ["## Ruta de la sesión", ""]
     actual = None
-    for l in laminas:
+    for l in (laminas if not previo else []):
         m = l.get("momento", "")
         if m and m != actual:
             actual = m
@@ -113,7 +144,7 @@ def generar(sesion_id: str) -> Path:
             o.append(f"  *rutina: {a['rutina']}*")
         o.append("")
 
-    avisos = revisar(laminas, imgs, sesion_id, carrera)
+    avisos = [] if previo else revisar(laminas, imgs, sesion_id, carrera)
     o += ["---", "", "## ⚠ Avisos", ""]
     o += [f"- {a}" for a in avisos] if avisos else ["- ninguno: la sesión está completa"]
     o += ["", "---", "", "## Verificación del instructor", "",
@@ -124,9 +155,8 @@ def generar(sesion_id: str) -> Path:
           "- [ ] Las imágenes están aprobadas", "",
           "**Aprobado por:** ______________________  **Fecha:** ____________", ""]
 
-    salida = (RAIZ.parent / "03_Entregables-diseño" /
-              f"{carrera}-{sin_tildes(curso['nombre_curso'])}" /
-              f"S{ses['nro_sesion']}_guion.md")
+    # misma regla de ruta que el PPT: la carpeta del curso, en «Guiones de sesión»
+    salida = destino(carrera, ses, curso).parent.parent / "Guiones de sesión" /         f"S{ses['nro_sesion']}_guion.md"
     salida.parent.mkdir(parents=True, exist_ok=True)
     salida.write_text("\n".join(o), encoding="utf-8")
     return salida
