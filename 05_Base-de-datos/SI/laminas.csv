@@ -28,57 +28,72 @@ L019,SI-SGCSSMA-S1,19,tema,adquisicion,4,La ISO 9001,,C-SI-SGCSSMA-S1-4,1-4,"fic
 L020,SI-SGCSSMA-S1,20,tema,adquisicion,4,"Voluntaria, pero exigida por el cliente",,C-SI-SGCSSMA-S1-4,5-7,cadena cliente minero → registro de proveedores → exigencia de certificación,IMG-SI-ISO9001-CLIENTE
 L021,SI-SGCSSMA-S1,21,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
 L022,SI-SGCSSMA-S1,22,contenido,aplicacion,4,"El encargo, igual para todos","Una contratista tiene que entregar la carpeta que autoriza el ingreso, y le faltan documentos.
-El cliente pide ocho; la relación completa está en tu hoja.
 
-1 · Clasifiquen cada documento por letra del SSOMAC
-2 · Señalen los que faltan o están vencidos
-3 · Describan qué queda sin cubrir y a quién deja desprotegido",,,,
-L023,SI-SGCSSMA-S1,23,contenido,aplicacion,4,Caso A · Servicios Mineros Huanza,"Mantenimiento mecánico · 78 trabajadores · 48 horas para entrar a planta
-
-Lo que hay en el archivador:
-· la política, firmada en marzo
-· la matriz de residuos del taller, de enero
-· el programa de mantenimiento preventivo del año
-· los exámenes médicos, vencimiento 12/03 del año pasado
-· la hoja de datos del aceite hidráulico, edición 2019
-· el acta del comité de agosto",,,"los ocho documentos de la carpeta de Huanza, como fichas numeradas",IMG-SI-CARPETA-HUANZA
-L024,SI-SGCSSMA-S1,24,contenido,aplicacion,4,Caso B · Transportes del Sur,"Acarreo de mineral · 45 trabajadores · 5 días para entrar a mina
-
-Lo que aparece al abrir el archivador:
-· la política, con la línea de firma en blanco
-· el programa de manejo de residuos, de febrero
-· los cargos de entrega de EPP, firmados uno por uno
-· los exámenes médicos, vigentes hasta noviembre
-· la hoja de datos del combustible, edición 2017
-· el acta del comité de julio
-· una encuesta de satisfacción del año pasado",,,"los ocho documentos de la carpeta de Transportes del Sur, como fichas numeradas",IMG-SI-CARPETA-TRANSPORTES
-L025,SI-SGCSSMA-S1,25,contenido,aplicacion,28,A trabajar,"Equipos de 3.   ·   Tiempo: 26 min + 2 min para ordenar la sustentación
-
-Los impares toman el caso A; los pares, el B.
-
-VERDE — es de una sola letra
-ÁMBAR — sirve a dos o más
-ROJO — no logramos ubicarlo
-
-Al cerrar: qué queda sin cubrir y a quién deja desprotegido.",,,,
-L026,SI-SGCSSMA-S1,26,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+1 · Clasifiquen cada documento por letra del SSOMAC, con el semáforo
+2 · Señalen los que faltan y los que están pero no sirven
+3 · Describan qué queda sin cubrir y a quién deja desprotegido
+4 · Señalen cuál lo pide el cliente y no la ley, y qué pasa si falta
+5 · Digan por qué se guardarían por proceso y no por área",,,,
+L023,SI-SGCSSMA-S1,23,caso,aplicacion,4,Caso A · Perforaciones y Sondajes Mineros,,,,"la ficha del caso: la empresa, su situación y los hechos",IMG-SI-CASO-S1A
+L024,SI-SGCSSMA-S1,24,caso,aplicacion,4,Caso B · Obras Civiles y Movimiento de Tierras,,,,"la ficha del caso: la empresa, su situación y los hechos",IMG-SI-CASO-S1B
+L025,SI-SGCSSMA-S1,25,caso,aplicacion,28,A trabajar,,,,las tarjetas de a trabajar,IMG-SI-S1-TRABAJAR
+L026,SI-SGCSSMA-S1,26,cotejo,aplicacion,0,,,,,los cinco ítems de la lista de cotejo y la escala,IMG-LISTA-COTEJO
 L027,SI-SGCSSMA-S1,27,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L028,SI-SGCSSMA-S1,28,contenido,discusion,20,Empecemos por los ámbar,"2 min por equipo, alternando A y B.   ·   Formato:
-
-AFIRMACIÓN — qué letra le pusimos
-APOYO — en qué dato del documento nos basamos
-PREGUNTA — qué nos quedó sin resolver
-
-Dos empresas distintas y huecos distintos: ¿por qué salen los mismos ámbar?",,,,
+L028,SI-SGCSSMA-S1,28,caso,discusion,20,Empecemos por los ámbar,,,,las tarjetas de empecemos por los ámbar,IMG-SI-S1-DISCUSION
 L029,SI-SGCSSMA-S1,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L030,SI-SGCSSMA-S1,30,contenido,reflexion,5,Tu titular de hoy,"Si esta sesión fuera una noticia, ¿cuál sería el titular?
-
-Una sola línea, en el chat.",,,,
-L031,SI-SGCSSMA-S1,31,contenido,reflexion,5,Antes de irnos,"Volvamos a las preguntas que dejaste en el mural del inicio.
+L030,SI-SGCSSMA-S1,30,contenido,reflexion,10,Antes de irnos,"Volvamos a las preguntas que dejaste en el mural del inicio.
 
 La próxima sesión: el ciclo PHVA y el contexto de la organización en la ISO 9001.
 Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
-L032,SI-SGCSSMA-S1,32,tapa,,0,,,,,,
+L031,SI-SGCSSMA-S1,31,tapa,,0,,,,,,
+S4-L001,SI-SGCSSMA-S4,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+S4-L002,SI-SGCSSMA-S4,2,subportada-sesion,,0,Sesión N°4,"Planificación, recursos y documentación del SGC",,,,
+S4-L003,SI-SGCSSMA-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+S4-L004,SI-SGCSSMA-S4,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve eres tú el día de hoy?",,,escala de ánimo de nueve obras numeradas,IMG-ESCALA-ANIMO
+S4-L005,SI-SGCSSMA-S4,5,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,los cinco momentos de la sesión con lo que se hace y los minutos de cada uno,IMG-SI-RUTA-S4
+S4-L006,SI-SGCSSMA-S4,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+S4-L007,SI-SGCSSMA-S4,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"La política de la pared estaba firmada y no comprometía a nadie.
+
+Hoy: papeles que sí existen, que sí están escritos… y que tampoco sirven.",,,"qué es, para qué sirve y quién firma la política de calidad",IMG-SI-POLITICA-QUE-ES
+S4-L008,SI-SGCSSMA-S4,8,contenido,conexion,8,Semáforo,"Mira los seis papeles del tablero de obra.
+
+VERDE — lo usaría sin dudar
+ÁMBAR — lo usaría, pero antes verifico algo
+ROJO — no lo usaría
+
+Uno de cada color, y por qué.",,,"seis papeles de un tablero de obra, cada uno con lo que se ve de él",IMG-SI-TABLERO-OBRA
+S4-L009,SI-SGCSSMA-S4,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+S4-L010,SI-SGCSSMA-S4,10,tema,adquisicion,6,Qué se planifica,,C-SI-SGCSSMA-S4-1,1-4,"qué, quién, cuándo y con qué se comprobará",IMG-SI-PLAN-QQC
+S4-L011,SI-SGCSSMA-S4,11,tema,adquisicion,5,Los cambios también se planifican,,C-SI-SGCSSMA-S4-1,5-7,qué separa un cambio improvisado de uno planificado,IMG-SI-PLAN-CAMBIOS
+S4-L012,SI-SGCSSMA-S4,12,tema,adquisicion,6,Personas y competencia,,C-SI-SGCSSMA-S4-2,1-4,lo que la norma pide en personas y qué significa en la práctica,IMG-SI-REC-PERSONAS
+S4-L013,SI-SGCSSMA-S4,13,tema,adquisicion,5,Con qué se trabaja y con qué se mide,,C-SI-SGCSSMA-S4-2,5-8,"infraestructura, ambiente de trabajo, medición y calibración",IMG-SI-REC-INFRA
+S4-L014,SI-SGCSSMA-S4,14,tema,adquisicion,6,Lo que dice que hará y lo que hizo,,C-SI-SGCSSMA-S4-3,1-4,las dos mitades de la información documentada,IMG-SI-DOC-DICE-HIZO
+S4-L015,SI-SGCSSMA-S4,15,tema,adquisicion,5,Cuánto documentar,,C-SI-SGCSSMA-S4-3,5-8,"documentar de más, lo justo y de menos",IMG-SI-DOC-CUANTO
+S4-L016,SI-SGCSSMA-S4,16,tema,adquisicion,6,Aprobación y versión vigente,,C-SI-SGCSSMA-S4-4,1-4,los cuatro pasos del control de un documento,IMG-SI-CTRL-VERSION
+S4-L017,SI-SGCSSMA-S4,17,tema,adquisicion,6,"Acceso, protección y lo que viene de fuera",,C-SI-SGCSSMA-S4-4,5-8,lo que queda del control una vez el documento está en uso,IMG-SI-CTRL-ACCESO
+S4-L018,SI-SGCSSMA-S4,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+S4-L019,SI-SGCSSMA-S4,19,contenido,aplicacion,5,"El encargo, igual para todos","Dos empresas van a perder dinero el viernes por un papel que estaba escrito y no sirvió.
+
+1 · De los siete hechos: qué documentos debían estar controlados y cuál no hacía falta
+2 · Qué falló en el control de cada uno, y con qué hecho lo prueban
+3 · Qué recursos hacen falta y quién los pone
+4 · Qué le pasa a la empresa, y en qué se diferencia de incumplir la ley",,,,
+S4-L020,SI-SGCSSMA-S4,20,caso,aplicacion,0,Caso A · Servicios Analíticos Industriales,,,,"la ficha del caso A: la empresa, su situación y los hechos",IMG-SI-CASO-S4A
+S4-L021,SI-SGCSSMA-S4,21,caso,aplicacion,0,Caso B · Ingeniería y Montaje Electromecánico,,,,"la ficha del caso B: la empresa, su situación y los hechos",IMG-SI-CASO-S4B
+S4-L022,SI-SGCSSMA-S4,22,caso,aplicacion,30,A trabajar,,,,las tarjetas de a trabajar,IMG-SI-S4-TRABAJAR
+S4-L023,SI-SGCSSMA-S4,23,cotejo,aplicacion,5,,,,,,IMG-LISTA-COTEJO
+S4-L024,SI-SGCSSMA-S4,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+S4-L025,SI-SGCSSMA-S4,25,caso,discusion,20,"Dos empresas, la misma revisión vieja",,,,"las tarjetas de dos empresas, el mismo viernes",IMG-SI-S4-DISCUSION
+S4-L026,SI-SGCSSMA-S4,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+S4-L027,SI-SGCSSMA-S4,27,contenido,reflexion,10,Antes de irnos,"¿Logramos el aprendizaje esperado?
+¿Qué funcionó?
+¿Cómo se han sentido?
+
+Con esto cerramos el bloque de calidad.
+La próxima sesión: el SGSST peruano — por qué es obligatorio y qué norma lo manda.",,,,
+S4-L028,SI-SGCSSMA-S4,28,tapa,,0,,,,,,
 S2-L001,SI-SGCSSMA-S2,1,portada,,0,SEGURIDAD INDUSTRIAL,SEDE ABQ,,,,
 S2-L002,SI-SGCSSMA-S2,2,subportada-sesion,,0,Sesión N°2,"Ciclo PHVA, términos clave y contexto de la organización",,,,
 S2-L003,SI-SGCSSMA-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
@@ -108,43 +123,116 @@ S2-L019,SI-SGCSSMA-S2,19,tema,adquisicion,4,Qué espera cada una,,C-SI-SGCSSMA-S
 S2-L020,SI-SGCSSMA-S2,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
 S2-L021,SI-SGCSSMA-S2,21,contenido,aplicacion,5,"El encargo, igual para todos","Un servicio se entregó a tiempo y aun así falló.
 
-1 · Ubiquen cada hecho del relato en la etapa del ciclo que le corresponde
-2 · Armen la relación de partes interesadas y qué esperaba cada una, separando lo de fuera de lo de dentro
-3 · Señalen en qué etapa se rompió el ciclo y a quién le costó",,,,
-S2-L022,SI-SGCSSMA-S2,22,contenido,aplicacion,0,Caso A · Servicios Mineros Huanza,"Motor de la faja 3, comprometido en 36 horas. Se escribió el procedimiento, se asignaron dos mecánicos y se pidieron los repuestos. Terminado en 31 horas; el cliente firmó la conformidad.
-
-A los ocho días el motor se detuvo: el acople estaba mal alineado. Nadie midió la alineación al cerrar — la ficha de entrega no la pedía.
-
-S/ 8 000 descontados · el superintendente pide evaluar el cambio de contratista · los dos mecánicos rehacen el trabajo en su día de descanso.",,,,
-S2-L023,SI-SGCSSMA-S2,23,contenido,aplicacion,0,Caso B · Transportes del Sur,"900 toneladas en una semana. Se planificaron doce viajes diarios, se asignaron cuatro volquetes y se programó el chequeo de frenos antes de cada salida. Cerró con 880 toneladas y el cliente pagó completo.
-
-El viernes un volquete se quedó sin frenos en la bajada del kilómetro 4 y terminó contra el talud; el conductor salió ileso. La revisión estaba firmada — la firmó el propio conductor, sin bajar de la unidad.
-
-El caserío vecino cerró la vía dos días.",,,,
-S2-L024,SI-SGCSSMA-S2,24,contenido,aplicacion,30,A trabajar,"Equipos de 4.   ·   Tiempo: 26 min de trabajo + 2 min para ordenar la sustentación
-
-Los impares toman el caso A; los pares, el B.
-
-PÓNGANSE DENTRO — dentro del equipo, cada integrante toma una voz: el cliente · quien hizo el trabajo · quien mira desde fuera · la empresa. Escriban desde esa voz qué esperaba y qué perdió.
-
-Al cerrar: en qué etapa se rompió el ciclo.",,,,
-S2-L025,SI-SGCSSMA-S2,25,cotejo,aplicacion,5,Los cinco de siempre,,,,,
-S2-L026,SI-SGCSSMA-S2,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-S2-L027,SI-SGCSSMA-S2,27,contenido,discusion,20,"Dos empresas, la misma etapa","2 min por equipo, alternando A y B.   ·   Formato:
-
-AFIRMACIÓN — en qué etapa se rompió
-APOYO — en qué dato del relato nos basamos
-PREGUNTA — qué nos quedó sin resolver
-
-Dos empresas distintas y fallas distintas: ¿por qué se rompen en la misma etapa?",,,,
-S2-L028,SI-SGCSSMA-S2,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-S2-L029,SI-SGCSSMA-S2,29,contenido,reflexion,5,Tu titular de hoy,"Si esta sesión fuera una noticia, ¿cuál sería el titular?
-
-Una sola línea, en el chat.",,,,
-S2-L030,SI-SGCSSMA-S2,30,contenido,reflexion,5,Antes de irnos,"¿Logramos el aprendizaje esperado?
+1 · Ubiquen los NUEVE hechos en su etapa del ciclo, por su número
+2 · Escriban en qué etapa se rompió y con qué hecho lo prueban
+3 · Identifiquen al menos CUATRO partes interesadas
+4 · Separen el contexto: lo que venía de fuera y lo de dentro",,,,
+S2-L022,SI-SGCSSMA-S2,22,caso,aplicacion,0,Caso A · Mantenimiento de Equipos Mineros,,,,"la ficha del caso: la empresa, su situación y los hechos",IMG-SI-CASO-S2A
+S2-L023,SI-SGCSSMA-S2,23,caso,aplicacion,0,Caso B · Transporte de Concentrado del Centro,,,,"la ficha del caso: la empresa, su situación y los hechos",IMG-SI-CASO-S2B
+S2-L024,SI-SGCSSMA-S2,24,caso,aplicacion,30,A trabajar,,,,las tarjetas de a trabajar,IMG-SI-S2-TRABAJAR
+S2-L025,SI-SGCSSMA-S2,25,caso,aplicacion,0,Los tres cuadros que entregan,,,,los tres cuadros vacíos que el equipo copia en su hoja,IMG-SI-ENTREGA-S2
+S2-L026,SI-SGCSSMA-S2,26,cotejo,aplicacion,5,,,,,los cinco ítems de la lista de cotejo y la escala,IMG-LISTA-COTEJO
+S2-L027,SI-SGCSSMA-S2,27,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+S2-L028,SI-SGCSSMA-S2,28,caso,discusion,20,"Dos empresas, la misma etapa",,,,"las tarjetas de dos empresas, la misma etapa",IMG-SI-S2-DISCUSION
+S2-L029,SI-SGCSSMA-S2,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+S2-L030,SI-SGCSSMA-S2,30,contenido,reflexion,10,Antes de irnos,"¿Logramos el aprendizaje esperado?
 ¿Qué funcionó?
 ¿Cómo se han sentido?
 
 Volvamos a las preguntas que dejaste sobre la carta.
 La próxima sesión: liderazgo, política de calidad, roles y objetivos.",,,,
 S2-L031,SI-SGCSSMA-S2,31,tapa,,0,,,,,,
+S3-L001,SI-SGCSSMA-S3,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+S3-L002,SI-SGCSSMA-S3,2,subportada-sesion,,0,Sesión N°3,"Liderazgo, política de calidad, roles y objetivos",,,,
+S3-L003,SI-SGCSSMA-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+S3-L004,SI-SGCSSMA-S3,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve eres tú el día de hoy?",,,escala de ánimo de nueve pinturas célebres numeradas,IMG-ESCALA-ANIMO
+S3-L005,SI-SGCSSMA-S3,5,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,los cinco momentos de la sesión con lo que se hace y los minutos de cada uno,IMG-SI-RUTA-S3
+S3-L006,SI-SGCSSMA-S3,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+S3-L007,SI-SGCSSMA-S3,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"El ciclo del molino se rompió en VERIFICAR: nadie midió antes de entregar.
+
+¿Y quién tenía que haber mandado que se midiera?",,,las cuatro etapas del ciclo con la acción que corresponde a cada una,IMG-SI-PHVA-ETAPAS
+S3-L008,SI-SGCSSMA-S3,8,contenido,conexion,8,¿Qué te hace decir eso?,"Lee la política que está en la pared del taller.
+
+¿Compromete a alguien a algo? Di sí o no —y después, qué te hace decir eso.",,,"la política de calidad enmarcada, con su firma, tal como está en la pared",IMG-SI-POLITICA-PARED
+S3-L009,SI-SGCSSMA-S3,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+S3-L010,SI-SGCSSMA-S3,10,tema,adquisicion,5,Liderar no es firmar,,C-SI-SGCSSMA-S3-1,1-3,qué separa poner el nombre al pie de responder por que el sistema funcione,IMG-SI-LIDERAZGO-FIRMA
+S3-L011,SI-SGCSSMA-S3,11,tema,adquisicion,4,Lo que la dirección tiene que asegurar,,C-SI-SGCSSMA-S3-1,4-6,las cuatro cosas que la norma le pide a la alta dirección,IMG-SI-DIRECCION-ASEGURA
+S3-L012,SI-SGCSSMA-S3,12,tema,adquisicion,4,Delegar no libera,,C-SI-SGCSSMA-S3-1,7-9,qué se puede delegar y qué se queda arriba,IMG-SI-DELEGAR
+S3-L013,SI-SGCSSMA-S3,13,tema,adquisicion,5,Qué es la política de calidad,,C-SI-SGCSSMA-S3-2,1-4,"qué es, para qué sirve y quién la firma",IMG-SI-POLITICA-QUE-ES
+S3-L014,SI-SGCSSMA-S3,14,tema,adquisicion,4,Qué tiene que decir,,C-SI-SGCSSMA-S3-2,5-7,los cuatro contenidos que la política debe llevar,IMG-SI-POLITICA-CONTENIDO
+S3-L015,SI-SGCSSMA-S3,15,tema,adquisicion,5,Y cómo llega a la gente,,C-SI-SGCSSMA-S3-2,8-10,"los tres tramos de la difusión: escrita, dentro y fuera",IMG-SI-POLITICA-DIFUSION
+S3-L016,SI-SGCSSMA-S3,16,tema,adquisicion,5,Quién responde por qué,,C-SI-SGCSSMA-S3-3,1-4,cinco roles del sistema con aquello de lo que responde cada uno,IMG-SI-ROLES-QUIEN
+S3-L017,SI-SGCSSMA-S3,17,tema,adquisicion,4,Asignar es poner nombre,,C-SI-SGCSSMA-S3-3,5-8,qué separa un encargo de una responsabilidad asignada,IMG-SI-ROLES-ASIGNAR
+S3-L018,SI-SGCSSMA-S3,18,tema,adquisicion,5,De un compromiso a un objetivo,,C-SI-SGCSSMA-S3-4,1-5,"el recorrido de la política hasta el objetivo con indicador, meta y plazo",IMG-SI-OBJETIVO-BAJADA
+S3-L019,SI-SGCSSMA-S3,19,tema,adquisicion,4,Lo que puede impedirlo,,C-SI-SGCSSMA-S3-4,6-10,"riesgos y oportunidades del objetivo, y qué se hace con cada uno",IMG-SI-OBJETIVO-RIESGOS
+S3-L020,SI-SGCSSMA-S3,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+S3-L021,SI-SGCSSMA-S3,21,contenido,aplicacion,5,"El encargo, igual para todos","Dos gerentes firmaron su política y pidieron mejorar. Sigue pasando lo mismo.
+
+1 · Revisen la política contra los cuatro contenidos que la norma exige
+2 · Bajen un compromiso a objetivo: indicador, meta, plazo y responsable
+3 · Digan quién aprueba, quién responde y cómo se difunde
+4 · Señalen el hecho que parece estar bien y no lo está, y por qué",,,,
+S3-L022,SI-SGCSSMA-S3,22,caso,aplicacion,0,Caso A · Planta de Tratamiento de Aguas Industriales,,,,"la ficha del caso: la empresa, su situación y los hechos",IMG-SI-CASO-S3A
+S3-L023,SI-SGCSSMA-S3,23,caso,aplicacion,0,Caso B · Servicios de Alimentación para Campamento,,,,"la ficha del caso: la empresa, su situación y los hechos",IMG-SI-CASO-S3B
+S3-L024,SI-SGCSSMA-S3,24,caso,aplicacion,30,A trabajar,,,,las tres tarjetas de cómo se trabaja,IMG-SI-S3-TRABAJAR
+S3-L025,SI-SGCSSMA-S3,25,caso,aplicacion,0,Los tres cuadros que entregan,,,,los tres cuadros vacíos que el equipo copia en su hoja,IMG-SI-ENTREGA-S3
+S3-L026,SI-SGCSSMA-S3,26,cotejo,aplicacion,5,,,,,los cinco ítems de la lista de cotejo y la escala,IMG-LISTA-COTEJO
+S3-L027,SI-SGCSSMA-S3,27,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+S3-L028,SI-SGCSSMA-S3,28,caso,discusion,20,"Dos empresas, el mismo hueco",,,,el formato de la discusión y la pregunta de cierre,IMG-SI-S3-DISCUSION
+S3-L029,SI-SGCSSMA-S3,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+S3-L030,SI-SGCSSMA-S3,30,contenido,reflexion,10,Antes de irnos,"¿Logramos el aprendizaje esperado?
+¿Qué funcionó?
+¿Cómo se han sentido?
+
+La próxima sesión: planificación, recursos y documentación del sistema de calidad.
+Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
+S3-L031,SI-SGCSSMA-S3,31,tapa,,0,,,,,,
+S5-L001,SI-SGCSSMA-S5,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+S5-L002,SI-SGCSSMA-S5,2,subportada-sesion,,0,Sesión N°5,,,,,
+S5-L003,SI-SGCSSMA-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+S5-L004,SI-SGCSSMA-S5,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve eres tú el día de hoy?",,,escala de ánimo de nueve obras numeradas,IMG-ESCALA-ANIMO
+S5-L005,SI-SGCSSMA-S5,5,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,los cinco momentos de la sesión con lo que se hace y los minutos de cada uno,IMG-SI-RUTA-S5
+S5-L006,SI-SGCSSMA-S5,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+S5-L007,SI-SGCSSMA-S5,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"Cumplir la ISO 9001 es voluntario: la empresa se mete sola y puede salirse.
+
+Hoy empieza lo que no es voluntario. Y no lo audita el cliente.",,,las dos mitades de la información documentada,IMG-SI-DOC-DICE-HIZO
+S5-L008,SI-SGCSSMA-S5,8,contenido,conexion,8,¿Quién puede parar esta obra?,"Seis personas alrededor de la misma obra.
+
+¿Cuáles de ellas pueden parar los trabajos HOY MISMO?
+
+Marca las que creas, y di por qué. Al final de la sesión volvemos a esta lámina.",,,"seis actores alrededor de una obra, sin juicio escrito",IMG-SI-QUIEN-PARA
+S5-L009,SI-SGCSSMA-S5,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+S5-L010,SI-SGCSSMA-S5,10,tema,adquisicion,6,Cinco principios sostienen toda la ley,,C-SI-SGCSSMA-S5-1,1-4,"los cinco principios del Título Preliminar, uno por línea",IMG-SI-PRINCIPIOS
+S5-L011,SI-SGCSSMA-S5,11,tema,adquisicion,5,Cuando el papel dice una cosa y la obra dice otra,,C-SI-SGCSSMA-S5-1,5-8,lo que dice el papel frente a lo que ve el inspector,IMG-SI-PRIMACIA
+S5-L012,SI-SGCSSMA-S5,12,tema,adquisicion,6,Los documentos que toda empresa debe tener,,C-SI-SGCSSMA-S5-2,1-4,"línea base, política, mapa y capacitaciones, con su artículo",IMG-SI-DOCS-SIEMPRE
+S5-L013,SI-SGCSSMA-S5,13,tema,adquisicion,5,Y los que dependen de cuántos trabajadores son,,C-SI-SGCSSMA-S5-2,5-9,"comité, supervisor, acta, reglamento interno y registros, con su artículo",IMG-SI-DOCS-CUANTOS
+S5-L014,SI-SGCSSMA-S5,14,tema,adquisicion,6,No basta con tenerlo,,C-SI-SGCSSMA-S5-3,1-4,el documento que existe frente a la condición que la ley le pone,IMG-SI-NO-BASTA
+S5-L015,SI-SGCSSMA-S5,15,tema,adquisicion,5,Y cuánto tiempo se guarda cada uno,,C-SI-SGCSSMA-S5-3,5-8,los tres plazos de conservación y qué registro va en cada uno,IMG-SI-PLAZOS
+S5-L016,SI-SGCSSMA-S5,16,tema,adquisicion,6,Quién viene a pedirlo,,C-SI-SGCSSMA-S5-4,1-4,"quién es la inspección del trabajo, por qué llega y qué mira",IMG-SI-QUIEN-FISCALIZA
+S5-L017,SI-SGCSSMA-S5,17,tema,adquisicion,6,Y qué pasa si el documento falta,,C-SI-SGCSSMA-S5-4,5-8,"acta, multa, paralización y Ministerio Público, en ese orden",IMG-SI-ESCALERA
+S5-L018,SI-SGCSSMA-S5,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+S5-L019,SI-SGCSSMA-S5,19,contenido,aplicacion,5,"El encargo, igual para todos","Dos contratistas mineras creían tener su sistema en regla porque el cliente las aprobó.
+
+1 · De los siete hechos: cuáles incumplen una exigencia legal y cuáles no
+2 · Para cada incumplimiento, qué norma lo manda
+3 · Qué le puede pasar a la empresa por cada uno, y quién se lo puede exigir
+4 · Cuál es el hecho que parece estar bien y no lo está, y por qué",,,,
+S5-L020,SI-SGCSSMA-S5,20,caso,aplicacion,0,Caso A · Voladura y Perforación Subterránea,,,,"la ficha del caso A: la empresa, su situación y los siete hechos",IMG-SI-CASO-S5A
+S5-L021,SI-SGCSSMA-S5,21,caso,aplicacion,0,Caso B · Sostenimiento y Shotcrete,,,,"la ficha del caso B: la empresa, su situación y los siete hechos",IMG-SI-CASO-S5B
+S5-L022,SI-SGCSSMA-S5,22,caso,aplicacion,30,A trabajar,,,,las tarjetas de a trabajar,IMG-SI-S5-TRABAJAR
+S5-L023,SI-SGCSSMA-S5,23,cotejo,aplicacion,5,,,,,,IMG-LISTA-COTEJO
+S5-L024,SI-SGCSSMA-S5,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+S5-L025,SI-SGCSSMA-S5,25,caso,discusion,20,"Dos contratistas, la misma carpeta aprobada",,,,las tarjetas del formato de sustentación y la pregunta de cierre,IMG-SI-S5-DISCUSION
+S5-L026,SI-SGCSSMA-S5,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+S5-L027,SI-SGCSSMA-S5,27,contenido,reflexion,10,Antes de irnos,"Volvamos a la lámina del principio: ¿quién puede parar la obra?
+
+¿Logramos el aprendizaje esperado?
+¿Qué funcionó?
+¿Cómo se han sentido?
+
+La próxima sesión: el diagnóstico de línea base — con qué se mide la empresa antes de armar su sistema.",,,,
+S5-L028,SI-SGCSSMA-S5,28,tapa,,0,,,,,,
