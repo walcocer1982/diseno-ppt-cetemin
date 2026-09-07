@@ -29,7 +29,9 @@ Método de **Estudio de Casos**: el estudiante analiza una situación real o sim
 | **Sincrónica vs dirigida** (modalidad de la sesión) | **Sincrónica = virtual** / **Dirigida = presencial** | Cómo se dicta la sesión en vivo (Teams vs aula). Cada una tiene su plantilla de diseño (ver §03 y §05) |
 
 - **Sincrónico:** clase en tiempo real con instructor → **lleva PPT (plantilla 004)** y plan de sesión (plantilla 003).
-- **Asincrónico (AS):** trabajo autónomo → repaso previo al CV y elaboración del trabajo colaborativo. Sus recursos van en la plantilla "lista de recursos de aprendizaje autónomo" (003B).
+- **Asincrónico (AS):** trabajo autónomo → **lectura previa al CV** y elaboración del trabajo colaborativo. Sus recursos van en la plantilla "lista de recursos de aprendizaje autónomo" (003B).
+  - Un bloque de CV se reparte en **90 min de lectura + 45 de cuestionario**. El cuadernillo **prepara** las sesiones que vienen: no repasa las que ya pasaron (ver §06).
+  - En 96 h los 8 bloques se reparten **4 para los CV y 4 para los dos colaborativos**. En 48 h, 4 bloques: **2 y 2**.
 
 ## Calendario y jornada
 

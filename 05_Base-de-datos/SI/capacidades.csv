@@ -1,2 +1,3 @@
-capacidad_id,curso_id,descripcion
+﻿capacidad_id,curso_id,descripcion
 CAP-SI-SGCSSMA,SI-SGCSSMA,"Describir el proceso de implementación de los sistemas de gestión de calidad, seguridad, salud y protección del medio ambiente, considerando la normativa vigente ISO"
+CAP-SI-IMPAMB,SI-IMPAMB,"Describir el proceso de implementación de la matriz de aspectos e impactos ambientales y la gestión de residuos sólidos, considerando la normativa vigente nacional e internacional."

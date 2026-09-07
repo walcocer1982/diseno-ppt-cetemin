@@ -989,6 +989,73 @@ Si falta alguna: `git pull`. Y si sigue faltando, es que el cambio no se ha subi
 - [ ] ¿Si es estímulo de una rutina, muestra hechos y no juicios?
 - [ ] ¿Los colores salen de la paleta del §7?
 - [ ] ¿`revisar_ppt.py` está en verde **y** se miraron las láminas que marcó?
+- [ ] ¿Los títulos que son preguntas llevan sus dos signos?
+- [ ] ¿Ningún título suena a titular de periódico?
+- [ ] ¿Cada lámina de contenido tiene su propio texto, distinto del de la anterior?
+- [ ] ¿Las etiquetas de banda de los esquemas son de una palabra?
+- [ ] ¿El pie de cada figura entra entero en su lienzo?
+- [ ] ¿Se miró el texto **dentro** de las imágenes buscando vocabulario retirado?
+- [ ] ¿Las consignas y el cierre van en cuadros, con equipo y minutos escritos?
+- [ ] ¿Ninguna lámina de contenido con imagen se quedó sin su texto?
+
+---
+
+## 13 · El estándar de composición
+
+Salió de rehacer la sesión 1 de SI · Sistema de gestión el **2026-09-03**. Todo lo de abajo son
+defectos que llegaron al archivo entregado y que **`revisar_ppt.py` no puede cazar**, porque mide el
+texto de la lámina y no ve dentro de las imágenes ni juzga la redacción.
+
+### Las cuatro trampas que el revisor no ve
+
+| | Qué pasó | La regla |
+|---|---|---|
+| **Vocabulario dentro de la imagen** | Un término retirado del proyecto seguía dibujado en un esquema, con la base ya limpia | **Los términos prohibidos se comprueban también contra el texto de los esquemas**, no solo contra los CSV. Si un término sale del vocabulario, se barre `imagenes.csv` **y se miran las figuras** |
+| **Etiqueta de banda cortada** | La etiqueta vertical de `franjas` se envolvía en dos líneas y la segunda caía fuera, sin aviso | **La etiqueta de banda es de UNA palabra.** El kit ya baja de punto y avisa, pero una palabra siempre entra y se lee mejor |
+| **Pie de figura clipado** | El cierre ámbar de dos fichas de caso se salía del lienzo | **El lienzo se declara con holgura para el pie.** Si la forma devuelve la `y` final, hay que sumarle el alto de la banda **antes** de fijar el alto del lienzo |
+| **Lámina de contenido a medias** | Una lámina de contenido CON imagen se dejó sin `texto`: el diseño es de dos columnas y **media lámina quedó vacía**, o se rellenó sola con el texto viejo de `actividades.csv` | **Toda lámina de contenido con imagen lleva también su texto.** El texto y la figura dicen cosas distintas: la figura, los pasos; el texto, la situación y la consigna |
+
+### Redacción
+
+- **Si el título es una pregunta, lleva sus dos signos.** *«¿Qué es un sistema de gestión?»*, no
+  *«Qué es un sistema de gestión»*. Vale también para el cuerpo.
+- **Nada de titulares.** El título nombra el asunto: *«Indicaciones del encargo»*, no
+  *«El encargo, igual para todos»*. Si suena a portada de diario, está mal.
+- **Cada lámina lleva su propio texto.** Una lámina de contenido sin `texto` hereda el de la anterior
+  y el revisor lo marca como duplicado. Ninguna se apoya solo en su imagen.
+
+### Puntos clave
+
+**Son momentos de la sesión, no frases que explican.** Se escriben como etiqueta corta y nominal, del
+mismo modo que se nombra una etapa de un procedimiento.
+
+| Así sí | Así no |
+|---|---|
+| Identificación de trabajos de alto riesgo | Cómo se identifica un trabajo de alto riesgo y por qué importa |
+| Evaluación del riesgo mediante IPERC | Qué es el IPERC y para qué sirve tenerlo |
+| Las diez cláusulas y las siete auditables | Cuáles son las diez cláusulas de la norma y cuáles se auditan |
+
+**Cada punto clave lleva seis viñetas y se parte en dos láminas de tres.** Con cuatro viñetas la
+lámina sale flaca —el molde son 3 a 4 ideas— y el revisor lo marca. Y la **primera** lámina de un
+punto clave tiene que cubrir lo que su título promete: si el título dice «el ciclo PHVA», las cuatro
+etapas van ahí, no repartidas entre las dos.
+
+### Consignas y cierres van en cuadros
+
+Las láminas de **encargo**, de **trabajo en equipo** y de **reflexión** no se escriben como párrafo
+suelto: se dibujan con el kit, cada paso en su cuadro. Un bloque de texto a ancho completo se ve
+amontonado y no se lee de un vistazo.
+
+En esas láminas van escritos, dentro de la figura, **el tamaño de equipo y los minutos**.
+
+### Vocabulario del curso
+
+- **Trinorma** o **SIG** para hablar del conjunto. Nunca siglas inventadas que no estén sustentadas
+  en norma.
+- Son **TRES sistemas**: calidad, medio ambiente, y seguridad y salud en el trabajo. No se dividen
+  en cuatro.
+- La cláusula se cita con la norma cuando no es la misma en las tres — ver la convención de nombres
+  en la matriz de distribución.
 
 ---
 
@@ -1000,6 +1067,7 @@ TEXTO DENTRO DE LA IMAGEN           lienzo 1500 px  ·  cuerpo 52 px  ·  títul
                                     pt = 6 × px_fuente ÷ px_lienzo × 72   → 15 pt
 SESIÓN                              28–32 láminas  ·  135 min  ·  3–5 puntos clave
                                     20+45+40+20+10  ·  3–4 ideas por lámina de tema
+PUNTO CLAVE                         etiqueta corta y nominal  ·  6 viñetas  ·  2 láminas de 3
 GENERAR                             python generar_ppt.py <sesion_id>
 REVISAR                             python revisar_ppt.py <sesion_id> [ruta.pptx]
 ```

@@ -114,13 +114,17 @@ Esto ya no es reordenar contenidos: es cambiar la unidad didáctica. Hay que ree
 5. **El indicador 1 pierde sesiones propias** y queda alojado en S1 y S22.
 6. **Materiales y bibliografía:** incorporar Ley 29783, DS 005-2012-TR, DS 024-2016-EM y RM 050-2013-TR, hoy ausentes de la triangulación.
 
-## Pendiente de verificar antes de que entre a una lámina
+## Verificado — 2026-09-01
 
-- **La numeración exacta de los anexos de la RM 050-2013-TR** (Anexo 1 registros · Anexo 2 modelo de RISST · Anexo 3 guía básica con la lista de verificación, el plan y programa anual, el IPERC y mapa de riesgos, y la investigación de accidentes). Contrastar contra el texto publicado antes de citarla.
-- Las **fórmulas de los índices** y su base de horas-hombre, contra el DS 024-2016-EM.
-- La **periodicidad legal** de capacitaciones, inspecciones y auditorías.
+Lo que estaba pendiente se contrastó contra el texto publicado y vive en el [§15](../../../00_Base-de-conocimiento/15_MARCO-LEGAL-SST.md):
 
-> *No confundir:* el **diagnóstico de línea base del SGSST** (RM 050, lista de verificación de lineamientos) **no es** el **IPERC línea base** de *Controles operacionales*. Son documentos distintos con nombre parecido.
+- **Los anexos de la RM 050-2013-TR:** Anexo 1 formatos de registros · Anexo 2 modelo de RISST · Anexo 3 guía básica, que es la que trae la lista de verificación de lineamientos. **Coincide con lo que decía este reparto.**
+- **Los ocho lineamientos** de la lista de verificación: coinciden uno a uno con los del anexo de los dos colaborativos.
+- **Los artículos de la Ley 29783:** política 22 · registros 28 · comité 29 (veinte o más) · supervisor 30 · RISST 34 · entrega del RISST 35 a) · **cuatro capacitaciones al año** 35 b) · mapa de riesgos y su exhibición 35 e) · línea base 37.
+- **Los plazos de conservación** (DS 005-2012-TR, art. 35): 20 años enfermedades ocupacionales · 10 accidentes e incidentes peligrosos · 5 los demás.
+- **Las fórmulas de los índices** coinciden con lo que el curso usa, pero **el PDF oficial del DS 024 no se pudo descargar**: queda como único punto sin contrastar directamente.
+
+> *No confundir:* el **diagnóstico de línea base del SGSST** (RM 050, Anexo 3, lista de verificación de lineamientos) **no es** el **IPERC línea base** de *Controles operacionales*. Son documentos distintos con nombre parecido.
 
 ## Siguiente paso
 
