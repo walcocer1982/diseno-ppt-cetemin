@@ -58,7 +58,7 @@
 
 **Pregunta gatilladora:** El documento existía, estaba escrito y estaba firmado. ¿Por qué no sirvió?
 
-**Producto:** Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los documentos van por su número de hecho.
+**Producto:** Un cuadro de cuatro filas, una por paso del encargo. Los documentos van por su número de hecho.
 
 ### Los dos casos, uno frente al otro
 

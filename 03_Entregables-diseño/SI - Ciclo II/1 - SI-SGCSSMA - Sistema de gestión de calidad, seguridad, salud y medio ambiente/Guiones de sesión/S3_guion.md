@@ -62,7 +62,7 @@
 
 **Pregunta gatilladora:** Los dos gerentes firmaron y pidieron mejorar. ¿Por qué no pasa nada?
 
-**Producto:** Tres cuadros y una línea, en hoja en blanco: la política revisada · el objetivo con sus cinco campos · quién aprueba, responde y difunde · el hecho que engaña.
+**Producto:** Tres cuadros y una línea: la política revisada · el objetivo con sus cinco campos · quién aprueba, responde y difunde · el hecho que engaña.
 
 ### Los dos casos, uno frente al otro
 

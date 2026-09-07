@@ -195,7 +195,7 @@ En SI-SGCSSMA, **Servicios Mineros Huanza S.A.C. es exclusiva de los dos colabor
 |---|---|
 | Los datos | **Del relato.** Si hace falta un número, va dentro de la historia |
 | El criterio para juzgarlos | **De la sesión.** Es lo que se acaba de enseñar en la Adquisición |
-| La estructura del producto | **Del encargo.** Cuatro pasos, cuatro filas en una hoja en blanco |
+| La estructura del producto | **Del encargo.** Cuatro pasos, un cuadro de cuatro filas — una por paso |
 
 **Por qué, y no es solo por ahorrar trabajo:** si el criterio viene en una hoja, el alumno **copia**. Si tiene que salir de la sesión, tuvo que haberla escuchado. La hoja convierte una tarea de aplicación en una de transcripción.
 
