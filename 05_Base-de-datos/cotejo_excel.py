@@ -35,6 +35,9 @@ N_EQUIPOS = 8
 # Los enunciados de LOGRADO son los que Jorge Canchiz escribio a mano el 2026-09-02.
 # Se cambian AQUI, no en el xlsx: editando el xlsx se pierden al regenerar.
 CRITERIOS = [
+ ("COMPRENSIÓN DEL PROBLEMA",
+  "Identifica qué pide el caso y con qué datos cuenta",
+  "señala qué dato falta o qué supuesto habría que confirmar"),
  ("DESARROLLO TÉCNICO",
   "Resuelve el problema en su totalidad, utilizando métodos o formas aprendidas en clase",
   "el sustento es verificable: la norma con su artículo, el parámetro técnico o la "
@@ -42,15 +45,13 @@ CRITERIOS = [
  ("CONCLUSIONES",
   "La conclusión se desprende del desarrollo y responde a la(s) pregunta(s) del caso",
   "identifica el hecho que, presentándose como conforme, no lo es, y describe la discrepancia"),
- ("ORGANIZACIÓN DEL PRODUCTO",
+ ("ORGANIZACIÓN Y PRESENTACIÓN DEL PRODUCTO",
   "El producto está ordenado, tiene claridad y coherencia",
   "expone el recorrido completo y puede seguirse sin la explicación oral"),
  ("SUSTENTACIÓN ORAL",
-  "los integrantes exponen la parte que les corresponde, con orden y claridad",
+  "los integrantes exponen la parte que les corresponde, con orden y claridad, dentro del "
+  "tiempo asignado",
   "cualquier integrante responde consultas sobre una parte que no expuso"),
- ("TIEMPO DE EXPOSICIÓN",
-  "se ajusta al tiempo asignado sin desviaciones",
-  "se ajusta dentro del 10 % del tiempo asignado"),
 ]
 NIVELES = [("0", "No presenta"), ("1", "En inicio"), ("2", "En proceso"),
            ("3", "Logrado"), ("4", "Destacado")]
