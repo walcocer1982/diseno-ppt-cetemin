@@ -132,9 +132,34 @@ Con ese orden, un CV completo cuesta **3 o 4 consultas**, no 20.
 yt-dlp --write-auto-subs --sub-langs "es,en" --skip-download <URL>
 ```
 
-O el botón **«Mostrar transcripción»** de la propia página de YouTube, que funciona siempre, y luego `python videos_yt.py pegar <id> <archivo.txt>` — que no toca la red.
+O el botón **«Mostrar transcripción»** de la propia página de YouTube, y luego `python videos_yt.py pegar <archivo.txt>` — que no toca la red. El id no se teclea: sale de la cabecera del archivo.
+
+### El camino manual, en un clic
+
+Ese paso manual está automatizado en `05_Base-de-datos/extension-transcripcion/` — un botón de Chrome que lee el panel ya abierto y guarda el archivo con el formato que espera `pegar`.
+
+**No hace ninguna petición a YouTube**, porque el texto ya está en la pantalla. Por eso funciona con la IP limitada y no gasta cuota. Instrucciones de instalación en su [README](../05_Base-de-datos/extension-transcripcion/README.md).
+
+> **El error fácil:** guardar un video en inglés sin cambiar el idioma del panel. El archivo, el anexo y el cuadernillo salen en inglés, y nadie se entera hasta que un estudiante lo lee. Por eso el archivo registra la pista activa en su cabecera.
 
 **No correr esto desde una VM en la nube:** esos rangos están bloqueados de entrada.
+
+### Lo comprobado el 7 de setiembre de 2026
+
+Con la IP ya limitada, se midió qué pasa por cada vía:
+
+| Vía | Resultado |
+|---|---|
+| `youtube-transcript-api` | **429** · demasiadas peticiones |
+| `yt-dlp` subtítulos | **429** · la misma puerta |
+| `yt-dlp` audio | **403** |
+| `yt-dlp` + *impersonation* | **403** igual |
+| Portada de YouTube y datos del video | **200**, normal |
+| Navegador y panel de transcripción | Perfecto |
+
+**No es la herramienta, es la IP**, y es temporal: 429 significa «ahora no», no «esto no se puede». Conviene reintentar el camino automático de vez en cuando —cuando funciona es gratis e instantáneo—, pero no se puede depender de él. **Por defecto se trabaja con la extensión.**
+
+Cambiar de herramienta no resuelve nada: todas golpean los mismos servidores. Y no se paga por proxies — se alquilarían direcciones de internet para no parecer un robot al pedir un texto que la propia página muestra gratis.
 
 ## La herramienta
 
