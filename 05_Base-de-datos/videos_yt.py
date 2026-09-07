@@ -45,7 +45,7 @@ Uso:
     python videos_yt.py bajar <URL|id> [<URL|id> ...]   baja y cachea
     python videos_yt.py evaluar <id> [--sesion SES]     senales + contraste
     python videos_yt.py anexo <id> [--min 0:30-3:00]    borrador de sintesis
-    python videos_yt.py pegar <id> <archivo.txt>        salida de emergencia
+    python videos_yt.py pegar <archivo.txt>             la via por defecto
     python videos_yt.py revisar                         siguen vivos los enlaces?
     python videos_yt.py cuota                           cuanto queda hoy
 """
@@ -121,7 +121,8 @@ def cuota_exigir(n: int = 1):
             "  No es un capricho: el bloqueo de YouTube es por IP, y esta cuota\n"
             "  es lo que mantiene tu IP limpia. Se reinicia manana.\n"
             "  Si de verdad hace falta hoy: el boton 'Mostrar transcripcion' de\n"
-            "  YouTube y luego `python videos_yt.py pegar <id> <archivo.txt>`,\n"
+            "  YouTube (o la extension de Chrome) y luego\n"
+            "    python videos_yt.py pegar <archivo.txt>\n"
             "  que no toca la red.\n"
         )
     if quedan <= CUOTA_DIA - AVISO:
@@ -413,13 +414,50 @@ def cmd_anexo(args):
 
 
 def cmd_pegar(args):
-    """Salida de emergencia: el boton 'Mostrar transcripcion' de YouTube.
+    """Carga una transcripcion sacada del panel de YouTube.
+
+    Es el camino POR DEFECTO, no la emergencia: la extension de Chrome
+    (extension-transcripcion/) guarda el archivo de un clic, y esto lo carga.
+    No toca la red ni gasta cuota.
 
     Formato esperado, una linea por marca:    0:14  texto del fragmento
-    No toca la red ni gasta cuota.
+    Las lineas que empiezan por '#' son cabecera y se ignoran, salvo
+    `# video_id:`, de donde sale el id para no tener que teclearlo.
+
+    Admite las dos formas:
+        pegar <archivo>              el id sale de la cabecera
+        pegar <id> <archivo>         se fuerza el id
     """
-    vid = id_de(args.video)
-    crudo = Path(args.archivo).read_text(encoding="utf-8", errors="replace")
+    if len(args.args) == 1:
+        ruta, forzado = Path(args.args[0]), None
+    elif len(args.args) == 2:
+        forzado, ruta = args.args[0], Path(args.args[1])
+    else:
+        raise SystemExit("Uso: pegar <archivo>   o   pegar <id> <archivo>")
+
+    if not ruta.exists():
+        raise SystemExit(f"No encuentro el archivo: {ruta}")
+
+    crudo = ruta.read_text(encoding="utf-8", errors="replace")
+
+    if forzado:
+        vid = id_de(forzado)
+    else:
+        m = re.search(r"^#\s*video_id:\s*([A-Za-z0-9_-]{11})\s*$", crudo, re.M)
+        if m:
+            vid = m.group(1)
+        else:
+            # Sin cabecera, el nombre del archivo lo lleva al final:
+            # Canal_Titulo_<id>.txt
+            m = re.search(r"([A-Za-z0-9_-]{11})(?:\.txt)?$", ruta.stem + ".txt")
+            if not m:
+                raise SystemExit(
+                    "No pude deducir el id del video.\n"
+                    "  El archivo no trae '# video_id:' en la cabecera ni lo\n"
+                    "  lleva al final del nombre. Pasalo a mano:\n"
+                    "     python videos_yt.py pegar <id> <archivo>"
+                )
+            vid = m.group(1)
     frag = []
     for ln in crudo.splitlines():
         m = re.match(r"\s*(\d{1,2}:\d{2}(?::\d{2})?)\s+(.+)", ln)
@@ -493,9 +531,9 @@ def main(argv=None) -> int:
     a.add_argument("--min", help="tramo, p.ej. 0:30-3:00")
     a.set_defaults(f=cmd_anexo)
 
-    g = sub.add_parser("pegar", help="cargar transcripcion copiada de YouTube")
-    g.add_argument("video")
-    g.add_argument("archivo")
+    g = sub.add_parser("pegar",
+                       help="cargar una transcripcion sacada del panel de YouTube")
+    g.add_argument("args", nargs="+", metavar="[id] archivo")
     g.set_defaults(f=cmd_pegar)
 
     r = sub.add_parser("revisar", help="comprobar que los enlaces siguen vivos")

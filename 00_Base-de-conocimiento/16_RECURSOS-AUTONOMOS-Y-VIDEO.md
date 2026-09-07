@@ -132,7 +132,7 @@ Con ese orden, un CV completo cuesta **3 o 4 consultas**, no 20.
 yt-dlp --write-auto-subs --sub-langs "es,en" --skip-download <URL>
 ```
 
-O el botón **«Mostrar transcripción»** de la propia página de YouTube, que funciona siempre, y luego `python videos_yt.py pegar <id> <archivo.txt>` — que no toca la red.
+O el botón **«Mostrar transcripción»** de la propia página de YouTube, y luego `python videos_yt.py pegar <archivo.txt>` — que no toca la red. El id no se teclea: sale de la cabecera del archivo.
 
 ### El camino manual, en un clic
 

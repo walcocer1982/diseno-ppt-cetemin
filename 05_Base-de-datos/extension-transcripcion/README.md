@@ -20,6 +20,12 @@ Pero cuando pulsas «Mostrar transcripción», **el texto ya está en tu pantall
 
 Si ves un aviso de que es una extensión de desarrollador, es normal: no está publicada en la tienda porque es de uso interno.
 
+### Un ajuste de Chrome que conviene hacer
+
+Entra a `chrome://settings/downloads` y **desactiva «Preguntar dónde guardar cada archivo»**.
+
+Si no, Chrome abre un diálogo de «Guardar como» en cada video y hay que confirmarlo a mano. Con 180 videos, son 180 diálogos. Desactivado, el archivo cae solo y guardar pasa a ser **un clic de verdad**.
+
 ## Usar (unos 10 segundos por video)
 
 1. Abre el video en YouTube
@@ -31,14 +37,18 @@ Si ves un aviso de que es una extensión de desarrollador, es normal: no está p
 Te avisa dónde quedó el archivo:
 
 ```
-Descargas\cetemin-transcripciones\<id-del-video>.txt
+Descargas\cetemin-transcripciones\Epiroc-Underground-Mining_Room-and-pillar-mining-method_Oaxs7EEIp4k.txt
 ```
+
+**Canal, título y el identificador del video al final.** El identificador tiene que quedarse —es la clave con la que `videos.csv` identifica el video, y dos canales pueden subir el mismo título—, pero puesto al final se lee de izquierda a derecha y reconoces el archivo sin abrirlo.
 
 ## Cargarlo al proyecto
 
 ```bash
-python videos_yt.py pegar <id-del-video> "C:\Users\<tu-usuario>\Downloads\cetemin-transcripciones\<id>.txt"
+python videos_yt.py pegar "C:\Users\<tu-usuario>\Downloads\cetemin-transcripciones\<archivo>.txt"
 ```
+
+**No hace falta escribir el identificador:** el script lo saca de la cabecera del archivo. Si alguna vez quieres forzarlo, admite `pegar <id> <archivo>`.
 
 A partir de ahí funciona todo lo demás sin tocar la red:
 
@@ -61,12 +71,17 @@ Unas líneas de cabecera que empiezan por `#` —id, título, canal, idioma, fec
 
 ## Si algo falla
 
-| Qué ves | Qué hacer |
-|---|---|
-| «No encuentro la transcripción» | Ábrela a mano con «Mostrar transcripción» y vuelve a pulsar |
-| «Abre primero la página de un video» | Tienes que estar en una URL `youtube.com/watch?v=…`, no en la búsqueda |
-| El video no tiene transcripción | Ese canal no puso subtítulos. Descártalo, o transcribe el audio con `faster-whisper` |
-| El texto sale destrozado | Subtítulo automático malo con vocabulario técnico. Busca otro video del mismo tema — o `faster-whisper` |
+Los mensajes distinguen entre los casos, que no son el mismo problema:
+
+| Qué ves | Qué pasa | Qué hacer |
+|---|---|---|
+| «El panel está abierto pero YouTube no cargó el texto» | El video falló en servir su transcripción | Recarga con F5 y repite. Si sigue vacío, **es ese video**: pasa sobre todo con los que tienen doblaje automático. Cambia de video |
+| «No se abrió el panel» | El clic no encontró o no abrió el panel | Ábrelo a mano con «Mostrar transcripción» y vuelve a pulsar |
+| «Este video no ofrece transcripción» | El canal no puso subtítulos | Descártalo, o transcribe el audio con `faster-whisper` si vale mucho la pena |
+| «No pude leer el texto» | YouTube cambió el diseño del panel | Avisa para ajustar la extensión |
+| El texto sale destrozado | Subtítulo automático malo con vocabulario técnico | Busca otro video del mismo tema, o `faster-whisper` |
+
+**Que un video falle no significa que el sistema esté roto.** Comprobado el 7 de setiembre: un video con doblaje automático devolvió el panel vacío, y el siguiente —de Epiroc— funcionó a la primera, con la IP igual de limitada.
 
 ## Antes de usarla, recuerda el orden del §16
 
