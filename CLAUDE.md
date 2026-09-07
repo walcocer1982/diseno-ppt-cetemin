@@ -48,6 +48,7 @@ Nunca se usa el sufijo como clave; se compara el identificador completo.
 | **Empezar el diseño de un curso** | **§13 orden de trabajo** — colaborativos primero, PPT al final |
 | **Evaluar el trabajo de una sesión** | **§14 lista de cotejo** — cinco criterios de 0 a 4, los mismos en las 24 sesiones, los 35 cursos y las tres carreras. Se genera con `python cotejo_excel.py <CURSO>` |
 | Citar un artículo de la Ley 29783, la RM 050 o el DS 024 | **§15 marco legal** — verificado contra el texto publicado. Si no está ahí, se verifica antes de citarlo |
+| **Diseñar un recurso autónomo o elegir un video** | **§16 recursos autónomos** — el recurso **no es solo lectura**; el reparto de los 90 min lo decide el instructor líder. Criterios de admisión del video y verificación. Se trabaja con `python videos_yt.py` |
 | Redactar un caso o un colaborativo | **§12 parámetros del TC** (14 parámetros, relato, fuente real) · §06 |
 | Pedir, armar o revisar un PPT de sesión | **§11 cómo se produce** (insumos, presupuesto, tamaños, paleta) · §07 anatomía |
 | Juzgar si algo está bien hecho | §08 criterios de calidad |

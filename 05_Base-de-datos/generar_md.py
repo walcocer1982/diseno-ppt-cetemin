@@ -45,7 +45,7 @@ def generar(sesion_id: str) -> Path:
                       if l["sesion_id"] == sesion_id], key=lambda r: int(r["orden"]))
     # Sin laminas el guion sigue sirviendo: es el documento de revision del DISEÑO
     # —aprendizaje esperado, puntos clave, los dos casos y la lista de cotejo—, que
-    # es justo lo que hay que aprobar ANTES de armar el PPT (§13 ⑥).
+    # es justo lo que hay que aprobar ANTES de armar el PPT (§13 ⑦).
     previo = not laminas
     ses = next(s for s in leer(RAIZ / carrera / "sesiones.csv") if s["sesion_id"] == sesion_id)
     curso = next(c for c in leer(RAIZ / "cursos.csv") if c["curso_id"] == ses["curso_id"])

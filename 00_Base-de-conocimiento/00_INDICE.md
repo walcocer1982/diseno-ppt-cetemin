@@ -42,6 +42,7 @@ Sesión en vivo (guion = plantilla 003; proyección = plantilla 004)
 | 13 | [Orden de trabajo de una unidad didáctica](13_ORDEN-DE-TRABAJO.md) | **En qué orden se diseña un curso**: colaborativos → aprendizajes esperados → dos casos A y B por sesión → lista de cotejo → puntos clave → PPT |
 | **14** | [La lista de cotejo de sesión](14_LISTA-DE-COTEJO.md) | Lista de cotejo: un instrumento para las 24 sesiones de los 35 cursos. Con el generador del cuaderno del instructor embebido |
 | **15** | [Marco legal del SGSST peruano](15_MARCO-LEGAL-SST.md) | Los artículos de la Ley 29783, el DS 005-2012-TR, la RM 050 y el DS 024, **verificados contra el texto publicado**. Ningún artículo se cita si no está aquí |
+| **16** | [Recursos autónomos y video](16_RECURSOS-AUTONOMOS-Y-VIDEO.md) | Qué trabaja el estudiante en el bloque asincrónico. **El recurso no es solo lectura**: el reparto de los 90 min lo decide el instructor líder. Criterios de admisión de un video, cómo se verifica y cómo se trabaja sin que YouTube bloquee |
 
 ## Incasos A y B (no se tocan)
 
