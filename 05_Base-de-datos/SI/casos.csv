@@ -1,58 +1,38 @@
 caso_id,sesion_id,alcance,curso_id,bloque_id,indicador_id,descripcion,pregunta_gatilladora,recursos,producto,caso_a,caso_a_lamina,caso_b,caso_b_lamina,evaluacion_lamina,destreza,procesos_mentales,tecnica_metodologica,actitud,roles,presupuesto,fuente
-CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Un servicio se entregó a tiempo y aun así falló. Cuatro pasos, iguales en los dos casos: (1) ubicar los siete hechos en la etapa del ciclo que les toca, por su número, en un cuadro de cuatro columnas —PLANIFICAR, HACER, VERIFICAR, ACTUAR—; (2) escribir en una línea en qué etapa se rompió el ciclo y con qué hecho lo prueban; (3) identificar al menos cuatro partes interesadas en un cuadro de tres columnas —quién, qué esperaba, qué perdió—; (4) separar el contexto en un cuadro de dos columnas —lo que venía de fuera de la empresa y lo que venía de dentro—.","El servicio se entregó a tiempo, conforme y firmado. ¿Dónde se rompió?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,Tres cuadros y una línea: el ciclo con los nueve hechos · la etapa donde se rompió · las partes interesadas · el contexto. En hoja en blanco.,"SITUACIÓN
-Mantenimiento de Equipos Mineros S.A.C. se comprometió a devolver operativo el motor de la faja 3 de una planta concentradora. El trabajo se entregó antes de plazo y el cliente firmó conforme. Ocho días después, el motor volvió a detenerse.
+CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1,"Dos contratistas tienen que declarar el contexto de su sistema y la relación de sus partes interesadas antes de que el cliente las autorice. En las dos, gerencia entregó media hoja. El equipo clasifica los hechos en cuestiones externas e internas, y encuentra a quién dejó fuera la relación.","El servicio se entregó a tiempo, conforme y firmado. ¿Dónde se rompió?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,Tres cuadros y una línea: el ciclo con los nueve hechos · la etapa donde se rompió · las partes interesadas · el contexto. En hoja en blanco.,"SITUACIÓN
+Mantenimiento de Equipos Mineros S.A.C. entra el mes que viene a una unidad minera nueva. Antes del ingreso, el cliente le pide declarar el contexto de su sistema de gestión y la relación de sus partes interesadas. Gerencia entregó media hoja.
 
 LOS HECHOS
-H1 · Se comprometió a devolver el motor operativo en 36 horas.
-H2 · Escribió el procedimiento, asignó dos mecánicos y pidió los repuestos el lunes.
-H3 · El trabajo terminó en 31 horas y el cliente firmó la conformidad.
-H4 · A los ocho días el motor se detuvo: el acople estaba mal alineado.
-H5 · La ficha de entrega estaba completa, con sus nueve casillas marcadas y sus dos firmas.
-H6 · El cliente descontó S/ 8 000 del valorizado.
-H7 · El superintendente de planta pidió por correo evaluar el cambio de contratista.
-H8 · Los dos mecánicos rehicieron el trabajo en su día de descanso.
-H9 · El jefe de taller cambió la ficha: ahora incluye la medición de alineación y la firma de quien la tomó.","Mantenimiento de Equipos Mineros S.A.C. · el motor de la faja 3
+H1 · La unidad está a 4 100 m s. n. m. Ninguno de los mecánicos ha trabajado antes en altura.
+H2 · El cliente exige avanzar hacia la certificación de calidad el año que viene.
+H3 · De los 54 trabajadores, 31 entraron en los últimos seis meses.
+H4 · El taller propio de la empresa está a 300 metros de una zona de viviendas.
+H5 · Dos de los cinco tornos tienen más de veinte años y paran una vez por semana.
+H6 · La comunidad campesina de la zona tiene un convenio firmado con la unidad minera.
+H7 · La hoja que entregó gerencia dice: «nuestro contexto es el cliente y la autoridad».
+H8 · En la relación de partes interesadas no aparecen los trabajadores.","Mantenimiento de Equipos Mineros S.A.C. · 54 trabajadores
+Entra el mes que viene a una unidad minera nueva. El cliente le pide declarar su contexto y sus partes interesadas.
 
-H1 · Compromiso: motor operativo en 36 horas
+4 100 m s. n. m., y ningún mecánico ha trabajado en altura · el cliente exige avanzar hacia la certificación de calidad · 31 de los 54 entraron en los últimos seis meses · el taller está a 300 m de una zona de viviendas · dos de los cinco tornos paran una vez por semana · la comunidad campesina tiene convenio con la unidad.
 
-H2 · Procedimiento escrito y dos mecánicos asignados
-
-H3 · Terminado en 31 horas; el cliente firmó conforme
-
-H4 · A los ocho días se detuvo: acople mal alineado
-
-H5 · La ficha de entrega, completa: nueve casillas y dos firmas
-
-H6 · S/ 8 000 descontados; los mecánicos rehicieron el trabajo
-
-H7 · Se cambió la ficha: ahora exige medir la alineación","SITUACIÓN
-Transporte de Concentrado del Centro S.A.C. se comprometió a mover 900 toneladas de mineral en una semana. Movió 880 y el cliente pagó completo. El viernes, un volquete terminó contra el talud.
+Gerencia escribió: «nuestro contexto es el cliente y la autoridad». Los trabajadores no aparecen en la relación.","SITUACIÓN
+Transporte de Concentrado del Centro S.A.C. renueva su contrato de acarreo. Antes de firmar, el cliente le pide declarar el contexto de su sistema de gestión y la relación de sus partes interesadas. Gerencia entregó media hoja.
 
 LOS HECHOS
-H1 · Se comprometió a mover 900 toneladas en una semana.
-H2 · Planificó doce viajes diarios, asignó cuatro volquetes y programó el chequeo de frenos antes de cada salida.
-H3 · La semana cerró con 880 toneladas movidas y el cliente pagó completo.
-H4 · El viernes un volquete se quedó sin frenos en la bajada del kilómetro 4 y terminó contra el talud; el conductor salió ileso.
-H5 · La revisión de frenos de ese día estaba firmada y sin observaciones.
-H6 · La firmó el propio conductor, en la garita, sin bajar de la unidad.
-H7 · La gente del caserío vecino cerró la vía dos días.
-H8 · Los otros tres volquetes quedaron parados esos dos días.
-H9 · La empresa cambió el formato: ahora el chequeo lo hace el mecánico de patio, con la hora y la placa.","Transporte de Concentrado del Centro S.A.C. · 900 toneladas en una semana
+H1 · La ruta cruza dos centros poblados y un puente con límite de 30 toneladas.
+H2 · La temporada de lluvias corta el acceso entre enero y marzo.
+H3 · De los 22 conductores, 14 son de la zona y ocho vienen de la costa.
+H4 · La aseguradora exige el registro de horas de conducción de cada chofer.
+H5 · El cliente pide reporte diario de toneladas movidas y de incidentes.
+H6 · Tres de los volquetes son alquilados a un tercero, que hace su propio mantenimiento.
+H7 · La hoja que entregó gerencia dice: «nuestro contexto es la ruta y el clima».
+H8 · En la relación de partes interesadas no aparecen los centros poblados.","Transporte de Concentrado del Centro S.A.C. · 22 conductores
+Renueva su contrato de acarreo. El cliente le pide declarar su contexto y sus partes interesadas.
 
-H1 · Compromiso: 900 toneladas en una semana
+La ruta cruza dos centros poblados y un puente de 30 toneladas · las lluvias cortan el acceso de enero a marzo · 14 conductores son de la zona y ocho vienen de la costa · la aseguradora exige el registro de horas de conducción · el cliente pide reporte diario · tres volquetes son alquilados a un tercero.
 
-H2 · Doce viajes diarios, cuatro volquetes, chequeo de frenos
-
-H3 · Cerró con 880 toneladas; el cliente pagó completo
-
-H4 · Viernes: un volquete sin frenos contra el talud
-
-H5 · La revisión de ese día, firmada y sin observaciones
-
-H6 · La firmó el conductor, sin bajar de la unidad
-
-H7 · El caserío cerró la vía dos días; tres volquetes parados","La mitad de los equipos trabaja el caso A y la otra mitad el B; el procedimiento es el mismo, cambian la empresa y los datos. Cada equipo entrega su cuadro y lo sustenta en 2 minutos. Se comprueba con lista de cotejo.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"ubicando cada hecho numerado en su etapa del ciclo, y separando el contexto de las partes interesadas",,,40 min de Aplicación · equipos de 4,
-CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1,"Una contratista minera tiene que entregar la carpeta que autoriza el ingreso, y le faltan documentos. Cinco pasos, iguales en los dos casos: (1) clasificar cada documento por letra del SSOMAC con el semáforo —verde si es de una sola letra, ámbar si sirve a dos o más, rojo si no se ubica—; (2) señalar cuáles faltan y cuáles están pero no sirven; (3) describir qué queda sin cubrir y a quién deja desprotegido; (4) señalar cuál lo pide el cliente por su sistema de calidad y no la ley, y qué le pasa a la empresa si le falta; (5) decir por qué esos documentos no deberían guardarse por área sino por proceso, con un ejemplo de su propio cuadro.",Faltan dos documentos de ocho. ¿Es solo eso lo que le falta a esta carpeta?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cinco filas, una por paso del encargo, en hoja en blanco. Se sustenta en 2 minutos.","Rosa Quispe, jefa de SSOMA de Perforaciones y Sondajes Mineros S.A.C. —perforación diamantina, 78 trabajadores—, tiene 48 horas para entregar la carpeta que autoriza el ingreso a la planta concentradora. Si no entra el viernes, las tres máquinas se quedan sin frente y la empresa pierde el mes.
+Gerencia escribió: «nuestro contexto es la ruta y el clima». Los centros poblados no aparecen en la relación.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: clasificar cada hecho en cuestión externa, interna o ninguna. PASO 2: por cada parte interesada, qué espera y si eso es requisito del sistema. Y a quién dejó fuera la hoja de gerencia. Se sustenta en 2 minutos y se comprueba con lista de cotejo.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"ubicando cada hecho numerado en su etapa del ciclo, y separando el contexto de las partes interesadas",,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1,"Una contratista minera tiene que entregar la carpeta que autoriza el ingreso, y le faltan documentos. Cinco pasos, iguales en los dos casos: (1) clasificar cada documento por sistema con el semáforo —verde si es de una sola letra, ámbar si sirve a dos o más, rojo si no se ubica—; (2) señalar cuáles faltan y cuáles están pero no sirven; (3) describir qué queda sin cubrir y a quién deja desprotegido; (4) señalar cuál lo pide el cliente por su sistema de calidad y no la ley, y qué le pasa a la empresa si le falta; (5) decir por qué esos documentos no deberían guardarse por área sino por proceso, con un ejemplo de su propio cuadro.",Faltan dos documentos de ocho. ¿Es solo eso lo que le falta a esta carpeta?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cinco filas, una por paso del encargo, en hoja en blanco. Se sustenta en 2 minutos.","Rosa Quispe, jefa de SSOMA de Perforaciones y Sondajes Mineros S.A.C. —perforación diamantina, 78 trabajadores—, tiene 48 horas para entregar la carpeta que autoriza el ingreso a la planta concentradora. Si no entra el viernes, las tres máquinas se quedan sin frente y la empresa pierde el mes.
 
 El cliente pide ocho documentos: política integrada, matriz de residuos del taller, cargos de entrega de EPP, encuesta de satisfacción del cliente, programa de mantenimiento preventivo, exámenes médicos ocupacionales, hoja de datos de seguridad del aceite hidráulico y acta del comité.
 
@@ -76,197 +56,640 @@ Julio Mamani tiene cinco días. Si no entra el lunes, cuatro excavadoras paradas
 El cliente pide OCHO documentos. En el archivador hay SEIS:
 política con la línea de firma en blanco · programa de residuos de febrero · cargos de EPP firmados uno por uno, todos con la misma letra · exámenes médicos vigentes hasta noviembre · hoja de datos del combustible, edición 2017 · acta del comité de julio.
 
-Cada área guarda lo suyo. El archivador de Calidad lo lleva la asistente, que está de vacaciones.","La mitad de los equipos trabaja el caso A y la otra mitad el B; el procedimiento es el mismo, cambia la empresa y qué le falta. Cada equipo entrega su cuadro de clasificación y de huecos y lo sustenta en 2 minutos. Se comprueba con lista de cotejo.",,,,,,,
-CASO-SI-SGCSSMA-TC1,,colaborativo,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1;IND-SI-SGCSSMA-2;IND-SI-SGCSSMA-3,"Una contratista minera recibe el resultado de la evaluación que el cliente le hizo contra las cláusulas 4 a 7 de las normas ISO, antes de autorizar el ingreso de su personal, y tiene pocos días para responder. El equipo lee el informe y la carpeta que la empresa entregó, reconoce qué cláusula incumple cada hallazgo, describe a quién deja sin cubrir cada hueco y propone por dónde empezar a cerrarlos.
+Cada área guarda lo suyo. El archivador de Calidad lo lleva la asistente, que está de vacaciones.","La mitad trabaja el caso A y la otra mitad el B. PASO 1: a qué sistema sirve cada uno de los ocho documentos, y cuáles sirven a más de uno. PASO 2: en qué cláusula lo exige la norma. Dos no son del sistema. Sustentación: 2 minutos.",,,,,,,
+CASO-SI-SGCSSMA-TC1,,colaborativo,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1;IND-SI-SGCSSMA-2,"Una contratista minera recibe el resultado de la evaluación que el cliente le hizo contra las cláusulas 4 a 7 de las normas ISO, antes de autorizar el ingreso de su personal, y tiene pocos días para responder. El equipo lee el informe y la carpeta que la empresa entregó, reconoce qué cláusula incumple cada hallazgo, describe a quién deja sin cubrir cada hueco y propone por dónde empezar a cerrarlos.
 
 El lunes a las siete, Rosa Quispe encontró sobre su escritorio un sobre de la unidad minera y una nota de gerencia con tres palabras: «resuélvelo, es urgente».
 
-Rosa lleva ocho meses como jefa de SSOMA en Servicios Mineros Huanza, una contratista de mantenimiento mecánico con 78 trabajadores en planilla. El sobre traía el resultado de la evaluación que el cliente le hizo a la empresa antes de autorizar el ingreso a la planta concentradora: cincuenta requisitos verificados, ordenados como los ordena la norma, y al pie un número: 42 %.
+Rosa lleva ocho meses como jefa de SSOMA en Servicios Mineros Huanza, una contratista de mantenimiento mecánico con 78 trabajadores en planilla. El sobre traía el resultado de la evaluación que el cliente le hizo a la empresa antes de autorizar el ingreso a la planta concentradora: cincuenta requisitos verificados y, al pie, un número: 42 %.
 
-El evaluador había agrupado el resultado en cuatro tramos. El mejor era el del apoyo —personas, equipos y documentos—, con 67 %. Los dos peores no llegaban a la mitad: el del liderazgo, en 25 %, y el de la planificación, en 29 %. Dentro de esos dos, tres grupos completos habían quedado en cero.
+Rosa se pasó la mañana en el archivador, buscando lo que el evaluador no encontró. La política estaba —impresa, en una carpeta con el logo de la empresa—, pero sobre la línea de firma del gerente general no había nada. El resto contaba la misma historia de otra manera: casi todo lo que la empresa muestra o lo pone el cliente, o lo dejó un consultor el año pasado y nadie lo volvió a tocar.
 
-Rosa fue al archivador a buscar lo que el evaluador no encontró. La política estaba —impresa, en una carpeta con el logo de la empresa—, pero era el borrador que dejó el consultor el año pasado: al pie, sobre la línea de firma del gerente general, no había nada. Del reglamento interno solo existía el índice. De órgano de representación no había: en su lugar, un memorando designaba a un supervisor de seguridad, firmado por gerencia, y nadie recordaba que se hubiera votado nada. Y de identificación de peligros, cada frente llenaba antes de empezar el formato que da el cliente, tarea por tarea; no había un documento propio de la empresa, ni nada colgado a la entrada del taller. En el margen de esa línea, el evaluador había escrito a lápiz: «no exhibido».
-
-El programa del año tampoco existía. Las capacitaciones se dictaban cuando el cliente las pedía, y la inducción la daba el cliente en su propia sala. Objetivos sí había, colgados en el pasillo: toneladas atendidas y horas de parada de planta.
-
-Lo que sí había era la carpeta de exámenes médicos al día, los cargos de entrega de EPP firmados uno por uno, y la matriz de requisitos legales que armó el consultor —la misma del año pasado, sin una línea añadida desde entonces—. En el comedor había un buzón para reportar condiciones inseguras; Rosa lo abrió una vez y encontró cuatro papeles doblados, ninguno con respuesta.
-
-Antes de subir se detuvo en la primera hoja. El alcance que la empresa había declarado decía, en una línea: «mantenimiento mecánico en planta concentradora». Rosa pensó en el taller de la avenida Los Cedros, a doce cuadras, donde la empresa desarma los motores que saca de planta, guarda los cilindros de oxígeno y acumula los bidones de aceite usado hasta que pasa el recolector. Arriba, en la carátula, estaban las normas contra las que se había evaluado: dos.
+Antes de subir se detuvo en la primera hoja del informe. El alcance que la empresa había declarado decía, en una línea: «mantenimiento mecánico en planta concentradora». Rosa pensó en el taller de la avenida Los Cedros, a doce cuadras, donde la empresa desarma los motores que saca de planta, guarda los cilindros de oxígeno y acumula los bidones de aceite usado hasta que pasa el recolector. Arriba, en la carátula, estaban las normas contra las que se había evaluado: dos.
 
 A media mañana bajó a la oficina del gerente. Estaba con el jefe de operaciones y con un correo del área de compras del cliente abierto en la pantalla: a partir del próximo año solo mantendrían en su registro de proveedores a las empresas que estuvieran avanzando hacia la certificación de calidad. «Tenemos plata para una cosa», dijo el gerente. «Si no entramos a planta el viernes 12, perdemos el contrato. Y si el año que viene nos sacan del registro, da igual haber entrado».
 
 «Yo no firmo un pase de ingreso sin mapa de riesgos», dijo el jefe de operaciones. «¿Te acuerdas de la contratista que entró en marzo? Un ayudante metió la mano en una faja que nadie había señalizado. Perdió dos dedos. Desde ese día el cliente revisa la carpeta antes de firmar nada».
 
-El gerente los miró a los dos. «Rosa, dime qué le falta a esta empresa, a quién deja sin cubrir, y por dónde empiezo».","¿Qué le falta a esta empresa, a quién deja sin cubrir y por dónde se empieza?","Anexo 07 — Informe de evaluación del cliente: el resultado por cláusula y el detalle de los cincuenta requisitos verificados · Anexo 08 — Hoja de trabajo: las relaciones de cláusulas, documentos y normas con distractores, y las plantillas de las tres piezas del producto · No hace falta ningún documento externo: todo lo necesario está en el relato y en los dos anexos","Sobre la hoja de trabajo que se entrega (anexo 08), tres piezas: (1) el cuadro de correspondencia —qué cláusula incumple cada hallazgo, qué documento u órgano lo cubre y qué norma lo exige— resuelto MARCANDO sobre las tres relaciones con distractores; (2) el programa de cierre: tres objetivos, cada uno con indicador, meta, plazo y responsable; (3) la respuesta al gerente a sus tres preguntas, en diez líneas como máximo. Y un PPT de sustentación que muestre el recorrido completo: el resultado de la evaluación por cláusula con los grupos caídos marcados, el cuadro de correspondencia y el programa de cierre. Se sustenta en 8 minutos, con roles.",,,,,"Todos los equipos trabajan el mismo caso. Cada equipo entrega el informe de brechas y el programa de cierre, y lo sustenta en 8 minutos con roles. Se evalúa con la rúbrica de cinco criterios; la suma es la nota.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"reconociendo en el informe del cliente y en la carpeta entregada qué le falta al sistema, marcando sobre las relaciones de cláusulas, documentos y normas con distractores, y relacionando cada brecha con lo que la cubre",Cada integrante responde ante el equipo por la parte que le tocó.,"Cuatro integrantes, un rol cada uno. ANALISTA DEL INFORME: ubica en qué cláusulas cayó la evaluación y con qué cifras. RESPONSABLE DE NORMA: relaciona cada brecha con el documento u órgano que la cubre y con la cláusula y la norma que lo exigen. REDACTOR DEL PROGRAMA: arma los tres objetivos con indicador, meta, plazo y responsable. VOCERO: ordena la sustentación, abre y responde primero. Cada integrante responde ante el equipo por su parte.","120 min · 4 estudiantes. Leer el relato y el informe 15 · ubicar en qué cláusulas cayó la evaluación 20 · por dónde empezar y por qué 20 · llenar el cuadro de correspondencia, marcando 18 · el sistema que nadie evaluó 12 · armar las láminas 25 · ensayar con roles 10.","Caso construido. DECISION de Jorge Canchiz (instructor lider SI), 2026-09-02: este curso se trabaja sin anclar los colaborativos en una tesis de repositorio. Los datos son verosimiles y estan construidos sobre las clausulas 4 a 7 de la estructura de alto nivel de las ISO y sobre el marco legal verificado (§15). Se declara al cerrar la sustentacion."
-CASO-SI-SGCSSMA-TC2,,colaborativo,SI-SGCSSMA,SI-SGCSSMA-B2,IND-SI-SGCSSMA-3;IND-SI-SGCSSMA-4;IND-SI-SGCSSMA-1,"Una contratista minera cierra su primer año con el sistema de gestión ya montado. El resultado de la evaluación del cliente subió, los accidentes registrados bajaron, y aun así el comité se niega a firmar el informe. El equipo compara los dos años, describe qué dice cada indicador y prepara la revisión por la dirección. Rosa Quispe cumplió un año en Servicios Mineros Huanza el lunes, y lo celebró con una carpeta nueva sobre el escritorio.
+El gerente los miró a los dos. «Rosa, dime qué le falta a esta empresa, a quién deja sin cubrir, y por dónde empiezo».","¿Qué le falta a esta empresa, a quién deja sin cubrir y por dónde se empieza?","Anexo 07 — Informe de evaluación del cliente: el resultado por cláusula y el detalle de los cincuenta requisitos verificados · Anexo 08 — Hoja de trabajo, que se entrega como anexo del informe: las relaciones de cláusulas, documentos y normas con distractores, y las dos piezas por resolver · Anexo 09 — Plantilla del informe de brechas · No hace falta ningún documento externo: todo lo necesario está en el relato y en los anexos","TRES ENTREGABLES. (1) EL INFORME DE BRECHAS DEL SISTEMA, sobre la plantilla del anexo 09: objeto y alcance, resultado de la evaluación, brechas identificadas, programa de cierre, y conclusiones con la recomendación a la gerencia. Es el documento que se entrega y se firma. (2) EL ANEXO DEL INFORME, que es la hoja de trabajo (anexo 08) con sus dos piezas resueltas: el cuadro de correspondencia —qué cláusula incumple cada brecha, qué documento u órgano la cubre y qué norma lo exige— resuelto MARCANDO sobre tres relaciones con distractores, con la primera brecha resuelta como ejemplo; y el programa de cierre, tres objetivos cada uno con indicador, meta, plazo y responsable. (3) EL PPT DE SUSTENTACIÓN, que el equipo arma: portada y SEIS LÁMINAS DE CONTENIDO, una por cada sección del informe —objeto y alcance, resultado por cláusula, las brechas, el sistema que no se evaluó, el programa de cierre, y la conclusión con su recomendación—. Se sustenta en 8 minutos.",,,,,"Todos los equipos trabajan el mismo caso. Cada equipo entrega el informe de brechas y el programa de cierre, y lo sustenta en 8 minutos con roles. Se evalúa con la rúbrica de cinco criterios; la suma es la nota.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"reconociendo en el informe del cliente y en la carpeta entregada qué le falta al sistema, marcando sobre las relaciones de cláusulas, documentos y normas con distractores, y relacionando cada brecha con lo que la cubre",Cada integrante responde ante el equipo por la parte que le tocó.,"Cuatro roles obligatorios, uno por integrante; los equipos de cinco añaden el quinto. ANALISTA DE LA EVALUACIÓN: ubica en qué cláusulas cayó la evaluación y con qué cifras. RESPONSABLE DE CUMPLIMIENTO NORMATIVO: relaciona cada brecha con la cláusula que incumple, el documento u órgano que la cubre y la norma que lo exige. RESPONSABLE DEL PROGRAMA ANUAL: arma los tres objetivos del programa de cierre con indicador, meta, plazo y responsable. JEFE DE SSOMA: redacta las conclusiones y la recomendación a la gerencia, y firma el informe. RESPONSABLE AMBIENTAL (solo en equipos de cinco): describe el sistema de gestión que la evaluación no miró y qué le falta a la empresa en ese frente. El orden de exposición lo reparte el equipo: coordinar no es un rol. Cada integrante responde ante el equipo por su parte.","120 min · 4 o 5 estudiantes. Leer el relato y el informe del cliente 15 · ubicar en qué cláusulas cayó la evaluación 15 · el cuadro de correspondencia, marcando 14 · el sistema que nadie evaluó 10 · el programa de cierre 16 · redactar el informe sobre la plantilla 12 · armar las siete láminas 28 · ensayar con roles 10.","Caso construido. DECISION de Jorge Canchiz (instructor lider SI), 2026-09-02: este curso se trabaja sin anclar los colaborativos en una tesis de repositorio. Los datos son verosimiles y estan construidos sobre las clausulas 4 a 7 de la estructura de alto nivel de las ISO y sobre el marco legal verificado (§15). Se declara al cerrar la sustentacion."
+CASO-SI-SGCSSMA-TC2,,colaborativo,SI-SGCSSMA,SI-SGCSSMA-B2,IND-SI-SGCSSMA-3;IND-SI-SGCSSMA-4,"Una contratista minera ejecuta la auditoría interna de su sistema integrado antes de la revisión por la dirección. El equipo actúa como equipo auditor: clasifica las evidencias levantadas en campo contra la cláusula que incumple cada una, verifica los indicadores de desempeño del año, propone las acciones correctivas ubicándolas en la jerarquía de controles y determina qué se eleva a la dirección.
 
-En doce meses la empresa hizo casi todo lo que faltaba. La política se firmó en marzo. El comité se constituyó en abril, esta vez con elección de los trabajadores. El reglamento interno se entregó con cargo a cada uno. El IPERC se levantó con los supervisores de cada frente y el mapa de riesgos lleva desde mayo colgado a la entrada del taller. Cuando la minera volvió a evaluarlos en noviembre, el resultado subió de 42 % a 78 %. El gerente mandó imprimir el cuadro y lo colgó en el pasillo.
+La auditoría interna del sistema integrado de gestión de Servicios Mineros Huanza se ejecutó en la segunda semana de noviembre, antes de la revisión por la dirección. Durante dos días el equipo auditor recorrió los cuatro frentes —taller propio, planta concentradora, montaje del molino de bolas y almacén temporal de residuos— y levantó diez evidencias.
 
-El viernes, el superintendente de planta pidió el informe de cierre de año. Rosa se sentó a preparar los números. Los del año anterior estaban en una hoja de cálculo que llenó a mano el practicante de SSOMA, y nadie los había vuelto a mirar desde que se fue.
+Rosa Quispe, jefa de SSOMA, entregó el tablero de indicadores del año y el reporte de cumplimiento del programa anual. El tablero abre con el índice de frecuencia: 13,59, el más bajo desde que la empresa lleva registro. Al pie, en letra pequeña, la nota de método: «calculado sobre las horas-hombre del personal en planilla».
 
-La planilla había crecido: de 78 trabajadores a 92. Los accidentes registrados bajaron de seis a cuatro. Pero los días de descanso médico pasaron de 42 a 118, y de esos, noventa eran de un solo hombre: un mecánico que el 14 de junio cayó desde una plataforma armada con tablones sobre dos caballetes, mientras desmontaba un motor. Rosa había llevado la investigación. En el acta quedó escrito que la tarea no figuraba en el IPERC porque no era rutinaria.
+En julio, el montaje del molino se contrató a un tercero: treinta trabajadores durante cuatro meses. El contrato, de dos páginas, fija plazo, monto y penalidad por retraso. El personal del contratista registró dos accidentes con descanso médico; ambos figuran en el cuaderno del supervisor de montaje y ninguno en el registro de accidentes de la empresa.
 
-Los incidentes reportados durante el año fueron nueve. El año anterior, con catorce trabajadores menos, habían sido treinta y cuatro. Rosa lo anotó en su cuaderno y siguió con el programa anual: de doce capacitaciones se hicieron cinco; de cuatro simulacros, uno; la auditoría interna quedó pendiente; y las dos revisiones por la dirección no llegaron a agendarse. Las inspecciones sí se hicieron: veintiuna de veinticuatro. El comité se reunió once veces.
+En abril, un operario sufrió atrapamiento de la mano izquierda en el punto de convergencia de la faja transportadora N.º 3. Descanso médico: veintiún días. La investigación concluyó en dos acciones: charla de cinco minutos sobre el peligro y entrega de guantes anticorte a todo el personal de operación. La guarda de la polea de cola figura en el requerimiento de compra desde mayo.
 
-El 3 de setiembre se derramaron cuarenta litros de aceite hidráulico en el piso del taller. El fluido alcanzó el canal de drenaje pluvial antes de que nadie llegara con el material absorbente. Rosa fue a buscar la matriz de aspectos ambientales que habían levantado en junio: el manejo de aceite usado no aparecía en ninguna fila.
+El almacén temporal de residuos tiene los manifiestos de la EO-RS al día. Suman mil cuatrocientos litros de aceite usado. El registro de cambios de aceite del taller, del mismo periodo, consigna mil ochocientos cincuenta.
 
-El lunes por la mañana el gerente entró a su oficina con el cuadro del pasillo en la mano. «Subimos de 42 a 78 y la frecuencia de accidentes bajó de 32 a 18. Vamos a presentar esto al cliente y a pedir la ampliación del contrato». El presidente del comité, que estaba en la puerta, no se movió de donde estaba. «Yo eso no lo firmo». El gerente se volvió hacia Rosa. «Prepara el informe de revisión por la dirección y dime quién tiene razón».","¿Quién tiene razón, y qué se le reporta al cliente?","Anexo 14 — Datos de la empresa: estadísticas de los dos años, cumplimiento del programa anual y resultado comparado del diagnóstico · Anexo 15 — Hoja de trabajo: la relación de asuntos de la revisión por la dirección con distractores, y las plantillas de las tres piezas del producto · No hace falta ningún documento externo: todo lo necesario está en el relato y en los dos anexos","Sobre la hoja de trabajo que se entrega (anexo 15), tres piezas: (1) el cuadro comparado de los tres índices de los dos años, VERIFICADO contra el anexo de datos; (2) la relación de asuntos que la revisión por la dirección debe cubrir, resuelta MARCANDO cuáles corresponden y cuáles evidencia el año —sobre una lista con distractores—; (3) las acciones correctivas, con responsable, plazo y forma de verificación, y la respuesta al gerente en diez líneas como máximo. Y un PPT de sustentación que muestre el recorrido completo: el cuadro de los índices, la relación de asuntos resuelta y las acciones correctivas. Se sustenta en 8 minutos, con roles.",,,,,Todos los equipos trabajan el mismo caso. Cada equipo entrega el informe de revisión por la dirección y lo sustenta en 8 minutos con roles. Se evalúa con la rúbrica de cinco criterios; la suma es la nota.,describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"comparando los tres índices de los dos años, contrastando lo programado con lo ejecutado del programa anual, y marcando sobre la relación de asuntos que la revisión por la dirección debe cubrir",Cada integrante responde ante el equipo por la parte que le tocó.,"Cuatro integrantes, un rol cada uno. ANALISTA DE INDICADORES: verifica los tres índices de los dos años y describe qué mide cada uno y en qué sentido varía. INVESTIGADOR DEL ACCIDENTE: describe qué exige el sistema al investigar, qué registro genera, a quién se notifica y qué falló en el planeamiento. RESPONSABLE AMBIENTAL: describe cómo se identifica un aspecto ambiental significativo y qué acción correctiva corresponde. VOCERO: ordena el informe, abre la sustentación y responde primero. Cada integrante responde ante el equipo por su parte.","120 min · 4 estudiantes. Leer el relato y extraer los datos 15 · verificar los índices y contrastarlos 20 · qué dice la variación y por qué 20 · llenar el informe de revisión, marcando 18 · el hueco ambiental 12 · armar las láminas 25 · ensayar con roles 10.","Caso construido. DECISION de Jorge Canchiz (instructor lider SI), 2026-09-02: este curso se trabaja sin anclar los colaborativos en una tesis de repositorio. Los datos son verosimiles y estan construidos a partir del marco legal verificado (§15) y de la estructura de la lista de verificacion de la RM 050-2013-TR, Anexo 3. Se declara al cerrar la sustentacion."
-CASO-SI-SGCSSMA-S3,SI-SGCSSMA-S3,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Dos gerentes firmaron su política y pidieron mejorar. En las dos empresas sigue pasando lo mismo. Cuatro pasos, iguales en los dos casos: (1) revisar la política contra los cuatro contenidos que la norma exige, y decir con qué hecho lo prueban; (2) convertir uno de sus compromisos en un objetivo, con su indicador, meta, plazo y responsable; (3) decir quién aprueba, quién responde y cómo se difunde; (4) señalar el hecho que parece estar bien y no lo está, y explicar por qué.",Los dos gerentes firmaron y pidieron mejorar. ¿Por qué no pasa nada?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Tres cuadros y una línea, en hoja en blanco: la política revisada · el objetivo con sus cinco campos · quién aprueba, responde y difunde · el hecho que engaña.","SITUACIÓN
-Elena Ríos, jefa de planta de Planta de Tratamiento de Aguas Industriales S.A.C., tiene la auditoría del cliente el jueves. Si vuelve a haber rechazos, el contrato de operación no se renueva en enero.
-
-LOS HECHOS
-H1 · La política cabe en cuatro líneas y lleva dos años en la pared de la sala de control.
-H2 · Al pie está la firma del gerente general.
-H3 · De los tres operadores presentes en la auditoría anterior, ninguno supo decir qué dice.
-H4 · El mes pasado el cliente rechazó dos lotes de agua tratada: sólidos fuera de límite.
-H5 · Cada lote rechazado cuesta S/ 12 000 en retratamiento.
-H6 · El acta de la reunión de septiembre está firmada por los seis jefes de área, con «calidad» en la agenda.
-H7 · El gerente pidió «bajar los rechazos» al jefe de planta: sin plazo y sin decir cómo se mide.
-
-Un operador contó, de pasada, que en la planta donde trabajaba antes un lote fuera de límite llegó al río antes de que alguien lo parara.","Planta de Tratamiento de Aguas Industriales S.A.C. · auditoría el jueves
-
-H1 · Política de cuatro líneas, dos años en la pared
-
-H2 · Al pie, la firma del gerente general
-
-H3 · Tres operadores; ninguno supo qué dice
-
-H4 · Dos lotes rechazados: sólidos fuera de límite
-
-H5 · Cada lote: S/ 12 000 de retratamiento
-
-H6 · Acta de septiembre: firmada por los seis jefes
-
-H7 · «Bajar los rechazos»: sin plazo ni medida","SITUACIÓN
-Marco Quilca, jefe de operaciones de Servicios de Alimentación para Campamento S.A.C., tiene la auditoría de inocuidad el lunes. El contrato se renueva en noviembre.
+El viernes, con el borrador del informe sobre la mesa, el gerente general fue directo: «El índice de frecuencia es el más bajo de nuestra historia y la auditoría interna ya figura como ejecutada en el programa. Ciérrala como conforme y súbela así a la revisión por la dirección. Dime si hay algo que lo impida».","¿El sistema está conforme, y qué se eleva a la revisión por la dirección?","Anexo 14 — Informe de campo de la auditoría interna: el tablero de indicadores del año, el cumplimiento del programa anual, los indicadores ambientales y las diez evidencias levantadas · Anexo 15 — Hoja de trabajo, que se entrega como anexo del informe: las relaciones de cláusulas y de clasificación con distractores, la jerarquía de controles y las tres piezas por resolver · Anexo 12 — Plantilla del informe de auditoría interna · No hace falta ningún documento externo: todo lo necesario está en el relato y en los anexos","TRES ENTREGABLES. (1) EL INFORME DE AUDITORÍA INTERNA, sobre la plantilla del anexo 12: objetivo, alcance y criterios de auditoría, desempeño verificado, hallazgos y su clasificación, acciones correctivas y conclusiones. Es el documento que se entrega y que firma el auditor líder. (2) EL ANEXO DEL INFORME, que es la hoja de trabajo (anexo 15) con sus tres piezas resueltas: la tabla de hallazgos —cláusula y clasificación de cada evidencia— resuelta MARCANDO sobre dos relaciones con distractores, con la primera evidencia resuelta como ejemplo; el cuadro de desempeño verificado; y las tres acciones correctivas, cada una en el nivel de la jerarquía de controles en que actúa, con responsable y plazo. (3) EL PPT DE SUSTENTACIÓN, que el equipo arma: portada y SEIS LÁMINAS DE CONTENIDO, una por cada sección del informe —objetivo y alcance, desempeño verificado, hallazgos clasificados, dónde falló el control en la jerarquía, acciones correctivas, y la conclusión con lo que se eleva a la dirección—. Se sustenta en 8 minutos.",,,,,Todos los equipos trabajan el mismo caso. Cada equipo entrega el informe de auditoría interna y lo sustenta en 8 minutos con roles. Se evalúa con la rúbrica de cinco criterios; la suma es la nota.,describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"clasificando cada evidencia de campo contra la cláusula que incumple, marcando sobre las relaciones de cláusulas y de categorías con distractores, comprobando los índices contra los datos del anexo y ubicando cada acción correctiva en la jerarquía de controles",Cada integrante responde ante el equipo por la parte que le tocó.,"Cuatro roles obligatorios, uno por integrante; los equipos de cinco añaden el quinto. AUDITOR DE DESEMPEÑO: verifica los tres índices y el indicador ambiental, y describe sobre qué población se calculó cada uno. AUDITOR DE OPERACIÓN: clasifica las evidencias de la cláusula 8 y describe en qué nivel de la jerarquía actuó cada control aplicado. AUDITOR DE CUMPLIMIENTO: clasifica las evidencias de la cláusula 9 y describe qué exige el sistema en trazabilidad de residuos peligrosos y en evaluación del cumplimiento legal. AUDITOR LÍDER: redacta las conclusiones de la auditoría, declara el grado de conformidad del sistema, dice qué se eleva a la revisión por la dirección y firma el informe. AUDITOR DE CONTRATISTAS (solo en equipos de cinco): describe qué exige el sistema al proceso contratado externamente y qué efecto tiene sobre los indicadores del año. El orden de exposición lo reparte el equipo: coordinar no es un rol. Cada integrante responde ante el equipo por su parte.","120 min · 4 o 5 estudiantes. Leer el relato, el tablero y las diez evidencias 15 · clasificar los hallazgos, marcando 23 · verificar los índices y el indicador ambiental 17 · las tres acciones correctivas en la jerarquía 15 · redactar el informe sobre la plantilla 12 · armar las siete láminas 28 · ensayar con roles 10.","Caso construido. DECISION de Jorge Canchiz (instructor lider SI), 2026-09-02: este curso se trabaja sin anclar los colaborativos en una tesis de repositorio. Los datos son verosimiles y estan construidos sobre las clausulas 8 y 9 de la estructura de alto nivel de las ISO, sobre la jerarquia de controles del articulo 96 del DS 024-2016-EM y sobre el marco legal verificado (§15). Continua el caso del TC1: misma empresa, un ano despues, ya operando dentro de planta. Se declara al cerrar la sustentacion."
+CASO-SI-SGCSSMA-S3,SI-SGCSSMA-S3,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1,"Dos contratistas presentan el alcance de su sistema y su mapa de procesos. En las dos, el alcance declarado deja fuera actividades que la empresa hace todos los días. El equipo separa lo que está dentro de lo que está fuera y ordena las actividades como procesos.",¿Qué hace esta empresa que no esté en su alcance?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Tres cuadros y una línea, en hoja en blanco: la política revisada · el objetivo con sus cinco campos · quién aprueba, responde y difunde · el hecho que engaña.","SITUACIÓN
+Sondajes y Geotecnia del Sur S.A.C. presenta su alcance al cliente antes de la auditoría de ingreso. En el manual del sistema, el alcance ocupa una línea.
 
 LOS HECHOS
-H1 · La política ocupa media página: inocuidad, seguridad, ambiente y comunidad.
-H2 · La firmó el jefe de operaciones en enero, porque el gerente general estaba de viaje.
-H3 · Está enmarcada, con el sello de la certificadora y la fecha de renovación al pie.
-H4 · Está en el mural del comedor, impresa en letra pequeña.
-H5 · El cliente reclamó tres veces en el trimestre: raciones servidas sin registro de temperatura.
-H6 · Las tres veces el cocinero dijo que nadie le explicó quién revisa el registro antes de servir.
-H7 · El gerente pidió «mejorar el servicio» al área de operaciones.
+H1 · El alcance declarado dice: «perforación geotécnica en superficie».
+H2 · La empresa opera además un laboratorio de suelos en la ciudad, con seis personas.
+H3 · En el laboratorio se manejan reactivos y se generan residuos químicos.
+H4 · Las máquinas se reparan en un taller propio, alquilado, a dos cuadras.
+H5 · El transporte de las máquinas lo hace un tercero contratado.
+H6 · El mapa de procesos del manual tiene tres cajas: perforación, logística y administración.
+H7 · Ni el laboratorio ni el taller aparecen en el mapa.
+H8 · El cliente audita solo lo que está dentro del alcance declarado.","Sondajes y Geotecnia del Sur S.A.C. · perforación geotécnica
+Presenta su alcance al cliente antes de la auditoría de ingreso.
 
-El cocinero contó, de pasada, que en otro campamento una tanda mal conservada mandó a doce personas a tópico.","Servicios de Alimentación para Campamento S.A.C. · auditoría el lunes
+Alcance declarado: «perforación geotécnica en superficie» · además opera un laboratorio de suelos con seis personas, con reactivos y residuos químicos · repara las máquinas en un taller propio alquilado a dos cuadras · el transporte lo hace un tercero.
 
-H1 · Política de media página: cuatro compromisos
-
-H2 · La firmó operaciones, no la gerencia
-
-H3 · Enmarcada, con el sello de la certificadora
-
-H4 · En el mural del comedor, en letra pequeña
-
-H5 · Tres reclamos por raciones sin registro
-
-H6 · Nadie le dijo al cocinero quién revisa
-
-H7 · «Mejorar el servicio»: al área, sin nombre","La mitad de los equipos trabaja el caso A y la otra mitad el B; el procedimiento es el mismo, cambian la empresa y los datos. Cada equipo entrega su cuadro y lo sustenta en 2 minutos. Se comprueba con la lista de cotejo.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"contrastando la política contra lo que la norma exige, y bajando un compromiso hasta un objetivo con responsable",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
-CASO-SI-SGCSSMA-S4,SI-SGCSSMA-S4,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Dos empresas van a perder dinero el viernes por un papel que estaba escrito y no sirvió. Cuatro pasos, iguales en los dos casos: (1) de los siete hechos, decir qué documentos debían estar controlados y cuál no hacía falta; (2) señalar qué falló en el control de cada uno —quién aprueba, dónde vive, qué versión manda— y con qué hecho lo prueban; (3) decir qué recursos hacen falta y quién los pone; (4) decir qué le puede pasar a esta empresa, y en qué se diferencia de lo que le pasaría si incumpliera la ley.","El documento existía, estaba escrito y estaba firmado. ¿Por qué no sirvió?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los documentos van por su número de hecho.","SITUACIÓN
-Servicios Analíticos Industriales S.A.C. —laboratorio de ensayo químico, 22 trabajadores— firmó los resultados de tres embarques de concentrado. El lunes llegó la carta de reclamo de la minera.
+El mapa de procesos tiene tres cajas: perforación, logística y administración. Ni el laboratorio ni el taller aparecen.","SITUACIÓN
+Montaje de Estructuras Metálicas S.A.C. renueva su certificación. El auditor pide el alcance del sistema y el mapa de procesos.
 
 LOS HECHOS
-H1 · La minera reclama S/ 240 000 por diferencia de ley en tres embarques.
+H1 · El alcance declarado dice: «montaje de estructuras en unidades mineras».
+H2 · La empresa fabrica esas estructuras en su propio taller de la costa.
+H3 · En ese taller hay soldadura, corte y pintura, con veintidós trabajadores.
+H4 · El diseño de las estructuras lo hace un ingeniero externo por encargo.
+H5 · El mapa de procesos tiene cuatro cajas: montaje, compras, calidad y recursos humanos.
+H6 · La fabricación no aparece como proceso en el mapa.
+H7 · Compras no tiene responsable asignado.
+H8 · El año pasado, dos no conformidades del cliente venían de piezas mal fabricadas.","Montaje de Estructuras Metálicas S.A.C. · 22 trabajadores en taller
+Renueva su certificación. El auditor pide el alcance y el mapa de procesos.
+
+Alcance declarado: «montaje de estructuras en unidades mineras» · pero fabrica las estructuras en su propio taller de la costa, con soldadura, corte y pintura · el diseño lo hace un ingeniero externo por encargo.
+
+El mapa tiene cuatro cajas: montaje, compras, calidad y recursos humanos. La fabricación no aparece, y compras no tiene responsable.","La mitad trabaja el caso A y la otra mitad el B. PASO 1: para cada hecho, decir si está DENTRO o FUERA del alcance declarado. PASO 2: ubicar cada actividad en el mapa como proceso operativo, de apoyo o de dirección, y señalar los que faltan y los que no tienen responsable. Sustentación: 2 minutos.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"contrastando la política contra lo que la norma exige, y bajando un compromiso hasta un objetivo con responsable",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S4,SI-SGCSSMA-S4,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1,"Dos contratistas presentan su política de gestión a la empresa titular, que va a revisarlas antes de autorizar el ingreso de su personal. Cada equipo revisa una de las dos contra los seis requisitos que la norma pide a una política, y dice si está integrada y quién tendría que firmarla.","¿Esta política cumple lo que pide la norma, y está integrada?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los documentos van por su número de hecho.","POLÍTICA A — Sondajes y Geotecnia del Sur S.A.C.
+
+Cabecera: POLÍTICA DE CALIDAD · Código SGS.SGC.POL.01 · Versión 01 · Aprobación 12/03/2021
+
+1 · Satisfacer los requisitos de nuestros clientes, entregando el servicio en el plazo y las condiciones pactadas.
+2 · Cumplir los requisitos legales y otros requisitos que la organización suscriba.
+3 · Mejorar continuamente la eficacia del sistema de gestión de la calidad.
+4 · Establecer y revisar objetivos de calidad medibles en cada proceso.
+5 · Asegurar la disponibilidad de los recursos necesarios para mantener el sistema.
+6 · Capacitar al personal en los procedimientos que le corresponden.
+
+Al pie: firma sobre la línea, Ing. Ana Beltrán, Gerente General.","Política A de Sondajes y Geotecnia del Sur S.A.C. Se entrega completa: cabecera, seis compromisos y el pie de firma.","POLÍTICA B — Montaje de Estructuras Metálicas S.A.C.
+
+Cabecera: POLÍTICA INTEGRADA DE GESTIÓN · Código — · Versión — · Aprobación —
+
+1 · Prevenir lesiones y deterioro de la salud de nuestros trabajadores mediante la identificación de peligros y el control de los riesgos.
+2 · Proteger el medio ambiente previniendo la contaminación y gestionando los residuos de nuestras operaciones.
+3 · Entregar estructuras que cumplan las especificaciones acordadas con el cliente.
+4 · Establecer objetivos anuales para cada uno de los tres sistemas.
+5 · Promover un clima laboral de respeto y colaboración entre todo el personal.
+6 · Mejorar continuamente el desempeño del sistema integrado de gestión.
+
+Al pie: línea de firma sin firmar, Ing. Luis Ramírez, Jefe de SSOMA.","Política B de Montaje de Estructuras Metálicas S.A.C. Se entrega completa: cabecera, seis compromisos y el pie de firma.","La mitad revisa la POLÍTICA A y la otra mitad la POLÍTICA B. PASO 1: marcar los seis requisitos que la norma pide a una política. PASO 2: decir si está integrada, qué le falta y quién tendría que firmarla. Sustentación: 2 minutos.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que la norma exige documentar de lo que la empresa documenta, y rastreando qué falló en el control de esa información",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S5,SI-SGCSSMA-S5,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-1,"Dos contratistas entregan al cliente la evidencia de su consulta y participación: una adjunta el memorando de su supervisor, la otra el acta de su comité. El equipo determina qué órgano corresponde en cada caso, revisa si el que existe cumple, y señala los obstáculos que impiden participar.","¿Qué órgano le toca a esta empresa, y de verdad participa alguien?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Servicios Eléctricos de Mina S.A.C. entrega al cliente la evidencia de su sistema. En el punto de consulta y participación adjunta el memorando de designación de su supervisor de seguridad.
+
+LOS HECHOS
+H1 · La empresa tiene 26 trabajadores en planilla.
+H2 · Hay un supervisor de seguridad, designado por gerencia en enero.
+H3 · No hubo elección: el memorando dice «se designa por su experiencia».
+H4 · El supervisor lleva un cuaderno con las charlas de cinco minutos.
+H5 · Antes de comprar los arneses nuevos, nadie preguntó a los electricistas.
+H6 · La política se difundió por correo; tres trabajadores no tienen correo.
+H7 · Un técnico pidió cambiar la hora de la charla y le dijeron que no se podía.
+H8 · No existe libro de actas.","Servicios Eléctricos de Mina S.A.C. · 26 trabajadores
+Entrega al cliente el memorando de designación de su supervisor de seguridad.
+
+Supervisor designado por gerencia en enero, sin elección · un cuaderno con las charlas de cinco minutos · nadie preguntó a los electricistas antes de comprar los arneses · la política se difundió por correo y tres trabajadores no tienen correo · a un técnico que pidió cambiar la hora de la charla le dijeron que no se podía.
+
+No existe libro de actas.","SITUACIÓN
+Mantenimiento de Fajas y Chutes S.A.C. entrega al cliente la evidencia de su sistema. En el punto de consulta y participación adjunta el acta de su comité de seguridad.
+
+LOS HECHOS
+H1 · La empresa tiene 17 trabajadores en planilla.
+H2 · Hay un comité de seguridad con cuatro miembros, los cuatro jefes de área.
+H3 · A los cuatro los puso la gerencia: los trabajadores no eligieron a nadie.
+H4 · El acta de la última reunión es de hace ocho meses.
+H5 · En esa acta figura un solo punto: «se aprueba el programa anual».
+H6 · Al investigar el último incidente no participó ningún trabajador.
+H7 · El buzón de sugerencias está dentro de la oficina del jefe de planta.
+H8 · Dos operarios dicen que reportar una condición insegura «trae problemas».","Mantenimiento de Fajas y Chutes S.A.C. · 17 trabajadores
+Entrega al cliente el acta de su comité de seguridad.
+
+Comité de cuatro miembros, los cuatro jefes de área, puestos por gerencia · el acta más reciente es de hace ocho meses y trae un solo punto · en la investigación del último incidente no participó ningún trabajador · el buzón de sugerencias está dentro de la oficina del jefe de planta.
+
+Dos operarios dicen que reportar una condición insegura «trae problemas».","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: decir qué órgano corresponde según el número de trabajadores, y si el que hay cumple. PASO 2: marcar los asuntos en que la norma obliga a consultar y señalar los obstáculos que aparecen. Sustentación: 2 minutos.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S6,SI-SGCSSMA-S6,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Dos contratistas entregan al cliente su matriz IPERC y su matriz de aspectos ambientales. El equipo dice qué identificaría cada norma sobre esa misma actividad, señala lo que la empresa no identificó, y ubica cada control en su nivel de la jerarquía del artículo 96 para decir cuál debió venir antes.","¿Qué ve cada norma en esta misma actividad, y qué se controló primero?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Perforación Diamantina Andina S.A.C. entrega al cliente su matriz IPERC y su matriz de aspectos ambientales.
+
+LOS HECHOS
+H1 · El IPERC de línea base se aprobó hace tres años y no se ha vuelto a tocar.
+H2 · En la columna «peligro» de la primera fila dice «caída de persona a distinto nivel».
+H3 · Para el ruido de la perforadora, el único control anotado es «uso de tapones auditivos».
+H4 · Para el aceite hidráulico a presión, el control anotado es «charla de cinco minutos».
+H5 · El IPERC continuo del turno lo llena el supervisor y lo firma solo él.
+H6 · No existe mapa de riesgos.
+H7 · La matriz de aspectos ambientales está en blanco, aunque la máquina descarga aceite usado en la plataforma.
+H8 · El Programa Anual de SSO no incluye la línea base ni el mapa.","Perforación Diamantina Andina S.A.C. · entrega su matriz IPERC y su matriz ambiental.
+
+Línea base de hace tres años, sin actualizar · en la columna «peligro» figura «caída de persona a distinto nivel» · contra el ruido, tapones auditivos; contra el aceite a presión, una charla de cinco minutos · el IPERC continuo lo llena y lo firma solo el supervisor · no hay mapa de riesgos.
+
+La matriz ambiental está en blanco, y la máquina descarga aceite usado en la plataforma.","SITUACIÓN
+Movimiento de Tierras Alto Chicama S.A.C. entrega al cliente su matriz IPERC y su matriz de aspectos ambientales.
+
+LOS HECHOS
+H1 · El IPERC de línea base se actualizó en enero y está dentro del Programa Anual de SSO.
+H2 · Hay mapa de riesgos, colgado en el comedor.
+H3 · El IPERC continuo se llena al inicio de la tarea y lo firman los cuatro trabajadores del frente.
+H4 · En la matriz ambiental, la columna «aspecto» dice «suelo contaminado» y la columna «impacto» dice «derrame de combustible».
+H5 · El único aspecto ambiental registrado es el del grifo; el mantenimiento de equipos, que se hace en la cancha, no figura.
+H6 · Para la volcadura del volquete, los controles son «señalización de vías» y «capacitación al operador».
+H7 · El estudio de vías del año pasado dice que la curva de la rampa no tiene peralte. No se ha corregido.
+H8 · La matriz de calidad tiene una sola fila: «riesgo: que el cliente reclame». No hay ninguna oportunidad.","Movimiento de Tierras Alto Chicama S.A.C. · entrega su matriz IPERC y su matriz ambiental.
+
+Línea base actualizada en enero y dentro del Programa Anual · hay mapa de riesgos · el IPERC continuo lo firman los cuatro trabajadores del frente · en la matriz ambiental, «aspecto» dice «suelo contaminado» e «impacto» dice «derrame de combustible».
+
+Contra la volcadura del volquete: señalización y capacitación. El estudio de vías dice que la curva de la rampa no tiene peralte, y sigue sin corregirse.",La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué identifica cada norma y qué falta. PASO 2: en qué nivel del artículo 96 cae cada control.,describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S7,SI-SGCSSMA-S7,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Una constructora y una planta pesquera creían estar en regla porque el cliente las aprobó. El equipo separa los hechos que incumplen una exigencia legal de los que no, dice qué norma manda cada uno, y señala el hecho que parece estar bien y no lo está.",El cliente las aprobó a las dos. ¿Eso las pone en regla?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Edificaciones y Acabados del Norte S.A.C. levanta un edificio de seis pisos y entró a la obra en marzo con la carpeta que el cliente pide, aprobada sin observaciones. El lunes llegó SUNAFIL por una denuncia y dio tres días hábiles para presentar documentos.
+
+LOS HECHOS
+H1 · La empresa tiene 34 trabajadores en planilla.
+H2 · El inspector pidió el estudio de línea base, la política firmada, el reglamento interno y el registro de capacitaciones.
+H3 · Hay un supervisor de seguridad designado por memorando de gerencia. No hay comité.
+H4 · El reglamento interno está impreso en la oficina de obra; no hay cargos de entrega firmados.
+H5 · En el año se dictaron dos capacitaciones, las dos a pedido del cliente.
+H6 · El mapa de riesgos está en la carpeta del cliente; en la obra no hay nada colgado.
+H7 · El certificado ISO 45001 está enmarcado en la oficina, vigente hasta el año próximo.
+H8 · La matriz de requisitos legales la copiaron de otra empresa del grupo, que es minera: la mitad de las filas cita el DS 024-2016-EM.","Edificaciones y Acabados del Norte S.A.C. · 34 trabajadores · obra de seis pisos · SUNAFIL dio tres días hábiles.
+
+Piden línea base, política, reglamento interno y capacitaciones · hay un supervisor designado por memorando y no hay comité · el reglamento interno impreso, sin cargos firmados · dos capacitaciones en el año, las dos a pedido del cliente · el mapa de riesgos en la carpeta, nada colgado en la obra · el certificado ISO 45001 enmarcado y vigente.
+
+La matriz legal la copiaron de otra empresa del grupo, que es minera: la mitad de las filas cita el DS 024-2016-EM.","SITUACIÓN
+Conservas y Congelados del Pacífico S.A.C. procesa y congela pescado para exportación. En julio pasó la auditoría de su cliente con 88 %. El 3 de septiembre un operario resbaló en la sala de fileteo y tiene doce días de descanso médico. El cliente pide el informe de investigación en 48 horas.
+
+LOS HECHOS
+H1 · La empresa tiene 26 trabajadores en planilla.
+H2 · La auditoría del cliente dio 88 % y no dejó observaciones de fondo.
+H3 · Hay comité de seguridad con cuatro miembros, designados por gerencia.
+H4 · El 3 de septiembre un operario resbaló en la sala de fileteo; tiene doce días de descanso médico.
+H5 · El accidente no se investigó: no hay informe, ni medidas correctivas, ni registro.
+H6 · El jefe de planta dice que no avisaron a nadie «porque no fue mortal».
+H7 · En el año se dictaron tres capacitaciones.
+H8 · La matriz de requisitos legales se armó en 2019 y no se ha vuelto a revisar.","Conservas y Congelados del Pacífico S.A.C. · 26 trabajadores · planta de congelado · el informe, en 48 horas.
+
+La auditoría del cliente dio 88 %, sin observaciones de fondo · comité de cuatro miembros designados por gerencia · el 3 de septiembre un operario resbaló en la sala de fileteo, doce días de descanso · el accidente sin investigar, sin medidas y sin registro · tres capacitaciones en el año.
+
+El jefe de planta dice que no avisaron a nadie «porque no fue mortal». Y la matriz de requisitos legales es de 2019.",La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué hechos incumplen y qué artículo lo manda. PASO 2: qué le puede pasar a la empresa y quién se lo puede exigir.,describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S8,SI-SGCSSMA-S8,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Una planta metalmecánica y una de empaque agroindustrial presentan al cliente sus objetivos del año y su programa anual. El equipo revisa si los objetivos se pueden evaluar, si el programa cubre lo que el sistema ya había identificado, y si lo aprobó quien tenía que aprobarlo.",Los dos programas se cumplieron. ¿Sirvió alguno de los dos?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Estructuras y Calderería Vulcano S.A.C. —planta metalmecánica— presenta al cliente sus objetivos del año y su programa anual de seguridad y salud.
+
+LOS HECHOS
+H1 · La empresa tiene 48 trabajadores. Hay comité de seguridad, elegido en marzo.
+H2 · Los objetivos del año están escritos con indicador, meta, plazo y responsable.
+H3 · Uno dice: bajar el índice de frecuencia de 12 a 8 al 31 de diciembre; responsable, el jefe de planta.
+H4 · El programa anual es el del año pasado con la fecha cambiada: las mismas 14 actividades, en las mismas semanas.
+H5 · Tres actividades del programa hablan del horno de tratamiento, que se dio de baja en enero.
+H6 · Nadie midió el índice de frecuencia durante el año: el primer cálculo es de diciembre.
+H7 · El acta del comité de enero dice «se toma conocimiento del programa anual».
+H8 · El programa no tiene columna de presupuesto.","Estructuras y Calderería Vulcano S.A.C. · planta metalmecánica · 48 trabajadores.
+
+Objetivos escritos con indicador, meta, plazo y responsable · uno dice bajar el índice de frecuencia de 12 a 8 al 31 de diciembre · el programa anual es el del año pasado con la fecha cambiada, mismas 14 actividades y mismas semanas · tres actividades hablan del horno de tratamiento, dado de baja en enero · el programa no tiene columna de presupuesto.
+
+Nadie midió el índice durante el año: el primer cálculo es de diciembre. Y el acta del comité dice «se toma conocimiento del programa anual».","SITUACIÓN
+Packing y Frío Valle Norte S.A.C. —planta de empaque de arándanos— presenta al cliente sus objetivos del año y su programa anual de seguridad y salud.
+
+LOS HECHOS
+H1 · La empresa tiene 60 trabajadores. Hay comité de seguridad, elegido en enero.
+H2 · Los objetivos del año son tres: «mejorar la cultura de seguridad», «cuidar el medio ambiente» y «satisfacer al cliente».
+H3 · Ninguno tiene indicador ni meta. Los tres dicen «durante el año» y «responsable: gerencia».
+H4 · El programa anual tiene 22 actividades, cada una con responsable, semana y presupuesto.
+H5 · El acta de febrero registra que el comité aprobó el programa anual, con los votos.
+H6 · El IPERC identificó como riesgo alto el trabajo dentro de la cámara de frío. Ninguna actividad del programa lo toca.
+H7 · La matriz ambiental identificó como aspecto significativo el consumo de agua del lavado. Tampoco figura en el programa.
+H8 · A fin de año se informó «cumplimiento del programa anual: 91 %».","Packing y Frío Valle Norte S.A.C. · planta de empaque de arándanos · 60 trabajadores.
+
+Los objetivos del año son tres: «mejorar la cultura de seguridad», «cuidar el medio ambiente» y «satisfacer al cliente» · ninguno tiene indicador ni meta, los tres dicen «durante el año» y «responsable: gerencia» · el programa anual tiene 22 actividades con responsable, semana y presupuesto, y el comité lo aprobó en febrero con los votos en acta.
+
+El IPERC puso como riesgo alto el trabajo en cámara de frío y la matriz ambiental puso el consumo de agua del lavado. Ninguno de los dos figura en el programa. A fin de año se informó «cumplimiento: 91 %».",La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué objetivos se pueden evaluar y cuáles no. PASO 2: si el programa cubre lo identificado y si lo aprobó quien debía.,describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S9,SI-SGCSSMA-S9,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Una empresa de transporte de carga y un taller de confecciones muestran al cliente cómo forman a su gente. El equipo revisa si la capacitación cumple las condiciones que pone la ley, y si el trabajador quedó competente y consciente, con el hecho que lo prueba.",Los dos tienen certificados firmados. ¿Alguno sabe hacer el trabajo?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Transportes y Logística Cordillera S.A.C. mueve carga por carretera. El cliente audita su gestión de personal antes de renovar el contrato.
+
+LOS HECHOS
+H1 · La empresa tiene 40 trabajadores; 26 son conductores.
+H2 · En el año se dictaron ocho capacitaciones, todas los sábados, fuera de la jornada.
+H3 · A quien asistió el sábado no se le pagó ese tiempo ni se le compensó.
+H4 · El curso de manejo defensivo lo pagó cada conductor de su bolsillo: 120 soles.
+H5 · Los ocho temas fueron los mismos para conductores, personal de oficina y estibadores.
+H6 · Un conductor entró un lunes y salió a ruta ese mismo día; su inducción está programada para el mes siguiente.
+H7 · No existe una descripción de qué competencia se le pide al puesto de conductor.
+H8 · El file de ese conductor tiene su licencia vigente y el certificado del curso que pagó.","Transportes y Logística Cordillera S.A.C. · transporte de carga · 40 trabajadores, 26 conductores.
+
+Ocho capacitaciones en el año, todas los sábados fuera de la jornada y sin pagar ese tiempo · el curso de manejo defensivo lo pagó cada conductor de su bolsillo, 120 soles · los ocho temas fueron los mismos para conductores, oficina y estibadores.
+
+Un conductor entró un lunes y salió a ruta ese mismo día; su inducción está programada para el mes siguiente. No existe descripción de la competencia que se le pide al puesto.","SITUACIÓN
+Confecciones y Acabados Textiles S.A.C. fabrica prendas para una marca que audita a sus proveedores. La auditoría llega en dos semanas.
+
+LOS HECHOS
+H1 · La empresa tiene 52 trabajadores. Hay comité de seguridad, elegido en febrero.
+H2 · Hay una matriz de competencias por puesto, con la educación, la formación y la experiencia que se piden.
+H3 · Cada ingreso recibe inducción el primer día, antes de entrar a planta, y firma el cargo.
+H4 · El programa del año tiene cuatro capacitaciones. Las cuatro son el mismo curso: «uso correcto de EPP».
+H5 · El IPERC de la planta marca como riesgo alto el atrapamiento en la máquina de corte. Ningún curso lo toca.
+H6 · Las capacitaciones las dicta el jefe de producción, que no acredita formación ni experiencia en seguridad.
+H7 · No hay registro de capacitación: la evidencia son fotos en el grupo de WhatsApp.
+H8 · Al preguntarles, cuatro operarios no saben qué hacer si la máquina de corte se traba.","Confecciones y Acabados Textiles S.A.C. · 52 trabajadores · la auditoría de la marca llega en dos semanas.
+
+Hay matriz de competencias por puesto, con educación, formación y experiencia · cada ingreso recibe inducción el primer día, antes de entrar a planta, y firma el cargo · el programa del año tiene cuatro capacitaciones, y las cuatro son el mismo curso: «uso correcto de EPP» · las dicta el jefe de producción, que no acredita formación en seguridad.
+
+El IPERC marca como riesgo alto el atrapamiento en la máquina de corte y ningún curso lo toca. No hay registro: la evidencia son fotos en un grupo de WhatsApp. Cuatro operarios no saben qué hacer si esa máquina se traba.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué condiciones de la ley incumple la capacitación, y qué artículo lo manda. PASO 2: si el trabajador quedó competente y consciente.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,sesion,SI-IMPAMB,SI-IMPAMB-B1,IND-SI-IMPAMB-1,"Dos empresas de rubros distintos tienen encima una verificación ambiental del cliente. Cada una muestra primero un control vistoso que actúa sobre el daño ya producido, mientras lo que lo genera sigue sin tocar. El equipo lista lo que sale de la operación, describe el cambio que produce cada cosa, y señala sobre cuál de los dos actúa cada control existente.",¿Sobre qué está actuando lo que esta empresa ya hizo?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,Cuatro filas en una hoja en blanco: lo que sale · el cambio que produce · sobre qué actúa cada control · qué queda sin control.,"SITUACIÓN
+El lunes llegó el aviso: el jueves de la próxima semana el cliente hace su visita de verificación ambiental, y el contrato de suministro se renueva o no según ese informe. Son 180 m³ de concreto al día para la obra de la mina.
+
+Ernesto Alvarado lleva siete meses como jefe de planta de Concretos y Agregados del Centro S.A.C. Una faja lleva el agregado de la tolva al mezclador y va descubierta: cuando corre, se levanta una nube que el viento arrastra hacia la carretera y hacia las tres casas del otro lado. Los vecinos ya reclamaron dos veces por escrito.
+
+Al terminar el turno se lavan los ocho mixers. El agua sale con cemento y arena, corre por una zanja hasta un pozo de sedimentación y el pozo se limpia los viernes. El mes pasado se colmató un miércoles y el agua siguió de largo hasta la acequia de riego; el regante del sector vino a reclamar y se le pagó el jornal perdido. No se anotó en ninguna parte.
+
+Contra el polvo, la planta compró una cisterna que riega la carretera tres veces al día. Ernesto la muestra en cada visita: es lo primero que enseña. La faja sigue descubierta.","Concretos y Agregados del Centro S.A.C. · 180 m³/día
+El jueves entra la visita de verificación ambiental del cliente; de ese informe depende la renovación del contrato.
+· La faja de agregado va descubierta y levanta una nube hacia la carretera y tres casas.
+· El agua de lavar los ocho mixers va por una zanja a un pozo que se limpia los viernes.
+· El mes pasado el pozo se colmató un miércoles y el agua llegó a la acequia de riego.
+· Una cisterna riega la carretera tres veces al día. Es lo primero que se enseña.","SITUACIÓN
+El viernes 22 se entrega la estructura del techo de la sala de bombas, y el cliente hace la inspección ambiental del taller el mismo día que recibe. Son 34 toneladas habilitadas en seis semanas.
+
+Delia Ccopa lleva cinco meses como supervisora de Estructuras Metálicas y Montaje S.A.C. El taller trabaja con cuatro puestos de soldadura y dos esmeriles de banco. Cuando los cuatro puestos están encendidos, el humo se acumula bajo la calamina y baja hasta la altura de la puerta; el taller colinda con el patio de una escuela.
+
+De la habilitación salen retazos de plancha y viruta, que se juntan en una esquina del patio sobre tierra. Cuando llueve, del montón corre un agua rojiza que se mete bajo el cerco. En marzo un vecino reclamó que se le manchó el muro; se le pintó el muro y no se registró.
+
+Contra el humo, el taller instaló dos extractores en el techo. Delia los enciende antes de que llegue cualquier visita. Los puestos de soldadura siguen sin cortina ni campana.","Estructuras Metálicas y Montaje S.A.C. · 34 toneladas en seis semanas
+El viernes 22 se entrega la estructura y el cliente inspecciona el taller ese mismo día.
+· Cuatro puestos de soldadura llenan de humo el taller, que colinda con una escuela.
+· Los retazos y la viruta se apilan en el patio, sobre tierra.
+· Cuando llueve corre del montón un agua rojiza que se mete bajo el cerco.
+· Dos extractores en el techo se encienden antes de cada visita.","Mitad de los equipos con el caso A, mitad con el B. Cuatro filas: 1 · qué sale de la operación · 2 · qué cambio produce cada una · 3 · sobre cuál de los dos actúa cada control existente · 4 · qué salida queda sin control. Equipos de 4 · 28 min.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que sale de la operación del cambio que produce, y ubicando cada control existente sobre uno de los dos",cada integrante responde por su fila ante el equipo,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S10,SI-SGCSSMA-S10,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-2,"Un laboratorio de ensayo y una empresa de montaje van a perder dinero el viernes por papeles que estaban escritos y no sirvieron. El equipo separa los documentos de los registros, dice qué falló en el control de cada uno, señala dónde falló la comunicación y con qué artículo se sostiene.","El documento existía, estaba escrito y estaba firmado. ¿Por qué no sirvió?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Servicios Analíticos Industriales S.A.C. —laboratorio de ensayo químico, 22 trabajadores— firmó los resultados de tres embarques de concentrado. El lunes llegó la carta de reclamo del cliente, que pide el dossier del método el viernes.
+
+LOS HECHOS
+H1 · El cliente reclama 240 000 soles por diferencia de ley en tres embarques.
 H2 · El método de ensayo cambió en abril: la revisión 4 baja el límite de cuantificación.
-H3 · La revisión 4 llegó al correo del jefe de laboratorio, un jueves.
+H3 · La revisión 4 llegó al correo del jefe de laboratorio, un jueves. De ahí no salió.
 H4 · Los tres analistas siguen con la hoja plastificada pegada al equipo: revisión 2, de hace tres años.
 H5 · La carpeta de calibraciones está impecable: doce hojas firmadas por el mismo jefe de laboratorio.
-H6 · En el mural del pasillo está la lista de cumpleaños del personal, actualizada.
-H7 · Hay una sola licencia del software del equipo, y el técnico que sabía configurarlo renunció en mayo.
+H6 · Un analista escribió dos veces avisando que los resultados no cuadraban. Nadie le respondió.
+H7 · Los registros de accidentes se depuran cada año; los del año pasado ya se eliminaron.
+H8 · No hay lista de qué documentos están controlados ni quién los aprueba.","Servicios Analíticos Industriales S.A.C. · laboratorio de ensayo químico · 22 trabajadores · el dossier, el viernes.
 
-La minera pide el dossier del método el viernes; si no llega, retiene el pago del trimestre. La analista más nueva comentó que en su trabajo anterior una hoja vencida los hizo reportar un lote como estéril; era mineral, y el cliente lo supo seis meses después.","Servicios Analíticos Industriales S.A.C. · el dossier del método, el viernes
+Reclamo de 240 000 soles por diferencia de ley en tres embarques · el método cambió en abril, revisión 4, y llegó al correo del jefe de laboratorio, de donde no salió · los tres analistas siguen con la hoja plastificada del equipo, revisión 2, de hace tres años · la carpeta de calibraciones está impecable, doce hojas firmadas por el mismo jefe.
 
-H1 · Reclamo de S/ 240 000 por diferencia de ley
-
-H2 · El método cambió en abril: revisión 4
-
-H3 · Llegó al correo del jefe de laboratorio
-
-H4 · Los analistas siguen con la revisión 2, plastificada
-
-H5 · La carpeta de calibraciones, impecable y firmada
-
-H6 · En el mural, la lista de cumpleaños del personal
-
-H7 · Una sola licencia; el técnico renunció en mayo","SITUACIÓN
-Ingeniería y Montaje Electromecánico S.A.C. —64 trabajadores, ocho meses en obra— entrega la faja transportadora el viernes. La supervisión devolvió el dossier de calidad con tres observaciones.
+Un analista escribió dos veces avisando que los resultados no cuadraban y nadie le respondió. Los registros de accidentes se depuran cada año: los del año pasado ya se eliminaron.","SITUACIÓN
+Ingeniería y Montaje Electromecánico S.A.C. —64 trabajadores, ocho meses en obra— entrega la faja transportadora el viernes. La supervisión devolvió el dossier con tres observaciones.
 
 LOS HECHOS
-H1 · Cada día de atraso en el acta cuesta S/ 8 000.
+H1 · Cada día de atraso en el acta de entrega cuesta 8 000 soles.
 H2 · Los soportes del tramo 3 se montaron con el plano revisión B; los del tramo 5, con la C.
 H3 · La revisión C llegó por WhatsApp al capataz, un sábado.
-H4 · En la caseta hay planos impresos de las dos revisiones, y ninguno tiene sello.
+H4 · En la caseta hay planos impresos de las dos revisiones, y ninguno tiene sello ni fecha.
 H5 · El registro de torque está completo y dentro de tolerancia: la de la revisión B.
-H6 · En la caseta también está el rol de vacaciones del personal, al día.
-H7 · Nadie controla los planos: el residente lo hace «cuando puede» y la impresora saca en A4 planos que son A1.
+H6 · Nadie controla los planos: el residente lo hace «cuando puede».
+H7 · Un soldador preguntó en la charla cuál revisión mandaba; le dijeron que consultara al capataz.
+H8 · Los registros de inducción del personal nuevo están en el celular del prevencionista, que rotó a otra obra.","Ingeniería y Montaje Electromecánico S.A.C. · 64 trabajadores · el acta de la faja, el viernes.
 
-El capataz cuenta, sin darle importancia, que en otra obra un soporte montado con plano viejo cedió con la faja cargada; no hubo heridos porque era domingo.","Ingeniería y Montaje Electromecánico S.A.C. · el acta de la faja, el viernes
+Cada día de atraso cuesta 8 000 soles · los soportes del tramo 3 se montaron con el plano revisión B y los del tramo 5 con la C · la revisión C llegó por WhatsApp al capataz, un sábado · en la caseta hay impresos de las dos revisiones, ninguno con sello ni fecha · el registro de torque está completo, con la tolerancia de la revisión B.
 
-H1 · S/ 8 000 por cada día de atraso
-
-H2 · Tramo 3 con la revisión B; tramo 5 con la C
-
-H3 · La revisión C llegó por WhatsApp, un sábado
-
-H4 · Las dos revisiones impresas, sin sello
-
-H5 · Torque completo, con la tolerancia vieja
-
-H6 · En la caseta, el rol de vacaciones al día
-
-H7 · Nadie controla los planos; la impresora saca A4","La mitad de los equipos trabaja el caso A y la otra mitad el B; el procedimiento es el mismo, cambian la empresa y los datos. Cada equipo entrega su cuadro y lo sustenta en 2 minutos. Se comprueba con la lista de cotejo.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que la norma exige documentar de lo que la empresa documenta, y rastreando qué falló en el control de esa información",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
-CASO-SI-SGCSSMA-S5,SI-SGCSSMA-S5,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-3,"Dos contratistas mineras creían tener su sistema en regla porque el cliente las aprobó. Cuatro pasos, iguales en los dos casos: (1) de los siete hechos, separar los que incumplen una exigencia legal de los que no; (2) para cada incumplimiento, decir qué norma lo manda; (3) decir qué le puede pasar a la empresa por cada uno, y quién se lo puede exigir; (4) señalar el hecho que parece estar bien y no lo está, y explicar por qué.",El cliente las aprobó a las dos. ¿Eso las pone en regla?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
-Voladura y Perforación Subterránea S.A.C. —34 trabajadores— entró a la unidad minera en marzo con la carpeta que el cliente pide, aprobada sin observaciones. El lunes llegó SUNAFIL sin aviso, por una denuncia. Dio tres días hábiles para presentar documentos.
+Un soldador preguntó cuál revisión mandaba y le dijeron que consultara al capataz. Los registros de inducción están en el celular del prevencionista, que rotó a otra obra.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué era documento, qué era registro y qué falló en cada uno. PASO 2: dónde falló la comunicación, y qué pasa el viernes.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S13,SI-SGCSSMA-S13,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-3,"Una planta de bebidas y una empresa de mantenimiento eléctrico muestran cómo controlan sus trabajos de alto riesgo. El equipo dice qué documento correspondía a cada tarea —estándar, PETS, ATS o permiso—, cuál falta o se está usando mal, y si los controles que manda alcanzan para el peligro que hay.",Los dos tienen el papel firmado. ¿Alguno controla algo?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Bebidas y Maltas del Centro S.A.C. limpia por dentro sus tanques de fermentación. El corporativo del cliente audita los trabajos de alto riesgo de sus proveedores.
 
 LOS HECHOS
-H1 · El inspector pidió el estudio de línea base, la política firmada, el RISST y el registro de capacitaciones.
-H2 · La empresa tiene 34 trabajadores en planilla.
-H3 · Hay un supervisor de seguridad designado por memorando de gerencia. No hay comité.
-H4 · El RISST está impreso en la oficina; no hay cargos de entrega firmados.
-H5 · En el año se dictaron dos capacitaciones, las dos a pedido del cliente.
-H6 · El certificado ISO 45001 está enmarcado en la oficina, vigente hasta el año próximo.
-H7 · El mapa de riesgos está en la carpeta del cliente; en el frente de trabajo no hay nada colgado.
+H1 · La empresa tiene 90 trabajadores. La limpieza interior de tanques la hacen dos operarios.
+H2 · El cliente exige permiso de trabajo para espacio confinado, y el formato existe.
+H3 · El permiso del mes está firmado una sola vez, el día 1, y dice «válido para todo el mes».
+H4 · Lo firmó solo el prevencionista. No hay firma del jefe de área.
+H5 · Hay un PETS de limpieza de tanques, redactado por la consultora que implementó el sistema.
+H6 · El PETS está en la carpeta de la oficina; en la sala de tanques no hay nada colgado.
+H7 · Los únicos controles que lista el PETS son «uso de respirador» y «uso de arnés».
+H8 · No se mide el oxígeno antes de entrar al tanque: el PETS no lo menciona.","Bebidas y Maltas del Centro S.A.C. · 90 trabajadores · limpieza interior de tanques de fermentación.
 
-El contrato con la minera son S/ 1 800 000 al año. Un perforista contó, sin darle importancia, que en otra contratista un taco salió antes de tiempo y el ayudante quedó con la audición perdida.","Voladura y Perforación Subterránea S.A.C. · 34 trabajadores · SUNAFIL dio tres días
+El cliente exige permiso de trabajo para espacio confinado y el formato existe · el permiso del mes está firmado una sola vez, el día 1, «válido para todo el mes» · lo firmó solo el prevencionista, sin el jefe de área · hay un PETS redactado por la consultora que implementó el sistema, guardado en la carpeta de la oficina.
 
-H1 · Piden línea base, política, RISST y capacitaciones
-
-H2 · 34 trabajadores en planilla
-
-H3 · Un supervisor por memorando; no hay comité
-
-H4 · El RISST impreso, sin cargos firmados
-
-H5 · Dos capacitaciones al año, a pedido del cliente
-
-H6 · El certificado ISO 45001, enmarcado y vigente
-
-H7 · El mapa de riesgos, en la carpeta; nada colgado","SITUACIÓN
-Sostenimiento y Shotcrete S.A.C. —26 trabajadores— pasó en julio la auditoría del cliente con 88 %. El 3 de septiembre un trabajador cayó de un andamio y tiene doce días de descanso médico. El cliente pide el informe de investigación en 48 horas.
+Los únicos controles que lista son respirador y arnés. No se mide el oxígeno antes de entrar: el PETS no lo menciona.","SITUACIÓN
+Mantenimiento Eléctrico Industrial S.A.C. atiende tableros y luminarias en plantas industriales. El cliente pide revisar cómo controla sus trabajos en altura.
 
 LOS HECHOS
-H1 · La auditoría del cliente, en julio, dio 88 % y no dejó observaciones de fondo.
-H2 · La empresa tiene 26 trabajadores en planilla.
-H3 · Hay comité de seguridad, con cuatro miembros designados por gerencia.
-H4 · El accidente del 3 de septiembre no se investigó: no hay informe, no hay medidas correctivas y no figura en ningún registro.
-H5 · El RISST se imprimió y se dejó en la caseta; nadie firmó cargo de entrega.
-H6 · El mapa de riesgos existe, en la carpeta del cliente; no está exhibido en la labor.
-H7 · En el año se dictaron tres capacitaciones.
+H1 · La empresa tiene 45 trabajadores; 30 son técnicos electricistas.
+H2 · Cada tarea nueva se hace con un ATS llenado en el sitio por los propios técnicos.
+H3 · El cambio de luminarias en altura se hace tres veces por semana desde hace dos años, siempre con ATS.
+H4 · No existe PETS de trabajo en altura.
+H5 · El ATS de esa tarea es el mismo formato fotocopiado, con la fecha cambiada.
+H6 · Hay un estándar de trabajos en altura, de 2021, que exige línea de vida horizontal.
+H7 · En el almacén del cliente no hay línea de vida horizontal: el arnés se ancla a la estructura.
+H8 · Al preguntarles, dos técnicos dicen que el estándar «lo vieron en la inducción».","Mantenimiento Eléctrico Industrial S.A.C. · 45 trabajadores, 30 técnicos electricistas.
 
-El jefe de guardia contó, de pasada, que en otra obra una malla mal anclada cedió de madrugada y no hubo nadie debajo por casualidad.","Sostenimiento y Shotcrete S.A.C. · 26 trabajadores · el informe, en 48 horas
+Cada tarea nueva se hace con un ATS llenado en el sitio por los técnicos · el cambio de luminarias en altura se hace tres veces por semana desde hace dos años, y siempre con ATS · no existe PETS de trabajo en altura · el ATS de esa tarea es el mismo formato fotocopiado con la fecha cambiada.
 
-H1 · La auditoría del cliente dio 88 %, sin observaciones
+El estándar de trabajos en altura, de 2021, exige línea de vida horizontal. En el almacén no hay: el arnés se ancla a la estructura. Dos técnicos dicen que el estándar «lo vieron en la inducción».","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué documento correspondía a cada tarea y cuál falta o se usa mal. PASO 2: si los controles alcanzan, y qué corregirías.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-IMPAMB-S2,SI-IMPAMB-S2,sesion,SI-IMPAMB,SI-IMPAMB-B1,IND-SI-IMPAMB-1,"Dos empresas de rubros distintos tienen una matriz con UNA sola fila para toda su operación, llena, ordenada y firmada. Por dentro, esa operación son cinco tareas, y varias de ellas generan aspectos que la fila única no registra. El equipo lista entradas y salidas en dos niveles y señala qué aparece al partir la actividad.",¿Cuántas cosas caben dentro de una sola fila?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,Cuatro filas en una hoja en blanco: entradas y salidas de la actividad escrita · las tareas que la componen · entradas y salidas de cada tarea · qué aspectos aparecen.,"SITUACIÓN
+El comedor sirve 320 raciones al día, y el jueves entra la verificación ambiental del cliente junto con la de sanidad. Es la primera desde que se renovó el contrato.
 
-H2 · 26 trabajadores en planilla
+Yesenia Mamani lleva cuatro meses como administradora de Servicios de Alimentación Colectiva S.A.C. La matriz que le dejaron tiene una sola fila para todo lo que pasa en la cocina: la actividad dice «preparación de alimentos», la entrada dice «insumos», la salida dice «residuos orgánicos» y el control dice «contenedor con tapa». Está llena, ordenada y firmada.
 
-H3 · Comité de cuatro miembros, designados por gerencia
+En la cocina, sin embargo, pasan varias cosas. Los insumos llegan en cajas de cartón y bolsas de plástico que se apilan en el patio. Las papas se pelan y se lavan en una poza cuya agua va directo al desagüe. Se cocina con dos balones de GLP a la semana. Al terminar el turno se lavan la vajilla y las ollas, y el agua sale con grasa y detergente. Y cada quince días se cambia el aceite de la freidora: unos veinte litros que se vacían en un bidón que alguien se lleva.
 
-H4 · El accidente del 3 de septiembre, sin investigar
+En julio el desagüe de la cocina se tapó con grasa y el agua salió por la puerta hacia el patio de secado de ropa. Se destapó con soda cáustica y se siguió trabajando.","Servicios de Alimentación Colectiva S.A.C. · 320 raciones al día
+El jueves entra la verificación ambiental del cliente, junto con la de sanidad.
+· La matriz tiene UNA fila: «preparación de alimentos» → «insumos» → «residuos orgánicos».
+· Los insumos llegan en cartón y plástico, que se apilan en el patio.
+· Las papas se lavan en una poza cuya agua va al desagüe. Se cocina con dos balones de GLP a la semana.
+· El agua de lavar vajilla y ollas sale con grasa y detergente.
+· Cada quince días salen veinte litros de aceite usado de la freidora.
+· En julio el desagüe se tapó con grasa y el agua salió al patio.","SITUACIÓN
+La lavandería procesa novecientas prendas por semana —mamelucos, casacas y guantes de la operación— y el cliente anunció que en dos semanas revisa las matrices de todas sus contratistas.
 
-H5 · El RISST en la caseta, sin cargos firmados
+Aldo Quiñones lleva seis meses como jefe de planta de Servicios de Lavandería Industrial S.A.C. La matriz que heredó tiene una sola fila para toda la planta: la actividad dice «lavado de ropa de trabajo», la entrada dice «agua y detergente», la salida dice «agua residual» y el control dice «trampa de sólidos a la salida». Está llena, ordenada y firmada.
 
-H6 · El mapa de riesgos, en la carpeta; no exhibido
+En la planta pasan varias cosas. Las prendas llegan en sacos y se clasifican a mano; las que vienen con aceite van primero a un prelavado con solvente, en una tina aparte. Después entran a las lavadoras industriales, que consumen agua y energía. Luego pasan a tres secadoras a gas, cuyos filtros se limpian cada dos días y sueltan una pelusa que se junta en bolsas. Al final se plancha y se embala en film plástico.
 
-H7 · Tres capacitaciones en el año","La mitad de los equipos trabaja el caso A y la otra mitad el B; el procedimiento es el mismo, cambian la empresa y los datos. Cada equipo entrega su cuadro y lo sustenta en 2 minutos. Se comprueba con la lista de cotejo.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+En marzo se prendió la pelusa acumulada detrás de una secadora. Lo apagaron con un extintor, se ventiló el local y se siguió trabajando el mismo día.","Servicios de Lavandería Industrial S.A.C. · 900 prendas por semana
+En dos semanas el cliente revisa las matrices de todas sus contratistas.
+· La matriz tiene UNA fila: «lavado de ropa de trabajo» → «agua y detergente» → «agua residual».
+· Las prendas con aceite pasan antes por un prelavado con solvente, en tina aparte.
+· Las lavadoras industriales consumen agua y energía.
+· Tres secadoras a gas; sus filtros se limpian cada dos días y sueltan pelusa.
+· Se plancha y se embala en film plástico.
+· En marzo se prendió la pelusa acumulada detrás de una secadora.","Mitad de los equipos con el caso A, mitad con el B. Cuatro filas: 1 · entradas y salidas de la actividad tal como está escrita · 2 · partir esa actividad en las tareas que de verdad se hacen · 3 · entradas y salidas de cada tarea · 4 · qué aspectos aparecen que no se veían. Equipos de 4 · 28 min.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,partiendo la actividad en sus tareas y comparando lo que sale en cada nivel de detalle,cada integrante responde por su fila ante el equipo,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S14,SI-SGCSSMA-S14,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-3,"Una imprenta y un centro de distribución hicieron un cambio y algo se les fue de las manos. El equipo dice qué cambió, quién debió evaluarlo antes y qué peligro nuevo apareció; después ubica el control que aplicaron en su nivel de la jerarquía y dice cuál correspondía.",El cambio ya se hizo. ¿Quién tenía que haberlo mirado antes?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Artes Gráficas del Litoral S.A.C. imprime empaques. En marzo cambió el solvente con que limpia los rodillos, para bajar costos.
+
+LOS HECHOS
+H1 · La empresa tiene 55 trabajadores.
+H2 · El cambio de solvente lo decidió el área de compras; seguridad se enteró cuando llegó el primer lote.
+H3 · No se hizo IPERC del solvente nuevo ni se pidió su hoja de datos de seguridad.
+H4 · El solvente nuevo es más volátil: el olor llega hasta la zona de acabados.
+H5 · La cabina de extracción localizada se diseñó para el solvente anterior y no se tocó.
+H6 · A los operarios se les entregó respirador nuevo y se les dictó una charla de veinte minutos.
+H7 · Dos operarios de acabados dijeron que terminan el turno con dolor de cabeza. No hay registro.
+H8 · El procedimiento de limpieza de rodillos sigue nombrando el solvente anterior.","Artes Gráficas del Litoral S.A.C. · imprenta de empaques · 55 trabajadores.
+
+En marzo se cambió el solvente de limpieza de rodillos para bajar costos · lo decidió compras, y seguridad se enteró cuando llegó el primer lote · no se hizo IPERC del solvente nuevo ni se pidió su hoja de datos · el nuevo es más volátil y el olor llega hasta acabados · la cabina de extracción se diseñó para el anterior y no se tocó.
+
+A los operarios se les dio respirador nuevo y una charla de veinte minutos. Dos de acabados dicen que terminan el turno con dolor de cabeza, y no hay registro. El procedimiento sigue nombrando el solvente anterior.","SITUACIÓN
+Centro de Distribución Andina S.A.C. amplió su almacén en enero: los racks pasaron de dos a cuatro niveles para almacenar más.
+
+LOS HECHOS
+H1 · La empresa tiene 70 trabajadores.
+H2 · Hay un procedimiento de gestión del cambio, y el formato se llenó y se firmó.
+H3 · El formato evalúa el cambio para la operación: tiempos, costos y capacidad de almacenaje.
+H4 · No tiene ninguna casilla sobre peligros nuevos ni sobre el IPERC.
+H5 · Con el cuarto nivel, el montacargas trabaja al límite de su altura de elevación.
+H6 · La medida que se tomó fue prohibir por escrito elevar con la carga inclinada.
+H7 · El estudio del proveedor recomienda un montacargas de mayor alcance. No se compró.
+H8 · En dos meses cayeron tres pallets desde el cuarto nivel. Ninguno alcanzó a nadie.","Centro de Distribución Andina S.A.C. · almacén · 70 trabajadores.
+
+En enero los racks pasaron de dos a cuatro niveles · hay procedimiento de gestión del cambio y el formato se llenó y se firmó · pero el formato evalúa tiempos, costos y capacidad de almacenaje, y no tiene ninguna casilla sobre peligros nuevos ni sobre el IPERC.
+
+Con el cuarto nivel el montacargas trabaja al límite de su altura de elevación. La medida tomada fue prohibir por escrito elevar con la carga inclinada. El estudio del proveedor recomienda un montacargas de mayor alcance y no se compró. En dos meses cayeron tres pallets desde el cuarto nivel.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué cambió, quién debió evaluarlo antes y qué peligro nuevo apareció. PASO 2: en qué nivel cae el control aplicado y cuál correspondía.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S15,SI-SGCSSMA-S15,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-3,"Una planta de lácteos y una lavandería industrial controlan bien un sistema y tienen ciego el otro. El equipo dice qué criterio de operación tiene cada proceso y de dónde sale, señala el que falta o está mal tomado, y dice qué falla en el control de la producción.",Las dos miden y registran. ¿Miden lo que les toca?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Lácteos del Valle S.A.C. produce queso fresco y yogur. El cliente, una cadena de supermercados, va a auditar su control de procesos.
+
+LOS HECHOS
+H1 · La empresa tiene 80 trabajadores.
+H2 · Cada lote lleva código, y el sistema permite rastrear desde el producto hasta el tanque de leche cruda.
+H3 · La especificación de acidez del yogur está en el procedimiento, con su rango y su punto de medición.
+H4 · El laboratorio mide la acidez tres veces por turno y deja registro.
+H5 · El suero que queda del queso se descarga por el desagüe de la planta.
+H6 · No hay criterio escrito para esa descarga: nadie sabe qué límite le aplica.
+H7 · En su informe anual la empresa reporta que «cumple el ECA de agua del río», que está a dos kilómetros.
+H8 · En junio producción subió la temperatura de pasteurización. No se avisó a nadie más.","Lácteos del Valle S.A.C. · queso fresco y yogur · 80 trabajadores.
+
+Cada lote lleva código y se puede rastrear hasta el tanque de leche cruda · la especificación de acidez está en el procedimiento, con su rango y su punto de medición · el laboratorio mide tres veces por turno y registra.
+
+El suero del queso se descarga por el desagüe de la planta y no hay criterio escrito para esa descarga: nadie sabe qué límite le aplica. En su informe anual la empresa reporta que «cumple el ECA de agua del río», que está a dos kilómetros. Y en junio producción subió la temperatura de pasteurización sin avisar a nadie más.","SITUACIÓN
+Lavandería Industrial Santa Rosa S.A.C. lava ropa de hospitales y de hoteles. Un hotel devolvió un pedido y pide explicaciones.
+
+LOS HECHOS
+H1 · La empresa tiene 45 trabajadores.
+H2 · Tiene autorización de vertimiento y mide los parámetros de su descarga cada mes, con laboratorio acreditado.
+H3 · El criterio de operación está escrito: el rango de cada parámetro y el punto de muestreo.
+H4 · La ropa hospitalaria y la hotelera se lavan en las mismas máquinas, en turnos distintos.
+H5 · Una vez lavada, los coches de ropa no llevan identificación: se distinguen «por la vista».
+H6 · En agosto se entregaron a un hotel doce sábanas con marca de hospital.
+H7 · El procedimiento exige validar el ciclo de desinfección. No se valida desde hace un año.
+H8 · No hay registro que permita saber en qué máquina y en qué ciclo se lavó un lote.","Lavandería Industrial Santa Rosa S.A.C. · ropa de hospitales y hoteles · 45 trabajadores.
+
+Tiene autorización de vertimiento y mide los parámetros de su descarga cada mes con laboratorio acreditado · el criterio de operación está escrito, con el rango de cada parámetro y el punto de muestreo.
+
+La ropa hospitalaria y la hotelera se lavan en las mismas máquinas en turnos distintos, y una vez lavada los coches no llevan identificación: se distinguen «por la vista». En agosto se entregaron a un hotel doce sábanas con marca de hospital. El procedimiento exige validar el ciclo de desinfección y no se valida desde hace un año. No hay registro de en qué máquina y en qué ciclo se lavó un lote.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué criterio tiene cada proceso, de dónde sale, y cuál falta. PASO 2: qué falla en el control de la producción y qué se pierde.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S16,SI-SGCSSMA-S16,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-3,"Una administradora de centro comercial y una fábrica de envases compraron y contrataron mirando el precio. El equipo dice qué requisito faltó comunicar o verificar y qué lo manda, y de quién es la responsabilidad cuando algo pasa.",El trabajador es de la contratista. ¿Y la responsabilidad?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Administradora de Centro Comercial Los Portales S.A.C. opera el centro comercial. La limpieza, la seguridad y el mantenimiento los hacen empresas contratistas.
+
+LOS HECHOS
+H1 · La administradora tiene 40 trabajadores propios; en el centro trabajan además 180 de seis contratistas.
+H2 · A cada contratista se le pide, antes de entrar, copia del SCTR y de su reglamento interno.
+H3 · Los documentos se archivan en recepción y no se vuelven a mirar.
+H4 · El SCTR de la empresa de limpieza venció en mayo. Estamos en septiembre.
+H5 · La selección del contratista de mantenimiento se decidió solo por precio.
+H6 · No hay criterio escrito de seguridad para elegir contratistas.
+H7 · En julio un operario de limpieza se cayó de una escalera en el patio de comidas.
+H8 · La administradora sostiene que «ese trabajador no es de nosotros».","Administradora de Centro Comercial Los Portales S.A.C. · 40 trabajadores propios y 180 de seis contratistas.
+
+A cada contratista se le pide el SCTR y su reglamento interno antes de entrar · los documentos se archivan en recepción y no se vuelven a mirar · el SCTR de la empresa de limpieza venció en mayo y estamos en septiembre · el contratista de mantenimiento se eligió solo por precio · no hay criterio escrito de seguridad para elegir contratistas.
+
+En julio un operario de limpieza se cayó de una escalera en el patio de comidas. La administradora sostiene que «ese trabajador no es de nosotros».","SITUACIÓN
+Envases y Plásticos del Norte S.A.C. fabrica envases. En abril compró una extrusora usada importada y empezó a usar un desmoldante nuevo.
+
+LOS HECHOS
+H1 · La empresa tiene 95 trabajadores.
+H2 · La orden de compra de la extrusora especifica capacidad, voltaje y plazo de entrega.
+H3 · No especifica ningún requisito de seguridad ni de resguardos.
+H4 · La máquina llegó con los manuales en inglés.
+H5 · Llegó también con dos resguardos desmontados.
+H6 · El proveedor dice que los resguardos «se retiraron para el transporte».
+H7 · La hoja de datos de seguridad del desmoldante nuevo está en portugués.
+H8 · Compras evalúa a sus proveedores por precio, plazo y calidad del producto.","Envases y Plásticos del Norte S.A.C. · fábrica de envases plásticos · 95 trabajadores.
+
+En abril se compró una extrusora usada importada · la orden de compra especifica capacidad, voltaje y plazo de entrega, y ningún requisito de seguridad ni de resguardos · la máquina llegó con los manuales en inglés y con dos resguardos desmontados · el proveedor dice que «se retiraron para el transporte».
+
+La hoja de datos del desmoldante nuevo está en portugués. Compras evalúa a sus proveedores por precio, plazo y calidad del producto.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué requisito faltó comunicar o verificar, y qué lo manda. PASO 2: de quién es la responsabilidad y qué dejarían establecido.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S17,SI-SGCSSMA-S17,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-3,"Una estación de servicios y un hotel muestran su preparación ante emergencias. El equipo dice qué exige la ley que ese plan no cubre y a quién deja fuera, y qué tendría que probar el próximo simulacro para que sirva de algo.","Si suena la alarma ahora, ¿quién sale y quién se queda?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Estación de Servicios San Cristóbal S.A.C. despacha combustible las 24 horas. La municipalidad pidió revisar su plan de emergencias.
+
+LOS HECHOS
+H1 · La estación tiene 18 trabajadores en tres turnos.
+H2 · Hay plan de emergencias, aprobado hace cuatro años.
+H3 · El plan nombra como jefe de brigada a una persona que dejó la empresa en 2023.
+H4 · El último simulacro fue de sismo, hace catorce meses.
+H5 · Nunca se ha simulado un derrame de combustible ni un amago de incendio.
+H6 · Los extintores están señalizados; dos tienen la tarjeta de recarga vencida.
+H7 · El plan no dice a quién se avisa fuera de la estación.
+H8 · A media cuadra hay un mercado y un colegio.","Estación de Servicios San Cristóbal S.A.C. · despacho de combustible 24 horas · 18 trabajadores en tres turnos.
+
+Hay plan de emergencias, aprobado hace cuatro años · nombra como jefe de brigada a alguien que dejó la empresa en 2023 · el último simulacro fue de sismo, hace catorce meses · nunca se ha simulado un derrame ni un amago de incendio · los extintores están señalizados y dos tienen la tarjeta de recarga vencida.
+
+El plan no dice a quién se avisa fuera de la estación. A media cuadra hay un mercado y un colegio.","SITUACIÓN
+Hotel Villa del Sol S.A.C. recibe huéspedes todo el año. La cadena a la que pertenece va a auditar su preparación ante emergencias.
+
+LOS HECHOS
+H1 · El hotel tiene 55 trabajadores y capacidad para 120 huéspedes.
+H2 · Hay plan de evacuación, actualizado en enero, con planos por piso.
+H3 · Se hacen dos simulacros al año, con cronómetro y con acta.
+H4 · En los simulacros participa solo el personal. Nunca los huéspedes.
+H5 · El acta del último dice «se cumplió el tiempo previsto» y no lista ningún hallazgo.
+H6 · Las instrucciones de evacuación de las habitaciones están solo en español.
+H7 · La salida de emergencia del segundo piso da a un pasillo donde se guardan los carros de limpieza.
+H8 · El cuarenta por ciento de los huéspedes del último trimestre fueron extranjeros.","Hotel Villa del Sol S.A.C. · 55 trabajadores y capacidad para 120 huéspedes.
+
+Hay plan de evacuación actualizado en enero, con planos por piso · se hacen dos simulacros al año, con cronómetro y con acta · pero en los simulacros participa solo el personal, nunca los huéspedes · el acta del último dice «se cumplió el tiempo previsto» y no lista ningún hallazgo.
+
+Las instrucciones de evacuación de las habitaciones están solo en español, y el cuarenta por ciento de los huéspedes del último trimestre fueron extranjeros. La salida de emergencia del segundo piso da a un pasillo donde se guardan los carros de limpieza.",La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué exige la ley que el plan no cubre y a quién deja fuera. PASO 2: qué debería probar el próximo simulacro.,describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S18,SI-SGCSSMA-S18,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-4,"Una avícola y una empresa de vigilancia presentan sus números de seguridad. El equipo dice qué mide ese tablero y qué no, con el artículo que obliga a medir lo que falta, y si los números permiten concluir lo que la empresa concluye.",El índice salió cero. ¿Eso qué prueba?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Avícola San Jacinto S.A.C. presenta su tablero de seguridad del año a la gerencia y al comité.
+
+LOS HECHOS
+H1 · La empresa tiene 210 trabajadores, entre la planta de beneficio y las granjas.
+H2 · El tablero mensual trae índice de frecuencia, índice de severidad y accidentabilidad.
+H3 · En lo que va del año, el índice de frecuencia es cero.
+H4 · En el mismo periodo se hicieron 2 inspecciones internas de las 12 programadas.
+H5 · Hay 14 hallazgos de inspección abiertos; el más antiguo es de hace siete meses.
+H6 · No se mide ninguna otra cosa: el tablero tiene tres filas.
+H7 · La gerencia felicitó al área por «el mejor año en seguridad».
+H8 · En ese mismo periodo el tópico atendió 9 cortes en la sala de deshuese.","Avícola San Jacinto S.A.C. · planta de beneficio y granjas · 210 trabajadores.
+
+El tablero mensual trae índice de frecuencia, severidad y accidentabilidad, y nada más: tiene tres filas · en lo que va del año el índice de frecuencia es cero · se hicieron 2 inspecciones internas de las 12 programadas · hay 14 hallazgos abiertos, el más antiguo de hace siete meses.
+
+La gerencia felicitó al área por «el mejor año en seguridad». En el mismo periodo el tópico atendió 9 cortes en la sala de deshuese.","SITUACIÓN
+Vigilancia y Seguridad Patrimonial S.A.C. entrega a sus clientes el informe anual de siniestralidad.
+
+LOS HECHOS
+H1 · La empresa tiene 340 vigilantes distribuidos en 46 puestos de clientes.
+H2 · Mide el índice de frecuencia y se lo reporta a cada cliente.
+H3 · Hasta junio calculó el índice con factor 200 000. Desde julio usa 1 000 000.
+H4 · El informe anual presenta los doce meses en un solo gráfico de línea.
+H5 · El gráfico muestra una subida fuerte a partir de julio.
+H6 · El informe concluye que «la siniestralidad se disparó en el segundo semestre».
+H7 · Las horas-hombre de julio a diciembre las estimó administración: no hay registro de horas por puesto.
+H8 · No se mide ningún indicador proactivo.","Vigilancia y Seguridad Patrimonial S.A.C. · 340 vigilantes en 46 puestos de clientes.
+
+Mide el índice de frecuencia y se lo reporta a cada cliente · hasta junio lo calculó con factor 200 000 y desde julio usa 1 000 000 · el informe anual presenta los doce meses en un solo gráfico de línea, que muestra una subida fuerte a partir de julio · y concluye que «la siniestralidad se disparó en el segundo semestre».
+
+Las horas-hombre de julio a diciembre las estimó administración: no hay registro de horas por puesto. No se mide ningún indicador proactivo.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué mide el tablero, qué no, y qué artículo lo obliga. PASO 2: si los números sostienen la conclusión, y dos indicadores proactivos.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S19,SI-SGCSSMA-S19,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-4,"Una clínica y una planta de concreto pasaron por su auditoría interna. El equipo dice qué falla en cómo evaluaron el cumplimiento legal, si la auditoría cumple lo que pide la ley peruana, y qué debería pasar con los hallazgos.",Cuarenta y seis filas dicen «cumple». ¿Quién lo comprobó?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Clínica San Rafael S.A.C. va a renovar su certificación y prepara la carpeta de la auditoría interna.
+
+LOS HECHOS
+H1 · La clínica tiene 130 trabajadores entre asistenciales y administrativos.
+H2 · Hay matriz de requisitos legales, revisada en marzo de este año.
+H3 · La matriz tiene una columna «cumple: sí / no». Las 46 filas dicen «sí».
+H4 · No hay ninguna columna que diga cómo se comprobó cada cumplimiento.
+H5 · La auditoría interna la hizo el jefe de calidad, que además administra el sistema.
+H6 · El informe de auditoría no registró ninguna no conformidad.
+H7 · El informe se entregó a la gerencia. El comité no lo ha visto.
+H8 · En la última capacitación, dos enfermeras preguntaron si tenían derecho a examen médico de salida.","Clínica San Rafael S.A.C. · 130 trabajadores · prepara la auditoría para renovar su certificación.
+
+Hay matriz de requisitos legales revisada en marzo · tiene una columna «cumple: sí / no» y las 46 filas dicen «sí» · no hay ninguna columna que diga cómo se comprobó cada cumplimiento · la auditoría interna la hizo el jefe de calidad, que además administra el sistema · el informe no registró ninguna no conformidad.
+
+El informe se entregó a la gerencia y el comité no lo ha visto. En la última capacitación dos enfermeras preguntaron si tenían derecho a examen médico de salida.","SITUACIÓN
+Concretos y Agregados del Sur S.A.C. recibió el informe de su auditoría interna anual y lo está revisando.
+
+LOS HECHOS
+H1 · La empresa tiene 85 trabajadores en planta y despacho.
+H2 · La auditoría la hizo una empresa externa contratada por gerencia.
+H3 · El comité de seguridad se enteró de la auditoría el día que llegaron los auditores.
+H4 · El informe trae 11 no conformidades, cada una con su evidencia y su cláusula.
+H5 · Siete de las once son sobre requisitos legales que la matriz daba por cumplidos.
+H6 · La matriz legal no se ha vuelto a tocar desde que llegó el informe, hace dos meses.
+H7 · El informe se publicó en el mural del comedor, completo.
+H8 · La gerencia decidió no incluir los hallazgos en la revisión por la dirección «para no alarmar».","Concretos y Agregados del Sur S.A.C. · planta y despacho · 85 trabajadores.
+
+La auditoría la hizo una empresa externa contratada por gerencia · el comité se enteró el día que llegaron los auditores · el informe trae 11 no conformidades con su evidencia y su cláusula, y siete son sobre requisitos legales que la matriz daba por cumplidos.
+
+La matriz legal no se ha vuelto a tocar desde que llegó el informe, hace dos meses. El informe se publicó completo en el mural del comedor. Y la gerencia decidió no incluir los hallazgos en la revisión por la dirección «para no alarmar».","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué falla en la evaluación legal y en la auditoría, y qué lo manda. PASO 2: qué debería pasar con los hallazgos y la matriz.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S20,SI-SGCSSMA-S20,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-4,"Una planta de alimentos balanceados y una empresa de saneamiento hicieron —o dejaron de hacer— su revisión por la dirección. El equipo dice qué entradas faltaron, qué salidas no sirven, y qué exige la ley peruana que aquí no se cumplió.","El acta está firmada. ¿Quién la firmó, y quién la leyó?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Alimentos Balanceados del Norte S.A.C. hizo su revisión por la dirección de diciembre. El acta está firmada.
+
+LOS HECHOS
+H1 · La empresa tiene 120 trabajadores entre molienda, peletizado y despacho.
+H2 · La revisión duró 40 minutos y la presidió el jefe de seguridad.
+H3 · El gerente general no asistió; el acta la firmó el jefe de seguridad.
+H4 · La presentación trae los tres índices del año y el cumplimiento del programa anual: 88 %.
+H5 · No se presentaron los resultados de la auditoría interna de octubre.
+H6 · No se revisó en qué quedaron las cinco acciones de la revisión del año pasado.
+H7 · El acta lista tres acuerdos, ninguno con responsable ni con fecha.
+H8 · El acta se archivó en la carpeta del sistema. El comité no la ha visto.","Alimentos Balanceados del Norte S.A.C. · molienda, peletizado y despacho · 120 trabajadores.
+
+La revisión duró 40 minutos y la presidió el jefe de seguridad · el gerente general no asistió y el acta la firmó el jefe de seguridad · la presentación trae los tres índices del año y el cumplimiento del programa anual, 88 % · no se presentaron los resultados de la auditoría interna de octubre · no se revisó en qué quedaron las cinco acciones del año pasado.
+
+El acta lista tres acuerdos, ninguno con responsable ni con fecha, y se archivó en la carpeta del sistema. El comité no la ha visto.","SITUACIÓN
+Servicios de Saneamiento del Valle S.A.C. opera plantas de tratamiento de agua para municipios. Su revisión por la dirección es de hace dos años.
+
+LOS HECHOS
+H1 · La empresa tiene 95 trabajadores en cuatro plantas.
+H2 · La última revisión por la dirección se hizo en noviembre de hace dos años.
+H3 · Ese año la empresa operaba dos plantas. Hoy opera cuatro.
+H4 · Dos de las plantas nuevas tienen procesos con cloro gas, que antes no manejaban.
+H5 · La política y los objetivos son los mismos de esa revisión.
+H6 · El acta de aquella revisión sí tiene acuerdos con responsable y fecha.
+H7 · Cuatro de los seis acuerdos siguen abiertos, y nadie los ha vuelto a mirar.
+H8 · La gerencia dice que la revisión se hará «cuando se estabilice la operación».","Servicios de Saneamiento del Valle S.A.C. · cuatro plantas de tratamiento de agua · 95 trabajadores.
+
+La última revisión por la dirección se hizo en noviembre de hace dos años · ese año la empresa operaba dos plantas y hoy opera cuatro · dos de las nuevas tienen procesos con cloro gas, que antes no manejaban · la política y los objetivos son los mismos de esa revisión.
+
+El acta de aquella revisión sí tiene acuerdos con responsable y fecha, pero cuatro de los seis siguen abiertos y nadie los ha vuelto a mirar. La gerencia dice que la revisión se hará «cuando se estabilice la operación».","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: qué entradas faltaron y qué salidas no sirven. PASO 2: qué exige la ley que no se cumplió, y qué traería la próxima.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S21,SI-SGCSSMA-S21,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-4,"Un terminal portuario y una panificadora cerraron lo que les pasó. El equipo dice hasta qué nivel de causa llegó cada investigación, si lo que hicieron fue corrección o acción correctiva, y qué exige la ley que aquí no se hizo.","Tres veces lo mismo, tres veces la misma charla. ¿Qué se corrigió?",Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Terminal Portuario Bahía Norte S.A.C. investiga un incidente ocurrido en el patio de contenedores.
+
+LOS HECHOS
+H1 · La empresa tiene 180 trabajadores entre patio, muelle y almacén.
+H2 · El 12 de agosto un contenedor se desestibó y cayó desde el segundo nivel. No hubo lesionados.
+H3 · El informe de investigación tiene una página y lo firmó solo el supervisor de patio.
+H4 · La causa registrada es «error del operador del reach stacker».
+H5 · La acción tomada fue «charla de reforzamiento al operador» y llamada de atención.
+H6 · En los últimos catorce meses hubo tres desestibas parecidas en el mismo patio.
+H7 · Las tres se cerraron con charla de reforzamiento.
+H8 · El piso del patio tiene un desnivel que el área de mantenimiento reportó hace un año.","Terminal Portuario Bahía Norte S.A.C. · patio, muelle y almacén · 180 trabajadores.
+
+El 12 de agosto un contenedor se desestibó y cayó desde el segundo nivel, sin lesionados · el informe tiene una página y lo firmó solo el supervisor de patio · la causa registrada es «error del operador del reach stacker» · la acción fue una charla de reforzamiento y una llamada de atención.
+
+En los últimos catorce meses hubo tres desestibas parecidas en el mismo patio, y las tres se cerraron con charla de reforzamiento. El piso del patio tiene un desnivel que mantenimiento reportó hace un año.","SITUACIÓN
+Panificadora Santa Elena S.A.C. cerró la no conformidad que le levantó la auditoría interna.
+
+LOS HECHOS
+H1 · La empresa tiene 60 trabajadores en dos turnos.
+H2 · La auditoría levantó una no conformidad: los registros de temperatura de horno de julio no existen.
+H3 · La empresa imprimió los registros faltantes con los datos del sistema y los archivó.
+H4 · El informe de cierre dice «no conformidad subsanada» y lo firmó el jefe de producción.
+H5 · No se preguntó por qué durante julio nadie llenó esos registros.
+H6 · En julio el turno noche trabajó sin supervisor: el que había renunció el 30 de junio.
+H7 · La vacante del supervisor de turno noche sigue abierta.
+H8 · El comité no participó en el cierre de la no conformidad.","Panificadora Santa Elena S.A.C. · dos turnos · 60 trabajadores.
+
+La auditoría levantó una no conformidad: los registros de temperatura de horno de julio no existen · la empresa imprimió los registros faltantes con los datos del sistema y los archivó · el informe de cierre dice «no conformidad subsanada» y lo firmó el jefe de producción · no se preguntó por qué durante julio nadie llenó esos registros.
+
+En julio el turno noche trabajó sin supervisor: el que había renunció el 30 de junio, y la vacante sigue abierta. El comité no participó en el cierre.","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: hasta qué nivel de causa llegaron y cuál quedó fuera. PASO 2: si fue corrección o acción correctiva, y qué correspondía.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,
+CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,sesion,SI-SGCSSMA,SI-SGCSSMA-B1,IND-SI-SGCSSMA-4,"Una fábrica de muebles certificada y un courier sin certificar. El equipo dice de dónde sale lo que cada una mejoró, cuáles de las nueve entradas del artículo 46 no está usando, y qué integraría primero.",Una está certificada y la otra no. ¿Cuál está mejorando?,Solo el relato del caso que le tocó al equipo. Todo lo demás sale de la sesión.,"Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.","SITUACIÓN
+Muebles y Melamina del Sur S.A.C. está certificada en las tres normas y revisa su sistema antes de la auditoría de seguimiento.
+
+LOS HECHOS
+H1 · La empresa tiene 75 trabajadores y está certificada en las tres normas desde hace dos años.
+H2 · Tiene un manual integrado del sistema, de 180 páginas.
+H3 · El manual remite a tres anexos: calidad, ambiente y seguridad.
+H4 · El anexo de calidad dice que las no conformidades se cierran en 15 días; el de seguridad dice 30.
+H5 · Hay tres matrices de requisitos legales, una por sistema, con filas repetidas entre ellas.
+H6 · Cada sistema tiene su reunión mensual, con actas separadas.
+H7 · La mejora continua del año son ocho acciones; siete salieron de la auditoría de certificación.
+H8 · Ninguna acción del año salió de una propuesta de un trabajador.","Muebles y Melamina del Sur S.A.C. · 75 trabajadores · certificada en las tres normas hace dos años.
+
+Tiene un manual integrado de 180 páginas, que remite a tres anexos: calidad, ambiente y seguridad · el anexo de calidad dice que las no conformidades se cierran en 15 días y el de seguridad dice 30 · hay tres matrices de requisitos legales, una por sistema, con filas repetidas · cada sistema tiene su reunión mensual, con actas separadas.
+
+La mejora continua del año son ocho acciones, y siete salieron de la auditoría de certificación. Ninguna salió de una propuesta de un trabajador.","SITUACIÓN
+Courier y Distribución Expreso Andino S.A.C. quiere ordenar su sistema. No está certificada.
+
+LOS HECHOS
+H1 · La empresa tiene 140 trabajadores; 60 son motorizados.
+H2 · Tiene los tres sistemas armados por separado, cada uno con su documentación.
+H3 · El motorizado llena tres formatos distintos al inicio del turno, uno por sistema.
+H4 · Dos de los tres formatos piden los mismos datos.
+H5 · Este año se registraron 22 propuestas de mejora hechas por los trabajadores.
+H6 · Catorce de esas 22 se implementaron, y están registradas con su resultado.
+H7 · Las propuestas salieron del buzón y de las reuniones de los motorizados.
+H8 · Gerencia dice que integrar «es un tema de la certificación, y no estamos en eso».","Courier y Distribución Expreso Andino S.A.C. · 140 trabajadores, 60 motorizados · no está certificada.
+
+Tiene los tres sistemas armados por separado, cada uno con su documentación · el motorizado llena tres formatos distintos al inicio del turno, uno por sistema, y dos de los tres piden los mismos datos.
+
+Este año se registraron 22 propuestas de mejora hechas por los trabajadores; catorce se implementaron y están registradas con su resultado. Salieron del buzón y de las reuniones de los motorizados. Gerencia dice que integrar «es un tema de la certificación, y no estamos en eso».","La mitad de los equipos trabaja el caso A y la otra mitad el B. PASO 1: de dónde salió lo que mejoraron y qué entradas del artículo 46 no usan. PASO 2: qué integrarían primero, y qué se elimina.",describir,percibir con claridad → seleccionar las partes esenciales → ordenar la exposición → describir con lenguaje apropiado,"separando lo que exige la ley de lo que pide el cliente, y poniendo a cada incumplimiento la norma que lo manda",Cada integrante responde ante el equipo por la parte que le tocó.,,40 min de Aplicación · equipos de 4,

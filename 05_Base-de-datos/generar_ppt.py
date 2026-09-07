@@ -473,8 +473,12 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False,
             texto(s, 0.55, 3.62, 5.25, 2.55,
                   chr(10).join("•  " + p for p in puntos), 13, AZUL, False, PP_ALIGN.LEFT, 1.25,
                   banda="cuerpo")
-            caso = next((c for c in leer(RAIZ / carrera / "casos.csv")
-                         if c["bloque_id"] == ses["bloque_id"]), None)
+            # El caso de ESTA sesion. Antes se buscaba por bloque_id y salia el
+            # primero del archivo: todas las sesiones del bloque mostraban el
+            # encargo de otra. Si la sesion no tiene caso propio, cae al del bloque.
+            _casos = leer(RAIZ / carrera / "casos.csv")
+            caso = (next((c for c in _casos if c.get("sesion_id") == sesion_id), None)
+                    or next((c for c in _casos if c["bloque_id"] == ses["bloque_id"]), None))
             texto(s, 7.20, 3.62, 5.25, 2.55,
                   (caso.get("evaluacion_lamina") or caso.get("producto", "")[:190] if caso
                    else "Actividad de aplicación de la sesión."),
@@ -515,17 +519,18 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False,
                   PP_ALIGN.CENTER, banda="titulo")
             if COTEJO_IMG.exists():
                 colocar(s, COTEJO_IMG, 0.70, 1.25, 4.60, 5.10)
-            # A la derecha, COMO SE USA. Es lo que convierte la lista en aprendizaje y
-            # no en un control, y hasta ahora solo estaba en la doctrina.
-            texto(s, 5.95, 1.70, 6.90, 0.80, "Márcate tú primero.", 34, AZUL, True, PP_ALIGN.LEFT)
-            texto(s, 5.95, 2.60, 6.90, 0.80, "Después marco yo.", 34, GRIS, False, PP_ALIGN.LEFT)
+            # A la derecha, QUE MIDE. Desde el 2026-09-03 la lista es de cinco criterios
+            # de 0 a 4 y SIN autoevaluacion: el texto anterior («marcate tu primero,
+            # despues marco yo») describia un flujo que el §14 ya no contempla.
+            texto(s, 5.95, 1.70, 6.90, 0.80, "Cinco criterios, de 0 a 4.", 34, AZUL, True, PP_ALIGN.LEFT)
+            texto(s, 5.95, 2.60, 6.90, 0.80, "Logrado en los cinco son 15.", 34, GRIS, False, PP_ALIGN.LEFT)
             b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(5.95), Inches(3.60),
                                    Inches(6.90), Inches(1.35))
             b.fill.solid(); b.fill.fore_color.rgb = AMBAR; b.line.fill.background()
             b.shadow.inherit = False
-            texto(s, 6.25, 3.90, 6.30, 0.80, "Donde no coincidamos, ahí conversamos.",
+            texto(s, 6.25, 3.90, 6.30, 0.80, "Los mismos cinco en las 24 sesiones.",
                   28, AZUL, True, PP_ALIGN.LEFT)
-            texto(s, 5.95, 5.20, 6.90, 0.55, "No lleva nota: te dice cómo vas.",
+            texto(s, 5.95, 5.20, 6.90, 0.55, "No lleva nota: te dice cómo va tu trabajo.",
                   20, GRIS, False, PP_ALIGN.LEFT)
             # SIN la concrecion al pie: repetia el encargo, que el alumno acaba de ver
             # dos laminas antes. Sigue en listas_cotejo.csv y en el guion del instructor.

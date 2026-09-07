@@ -118,8 +118,8 @@ ws.row_dimensions[4].height = 38
 
 ws.merge_cells(start_row=5, start_column=1, end_row=5, end_column=ANCHO)
 put(5, 1, "ESTO NO SE REGISTRA. Es formativa: no entra al promedio ni sube al sistema. Se llena, "
-          "se le devuelve al equipo y se descarta. Los seis eventos calificados —CV1, CV2, EP, EF, "
-          "TC1 y TC2— siguen siendo los únicos que dan nota.", size=9, fill=AMBAR)
+          "se le devuelve al equipo y se descarta. Los únicos que dan nota son los cuestionarios "
+          "de verificación, el parcial, el final y los dos colaborativos.", size=9, fill=AMBAR)
 ws.row_dimensions[5].height = 30
 
 ws.merge_cells(start_row=6, start_column=1, end_row=6, end_column=ANCHO)
