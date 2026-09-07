@@ -11,10 +11,10 @@ Complementa al [§06](06_casos-rubricas-evaluacion.md) —que fija las rúbricas
 | | |
 |---|---|
 | **Qué es** | Cómo se le dice al estudiante, cada sesión, si su trabajo está bien hecho — y cuánto sacaría si se calificara |
-| **Qué NO es** | Una rúbrica. Y **no da nota**: los seis eventos calificados están cerrados |
+| **Qué NO es** | Una rúbrica. Y **no da nota**: los eventos calificados están cerrados |
 | **Cuánto cuesta** | Tres minutos al cierre de la sesión |
 
-**Los seis eventos calificados** son CV1 (5 %), CV2 (5 %), EP (20 %), EF (20 %), TC1 (25 %) y TC2 (25 %). Suman 100 % y los fija el Reglamento Interno v03. **Un séptimo rompería el reparto**, así que la lista de cotejo no promedia.
+**Los eventos calificados están cerrados**, y son los mismos en todos los cursos: los **cuestionarios de verificación** —**cuatro** en un curso de 96 h, **dos** en uno de 48 h (§06)—, el **examen parcial**, el **examen final** y los **dos trabajos colaborativos**. Conocimiento 50 % y habilidades 50 %, y el reparto lo fija el Reglamento Interno v03. **Uno más rompería el reparto**, así que la lista de cotejo no promedia.
 
 **Entonces para qué sirve el trabajo de sesión.** Para las dos cosas que sí se califican: cada caso de sesión **tributa a un criterio** de TC1 o TC2 (§13 ②), y el contenido de la sesión es lo que preguntan CV, EP y EF.
 
@@ -281,8 +281,8 @@ ws.row_dimensions[4].height = 38
 
 ws.merge_cells(start_row=5, start_column=1, end_row=5, end_column=ANCHO)
 put(5, 1, "ESTO NO SE REGISTRA. Es formativa: no entra al promedio ni sube al sistema. Se llena, "
-          "se le devuelve al equipo y se descarta. Los seis eventos calificados —CV1, CV2, EP, EF, "
-          "TC1 y TC2— siguen siendo los únicos que dan nota.", size=9, fill=AMBAR)
+          "se le devuelve al equipo y se descarta. Los únicos que dan nota son los cuestionarios "
+          "de verificación, el parcial, el final y los dos colaborativos.", size=9, fill=AMBAR)
 ws.row_dimensions[5].height = 30
 
 ws.merge_cells(start_row=6, start_column=1, end_row=6, end_column=ANCHO)

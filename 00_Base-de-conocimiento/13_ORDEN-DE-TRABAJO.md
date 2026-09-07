@@ -239,7 +239,7 @@ Es **una sola lista**, la misma en las 24 sesiones de los 35 cursos y en las tre
 | La línea de concreción | `listas_cotejo.csv` · **una fila por sesión**, columna `observable` |
 | La lámina | tipo **`cotejo`** en `laminas.csv`, con el texto **vacío**: la arma el generador |
 
-**No promedia.** Los seis eventos calificados están cerrados y suman 100 %: CV1 y CV2 (5 % cada uno), EP (20 %), EF (20 %), TC1 (25 %) y TC2 (25 %). La nota de la lista es una **simulación**: le dice al estudiante cuánto sacaría si esa sesión se calificara.
+**No promedia.** Los eventos calificados están cerrados y suman 100 %: los **cuestionarios de verificación** —cuatro en un curso de 96 h, dos en uno de 48 h—, el **examen parcial**, el **examen final** y los **dos trabajos colaborativos** (§06). La nota de la lista es una **simulación**: le dice al estudiante cuánto sacaría si esa sesión se calificara.
 
 ---
 

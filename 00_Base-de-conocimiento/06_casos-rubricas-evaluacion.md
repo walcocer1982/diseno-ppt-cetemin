@@ -6,14 +6,25 @@ Fuentes: sílabo, Reglamento Interno v03, `programacion_trabajo_colaborativo.md`
 
 | Evento | Dimensión | Instrumento | Peso |
 |---|---|---|---|
-| **CV1** — Cuestionario de Verificación 1 | Conocimiento | Cuestionario en plataforma | 5 % |
-| **CV2** — Cuestionario de Verificación 2 | Conocimiento | Cuestionario en plataforma | 5 % |
+| **CV** — Cuestionarios de Verificación | Conocimiento | Cuestionario en plataforma | **cuatro** en 96 h · **dos** en 48 h |
 | **EP** — Examen Parcial | Conocimiento | Cuestionario en plataforma | 20 % |
 | **EF** — Examen Final | Conocimiento | Cuestionario en plataforma | 20 % |
 | **TC1** — Trabajo Colaborativo 1 | Habilidades/actitudes | Rúbrica de sustentación | 25 % |
 | **TC2** — Trabajo Colaborativo 2 | Habilidades/actitudes | Rúbrica de sustentación | 25 % |
 
-Conocimiento 50 % · Habilidades 50 %. CV/EP/EF son en plataforma (tiempo **autónomo**, no ocupan sesión). Se llaman **CV** (no "PV").
+Conocimiento 50 % · Habilidades 50 %. CV/EP/EF son en plataforma (tiempo **autónomo**, no ocupan sesión). Se llaman **CV** (no "PV"). **El peso de cada CV lo carga el especialista en Blackboard**, no el diseño.
+
+### El orden de los eventos (decisión de Jorge Canchiz, 2026-09-04)
+
+| 96 h | CV1 → **sesiones 1-6** → CV2 → **sesiones 7-12** → EP → CV3 → **sesiones 13-18** → CV4 → **sesiones 19-24** → EF |
+|---|---|
+| **48 h** | CV1 → **sesiones 1-6** → EP → CV2 → **sesiones 7-12** → EF |
+
+Lo que hay que leer en ese orden: **el CV va ANTES de las sesiones que cubre**, no después. No verifica lo aprendido en clase: verifica la lectura con la que el estudiante llega a clase.
+
+- **Los CV salen del recurso de aprendizaje autónomo**, no de las láminas. El cuadernillo se lee en **90 min** y el cuestionario se responde en los **45 min** restantes: los 135 de un bloque asincrónico completo. En 96 h son 8 bloques — cuatro se van en los CV y cuatro en elaborar los dos colaborativos.
+- **El EP y el EF sí salen de las clases dictadas.** En un curso de 96 h, el EP cubre las **sesiones 1 a 10** y el EF las **13 a 22**: las sesiones 11, 12, 23 y 24 son sustentación de los colaborativos y no traen contenido nuevo.
+- Toda pregunta de un CV tiene que poder contestarse **con el cuadernillo y con nada más**. Si depende de algo que se explica en el aula, está mal hecha: el aula todavía no ocurrió.
 
 ## Nota mínima aprobatoria
 
@@ -194,5 +205,7 @@ Los criterios de **presentación y aporte individual** se marcan `transversal`: 
 
 ## Bancos de preguntas (CV/EP/EF)
 
-- CV: 8 preguntas (2.5 c/u) + reserva. EP/EF: 10 preguntas (2 c/u) + reserva. Son **bancos**, no exámenes fijos.
+- **Cada banco tiene 50 preguntas** de cuatro alternativas — CV, EP y EF por igual. Son **bancos**, no exámenes fijos: cada aplicación se arma tomando de aquí, o la plataforma sortea.
+- **La alternativa correcta va resaltada en amarillo, en su sitio**, y debajo de cada ítem van dos líneas: *Por qué* (retroalimentación para la plataforma) y *Fuente* (de dónde sale la clave). No hay hoja de claves al final: quien carga el banco a Blackboard no tiene que ir y volver. Por lo mismo, **el archivo del banco no se entrega al estudiante**.
+- El reparto de preguntas es **parejo por sesión** cubierta.
 - **Defecto a limpiar:** muchos ítems arrastran LaTeX crudo pegado desde IA (`V=πr2hV=\pi r^2h…`). CV1 salta del ítem 8 al 10.
