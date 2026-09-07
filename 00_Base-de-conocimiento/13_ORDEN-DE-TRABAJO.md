@@ -23,7 +23,9 @@ Complementa al [§03](03_pipeline-de-plantillas.md) —que dice qué plantillas 
                     ↓
    ⑤  LOS PUNTOS CLAVE                        3 a 5, del temario oficial
                     ↓
-   ⑥  EL PPT DE LA SESIÓN                     la proyección
+   ⑥  EL RECURSO AUTÓNOMO DEL BLOQUE       lectura + video + autoevaluación
+                    ↓
+   ⑦  EL PPT DE LA SESIÓN                     la proyección
 ```
 
 **Cada paso se hace para el anterior.** Si un paso no sirve al de arriba, sobra.
@@ -42,7 +44,12 @@ Complementa al [§03](03_pipeline-de-plantillas.md) —que dice qué plantillas 
 | ③ | **Los dos casos** | Que cada parte del AE tenga un paso del encargo que la demuestre |
 | ④ | La concreción de la lista | Los pasos del encargo |
 | ⑤ | **Los puntos clave** | **Que el caso se pueda resolver.** Salen del temario oficial, pero *cuáles* y *con qué desarrollo* lo decide el caso |
-| ⑥ | El PPT | Los puntos clave y lo que los casos piden |
+| ⑥ | **El recurso autónomo** del bloque | Que el estudiante llegue a esas sesiones sabiendo lo que hace falta ([§16](16_RECURSOS-AUTONOMOS-Y-VIDEO.md)) |
+| ⑦ | El PPT | Los puntos clave y lo que los casos piden |
+
+**El recurso autónomo va después de los puntos clave y no antes.** Un cuadernillo escrito a ciegas enseña lo que a uno le parece; escrito con los puntos clave delante, **prepara exactamente lo que las sesiones van a construir encima**. Y es urgente sin parecerlo: el CV1 se responde **antes de la sesión 1**, así que su recurso tiene que estar listo antes de que el curso empiece.
+
+**No es solo lectura.** Lectura, video y autoevaluación, en la proporción que el tema pida — la decide el instructor líder, y lo único obligatorio es que los minutos sumen 90 ([§16](16_RECURSOS-AUTONOMOS-Y-VIDEO.md)).
 
 **Por qué el PPT va último, y no es una manía de orden.** Cuando se empieza por las láminas, las láminas deciden el contenido: aparecen puntos clave inventados para llenar diapositivas, y casos escritos para encajar en lo que ya se dibujó. Pasó en la S1 y en la S2, y costó rehacerlas.
 
@@ -263,7 +270,7 @@ Cada punto clave lleva su **desarrollo**: de 7 a 10 ideas de 8 a 11 palabras. Es
 
 ---
 
-## ⑥ El PPT de la sesión
+## ⑦ El PPT de la sesión
 
 Se produce con el [§11](11_legibilidad-de-laminas-y-esquemas.md): insumos mínimos, presupuesto de 28 a 32 láminas, esqueleto, rutina y técnica por momento, bandas de texto, tamaños de imagen y paleta.
 
@@ -281,7 +288,7 @@ laminas.csv  →  generar_ppt.py  →  revisar_ppt.py  →  mirar lo marcado  �
 
 **Dos reglas sobre la matriz:**
 
-1. **Los bloques van en el orden de la secuencia:** primero los colaborativos, después las sesiones. Y las columnas de la tabla de sesiones son los pasos ② a ⑥, de izquierda a derecha. Se lee como se trabaja.
+1. **Los bloques van en el orden de la secuencia:** primero los colaborativos, después las sesiones. Y las columnas de la tabla de sesiones son los pasos ② a ⑦, de izquierda a derecha. Se lee como se trabaja.
 2. **Se genera desde la base de datos**, no se escribe a mano. Se carga la información en los CSV y se vuelve a generar: así refleja el estado real y no una intención.
 3. **Nunca se duplica.** Un solo archivo por curso. Nada de `01_`, `03_`, `_v2`, `_final`. Si hay dos matrices, alguien va a leer la equivocada.
 

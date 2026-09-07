@@ -22,7 +22,8 @@ Conocimiento 50 % · Habilidades 50 %. CV/EP/EF son en plataforma (tiempo **aut�
 
 Lo que hay que leer en ese orden: **el CV va ANTES de las sesiones que cubre**, no después. No verifica lo aprendido en clase: verifica la lectura con la que el estudiante llega a clase.
 
-- **Los CV salen del recurso de aprendizaje autónomo**, no de las láminas. El cuadernillo se lee en **90 min** y el cuestionario se responde en los **45 min** restantes: los 135 de un bloque asincrónico completo. En 96 h son 8 bloques — cuatro se van en los CV y cuatro en elaborar los dos colaborativos.
+- **Los CV salen del recurso de aprendizaje autónomo**, no de las láminas. El recurso se trabaja en **90 min** y el cuestionario se responde en los **45 min** restantes: los 135 de un bloque asincrónico completo. En 96 h son 8 bloques — cuatro se van en los CV y cuatro en elaborar los dos colaborativos.
+- **El recurso no es solo lectura.** Lectura, video y autoevaluación, en la proporción que el tema pida — la decide el instructor líder (**§16**). Un CV de cláusulas ISO puede ser casi todo texto; uno de métodos de explotación, mitad video.
 - **El EP y el EF sí salen de las clases dictadas.** En un curso de 96 h, el EP cubre las **sesiones 1 a 10** y el EF las **13 a 22**: las sesiones 11, 12, 23 y 24 son sustentación de los colaborativos y no traen contenido nuevo.
 - Toda pregunta de un CV tiene que poder contestarse **con el cuadernillo y con nada más**. Si depende de algo que se explica en el aula, está mal hecha: el aula todavía no ocurrió.
 

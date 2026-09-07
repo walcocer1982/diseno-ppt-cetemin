@@ -34,6 +34,7 @@ El **objetivo del proyecto es el diseño**: producir la matriz mejorada y los ma
 - [ ] ¿Los puntos claves son 3–5 y apuntan al objetivo?
 - [ ] ¿Hay una rutina de pensamiento nombrada por momento?
 - [ ] ¿La columna Duración suma 135 min y deja cerrar reflexión?
+- [ ] ¿Los minutos del recurso autónomo suman 90, y su reparto está justificado? (§16)
 - [ ] ¿La densidad (n° de slides y texto/slide) está dentro del límite?
 - [ ] ¿El caso está estructurado (003C + PUCP) y tiene rúbrica sólida?
 - [ ] ¿El plan de sesión (003) y el PPT (004) son coherentes entre sí?
