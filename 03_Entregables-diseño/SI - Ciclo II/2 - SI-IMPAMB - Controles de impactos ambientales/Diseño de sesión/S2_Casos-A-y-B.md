@@ -6,12 +6,12 @@
 
 ## El aprendizaje esperado, partido en sus partes
 
-> «Describe **cómo se identifican los aspectos ambientales de una actividad a partir de sus entradas y salidas**, y **qué cambia en el resultado cuando la actividad se descompone con más o con menos detalle**.»
+> «Describe **cómo se identifican los aspectos ambientales por las entradas y salidas de la actividad**, y **qué cambia al descomponerla con más o menos detalle**.»
 
 | | La parte | Qué punto clave la enseña | Qué paso del encargo la demuestra |
 |---|---|---|---|
-| **A** | Cómo se identifican los aspectos por entradas y salidas | *(pendiente — paso ⑤)* De cada actividad entran insumos y salen productos, residuos y emisiones: ahí están los aspectos | **Pasos 1 y 3**: listar entradas y salidas, primero de la actividad como está escrita y después de cada tarea |
-| **B** | Qué cambia según el nivel de descomposición | *(pendiente — paso ⑤)* El nivel al que se parte la actividad decide qué aspectos se ven y cuáles quedan escondidos | **Pasos 2 y 4**: partir la actividad en sus tareas, y señalar qué aspectos aparecen que antes no se veían |
+| **A** | Cómo se identifican los aspectos por entradas y salidas | **PK1** · El aspecto se encuentra en lo que entra y lo que sale de la actividad | **Pasos 1 y 3**: listar entradas y salidas, primero de la actividad como está escrita y después de cada tarea |
+| **B** | Qué cambia según el nivel de descomposición | **PK2 y PK3** · Una actividad escrita en una línea son varias tareas por dentro · El nivel al que se parte decide qué aspectos se ven | **Pasos 2 y 4**: partir la actividad en sus tareas, y señalar qué aspectos aparecen que antes no se veían |
 
 **La segunda parte es la que se cae si no se cuida.** Un caso que solo pidiera listar entradas y salidas dejaría la mitad del aprendizaje esperado sin demostrar — es lo que pasó en la S4 de curso 1. Por eso el encargo obliga a hacerlo **en dos niveles y a comparar**.
 
@@ -19,7 +19,7 @@
 
 ## El encargo — el mismo en los dos casos
 
-Cuatro pasos, cuatro filas en una hoja en blanco. **Solo el relato**: sin plantilla, sin anexos, sin norma.
+Cuatro pasos, un cuadro de cuatro filas — una por paso. **Solo el relato**: sin plantilla, sin anexos, sin norma.
 
 | | Paso |
 |---|---|
@@ -111,4 +111,4 @@ No aparecen las palabras **aspecto**, **entrada**, **salida** ni **nivel de desc
 - [x] Los **cinco ingredientes** están, y el riesgo va sin rotular
 - [x] **Las dos partes** del aprendizaje esperado tienen paso del encargo que las demuestra — incluida la del nivel de descomposición
 - [x] Nada del encargo **supera el verbo** *describir*
-- [ ] **Pendiente del paso ⑤:** que un punto clave de la S2 enseñe que el nivel al que se parte la actividad decide qué aspectos se ven
+- [x] **Paso ⑤ cerrado el 2026-09-07:** que un punto clave de la S2 enseñe que el nivel al que se parte la actividad decide qué aspectos se ven

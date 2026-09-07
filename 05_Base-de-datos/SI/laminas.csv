@@ -1,135 +1,66 @@
 lamina_id,sesion_id,orden,tipo,momento,minutos,titulo,texto,contenido_id,idea,que_muestra,imagen_id
-L-SI-SGCSSMA-S4-01,SI-SGCSSMA-S4,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S4-02,SI-SGCSSMA-S4,2,subportada-sesion,,0,Sesión N°4,,,,,
-L-SI-SGCSSMA-S4-03,SI-SGCSSMA-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S4-04,SI-SGCSSMA-S4,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S4-05,SI-SGCSSMA-S4,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S4
-L-SI-SGCSSMA-S4-06,SI-SGCSSMA-S4,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S4-07,SI-SGCSSMA-S4,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos hasta dónde llega el sistema y cómo se ordena por procesos.
-
-Hoy vemos quién responde por él. Un proceso sin responsable y una política sin firma se parecen mucho: los dos existen en el papel y no en la obra.",,,del alcance y los procesos a quién responde por el sistema,IMG-SI-S4-PUENTE
-L-SI-SGCSSMA-S4-08,SI-SGCSSMA-S4,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la política tal como está colgada.
-
-¿Qué VEO?  —  solo hechos, sin juicio
-¿Qué PIENSO?  —  qué dice y quién la firmó
-¿Qué ME PREGUNTO?  —  quién de los que trabajan aquí la ha leído",,,la política de la empresa tal como está colgada,IMG-SI-POLITICA-PARED
-L-SI-SGCSSMA-S4-09,SI-SGCSSMA-S4,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S4-10,SI-SGCSSMA-S4,10,tema,adquisicion,3,Liderar no es firmar,,C-SI-SGCSSMA-S4-1,1-3,lo que separa poner el nombre al pie de responder por el sistema,IMG-SI-LIDERAZGO-FIRMA
-L-SI-SGCSSMA-S4-11,SI-SGCSSMA-S4,11,tema,adquisicion,3,Delegar no libera,,C-SI-SGCSSMA-S4-1,4-6,qué puede pasar a otro y qué se queda arriba,IMG-SI-DELEGAR
-L-SI-SGCSSMA-S4-12,SI-SGCSSMA-S4,12,tema,adquisicion,3,¿Qué es la política del sistema?,,C-SI-SGCSSMA-S4-2,1-3,"qué es, para qué sirve y quién la firma",IMG-SI-POLITICA-QUE-ES
-L-SI-SGCSSMA-S4-13,SI-SGCSSMA-S4,13,tema,adquisicion,3,Qué tiene que decir,,C-SI-SGCSSMA-S4-2,4-6,"propósito, marco, requisitos legales y mejora continua",IMG-SI-POLITICA-CONTENIDO
-L-SI-SGCSSMA-S4-14,SI-SGCSSMA-S4,14,tema,adquisicion,3,Cómo se aprueba y se difunde,,C-SI-SGCSSMA-S4-3,1-3,"escrita, comunicada dentro y disponible fuera",IMG-SI-POLITICA-DIFUSION
-L-SI-SGCSSMA-S4-15,SI-SGCSSMA-S4,15,tema,adquisicion,3,La difusión se comprueba preguntando,,C-SI-SGCSSMA-S4-3,4-6,qué no es difundir y qué sí lo es,IMG-SI-DIFUSION-COMPRUEBA
-L-SI-SGCSSMA-S4-16,SI-SGCSSMA-S4,16,tema,adquisicion,3,Una sola política para los tres sistemas,,C-SI-SGCSSMA-S4-4,1-3,tres políticas separadas frente a una sola integrada,IMG-SI-POLITICA-INTEGRADA
-L-SI-SGCSSMA-S4-17,SI-SGCSSMA-S4,17,tema,adquisicion,3,Lo que se pierde si se integra mal,,C-SI-SGCSSMA-S4-4,4-6,una política integrada mal hecha frente a una bien hecha,IMG-SI-POLITICA-INTEGRADA-MAL
-L-SI-SGCSSMA-S4-18,SI-SGCSSMA-S4,18,caso,adquisicion,5,Así se ve una política integrada real,,C-SI-SGCSSMA-S4-4,,"los compromisos de una política real, con el sistema que cubre cada uno",IMG-SI-POLITICA-REAL
-L-SI-SGCSSMA-S4-19,SI-SGCSSMA-S4,19,caso,adquisicion,5,"Y así cierra: ambiente, calidad y participación",,C-SI-SGCSSMA-S4-4,,"los compromisos 4 a 6 de la misma política, y cómo cierra",IMG-SI-POLITICA-REAL-2
-L-SI-SGCSSMA-S4-20,SI-SGCSSMA-S4,20,caso,adquisicion,5,"La página completa, tal como la firma la empresa",,C-SI-SGCSSMA-S4-4,,"la página entera con su logo, sus seis compromisos y la firma del CEO",IMG-SI-POLITICA-REAL-PAGINA
-L-SI-SGCSSMA-S4-21,SI-SGCSSMA-S4,21,tema,adquisicion,3,Quién responde por qué,,C-SI-SGCSSMA-S4-5,1-3,los roles del sistema con aquello de lo que responde cada uno,IMG-SI-ROLES-QUIEN
-L-SI-SGCSSMA-S4-22,SI-SGCSSMA-S4,22,tema,adquisicion,3,Asignar es poner nombre,,C-SI-SGCSSMA-S4-5,4-6,qué separa un encargo dicho en una reunión de una responsabilidad asignada,IMG-SI-ROLES-ASIGNAR
-L-SI-SGCSSMA-S4-23,SI-SGCSSMA-S4,23,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S4-24,SI-SGCSSMA-S4,24,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas presentan su política de gestión a la empresa titular, que va a revisarlas antes de autorizar el ingreso.
-
-La mitad de los equipos revisa la POLÍTICA A y la otra mitad la POLÍTICA B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S4-ENCARGO
-L-SI-SGCSSMA-S4-25,SI-SGCSSMA-S4,25,caso,aplicacion,0,Política A · Sondajes y Geotecnia del Sur,,,,"la política A completa, con su cabecera, sus compromisos y su firma",IMG-SI-POLITICA-A
-L-SI-SGCSSMA-S4-26,SI-SGCSSMA-S4,26,caso,aplicacion,0,Política B · Montaje de Estructuras Metálicas,,,,"la política B completa, con su cabecera, sus compromisos y su firma",IMG-SI-POLITICA-B
-L-SI-SGCSSMA-S4-27,SI-SGCSSMA-S4,27,caso,aplicacion,30,A trabajar,,,,los seis requisitos que se marcan y la pregunta de integración,IMG-SI-S4-TRABAJAR
-L-SI-SGCSSMA-S4-28,SI-SGCSSMA-S4,28,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S4-29,SI-SGCSSMA-S4,29,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S4-30,SI-SGCSSMA-S4,30,caso,discusion,20,"Dos políticas, dos cosas distintas que faltan",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S4-DISCUSION
-L-SI-SGCSSMA-S4-31,SI-SGCSSMA-S4,31,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S4-32,SI-SGCSSMA-S4,32,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas de la rutina de cierre, cada una en su cuadro",IMG-SI-S4-REFLEXION
-L-SI-SGCSSMA-S4-33,SI-SGCSSMA-S4,33,tapa,,0,,,,,,
-L-SI-SGCSSMA-S3-01,SI-SGCSSMA-S3,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S3-02,SI-SGCSSMA-S3,2,subportada-sesion,,0,Sesión N°3,,,,,
-L-SI-SGCSSMA-S3-03,SI-SGCSSMA-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S3-04,SI-SGCSSMA-S3,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S3-05,SI-SGCSSMA-S3,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S3
-L-SI-SGCSSMA-S3-06,SI-SGCSSMA-S3,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S3-07,SI-SGCSSMA-S3,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos quién es parte interesada y qué espera de la empresa.
-
-Hoy vemos hasta dónde llega el sistema. Y ahí aparece el problema: una parte interesada puede esperar algo de una actividad que el sistema no cubre.",,,de las partes interesadas al alcance del sistema,IMG-SI-S3-PUENTE
-L-SI-SGCSSMA-S3-08,SI-SGCSSMA-S3,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la hoja del manual y la facturación del año.
-
-¿Qué VEO?  —  solo hechos, sin juicio
-¿Qué PIENSO?  —  qué hace esta empresa
-¿Qué ME PREGUNTO?  —  qué falta en esa línea",,,el alcance del manual frente a la facturación del año,IMG-SI-S3-ESTIMULO
-L-SI-SGCSSMA-S3-09,SI-SGCSSMA-S3,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S3-10,SI-SGCSSMA-S3,10,tema,adquisicion,6,¿Qué es el alcance del sistema?,,C-SI-SGCSSMA-S3-1,1-3,qué es el alcance y por qué elementos se define,IMG-SI-ALCANCE-QUE-ES
-L-SI-SGCSSMA-S3-11,SI-SGCSSMA-S3,11,tema,adquisicion,5,"Qué se puede dejar fuera, y qué no",,C-SI-SGCSSMA-S3-1,4-6,lo que se puede excluir justificándolo y lo que no,IMG-SI-ALCANCE-EXCLUSIONES
-L-SI-SGCSSMA-S3-12,SI-SGCSSMA-S3,12,tema,adquisicion,6,Lo que queda fuera no desaparece,,C-SI-SGCSSMA-S3-2,1-3,qué le pasa a la actividad que queda fuera del alcance,IMG-SI-FUERA-DEL-ALCANCE
-L-SI-SGCSSMA-S3-13,SI-SGCSSMA-S3,13,tema,adquisicion,6,Declarar de menos sale caro,,C-SI-SGCSSMA-S3-2,4-6,declarar de menos frente a declarar completo,IMG-SI-DECLARAR-DE-MENOS
-L-SI-SGCSSMA-S3-14,SI-SGCSSMA-S3,14,tema,adquisicion,5,¿Qué es un proceso?,,C-SI-SGCSSMA-S3-3,1-3,"entrada, actividades y salida de un proceso, con su responsable",IMG-SI-PROCESO
-L-SI-SGCSSMA-S3-15,SI-SGCSSMA-S3,15,tema,adquisicion,6,"Por procesos, no por áreas",,C-SI-SGCSSMA-S3-3,4-6,organizar por áreas frente a organizar por procesos,IMG-SI-PROCESOS-VS-AREAS
-L-SI-SGCSSMA-S3-16,SI-SGCSSMA-S3,16,tema,adquisicion,6,El mapa de procesos,,C-SI-SGCSSMA-S3-4,1-3,las tres franjas del mapa con procesos de ejemplo,IMG-SI-MAPA-PROCESOS
-L-SI-SGCSSMA-S3-17,SI-SGCSSMA-S3,17,tema,adquisicion,5,El mapa enseña el alcance,,C-SI-SGCSSMA-S3-4,4-6,cómo el mapa deja ver lo que el sistema no cubre,IMG-SI-MAPA-Y-ALCANCE
-L-SI-SGCSSMA-S3-18,SI-SGCSSMA-S3,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S3-19,SI-SGCSSMA-S3,19,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas presentan el alcance de su sistema y su mapa de procesos. En las dos, el alcance declarado deja fuera actividades que la empresa hace todos los días.
-
-La mitad de los equipos trabaja el caso A y la otra mitad el B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S3-ENCARGO
-L-SI-SGCSSMA-S3-20,SI-SGCSSMA-S3,20,caso,aplicacion,0,Caso A · Sondajes y Geotecnia del Sur,,,,la ficha del caso A con sus ocho hechos,IMG-SI-CASO-S3A
-L-SI-SGCSSMA-S3-21,SI-SGCSSMA-S3,21,caso,aplicacion,0,Caso B · Montaje de Estructuras Metálicas,,,,la ficha del caso B con sus ocho hechos,IMG-SI-CASO-S3B
-L-SI-SGCSSMA-S3-22,SI-SGCSSMA-S3,22,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y cómo se reparte el tiempo,IMG-SI-S3-TRABAJAR
-L-SI-SGCSSMA-S3-23,SI-SGCSSMA-S3,23,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S3-24,SI-SGCSSMA-S3,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S3-25,SI-SGCSSMA-S3,25,caso,discusion,20,"Dos empresas, la misma actividad fuera",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S3-DISCUSION
-L-SI-SGCSSMA-S3-26,SI-SGCSSMA-S3,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S3-27,SI-SGCSSMA-S3,27,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas de la rutina de cierre, cada una en su cuadro",IMG-SI-S3-REFLEXION
-L-SI-SGCSSMA-S3-28,SI-SGCSSMA-S3,28,tapa,,0,,,,,,
-L-SI-SGCSSMA-S2-01,SI-SGCSSMA-S2,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S2-02,SI-SGCSSMA-S2,2,subportada-sesion,,0,Sesión N°2,,,,,
-L-SI-SGCSSMA-S2-03,SI-SGCSSMA-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S2-04,SI-SGCSSMA-S2,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S2-05,SI-SGCSSMA-S2,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S2
-L-SI-SGCSSMA-S2-06,SI-SGCSSMA-S2,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S2-07,SI-SGCSSMA-S2,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada clasificaron ocho documentos por el sistema al que sirven.
-
-Varios servían a más de uno. Hoy vamos un paso atrás: **antes** de saber qué documentos hacen falta, hay que saber a quién sirve la empresa y qué la condiciona.",,,"los ocho documentos de la sesión 1, clasificados por sistema",IMG-SI-CARPETA-HUANZA
-L-SI-SGCSSMA-S2-08,SI-SGCSSMA-S2,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Lean la carta que el cliente envió a la contratista.
-
-¿Qué VEO?  —  solo hechos, sin juicio
-¿Qué PIENSO?  —  quién escribe y qué esperaba
-¿Qué ME PREGUNTO?  —  a quién más le importa esto",,,"la carta del cliente, solo con hechos",IMG-SI-RECLAMO
-L-SI-SGCSSMA-S2-09,SI-SGCSSMA-S2,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S2-10,SI-SGCSSMA-S2,10,tema,adquisicion,5,¿Qué es el contexto de una organización?,,C-SI-SGCSSMA-S2-1,1-3,"la empresa en el centro, con lo de fuera y lo de dentro",IMG-SI-CONTEXTO
-L-SI-SGCSSMA-S2-11,SI-SGCSSMA-S2,11,tema,adquisicion,5,Cuándo se revisa y qué constancia queda,,C-SI-SGCSSMA-S2-1,4-6,"cuándo se determina y se revisa el contexto, y qué queda escrito",IMG-SI-CONTEXTO-REVISION
-L-SI-SGCSSMA-S2-12,SI-SGCSSMA-S2,12,tema,adquisicion,6,Lo que viene de fuera,,C-SI-SGCSSMA-S2-2,1-3,"las cuestiones externas, con lo que aporta cada una",IMG-SI-CONTEXTO-EXT
-L-SI-SGCSSMA-S2-13,SI-SGCSSMA-S2,13,tema,adquisicion,6,Lo que hay dentro,,C-SI-SGCSSMA-S2-2,4-6,"las cuestiones internas, con lo que aporta cada una",IMG-SI-CONTEXTO-INT
-L-SI-SGCSSMA-S2-14,SI-SGCSSMA-S2,14,tema,adquisicion,6,¿Quién es parte interesada?,,C-SI-SGCSSMA-S2-3,1-3,los grupos que rodean a la contratista,IMG-SI-PARTES-QUIENES
-L-SI-SGCSSMA-S2-15,SI-SGCSSMA-S2,15,tema,adquisicion,5,A quién se suele olvidar,,C-SI-SGCSSMA-S2-3,4-6,las partes que siempre se anotan frente a las que se dejan fuera,IMG-SI-PARTES-OLVIDADAS
-L-SI-SGCSSMA-S2-16,SI-SGCSSMA-S2,16,tema,adquisicion,6,Qué espera cada una,,C-SI-SGCSSMA-S2-4,1-3,cada parte interesada y lo que espera de la empresa,IMG-SI-PARTES-ESPERA
-L-SI-SGCSSMA-S2-17,SI-SGCSSMA-S2,17,tema,adquisicion,6,De expectativa a requisito,,C-SI-SGCSSMA-S2-4,4-6,cuándo una expectativa se vuelve requisito del sistema,IMG-SI-EXPECTATIVA-REQUISITO
-L-SI-SGCSSMA-S2-18,SI-SGCSSMA-S2,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S2-19,SI-SGCSSMA-S2,19,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas tienen que declarar el contexto de su sistema y su relación de partes interesadas. En las dos, gerencia entregó media hoja.
-
-La mitad de los equipos trabaja el caso A y la otra mitad el B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S2-ENCARGO
-L-SI-SGCSSMA-S2-20,SI-SGCSSMA-S2,20,caso,aplicacion,0,Caso A · Mantenimiento de Equipos Mineros,,,,la ficha del caso A con sus ocho hechos,IMG-SI-CASO-S2A
-L-SI-SGCSSMA-S2-21,SI-SGCSSMA-S2,21,caso,aplicacion,0,Caso B · Transporte de Concentrado del Centro,,,,la ficha del caso B con sus ocho hechos,IMG-SI-CASO-S2B
-L-SI-SGCSSMA-S2-22,SI-SGCSSMA-S2,22,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y cómo se reparte el tiempo,IMG-SI-S2-TRABAJAR
-L-SI-SGCSSMA-S2-23,SI-SGCSSMA-S2,23,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S2-24,SI-SGCSSMA-S2,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S2-25,SI-SGCSSMA-S2,25,caso,discusion,20,"Dos empresas, la misma omisión",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S2-DISCUSION
-L-SI-SGCSSMA-S2-26,SI-SGCSSMA-S2,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S2-27,SI-SGCSSMA-S2,27,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas de la rutina de cierre, cada una en su cuadro",IMG-SI-S2-REFLEXION
-L-SI-SGCSSMA-S2-28,SI-SGCSSMA-S2,28,tapa,,0,,,,,,
+L-SI-IMPAMB-S1-1,SI-IMPAMB-S1,1,portada,,0,SEGURIDAD INDUSTRIAL,,,, ,
+L-SI-IMPAMB-S1-2,SI-IMPAMB-S1,2,subportada-sesion,,0,Sesión N°1,,,,,
+L-SI-IMPAMB-S1-3,SI-IMPAMB-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-IMPAMB-S1-4,SI-IMPAMB-S1,4,contenido,conexion,3,¿Cómo llegas hoy?,Marca en la escala con qué ánimo llegas a la sesión de hoy. Nadie te va a pedir que expliques por qué.,,,escala de ánimo de la sesión,IMG-ESCALA-ANIMO
+L-SI-IMPAMB-S1-5,SI-IMPAMB-S1,5,contenido,conexion,3,El curso en una lámina,"Controles de impactos ambientales · 48 h · 12 sesiones · 2 bloques.
+BLOQUE 1 · S1 a S5 — la matriz de aspectos e impactos ambientales. Cierra con el TC1.
+BLOQUE 2 · S7 a S11 — la gestión y los controles de manejo de residuos sólidos. Cierra con el TC2.
+Al terminar vas a poder describir cómo se elabora una matriz de aspectos e impactos y cómo se maneja un residuo sólido según la norma peruana.",,,esquema de los dos bloques con sus sesiones y su colaborativo,IMG-SI-IMPAMB-CURSO-BLOQUES
+L-SI-IMPAMB-S1-6,SI-IMPAMB-S1,6,contenido,conexion,3,¿Cómo se califica?,"Seis eventos, y suman 100 %.
+TC1 — trabajo colaborativo 1 · 25 %
+TC2 — trabajo colaborativo 2 · 25 %
+EP — evaluación parcial · 20 %
+EF — evaluación final · 20 %
+CV1 y CV2 — controles de lectura · 5 % cada uno
+La lista de cotejo de cada sesión NO lleva nota: te dice cómo va tu trabajo.",,,esquema de los seis eventos con su peso,IMG-SI-IMPAMB-EVALUACION
+L-SI-IMPAMB-S1-7,SI-IMPAMB-S1,7,contenido,conexion,2,Ruta de aprendizaje,"CONEXIÓN · 20 min — de dónde partimos
+ADQUISICIÓN · 45 min — aspecto, impacto y control
+APLICACIÓN · 40 min — el caso, en equipos de 4
+DISCUSIÓN · 20 min — se cruzan los dos casos
+REFLEXIÓN · 10 min — qué te llevas",,,los cinco momentos con sus minutos,IMG-SI-IMPAMB-RUTA-S1
+L-SI-IMPAMB-S1-8,SI-IMPAMB-S1,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-IMPAMB-S1-9,SI-IMPAMB-S1,9,contenido,conexion,6,Veo · Pienso · Me pregunto,"Mira la fotografía sin leer nada más.
+VEO — ¿qué ves, sin interpretar?
+PIENSO — ¿qué te hace pensar eso?
+ME PREGUNTO — ¿qué te falta saber?
+Tres minutos en pares, tres de puesta en común.",,,estímulo: una cisterna regando una vía de tierra junto a una faja transportadora descubierta que levanta polvo,IMG-SI-IMPAMB-MURAL
+L-SI-IMPAMB-S1-10,SI-IMPAMB-S1,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-IMPAMB-S1-11,SI-IMPAMB-S1,11,tema,adquisicion,5,¿Qué es lo que sale de una actividad?,,C-SI-IMPAMB-S1-1,1-3,esquema: una actividad con sus entradas a la izquierda y sus salidas a la derecha,IMG-SI-IMPAMB-ENTRA-SALE
+L-SI-IMPAMB-S1-12,SI-IMPAMB-S1,12,tema,adquisicion,5,Cómo se nombra un aspecto,,C-SI-IMPAMB-S1-1,4-6,tres ejemplos de aspecto bien nombrado frente a tres mal nombrados,IMG-SI-IMPAMB-COMO-SE-NOMBRA
+L-SI-IMPAMB-S1-13,SI-IMPAMB-S1,13,tema,adquisicion,5,Cuándo hay aspecto y cuándo no,,C-SI-IMPAMB-S1-1,7-9,dos actividades comparadas: una con aspecto y otra sin él,IMG-SI-IMPAMB-HAY-ASPECTO
+L-SI-IMPAMB-S1-14,SI-IMPAMB-S1,14,tema,adquisicion,5,El cambio que viene después,,C-SI-IMPAMB-S1-2,1-3,"cadena: actividad → aspecto → impacto, con una flecha de causa y efecto",IMG-SI-IMPAMB-CADENA
+L-SI-IMPAMB-S1-15,SI-IMPAMB-S1,15,tema,adquisicion,5,Dentro de la operación y fuera de ella,,C-SI-IMPAMB-S1-2,4-6,"esquema del límite de la operación: el aspecto adentro, el impacto afuera",IMG-SI-IMPAMB-DENTRO-FUERA
+L-SI-IMPAMB-S1-16,SI-IMPAMB-S1,16,tema,adquisicion,5,Por qué confundirlos sale caro,,C-SI-IMPAMB-S1-2,7-9,"un mismo aspecto con dos impactos, y el control puesto en el sitio equivocado",IMG-SI-IMPAMB-CONFUNDIRLOS
+L-SI-IMPAMB-S1-17,SI-IMPAMB-S1,17,tema,adquisicion,5,¿Sobre qué actúa un control?,,C-SI-IMPAMB-S1-3,1-3,"el mismo esquema de la cadena, con el control señalando al aspecto",IMG-SI-IMPAMB-SOBRE-QUE-ACTUA
+L-SI-IMPAMB-S1-18,SI-IMPAMB-S1,18,tema,adquisicion,5,Cubrir la faja o regar la vía,,C-SI-IMPAMB-S1-3,4-6,las dos opciones lado a lado: cubrir la faja frente a regar la vía,IMG-SI-IMPAMB-FAJA-O-VIA
+L-SI-IMPAMB-S1-19,SI-IMPAMB-S1,19,tema,adquisicion,5,Lo que parece control y no lo es,,C-SI-IMPAMB-S1-3,7-9,un control vistoso al lado del aspecto que sigue intacto,IMG-SI-IMPAMB-PARECE-CONTROL
+L-SI-IMPAMB-S1-20,SI-IMPAMB-S1,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-IMPAMB-S1-22,SI-IMPAMB-S1,21,caso,aplicacion,4,Caso A · Concretos y Agregados del Centro,,,,,IMG-SI-IMPAMB-CASO-S1A
+L-SI-IMPAMB-S1-23,SI-IMPAMB-S1,22,caso,aplicacion,4,Caso B · Estructuras Metálicas y Montaje,,,,,IMG-SI-IMPAMB-CASO-S1B
+L-SI-IMPAMB-S1-21,SI-IMPAMB-S1,23,contenido,aplicacion,4,Indicaciones del encargo,"1 · Qué sale de la operación hacia el entorno.
+2 · Qué cambio produce cada una de esas cosas.
+3 · Sobre cuál de los dos actúa cada control que la empresa ya tiene.
+4 · Qué salida queda sin ningún control que actúe sobre ella.
+Equipos de 4 · 28 min de trabajo.",,,"las cuatro filas del encargo, en blanco",IMG-SI-IMPAMB-S1-ENCARGO
+L-SI-IMPAMB-S1-24,SI-IMPAMB-S1,24,caso,aplicacion,28,A trabajar,"Equipos de 4 · 28 minutos.
+La mitad de los equipos trabaja el caso A, la otra mitad el B.
+Cada integrante responde por su fila ante el equipo.
+Al terminar, cada equipo expone 2 minutos.",,,el cronómetro del trabajo en equipo,IMG-SI-IMPAMB-S1-TRABAJAR
+L-SI-IMPAMB-S1-25,SI-IMPAMB-S1,25,cotejo,aplicacion,0,,,,,,IMG-LISTA-COTEJO
+L-SI-IMPAMB-S1-26,SI-IMPAMB-S1,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-IMPAMB-S1-27,SI-IMPAMB-S1,27,caso,discusion,20,El control que se enseña primero,"Formato Afirmación · Apoyo · Pregunta. Dos minutos por equipo.
+AFIRMACIÓN — qué salida quedó sin control en tu caso.
+APOYO — qué del relato te lo dice.
+PREGUNTA — qué le preguntarías al equipo que trabajó el otro caso.
+Y al final, entre todos: la cisterna y los extractores, ¿sobre qué estaban actuando?",,,"el cruce de los dos casos: la cisterna y los extractores, lado a lado",IMG-SI-IMPAMB-S1-DISCUSION
+L-SI-IMPAMB-S1-28,SI-IMPAMB-S1,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-IMPAMB-S1-29,SI-IMPAMB-S1,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Completa las dos frases en una línea cada una.
+ANTES PENSABA que un control ambiental era…
+AHORA PIENSO que…
+Tres voluntarios lo leen en voz alta.
+La próxima sesión: cómo se identifican los aspectos de una actividad a partir de sus entradas y sus salidas.",,,escala de ánimo de cierre,IMG-SI-IMPAMB-S1-REFLEXION
+L-SI-IMPAMB-S1-30,SI-IMPAMB-S1,30,tapa,,0,,,,,,
 L-SI-SGCSSMA-S1-01,SI-SGCSSMA-S1,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
 L-SI-SGCSSMA-S1-02,SI-SGCSSMA-S1,2,subportada-sesion,,0,Sesión N°1,,,,,
 L-SI-SGCSSMA-S1-03,SI-SGCSSMA-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
@@ -184,289 +115,6 @@ L-SI-SGCSSMA-S1-30,SI-SGCSSMA-S1,30,contenido,reflexion,10,Antes pensaba… ahor
 
 Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas de la rutina de cierre, cada una en su cuadro",IMG-SI-S1-REFLEXION
 L-SI-SGCSSMA-S1-31,SI-SGCSSMA-S1,31,tapa,,0,,,,,,
-L-SI-SGCSSMA-S5-01,SI-SGCSSMA-S5,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S5-02,SI-SGCSSMA-S5,2,subportada-sesion,,0,Sesión N°5,,,,,
-L-SI-SGCSSMA-S5-03,SI-SGCSSMA-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S5-04,SI-SGCSSMA-S5,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S5-05,SI-SGCSSMA-S5,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S5
-L-SI-SGCSSMA-S5-06,SI-SGCSSMA-S5,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S5-07,SI-SGCSSMA-S5,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué debe decir la política y quién tiene que firmarla.
-
-Hoy vemos a quién hay que preguntarle antes de decidir por él.",,,lo que se vio de la política y lo que toca hoy,IMG-SI-S5-PUENTE
-L-SI-SGCSSMA-S5-08,SI-SGCSSMA-S5,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren el memorando tal como salió.
-
-¿Qué VEO?  ·  solo hechos, sin juicio
-¿Qué PIENSO?  ·  quién decidió y quién quedó fuera
-¿Qué ME PREGUNTO?  ·  con 26 trabajadores, ¿le tocaba un supervisor?",,,el memorando con el que la empresa designó a su supervisor,IMG-SI-S5-MEMORANDO
-L-SI-SGCSSMA-S5-09,SI-SGCSSMA-S5,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S5-10,SI-SGCSSMA-S5,10,tema,adquisicion,5,La cláusula que no está en las otras dos,,C-SI-SGCSSMA-S5-1,1-3,qué traen la 9001 y la 14001 frente a lo que trae la 45001,IMG-SI-SOLO-45001
-L-SI-SGCSSMA-S5-11,SI-SGCSSMA-S5,11,tema,adquisicion,4,Por qué esta norma sí la exige,,C-SI-SGCSSMA-S5-1,4-6,la razón de la cláusula y qué clase de requisito es,IMG-SI-POR-QUE-54
-L-SI-SGCSSMA-S5-12,SI-SGCSSMA-S5,12,tema,adquisicion,5,"Informar, consultar y participar",,C-SI-SGCSSMA-S5-2,1-3,"en qué se diferencian los tres, y cuál llega tarde",IMG-SI-TRES-VERBOS
-L-SI-SGCSSMA-S5-13,SI-SGCSSMA-S5,13,tema,adquisicion,4,Lo que cumple la cláusula y lo que no,,C-SI-SGCSSMA-S5-2,4-6,difundir una decisión ya tomada frente a decidir con quien hace la tarea,IMG-SI-CONSULTA-QUE-SI
-L-SI-SGCSSMA-S5-14,SI-SGCSSMA-S5,14,tema,adquisicion,5,Los asuntos que hay que consultar,,C-SI-SGCSSMA-S5-3,1-3,"partes interesadas, política y roles, peligros y controles",IMG-SI-ASUNTOS-1
-L-SI-SGCSSMA-S5-15,SI-SGCSSMA-S5,15,tema,adquisicion,4,Y los tres que faltan,,C-SI-SGCSSMA-S5-3,4-6,"formación, investigación de incidentes y seguimiento del desempeño",IMG-SI-ASUNTOS-2
-L-SI-SGCSSMA-S5-16,SI-SGCSSMA-S5,16,tema,adquisicion,5,Comité o supervisor: lo decide el número,,C-SI-SGCSSMA-S5-4,1-3,el umbral de la Ley 29783 y el órgano que corresponde a cada lado,IMG-SI-COMITE-SUPERVISOR
-L-SI-SGCSSMA-S5-17,SI-SGCSSMA-S5,17,tema,adquisicion,4,A unos los eligen y a otros los designan,,C-SI-SGCSSMA-S5-4,4-6,quién pone a los representantes del empleador y quién a los de los trabajadores,IMG-SI-QUIEN-ELIGE
-L-SI-SGCSSMA-S5-18,SI-SGCSSMA-S5,18,tema,adquisicion,5,Lo que deja rastro: el libro de actas,,C-SI-SGCSSMA-S5-5,1-3,qué contiene el acta y para qué sirve cuando la piden,IMG-SI-LIBRO-ACTAS
-L-SI-SGCSSMA-S5-19,SI-SGCSSMA-S5,19,tema,adquisicion,4,Lo que estorba la participación,,C-SI-SGCSSMA-S5-5,4-6,los obstáculos que la norma manda eliminar,IMG-SI-OBSTACULOS
-L-SI-SGCSSMA-S5-20,SI-SGCSSMA-S5,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S5-21,SI-SGCSSMA-S5,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas entregan al cliente la evidencia de su consulta y participación: una adjunta el memorando de su supervisor, la otra el acta de su comité.
-
-La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S5-ENCARGO
-L-SI-SGCSSMA-S5-22,SI-SGCSSMA-S5,22,caso,aplicacion,0,Caso A · Servicios Eléctricos de Mina,,,,"la ficha del caso A: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S5A
-L-SI-SGCSSMA-S5-23,SI-SGCSSMA-S5,23,caso,aplicacion,0,Caso B · Mantenimiento de Fajas y Chutes,,,,"la ficha del caso B: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S5B
-L-SI-SGCSSMA-S5-24,SI-SGCSSMA-S5,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S5-TRABAJAR
-L-SI-SGCSSMA-S5-25,SI-SGCSSMA-S5,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S5-26,SI-SGCSSMA-S5,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S5-27,SI-SGCSSMA-S5,27,caso,discusion,20,"Dos empresas, dos órganos equivocados",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S5-DISCUSION
-L-SI-SGCSSMA-S5-28,SI-SGCSSMA-S5,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S5-29,SI-SGCSSMA-S5,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S5-REFLEXION
-L-SI-SGCSSMA-S5-30,SI-SGCSSMA-S5,30,tapa,,0,,,,,,
-L-SI-SGCSSMA-S6-01,SI-SGCSSMA-S6,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S6-02,SI-SGCSSMA-S6,2,subportada-sesion,,0,Sesión N°6,,,,,
-L-SI-SGCSSMA-S6-03,SI-SGCSSMA-S6,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S6-04,SI-SGCSSMA-S6,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S6-05,SI-SGCSSMA-S6,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S6
-L-SI-SGCSSMA-S6-06,SI-SGCSSMA-S6,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S6-07,SI-SGCSSMA-S6,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos a quién hay que preguntarle antes de decidir.
-
-Hoy vemos sobre qué se decide: qué se identifica en la actividad y qué se controla primero.",,,con quién se decide y sobre qué se decide,IMG-SI-S6-PUENTE
-L-SI-SGCSSMA-S6-08,SI-SGCSSMA-S6,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fila tal como está llenada.
-
-¿Qué VEO?  ·  solo hechos, sin juicio
-¿Qué PIENSO?  ·  qué se escribió en cada columna
-¿Qué ME PREGUNTO?  ·  ¿el arnés era el único control posible?",,,una fila de matriz IPERC tal como la llenó la empresa,IMG-SI-S6-FILA-IPERC
-L-SI-SGCSSMA-S6-09,SI-SGCSSMA-S6,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S6-10,SI-SGCSSMA-S6,10,tema,adquisicion,5,"Tres normas, una sola cláusula 6.1",,C-SI-SGCSSMA-S6-1,1-3,a quién mira cada norma y qué identifica,IMG-SI-TRES-NORMAS-61
-L-SI-SGCSSMA-S6-11,SI-SGCSSMA-S6,11,tema,adquisicion,4,"La misma actividad, tres lecturas",,C-SI-SGCSSMA-S6-1,4-6,"lo que ve seguridad, lo que ve ambiente y lo que ve calidad en una perforadora",IMG-SI-MISMA-ACTIVIDAD
-L-SI-SGCSSMA-S6-12,SI-SGCSSMA-S6,12,tema,adquisicion,5,Peligro y riesgo no son la misma palabra,,C-SI-SGCSSMA-S6-2,1-3,qué es cada uno y qué se hace con cada uno,IMG-SI-PELIGRO-RIESGO
-L-SI-SGCSSMA-S6-13,SI-SGCSSMA-S6,13,tema,adquisicion,4,Lo que va en la columna «peligro»,,C-SI-SGCSSMA-S6-2,4-6,el daño frente a la fuente que puede causarlo,IMG-SI-COLUMNA-PELIGRO
-L-SI-SGCSSMA-S6-14,SI-SGCSSMA-S6,14,tema,adquisicion,5,"Aspecto e impacto, en su orden",,C-SI-SGCSSMA-S6-3,1-3,"qué es cada uno, con dos ejemplos de actividad",IMG-SI-ASPECTO-IMPACTO
-L-SI-SGCSSMA-S6-15,SI-SGCSSMA-S6,15,tema,adquisicion,4,Qué se mira y qué se controla primero,,C-SI-SGCSSMA-S6-3,4-6,el ciclo de vida y los aspectos significativos,IMG-SI-SIGNIFICATIVOS
-L-SI-SGCSSMA-S6-16,SI-SGCSSMA-S6,16,tema,adquisicion,5,El IPERC de línea base,,C-SI-SGCSSMA-S6-4,1-3,"la línea base, el mapa de riesgos y el Programa Anual",IMG-SI-IPERC-BASE
-L-SI-SGCSSMA-S6-17,SI-SGCSSMA-S6,17,tema,adquisicion,4,Y el IPERC de cada tarea,,C-SI-SGCSSMA-S6-4,4-6,"cuándo se hace el IPERC continuo, quién lo hace y quién lo ratifica",IMG-SI-IPERC-CONTINUO
-L-SI-SGCSSMA-S6-18,SI-SGCSSMA-S6,18,tema,adquisicion,5,Los cinco niveles del artículo 96,,C-SI-SGCSSMA-S6-5,1-3,"la jerarquía de controles, del primero al último",IMG-SI-JERARQUIA-96
-L-SI-SGCSSMA-S6-19,SI-SGCSSMA-S6,19,tema,adquisicion,4,El atajo que rompe la jerarquía,,C-SI-SGCSSMA-S6-5,4-6,saltar al procedimiento o al EPP frente a bajar nivel por nivel,IMG-SI-ATAJO-JERARQUIA
-L-SI-SGCSSMA-S6-20,SI-SGCSSMA-S6,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S6-21,SI-SGCSSMA-S6,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas entregan al cliente su matriz IPERC y su matriz de aspectos ambientales.
-
-La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S6-ENCARGO
-L-SI-SGCSSMA-S6-22,SI-SGCSSMA-S6,22,caso,aplicacion,0,Caso A · Perforación Diamantina Andina,,,,"la ficha del caso A: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S6A
-L-SI-SGCSSMA-S6-23,SI-SGCSSMA-S6,23,caso,aplicacion,0,Caso B · Movimiento de Tierras Alto Chicama,,,,"la ficha del caso B: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S6B
-L-SI-SGCSSMA-S6-24,SI-SGCSSMA-S6,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S6-TRABAJAR
-L-SI-SGCSSMA-S6-25,SI-SGCSSMA-S6,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S6-26,SI-SGCSSMA-S6,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S6-27,SI-SGCSSMA-S6,27,caso,discusion,20,"Dos matrices, dos cosas distintas sin ver",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S6-DISCUSION
-L-SI-SGCSSMA-S6-28,SI-SGCSSMA-S6,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S6-29,SI-SGCSSMA-S6,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S6-REFLEXION
-L-SI-SGCSSMA-S6-30,SI-SGCSSMA-S6,30,tapa,,0,,,,,,
-L-SI-SGCSSMA-S7-01,SI-SGCSSMA-S7,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S7-02,SI-SGCSSMA-S7,2,subportada-sesion,,0,Sesión N°7,,,,,
-L-SI-SGCSSMA-S7-03,SI-SGCSSMA-S7,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S7-04,SI-SGCSSMA-S7,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S7-05,SI-SGCSSMA-S7,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S7
-L-SI-SGCSSMA-S7-06,SI-SGCSSMA-S7,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S7-07,SI-SGCSSMA-S7,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué se identifica en la actividad y en qué orden se controla.
-
-Hoy vemos qué normas obligan a la empresa, y qué pasa si no las cumple.",,,lo que se identifica en la actividad y lo que toca hoy,IMG-SI-S7-PUENTE
-L-SI-SGCSSMA-S7-08,SI-SGCSSMA-S7,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la matriz tal como está.
-
-¿Qué VEO?  ·  solo hechos, sin juicio
-¿Qué PIENSO?  ·  qué norma citaron y a quién obliga
-¿Qué ME PREGUNTO?  ·  si levantan un edificio, ¿esto les aplica?",,,las dos filas de la matriz legal de una constructora,IMG-SI-S7-MATRIZ-LEGAL
-L-SI-SGCSSMA-S7-09,SI-SGCSSMA-S7,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S7-10,SI-SGCSSMA-S7,10,tema,adquisicion,5,La cláusula que la ISO 9001 no tiene,,C-SI-SGCSSMA-S7-1,1-3,cómo llama cada norma a los requisitos legales y en qué cláusula,IMG-SI-QUIEN-TIENE-613
-L-SI-SGCSSMA-S7-11,SI-SGCSSMA-S7,11,tema,adquisicion,4,La ley y lo que la empresa firma,,C-SI-SGCSSMA-S7-1,4-6,qué obliga por sí solo y qué obliga porque se aceptó,IMG-SI-LEY-Y-FIRMADO
-L-SI-SGCSSMA-S7-12,SI-SGCSSMA-S7,12,tema,adquisicion,5,"Identificar, acceder y mantener actualizado",,C-SI-SGCSSMA-S7-2,1-3,los tres verbos de la cláusula y qué significa cada uno,IMG-SI-TRES-VERBOS-613
-L-SI-SGCSSMA-S7-13,SI-SGCSSMA-S7,13,tema,adquisicion,4,Cuándo sirve la matriz y cuándo no,,C-SI-SGCSSMA-S7-2,4-6,sacarla para la auditoría frente a tenerla al planificar,IMG-SI-CUANDO-SE-USA
-L-SI-SGCSSMA-S7-14,SI-SGCSSMA-S7,14,tema,adquisicion,5,A quién obliga cada norma peruana,,C-SI-SGCSSMA-S7-3,1-3,las que obligan a todo empleador y la que alcanza solo a la minería,IMG-SI-A-QUIEN-OBLIGA
-L-SI-SGCSSMA-S7-15,SI-SGCSSMA-S7,15,tema,adquisicion,4,"El reglamento minero se suma, no reemplaza",,C-SI-SGCSSMA-S7-3,4-6,qué añade el DS 024 y qué pasa si se cita sin que obligue,IMG-SI-SE-SUMA
-L-SI-SGCSSMA-S7-16,SI-SGCSSMA-S7,16,tema,adquisicion,5,"Política, línea base y órgano",,C-SI-SGCSSMA-S7-4,1-3,tres exigencias de la ley con su artículo,IMG-SI-EXIGE-1
-L-SI-SGCSSMA-S7-17,SI-SGCSSMA-S7,17,tema,adquisicion,4,"Reglamento, capacitación y mapa",,C-SI-SGCSSMA-S7-4,4-6,"las otras tres exigencias con su artículo, y la condición que la ley les pone",IMG-SI-EXIGE-2
-L-SI-SGCSSMA-S7-18,SI-SGCSSMA-S7,18,tema,adquisicion,5,Quién viene a pedirlo,,C-SI-SGCSSMA-S7-5,1-3,quién es la inspección del trabajo y qué puede hacer dentro,IMG-SI-QUIEN-FISCALIZA-S7
-L-SI-SGCSSMA-S7-19,SI-SGCSSMA-S7,19,tema,adquisicion,4,Y qué pasa si el documento falta,,C-SI-SGCSSMA-S7-5,4-6,"el acta, la multa y la paralización, y cuándo va cada una",IMG-SI-QUE-PASA-SI-FALTA
-L-SI-SGCSSMA-S7-20,SI-SGCSSMA-S7,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S7-21,SI-SGCSSMA-S7,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una constructora y una planta pesquera— creían estar en regla porque el cliente les aprobó la carpeta.
-
-La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S7-ENCARGO
-L-SI-SGCSSMA-S7-22,SI-SGCSSMA-S7,22,caso,aplicacion,0,Caso A · Edificaciones y Acabados del Norte,,,,"la ficha del caso A: la constructora, la inspección y los ocho hechos",IMG-SI-CASO-S7A
-L-SI-SGCSSMA-S7-23,SI-SGCSSMA-S7,23,caso,aplicacion,0,Caso B · Conservas y Congelados del Pacífico,,,,"la ficha del caso B: la planta pesquera, el accidente y los ocho hechos",IMG-SI-CASO-S7B
-L-SI-SGCSSMA-S7-24,SI-SGCSSMA-S7,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S7-TRABAJAR
-L-SI-SGCSSMA-S7-25,SI-SGCSSMA-S7,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S7-26,SI-SGCSSMA-S7,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S7-27,SI-SGCSSMA-S7,27,caso,discusion,20,"Dos carpetas aprobadas, dos empresas en falta",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S7-DISCUSION
-L-SI-SGCSSMA-S7-28,SI-SGCSSMA-S7,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S7-29,SI-SGCSSMA-S7,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S7-REFLEXION
-L-SI-SGCSSMA-S7-30,SI-SGCSSMA-S7,30,tapa,,0,,,,,,
-L-SI-SGCSSMA-S8-01,SI-SGCSSMA-S8,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S8-02,SI-SGCSSMA-S8,2,subportada-sesion,,0,Sesión N°8,,,,,
-L-SI-SGCSSMA-S8-03,SI-SGCSSMA-S8,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S8-04,SI-SGCSSMA-S8,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S8-05,SI-SGCSSMA-S8,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S8
-L-SI-SGCSSMA-S8-06,SI-SGCSSMA-S8,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S8-07,SI-SGCSSMA-S8,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué normas obligan a la empresa y qué pasa si no las cumple.
-
-Hoy vemos qué se propone hacer este año, y cómo se comprueba que lo hizo.",,,cumplir la ley como piso y el objetivo como destino,IMG-SI-S8-PUENTE
-L-SI-SGCSSMA-S8-08,SI-SGCSSMA-S8,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la hoja tal como la presentó la empresa.
-
-¿Qué VEO?  ·  solo hechos, sin juicio
-¿Qué PIENSO?  ·  qué casilleros quedaron vacíos
-¿Qué ME PREGUNTO?  ·  en junio, ¿cómo sabrían si van bien?",,,la hoja de objetivos tal como la presentó la empresa,IMG-SI-S8-HOJA-OBJETIVOS
-L-SI-SGCSSMA-S8-09,SI-SGCSSMA-S8,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S8-10,SI-SGCSSMA-S8,10,tema,adquisicion,5,Qué hace que algo sea un objetivo,,C-SI-SGCSSMA-S8-1,1-3,"coherente con la política, medible y con responsable",IMG-SI-OBJETIVO-QUE-ES
-L-SI-SGCSSMA-S8-11,SI-SGCSSMA-S8,11,tema,adquisicion,4,Lo que la ley peruana le exige,,C-SI-SGCSSMA-S8-1,4-6,"documentado, comunicado, evaluado y actualizado, con su artículo",IMG-SI-OBJETIVO-ART81
-L-SI-SGCSSMA-S8-12,SI-SGCSSMA-S8,12,tema,adquisicion,5,"Indicador, meta, plazo y responsable",,C-SI-SGCSSMA-S8-2,1-3,las cuatro partes de un objetivo y qué aporta cada una,IMG-SI-CUATRO-PARTES
-L-SI-SGCSSMA-S8-13,SI-SGCSSMA-S8,13,tema,adquisicion,4,"Un deseo y un objetivo, comparados",,C-SI-SGCSSMA-S8-2,4-6,frases que no se pueden medir frente a objetivos con número y fecha,IMG-SI-DESEO-U-OBJETIVO
-L-SI-SGCSSMA-S8-14,SI-SGCSSMA-S8,14,tema,adquisicion,5,Un objetivo por cada sistema,,C-SI-SGCSSMA-S8-3,1-3,"el indicador y la meta de calidad, de ambiente y de seguridad",IMG-SI-OBJETIVOS-TRES
-L-SI-SGCSSMA-S8-15,SI-SGCSSMA-S8,15,tema,adquisicion,4,De dónde sale un objetivo,,C-SI-SGCSSMA-S8-3,4-6,"del riesgo o el aspecto que ya se identificó, o de ningún lado",IMG-SI-DE-DONDE-SALE
-L-SI-SGCSSMA-S8-16,SI-SGCSSMA-S8,16,tema,adquisicion,5,Qué es el programa anual,,C-SI-SGCSSMA-S8-4,1-3,"el objetivo dice a dónde, el programa dice cómo, y qué lleva cada línea",IMG-SI-PROGRAMA-ANUAL
-L-SI-SGCSSMA-S8-17,SI-SGCSSMA-S8,17,tema,adquisicion,4,Quién lo aprueba,,C-SI-SGCSSMA-S8-4,4-6,los artículos del DS 005 sobre exhibir y aprobar el programa,IMG-SI-QUIEN-APRUEBA-PA
-L-SI-SGCSSMA-S8-18,SI-SGCSSMA-S8,18,tema,adquisicion,5,Tres errores que se ven al mirarlo,,C-SI-SGCSSMA-S8-5,1-3,"copiado, incompleto y programado sobre equipos que ya no están",IMG-SI-PA-ERRORES-1
-L-SI-SGCSSMA-S8-19,SI-SGCSSMA-S8,19,tema,adquisicion,4,Y tres que solo se ven cruzándolo,,C-SI-SGCSSMA-S8-5,4-6,"riesgos altos fuera, indicador medido tarde y acta sin aprobación",IMG-SI-PA-ERRORES-2
-L-SI-SGCSSMA-S8-20,SI-SGCSSMA-S8,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S8-21,SI-SGCSSMA-S8,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una planta metalmecánica y una de empaque de arándanos— presentan al cliente sus objetivos del año y su programa anual.
-
-La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S8-ENCARGO
-L-SI-SGCSSMA-S8-22,SI-SGCSSMA-S8,22,caso,aplicacion,0,Caso A · Estructuras y Calderería Vulcano,,,,la ficha del caso A: la planta metalmecánica y los ocho hechos,IMG-SI-CASO-S8A
-L-SI-SGCSSMA-S8-23,SI-SGCSSMA-S8,23,caso,aplicacion,0,Caso B · Packing y Frío Valle Norte,,,,la ficha del caso B: la planta de empaque y los ocho hechos,IMG-SI-CASO-S8B
-L-SI-SGCSSMA-S8-24,SI-SGCSSMA-S8,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S8-TRABAJAR
-L-SI-SGCSSMA-S8-25,SI-SGCSSMA-S8,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S8-26,SI-SGCSSMA-S8,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S8-27,SI-SGCSSMA-S8,27,caso,discusion,20,"Dos programas cumplidos, dos historias distintas",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S8-DISCUSION
-L-SI-SGCSSMA-S8-28,SI-SGCSSMA-S8,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S8-29,SI-SGCSSMA-S8,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S8-REFLEXION
-L-SI-SGCSSMA-S8-30,SI-SGCSSMA-S8,30,tapa,,0,,,,,,
-L-SI-SGCSSMA-S9-01,SI-SGCSSMA-S9,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S9-02,SI-SGCSSMA-S9,2,subportada-sesion,,0,Sesión N°9,,,,,
-L-SI-SGCSSMA-S9-03,SI-SGCSSMA-S9,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S9-04,SI-SGCSSMA-S9,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S9-05,SI-SGCSSMA-S9,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S9
-L-SI-SGCSSMA-S9-06,SI-SGCSSMA-S9,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S9-07,SI-SGCSSMA-S9,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué se propone hacer la empresa en el año y cómo se comprueba.
-
-Hoy vemos con qué gente y con qué recursos se hace todo eso.",,,el programa del año y con qué se ejecuta,IMG-SI-S9-PUENTE
-L-SI-SGCSSMA-S9-08,SI-SGCSSMA-S9,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren el registro tal como quedó llenado.
-
-¿Qué VEO?  ·  solo hechos, sin juicio
-¿Qué PIENSO?  ·  qué dice la fecha, el expositor y el costo
-¿Qué ME PREGUNTO?  ·  ¿quién terminó pagando esta capacitación?",,,el registro de capacitación tal como quedó llenado,IMG-SI-S9-REGISTRO-CAP
-L-SI-SGCSSMA-S9-09,SI-SGCSSMA-S9,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S9-10,SI-SGCSSMA-S9,10,tema,adquisicion,5,"Personas, tiempo y dinero",,C-SI-SGCSSMA-S9-1,1-3,los recursos que la cláusula 7.1 pide proporcionar,IMG-SI-RECURSOS-1
-L-SI-SGCSSMA-S9-11,SI-SGCSSMA-S9,11,tema,adquisicion,4,"Equipos, asesoría y el comité",,C-SI-SGCSSMA-S9-1,4-6,"los otros recursos, y lo que la ley exige para el comité",IMG-SI-RECURSOS-2
-L-SI-SGCSSMA-S9-12,SI-SGCSSMA-S9,12,tema,adquisicion,5,"Educación, formación y experiencia",,C-SI-SGCSSMA-S9-2,1-3,las tres bases sobre las que se apoya la competencia,IMG-SI-COMPETENCIA
-L-SI-SGCSSMA-S9-13,SI-SGCSSMA-S9,13,tema,adquisicion,4,Lo que pide el puesto y lo que trae la persona,,C-SI-SGCSSMA-S9-2,4-6,"el requisito del puesto, lo que trae quien lo ocupa y cómo se cierra la brecha",IMG-SI-BRECHA-COMPETENCIA
-L-SI-SGCSSMA-S9-14,SI-SGCSSMA-S9,14,tema,adquisicion,5,Los tres momentos en que hay que capacitar,,C-SI-SGCSSMA-S9-3,1-3,"al contratar, durante el desempeño y al cambiar de puesto o tecnología",IMG-SI-TRES-MOMENTOS-CAP
-L-SI-SGCSSMA-S9-15,SI-SGCSSMA-S9,15,tema,adquisicion,4,"Cuántas al año, y cuándo la inducción",,C-SI-SGCSSMA-S9-3,4-6,el mínimo de cuatro al año y el momento de la inducción,IMG-SI-CUANTAS-CAP
-L-SI-SGCSSMA-S9-16,SI-SGCSSMA-S9,16,tema,adquisicion,5,"Jornada, pago y costo",,C-SI-SGCSSMA-S9-4,1-3,"dentro de la jornada, remunerada si es fuera, y a cargo del empleador",IMG-SI-REGLAS-CAP-1
-L-SI-SGCSSMA-S9-17,SI-SGCSSMA-S9,17,tema,adquisicion,4,Sobre qué riesgos y quién la dicta,,C-SI-SGCSSMA-S9-4,4-6,"cómo se arma el programa, quién puede dictarlo y qué registro queda",IMG-SI-REGLAS-CAP-2
-L-SI-SGCSSMA-S9-18,SI-SGCSSMA-S9,18,tema,adquisicion,5,Capacitar y tomar conciencia,,C-SI-SGCSSMA-S9-5,1-3,qué persigue la cláusula 7.2 y qué persigue la 7.3,IMG-SI-CAPACITAR-CONCIENCIA
-L-SI-SGCSSMA-S9-19,SI-SGCSSMA-S9,19,tema,adquisicion,4,Con qué se comprueba,,C-SI-SGCSSMA-S9-5,4-6,lo que la firma no prueba y lo que sí lo prueba,IMG-SI-COMO-SE-COMPRUEBA
-L-SI-SGCSSMA-S9-20,SI-SGCSSMA-S9,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S9-21,SI-SGCSSMA-S9,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una de transporte de carga y un taller de confecciones— muestran al cliente cómo forman a su gente.
-
-La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S9-ENCARGO
-L-SI-SGCSSMA-S9-22,SI-SGCSSMA-S9,22,caso,aplicacion,0,Caso A · Transportes y Logística Cordillera,,,,la ficha del caso A: la empresa de transporte y los ocho hechos,IMG-SI-CASO-S9A
-L-SI-SGCSSMA-S9-23,SI-SGCSSMA-S9,23,caso,aplicacion,0,Caso B · Confecciones y Acabados Textiles,,,,la ficha del caso B: el taller de confecciones y los ocho hechos,IMG-SI-CASO-S9B
-L-SI-SGCSSMA-S9-24,SI-SGCSSMA-S9,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S9-TRABAJAR
-L-SI-SGCSSMA-S9-25,SI-SGCSSMA-S9,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S9-26,SI-SGCSSMA-S9,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S9-27,SI-SGCSSMA-S9,27,caso,discusion,20,Dos formas de certificar a quien no sabe,,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S9-DISCUSION
-L-SI-SGCSSMA-S9-28,SI-SGCSSMA-S9,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S9-29,SI-SGCSSMA-S9,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S9-REFLEXION
-L-SI-SGCSSMA-S9-30,SI-SGCSSMA-S9,30,tapa,,0,,,,,,
-L-SI-IMPAMB-S1-1,SI-IMPAMB-S1,1,portada,,0,SEGURIDAD INDUSTRIAL,,,, ,
-L-SI-IMPAMB-S1-2,SI-IMPAMB-S1,2,subportada-sesion,,0,Sesión N°1,,,,,
-L-SI-IMPAMB-S1-3,SI-IMPAMB-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-IMPAMB-S1-4,SI-IMPAMB-S1,4,contenido,conexion,3,¿Cómo llegas hoy?,Marca en la escala con qué ánimo llegas a la sesión de hoy. Nadie te va a pedir que expliques por qué.,,,escala de ánimo de la sesión,
-L-SI-IMPAMB-S1-5,SI-IMPAMB-S1,5,contenido,conexion,3,El curso en una lámina,"Controles de impactos ambientales · 48 h · 12 sesiones · 2 bloques.
-BLOQUE 1 · S1 a S5 — la matriz de aspectos e impactos ambientales. Cierra con el TC1.
-BLOQUE 2 · S7 a S11 — la gestión y los controles de manejo de residuos sólidos. Cierra con el TC2.
-Al terminar vas a poder describir cómo se elabora una matriz de aspectos e impactos y cómo se maneja un residuo sólido según la norma peruana.",,,esquema de los dos bloques con sus sesiones y su colaborativo,
-L-SI-IMPAMB-S1-6,SI-IMPAMB-S1,6,contenido,conexion,3,¿Cómo se califica?,"Seis eventos, y suman 100 %.
-TC1 — trabajo colaborativo 1 · 25 %
-TC2 — trabajo colaborativo 2 · 25 %
-EP — evaluación parcial · 20 %
-EF — evaluación final · 20 %
-CV1 y CV2 — controles de lectura · 5 % cada uno
-La lista de cotejo de cada sesión NO lleva nota: te dice cómo va tu trabajo.",,,esquema de los seis eventos con su peso,
-L-SI-IMPAMB-S1-7,SI-IMPAMB-S1,7,contenido,conexion,2,Ruta de aprendizaje,"CONEXIÓN · 20 min — de dónde partimos
-ADQUISICIÓN · 45 min — aspecto, impacto y control
-APLICACIÓN · 40 min — el caso, en equipos de 4
-DISCUSIÓN · 20 min — se cruzan los dos casos
-REFLEXIÓN · 10 min — qué te llevas",,,los cinco momentos con sus minutos,
-L-SI-IMPAMB-S1-8,SI-IMPAMB-S1,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-IMPAMB-S1-9,SI-IMPAMB-S1,9,contenido,conexion,6,Veo · Pienso · Me pregunto,"Mira la fotografía sin leer nada más.
-VEO — ¿qué ves, sin interpretar?
-PIENSO — ¿qué te hace pensar eso?
-ME PREGUNTO — ¿qué te falta saber?
-Tres minutos en pares, tres de puesta en común.",,,estímulo: una cisterna regando una vía de tierra junto a una faja transportadora descubierta que levanta polvo,
-L-SI-IMPAMB-S1-10,SI-IMPAMB-S1,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-IMPAMB-S1-11,SI-IMPAMB-S1,11,tema,adquisicion,5,¿Qué es lo que sale de una actividad?,,C-SI-IMPAMB-S1-1,1-3,esquema: una actividad con sus entradas a la izquierda y sus salidas a la derecha,IMG-SI-IMPAMB-ENTRA-SALE
-L-SI-IMPAMB-S1-12,SI-IMPAMB-S1,12,tema,adquisicion,5,Cómo se nombra un aspecto,,C-SI-IMPAMB-S1-1,4-6,tres ejemplos de aspecto bien nombrado frente a tres mal nombrados,IMG-SI-IMPAMB-COMO-SE-NOMBRA
-L-SI-IMPAMB-S1-13,SI-IMPAMB-S1,13,tema,adquisicion,5,Cuándo hay aspecto y cuándo no,,C-SI-IMPAMB-S1-1,7-9,dos actividades comparadas: una con aspecto y otra sin él,IMG-SI-IMPAMB-HAY-ASPECTO
-L-SI-IMPAMB-S1-14,SI-IMPAMB-S1,14,tema,adquisicion,5,El cambio que viene después,,C-SI-IMPAMB-S1-2,1-3,"cadena: actividad → aspecto → impacto, con una flecha de causa y efecto",IMG-SI-IMPAMB-CADENA
-L-SI-IMPAMB-S1-15,SI-IMPAMB-S1,15,tema,adquisicion,5,Dentro de la operación y fuera de ella,,C-SI-IMPAMB-S1-2,4-6,"esquema del límite de la operación: el aspecto adentro, el impacto afuera",IMG-SI-IMPAMB-DENTRO-FUERA
-L-SI-IMPAMB-S1-16,SI-IMPAMB-S1,16,tema,adquisicion,5,Por qué confundirlos sale caro,,C-SI-IMPAMB-S1-2,7-9,"un mismo aspecto con dos impactos, y el control puesto en el sitio equivocado",IMG-SI-IMPAMB-CONFUNDIRLOS
-L-SI-IMPAMB-S1-17,SI-IMPAMB-S1,17,tema,adquisicion,5,¿Sobre qué actúa un control?,,C-SI-IMPAMB-S1-3,1-3,"el mismo esquema de la cadena, con el control señalando al aspecto",IMG-SI-IMPAMB-SOBRE-QUE-ACTUA
-L-SI-IMPAMB-S1-18,SI-IMPAMB-S1,18,tema,adquisicion,5,Cubrir la faja o regar la vía,,C-SI-IMPAMB-S1-3,4-6,las dos opciones lado a lado: cubrir la faja frente a regar la vía,IMG-SI-IMPAMB-FAJA-O-VIA
-L-SI-IMPAMB-S1-19,SI-IMPAMB-S1,19,tema,adquisicion,5,Lo que parece control y no lo es,,C-SI-IMPAMB-S1-3,7-9,un control vistoso al lado del aspecto que sigue intacto,IMG-SI-IMPAMB-PARECE-CONTROL
-L-SI-IMPAMB-S1-20,SI-IMPAMB-S1,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-IMPAMB-S1-21,SI-IMPAMB-S1,21,contenido,aplicacion,4,Indicaciones del encargo,"Cuatro filas en una hoja en blanco. Nada más: todo lo que necesitas está en el relato.
-1 · Qué sale de la operación hacia el entorno.
-2 · Qué cambio produce cada una de esas cosas.
-3 · Sobre cuál de los dos actúa cada control que la empresa ya tiene.
-4 · Qué salida queda sin ningún control que actúe sobre ella.
-Equipos de 4 · 28 min de trabajo.",,,"las cuatro filas del encargo, en blanco",
-L-SI-IMPAMB-S1-22,SI-IMPAMB-S1,22,caso,aplicacion,4,Caso A · Concretos y Agregados del Centro,,,,,
-L-SI-IMPAMB-S1-23,SI-IMPAMB-S1,23,caso,aplicacion,4,Caso B · Estructuras Metálicas y Montaje,,,,,
-L-SI-IMPAMB-S1-24,SI-IMPAMB-S1,24,caso,aplicacion,28,A trabajar,"Equipos de 4 · 28 minutos.
-La mitad de los equipos trabaja el caso A, la otra mitad el B.
-Cada integrante responde por su fila ante el equipo.
-Al terminar, cada equipo expone 2 minutos.",,,el cronómetro del trabajo en equipo,
-L-SI-IMPAMB-S1-25,SI-IMPAMB-S1,25,cotejo,aplicacion,0,,,,,,
-L-SI-IMPAMB-S1-26,SI-IMPAMB-S1,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-IMPAMB-S1-27,SI-IMPAMB-S1,27,caso,discusion,20,El control que se enseña primero,"Formato Afirmación · Apoyo · Pregunta. Dos minutos por equipo.
-AFIRMACIÓN — qué salida quedó sin control en tu caso.
-APOYO — qué del relato te lo dice.
-PREGUNTA — qué le preguntarías al equipo que trabajó el otro caso.
-Y al final, entre todos: la cisterna y los extractores, ¿sobre qué estaban actuando?",,,"el cruce de los dos casos: la cisterna y los extractores, lado a lado",
-L-SI-IMPAMB-S1-28,SI-IMPAMB-S1,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-IMPAMB-S1-29,SI-IMPAMB-S1,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Completa las dos frases en una línea cada una.
-ANTES PENSABA que un control ambiental era…
-AHORA PIENSO que…
-Tres voluntarios lo leen en voz alta.
-La próxima sesión: cómo se identifican los aspectos de una actividad a partir de sus entradas y sus salidas.",,,escala de ánimo de cierre,
-L-SI-IMPAMB-S1-30,SI-IMPAMB-S1,30,tapa,,0,,,,,,
 L-SI-SGCSSMA-S10-01,SI-SGCSSMA-S10,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
 L-SI-SGCSSMA-S10-02,SI-SGCSSMA-S10,2,subportada-sesion,,0,Sesión N°10,,,,,
 L-SI-SGCSSMA-S10-03,SI-SGCSSMA-S10,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
@@ -516,50 +164,6 @@ L-SI-SGCSSMA-S10-30,SI-SGCSSMA-S10,30,contenido,reflexion,10,Antes pensaba… ah
 
 Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S10-REFLEXION
 L-SI-SGCSSMA-S10-31,SI-SGCSSMA-S10,31,tapa,,0,,,,,,
-L-SI-SGCSSMA-S13-01,SI-SGCSSMA-S13,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
-L-SI-SGCSSMA-S13-02,SI-SGCSSMA-S13,2,subportada-sesion,,0,Sesión N°13,,,,,
-L-SI-SGCSSMA-S13-03,SI-SGCSSMA-S13,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L-SI-SGCSSMA-S13-04,SI-SGCSSMA-S13,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
-
-Marca en la escala el ánimo con el que entras a la sesión.
-
-No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
-L-SI-SGCSSMA-S13-05,SI-SGCSSMA-S13,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S13
-L-SI-SGCSSMA-S13-06,SI-SGCSSMA-S13,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
-L-SI-SGCSSMA-S13-07,SI-SGCSSMA-S13,7,contenido,conexion,4,Lo que quedó del bloque anterior,"Hasta aquí vimos cómo se planifica el sistema y cómo se documenta.
-
-Hoy empieza el bloque de operación: cómo se controla la tarea, en el frente.",,,"lo planificado y documentado, y lo que abre el bloque de operación",IMG-SI-S13-PUENTE
-L-SI-SGCSSMA-S13-08,SI-SGCSSMA-S13,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren el permiso tal como lo firmaron.
-
-¿Qué VEO?  ·  solo hechos, sin juicio
-¿Qué PIENSO?  ·  qué autoriza, por cuánto tiempo y quién lo firmó
-¿Qué ME PREGUNTO?  ·  ¿qué sabemos del aire dentro del tanque?",,,el permiso de trabajo tal como lo firmaron,IMG-SI-S13-PERMISO
-L-SI-SGCSSMA-S13-09,SI-SGCSSMA-S13,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L-SI-SGCSSMA-S13-10,SI-SGCSSMA-S13,10,tema,adquisicion,5,Los tres pasos de la cláusula 8.1,,C-SI-SGCSSMA-S13-1,1-3,"planificar los procesos, fijar criterios y controlar la ejecución",IMG-SI-CONTROL-OPERACIONAL
-L-SI-SGCSSMA-S13-11,SI-SGCSSMA-S13,11,tema,adquisicion,4,Y lo que pide además,,C-SI-SGCSSMA-S13-1,4-6,"documentar, controlar los cambios y bajar al frente",IMG-SI-8-1-Y-ADEMAS
-L-SI-SGCSSMA-S13-12,SI-SGCSSMA-S13,12,tema,adquisicion,5,"Estándar y PETS, comparados",,C-SI-SGCSSMA-S13-2,1-3,"qué dice cada uno, con un ejemplo de la misma tarea",IMG-SI-ESTANDAR-PETS
-L-SI-SGCSSMA-S13-13,SI-SGCSSMA-S13,13,tema,adquisicion,4,Lo que la norma exige de ellos,,C-SI-SGCSSMA-S13-2,4-6,"participación, colocación en la labor y explicación antes de la orden",IMG-SI-PETS-OBLIGACIONES
-L-SI-SGCSSMA-S13-14,SI-SGCSSMA-S13,14,tema,adquisicion,5,Las tres condiciones del ATS,,C-SI-SGCSSMA-S13-3,1-3,"no rutinaria, fuera del IPERC de línea base y sin PETS",IMG-SI-ATS-CUANDO
-L-SI-SGCSSMA-S13-15,SI-SGCSSMA-S13,15,tema,adquisicion,4,Cuándo el ATS deja de servir,,C-SI-SGCSSMA-S13-3,4-6,la tarea que se repite frente a la que se hace por primera vez,IMG-SI-ATS-LIMITE
-L-SI-SGCSSMA-S13-16,SI-SGCSSMA-S13,16,tema,adquisicion,5,Qué es un trabajo de alto riesgo,,C-SI-SGCSSMA-S13-4,1-3,la definición del DS 024 y quién decide qué tareas lo son,IMG-SI-PETAR-QUE-ES
-L-SI-SGCSSMA-S13-17,SI-SGCSSMA-S13,17,tema,adquisicion,4,"Cómo se firma el permiso, y cómo no",,C-SI-SGCSSMA-S13-4,4-6,"por turno y con dos firmas, frente al permiso mensual con una",IMG-SI-PETAR-FIRMA
-L-SI-SGCSSMA-S13-18,SI-SGCSSMA-S13,18,tema,adquisicion,5,Para que el papel llegue al frente,,C-SI-SGCSSMA-S13-5,1-3,"quién lo escribe, dónde vive y qué versión se usa",IMG-SI-PROC-SIRVE-1
-L-SI-SGCSSMA-S13-19,SI-SGCSSMA-S13,19,tema,adquisicion,4,Lo que controla y lo que solo lo parece,,C-SI-SGCSSMA-S13-5,4-6,"listar el EPP y archivar firmado, frente a eliminar y verificar en la labor",IMG-SI-PROC-SIRVE-2
-L-SI-SGCSSMA-S13-20,SI-SGCSSMA-S13,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L-SI-SGCSSMA-S13-21,SI-SGCSSMA-S13,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una planta de bebidas y una de mantenimiento eléctrico— muestran cómo controlan sus trabajos de alto riesgo.
-
-La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S13-ENCARGO
-L-SI-SGCSSMA-S13-22,SI-SGCSSMA-S13,22,caso,aplicacion,0,Caso A · Bebidas y Maltas del Centro,,,,la ficha del caso A: la planta de bebidas y los ocho hechos,IMG-SI-CASO-S13A
-L-SI-SGCSSMA-S13-23,SI-SGCSSMA-S13,23,caso,aplicacion,0,Caso B · Mantenimiento Eléctrico Industrial,,,,la ficha del caso B: la empresa de mantenimiento y los ocho hechos,IMG-SI-CASO-S13B
-L-SI-SGCSSMA-S13-24,SI-SGCSSMA-S13,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S13-TRABAJAR
-L-SI-SGCSSMA-S13-25,SI-SGCSSMA-S13,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
-L-SI-SGCSSMA-S13-26,SI-SGCSSMA-S13,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L-SI-SGCSSMA-S13-27,SI-SGCSSMA-S13,27,caso,discusion,20,"Dos permisos firmados, dos controles que faltan",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S13-DISCUSION
-L-SI-SGCSSMA-S13-28,SI-SGCSSMA-S13,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L-SI-SGCSSMA-S13-29,SI-SGCSSMA-S13,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
-
-Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S13-REFLEXION
-L-SI-SGCSSMA-S13-30,SI-SGCSSMA-S13,30,tapa,,0,,,,,,
 L-SI-SGCSSMA-S11-01,SI-SGCSSMA-S11,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
 L-SI-SGCSSMA-S11-02,SI-SGCSSMA-S11,2,subportada-sesion,,0,Sesión N°11,,,,,
 L-SI-SGCSSMA-S11-03,SI-SGCSSMA-S11,3,subportada-momento,presentacion,0,PRESENTACIÓN DE TRABAJOS,,,,,
@@ -613,6 +217,50 @@ L-SI-SGCSSMA-S12-11,SI-SGCSSMA-S12,11,contenido,cierre,11,Antes pensaba… ahora
 
 Nadie lo lee en voz alta si no quiere.",,,las tres consignas del cierre,IMG-SI-S12-REFLEXION
 L-SI-SGCSSMA-S12-12,SI-SGCSSMA-S12,12,tapa,,0,,,,,,
+L-SI-SGCSSMA-S13-01,SI-SGCSSMA-S13,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S13-02,SI-SGCSSMA-S13,2,subportada-sesion,,0,Sesión N°13,,,,,
+L-SI-SGCSSMA-S13-03,SI-SGCSSMA-S13,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S13-04,SI-SGCSSMA-S13,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S13-05,SI-SGCSSMA-S13,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S13
+L-SI-SGCSSMA-S13-06,SI-SGCSSMA-S13,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S13-07,SI-SGCSSMA-S13,7,contenido,conexion,4,Lo que quedó del bloque anterior,"Hasta aquí vimos cómo se planifica el sistema y cómo se documenta.
+
+Hoy empieza el bloque de operación: cómo se controla la tarea, en el frente.",,,"lo planificado y documentado, y lo que abre el bloque de operación",IMG-SI-S13-PUENTE
+L-SI-SGCSSMA-S13-08,SI-SGCSSMA-S13,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren el permiso tal como lo firmaron.
+
+¿Qué VEO?  ·  solo hechos, sin juicio
+¿Qué PIENSO?  ·  qué autoriza, por cuánto tiempo y quién lo firmó
+¿Qué ME PREGUNTO?  ·  ¿qué sabemos del aire dentro del tanque?",,,el permiso de trabajo tal como lo firmaron,IMG-SI-S13-PERMISO
+L-SI-SGCSSMA-S13-09,SI-SGCSSMA-S13,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S13-10,SI-SGCSSMA-S13,10,tema,adquisicion,5,Los tres pasos de la cláusula 8.1,,C-SI-SGCSSMA-S13-1,1-3,"planificar los procesos, fijar criterios y controlar la ejecución",IMG-SI-CONTROL-OPERACIONAL
+L-SI-SGCSSMA-S13-11,SI-SGCSSMA-S13,11,tema,adquisicion,4,Y lo que pide además,,C-SI-SGCSSMA-S13-1,4-6,"documentar, controlar los cambios y bajar al frente",IMG-SI-8-1-Y-ADEMAS
+L-SI-SGCSSMA-S13-12,SI-SGCSSMA-S13,12,tema,adquisicion,5,"Estándar y PETS, comparados",,C-SI-SGCSSMA-S13-2,1-3,"qué dice cada uno, con un ejemplo de la misma tarea",IMG-SI-ESTANDAR-PETS
+L-SI-SGCSSMA-S13-13,SI-SGCSSMA-S13,13,tema,adquisicion,4,Lo que la norma exige de ellos,,C-SI-SGCSSMA-S13-2,4-6,"participación, colocación en la labor y explicación antes de la orden",IMG-SI-PETS-OBLIGACIONES
+L-SI-SGCSSMA-S13-14,SI-SGCSSMA-S13,14,tema,adquisicion,5,Las tres condiciones del ATS,,C-SI-SGCSSMA-S13-3,1-3,"no rutinaria, fuera del IPERC de línea base y sin PETS",IMG-SI-ATS-CUANDO
+L-SI-SGCSSMA-S13-15,SI-SGCSSMA-S13,15,tema,adquisicion,4,Cuándo el ATS deja de servir,,C-SI-SGCSSMA-S13-3,4-6,la tarea que se repite frente a la que se hace por primera vez,IMG-SI-ATS-LIMITE
+L-SI-SGCSSMA-S13-16,SI-SGCSSMA-S13,16,tema,adquisicion,5,Qué es un trabajo de alto riesgo,,C-SI-SGCSSMA-S13-4,1-3,la definición del DS 024 y quién decide qué tareas lo son,IMG-SI-PETAR-QUE-ES
+L-SI-SGCSSMA-S13-17,SI-SGCSSMA-S13,17,tema,adquisicion,4,"Cómo se firma el permiso, y cómo no",,C-SI-SGCSSMA-S13-4,4-6,"por turno y con dos firmas, frente al permiso mensual con una",IMG-SI-PETAR-FIRMA
+L-SI-SGCSSMA-S13-18,SI-SGCSSMA-S13,18,tema,adquisicion,5,Para que el papel llegue al frente,,C-SI-SGCSSMA-S13-5,1-3,"quién lo escribe, dónde vive y qué versión se usa",IMG-SI-PROC-SIRVE-1
+L-SI-SGCSSMA-S13-19,SI-SGCSSMA-S13,19,tema,adquisicion,4,Lo que controla y lo que solo lo parece,,C-SI-SGCSSMA-S13-5,4-6,"listar el EPP y archivar firmado, frente a eliminar y verificar en la labor",IMG-SI-PROC-SIRVE-2
+L-SI-SGCSSMA-S13-20,SI-SGCSSMA-S13,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S13-21,SI-SGCSSMA-S13,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una planta de bebidas y una de mantenimiento eléctrico— muestran cómo controlan sus trabajos de alto riesgo.
+
+La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S13-ENCARGO
+L-SI-SGCSSMA-S13-22,SI-SGCSSMA-S13,22,caso,aplicacion,0,Caso A · Bebidas y Maltas del Centro,,,,la ficha del caso A: la planta de bebidas y los ocho hechos,IMG-SI-CASO-S13A
+L-SI-SGCSSMA-S13-23,SI-SGCSSMA-S13,23,caso,aplicacion,0,Caso B · Mantenimiento Eléctrico Industrial,,,,la ficha del caso B: la empresa de mantenimiento y los ocho hechos,IMG-SI-CASO-S13B
+L-SI-SGCSSMA-S13-24,SI-SGCSSMA-S13,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S13-TRABAJAR
+L-SI-SGCSSMA-S13-25,SI-SGCSSMA-S13,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S13-26,SI-SGCSSMA-S13,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S13-27,SI-SGCSSMA-S13,27,caso,discusion,20,"Dos permisos firmados, dos controles que faltan",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S13-DISCUSION
+L-SI-SGCSSMA-S13-28,SI-SGCSSMA-S13,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S13-29,SI-SGCSSMA-S13,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S13-REFLEXION
+L-SI-SGCSSMA-S13-30,SI-SGCSSMA-S13,30,tapa,,0,,,,,,
 L-SI-SGCSSMA-S14-01,SI-SGCSSMA-S14,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
 L-SI-SGCSSMA-S14-02,SI-SGCSSMA-S14,2,subportada-sesion,,0,Sesión N°14,,,,,
 L-SI-SGCSSMA-S14-03,SI-SGCSSMA-S14,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
@@ -877,6 +525,48 @@ L-SI-SGCSSMA-S19-29,SI-SGCSSMA-S19,29,contenido,reflexion,10,Antes pensaba… ah
 
 Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S19-REFLEXION
 L-SI-SGCSSMA-S19-30,SI-SGCSSMA-S19,30,tapa,,0,,,,,,
+L-SI-SGCSSMA-S2-01,SI-SGCSSMA-S2,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S2-02,SI-SGCSSMA-S2,2,subportada-sesion,,0,Sesión N°2,,,,,
+L-SI-SGCSSMA-S2-03,SI-SGCSSMA-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S2-04,SI-SGCSSMA-S2,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S2-05,SI-SGCSSMA-S2,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S2
+L-SI-SGCSSMA-S2-06,SI-SGCSSMA-S2,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S2-07,SI-SGCSSMA-S2,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada clasificaron ocho documentos por el sistema al que sirven.
+
+Varios servían a más de uno. Hoy vamos un paso atrás: **antes** de saber qué documentos hacen falta, hay que saber a quién sirve la empresa y qué la condiciona.",,,"los ocho documentos de la sesión 1, clasificados por sistema",IMG-SI-CARPETA-HUANZA
+L-SI-SGCSSMA-S2-08,SI-SGCSSMA-S2,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Lean la carta que el cliente envió a la contratista.
+
+¿Qué VEO?  —  solo hechos, sin juicio
+¿Qué PIENSO?  —  quién escribe y qué esperaba
+¿Qué ME PREGUNTO?  —  a quién más le importa esto",,,"la carta del cliente, solo con hechos",IMG-SI-RECLAMO
+L-SI-SGCSSMA-S2-09,SI-SGCSSMA-S2,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S2-10,SI-SGCSSMA-S2,10,tema,adquisicion,5,¿Qué es el contexto de una organización?,,C-SI-SGCSSMA-S2-1,1-3,"la empresa en el centro, con lo de fuera y lo de dentro",IMG-SI-CONTEXTO
+L-SI-SGCSSMA-S2-11,SI-SGCSSMA-S2,11,tema,adquisicion,5,Cuándo se revisa y qué constancia queda,,C-SI-SGCSSMA-S2-1,4-6,"cuándo se determina y se revisa el contexto, y qué queda escrito",IMG-SI-CONTEXTO-REVISION
+L-SI-SGCSSMA-S2-12,SI-SGCSSMA-S2,12,tema,adquisicion,6,Lo que viene de fuera,,C-SI-SGCSSMA-S2-2,1-3,"las cuestiones externas, con lo que aporta cada una",IMG-SI-CONTEXTO-EXT
+L-SI-SGCSSMA-S2-13,SI-SGCSSMA-S2,13,tema,adquisicion,6,Lo que hay dentro,,C-SI-SGCSSMA-S2-2,4-6,"las cuestiones internas, con lo que aporta cada una",IMG-SI-CONTEXTO-INT
+L-SI-SGCSSMA-S2-14,SI-SGCSSMA-S2,14,tema,adquisicion,6,¿Quién es parte interesada?,,C-SI-SGCSSMA-S2-3,1-3,los grupos que rodean a la contratista,IMG-SI-PARTES-QUIENES
+L-SI-SGCSSMA-S2-15,SI-SGCSSMA-S2,15,tema,adquisicion,5,A quién se suele olvidar,,C-SI-SGCSSMA-S2-3,4-6,las partes que siempre se anotan frente a las que se dejan fuera,IMG-SI-PARTES-OLVIDADAS
+L-SI-SGCSSMA-S2-16,SI-SGCSSMA-S2,16,tema,adquisicion,6,Qué espera cada una,,C-SI-SGCSSMA-S2-4,1-3,cada parte interesada y lo que espera de la empresa,IMG-SI-PARTES-ESPERA
+L-SI-SGCSSMA-S2-17,SI-SGCSSMA-S2,17,tema,adquisicion,6,De expectativa a requisito,,C-SI-SGCSSMA-S2-4,4-6,cuándo una expectativa se vuelve requisito del sistema,IMG-SI-EXPECTATIVA-REQUISITO
+L-SI-SGCSSMA-S2-18,SI-SGCSSMA-S2,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S2-19,SI-SGCSSMA-S2,19,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas tienen que declarar el contexto de su sistema y su relación de partes interesadas. En las dos, gerencia entregó media hoja.
+
+La mitad de los equipos trabaja el caso A y la otra mitad el B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S2-ENCARGO
+L-SI-SGCSSMA-S2-20,SI-SGCSSMA-S2,20,caso,aplicacion,0,Caso A · Mantenimiento de Equipos Mineros,,,,la ficha del caso A con sus ocho hechos,IMG-SI-CASO-S2A
+L-SI-SGCSSMA-S2-21,SI-SGCSSMA-S2,21,caso,aplicacion,0,Caso B · Transporte de Concentrado del Centro,,,,la ficha del caso B con sus ocho hechos,IMG-SI-CASO-S2B
+L-SI-SGCSSMA-S2-22,SI-SGCSSMA-S2,22,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y cómo se reparte el tiempo,IMG-SI-S2-TRABAJAR
+L-SI-SGCSSMA-S2-23,SI-SGCSSMA-S2,23,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S2-24,SI-SGCSSMA-S2,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S2-25,SI-SGCSSMA-S2,25,caso,discusion,20,"Dos empresas, la misma omisión",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S2-DISCUSION
+L-SI-SGCSSMA-S2-26,SI-SGCSSMA-S2,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S2-27,SI-SGCSSMA-S2,27,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas de la rutina de cierre, cada una en su cuadro",IMG-SI-S2-REFLEXION
+L-SI-SGCSSMA-S2-28,SI-SGCSSMA-S2,28,tapa,,0,,,,,,
 L-SI-SGCSSMA-S20-01,SI-SGCSSMA-S20,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
 L-SI-SGCSSMA-S20-02,SI-SGCSSMA-S20,2,subportada-sesion,,0,Sesión N°20,,,,,
 L-SI-SGCSSMA-S20-03,SI-SGCSSMA-S20,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
@@ -1067,3 +757,408 @@ L-SI-SGCSSMA-S24-11,SI-SGCSSMA-S24,11,contenido,cierre,11,Lo que te llevas,"Dos 
 
 Busca lo que escribiste en la primera sesión y compáralo con lo que escribirías hoy. El que quiera, lo comparte.",,,las tres consignas del cierre del curso,IMG-SI-S24-REFLEXION
 L-SI-SGCSSMA-S24-12,SI-SGCSSMA-S24,12,tapa,,0,,,,,,
+L-SI-SGCSSMA-S3-01,SI-SGCSSMA-S3,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S3-02,SI-SGCSSMA-S3,2,subportada-sesion,,0,Sesión N°3,,,,,
+L-SI-SGCSSMA-S3-03,SI-SGCSSMA-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S3-04,SI-SGCSSMA-S3,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S3-05,SI-SGCSSMA-S3,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S3
+L-SI-SGCSSMA-S3-06,SI-SGCSSMA-S3,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S3-07,SI-SGCSSMA-S3,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos quién es parte interesada y qué espera de la empresa.
+
+Hoy vemos hasta dónde llega el sistema. Y ahí aparece el problema: una parte interesada puede esperar algo de una actividad que el sistema no cubre.",,,de las partes interesadas al alcance del sistema,IMG-SI-S3-PUENTE
+L-SI-SGCSSMA-S3-08,SI-SGCSSMA-S3,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la hoja del manual y la facturación del año.
+
+¿Qué VEO?  —  solo hechos, sin juicio
+¿Qué PIENSO?  —  qué hace esta empresa
+¿Qué ME PREGUNTO?  —  qué falta en esa línea",,,el alcance del manual frente a la facturación del año,IMG-SI-S3-ESTIMULO
+L-SI-SGCSSMA-S3-09,SI-SGCSSMA-S3,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S3-10,SI-SGCSSMA-S3,10,tema,adquisicion,6,¿Qué es el alcance del sistema?,,C-SI-SGCSSMA-S3-1,1-3,qué es el alcance y por qué elementos se define,IMG-SI-ALCANCE-QUE-ES
+L-SI-SGCSSMA-S3-11,SI-SGCSSMA-S3,11,tema,adquisicion,5,"Qué se puede dejar fuera, y qué no",,C-SI-SGCSSMA-S3-1,4-6,lo que se puede excluir justificándolo y lo que no,IMG-SI-ALCANCE-EXCLUSIONES
+L-SI-SGCSSMA-S3-12,SI-SGCSSMA-S3,12,tema,adquisicion,6,Lo que queda fuera no desaparece,,C-SI-SGCSSMA-S3-2,1-3,qué le pasa a la actividad que queda fuera del alcance,IMG-SI-FUERA-DEL-ALCANCE
+L-SI-SGCSSMA-S3-13,SI-SGCSSMA-S3,13,tema,adquisicion,6,Declarar de menos sale caro,,C-SI-SGCSSMA-S3-2,4-6,declarar de menos frente a declarar completo,IMG-SI-DECLARAR-DE-MENOS
+L-SI-SGCSSMA-S3-14,SI-SGCSSMA-S3,14,tema,adquisicion,5,¿Qué es un proceso?,,C-SI-SGCSSMA-S3-3,1-3,"entrada, actividades y salida de un proceso, con su responsable",IMG-SI-PROCESO
+L-SI-SGCSSMA-S3-15,SI-SGCSSMA-S3,15,tema,adquisicion,6,"Por procesos, no por áreas",,C-SI-SGCSSMA-S3-3,4-6,organizar por áreas frente a organizar por procesos,IMG-SI-PROCESOS-VS-AREAS
+L-SI-SGCSSMA-S3-16,SI-SGCSSMA-S3,16,tema,adquisicion,6,El mapa de procesos,,C-SI-SGCSSMA-S3-4,1-3,las tres franjas del mapa con procesos de ejemplo,IMG-SI-MAPA-PROCESOS
+L-SI-SGCSSMA-S3-17,SI-SGCSSMA-S3,17,tema,adquisicion,5,El mapa enseña el alcance,,C-SI-SGCSSMA-S3-4,4-6,cómo el mapa deja ver lo que el sistema no cubre,IMG-SI-MAPA-Y-ALCANCE
+L-SI-SGCSSMA-S3-18,SI-SGCSSMA-S3,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S3-19,SI-SGCSSMA-S3,19,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas presentan el alcance de su sistema y su mapa de procesos. En las dos, el alcance declarado deja fuera actividades que la empresa hace todos los días.
+
+La mitad de los equipos trabaja el caso A y la otra mitad el B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S3-ENCARGO
+L-SI-SGCSSMA-S3-20,SI-SGCSSMA-S3,20,caso,aplicacion,0,Caso A · Sondajes y Geotecnia del Sur,,,,la ficha del caso A con sus ocho hechos,IMG-SI-CASO-S3A
+L-SI-SGCSSMA-S3-21,SI-SGCSSMA-S3,21,caso,aplicacion,0,Caso B · Montaje de Estructuras Metálicas,,,,la ficha del caso B con sus ocho hechos,IMG-SI-CASO-S3B
+L-SI-SGCSSMA-S3-22,SI-SGCSSMA-S3,22,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y cómo se reparte el tiempo,IMG-SI-S3-TRABAJAR
+L-SI-SGCSSMA-S3-23,SI-SGCSSMA-S3,23,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S3-24,SI-SGCSSMA-S3,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S3-25,SI-SGCSSMA-S3,25,caso,discusion,20,"Dos empresas, la misma actividad fuera",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S3-DISCUSION
+L-SI-SGCSSMA-S3-26,SI-SGCSSMA-S3,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S3-27,SI-SGCSSMA-S3,27,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas de la rutina de cierre, cada una en su cuadro",IMG-SI-S3-REFLEXION
+L-SI-SGCSSMA-S3-28,SI-SGCSSMA-S3,28,tapa,,0,,,,,,
+L-SI-SGCSSMA-S4-01,SI-SGCSSMA-S4,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S4-02,SI-SGCSSMA-S4,2,subportada-sesion,,0,Sesión N°4,,,,,
+L-SI-SGCSSMA-S4-03,SI-SGCSSMA-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S4-04,SI-SGCSSMA-S4,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S4-05,SI-SGCSSMA-S4,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S4
+L-SI-SGCSSMA-S4-06,SI-SGCSSMA-S4,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S4-07,SI-SGCSSMA-S4,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos hasta dónde llega el sistema y cómo se ordena por procesos.
+
+Hoy vemos quién responde por él. Un proceso sin responsable y una política sin firma se parecen mucho: los dos existen en el papel y no en la obra.",,,del alcance y los procesos a quién responde por el sistema,IMG-SI-S4-PUENTE
+L-SI-SGCSSMA-S4-08,SI-SGCSSMA-S4,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la política tal como está colgada.
+
+¿Qué VEO?  —  solo hechos, sin juicio
+¿Qué PIENSO?  —  qué dice y quién la firmó
+¿Qué ME PREGUNTO?  —  quién de los que trabajan aquí la ha leído",,,la política de la empresa tal como está colgada,IMG-SI-POLITICA-PARED
+L-SI-SGCSSMA-S4-09,SI-SGCSSMA-S4,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S4-10,SI-SGCSSMA-S4,10,tema,adquisicion,3,Liderar no es firmar,,C-SI-SGCSSMA-S4-1,1-3,lo que separa poner el nombre al pie de responder por el sistema,IMG-SI-LIDERAZGO-FIRMA
+L-SI-SGCSSMA-S4-11,SI-SGCSSMA-S4,11,tema,adquisicion,3,Delegar no libera,,C-SI-SGCSSMA-S4-1,4-6,qué puede pasar a otro y qué se queda arriba,IMG-SI-DELEGAR
+L-SI-SGCSSMA-S4-12,SI-SGCSSMA-S4,12,tema,adquisicion,3,¿Qué es la política del sistema?,,C-SI-SGCSSMA-S4-2,1-3,"qué es, para qué sirve y quién la firma",IMG-SI-POLITICA-QUE-ES
+L-SI-SGCSSMA-S4-13,SI-SGCSSMA-S4,13,tema,adquisicion,3,Qué tiene que decir,,C-SI-SGCSSMA-S4-2,4-6,"propósito, marco, requisitos legales y mejora continua",IMG-SI-POLITICA-CONTENIDO
+L-SI-SGCSSMA-S4-14,SI-SGCSSMA-S4,14,tema,adquisicion,3,Cómo se aprueba y se difunde,,C-SI-SGCSSMA-S4-3,1-3,"escrita, comunicada dentro y disponible fuera",IMG-SI-POLITICA-DIFUSION
+L-SI-SGCSSMA-S4-15,SI-SGCSSMA-S4,15,tema,adquisicion,3,La difusión se comprueba preguntando,,C-SI-SGCSSMA-S4-3,4-6,qué no es difundir y qué sí lo es,IMG-SI-DIFUSION-COMPRUEBA
+L-SI-SGCSSMA-S4-16,SI-SGCSSMA-S4,16,tema,adquisicion,3,Una sola política para los tres sistemas,,C-SI-SGCSSMA-S4-4,1-3,tres políticas separadas frente a una sola integrada,IMG-SI-POLITICA-INTEGRADA
+L-SI-SGCSSMA-S4-17,SI-SGCSSMA-S4,17,tema,adquisicion,3,Lo que se pierde si se integra mal,,C-SI-SGCSSMA-S4-4,4-6,una política integrada mal hecha frente a una bien hecha,IMG-SI-POLITICA-INTEGRADA-MAL
+L-SI-SGCSSMA-S4-18,SI-SGCSSMA-S4,18,caso,adquisicion,5,Así se ve una política integrada real,,C-SI-SGCSSMA-S4-4,,"los compromisos de una política real, con el sistema que cubre cada uno",IMG-SI-POLITICA-REAL
+L-SI-SGCSSMA-S4-19,SI-SGCSSMA-S4,19,caso,adquisicion,5,"Y así cierra: ambiente, calidad y participación",,C-SI-SGCSSMA-S4-4,,"los compromisos 4 a 6 de la misma política, y cómo cierra",IMG-SI-POLITICA-REAL-2
+L-SI-SGCSSMA-S4-20,SI-SGCSSMA-S4,20,caso,adquisicion,5,"La página completa, tal como la firma la empresa",,C-SI-SGCSSMA-S4-4,,"la página entera con su logo, sus seis compromisos y la firma del CEO",IMG-SI-POLITICA-REAL-PAGINA
+L-SI-SGCSSMA-S4-21,SI-SGCSSMA-S4,21,tema,adquisicion,3,Quién responde por qué,,C-SI-SGCSSMA-S4-5,1-3,los roles del sistema con aquello de lo que responde cada uno,IMG-SI-ROLES-QUIEN
+L-SI-SGCSSMA-S4-22,SI-SGCSSMA-S4,22,tema,adquisicion,3,Asignar es poner nombre,,C-SI-SGCSSMA-S4-5,4-6,qué separa un encargo dicho en una reunión de una responsabilidad asignada,IMG-SI-ROLES-ASIGNAR
+L-SI-SGCSSMA-S4-23,SI-SGCSSMA-S4,23,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S4-24,SI-SGCSSMA-S4,24,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas presentan su política de gestión a la empresa titular, que va a revisarlas antes de autorizar el ingreso.
+
+La mitad de los equipos revisa la POLÍTICA A y la otra mitad la POLÍTICA B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S4-ENCARGO
+L-SI-SGCSSMA-S4-25,SI-SGCSSMA-S4,25,caso,aplicacion,0,Política A · Sondajes y Geotecnia del Sur,,,,"la política A completa, con su cabecera, sus compromisos y su firma",IMG-SI-POLITICA-A
+L-SI-SGCSSMA-S4-26,SI-SGCSSMA-S4,26,caso,aplicacion,0,Política B · Montaje de Estructuras Metálicas,,,,"la política B completa, con su cabecera, sus compromisos y su firma",IMG-SI-POLITICA-B
+L-SI-SGCSSMA-S4-27,SI-SGCSSMA-S4,27,caso,aplicacion,30,A trabajar,,,,los seis requisitos que se marcan y la pregunta de integración,IMG-SI-S4-TRABAJAR
+L-SI-SGCSSMA-S4-28,SI-SGCSSMA-S4,28,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S4-29,SI-SGCSSMA-S4,29,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S4-30,SI-SGCSSMA-S4,30,caso,discusion,20,"Dos políticas, dos cosas distintas que faltan",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S4-DISCUSION
+L-SI-SGCSSMA-S4-31,SI-SGCSSMA-S4,31,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S4-32,SI-SGCSSMA-S4,32,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas de la rutina de cierre, cada una en su cuadro",IMG-SI-S4-REFLEXION
+L-SI-SGCSSMA-S4-33,SI-SGCSSMA-S4,33,tapa,,0,,,,,,
+L-SI-SGCSSMA-S5-01,SI-SGCSSMA-S5,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S5-02,SI-SGCSSMA-S5,2,subportada-sesion,,0,Sesión N°5,,,,,
+L-SI-SGCSSMA-S5-03,SI-SGCSSMA-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S5-04,SI-SGCSSMA-S5,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S5-05,SI-SGCSSMA-S5,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S5
+L-SI-SGCSSMA-S5-06,SI-SGCSSMA-S5,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S5-07,SI-SGCSSMA-S5,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué debe decir la política y quién tiene que firmarla.
+
+Hoy vemos a quién hay que preguntarle antes de decidir por él.",,,lo que se vio de la política y lo que toca hoy,IMG-SI-S5-PUENTE
+L-SI-SGCSSMA-S5-08,SI-SGCSSMA-S5,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren el memorando tal como salió.
+
+¿Qué VEO?  ·  solo hechos, sin juicio
+¿Qué PIENSO?  ·  quién decidió y quién quedó fuera
+¿Qué ME PREGUNTO?  ·  con 26 trabajadores, ¿le tocaba un supervisor?",,,el memorando con el que la empresa designó a su supervisor,IMG-SI-S5-MEMORANDO
+L-SI-SGCSSMA-S5-09,SI-SGCSSMA-S5,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S5-10,SI-SGCSSMA-S5,10,tema,adquisicion,5,La cláusula que no está en las otras dos,,C-SI-SGCSSMA-S5-1,1-3,qué traen la 9001 y la 14001 frente a lo que trae la 45001,IMG-SI-SOLO-45001
+L-SI-SGCSSMA-S5-11,SI-SGCSSMA-S5,11,tema,adquisicion,4,Por qué esta norma sí la exige,,C-SI-SGCSSMA-S5-1,4-6,la razón de la cláusula y qué clase de requisito es,IMG-SI-POR-QUE-54
+L-SI-SGCSSMA-S5-12,SI-SGCSSMA-S5,12,tema,adquisicion,5,"Informar, consultar y participar",,C-SI-SGCSSMA-S5-2,1-3,"en qué se diferencian los tres, y cuál llega tarde",IMG-SI-TRES-VERBOS
+L-SI-SGCSSMA-S5-13,SI-SGCSSMA-S5,13,tema,adquisicion,4,Lo que cumple la cláusula y lo que no,,C-SI-SGCSSMA-S5-2,4-6,difundir una decisión ya tomada frente a decidir con quien hace la tarea,IMG-SI-CONSULTA-QUE-SI
+L-SI-SGCSSMA-S5-14,SI-SGCSSMA-S5,14,tema,adquisicion,5,Los asuntos que hay que consultar,,C-SI-SGCSSMA-S5-3,1-3,"partes interesadas, política y roles, peligros y controles",IMG-SI-ASUNTOS-1
+L-SI-SGCSSMA-S5-15,SI-SGCSSMA-S5,15,tema,adquisicion,4,Y los tres que faltan,,C-SI-SGCSSMA-S5-3,4-6,"formación, investigación de incidentes y seguimiento del desempeño",IMG-SI-ASUNTOS-2
+L-SI-SGCSSMA-S5-16,SI-SGCSSMA-S5,16,tema,adquisicion,5,Comité o supervisor: lo decide el número,,C-SI-SGCSSMA-S5-4,1-3,el umbral de la Ley 29783 y el órgano que corresponde a cada lado,IMG-SI-COMITE-SUPERVISOR
+L-SI-SGCSSMA-S5-17,SI-SGCSSMA-S5,17,tema,adquisicion,4,A unos los eligen y a otros los designan,,C-SI-SGCSSMA-S5-4,4-6,quién pone a los representantes del empleador y quién a los de los trabajadores,IMG-SI-QUIEN-ELIGE
+L-SI-SGCSSMA-S5-18,SI-SGCSSMA-S5,18,tema,adquisicion,5,Lo que deja rastro: el libro de actas,,C-SI-SGCSSMA-S5-5,1-3,qué contiene el acta y para qué sirve cuando la piden,IMG-SI-LIBRO-ACTAS
+L-SI-SGCSSMA-S5-19,SI-SGCSSMA-S5,19,tema,adquisicion,4,Lo que estorba la participación,,C-SI-SGCSSMA-S5-5,4-6,los obstáculos que la norma manda eliminar,IMG-SI-OBSTACULOS
+L-SI-SGCSSMA-S5-20,SI-SGCSSMA-S5,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S5-21,SI-SGCSSMA-S5,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas entregan al cliente la evidencia de su consulta y participación: una adjunta el memorando de su supervisor, la otra el acta de su comité.
+
+La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S5-ENCARGO
+L-SI-SGCSSMA-S5-22,SI-SGCSSMA-S5,22,caso,aplicacion,0,Caso A · Servicios Eléctricos de Mina,,,,"la ficha del caso A: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S5A
+L-SI-SGCSSMA-S5-23,SI-SGCSSMA-S5,23,caso,aplicacion,0,Caso B · Mantenimiento de Fajas y Chutes,,,,"la ficha del caso B: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S5B
+L-SI-SGCSSMA-S5-24,SI-SGCSSMA-S5,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S5-TRABAJAR
+L-SI-SGCSSMA-S5-25,SI-SGCSSMA-S5,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S5-26,SI-SGCSSMA-S5,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S5-27,SI-SGCSSMA-S5,27,caso,discusion,20,"Dos empresas, dos órganos equivocados",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S5-DISCUSION
+L-SI-SGCSSMA-S5-28,SI-SGCSSMA-S5,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S5-29,SI-SGCSSMA-S5,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S5-REFLEXION
+L-SI-SGCSSMA-S5-30,SI-SGCSSMA-S5,30,tapa,,0,,,,,,
+L-SI-SGCSSMA-S6-01,SI-SGCSSMA-S6,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S6-02,SI-SGCSSMA-S6,2,subportada-sesion,,0,Sesión N°6,,,,,
+L-SI-SGCSSMA-S6-03,SI-SGCSSMA-S6,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S6-04,SI-SGCSSMA-S6,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S6-05,SI-SGCSSMA-S6,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S6
+L-SI-SGCSSMA-S6-06,SI-SGCSSMA-S6,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S6-07,SI-SGCSSMA-S6,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos a quién hay que preguntarle antes de decidir.
+
+Hoy vemos sobre qué se decide: qué se identifica en la actividad y qué se controla primero.",,,con quién se decide y sobre qué se decide,IMG-SI-S6-PUENTE
+L-SI-SGCSSMA-S6-08,SI-SGCSSMA-S6,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fila tal como está llenada.
+
+¿Qué VEO?  ·  solo hechos, sin juicio
+¿Qué PIENSO?  ·  qué se escribió en cada columna
+¿Qué ME PREGUNTO?  ·  ¿el arnés era el único control posible?",,,una fila de matriz IPERC tal como la llenó la empresa,IMG-SI-S6-FILA-IPERC
+L-SI-SGCSSMA-S6-09,SI-SGCSSMA-S6,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S6-10,SI-SGCSSMA-S6,10,tema,adquisicion,5,"Tres normas, una sola cláusula 6.1",,C-SI-SGCSSMA-S6-1,1-3,a quién mira cada norma y qué identifica,IMG-SI-TRES-NORMAS-61
+L-SI-SGCSSMA-S6-11,SI-SGCSSMA-S6,11,tema,adquisicion,4,"La misma actividad, tres lecturas",,C-SI-SGCSSMA-S6-1,4-6,"lo que ve seguridad, lo que ve ambiente y lo que ve calidad en una perforadora",IMG-SI-MISMA-ACTIVIDAD
+L-SI-SGCSSMA-S6-12,SI-SGCSSMA-S6,12,tema,adquisicion,5,Peligro y riesgo no son la misma palabra,,C-SI-SGCSSMA-S6-2,1-3,qué es cada uno y qué se hace con cada uno,IMG-SI-PELIGRO-RIESGO
+L-SI-SGCSSMA-S6-13,SI-SGCSSMA-S6,13,tema,adquisicion,4,Lo que va en la columna «peligro»,,C-SI-SGCSSMA-S6-2,4-6,el daño frente a la fuente que puede causarlo,IMG-SI-COLUMNA-PELIGRO
+L-SI-SGCSSMA-S6-14,SI-SGCSSMA-S6,14,tema,adquisicion,5,"Aspecto e impacto, en su orden",,C-SI-SGCSSMA-S6-3,1-3,"qué es cada uno, con dos ejemplos de actividad",IMG-SI-ASPECTO-IMPACTO
+L-SI-SGCSSMA-S6-15,SI-SGCSSMA-S6,15,tema,adquisicion,4,Qué se mira y qué se controla primero,,C-SI-SGCSSMA-S6-3,4-6,el ciclo de vida y los aspectos significativos,IMG-SI-SIGNIFICATIVOS
+L-SI-SGCSSMA-S6-16,SI-SGCSSMA-S6,16,tema,adquisicion,5,El IPERC de línea base,,C-SI-SGCSSMA-S6-4,1-3,"la línea base, el mapa de riesgos y el Programa Anual",IMG-SI-IPERC-BASE
+L-SI-SGCSSMA-S6-17,SI-SGCSSMA-S6,17,tema,adquisicion,4,Y el IPERC de cada tarea,,C-SI-SGCSSMA-S6-4,4-6,"cuándo se hace el IPERC continuo, quién lo hace y quién lo ratifica",IMG-SI-IPERC-CONTINUO
+L-SI-SGCSSMA-S6-18,SI-SGCSSMA-S6,18,tema,adquisicion,5,Los cinco niveles del artículo 96,,C-SI-SGCSSMA-S6-5,1-3,"la jerarquía de controles, del primero al último",IMG-SI-JERARQUIA-96
+L-SI-SGCSSMA-S6-19,SI-SGCSSMA-S6,19,tema,adquisicion,4,El atajo que rompe la jerarquía,,C-SI-SGCSSMA-S6-5,4-6,saltar al procedimiento o al EPP frente a bajar nivel por nivel,IMG-SI-ATAJO-JERARQUIA
+L-SI-SGCSSMA-S6-20,SI-SGCSSMA-S6,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S6-21,SI-SGCSSMA-S6,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos contratistas entregan al cliente su matriz IPERC y su matriz de aspectos ambientales.
+
+La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S6-ENCARGO
+L-SI-SGCSSMA-S6-22,SI-SGCSSMA-S6,22,caso,aplicacion,0,Caso A · Perforación Diamantina Andina,,,,"la ficha del caso A: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S6A
+L-SI-SGCSSMA-S6-23,SI-SGCSSMA-S6,23,caso,aplicacion,0,Caso B · Movimiento de Tierras Alto Chicama,,,,"la ficha del caso B: la empresa, lo que entregó y los ocho hechos",IMG-SI-CASO-S6B
+L-SI-SGCSSMA-S6-24,SI-SGCSSMA-S6,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S6-TRABAJAR
+L-SI-SGCSSMA-S6-25,SI-SGCSSMA-S6,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S6-26,SI-SGCSSMA-S6,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S6-27,SI-SGCSSMA-S6,27,caso,discusion,20,"Dos matrices, dos cosas distintas sin ver",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S6-DISCUSION
+L-SI-SGCSSMA-S6-28,SI-SGCSSMA-S6,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S6-29,SI-SGCSSMA-S6,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S6-REFLEXION
+L-SI-SGCSSMA-S6-30,SI-SGCSSMA-S6,30,tapa,,0,,,,,,
+L-SI-SGCSSMA-S7-01,SI-SGCSSMA-S7,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S7-02,SI-SGCSSMA-S7,2,subportada-sesion,,0,Sesión N°7,,,,,
+L-SI-SGCSSMA-S7-03,SI-SGCSSMA-S7,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S7-04,SI-SGCSSMA-S7,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S7-05,SI-SGCSSMA-S7,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S7
+L-SI-SGCSSMA-S7-06,SI-SGCSSMA-S7,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S7-07,SI-SGCSSMA-S7,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué se identifica en la actividad y en qué orden se controla.
+
+Hoy vemos qué normas obligan a la empresa, y qué pasa si no las cumple.",,,lo que se identifica en la actividad y lo que toca hoy,IMG-SI-S7-PUENTE
+L-SI-SGCSSMA-S7-08,SI-SGCSSMA-S7,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la matriz tal como está.
+
+¿Qué VEO?  ·  solo hechos, sin juicio
+¿Qué PIENSO?  ·  qué norma citaron y a quién obliga
+¿Qué ME PREGUNTO?  ·  si levantan un edificio, ¿esto les aplica?",,,las dos filas de la matriz legal de una constructora,IMG-SI-S7-MATRIZ-LEGAL
+L-SI-SGCSSMA-S7-09,SI-SGCSSMA-S7,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S7-10,SI-SGCSSMA-S7,10,tema,adquisicion,5,La cláusula que la ISO 9001 no tiene,,C-SI-SGCSSMA-S7-1,1-3,cómo llama cada norma a los requisitos legales y en qué cláusula,IMG-SI-QUIEN-TIENE-613
+L-SI-SGCSSMA-S7-11,SI-SGCSSMA-S7,11,tema,adquisicion,4,La ley y lo que la empresa firma,,C-SI-SGCSSMA-S7-1,4-6,qué obliga por sí solo y qué obliga porque se aceptó,IMG-SI-LEY-Y-FIRMADO
+L-SI-SGCSSMA-S7-12,SI-SGCSSMA-S7,12,tema,adquisicion,5,"Identificar, acceder y mantener actualizado",,C-SI-SGCSSMA-S7-2,1-3,los tres verbos de la cláusula y qué significa cada uno,IMG-SI-TRES-VERBOS-613
+L-SI-SGCSSMA-S7-13,SI-SGCSSMA-S7,13,tema,adquisicion,4,Cuándo sirve la matriz y cuándo no,,C-SI-SGCSSMA-S7-2,4-6,sacarla para la auditoría frente a tenerla al planificar,IMG-SI-CUANDO-SE-USA
+L-SI-SGCSSMA-S7-14,SI-SGCSSMA-S7,14,tema,adquisicion,5,A quién obliga cada norma peruana,,C-SI-SGCSSMA-S7-3,1-3,las que obligan a todo empleador y la que alcanza solo a la minería,IMG-SI-A-QUIEN-OBLIGA
+L-SI-SGCSSMA-S7-15,SI-SGCSSMA-S7,15,tema,adquisicion,4,"El reglamento minero se suma, no reemplaza",,C-SI-SGCSSMA-S7-3,4-6,qué añade el DS 024 y qué pasa si se cita sin que obligue,IMG-SI-SE-SUMA
+L-SI-SGCSSMA-S7-16,SI-SGCSSMA-S7,16,tema,adquisicion,5,"Política, línea base y órgano",,C-SI-SGCSSMA-S7-4,1-3,tres exigencias de la ley con su artículo,IMG-SI-EXIGE-1
+L-SI-SGCSSMA-S7-17,SI-SGCSSMA-S7,17,tema,adquisicion,4,"Reglamento, capacitación y mapa",,C-SI-SGCSSMA-S7-4,4-6,"las otras tres exigencias con su artículo, y la condición que la ley les pone",IMG-SI-EXIGE-2
+L-SI-SGCSSMA-S7-18,SI-SGCSSMA-S7,18,tema,adquisicion,5,Quién viene a pedirlo,,C-SI-SGCSSMA-S7-5,1-3,quién es la inspección del trabajo y qué puede hacer dentro,IMG-SI-QUIEN-FISCALIZA-S7
+L-SI-SGCSSMA-S7-19,SI-SGCSSMA-S7,19,tema,adquisicion,4,Y qué pasa si el documento falta,,C-SI-SGCSSMA-S7-5,4-6,"el acta, la multa y la paralización, y cuándo va cada una",IMG-SI-QUE-PASA-SI-FALTA
+L-SI-SGCSSMA-S7-20,SI-SGCSSMA-S7,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S7-21,SI-SGCSSMA-S7,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una constructora y una planta pesquera— creían estar en regla porque el cliente les aprobó la carpeta.
+
+La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S7-ENCARGO
+L-SI-SGCSSMA-S7-22,SI-SGCSSMA-S7,22,caso,aplicacion,0,Caso A · Edificaciones y Acabados del Norte,,,,"la ficha del caso A: la constructora, la inspección y los ocho hechos",IMG-SI-CASO-S7A
+L-SI-SGCSSMA-S7-23,SI-SGCSSMA-S7,23,caso,aplicacion,0,Caso B · Conservas y Congelados del Pacífico,,,,"la ficha del caso B: la planta pesquera, el accidente y los ocho hechos",IMG-SI-CASO-S7B
+L-SI-SGCSSMA-S7-24,SI-SGCSSMA-S7,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S7-TRABAJAR
+L-SI-SGCSSMA-S7-25,SI-SGCSSMA-S7,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S7-26,SI-SGCSSMA-S7,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S7-27,SI-SGCSSMA-S7,27,caso,discusion,20,"Dos carpetas aprobadas, dos empresas en falta",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S7-DISCUSION
+L-SI-SGCSSMA-S7-28,SI-SGCSSMA-S7,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S7-29,SI-SGCSSMA-S7,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S7-REFLEXION
+L-SI-SGCSSMA-S7-30,SI-SGCSSMA-S7,30,tapa,,0,,,,,,
+L-SI-SGCSSMA-S8-01,SI-SGCSSMA-S8,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S8-02,SI-SGCSSMA-S8,2,subportada-sesion,,0,Sesión N°8,,,,,
+L-SI-SGCSSMA-S8-03,SI-SGCSSMA-S8,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S8-04,SI-SGCSSMA-S8,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S8-05,SI-SGCSSMA-S8,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S8
+L-SI-SGCSSMA-S8-06,SI-SGCSSMA-S8,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S8-07,SI-SGCSSMA-S8,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué normas obligan a la empresa y qué pasa si no las cumple.
+
+Hoy vemos qué se propone hacer este año, y cómo se comprueba que lo hizo.",,,cumplir la ley como piso y el objetivo como destino,IMG-SI-S8-PUENTE
+L-SI-SGCSSMA-S8-08,SI-SGCSSMA-S8,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la hoja tal como la presentó la empresa.
+
+¿Qué VEO?  ·  solo hechos, sin juicio
+¿Qué PIENSO?  ·  qué casilleros quedaron vacíos
+¿Qué ME PREGUNTO?  ·  en junio, ¿cómo sabrían si van bien?",,,la hoja de objetivos tal como la presentó la empresa,IMG-SI-S8-HOJA-OBJETIVOS
+L-SI-SGCSSMA-S8-09,SI-SGCSSMA-S8,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S8-10,SI-SGCSSMA-S8,10,tema,adquisicion,5,Qué hace que algo sea un objetivo,,C-SI-SGCSSMA-S8-1,1-3,"coherente con la política, medible y con responsable",IMG-SI-OBJETIVO-QUE-ES
+L-SI-SGCSSMA-S8-11,SI-SGCSSMA-S8,11,tema,adquisicion,4,Lo que la ley peruana le exige,,C-SI-SGCSSMA-S8-1,4-6,"documentado, comunicado, evaluado y actualizado, con su artículo",IMG-SI-OBJETIVO-ART81
+L-SI-SGCSSMA-S8-12,SI-SGCSSMA-S8,12,tema,adquisicion,5,"Indicador, meta, plazo y responsable",,C-SI-SGCSSMA-S8-2,1-3,las cuatro partes de un objetivo y qué aporta cada una,IMG-SI-CUATRO-PARTES
+L-SI-SGCSSMA-S8-13,SI-SGCSSMA-S8,13,tema,adquisicion,4,"Un deseo y un objetivo, comparados",,C-SI-SGCSSMA-S8-2,4-6,frases que no se pueden medir frente a objetivos con número y fecha,IMG-SI-DESEO-U-OBJETIVO
+L-SI-SGCSSMA-S8-14,SI-SGCSSMA-S8,14,tema,adquisicion,5,Un objetivo por cada sistema,,C-SI-SGCSSMA-S8-3,1-3,"el indicador y la meta de calidad, de ambiente y de seguridad",IMG-SI-OBJETIVOS-TRES
+L-SI-SGCSSMA-S8-15,SI-SGCSSMA-S8,15,tema,adquisicion,4,De dónde sale un objetivo,,C-SI-SGCSSMA-S8-3,4-6,"del riesgo o el aspecto que ya se identificó, o de ningún lado",IMG-SI-DE-DONDE-SALE
+L-SI-SGCSSMA-S8-16,SI-SGCSSMA-S8,16,tema,adquisicion,5,Qué es el programa anual,,C-SI-SGCSSMA-S8-4,1-3,"el objetivo dice a dónde, el programa dice cómo, y qué lleva cada línea",IMG-SI-PROGRAMA-ANUAL
+L-SI-SGCSSMA-S8-17,SI-SGCSSMA-S8,17,tema,adquisicion,4,Quién lo aprueba,,C-SI-SGCSSMA-S8-4,4-6,los artículos del DS 005 sobre exhibir y aprobar el programa,IMG-SI-QUIEN-APRUEBA-PA
+L-SI-SGCSSMA-S8-18,SI-SGCSSMA-S8,18,tema,adquisicion,5,Tres errores que se ven al mirarlo,,C-SI-SGCSSMA-S8-5,1-3,"copiado, incompleto y programado sobre equipos que ya no están",IMG-SI-PA-ERRORES-1
+L-SI-SGCSSMA-S8-19,SI-SGCSSMA-S8,19,tema,adquisicion,4,Y tres que solo se ven cruzándolo,,C-SI-SGCSSMA-S8-5,4-6,"riesgos altos fuera, indicador medido tarde y acta sin aprobación",IMG-SI-PA-ERRORES-2
+L-SI-SGCSSMA-S8-20,SI-SGCSSMA-S8,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S8-21,SI-SGCSSMA-S8,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una planta metalmecánica y una de empaque de arándanos— presentan al cliente sus objetivos del año y su programa anual.
+
+La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S8-ENCARGO
+L-SI-SGCSSMA-S8-22,SI-SGCSSMA-S8,22,caso,aplicacion,0,Caso A · Estructuras y Calderería Vulcano,,,,la ficha del caso A: la planta metalmecánica y los ocho hechos,IMG-SI-CASO-S8A
+L-SI-SGCSSMA-S8-23,SI-SGCSSMA-S8,23,caso,aplicacion,0,Caso B · Packing y Frío Valle Norte,,,,la ficha del caso B: la planta de empaque y los ocho hechos,IMG-SI-CASO-S8B
+L-SI-SGCSSMA-S8-24,SI-SGCSSMA-S8,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S8-TRABAJAR
+L-SI-SGCSSMA-S8-25,SI-SGCSSMA-S8,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S8-26,SI-SGCSSMA-S8,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S8-27,SI-SGCSSMA-S8,27,caso,discusion,20,"Dos programas cumplidos, dos historias distintas",,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S8-DISCUSION
+L-SI-SGCSSMA-S8-28,SI-SGCSSMA-S8,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S8-29,SI-SGCSSMA-S8,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S8-REFLEXION
+L-SI-SGCSSMA-S8-30,SI-SGCSSMA-S8,30,tapa,,0,,,,,,
+L-SI-SGCSSMA-S9-01,SI-SGCSSMA-S9,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+L-SI-SGCSSMA-S9-02,SI-SGCSSMA-S9,2,subportada-sesion,,0,Sesión N°9,,,,,
+L-SI-SGCSSMA-S9-03,SI-SGCSSMA-S9,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-SI-SGCSSMA-S9-04,SI-SGCSSMA-S9,4,contenido,conexion,3,¿Cómo llegas hoy?,"Antes de empezar, dinos cómo llegas hoy.
+
+Marca en la escala el ánimo con el que entras a la sesión.
+
+No hay respuesta correcta y no se califica.",,,la escala de ánimo,IMG-ESCALA-ANIMO
+L-SI-SGCSSMA-S9-05,SI-SGCSSMA-S9,5,contenido,conexion,2,Ruta de aprendizaje,Conexión 20'  ·  Adquisición 45'  ·  Aplicación 40'  ·  Discusión 20'  ·  Reflexión 10',,,los cinco momentos de la sesión con sus minutos,IMG-SI-RUTA-S9
+L-SI-SGCSSMA-S9-06,SI-SGCSSMA-S9,6,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-SI-SGCSSMA-S9-07,SI-SGCSSMA-S9,7,contenido,conexion,4,Lo que quedó de la sesión pasada,"En la sesión pasada vimos qué se propone hacer la empresa en el año y cómo se comprueba.
+
+Hoy vemos con qué gente y con qué recursos se hace todo eso.",,,el programa del año y con qué se ejecuta,IMG-SI-S9-PUENTE
+L-SI-SGCSSMA-S9-08,SI-SGCSSMA-S9,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren el registro tal como quedó llenado.
+
+¿Qué VEO?  ·  solo hechos, sin juicio
+¿Qué PIENSO?  ·  qué dice la fecha, el expositor y el costo
+¿Qué ME PREGUNTO?  ·  ¿quién terminó pagando esta capacitación?",,,el registro de capacitación tal como quedó llenado,IMG-SI-S9-REGISTRO-CAP
+L-SI-SGCSSMA-S9-09,SI-SGCSSMA-S9,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-SI-SGCSSMA-S9-10,SI-SGCSSMA-S9,10,tema,adquisicion,5,"Personas, tiempo y dinero",,C-SI-SGCSSMA-S9-1,1-3,los recursos que la cláusula 7.1 pide proporcionar,IMG-SI-RECURSOS-1
+L-SI-SGCSSMA-S9-11,SI-SGCSSMA-S9,11,tema,adquisicion,4,"Equipos, asesoría y el comité",,C-SI-SGCSSMA-S9-1,4-6,"los otros recursos, y lo que la ley exige para el comité",IMG-SI-RECURSOS-2
+L-SI-SGCSSMA-S9-12,SI-SGCSSMA-S9,12,tema,adquisicion,5,"Educación, formación y experiencia",,C-SI-SGCSSMA-S9-2,1-3,las tres bases sobre las que se apoya la competencia,IMG-SI-COMPETENCIA
+L-SI-SGCSSMA-S9-13,SI-SGCSSMA-S9,13,tema,adquisicion,4,Lo que pide el puesto y lo que trae la persona,,C-SI-SGCSSMA-S9-2,4-6,"el requisito del puesto, lo que trae quien lo ocupa y cómo se cierra la brecha",IMG-SI-BRECHA-COMPETENCIA
+L-SI-SGCSSMA-S9-14,SI-SGCSSMA-S9,14,tema,adquisicion,5,Los tres momentos en que hay que capacitar,,C-SI-SGCSSMA-S9-3,1-3,"al contratar, durante el desempeño y al cambiar de puesto o tecnología",IMG-SI-TRES-MOMENTOS-CAP
+L-SI-SGCSSMA-S9-15,SI-SGCSSMA-S9,15,tema,adquisicion,4,"Cuántas al año, y cuándo la inducción",,C-SI-SGCSSMA-S9-3,4-6,el mínimo de cuatro al año y el momento de la inducción,IMG-SI-CUANTAS-CAP
+L-SI-SGCSSMA-S9-16,SI-SGCSSMA-S9,16,tema,adquisicion,5,"Jornada, pago y costo",,C-SI-SGCSSMA-S9-4,1-3,"dentro de la jornada, remunerada si es fuera, y a cargo del empleador",IMG-SI-REGLAS-CAP-1
+L-SI-SGCSSMA-S9-17,SI-SGCSSMA-S9,17,tema,adquisicion,4,Sobre qué riesgos y quién la dicta,,C-SI-SGCSSMA-S9-4,4-6,"cómo se arma el programa, quién puede dictarlo y qué registro queda",IMG-SI-REGLAS-CAP-2
+L-SI-SGCSSMA-S9-18,SI-SGCSSMA-S9,18,tema,adquisicion,5,Capacitar y tomar conciencia,,C-SI-SGCSSMA-S9-5,1-3,qué persigue la cláusula 7.2 y qué persigue la 7.3,IMG-SI-CAPACITAR-CONCIENCIA
+L-SI-SGCSSMA-S9-19,SI-SGCSSMA-S9,19,tema,adquisicion,4,Con qué se comprueba,,C-SI-SGCSSMA-S9-5,4-6,lo que la firma no prueba y lo que sí lo prueba,IMG-SI-COMO-SE-COMPRUEBA
+L-SI-SGCSSMA-S9-20,SI-SGCSSMA-S9,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-SI-SGCSSMA-S9-21,SI-SGCSSMA-S9,21,contenido,aplicacion,5,Indicaciones del encargo,"Dos empresas —una de transporte de carga y un taller de confecciones— muestran al cliente cómo forman a su gente.
+
+La mitad de los equipos trabaja el CASO A y la otra mitad el CASO B.",,,"los dos pasos del encargo, cada uno en su cuadro, con el equipo y los minutos",IMG-SI-S9-ENCARGO
+L-SI-SGCSSMA-S9-22,SI-SGCSSMA-S9,22,caso,aplicacion,0,Caso A · Transportes y Logística Cordillera,,,,la ficha del caso A: la empresa de transporte y los ocho hechos,IMG-SI-CASO-S9A
+L-SI-SGCSSMA-S9-23,SI-SGCSSMA-S9,23,caso,aplicacion,0,Caso B · Confecciones y Acabados Textiles,,,,la ficha del caso B: el taller de confecciones y los ocho hechos,IMG-SI-CASO-S9B
+L-SI-SGCSSMA-S9-24,SI-SGCSSMA-S9,24,caso,aplicacion,30,A trabajar,,,,lo que entrega el equipo y los minutos de trabajo,IMG-SI-S9-TRABAJAR
+L-SI-SGCSSMA-S9-25,SI-SGCSSMA-S9,25,cotejo,aplicacion,5,,,,,la lista de cotejo de la sesión,IMG-LISTA-COTEJO
+L-SI-SGCSSMA-S9-26,SI-SGCSSMA-S9,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-SI-SGCSSMA-S9-27,SI-SGCSSMA-S9,27,caso,discusion,20,Dos formas de certificar a quien no sabe,,,,"el formato de sustentación: afirmación, apoyo y pregunta",IMG-SI-S9-DISCUSION
+L-SI-SGCSSMA-S9-28,SI-SGCSSMA-S9,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-SI-SGCSSMA-S9-29,SI-SGCSSMA-S9,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Dos minutos, por escrito y a solas.
+
+Nadie lo lee en voz alta si no quiere: sirve para que veas cuánto se movió tu idea en 135 minutos.",,,"las tres consignas del cierre, cada una en su cuadro",IMG-SI-S9-REFLEXION
+L-SI-SGCSSMA-S9-30,SI-SGCSSMA-S9,30,tapa,,0,,,,,,
+LAM-SI-IMPAMB-S2-01,SI-IMPAMB-S2,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+LAM-SI-IMPAMB-S2-02,SI-IMPAMB-S2,2,subportada-sesion,,0,Sesión N°2,,,,,
+LAM-SI-IMPAMB-S2-03,SI-IMPAMB-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+LAM-SI-IMPAMB-S2-04,SI-IMPAMB-S2,4,contenido,conexion,3,¿Cómo llegas hoy?,"Marca en la escala cómo llegas hoy a la sesión.
+No lleva nota: sirve para saber con qué energía empezamos.",,,,IMG-ESCALA-ANIMO
+LAM-SI-IMPAMB-S2-05,SI-IMPAMB-S2,5,contenido,conexion,3,Dónde estamos,"El curso son doce sesiones en dos bloques.
+El bloque 1 termina identificando y evaluando aspectos; el bloque 2, manejando residuos.
+Hoy es la segunda de cinco: seguimos en identificar.",,,"el curso en dos bloques, con la sesión de hoy señalada",IMG-SI-IMPAMB-S2-DONDE
+LAM-SI-IMPAMB-S2-06,SI-IMPAMB-S2,6,contenido,conexion,3,Lo de la sesión anterior,"La sesión 1 dejó tres cosas: qué es un aspecto, qué es un impacto y sobre cuál de los dos actúa el control.
+Hoy vamos a lo de en medio: cómo se encuentran los aspectos de una actividad.",,,"aspecto, impacto y control: los tres en una línea",IMG-SI-IMPAMB-S2-REPASO
+LAM-SI-IMPAMB-S2-07,SI-IMPAMB-S2,7,contenido,conexion,2,Ruta de aprendizaje,"Cinco momentos.
+Los dos primeros, para entender de dónde salen los aspectos.
+El tercero, para hacerlo sobre un caso real.
+Los dos últimos, para contrastarlo y cerrarlo.",,,los cinco momentos de hoy y qué se hace en cada uno,IMG-SI-IMPAMB-S2-RUTA
+LAM-SI-IMPAMB-S2-08,SI-IMPAMB-S2,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+LAM-SI-IMPAMB-S2-09,SI-IMPAMB-S2,9,contenido,conexion,6,Veo · Pienso · Me pregunto,"Mira la fotografía en silencio, treinta segundos.
+Después, tres rondas: qué ves, qué piensas y qué te preguntas.
+Todavía no hay respuesta correcta: se trata de mirar.",,,"una operación con varias tareas a la vista, y las tres consignas",IMG-SI-IMPAMB-S2-MURAL
+LAM-SI-IMPAMB-S2-10,SI-IMPAMB-S2,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+LAM-SI-IMPAMB-S2-11,SI-IMPAMB-S2,11,tema,adquisicion,5,¿Qué le entra y qué le sale?,,C-SI-IMPAMB-S2-1,1-3,una actividad con sus entradas a un lado y sus salidas al otro,IMG-SI-IMPAMB-S2-ENTRA-SALE
+LAM-SI-IMPAMB-S2-12,SI-IMPAMB-S2,12,tema,adquisicion,5,Lo que se consume también cuenta,,C-SI-IMPAMB-S2-1,4-6,las cuatro familias de salida frente a las de entrada,IMG-SI-IMPAMB-S2-FAMILIAS
+LAM-SI-IMPAMB-S2-13,SI-IMPAMB-S2,13,tema,adquisicion,5,Dónde mirar para no dejarse ninguna,,C-SI-IMPAMB-S2-1,7-9,"las preguntas que se hacen sobre la actividad, una por estado",IMG-SI-IMPAMB-S2-DONDE-MIRAR
+LAM-SI-IMPAMB-S2-14,SI-IMPAMB-S2,14,tema,adquisicion,5,"Una línea, cinco tareas",,C-SI-IMPAMB-S2-2,1-3,la actividad escrita arriba y las tareas que la componen debajo,IMG-SI-IMPAMB-S2-UNA-LINEA
+LAM-SI-IMPAMB-S2-15,SI-IMPAMB-S2,15,tema,adquisicion,5,Cómo se parte una actividad,,C-SI-IMPAMB-S2-2,4-6,"el criterio de partición: se sigue el proceso, no el turno",IMG-SI-IMPAMB-S2-COMO-PARTE
+LAM-SI-IMPAMB-S2-16,SI-IMPAMB-S2,16,tema,adquisicion,5,Las tareas que se olvidan,,C-SI-IMPAMB-S2-2,7-9,"las tres que casi nunca aparecen: limpieza, mantenimiento y avería",IMG-SI-IMPAMB-S2-OLVIDADAS
+LAM-SI-IMPAMB-S2-17,SI-IMPAMB-S2,17,tema,adquisicion,5,Lo que aparece al partirla,,C-SI-IMPAMB-S2-3,1-3,"la misma operación con una fila y con cinco, y lo que se ve en cada caso",IMG-SI-IMPAMB-S2-AL-PARTIRLA
+LAM-SI-IMPAMB-S2-18,SI-IMPAMB-S2,18,tema,adquisicion,5,Ni tan gruesa ni tan fina,,C-SI-IMPAMB-S2-3,4-6,los tres niveles de partición y lo que se gana y se pierde en cada uno,IMG-SI-IMPAMB-S2-NIVEL
+LAM-SI-IMPAMB-S2-19,SI-IMPAMB-S2,19,tema,adquisicion,5,"Llena, firmada e incompleta",,C-SI-IMPAMB-S2-3,7-9,una matriz correcta por fuera con lo que le falta por dentro,IMG-SI-IMPAMB-S2-INCOMPLETA
+LAM-SI-IMPAMB-S2-20,SI-IMPAMB-S2,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+LAM-SI-IMPAMB-S2-21,SI-IMPAMB-S2,21,caso,aplicacion,4,Caso A · Servicios de Alimentación Colectiva,,,,"el relato del caso A, en prosa",IMG-SI-IMPAMB-S2-CASO-A
+LAM-SI-IMPAMB-S2-22,SI-IMPAMB-S2,22,caso,aplicacion,4,Caso B · Servicios de Lavandería Industrial,,,,"el relato del caso B, en prosa",IMG-SI-IMPAMB-S2-CASO-B
+LAM-SI-IMPAMB-S2-23,SI-IMPAMB-S2,23,contenido,aplicacion,4,Indicaciones del encargo,"1 · Qué entra y qué sale de la actividad tal como está escrita en la matriz.
+2 · Partir esa actividad en las tareas que de verdad se hacen.
+3 · Qué entra y qué sale de cada una de esas tareas.
+4 · Qué aspectos aparecen que la fila única no registraba.
+Equipos de 4 · 28 min de trabajo.",,,"la hoja que el equipo entrega, con sus cuatro filas",IMG-SI-IMPAMB-S2-ENCARGO
+LAM-SI-IMPAMB-S2-24,SI-IMPAMB-S2,24,caso,aplicacion,28,A trabajar,"Equipos de 4 · 28 minutos.
+La mitad de los equipos trabaja el caso A, la otra mitad el B.
+Cada integrante responde por su fila ante el equipo.
+Al terminar, cada equipo expone 2 minutos.",,,"cuántos, cuánto tiempo y cuánto expone cada equipo",IMG-SI-IMPAMB-S2-TRABAJAR
+LAM-SI-IMPAMB-S2-25,SI-IMPAMB-S2,25,cotejo,aplicacion,0,,,,,,IMG-LISTA-COTEJO
+LAM-SI-IMPAMB-S2-26,SI-IMPAMB-S2,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+LAM-SI-IMPAMB-S2-27,SI-IMPAMB-S2,27,contenido,discusion,20,Lo que la fila única no decía,"Cada equipo dice qué aspectos aparecieron al partir su actividad.
+¿En cuál de los dos casos se escondían más?
+¿Qué tarea se les pasó por alto, y por qué se pasa por alto?",,,"el formato de la sustentación: afirmación, apoyo y pregunta",IMG-SI-IMPAMB-S2-DISCUSION
+LAM-SI-IMPAMB-S2-28,SI-IMPAMB-S2,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+LAM-SI-IMPAMB-S2-29,SI-IMPAMB-S2,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Antes pensaba que una matriz llena y firmada estaba…
+Ahora pienso que…
+¿Qué actividad de tu trabajo cabe en una sola línea y no debería?",,,las tres consignas del cierre,IMG-SI-IMPAMB-S2-REFLEXION
+LAM-SI-IMPAMB-S2-30,SI-IMPAMB-S2,30,tapa,,0,,,,,,
+LAM-SI-IMPAMB-S3-01,SI-IMPAMB-S3,1,portada,,0,SEGURIDAD INDUSTRIAL,,,,,
+LAM-SI-IMPAMB-S3-02,SI-IMPAMB-S3,2,subportada-sesion,,0,Sesión N°3,,,,,
+LAM-SI-IMPAMB-S3-03,SI-IMPAMB-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+LAM-SI-IMPAMB-S3-04,SI-IMPAMB-S3,4,contenido,conexion,3,¿Cómo llegas hoy?,"Marca en la escala cómo llegas hoy a la sesión.
+No lleva nota: sirve para saber con qué energía empezamos.",,,,IMG-ESCALA-ANIMO
+LAM-SI-IMPAMB-S3-05,SI-IMPAMB-S3,5,contenido,conexion,3,Dónde estamos,"El curso son doce sesiones en dos bloques.
+Hoy es la tercera de cinco: seguimos identificando aspectos, todavía no los evaluamos.",,,,IMG-SI-IMPAMB-S3-DONDE
+LAM-SI-IMPAMB-S3-06,SI-IMPAMB-S3,6,contenido,conexion,3,Lo de la sesión anterior,"La sesión 2 dejó que los aspectos salen de las entradas y salidas, y que el nivel al que se parte la actividad decide cuáles se ven.
+Hoy: el mismo aspecto, escrito de forma distinta según cuándo y bajo qué circunstancia ocurre.",,,,IMG-SI-IMPAMB-S3-REPASO
+LAM-SI-IMPAMB-S3-07,SI-IMPAMB-S3,7,contenido,conexion,2,Ruta de aprendizaje,"Cinco momentos.
+Los dos primeros, para entender qué cambia el registro de un aspecto.
+El tercero, para hacerlo sobre un caso.
+Los dos últimos, para contrastarlo y cerrarlo.",,,,IMG-SI-IMPAMB-S3-RUTA
+LAM-SI-IMPAMB-S3-08,SI-IMPAMB-S3,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+LAM-SI-IMPAMB-S3-09,SI-IMPAMB-S3,9,contenido,conexion,6,Veo · Pienso · Me pregunto,"Mira la fotografía en silencio, treinta segundos.
+Después, tres rondas: qué ves, qué piensas y qué te preguntas.
+Todavía no hay respuesta correcta: se trata de mirar.",,,,IMG-SI-IMPAMB-S3-MURAL
+LAM-SI-IMPAMB-S3-10,SI-IMPAMB-S3,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+LAM-SI-IMPAMB-S3-11,SI-IMPAMB-S3,11,tema,adquisicion,5,¿En qué condición ocurre?,,C-SI-IMPAMB-S3-1,1-3,,IMG-SI-IMPAMB-S3-CONDICION
+LAM-SI-IMPAMB-S3-12,SI-IMPAMB-S3,12,tema,adquisicion,5,Lo que no es rutina y lo que no estaba previsto,,C-SI-IMPAMB-S3-1,4-6,,IMG-SI-IMPAMB-S3-NO-RUTINA
+LAM-SI-IMPAMB-S3-13,SI-IMPAMB-S3,13,tema,adquisicion,5,"Antes, ahora y todavía no",,C-SI-IMPAMB-S3-1,7-9,,IMG-SI-IMPAMB-S3-MOMENTO
+LAM-SI-IMPAMB-S3-14,SI-IMPAMB-S3,14,tema,adquisicion,5,De dónde sale la columna legal,,C-SI-IMPAMB-S3-2,1-3,,IMG-SI-IMPAMB-S3-COLUMNA
+LAM-SI-IMPAMB-S3-15,SI-IMPAMB-S3,15,tema,adquisicion,5,El requisito no crea el aspecto,,C-SI-IMPAMB-S3-2,4-6,,IMG-SI-IMPAMB-S3-NO-CREA
+LAM-SI-IMPAMB-S3-16,SI-IMPAMB-S3,16,tema,adquisicion,5,Citar la norma que no toca,,C-SI-IMPAMB-S3-2,7-9,,IMG-SI-IMPAMB-S3-MAL-CITADA
+LAM-SI-IMPAMB-S3-17,SI-IMPAMB-S3,17,tema,adquisicion,5,Dos números que no miden lo mismo,,C-SI-IMPAMB-S3-3,1-3,,IMG-SI-IMPAMB-S3-ECA-LMP
+LAM-SI-IMPAMB-S3-18,SI-IMPAMB-S3,18,tema,adquisicion,5,Qué pasa si se excede cada uno,,C-SI-IMPAMB-S3-3,4-6,,IMG-SI-IMPAMB-S3-EXCEDER
+LAM-SI-IMPAMB-S3-19,SI-IMPAMB-S3,19,tema,adquisicion,5,¿Cuál de los dos es el tuyo?,,C-SI-IMPAMB-S3-3,7-9,,IMG-SI-IMPAMB-S3-CUAL
+LAM-SI-IMPAMB-S3-20,SI-IMPAMB-S3,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+LAM-SI-IMPAMB-S3-21,SI-IMPAMB-S3,21,caso,aplicacion,4,Caso A · Textiles y Acabados del Norte,,,,,IMG-SI-IMPAMB-S3-CASO-A
+LAM-SI-IMPAMB-S3-22,SI-IMPAMB-S3,22,caso,aplicacion,4,Caso B · Conservas y Congelados del Litoral,,,,,IMG-SI-IMPAMB-S3-CASO-B
+LAM-SI-IMPAMB-S3-23,SI-IMPAMB-S3,23,contenido,aplicacion,4,Indicaciones del encargo,"1 · Los aspectos de la operación en condición normal.
+2 · Cuáles cambian o aparecen en condición anormal y en emergencia.
+3 · Cuáles vienen de una actividad ya terminada y cuáles de una proyectada.
+4 · Para la descarga: qué requisito legal le aplica, y si el que la empresa cita es el suyo.
+Equipos de 4 · 28 min de trabajo.",,,,IMG-SI-IMPAMB-S3-ENCARGO
+LAM-SI-IMPAMB-S3-24,SI-IMPAMB-S3,24,caso,aplicacion,28,A trabajar,,,,,IMG-SI-IMPAMB-S3-TRABAJAR
+LAM-SI-IMPAMB-S3-25,SI-IMPAMB-S3,25,cotejo,aplicacion,0,,,,,,IMG-LISTA-COTEJO
+LAM-SI-IMPAMB-S3-26,SI-IMPAMB-S3,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+LAM-SI-IMPAMB-S3-27,SI-IMPAMB-S3,27,contenido,discusion,20,La norma que cada uno citó,"Cada equipo dice qué requisito le aplica a la descarga de su caso.
+¿Qué norma citó la empresa, y por qué no es la suya?
+Los dos casos se equivocan en direcciones contrarias: ¿en qué se diferencian?",,,,IMG-SI-IMPAMB-S3-DISCUSION
+LAM-SI-IMPAMB-S3-28,SI-IMPAMB-S3,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+LAM-SI-IMPAMB-S3-29,SI-IMPAMB-S3,29,contenido,reflexion,10,Antes pensaba… ahora pienso…,"Antes pensaba que citar una norma en la matriz era…
+Ahora pienso que…
+¿Qué aspecto de tu trabajo ocurre solo en emergencia y nunca se registró?",,,,IMG-SI-IMPAMB-S3-REFLEXION
+LAM-SI-IMPAMB-S3-30,SI-IMPAMB-S3,30,tapa,,0,,,,,,

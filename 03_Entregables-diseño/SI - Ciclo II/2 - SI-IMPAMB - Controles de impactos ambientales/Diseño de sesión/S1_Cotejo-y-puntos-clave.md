@@ -12,7 +12,7 @@ Y no se inventa: **son los pasos del encargo** que los casos ya traen del paso �
 
 > **`listas_cotejo.csv · observable` para SI-IMPAMB-S1:**
 >
-> `Las cuatro filas: qué sale de la operación hacia el entorno · qué cambio produce cada una · sobre cuál de los dos actúa cada control que la empresa ya tiene · qué salida queda sin ningún control que actúe sobre ella`
+> `El cuadro: qué sale de la operación hacia el entorno · qué cambio produce cada una · sobre cuál de los dos actúa cada control que la empresa ya tiene · qué salida queda sin ningún control que actúe sobre ella`
 
 **Por qué va antes que los puntos clave.** Parece invertido y no lo es: esta línea dice **qué tiene que quedar observable**, y los puntos clave son **lo que hay que enseñar para que lo esté**. Al revés se enseña primero y luego se busca qué evaluar.
 
