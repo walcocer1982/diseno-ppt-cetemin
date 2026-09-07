@@ -231,8 +231,24 @@ def franjas(d, bloques, im, y=60, alto=330):
         d.rounded_rectangle([50, y, W - 50, y + alto], 18, fill=GRISC)
         d.rounded_rectangle([50, y, 190, y + alto], 18, fill=col)
         d.rectangle([150, y, 190, y + alto], fill=col)
-        tx = Image.new("RGB", (alto, 110), col)
-        cen(ImageDraw.Draw(tx), 0, 30, alto, nombre, 46, BLANCO)
+        # La etiqueta vertical se dibujaba a 46 px en una banda de 110: una etiqueta
+        # de dos palabras se envolvia y la SEGUNDA LINEA CAIA FUERA, cortada y sin
+        # aviso. Ahora baja de punto para caber en una linea, admite dos, y canta si
+        # ni asi entra.
+        ALTO_ETQ, util_etq = 130, alto - 60
+        px_etq = 46
+        lineas = envolver(d, nombre, px_etq, util_etq, True)
+        while len(lineas) > 1 and px_etq > PX_MIN:
+            px_etq -= 2
+            lineas = envolver(d, nombre, px_etq, util_etq, True)
+        if len(lineas) * px_etq * 1.25 > ALTO_ETQ:
+            AVISOS.append("la etiqueta «%s» no cabe en su banda ni a %d px" % (nombre, px_etq))
+        tx = Image.new("RGB", (alto, ALTO_ETQ), col)
+        dt = ImageDraw.Draw(tx)
+        y_etq = (ALTO_ETQ - len(lineas) * px_etq * 1.25) / 2
+        for i, l in enumerate(lineas):
+            fe = fu(px_etq, True)
+            dt.text(((alto - an(dt, l, fe)) / 2, y_etq + i * px_etq * 1.25), l, font=fe, fill=BLANCO)
         im.paste(tx.rotate(90, expand=True), (52, y))
         x, ancho = 240, (W - 300) / len(cajas) - 26
         for c in cajas:
