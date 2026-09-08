@@ -223,6 +223,10 @@ def nota(s, *bloques: str) -> None:
 TITULO_MAX, TITULO_MIN = 40, 36
 CUERPO_MAX, CUERPO_MIN = 24, 20
 
+# La tipografia de marca del PPT. (La regla de Arial del §11 es para los
+# esquemas de matplotlib, que no pueden usar Oswald: ahi si va Arial.)
+TIPO = "Oswald"   # ojo: MARCA se reasigna mas abajo a una ruta
+
 
 def cabe(t, size, w_in, h_in, ls=1.15):
     """Estima si el texto entra en la caja a ese cuerpo.
@@ -259,7 +263,7 @@ def texto(s, x, y, w, h, t, size, color=AZUL, bold=True, al=PP_ALIGN.LEFT, ls=1.
         p.line_spacing = ls
         for r in p.runs:
             r.font.size = Pt(size); r.font.bold = bold
-            r.font.color.rgb = color; r.font.name = "Oswald"
+            r.font.color.rgb = color; r.font.name = TIPO
 
 
 # ── La lista de cotejo (§14) ─────────────────────────────────────────────
@@ -345,6 +349,21 @@ def destino(carrera: str, ses: dict, curso: dict) -> Path:
     uno al lado con otro titulo. La regla es del §13: nunca se duplica un entregable.
     """
     base = RAIZ.parent / "03_Entregables-diseño"
+
+    # La carpeta "Curso<n>_<Nombre>" manda: es la que ordeno el lider del curso, y
+    # dentro de ella el PPT vive en "Ppt", como el TC vive en "Recursos de evaluacion".
+    slug = sin_tildes(curso["nombre_curso"]).replace(" ", "-").lower()
+    for cur in sorted(base.glob("Curso*_*")):
+        if not cur.is_dir() or not sin_tildes(cur.name).lower().endswith(slug):
+            continue
+        carpeta = next((cur / n for n in ("Ppt", "PPT", "ppt") if (cur / n).is_dir()),
+                       cur / "Ppt")
+        carpeta.mkdir(parents=True, exist_ok=True)
+        previos = sorted(carpeta.glob(f"S{ses['nro_sesion']}_*.pptx"))
+        if previos:
+            return previos[0]
+        return carpeta / f"S{ses['nro_sesion']}_{sin_tildes(ses['tema'][:40])}.pptx"
+
     for ciclo in sorted(base.glob(f"{carrera} - Ciclo *")):
         for cur in sorted(ciclo.glob(f"* - {curso['curso_id']} - *")):
             carpeta = cur / "PPT"
@@ -473,9 +492,11 @@ def generar(sesion_id: str, salida: Path | None = None, estricto: bool = False,
             texto(s, 0.55, 3.62, 5.25, 2.55,
                   chr(10).join("•  " + p for p in puntos), 13, AZUL, False, PP_ALIGN.LEFT, 1.25,
                   banda="cuerpo")
-            # El caso de ESTA sesion. Antes se buscaba por bloque_id y salia el
-            # primero del archivo: todas las sesiones del bloque mostraban el
-            # encargo de otra. Si la sesion no tiene caso propio, cae al del bloque.
+            # El caso de ESTA sesion manda. Antes se buscaba por bloque_id y salia
+            # el primero del archivo: todas las sesiones del bloque mostraban el
+            # encargo de otra —y una sesion de adquisicion acababa mostrando la
+            # evaluacion del TC que cierra el bloque, que no es lo que el alumno va
+            # a hacer hoy. Si la sesion no tiene caso propio, cae al del bloque.
             _casos = leer(RAIZ / carrera / "casos.csv")
             caso = (next((c for c in _casos if c.get("sesion_id") == sesion_id), None)
                     or next((c for c in _casos if c["bloque_id"] == ses["bloque_id"]), None))

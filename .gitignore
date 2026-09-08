@@ -28,6 +28,9 @@ uso.jsonl
 02_Instructor-nuevo/
 
 # --- Bandeja de entrada --------------------------------------
+# OJO: la carpeta real se llama "Entrada" (sin guion bajo) y pesa 3,6 GB,
+# con PDF de mas de 100 MB que GitHub rechaza. Se cubren los dos nombres.
+Entrada/
 _Entrada/*
 !_Entrada/.gitkeep
 !_Entrada/00_LEEME.md
@@ -48,6 +51,10 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# --- Archivos de bloqueo de Office ----------------------------
+# Word y Excel crean "~$nombre.docx" mientras el archivo esta abierto.
+~$*
 
 # --- Sistema operativo ----------------------------------------
 Thumbs.db
@@ -74,16 +81,33 @@ desktop.ini
 !03_Entregables-diseño/00_LEEME.md
 !03_Entregables-diseño/*/01_*.md
 
+# Documentos de trabajo del Curso 1 (auditorias, tramites): se escriben a mano,
+# no se generan, y tienen que viajar por Git para llegar al director.
+!03_Entregables-diseño/Curso1_Métodos-de-explotacion/*.md
+# Lo mismo vale para cualquier curso: los tramites y las auditorias se escriben
+# a mano y tienen que llegar al director. Se listan por FAMILIA de documento,
+# no por carpeta, para no repetir la excepcion en cada curso nuevo.
+!03_Entregables-diseño/*/TRAMITE-*.md
+!03_Entregables-diseño/*/HALLAZGOS-*.md
+!03_Entregables-diseño/*/TC*_estructura.md
 # Los PPT del ciclo viven en <CARRERA> - Ciclo N/<curso>/PPT/ — tres niveles,
 # que el patron de arriba no alcanzaba. Pesan 6 MB cada uno y se generan.
 03_Entregables-diseño/**/*.pptx
 
-# --- Archivos de bloqueo de Office ----------------------------
-# Word y Excel los crean mientras el documento esta abierto.
-~$*
+
+# --- Configuracion del editor: LOCAL, no viaja -----------------
+# Cada instructor tiene su maquina. El settings.json de aqui excluye Entrada
+# y 01_Insumos del vigilante de archivos (si no, el Explorer se queda con la
+# foto vieja y los entregables recien generados no aparecen). Es una decision
+# de entorno, no de diseno: no debe cambiarle el editor a los demas.
+.vscode/
+
+# crudos del bucle de imagen: intentos descartados, no son entregable
+_crudos/
 
 # --- Estado local del guardian de PPT -------------------------
 # Son los SHA-1 de los PPT DE ESTA MAQUINA: sirven para detectar
 # que alguien edito un PPT a mano y no volver a generarlo encima.
 # En otro clon no corresponden a nada.
 05_Base-de-datos/huellas_ppt.json
+

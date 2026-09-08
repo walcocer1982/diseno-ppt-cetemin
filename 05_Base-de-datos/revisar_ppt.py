@@ -87,7 +87,7 @@ def revisar(sesion_id: str, ppt_ruta=None) -> int:
 
         if l.get("tipo") == "triangulacion":
             for rotulo in ("APRENDIZAJE PREVISTO", "PUNTOS CLAVES", "EVALUACIÓN",
-                           "Al finalizar la sesión podremos…"):
+                           "Al finalizar la sesión, el estudiante:"):
                 t = t.replace(rotulo, "")
             pal = len(t.split())
         # La lamina de cotejo no es prosa: es una tabla de referencia, siempre la misma,

@@ -1,122 +1,120 @@
 # -*- coding: utf-8 -*-
-"""Rehace la matriz de distribución de un curso desde la base de datos.
+"""Matriz de distribución y seguimiento de un curso, desde la base de datos.
 
-PARA QUÉ
-    La matriz dice en su encabezado que se genera desde la base, pero hasta ahora
-    se editaba a mano celda por celda, y por eso se desincronizaba en silencio.
-    Con esto se rehace de un comando cada vez que la base cambia.
+    python 05_Base-de-datos/generar_matriz.py EOM-SOST
+    python 05_Base-de-datos/generar_matriz.py EOM-METEXP
 
-        python generar_matriz.py SI-SGCSSMA
+Escribe 01_Matriz-de-distribucion.xlsx en la carpeta Curso<n>_ del curso, dentro
+de 03_Entregables-diseño, con el formato de la matriz de SI-SGCSSMA, que sirvió
+de modelo.
 
-QUÉ REESCRIBE
-    · el bloque de indicadores de logro
-    · las dos filas de los colaborativos (destreza, producto, caso, rúbrica)
-    · todas las filas de sesión: bloque, tipo, indicador, tema, aprendizaje
-      esperado, tributa, y el color de fila según el indicador dominante
-    · las columnas derivadas: caso A, caso B, cotejo, puntos clave y PPT,
-      contadas de casos.csv, listas_cotejo.csv, contenidos.csv y laminas.csv
-    · la leyenda, el avance y la nota de estructura al pie
-
-LO QUE NO TOCA
-    La CAPACIDAD. Baja del 7A y se edita a mano, con su registro en
-    observaciones.csv. Tampoco toca el formato: respeta anchos, bordes y
-    estilos del archivo, porque lo edita en sitio y no lo rehace.
-
-CÓMO SE UBICA
-    No usa números de fila fijos: busca las filas por su rótulo (BLOQUE,
-    IND-1, LEYENDA, ② Aprendizajes esperados). Si no encuentra un ancla,
-    se detiene sin escribir.
+Nada se escribe aquí: la capacidad, los indicadores, el reparto de sesiones y el
+avance de cada paso del §13 se leen de los CSV. Así el Excel muestra el estado
+real y no una intención.
 """
-from __future__ import annotations
+from __future__ import print_function
 
 import csv
+import os
 import sys
-from pathlib import Path
 
-import openpyxl
-from openpyxl.styles import PatternFill
+from openpyxl import Workbook
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 
-for _f in (sys.stdout, sys.stderr):
-    try:
-        _f.reconfigure(encoding="utf-8", errors="replace")
-    except Exception:
-        pass
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-RAIZ = Path(__file__).resolve().parent
-REPO = RAIZ.parent
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if len(sys.argv) < 2:
+    sys.exit(u"USO · python 05_Base-de-datos/generar_matriz.py <CURSO-ID>   "
+             u"por ejemplo EOM-SOST")
 
-# color de fila segun el indicador dominante (el primero de la lista)
-COLOR = {1: "FFF2CC", 2: "DEEBF7", 3: "FCE4D6", 4: "E2EFDA"}
-GRIS, VERDE, AMBAR, AMBAR2 = "D9D9D9", "C6EFCE", "F8CBAD", "FFEB9C"
+CURSO = sys.argv[1].strip().upper()
+CARRERA = CURSO.split(u"-")[0]
+BASE = os.path.join(RAIZ, u"05_Base-de-datos", CARRERA)
+if not os.path.isdir(BASE):
+    sys.exit(u"ABORTA · no existe la carpeta de la carrera %s" % CARRERA)
 
-# rotulo, clausulas y rango de sesiones de cada indicador  ·  solo SI-SGCSSMA
-ROTULO = {
-    "SI-SGCSSMA": {
-        1: ("Fundamento", "cláusulas 1 a 5", ""),
-        2: ("Planificación", "cláusulas 6 y 7",
-            " · aquí entra la normativa nacional como requisito legal (6.1.3)"),
-        3: ("Operación", "cláusula 8", ""),
-        4: ("Evaluación", "cláusulas 9 y 10", " · aquí se evalúa el cumplimiento legal (9.1.2)"),
-    }
-}
-NOTA_ESTRUCTURA = {
-    "SI-SGCSSMA": (
-        "ESTRUCTURA — el curso sigue la estructura de alto nivel de las ISO (Anexo SL). "
-        "Bloque 1 = cláusulas 4 a 7 · Bloque 2 = cláusulas 8 a 10. Los indicadores se reparten por tramo de "
-        "cláusula y no por norma: cinco sesiones y seis puntos de rúbrica cada uno, sin solapes "
-        "(OBS-SI-SGCSSMA-14). CONVENCIÓN DE NOMBRES: el nombre de la sesión es el asunto, después la cláusula, "
-        "y entre paréntesis las normas cuando esa cláusula no está en las tres. SIN PARÉNTESIS = la cláusula es "
-        "la misma en la ISO 9001, la ISO 14001 y la ISO 45001; se enseña como punto clave de la S1. "
-        "PUNTOS CLAVE = momentos de la sesión, en etiqueta corta; entre 3 y 5 por sesión.")
-}
+NEGRO = u"FF1A1918"
+GRIS = u"FF5E5D59"
+FONDO = u"FFF5F4EF"
+VERDE = u"FF2E7D32"
+ROJO = u"FFB3261E"
+BORDE = Border(*[Side(style=u"thin", color=u"FFBFBDB6")] * 4)
+
+COLS = [u"BLOQUE", u"SESIÓN", u"TIPO", u"IND.", u"TEMA", u"APRENDIZAJE ESPERADO",
+        u"CASO", u"COTEJO", u"PUNTOS CLAVE", u"PPT"]
+ANCHOS = [11, 9, 13, 16, 34, 52, 9, 9, 14, 10]
 
 
-def leer(carpeta: Path, nombre: str) -> list[dict]:
-    ruta = carpeta / nombre
-    if not ruta.exists():
+def leer(nombre, carpeta=BASE):
+    ruta = os.path.join(carpeta, nombre)
+    if not os.path.exists(ruta):
         return []
     with open(ruta, encoding="utf-8-sig", newline="") as f:
         return list(csv.DictReader(f))
 
 
-def ubicar_matriz(curso_id: str) -> Path:
-    candidatos = [p for p in REPO.glob("03_Entregables-diseño/**/03_Matriz-de-distribucion.xlsx")
-                  if curso_id in p.parent.name]
-    if len(candidatos) != 1:
-        raise SystemExit("No encuentro una sola matriz para %s (halle %d)" % (curso_id, len(candidatos)))
-    return candidatos[0]
+def corto(texto, n=60):
+    texto = u" ".join((texto or u"").split())
+    return texto if len(texto) <= n else texto[:n - 1] + u"…"
 
 
-def fila_de(ws, texto: str, col: int = 1, exacto: bool = True) -> int | None:
-    for r in range(1, ws.max_row + 1):
-        v = ws.cell(r, col).value
-        if v is None:
-            continue
-        v = str(v).strip()
-        if (v == texto) if exacto else v.startswith(texto):
-            return r
-    return None
+def barra(hechos, total, ancho=30):
+    llenos = 0 if not total else int(round(ancho * hechos / float(total)))
+    return u"▉" * llenos + u"·" * (ancho - llenos)
 
 
-def pintar(ws, fila, cols, hexcol):
-    pf = PatternFill("solid", start_color=hexcol, end_color=hexcol)
-    for c in cols:
-        ws.cell(fila, c).fill = pf
+def _carpeta_curso(curso):
+    """03_Entregables-diseño/Curso<n>_<Nombre>, respetando la que ya exista.
+
+    Un curso puede tener mas de una carpeta que termine igual —por ejemplo
+    "Curso1_Metodos-de-explotacion" y "EOM-Metodos-de-explotacion"—: conviven a
+    proposito y la matriz va siempre a la que empieza por "Curso<n>_".
+    """
+    import re
+    import unicodedata
+    salida = os.path.join(RAIZ, u"03_Entregables-diseño")
+    nfkd = unicodedata.normalize("NFKD", curso[u"nombre_curso"])
+    slug = u"".join(c for c in nfkd if not unicodedata.combining(c)).replace(u" ", u"-")
+    slug = re.sub(r"[^A-Za-z0-9\-]", u"", slug)
+    if os.path.isdir(salida):
+        cand = [h for h in sorted(os.listdir(salida))
+                if os.path.isdir(os.path.join(salida, h))
+                and u"".join(c for c in unicodedata.normalize("NFKD", h)
+                             if not unicodedata.combining(c)).lower().endswith(slug.lower())]
+        conpref = [h for h in cand if re.match(r"^Curso\d+_", h)]
+        if conpref:
+            return os.path.join(salida, conpref[0])
+        if cand:
+            return os.path.join(salida, cand[0])
+    return os.path.join(salida, u"Curso_%s" % slug)
 
 
-def barra(x: float, ancho: int = 30) -> str:
-    llenos = int(round(x * ancho))
-    return "▉" * llenos + "·" * (ancho - llenos)
+def main():
+    curso = next((c for c in leer(u"cursos.csv", os.path.dirname(BASE))
+                  if c[u"curso_id"] == CURSO), None)
+    if curso is None:
+        sys.exit(u"ABORTA · no encuentro %s en cursos.csv" % CURSO)
 
+    salida = os.path.join(_carpeta_curso(curso), u"01_Matriz-de-distribucion.xlsx")
 
-def generar(curso_id: str) -> Path:
-    carrera = None
-    for r in leer(RAIZ, "cursos.csv"):
-        if r["curso_id"] == curso_id:
-            carrera = r["sigla"]
-    if not carrera:
-        raise SystemExit("El curso %s no esta en cursos.csv" % curso_id)
-    datos = RAIZ / carrera
+    capacidad = next((c[u"descripcion"] for c in leer(u"capacidades.csv")
+                      if c[u"curso_id"] == CURSO), u"—")
+    caps = {c[u"capacidad_id"] for c in leer(u"capacidades.csv")
+            if c[u"curso_id"] == CURSO}
+    indicadores = [i for i in leer(u"indicadores.csv")
+                   if i[u"capacidad_id"] in caps]
+    sesiones = sorted([s for s in leer(u"sesiones.csv") if s[u"curso_id"] == CURSO],
+                      key=lambda s: int(s[u"nro_sesion"]))
+    casos = leer(u"casos.csv")
+    bloques = leer(u"bloques.csv")
+    ae_bloque = {b[u"bloque_id"]: b.get(u"aprendizaje_esperado", u"")
+                 for b in bloques if b.get(u"curso_id") == CURSO}
+    rubricas = leer(u"rubricas.csv")
+    contenidos = leer(u"contenidos.csv")
+    laminas = leer(u"laminas.csv")
+    cotejos = leer(u"listas_cotejo.csv")
 
     ses = {int(r["nro_sesion"]): r for r in leer(datos, "sesiones.csv") if r["curso_id"] == curso_id}
     if not ses:
@@ -143,23 +141,49 @@ def generar(curso_id: str) -> Path:
     lams = [l for l in leer(datos, "laminas.csv") if l.get("sesion_id") in suyo]
     rubs = [r for r in leer(datos, "rubricas.csv") if r.get("curso_id") == curso_id]
 
-    xls = ubicar_matriz(curso_id)
-    wb = openpyxl.load_workbook(xls)
+    def cuenta(filas, sid):
+        return sum(1 for f in filas if f.get(u"sesion_id") == sid)
+
+    wb = Workbook()
     ws = wb.active
+    ws.title = u"Distribución"
+    for col, ancho in zip(u"ABCDEFGHIJ", ANCHOS):
+        ws.column_dimensions[col].width = ancho
 
-    f_ses = fila_de(ws, "BLOQUE", 1)
-    f_ind = fila_de(ws, "IND-1", 1)
-    f_tc = fila_de(ws, "TRABAJO", 1)
-    f_av = fila_de(ws, "② Aprendizajes esperados", 1, exacto=False)
-    f_ley = fila_de(ws, "LEYENDA", 1, exacto=False)
-    f_nota = fila_de(ws, "ESTRUCTURA", 1, exacto=False) or fila_de(ws, "TRIBUTA A", 1, exacto=False)
-    if None in (f_ses, f_ind, f_av, f_ley):
-        raise SystemExit("No reconozco el formato de la matriz: falta un ancla")
-    f_ses += 1
+    def celda(ref, valor, negrita=False, tam=10, color=NEGRO, fondo=None,
+              wrap=True, centro=False, borde=False):
+        c = ws[ref]
+        c.value = valor
+        c.font = Font(name=u"Arial", size=tam, bold=negrita, color=color)
+        c.alignment = Alignment(wrap_text=wrap, vertical=u"top",
+                                horizontal=u"center" if centro else u"left")
+        if fondo:
+            c.fill = PatternFill(u"solid", fgColor=fondo)
+        if borde:
+            c.border = BORDE
+        return c
 
-    # ── indicadores de logro
-    for i in sorted(indic):
-        ws.cell(f_ind + i - 1, 2).value = indic[i]
+    # ------------------------------------------------------------- cabecera
+    ws.merge_cells(u"A1:K1")
+    celda(u"A1", u"MATRIZ DE DISTRIBUCIÓN Y SEGUIMIENTO", negrita=True, tam=14)
+    ws.row_dimensions[1].height = 24
+    ws.merge_cells(u"A2:K2")
+    celda(u"A2", u"UNIDAD DIDÁCTICA:  %s" % curso[u"nombre_curso"], negrita=True, tam=11)
+    ws.merge_cells(u"A3:K3")
+    celda(u"A3", u"%s · %s · %s h · %s créditos · %s sesiones · %s bloques"
+          % (curso[u"carrera"], curso[u"curso_id"], curso[u"horas_total"],
+             curso[u"creditos"], curso[u"nro_sesiones"], curso[u"nro_bloques"]),
+          tam=9, color=GRIS)
+    ws.merge_cells(u"A4:K4")
+    celda(u"A4", u"SE GENERA DESDE LA BASE DE DATOS (python 05_Base-de-datos/"
+                 u"generar_matriz.py %s). No se edita a mano" % CURSO + u": se corrige en los CSV "
+                 u"y se vuelve a generar.", tam=8, color=GRIS)
+    ws.merge_cells(u"A5:K5")
+    celda(u"A5", u"ORDEN DE TRABAJO (§13)", negrita=True, tam=9)
+    ws.merge_cells(u"A6:K6")
+    celda(u"A6", u"indicadores  →  ①TC1 y TC2  →  ②aprendizajes esperados  →  ③el caso "
+                 u"de la sesión  →  ④lista de cotejo  →  ⑤puntos clave  →  ⑥PPT",
+          tam=9, color=GRIS)
 
     # ── los dos colaborativos
     if f_tc:
@@ -174,108 +198,172 @@ def generar(curso_id: str) -> Path:
             ws.cell(r, 11).value = "único" if not caso.get("caso_a") else "A y B"
             ws.cell(r, 12).value = "%d de 5" % n
 
-    # ── las filas de sesion
-    for n in sorted(ses):
-        r = f_ses + n - 1
-        s = ses[n]
-        ids = [int(x.split("-")[-1]) for x in s["indicador_id"].split(";") if x.strip()]
-        evalua = s["tipo_sesion"] == "evaluacion"
-        ws.cell(r, 1).value = "Bloque %s" % s["bloque_id"][-1]
-        ws.cell(r, 2).value = "S%d" % n
-        ws.cell(r, 3).value = "Evaluación" if evalua else "Adquisición"
-        ws.cell(r, 4).value = " · ".join("IND-%d" % i for i in ids)
-        ws.cell(r, 5).value = s["tema"]
-        ws.cell(r, 6).value = s["aprendizaje_esperado"].strip() or "— pendiente —"
-        ws.cell(r, 7).value = s["tributa"].strip() or "—"
-        pintar(ws, r, range(1, 8), GRIS if evalua else COLOR[ids[0]])
-        if evalua:
-            pintar(ws, r, range(8, 13), GRIS)
-            for c in range(8, 13):
-                ws.cell(r, c).value = "—"
-            ws.cell(r, 6).fill = PatternFill("solid", start_color=AMBAR, end_color=AMBAR)
-            continue
-        sid = s["sesion_id"]
-        caso = next((c for c in casos if c.get("sesion_id") == sid), None)
-        npk = len([c for c in conten if c.get("sesion_id") == sid])
-        nlam = len([l for l in lams if l.get("sesion_id") == sid])
-        ncot = len([c for c in cotejo if c.get("sesion_id") == sid])
-        vals = ["✔" if caso and caso.get("caso_a") else "—",
-                "✔" if caso and caso.get("caso_b") else "—",
-                str(ncot) if ncot else "—",
-                "%d pk" % npk if npk else "—",
-                "%d láms" % nlam if nlam else "—"]
-        for i, v in enumerate(vals):
-            c = ws.cell(r, 8 + i)
-            c.value = v
-            col = VERDE if v != "—" else AMBAR
-            c.fill = PatternFill("solid", start_color=col, end_color=col)
+    celda(u"A8", u"INDICADORES", negrita=True, tam=9)
+    fila = 8
+    for n, ind in enumerate(indicadores, start=1):
+        ws.merge_cells(u"B%d:J%d" % (fila, fila))
+        celda(u"B%d" % fila, u"IND-%d · %s" % (n, ind[u"descripcion"]), tam=9)
+        fila += 1
 
-    # ── leyenda
-    rot = ROTULO.get(curso_id)
-    if rot:
-        for i in sorted(rot):
-            nombre, clausulas, extra = rot[i]
-            cuenta = sum(1 for s in ses.values() if s["tipo_sesion"] == "adquisicion"
-                         and i in [int(x.split("-")[-1]) for x in s["indicador_id"].split(";") if x.strip()])
-            rango = [n for n in sorted(ses) if ses[n]["tipo_sesion"] == "adquisicion"
-                     and int(ses[n]["indicador_id"].split(";")[0].split("-")[-1]) == i]
-            tramo = "S%d–S%d" % (rango[0], rango[-1]) if rango else "—"
-            ws.cell(f_ley + i, 1).value = nombre
-            ws.cell(f_ley + i, 1).fill = PatternFill("solid", start_color=COLOR[i], end_color=COLOR[i])
-            ws.cell(f_ley + i, 2).value = "IND-%d — %s · %s · %s · %d sesiones%s" % (
-                i, nombre, clausulas, tramo, cuenta, extra)
+    # --------------------------------------------- ① los dos colaborativos
+    fila += 1
+    ws.merge_cells(u"A%d:J%d" % (fila, fila))
+    celda(u"A%d" % fila, u"①  LOS DOS COLABORATIVOS — de aquí baja todo lo demás",
+          negrita=True, tam=10, fondo=FONDO)
+    fila += 1
+    for ref, txt in zip([u"A", u"B", u"C", u"I", u"J"],
+                        [u"TRABAJO", u"DESTREZA", u"PRODUCTO", u"CASO", u"RÚBRICA"]):
+        celda(u"%s%d" % (ref, fila), txt, negrita=True, tam=8, fondo=FONDO, borde=True)
+    fila += 1
+    for n, c in enumerate(sorted(colaborativos, key=lambda x: x[u"caso_id"]), start=1):
+        criterios = sum(1 for r in rubricas if r[u"caso_id"] == c[u"caso_id"])
+        celda(u"A%d" % fila, u"TC%d" % n, negrita=True, tam=9, borde=True)
+        celda(u"B%d" % fila, (c.get(u"destreza") or u"—"), tam=9, borde=True)
+        ws.merge_cells(u"C%d:H%d" % (fila, fila))
+        celda(u"C%d" % fila, corto(c.get(u"producto"), 150), tam=8, borde=True)
+        tiene_var = bool((c.get(u"caso_a") or u"").strip())
+        celda(u"I%d" % fila, u"con caso A/B ✘" if tiene_var else u"único",
+              tam=9, centro=True, borde=True,
+              color=ROJO if tiene_var else VERDE)
+        celda(u"J%d" % fila, u"%d de 5" % criterios, tam=9, centro=True, borde=True,
+              color=VERDE if criterios == 5 else ROJO)
+        ws.row_dimensions[fila].height = 34
+        fila += 1
+        ae = ae_bloque.get(c.get(u"bloque_id"), u"")
+        celda(u"A%d" % fila, u"aprendizaje del bloque", negrita=True, tam=8,
+              color=GRIS, borde=True)
+        ws.merge_cells(u"B%d:J%d" % (fila, fila))
+        celda(u"B%d" % fila, ae or u"— pendiente —", tam=8,
+              color=NEGRO if ae else ROJO, borde=True)
+        # el aprendizaje del bloque es largo y va en una celda combinada B:K,
+        # asi que la fila se dimensiona por su longitud o queda cortado.
+        ws.row_dimensions[fila].height = max(34, 13 * (1 + len(ae) // 150))
+        fila += 1
 
-    # ── avance sobre las sesiones de adquisicion
-    adq = [n for n in ses if ses[n]["tipo_sesion"] == "adquisicion"]
-    # Solo las sesiones DE ESTE CURSO. Las tablas de la carrera guardan tambien las de
-    # los otros cursos: sin este filtro, una sesion de SI-IMPAMB sumaba al avance de
-    # SI-SGCSSMA y la matriz declaraba una sesion mas de las que habia.
-    mias = {ses[n]["sesion_id"] for n in adq}
+    # ------------------------------------------------ ② a ⑥ · las sesiones
+    fila += 1
+    ws.merge_cells(u"A%d:J%d" % (fila, fila))
+    celda(u"A%d" % fila, u"②  a  ⑥  ·  LAS SESIONES — cada columna es un paso del orden "
+                         u"de trabajo", negrita=True, tam=10, fondo=FONDO)
+    fila += 1
+    cab = fila
+    for col, txt in zip(u"ABCDEFGHIJ", COLS):
+        celda(u"%s%d" % (col, fila), txt, negrita=True, tam=8, fondo=FONDO,
+              centro=col not in u"AEF", borde=True)
+    fila += 1
 
-    def suyas(filas, campo=None):
-        return [f for f in filas if f.get("sesion_id") in mias and (not campo or f.get(campo))]
+    hechos = {u"ae": 0, u"va": 0, u"cot": 0, u"pk": 0, u"ppt": 0}
+    adquisicion = 0
 
-    metricas = [
-        sum(1 for n in adq if ses[n]["aprendizaje_esperado"].strip()),
-        len(suyas(casos, "caso_a")),
-        len(suyas(casos, "caso_b")),
-        len({c["sesion_id"] for c in suyas(cotejo)}),
-        len({c["sesion_id"] for c in suyas(conten)}),
-        len({l["sesion_id"] for l in suyas(lams)}),
-    ]
-    for k, hechas in enumerate(metricas):
-        r = f_av + k
-        frac = hechas / len(adq)
-        ws.cell(r, 2).value = barra(frac)
-        ws.cell(r, 11).value = "%d de %d" % (hechas, len(adq))
-        c = ws.cell(r, 12)
-        c.value = frac
-        col = VERDE if frac == 1 else AMBAR2
-        c.fill = PatternFill("solid", start_color=col, end_color=col)
+    for s in sesiones:
+        sid = s[u"sesion_id"]
+        es_adq = s[u"tipo_sesion"] == u"adquisicion"
+        if es_adq:
+            adquisicion += 1
+        caso = por_sesion.get(sid, {})
+        n_cot = cuenta(cotejos, sid)
+        n_pk = cuenta(contenidos, sid)
+        n_ppt = cuenta(laminas, sid)
+        ae = (s.get(u"aprendizaje_esperado") or u"").strip()
+        # Hay caso cuando estan el relato y el encargo. NO se mide por `caso_a`:
+        # en EOM el caso de sesion es uno solo (§13 ③), y esa columna guarda las
+        # fichas de datos, que no todas las sesiones necesitan.
+        va = bool((caso.get(u"descripcion") or u"").strip()
+                  and (caso.get(u"producto") or u"").strip())
 
-    # ── nota de estructura
-    if f_nota and curso_id in NOTA_ESTRUCTURA:
-        ws.cell(f_nota, 1).value = NOTA_ESTRUCTURA[curso_id]
+        if es_adq:
+            if ae:
+                hechos[u"ae"] += 1
+            if va:
+                hechos[u"va"] += 1
+            if n_cot:
+                hechos[u"cot"] += 1
+            if n_pk:
+                hechos[u"pk"] += 1
+            if n_ppt:
+                hechos[u"ppt"] += 1
 
+        ind = s.get(u"indicador_id", u"")
+        etq = u" · ".join(u"IND-%s" % i.strip()[-1] for i in ind.split(u";") if i.strip())
+
+        valores = [
+            (u"A", u"Bloque %s" % s[u"bloque_id"][-1], NEGRO),
+            (u"B", u"S%s" % s[u"nro_sesion"], NEGRO),
+            (u"C", u"Adquisición" if es_adq else u"Evaluación", NEGRO),
+            (u"D", etq, NEGRO),
+            (u"E", s.get(u"tema", u""), NEGRO),
+            (u"F", ae if ae else u"— pendiente —", NEGRO if ae else ROJO),
+            (u"G", u"✔" if va else u"—", VERDE if va else GRIS),
+            (u"H", (u"%d" % n_cot) if n_cot else u"—", VERDE if n_cot else GRIS),
+            (u"I", (u"%d pk" % n_pk) if n_pk else u"—", VERDE if n_pk else GRIS),
+            (u"J", (u"%d láms" % n_ppt) if n_ppt else u"—", VERDE if n_ppt else GRIS),
+        ]
+        for col, val, color in valores:
+            celda(u"%s%d" % (col, fila), val, tam=8, color=color,
+                  centro=col in u"BCDGHIJ", borde=True)
+        ws.row_dimensions[fila].height = 30
+        fila += 1
+
+    ws.freeze_panes = u"A%d" % (cab + 1)
+
+    # ---------------------------------------------------------- el avance
+    fila += 1
+    ws.merge_cells(u"A%d:J%d" % (fila, fila))
+    celda(u"A%d" % fila, u"AVANCE — sobre las %d sesiones de adquisición" % adquisicion,
+          negrita=True, tam=10, fondo=FONDO)
+    fila += 1
+    pasos = [(u"② Aprendizajes esperados", u"ae"), (u"③ Caso de sesión", u"va"),
+             (u"④ Listas de cotejo", u"cot"),
+             (u"⑤ Puntos clave", u"pk"), (u"⑥ PPT", u"ppt")]
+    for etiqueta, clave in pasos:
+        n = hechos[clave]
+        celda(u"A%d" % fila, etiqueta, tam=9)
+        ws.merge_cells(u"B%d:H%d" % (fila, fila))
+        celda(u"B%d" % fila, barra(n, adquisicion), tam=9,
+              color=VERDE if n == adquisicion else GRIS)
+        celda(u"I%d" % fila, u"%d de %d" % (n, adquisicion), tam=9, centro=True,
+              color=VERDE if n == adquisicion else NEGRO)
+        celda(u"J%d" % fila, round(n / float(adquisicion), 2) if adquisicion else 0,
+              tam=9, centro=True, color=GRIS)
+        fila += 1
+
+    # ----------------------------------------------------------- leyenda
+    fila += 1
+    ws.merge_cells(u"A%d:J%d" % (fila, fila))
+    celda(u"A%d" % fila, u"LEYENDA", negrita=True, tam=9)
+    fila += 1
+    for n, ind in enumerate(indicadores, start=1):
+        ses = [s for s in sesiones if ind[u"indicador_id"] in s.get(u"indicador_id", u"")
+               and s[u"tipo_sesion"] == u"adquisicion"]
+        celda(u"A%d" % fila, u"IND-%d" % n, negrita=True, tam=9)
+        ws.merge_cells(u"B%d:J%d" % (fila, fila))
+        celda(u"B%d" % fila, u"%s  ·  %d sesiones de adquisición"
+              % (corto(ind[u"descripcion"], 110), len(ses)), tam=9, color=GRIS)
+        fila += 1
+    celda(u"A%d" % fila, u"Evaluación", negrita=True, tam=9)
+    ws.merge_cells(u"B%d:J%d" % (fila, fila))
+    celda(u"B%d" % fila, u"Sustentación de los colaborativos · no llevan aprendizaje "
+                         u"esperado propio: sustentan el del bloque (§13)", tam=9, color=GRIS)
+    fila += 2
+    ws.merge_cells(u"A%d:J%d" % (fila, fila))
+    celda(u"A%d" % fila, u"PUNTOS CLAVE — entre 3 y 5 por sesión, todos con su origen "
+                         u"declarado.  ·  PPT — presupuesto de 28 a 32 láminas (§11).",
+          tam=8, color=GRIS)
+
+    carpeta = os.path.dirname(salida)
+    if not os.path.isdir(carpeta):
+        os.makedirs(carpeta)
     try:
-        wb.save(xls)
-    except PermissionError:
-        raise SystemExit("La matriz esta abierta en Excel. Cierrala y vuelve a correr.")
-
-    print("%s  ·  %d sesiones  ·  %s" % (curso_id, len(ses), xls.name))
-    etiquetas = ["aprendizajes esperados", "caso A", "caso B", "listas de cotejo", "puntos clave", "PPT"]
-    for etq, hechas in zip(etiquetas, metricas):
-        print("   %-24s %d de %d" % (etq, hechas, len(adq)))
-    return xls
-
-
-def main() -> int:
-    if len(sys.argv) != 2:
-        print(__doc__)
-        return 2
-    generar(sys.argv[1])
-    return 0
+        wb.save(salida)
+    except IOError:
+        sys.exit(u"  ! %s está abierto en Excel: ciérralo y vuelve a generar"
+                 % os.path.basename(salida))
+    print(u"  ✔ %s" % os.path.relpath(salida, RAIZ))
+    print(u"    %d sesiones · %d de adquisición · %d colaborativos"
+          % (len(sesiones), adquisicion, len(colaborativos)))
+    for etiqueta, clave in pasos:
+        print(u"    %-28s %d de %d" % (etiqueta, hechos[clave], adquisicion))
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()

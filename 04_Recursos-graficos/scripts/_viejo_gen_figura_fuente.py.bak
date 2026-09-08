@@ -1,0 +1,506 @@
+# -*- coding: utf-8 -*-
+"""Figuras de LÁMINA a partir de una figura REAL de tesis. Híbrido + verificación.
+
+QUÉ RESUELVE
+    Un plano de tesis es la fuente correcta —tiene cotas reales de una mina
+    real— y es **ilegible al proyectar**: sale a 300 px de ancho con rótulos de
+    8 px, o sea 2 pt en la lámina. Ampliarlo no arregla nada: crecen los dos a
+    la vez (§11).
+
+    Redibujarlo a mano tampoco sirve: ahí se inventa la geometría, que es lo
+    que el §10 prohíbe. La foto del jumbo del catálogo comercial tampoco: no
+    tiene procedencia que citar.
+
+    El camino es el HÍBRIDO del CLAUDE.md, el mismo del jumbo Boomer S1:
+
+        tesis (PDF) → PyMuPDF extrae la figura      → referencia.png
+        control de proporción ← las COTAS del propio plano
+        gpt-image-2 images.edit (imagen→imagen)     → crudo.png
+        verificación ← ¿el aspecto cuadra con el control?
+        si no pasa: REGENERA (hasta 3). Si ninguno pasa, entrega el mejor
+        y LO DECLARA.
+
+    Nunca texto→imagen. La geometría la pone el plano; el modelo solo pone el
+    estilo y el tamaño de letra.
+
+QUÉ SE MIDE, Y CONTRA QUÉ
+    El control no es una opinión: sale del plano. En la sección de labor de
+    Raura el ancho acotado es 3,10 m y el contorno mide 1481 px, o sea
+    477,7 px/m; el alto del contorno (piso a clave de bóveda) mide 1467 px,
+    o sea 3,07 m —coherente con la cota de 2,90 m, que va a la línea de
+    arranque de la bóveda, no a la clave—. De ahí el control 1,010.
+
+    Se mide el CONTORNO DE LA LABOR, no el bbox de tinta: las líneas de cota
+    salen fuera de la labor y moverlas cambiaría el número sin que la labor
+    esté mal. El contorno se aísla por color: es lo oscuro que no es rojo
+    (el rojo son las cotas).
+
+Uso:  python gen_figura_fuente.py seccion-labor
+      python gen_figura_fuente.py seccion-labor --intentos 3 --calidad high
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import sys
+from pathlib import Path
+
+import numpy as np
+from PIL import Image
+from scipy import ndimage as ndi
+
+from config import cliente, MODELO_IMAGEN
+
+RAIZ = Path(__file__).resolve().parents[1]
+
+TOLERANCIA = 0.12     # §10: 12 % de desvío de aspecto
+INTENTOS = 3          # §10: 3 en vista de perfil / plano frontal
+PT_MINIMO = 14.0      # §11: por debajo de 14 pt proyectados, sobra contenido
+
+
+# ── el encargo. Dar de alta una figura es AGREGAR UNA ENTRADA, no tocar el código
+FIGURAS = {
+    "seccion-labor": dict(
+        referencia="EOM/planos/raura_fig2-8_seccion-crucero_referencia.png",
+        salida="EOM/esquemas/s1_seccion-labor-crucero.png",
+        control=1.010,
+        origen=("cotas del propio plano: ancho acotado 3,10 m sobre 1481 px "
+                "= 477,7 px/m; alto del contorno 1467 px = 3,07 m"),
+        tam="1536x1024",
+        conservar=(
+            "Keep every dimension exactly as written, in red: 2.90, 3.10, 2.70, "
+            "1.60, 0.40, 0.30. Keep the labels MANGA D=32.0 Pulg, Cable Electrico, "
+            "Aire, R/H, Agua. Keep the hatched ventilation duct circle at the top "
+            "right, the three service pipes at the right wall, the low profile "
+            "machine centred on the floor with its two round headlights, and the "
+            "drainage ditch at the bottom right."
+        ),
+    ),
+    # La misma fuente, ALIGERADA. El §11 dice que cuando el texto no cabe se
+    # quitan elementos, no se encoge la letra: el plano trae once rótulos y la
+    # lámina enseña UNA idea —qué es la sección de la labor y qué cabe dentro—.
+    # Las cotas de servicios (0,40 · 0,30 · 1,60 · 2,70) y los rótulos de la
+    # manga, el cable y las tuberías son de otra lámina. La geometría no se toca.
+    "seccion-labor-simple": dict(
+        referencia="EOM/planos/raura_fig2-8_seccion-crucero_referencia.png",
+        salida="EOM/esquemas/s1_seccion-labor.png",
+        control=1.010,
+        origen=("cotas del propio plano: ancho acotado 3,10 m sobre 1481 px "
+                "= 477,7 px/m; alto del contorno 1467 px = 3,07 m"),
+        tam="1536x1024",
+        conservar=(
+            "Keep ONLY these three things: the outline of the excavation (arch "
+            "roof, straight walls, flat floor), the low profile machine centred "
+            "on the floor with its two round headlights, and TWO dimensions in "
+            "red — the width 3.10 below the floor and the height 2.90 at the "
+            "left. Remove every other dimension and every other label: delete "
+            "2.70, 1.60, 0.40, 0.30, the words MANGA D=32.0 Pulg, Cable "
+            "Electrico, Aire, R/H and Agua, the hatched duct circle, the three "
+            "service pipes and the drainage ditch. Removing them must not move "
+            "or resize anything that stays."
+        ),
+    ),
+    # La veta y sus cajas. La referencia es una figura de 1843 —dominio público—
+    # de 350 x 240 px con marca de agua encima: exactamente el caso del jumbo,
+    # donde la fuente era pobre y lo que sobraba se quitaba en el paso del
+    # modelo. Lo que se conserva de ella es LA GEOMETRÍA: la inclinación de la
+    # veta y de qué lado queda cada caja. Todo lo demás se rehace.
+    #
+    # QUÉ LADO ES CUÁL, y por qué no se decide a ojo: la caja techo es la roca
+    # que queda ENCIMA del plano de la veta, y eso equivale a decir que está del
+    # lado hacia el que la veta BUZA. En esta figura la veta asciende hacia la
+    # derecha, o sea buza hacia la izquierda: la caja techo es el bloque
+    # IZQUIERDO. El esquema que hoy va en la S1 lo tiene al revés (OBS-32).
+    "veta-cajas": dict(
+        referencia="EOM/planos/hartmann1843_fig7_veta_referencia.png",
+        salida="EOM/esquemas/s1_veta-y-cajas.png",
+        medida="veta", control=54.41,
+        # El control se mide con la MISMA funcion que despues juzga al entregable.
+        # La primera vez no fue asi —el control se tomo a mano con otro recorte— y
+        # el script leia 86,2 grados en la referencia mientras el control decia
+        # 57,5: el marco del escaneo, que no es de Hartmann, le arrastraba el eje.
+        # Recortado el marco, la referencia da 54,41 y las dos medidas hablan de
+        # lo mismo. Es el error 19 del §10: validar tambien el check.
+        origen="angulo de la veta en la figura de Hartmann (1843), medido con angulo_veta()",
+        tam="1536x1024",
+        conservar=(
+            "Keep the geometry of the original: a straight tabular vein of "
+            "constant thickness crossing the whole picture from the lower left "
+            "to the upper right, at the same inclination as in the source, "
+            "cutting the horizontal ground surface line at the top. Keep the two "
+            "blocks of country rock, one on each side of the vein."
+        ),
+    ),
+    # La forma del cuerpo mineralizado. Es la lamina que Erick senalo: veta,
+    # manto y cuerpo masivo estaban DIBUJADOS a mano. Aqui la geometria sale de
+    # un corte real de 1850 —dominio publico— donde se ven en la misma seccion
+    # el manto concordante, que sigue a los estratos, y los cuerpos lenticulares
+    # que los cortan. La veta ya la lleva la lamina 11.
+    "formas-cuerpo": dict(
+        referencia="EOM/planos/naumann1850_p915_manto-cuerpos_detalle.png",
+        salida="EOM/esquemas/s1_formas-del-cuerpo.png",
+        control=1.942, prompt="formas",
+        # El corte completo es una banda de 4,79:1 y NO cabe: para que los
+        # rotulos lleguen a 14 pt el modelo tenia que comprimir el dibujo un
+        # 33 % (OBS-39). Se recorta la VENTANA DERECHA del mismo corte, que
+        # trae los dos conceptos —una banda concordante y dos cuerpos
+        # lenticulares que cortan los estratos— y da 1,94:1, proporcion de
+        # lamina. Recortar una region de la fuente no es inventar; comprimirla
+        # si lo seria.
+        origen="aspecto del detalle de la xilografia de Naumann (1850), medido con contorno_labor()",
+        tam="1536x1024",
+        conservar=(
+            "Keep the geology of the original section exactly: the inclined "
+            "sedimentary layering that folds down to the left, the long dark "
+            "dark band on the LEFT that lies CONCORDANT between two layers and "
+            "follows the bedding, and the TWO lens shaped bodies on the right "
+            "that CUT ACROSS the layering. Same number of bodies, same places, "
+            "same shapes, same inclination, same fold of the layers."
+        ),
+    ),
+    # ── Los TRES PANELES de la lámina 13 ────────────────────────────────
+    # Erick: «es físico, hay que describirlo y que la IA lo genere; en ese caso
+    # son tres imágenes y tu trabajo sería unificarlo». Eso es exactamente lo
+    # que se hace aquí, con un matiz que importa: cada forma sale de SU figura
+    # real, no de una descripción. Describir y que el modelo dibuje sería
+    # texto→imagen, que es donde inventa geometría. Describir PARA QUE RESPETE
+    # una figura que tiene delante es otra cosa.
+    #
+    # La unión la hace `unir_formas_cuerpo.py`. Componer tres paneles es
+    # maquetación; inventar la geometría de cada uno sería lo prohibido.
+    #
+    # Ninguno lleva texto dentro: el rótulo lo pone el unificador, a 52 px
+    # sobre el lienzo de 1500 (§11). Así el modelo no tiene que pelear entre
+    # dibujo y letra, que es lo que hizo fallar el intento anterior.
+    "forma-veta": dict(
+        referencia="EOM/planos/hartmann1843_fig7_veta_referencia.png",
+        salida="EOM/esquemas/_paneles/forma_veta.png",
+        medida="veta", prompt="panel", control=54.41, color="mid blue (#167FB9)",
+        # El lienzo CUADRADO deformaba la veta: al llenar el marco, el angulo
+        # se iba de 54 a 65 grados. La referencia es 1,39 y el lienzo mas
+        # parecido es 1536x1024. Un cambio de lienzo no es cosmetico.
+        origen="ángulo de la veta en Hartmann (1843), medido con angulo_veta()",
+        tam="1536x1024",
+        conservar=("Keep the straight tabular vein of constant thickness crossing "
+                   "the frame from lower left to upper right at the same "
+                   "inclination as the source, with a block of country rock on "
+                   "each side and the horizontal ground surface at the top."),
+    ),
+    "forma-manto": dict(
+        referencia="EOM/planos/naumann1850_p915_manto_referencia.png",
+        salida="EOM/esquemas/_paneles/forma_manto.png",
+        prompt="panel", control=2.44, color="teal green (#00B29C)",
+        origen="aspecto del recorte de Naumann (1850), medido con contorno_labor()",
+        tam="1536x1024",
+        conservar=("Keep the long body that lies CONCORDANT between two rock "
+                   "layers and follows the bedding as it folds down to the left. "
+                   "It must stay parallel to the layers along its whole length, "
+                   "never cutting them."),
+    ),
+    "forma-lentes": dict(
+        referencia="EOM/planos/naumann1850_p915_lentes_referencia.png",
+        salida="EOM/esquemas/_paneles/forma_lentes.png",
+        prompt="panel", control=1.27, color="purple (#5052A9)",
+        origen="aspecto del recorte de Naumann (1850), medido con contorno_labor()",
+        tam="1024x1024",
+        conservar=("Keep the two lens shaped bodies that CUT ACROSS the rock "
+                   "layering, with the same shape, the same inclination and the "
+                   "same places as in the source."),
+    ),
+}
+
+
+PROMPT = """Redraw this real mine engineering drawing as a clean flat vector diagram.
+
+FIDELITY IS THE POINT. This is a real cross section of a mine heading, taken from
+a Peruvian mining thesis. Do not invent, add, move or remove any element, and do
+not change any proportion. The arch, the walls, the floor and the machine must
+keep exactly the shape and the relative size they have in the original.
+{conservar}
+
+STYLE
+Flat vector line art on a pure white background. No perspective, no shading, no
+texture, no 3D, no photorealism. Sans serif type throughout, like Arial.
+Outline of the excavation and its floor in very dark navy (#0D2632), thick line.
+Dimension lines, arrows and dimension numbers in red (#C0392B).
+The machine drawn in blue (#167FB9) outline with a light grey (#EEF1F3) fill.
+The headlights in amber (#FFC505). The ventilation duct circle hatched in red.
+The service pipes in dark navy.
+
+LEGIBILITY IS THE SECOND POINT, AND IT IS NOT NEGOTIABLE. This drawing will be
+projected on a classroom screen at about 15 cm wide, so the type has to be far
+bigger than a drafting sheet would use. Set every number and every label in bold
+with a cap height of about 1/20 of the image width — roughly 75 pixels tall on a
+1536 pixel wide image. That is very large on purpose. Give the drawing generous
+white margins and move the labels outward so that nothing collides; shrink the
+drawing itself if that is what it takes to fit the big type.
+"""
+
+
+PROMPT_FORMAS = """Redraw this old geological cross section as a clean, modern teaching
+diagram in Spanish.
+
+THE GEOLOGY MUST NOT CHANGE.
+{conservar}
+
+WHAT TO REMOVE: all the engraving hatching, the old letters a, b, c, d, any
+watermark and the paper texture. NO hatching anywhere in the result — the
+hatching is what makes the original unreadable when projected.
+
+WHAT TO DRAW INSTEAD, flat vector on a white background:
+· The rock layers as smooth bands of light grey (#EEF1F3) separated by thin
+  dark navy (#0D2632) lines, keeping the same inclination and the same fold.
+· The concordant band that follows the bedding filled solid blue (#167FB9),
+  labelled MANTO.
+· The two lens shaped bodies that cut across the bedding filled solid purple
+  (#5052A9), labelled CUERPO LENTICULAR.
+· Nothing else. No dimensions, no arrows, no legend box, no extra text.
+
+LEGIBILITY. Only those two labels, set in bold sans serif like Arial, with a cap
+height of about 1/18 of the image width — roughly 85 pixels tall on a 1536 pixel
+wide image. Deliberately very large. Place them on the white space above the
+section, with a thin leader line to the body they name, never on top of the
+drawing. Leave generous white margins.
+"""
+
+
+PROMPT_PANEL = """Redraw this old geological figure as ONE clean, modern panel.
+
+THE GEOMETRY MUST NOT CHANGE.
+{conservar}
+
+WHAT TO REMOVE: all the engraving hatching, every old letter and caption, any
+watermark and the paper texture. No hatching at all in the result.
+
+WHAT TO DRAW INSTEAD, flat vector on a white background, filling the frame:
+. The host rock as smooth bands of light grey (#EEF1F3) separated by thin dark
+  navy (#0D2632) lines, keeping the same inclination as the original.
+. The mineralised body filled solid {color}, with a dark navy outline.
+. NO text of any kind. No label, no letter, no number, no caption. The label is
+  added afterwards, outside the image.
+
+Leave a small even white margin all round. Nothing else in the frame.
+
+DO NOT STRETCH. Keep the proportions of the source drawing. If it does not fill
+the frame, leave white space rather than distorting any angle or thickness.
+"""
+
+
+PROMPT_VETA = """Redraw this old geological figure as a clean, modern teaching diagram in Spanish.
+
+THE GEOMETRY IS THE PART THAT MUST NOT CHANGE. This is a public domain figure from
+1843; the source scan is small and worn, so redraw it cleanly, but keep the
+inclination of the vein and the side each block is on exactly as they are.
+{conservar}
+
+WHAT TO REMOVE: the old handwriting, the letters a, b and c, the word Gang, the
+caption Fig. 7, any watermark, and the paper texture. None of that stays.
+
+WHAT TO DRAW INSTEAD, in Spanish, in bold sans serif like Arial:
+· The vein filled solid mid blue (#167FB9).
+· The rock on each side in light grey (#EEF1F3) with a dark navy (#0D2632) outline.
+· The ground surface as a horizontal dark navy line across the top.
+· The block on the UPPER LEFT side of the vein labelled CAJA TECHO.
+· The block on the LOWER RIGHT side of the vein labelled CAJA PISO.
+· A double headed red (#C0392B) arrow drawn ACROSS the vein, perpendicular to
+  its two walls, labelled POTENCIA. It must be perpendicular to the vein, never
+  horizontal.
+· The dip angle, and it must be the ACUTE one. The vein goes down towards the
+  lower LEFT. So at the point where the vein meets the ground surface, draw the
+  horizontal dashed line running to the LEFT from that point, and draw a small
+  red arc in the narrow wedge between that dashed line and the vein descending
+  below it. Label it BUZAMIENTO. The arc must span the sharp angle of about 55
+  degrees, never the wide angle on the other side.
+
+LEGIBILITY. Set every label with a cap height of about 1/20 of the image width,
+roughly 75 pixels tall on a 1536 pixel wide image. That is deliberately very
+large. White background, no shading, no texture, no perspective, no 3D.
+"""
+
+
+# ── medición ───────────────────────────────────────────────────────────────
+def angulo_veta(png: Path):
+    """Inclinación dominante de la figura, por PCA sobre la tinta.
+
+    Sirve de control de la GEOMETRÍA cuando lo que hay que conservar no es una
+    proporción sino un ángulo: si el modelo endereza o tumba la veta, el número
+    lo caza. Se descarta la franja superior porque ahí está la línea horizontal
+    del terreno, que arrastraría el eje hacia los 0°.
+    """
+    a = np.array(Image.open(png).convert("L")).astype(int)
+    h, w = a.shape
+    sub = a[int(h * 0.18):int(h * 0.92), int(w * 0.04):int(w * 0.96)]
+    m = sub < 150
+    if m.sum() < 200:
+        return None
+    ys, xs = np.where(m)
+    x = xs - xs.mean()
+    y = (sub.shape[0] - ys) - (sub.shape[0] - ys).mean()
+    vals, vecs = np.linalg.eigh(np.cov(np.vstack([x, y])))
+    d = vecs[:, int(np.argmax(vals))]
+    return dict(asp=float(np.degrees(np.arctan2(d[1], d[0])) % 180))
+
+
+
+def contorno_labor(png: Path):
+    """Aísla el contorno de la excavación: lo oscuro que NO es rojo.
+
+    El rojo son las cotas, y las cotas caen fuera de la labor: si entraran en la
+    medida, mover una flecha cambiaría el aspecto sin que la labor esté mal.
+    """
+    a = np.array(Image.open(png).convert("RGB")).astype(int)
+    R, G, B = a[..., 0], a[..., 1], a[..., 2]
+    rojo = (R > 150) & (G < 110) & (B < 110)
+    m = (a.mean(2) < 170) & ~rojo
+    m = ndi.binary_fill_holes(ndi.binary_closing(m, np.ones((9, 9))))
+    lb, n = ndi.label(m, np.ones((3, 3)))
+    if not n:
+        return None
+    sz = ndi.sum(np.ones_like(lb), lb, index=range(1, n + 1))
+    ys, xs = np.where(lb == int(np.argmax(sz)) + 1)
+    w, h = int(xs.max() - xs.min()), int(ys.max() - ys.min())
+    return dict(w=w, h=h, asp=w / max(h, 1))
+
+
+def pt_proyectado(px_fuente: int, ancho_lienzo: int) -> float:
+    """§11: el hueco de imagen mide 6 pulgadas de ancho en la lámina."""
+    return 6 * px_fuente / ancho_lienzo * 72
+
+
+def glifo_minimo(png: Path):
+    """Mide el GLIFO MÁS PEQUEÑO del dibujo y lo pasa a pt proyectados.
+
+    POR QUÉ SE MIDE Y NO SE SUPONE
+        La primera versión de este script imprimía «rótulo de 52 px → 14,6 pt»
+        dando por hecho que el modelo había obedecido. No lo había hecho: las
+        cotas salieron de 35 px, o sea 9,8 pt. A tamaño completo la imagen se
+        ve perfecta —es justo la trampa que describe el §11— y el ojo la da por
+        buena. El número no.
+
+    NO se mide el componente más pequeño: el punto decimal de «2.90» mide 8 px
+    aunque los dígitos midan 35, y medirlo a él daba 5,6 pt en una imagen cuyo
+    texto medía 9,8. Se miden PALABRAS: se unen los glifos vecinos dilatando en
+    horizontal y se toma la MEDIANA de la altura de los bloques resultantes.
+    Los filtros dejan fuera las líneas de cota, las flechas, el contorno de la
+    labor y el círculo de la manga.
+    """
+    a = np.array(Image.open(png).convert("RGB")).astype(int)
+    W = a.shape[1]
+    R, G, B = a[..., 0], a[..., 1], a[..., 2]
+    rojo = (R > 130) & (G < 120) & (B < 120)
+    tinta = rojo | (a.mean(2) < 130)
+    palabras = ndi.binary_dilation(tinta, np.ones((3, 15)))
+    lb, n = ndi.label(palabras, np.ones((3, 3)))
+    altos = []
+    for sl in ndi.find_objects(lb):
+        h, w = sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
+        if 16 <= h <= 130 and 0.4 <= w / h <= 12:
+            altos.append(h)
+    if not altos:
+        return None
+    altos.sort()
+    px = altos[len(altos) // 2]
+    return dict(px=px, pt=pt_proyectado(px, W), n=len(altos))
+
+
+def revisar(d, g, control, tol=TOLERANCIA, sin_texto=False):
+    """Las DOS condiciones. Pasar una sola no basta: el aspecto dice que la
+    geometría es fiel, el pt dice que se lee. Una figura fiel e ilegible no
+    entra a la lámina, y una legible deformada tampoco."""
+    fallas = []
+    if d is None:
+        return False, ["no se encontró qué medir en la imagen"], 1.0
+    err = abs(d["asp"] - control) / control
+    if err > tol:
+        fallas.append("aspecto %.3f vs control %.3f (desvío %.0f %%)"
+                      % (d["asp"], control, err * 100))
+    if sin_texto:
+        # Los paneles de la lamina 13 van EXPRESAMENTE sin texto: el rotulo lo
+        # pone unir_formas_cuerpo.py, fuera del dibujo. Pedirle letra legible a
+        # una imagen que no debe llevar letra hacia fallar los tres intentos por
+        # una condicion que el panel cumple al no cumplirla.
+        pass
+    elif g is None:
+        fallas.append("no se encontró texto que medir")
+    elif g["pt"] < PT_MINIMO:
+        fallas.append("glifo %d px = %.1f pt proyectados, bajo el piso de %.0f"
+                      % (g["px"], g["pt"], PT_MINIMO))
+    return (not fallas), fallas, err
+
+
+# ── generación ─────────────────────────────────────────────────────────────
+def generar(ref: Path, prompt: str, tam: str, calidad: str) -> bytes:
+    with open(ref, "rb") as fh:
+        r = cliente().images.edit(model=MODELO_IMAGEN, image=[fh], prompt=prompt,
+                                  size=tam, quality=calidad)
+    return base64.b64decode(r.data[0].b64_json)
+
+
+def una_figura(nombre: str, intentos=INTENTOS, calidad="high") -> int:
+    cfg = FIGURAS[nombre]
+    ref = RAIZ / cfg["referencia"]
+    sal = RAIZ / cfg["salida"]
+    if not ref.exists():
+        print("falta la referencia:", ref)
+        return 1
+
+    medir = angulo_veta if cfg.get("medida") == "veta" else contorno_labor
+    unidad = "grados" if cfg.get("medida") == "veta" else ""
+    base, gbase = medir(ref), glifo_minimo(ref)
+    print("REFERENCIA  %s" % ref.name)
+    print("  medida de la fuente: %.3f %s" % (base["asp"], unidad))
+    print("  control %.3f  (%s)" % (cfg["control"], cfg["origen"]))
+    if gbase:
+        print("  su texto: glifo %d px = %.1f pt proyectados  <- por esto no se puede usar tal cual"
+              % (gbase["px"], gbase["pt"]))
+    print("  tolerancia %.0f %%  ·  piso %.0f pt  ·  intentos %d\n"
+          % (TOLERANCIA * 100, PT_MINIMO, intentos))
+
+    plantilla = {"veta": PROMPT_VETA, "formas": PROMPT_FORMAS,
+                 "panel": PROMPT_PANEL}.get(cfg.get("prompt") or cfg.get("medida"), PROMPT)
+    sin_texto = cfg.get("prompt") == "panel"
+    prompt = (plantilla.format(conservar=cfg["conservar"], color=cfg["color"])
+              if cfg.get("prompt") == "panel" else
+              plantilla.format(conservar=cfg["conservar"]))
+    taller = ref.parent / "_crudos"
+    taller.mkdir(parents=True, exist_ok=True)
+
+    mejor = None
+    for i in range(1, intentos + 1):
+        crudo = taller / ("%s_intento%d.png" % (nombre, i))
+        crudo.write_bytes(generar(ref, prompt, cfg["tam"], calidad))
+        d, g = medir(crudo), glifo_minimo(crudo)
+        ok, fallas, err = revisar(d, g, cfg["control"], sin_texto=sin_texto)
+        print("  intento %d  %-8s aspecto %.3f  ·  glifo %.1f pt   %s"
+              % (i, "PASA" if ok else "no pasa",
+                 d["asp"] if d else 0, g["pt"] if g else 0, "; ".join(fallas)))
+        if mejor is None or err < mejor[0]:
+            mejor = (err, crudo, d, g, ok)
+        if ok:
+            mejor = (err, crudo, d, g, ok)
+            break
+
+    err, crudo, d, g, ok = mejor
+    im = Image.open(crudo).convert("RGB")
+    sal.parent.mkdir(parents=True, exist_ok=True)
+    im.save(sal)
+    print("\nENTREGABLE  %s" % sal.relative_to(RAIZ.parent))
+    print("  lienzo %d x %d px" % (im.width, im.height))
+    print("  aspecto %.3f contra control %.3f  (desvío %.1f %%)"
+          % (d["asp"], cfg["control"], err * 100))
+    print("  glifo más pequeño %d px  ->  %.1f pt proyectados (piso %.0f)"
+          % (g["px"], g["pt"], PT_MINIMO) if g else "  sin texto medible")
+    if ok:
+        print("  VERIFICADA: pasa las dos condiciones.")
+        return 0
+    print("  NO PASÓ en %d intentos. Se entrega el mejor y SE DECLARA." % intentos)
+    return 2
+
+
+if __name__ == "__main__":
+    p = argparse.ArgumentParser()
+    p.add_argument("figura", choices=sorted(FIGURAS))
+    p.add_argument("--intentos", type=int, default=INTENTOS)
+    p.add_argument("--calidad", default="high", choices=["low", "medium", "high"])
+    a = p.parse_args()
+    sys.exit(una_figura(a.figura, a.intentos, a.calidad))

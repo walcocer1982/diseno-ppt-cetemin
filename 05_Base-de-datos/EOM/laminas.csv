@@ -1,314 +1,1243 @@
 lamina_id,sesion_id,orden,tipo,momento,minutos,titulo,texto,contenido_id,idea,que_muestra,imagen_id
-L170,EOM-METEXP-S10,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L171,EOM-METEXP-S10,2,subportada-sesion,,2,Sesión N°10,Selección aplicada a yacimientos tipo cuerpo masivo,,,,
-L172,EOM-METEXP-S10,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L173,EOM-METEXP-S10,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Seleccionar y justificar el método de explotación para yacimientos tipo cuerpo masivo según sus características.,,,,
-L174,EOM-METEXP-S10,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
-L175,EOM-METEXP-S10,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L176,EOM-METEXP-S10,7,tema,adquisicion,15,CARACTERÍSTICAS DE UN YACIMIENTO TIPO CUERPO M,Características de un yacimiento tipo cuerpo masivo,,,,
-L177,EOM-METEXP-S10,8,tema,adquisicion,15,MÉTODOS APLICABLES A CUERPO MASIVO Y SUS CONDI,Métodos aplicables a cuerpo masivo y sus condiciones,,,,
-L178,EOM-METEXP-S10,9,tema,adquisicion,15,JUSTIFICACIÓN DE LA ELECCIÓN CON CRITERIOS DE ,"Justificación de la elección con criterios de costo, dilución y seguridad",,,,
-L179,EOM-METEXP-S10,10,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L180,EOM-METEXP-S10,11,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
-L181,EOM-METEXP-S10,12,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
-L182,EOM-METEXP-S10,13,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L183,EOM-METEXP-S10,14,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
-L184,EOM-METEXP-S10,15,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
-L185,EOM-METEXP-S10,16,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L186,EOM-METEXP-S10,17,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
-L187,EOM-METEXP-S10,18,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
-L188,EOM-METEXP-S10,19,tapa,,0,,,,,,
-L189,EOM-METEXP-S11,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L190,EOM-METEXP-S11,2,subportada-sesion,,2,Sesión N°11,Selección en yacimientos con múltiples cuerpos (combinación de métodos),,,,
-L191,EOM-METEXP-S11,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L192,EOM-METEXP-S11,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,"Seleccionar y combinar métodos de explotación en un yacimiento con múltiples cuerpos, justificando la elección por zona.",,,,
-L193,EOM-METEXP-S11,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
-L194,EOM-METEXP-S11,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L195,EOM-METEXP-S11,7,tema,adquisicion,15,YACIMIENTOS CON MÚLTIPLES CUERPOS,Yacimientos con múltiples cuerpos: por qué un solo método no basta,,,,
-L196,EOM-METEXP-S11,8,tema,adquisicion,15,CRITERIOS PARA ZONIFICAR EL YACIMIENTO,Criterios para zonificar el yacimiento,,,,
-L197,EOM-METEXP-S11,9,tema,adquisicion,15,COMBINACIÓN DE MÉTODOS,Combinación de métodos: compatibilidad entre zonas y secuencia de minado,,,,
-L198,EOM-METEXP-S11,10,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L199,EOM-METEXP-S11,11,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
-L200,EOM-METEXP-S11,12,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
-L201,EOM-METEXP-S11,13,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L202,EOM-METEXP-S11,14,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
-L203,EOM-METEXP-S11,15,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
-L204,EOM-METEXP-S11,16,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L205,EOM-METEXP-S11,17,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
-L206,EOM-METEXP-S11,18,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
-L207,EOM-METEXP-S11,19,tapa,,0,,,,,,
-L208,EOM-METEXP-S12,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L209,EOM-METEXP-S12,2,subportada-sesion,,2,Sesión N°12,Evaluación TC2 — Selección justificada en escenario complejo,,,,
-L210,EOM-METEXP-S12,3,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L211,EOM-METEXP-S12,4,contenido,aplicacion,15,Indicaciones de la sustentación,"Orden, tiempo y criterios de la rúbrica",,,,
-L212,EOM-METEXP-S12,5,contenido,aplicacion,90,Sustentación por equipos,Cada equipo sustenta; se evalúa con rúbrica,,,,
-L213,EOM-METEXP-S12,6,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L214,EOM-METEXP-S12,7,contenido,discusion,20,Retroalimentación,Qué estuvo bien y qué mejorar,,,,
-L215,EOM-METEXP-S12,8,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L216,EOM-METEXP-S12,9,contenido,reflexion,8,Cierre del bloque,Capacidades demostradas y qué sigue,,,,
-L217,EOM-METEXP-S12,10,tapa,,0,,,,,,
-L081,EOM-METEXP-S5,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L082,EOM-METEXP-S5,2,subportada-sesion,,2,Sesión N°5,Métodos: sublevel caving; método superficial,,,,
-L083,EOM-METEXP-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L084,EOM-METEXP-S5,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Describir el método de sublevel caving y el método de explotación superficial: sus operaciones y condiciones de aplicación.,,,,
-L085,EOM-METEXP-S5,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
-L086,EOM-METEXP-S5,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L087,EOM-METEXP-S5,7,tema,adquisicion,12,SUBLEVEL CAVING,Sublevel caving: secuencia de hundimiento por subniveles,,,,
-L088,EOM-METEXP-S5,8,tema,adquisicion,11,CONDICIONES DE APLICACIÓN DEL SUBLEVEL CAVING,Condiciones de aplicación del sublevel caving,,,,
-L089,EOM-METEXP-S5,9,tema,adquisicion,11,EXPLOTACIÓN SUPERFICIAL,"Explotación superficial: bancos, rampas y secuencia de avance",,,,
-L090,EOM-METEXP-S5,10,tema,adquisicion,11,CUÁNDO EL YACIMIENTO SE EXPLOTA EN SUPERFICIE ,Cuándo el yacimiento se explota en superficie y no en subterránea,,,,
-L091,EOM-METEXP-S5,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L092,EOM-METEXP-S5,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
-L093,EOM-METEXP-S5,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
-L094,EOM-METEXP-S5,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L095,EOM-METEXP-S5,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
-L096,EOM-METEXP-S5,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
-L097,EOM-METEXP-S5,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L098,EOM-METEXP-S5,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
-L099,EOM-METEXP-S5,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
-L100,EOM-METEXP-S5,20,tapa,,0,,,,,,
-L101,EOM-METEXP-S6,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L102,EOM-METEXP-S6,2,subportada-sesion,,2,Sesión N°6,Evaluación TC1 — Describir y comparar métodos,,,,
-L103,EOM-METEXP-S6,3,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L104,EOM-METEXP-S6,4,contenido,aplicacion,15,Indicaciones de la sustentación,"Orden, tiempo y criterios de la rúbrica",,,,
-L105,EOM-METEXP-S6,5,contenido,aplicacion,90,Sustentación por equipos,Cada equipo sustenta; se evalúa con rúbrica,,,,
-L106,EOM-METEXP-S6,6,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L107,EOM-METEXP-S6,7,contenido,discusion,20,Retroalimentación,Qué estuvo bien y qué mejorar,,,,
-L108,EOM-METEXP-S6,8,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L109,EOM-METEXP-S6,9,contenido,reflexion,8,Cierre del bloque,Capacidades demostradas y qué sigue,,,,
-L110,EOM-METEXP-S6,10,tapa,,0,,,,,,
-L111,EOM-METEXP-S7,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L112,EOM-METEXP-S7,2,subportada-sesion,,2,Sesión N°7,Criterios de selección I: geología y geomecánica,,,,
-L113,EOM-METEXP-S7,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L114,EOM-METEXP-S7,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,"Analizar las condiciones geológicas y geomecánicas del yacimiento (forma, potencia, buzamiento, RMR) como criterio de selección del método.",,,,
-L115,EOM-METEXP-S7,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
-L116,EOM-METEXP-S7,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L117,EOM-METEXP-S7,7,tema,adquisicion,12,FORMA Y POTENCIA DEL YACIMIENTO COMO CRITERIO ,Forma y potencia del yacimiento como criterio de selección,,,,
-L118,EOM-METEXP-S7,8,tema,adquisicion,11,BUZAMIENTO Y SU EFECTO SOBRE EL MÉTODO APLICAB,Buzamiento y su efecto sobre el método aplicable,,,,
-L119,EOM-METEXP-S7,9,tema,adquisicion,11,CALIDAD DEL MACIZO ROCOSO (RMR) Y COMPETENCIA ,Calidad del macizo rocoso (RMR) y competencia de cajas,,,,
-L120,EOM-METEXP-S7,10,tema,adquisicion,11,CÓMO SE LEE LA INFORMACIÓN GEOLÓGICA Y GEOMECÁ,Cómo se lee la información geológica y geomecánica para decidir,,,,
-L121,EOM-METEXP-S7,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L122,EOM-METEXP-S7,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
-L123,EOM-METEXP-S7,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
-L124,EOM-METEXP-S7,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L125,EOM-METEXP-S7,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
-L126,EOM-METEXP-S7,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
-L127,EOM-METEXP-S7,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L128,EOM-METEXP-S7,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
-L129,EOM-METEXP-S7,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
-L130,EOM-METEXP-S7,20,tapa,,0,,,,,,
-L131,EOM-METEXP-S8,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L132,EOM-METEXP-S8,2,subportada-sesion,,2,Sesión N°8,"Criterios de selección II: productividad, costos y seguridad",,,,
-L133,EOM-METEXP-S8,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L134,EOM-METEXP-S8,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,"Analizar la productividad, los costos, la dilución/recuperación y la seguridad como criterios de selección del método.",,,,
-L135,EOM-METEXP-S8,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
-L136,EOM-METEXP-S8,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L137,EOM-METEXP-S8,7,tema,adquisicion,12,PRODUCTIVIDAD DEL MÉTODO,Productividad del método: ritmo de extracción y mecanización,,,,
-L138,EOM-METEXP-S8,8,tema,adquisicion,11,COSTOS,Costos: inversión de preparación frente a costo de operación,,,,
-L139,EOM-METEXP-S8,9,tema,adquisicion,11,DILUCIÓN Y RECUPERACIÓN,Dilución y recuperación: qué se pierde y qué se contamina,,,,
-L140,EOM-METEXP-S8,10,tema,adquisicion,11,SEGURIDAD,Seguridad: exposición del personal según el método,,,,
-L141,EOM-METEXP-S8,11,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L142,EOM-METEXP-S8,12,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
-L143,EOM-METEXP-S8,13,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
-L144,EOM-METEXP-S8,14,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L145,EOM-METEXP-S8,15,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
-L146,EOM-METEXP-S8,16,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
-L147,EOM-METEXP-S8,17,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L148,EOM-METEXP-S8,18,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
-L149,EOM-METEXP-S8,19,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
-L150,EOM-METEXP-S8,20,tapa,,0,,,,,,
-L151,EOM-METEXP-S9,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-L152,EOM-METEXP-S9,2,subportada-sesion,,2,Sesión N°9,Selección aplicada a yacimientos tipo veta,,,,
-L153,EOM-METEXP-S9,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-L154,EOM-METEXP-S9,4,triangulacion,conexion,5,APRENDIZAJE PREVISTO,Seleccionar y justificar el método de explotación para yacimientos tipo veta según sus características.,,,,
-L155,EOM-METEXP-S9,5,contenido,conexion,13,Veo – Pienso – Me pregunto,"Rutina: qué VEO, qué PIENSO, qué ME PREGUNTO. 3' escribir · 7' compartir · 2' cerrar",,,,
-L156,EOM-METEXP-S9,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-L157,EOM-METEXP-S9,7,tema,adquisicion,15,CARACTERÍSTICAS DE UN YACIMIENTO TIPO VETA,Características de un yacimiento tipo veta,,,,
-L158,EOM-METEXP-S9,8,tema,adquisicion,15,MÉTODOS APLICABLES A VETA Y POR QUÉ SE DESCART,Métodos aplicables a veta y por qué se descartan los demás,,,,
-L159,EOM-METEXP-S9,9,tema,adquisicion,15,JUSTIFICACIÓN DE LA ELECCIÓN CON CRITERIOS GEO,Justificación de la elección con criterios geológicos y de productividad,,,,
-L160,EOM-METEXP-S9,10,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-L161,EOM-METEXP-S9,11,contenido,aplicacion,8,El caso de hoy,Consigna y organización de equipos,,,,
-L162,EOM-METEXP-S9,12,contenido,aplicacion,32,Trabajo en equipo,Los equipos resuelven el caso,,,,
-L163,EOM-METEXP-S9,13,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-L164,EOM-METEXP-S9,14,contenido,discusion,15,Puesta en común,Cada equipo expone · Afirmación–Apoyo–Pregunta,,,,
-L165,EOM-METEXP-S9,15,contenido,discusion,5,Lo que hay que fijar,El instructor corrige rumbo,,,,
-L166,EOM-METEXP-S9,16,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-L167,EOM-METEXP-S9,17,contenido,reflexion,4,Titular,Rutina de cierre: un titular de una línea,,,,
-L168,EOM-METEXP-S9,18,contenido,reflexion,6,Qué me llevo,Vuelta al aprendizaje esperado y tarea autónoma,,,,
-L169,EOM-METEXP-S9,19,tapa,,0,,,,,,
-LAM-EOM-METEXP-S1-01,EOM-METEXP-S1,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-LAM-EOM-METEXP-S1-02,EOM-METEXP-S1,2,subportada-sesion,,0,Sesión N°1,Ciclo de minado y operaciones unitarias I: perforación y voladura,,,,
-LAM-EOM-METEXP-S1-03,EOM-METEXP-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-LAM-EOM-METEXP-S1-04,EOM-METEXP-S1,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en esta labor?
-·  ¿Qué PIENSO que está pasando ahí?
-·  ¿Qué ME PREGUNTO?",,,un frente con los taladros perforados y el trazo marcado,IMG-FRENTE-PERFORACION
-LAM-EOM-METEXP-S1-05,EOM-METEXP-S1,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
-LAM-EOM-METEXP-S1-06,EOM-METEXP-S1,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-LAM-EOM-METEXP-S1-ADQ1,EOM-METEXP-S1,7,tema,adquisicion,7,EL CICLO DE MINADO,,C101,"1,2,3","las cinco operaciones encadenadas, con perforación y voladura resaltadas",IMG-CICLO-S1
-LAM-EOM-METEXP-S1-ADQ2,EOM-METEXP-S1,8,tema,adquisicion,6,LAS CINCO OPERACIONES,,C101,"4,5,6",el ciclo completo con sus cinco operaciones activas,IMG-CICLO-COMPLETO
-LAM-EOM-METEXP-S1-ADQ3,EOM-METEXP-S1,9,tema,adquisicion,7,EL TRAZO DEL FRENTE,,C102,"1,2,3","dónde va cada taladro en el frente: arranque, ayudas y contorno",IMG-MALLA-FRENTE
-LAM-EOM-METEXP-S1-ADQ4,EOM-METEXP-S1,10,tema,adquisicion,7,PERFORAR CON JUMBO,,C102,"4,5,6","un jumbo de dos brazos, con sus vigas de avance",IMG-JUMBO
-LAM-EOM-METEXP-S1-ADQ5,EOM-METEXP-S1,11,tema,adquisicion,6,PERFORAR CON JACKLEG,,C102,"7,8,9,10","un jackleg con su pierna de avance, manguera de aire y línea de agua",IMG-JACKLEG
-LAM-EOM-METEXP-S1-ADQ6,EOM-METEXP-S1,12,tema,adquisicion,6,CARGAR EL TALADRO,,C103,"1,2,3,4","qué va dentro del taladro y en qué orden, desde el fondo",IMG-CARGA-TALADRO
-LAM-EOM-METEXP-S1-ADQ7,EOM-METEXP-S1,13,tema,adquisicion,6,LA SECUENCIA DE ENCENDIDO,,C103,"5,6,7,8,9","las fases del disparo: arranque, ayudas y periferia",IMG-SECUENCIA-ENCENDIDO
-LAM-EOM-METEXP-S1-11,EOM-METEXP-S1,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-LAM-EOM-METEXP-S1-12,EOM-METEXP-S1,15,contenido,aplicacion,5,"Dos frentes, un solo reporte","Son las 6 de la mañana en la mina Santa Rosa y entra la guardia de día.
-La guardia de noche trabajó en dos frentes: la RAMPA 340, mecanizada, y la GALERÍA 285, veta angosta.
-Los dos quedaron perforados y disparados — pero el maestro se fue sin dejar el reporte de guardia.
+L-EOM-METEXP-S1-01,EOM-METEXP-S1,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,,,,,
+L-EOM-METEXP-S1-02,EOM-METEXP-S1,2,subportada-sesion,,0,Sesión N°1,Caracterización del yacimiento y dimensionamiento de la labor,,,,
+L-EOM-METEXP-S1-03,EOM-METEXP-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S1-04,EOM-METEXP-S1,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
 
-Sin ese reporte nadie puede entrar: no se sabe si el disparo salió completo ni si el frente está desatado.",,,,
-LAM-EOM-METEXP-S1-13,EOM-METEXP-S1,16,contenido,aplicacion,8,¿Qué necesita saber quien entra?,"¿Qué operaciones tuvieron que ocurrir en ese frente, y en qué orden?
-¿Qué equipo se usó, y por qué ese y no el otro?
-¿Qué pasa si la guardia entrante no sabe si el frente está desatado?",,,,
-LAM-EOM-METEXP-S1-FICHA1,EOM-METEXP-S1,17,contenido,aplicacion,2,RAMPA 340 · su ficha,"Este es el frente del primer equipo.
-Todo lo que necesitan está aquí — salvo una cosa: con qué se perforó.",,,,IMG-FICHA-RAMPA
-LAM-EOM-METEXP-S1-FICHA2,EOM-METEXP-S1,18,contenido,aplicacion,2,GALERÍA 285 · su ficha,"Este es el frente del segundo equipo.
-Misma ficha, otros números. Y la misma pregunta abierta.",,,,IMG-FICHA-GALERIA
-LAM-EOM-METEXP-S1-14,EOM-METEXP-S1,19,contenido,aplicacion,23,Reconstruyan el reporte de su frente,"1 · Lean la ficha: veta, sección, taladros, sostenimiento.
-2 · Deduzcan con qué equipo se perforó, y por qué ese.
-3 · Listen las operaciones que tuvieron que ocurrir, en orden.
-4 · Para cada una: equipo · materiales · resultado esperado.
-5 · Redacten el reporte y repartan la exposición.",,,,
-LAM-EOM-METEXP-S1-15,EOM-METEXP-S1,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-LAM-EOM-METEXP-S1-16,EOM-METEXP-S1,21,contenido,discusion,15,"Los dos frentes, lado a lado","Un equipo de cada frente expone su reporte.
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S1-05,EOM-METEXP-S1,5,contenido,conexion,2,El curso en una lámina,"Dos bloques. Cada uno cierra con un trabajo colaborativo que vale el 25 % de la nota.
 
-Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
-LAM-EOM-METEXP-S1-17,EOM-METEXP-S1,22,contenido,discusion,5,Lo que hay que fijar,"Las operaciones del ciclo, en orden, empezando por el desatado.
-Qué equipo va en cada tipo de labor, y por qué.
-Sin cara libre el disparo comprime en vez de romper.",,,,
-LAM-EOM-METEXP-S1-18,EOM-METEXP-S1,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-LAM-EOM-METEXP-S1-19,EOM-METEXP-S1,24,contenido,reflexion,4,Titular,Escribe un titular de una línea que capture qué es el ciclo de minado.,,,,
-LAM-EOM-METEXP-S1-20,EOM-METEXP-S1,25,contenido,reflexion,6,¿Qué me llevo?,"¿Logramos describir las operaciones de perforación y voladura?
-Para la próxima sesión: el ciclo se completa con carguío, acarreo y sostenimiento.",,,,
-LAM-EOM-METEXP-S1-21,EOM-METEXP-S1,26,tapa,,0,,,,,,
-LAM-EOM-METEXP-S2-01,EOM-METEXP-S2,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-LAM-EOM-METEXP-S2-02,EOM-METEXP-S2,2,subportada-sesion,,0,Sesión N°2,"Ciclo de minado y operaciones unitarias II: carguío, acarreo y sostenimiento",,,,
-LAM-EOM-METEXP-S2-03,EOM-METEXP-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-LAM-EOM-METEXP-S2-04,EOM-METEXP-S2,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en esta labor después del disparo?
-·  ¿Qué PIENSO que hay que hacer ahora?
-·  ¿Qué ME PREGUNTO?",,,material roto en el frente y el equipo entrando a limpiar,IMG-SCOOP-CARGANDO
-LAM-EOM-METEXP-S2-05,EOM-METEXP-S2,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
-LAM-EOM-METEXP-S2-06,EOM-METEXP-S2,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-LAM-EOM-METEXP-S2-07,EOM-METEXP-S2,7,tema,adquisicion,7,SACAR EL MATERIAL,,C105,"1,2,3",un scooptram cargando material roto en el frente,IMG-SCOOP-CARGANDO
-LAM-EOM-METEXP-S2-08,EOM-METEXP-S2,8,tema,adquisicion,6,CUANDO NO ENTRA EL SCOOPTRAM,,C105,"4,5,6",con qué se limpia según la sección de la labor,IMG-CARGUIO-SECCION
-LAM-EOM-METEXP-S2-09,EOM-METEXP-S2,9,tema,adquisicion,6,HASTA DÓNDE LLEGA EL ACARREO,,C105,"7,8,9",el recorrido del material: del frente al echadero o al camión,IMG-RECORRIDO-MATERIAL
-LAM-EOM-METEXP-S2-10,EOM-METEXP-S2,10,tema,adquisicion,7,SOSTENER LA LABOR,,C106,"1,2,3",una labor con pernos y malla ya instalados,IMG-SOSTENIMIENTO
-LAM-EOM-METEXP-S2-11,EOM-METEXP-S2,11,tema,adquisicion,7,"PERNO, MALLA Y CUADROS",,C106,"4,5,6,7",los cuatro sostenimientos comparados según el RMR,IMG-ELEMENTOS-SOST
-LAM-EOM-METEXP-S2-12,EOM-METEXP-S2,12,tema,adquisicion,6,EL DESATADO NO ES UN PASO,,C107,"1,2,3",el orden después del disparo: ventilar · desatar · limpiar · sostener,IMG-DESATADO
-LAM-EOM-METEXP-S2-13,EOM-METEXP-S2,13,tema,adquisicion,6,LOS SERVICIOS DEL FRENTE,,C107,"4,5,6,7,8,9","la sección de la labor con la manga de ventilación, aire, agua y cuneta",IMG-SECCION-LABOR
-LAM-EOM-METEXP-S2-14,EOM-METEXP-S2,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-LAM-EOM-METEXP-S2-15,EOM-METEXP-S2,15,contenido,aplicacion,5,El frente que nadie limpió,"En la mina Santa Rosa el disparo de la RAMPA 340 salió completo, pero la guardia terminó
-y el frente quedó sin limpiar: el material sigue ahí y la labor sin sostener.
+Bloque 1 · el ciclo de minado y los métodos subterráneos.
+Bloque 2 · la geomecánica, los equipos y el tajo abierto.",,,los dos bloques con sus sesiones y sus dos TC,IMG-EOM-CURSO-BLOQUES
+L-EOM-METEXP-S1-06,EOM-METEXP-S1,6,contenido,conexion,2,Cómo se califica,"La mitad de la nota sale de los dos trabajos colaborativos.
 
-El jefe de mina necesita saber qué falta hacer antes de que entre la siguiente guardia,
-y en qué orden — porque hacerlo al revés es un accidente.",,,,
-LAM-EOM-METEXP-S2-16,EOM-METEXP-S2,16,contenido,aplicacion,8,¿Qué falta y en qué orden?,"¿Qué operaciones quedan pendientes en ese frente?
-¿Cuál va primero y por qué no puede ser otra?
-¿Qué pasa si se entra a cargar antes de desatar?",,,,
-LAM-EOM-METEXP-S2-17,EOM-METEXP-S2,17,contenido,aplicacion,2,RAMPA 340 · su ficha,El frente del primer equipo.,,,,IMG-FICHA-S2-RAMPA
-LAM-EOM-METEXP-S2-18,EOM-METEXP-S2,18,contenido,aplicacion,2,GALERÍA 285 · su ficha,El frente del segundo equipo.,,,,IMG-FICHA-S2-GALERIA
-LAM-EOM-METEXP-S2-19,EOM-METEXP-S2,19,contenido,aplicacion,23,Planifiquen la limpieza de su frente,"1 · Lean la ficha: material roto, sección, sostenimiento instalado, distancia a la tolva.
-2 · Deduzcan con qué equipo se limpia ese frente, y por qué ese.
-3 · Ordenen las operaciones que faltan, desde que entra la guardia.
-4 · Para cada una: equipo · materiales · qué deja lista para la siguiente.
-5 · Redacten el plan de guardia y repartan la exposición.",,,,
-LAM-EOM-METEXP-S2-20,EOM-METEXP-S2,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-LAM-EOM-METEXP-S2-21,EOM-METEXP-S2,21,contenido,discusion,15,"Los dos frentes, lado a lado","Un equipo de cada frente expone su plan.
+TC1 25 % · TC2 25 % · Examen parcial 20 % · Examen final 20 % · Cuestionarios 10 %
 
-Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
-LAM-EOM-METEXP-S2-22,EOM-METEXP-S2,22,contenido,discusion,5,Lo que hay que fijar,"El orden no es opcional: desatar · ventilar · limpiar · sostener.
-El equipo de limpieza lo decide la sección de la labor.
-El sostenimiento lo decide la calidad del macizo.",,,,
-LAM-EOM-METEXP-S2-23,EOM-METEXP-S2,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-LAM-EOM-METEXP-S2-24,EOM-METEXP-S2,24,contenido,reflexion,4,Titular,Escribe un titular de una línea sobre por qué el orden de las operaciones no se altera.,,,,
-LAM-EOM-METEXP-S2-25,EOM-METEXP-S2,25,contenido,reflexion,6,¿Qué me llevo?,"¿Podemos describir las cinco operaciones del ciclo completo?
-Para la próxima sesión: cómo se clasifican los métodos de explotación.",,,,
-LAM-EOM-METEXP-S2-26,EOM-METEXP-S2,26,tapa,,0,,,,,,
-LAM-EOM-METEXP-S3-01,EOM-METEXP-S3,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-LAM-EOM-METEXP-S3-02,EOM-METEXP-S3,2,subportada-sesion,,0,Sesión N°3,Clasificación de los métodos · corte y relleno · cámaras y pilares,,,,
-LAM-EOM-METEXP-S3-03,EOM-METEXP-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-LAM-EOM-METEXP-S3-04,EOM-METEXP-S3,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en esta labor?
-·  ¿Qué PIENSO que sostiene el techo?
-·  ¿Qué ME PREGUNTO?",,,un tajeo abierto donde se vea qué sostiene el vacío,IMG-CORTE-RELLENO
-LAM-EOM-METEXP-S3-05,EOM-METEXP-S3,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
-LAM-EOM-METEXP-S3-06,EOM-METEXP-S3,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-LAM-EOM-METEXP-S3-07,EOM-METEXP-S3,7,tema,adquisicion,7,TRES FORMAS DE SOSTENER EL VACÍO,,C108,"1,2,3,4",los tres grupos de métodos comparados por cómo sostienen el vacío,IMG-TRES-GRUPOS
-LAM-EOM-METEXP-S3-08,EOM-METEXP-S3,8,tema,adquisicion,7,CORTE Y RELLENO: CÓMO AVANZA,,C109,"1,2,3","la secuencia del corte y relleno: cortes horizontales que suben, cada uno rellenado",IMG-CORTE-RELLENO
-LAM-EOM-METEXP-S3-09,EOM-METEXP-S3,9,tema,adquisicion,6,PARA QUÉ SIRVE EL RELLENO,,C109,"4,5,6","los tipos de relleno comparados: detrítico, hidráulico, cementado y en pasta",IMG-TIPOS-RELLENO
-LAM-EOM-METEXP-S3-10,EOM-METEXP-S3,10,tema,adquisicion,6,CUÁNDO SE USA CORTE Y RELLENO,,C110,"1,2,3,4","las condiciones del yacimiento que piden corte y relleno: veta angosta, buzamiento alto, cajas malas",IMG-COND-CORTE-RELLENO
-LAM-EOM-METEXP-S3-11,EOM-METEXP-S3,11,tema,adquisicion,7,CÁMARAS Y PILARES: EL PILAR SOSTIENE,,C111,"1,2,3","un tajeo de cámaras y pilares visto en planta, con el damero de pilares y cámaras",IMG-CAMARAS-PILARES
-LAM-EOM-METEXP-S3-12,EOM-METEXP-S3,12,tema,adquisicion,6,LO QUE SE QUEDA EN LOS PILARES,,C111,"4,5",la sección de un manto con los pilares dejados y el mineral que se pierde en ellos,IMG-CAMARAS-PILARES
-LAM-EOM-METEXP-S3-13,EOM-METEXP-S3,13,tema,adquisicion,6,CUÁNDO SE USA CÁMARAS Y PILARES,,C112,"1,2,3,4","las condiciones que piden cámaras y pilares: manto horizontal, techo competente, ley baja",IMG-COND-CAMARAS
-LAM-EOM-METEXP-S3-14,EOM-METEXP-S3,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-LAM-EOM-METEXP-S3-15,EOM-METEXP-S3,15,contenido,aplicacion,5,"Dos yacimientos, dos métodos","La minera Santa Rosa tiene dos zonas por abrir y quiere saber cómo se explota cada una.
+Nota mínima aprobatoria: 13.",,,peso de cada evento calificado,IMG-EOM-EVALUACION
+L-EOM-METEXP-S1-07,EOM-METEXP-S1,7,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-RUTA-S1
+L-EOM-METEXP-S1-08,EOM-METEXP-S1,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S1-09,EOM-METEXP-S1,9,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa este frente de mina.
 
-ZONA NORTE · veta de 1,10 m, buzamiento 78°, cajas de RMR 38, ley alta
-ZONA SUR · manto de 6,00 m, buzamiento 8°, techo de RMR 65, ley baja
+Escribe tres líneas:
+qué VES · qué PIENSAS que decidió el ancho de esta labor · qué te PREGUNTAS",,,frente subterráneo con la veta marcada con pintura por topografía,IMG-EOM-FRENTE-VETA
+L-EOM-METEXP-S1-10,EOM-METEXP-S1,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S1-11,EOM-METEXP-S1,11,tema,adquisicion,5,La veta y sus cajas,,C-EOM-METEXP-S1-1,1-3,"corte de una veta entre sus dos cajas, con la potencia acotada perpendicular a las cajas y el buzamiento contra la horizontal",IMG-EOM-VETA-CAJAS
+L-EOM-METEXP-S1-12,EOM-METEXP-S1,12,tema,adquisicion,4,Potencia y buzamiento: cómo se miden,,C-EOM-METEXP-S1-1,4-6,"la escala del buzamiento y como se mide, con un caso real",IMG-EOM-ESCALA-BUZAMIENTO
+L-EOM-METEXP-S1-13,EOM-METEXP-S1,13,tema,adquisicion,5,La forma del cuerpo mineralizado,,C-EOM-METEXP-S1-1,7-10,"veta, manto y cuerpo lenticular lado a lado, cada uno en su corte real",IMG-EOM-FORMAS-CUERPO
+L-EOM-METEXP-S1-14,EOM-METEXP-S1,14,tema,adquisicion,4,Qué es el RMR,,C-EOM-METEXP-S1-2,1-4,la escala de 0 a 100 con sus cinco tramos de calidad y el RMR 40 del caso señalado,IMG-EOM-RMR-ESCALA
+L-EOM-METEXP-S1-15,EOM-METEXP-S1,15,tema,adquisicion,5,"El RMR es del terreno, no de la labor",,C-EOM-METEXP-S1-2,5-8,que RMR tiene cada zona de la labor y que se sigue de eso,IMG-EOM-RMR-TRES-ZONAS
+L-EOM-METEXP-S1-16,EOM-METEXP-S1,16,tema,adquisicion,4,Tres medidas que no son la misma,,C-EOM-METEXP-S1-3,1-4,que es cada una de las tres medidas y quien la decide,IMG-EOM-TRES-MEDIDAS-TABLA
+L-EOM-METEXP-S1-17,EOM-METEXP-S1,17,tema,adquisicion,5,Por qué el ancho supera a la potencia,,C-EOM-METEXP-S1-3,5-8,"la seccion real de una labor con el equipo dentro y sus dos medidas: 3,10 m de ancho por 2,90 m de alto",IMG-EOM-SECCION-CRUCERO
+L-EOM-METEXP-S1-18,EOM-METEXP-S1,18,tema,adquisicion,4,La tabla geomecánica de la labor,,C-EOM-METEXP-S1-4,1-3,"la tabla colgada en la pizarra de una labor, con su firma y su fecha",IMG-EOM-TABLA-GEOMEC
+L-EOM-METEXP-S1-19,EOM-METEXP-S1,19,tema,adquisicion,5,Sostenimiento pasivo y activo,,C-EOM-METEXP-S1-4,4-7,en que se diferencian el sostenimiento pasivo y el activo,IMG-EOM-PASIVO-ACTIVO-TABLA
+L-EOM-METEXP-S1-20,EOM-METEXP-S1,20,tema,adquisicion,4,El sostenimiento mueve el límite,,C-EOM-METEXP-S1-4,8-10,que abertura habilita cada sostenimiento con el mismo RMR,IMG-EOM-SOST-ABERTURA
+L-EOM-METEXP-S1-21,EOM-METEXP-S1,21,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S1-22,EOM-METEXP-S1,22,contenido,aplicacion,7,De tres metros a doce,"Entra un maestro nuevo al frente. Encuentra la marca de topografía sobre la roca: una línea de pintura a cada lado de la veta.
 
-El jefe de mina pide describir el método que corresponde a cada una — y por qué ese.",,,,
-LAM-EOM-METEXP-S3-16,EOM-METEXP-S3,16,contenido,aplicacion,8,¿Qué le pide cada yacimiento al método?,"¿Qué sostiene el vacío en cada zona?
-¿Se puede dejar mineral sin extraer en la zona norte? ¿Y en la sur?
-¿Qué pasa si se aplica el método de una zona en la otra?",,,,
-LAM-EOM-METEXP-S3-17,EOM-METEXP-S3,17,contenido,aplicacion,2,ZONA NORTE · su ficha,El yacimiento del primer equipo.,,,la ficha de datos de la zona norte,IMG-FICHA-S3-NORTE
-LAM-EOM-METEXP-S3-18,EOM-METEXP-S3,18,contenido,aplicacion,2,ZONA SUR · su ficha,El yacimiento del segundo equipo.,,,la ficha de datos de la zona sur,IMG-FICHA-S3-SUR
-LAM-EOM-METEXP-S3-19,EOM-METEXP-S3,19,contenido,aplicacion,23,Describan el método de su zona,"1 · Lean la ficha: potencia, buzamiento, RMR, ley.
-2 · Deduzcan qué método corresponde, y por qué ese y no el otro.
-3 · Describan sus labores y su secuencia de avance.
-4 · Digan qué sostiene el vacío y qué pasa con el mineral que queda.
-5 · Redacten la descripción y repartan la exposición.",,,,
-LAM-EOM-METEXP-S3-20,EOM-METEXP-S3,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-LAM-EOM-METEXP-S3-21,EOM-METEXP-S3,21,contenido,discusion,15,"Las dos zonas, lado a lado","Un equipo de cada zona expone su método.
+—Acá dice un metro veinte. ¿Rompo un metro veinte entonces? Porque el jumbo no me entra ahí.
 
-Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
-LAM-EOM-METEXP-S3-22,EOM-METEXP-S3,22,contenido,discusion,5,Lo que hay que fijar,"El método lo pide el yacimiento, no lo elige el gusto.
-Corte y relleno recupera todo pero es caro; cámaras y pilares es barato pero deja mineral.
-Lo que decide: potencia, buzamiento, calidad de la roca y ley.",,,,
-LAM-EOM-METEXP-S3-23,EOM-METEXP-S3,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-LAM-EOM-METEXP-S3-24,EOM-METEXP-S3,24,contenido,reflexion,4,Titular,Escribe un titular de una línea sobre qué diferencia a un método soportado de uno con relleno.,,,,
-LAM-EOM-METEXP-S3-25,EOM-METEXP-S3,25,contenido,reflexion,6,¿Qué me llevo?,"¿Podemos describir dos métodos y decir cuándo se usa cada uno?
-Para la próxima sesión: sublevel stoping y block caving.",,,,
-LAM-EOM-METEXP-S3-26,EOM-METEXP-S3,26,tapa,,0,,,,,,
-LAM-EOM-METEXP-S4-01,EOM-METEXP-S4,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
-LAM-EOM-METEXP-S4-02,EOM-METEXP-S4,2,subportada-sesion,,0,Sesión N°4,Sublevel stoping y block caving,,,,
-LAM-EOM-METEXP-S4-03,EOM-METEXP-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
-LAM-EOM-METEXP-S4-04,EOM-METEXP-S4,4,tema,conexion,12,VEO · PIENSO · ME PREGUNTO,"·  ¿Qué VEO en este tajeo?
-·  ¿Qué PIENSO que pasó con la roca de arriba?
-·  ¿Qué ME PREGUNTO?",,,"un tajeo vacío de gran altura, donde se vea que nada lo sostiene",IMG-SLS
-LAM-EOM-METEXP-S4-05,EOM-METEXP-S4,5,triangulacion,conexion,8,APRENDIZAJE PREVISTO,,,,,
-LAM-EOM-METEXP-S4-06,EOM-METEXP-S4,6,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
-LAM-EOM-METEXP-S4-07,EOM-METEXP-S4,7,tema,adquisicion,7,SUBLEVEL STOPING: LA PREPARACIÓN,,C113,"1,2,3","un tajeo de sublevel stoping en sección, con los subniveles y los taladros largos",IMG-SLS
-LAM-EOM-METEXP-S4-08,EOM-METEXP-S4,8,tema,adquisicion,6,CÓMO SALE EL MINERAL,,C113,"4,5,6",el mineral cayendo por gravedad al nivel de extracción y el scooptram recogiéndolo,IMG-SLS
-LAM-EOM-METEXP-S4-09,EOM-METEXP-S4,9,tema,adquisicion,6,CUÁNDO SE USA SUBLEVEL STOPING,,C114,"1,2,3,4,5","las condiciones que pide el sublevel stoping, contrastadas con las del block caving",IMG-COND-SLS
-LAM-EOM-METEXP-S4-10,EOM-METEXP-S4,10,tema,adquisicion,7,BLOCK CAVING: QUITAR EL APOYO,,C115,"1,2,3",la socavación de la base del bloque y el bloque fracturándose por su propio peso,IMG-BLOCK-CAVING
-LAM-EOM-METEXP-S4-11,EOM-METEXP-S4,11,tema,adquisicion,6,EL MINERAL FLUYE SOLO,,C115,"4,5,6","el flujo del mineral hacia los puntos de extracción, y la subsidencia en superficie",IMG-BLOCK-CAVING
-LAM-EOM-METEXP-S4-12,EOM-METEXP-S4,12,tema,adquisicion,6,CUÁNDO SE USA BLOCK CAVING,,C116,"1,2,3,4,5","las condiciones que pide el block caving, contrastadas con las del sublevel stoping",IMG-COND-BC
-LAM-EOM-METEXP-S4-13,EOM-METEXP-S4,13,tema,adquisicion,7,SOSTENER O HUNDIR,,C1104,"1,2,3,4","los dos métodos enfrentados: uno deja el vacío abierto, el otro lo provoca",IMG-COND-SLS
-LAM-EOM-METEXP-S4-14,EOM-METEXP-S4,14,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
-LAM-EOM-METEXP-S4-15,EOM-METEXP-S4,15,contenido,aplicacion,5,"Dos cuerpos, dos decisiones","La minera Santa Rosa reconoció dos cuerpos mineralizados y quiere abrir los dos.
+En la pizarra está la tabla geomecánica del mes, firmada. El maestro pasó sin mirarla.",,,el frente con la marca de pintura y la pizarra al fondo,IMG-EOM-FRENTE-VETA
+L-EOM-METEXP-S1-23,EOM-METEXP-S1,23,contenido,aplicacion,6,Las tres labores,"El supervisor le alcanza otras dos fichas.
 
-CUERPO A · 40 m de potencia, contornos definidos, RMR 68, ley media
-CUERPO B · 200 × 150 m en planta y 300 m de alto, RMR 42, ley baja
+—Es la misma veta y el mismo macizo en las tres, y en cada una se abre distinto.",,,"las tres labores comparadas, con la frase del capataz al pie",IMG-EOM-TRES-FICHAS
+L-EOM-METEXP-S1-24,EOM-METEXP-S1,24,contenido,aplicacion,7,El encargo,"En parejas, sobre el cuadro que se les entrega. Veinte minutos.
 
-El jefe de mina pide describir cómo se explota cada uno — y qué pasa con el vacío.",,,,
-LAM-EOM-METEXP-S4-16,EOM-METEXP-S4,16,contenido,aplicacion,8,¿Qué hace cada método con el vacío?,"¿Qué sostiene el hueco en cada cuerpo?
-¿Cuál de los dos se puede detener a mitad de camino?
-¿Qué pasa en la superficie sobre cada uno?",,,,
-LAM-EOM-METEXP-S4-17,EOM-METEXP-S4,17,contenido,aplicacion,2,CUERPO A · su ficha,El yacimiento del primer equipo.,,,la ficha de datos del cuerpo A,IMG-FICHA-S4-A
-LAM-EOM-METEXP-S4-18,EOM-METEXP-S4,18,contenido,aplicacion,2,CUERPO B · su ficha,El yacimiento del segundo equipo.,,,la ficha de datos del cuerpo B,IMG-FICHA-S4-B
-LAM-EOM-METEXP-S4-19,EOM-METEXP-S4,19,contenido,aplicacion,23,Describan el método de su cuerpo,"1 · Lean la ficha: dimensiones, contornos, RMR, ley, qué hay en superficie.
-2 · Deduzcan qué método corresponde, y por qué el otro no serviría.
-3 · Describan la preparación y cómo sale el mineral.
-4 · Digan qué pasa con el vacío y qué se ve desde arriba.
-5 · Redacten la descripción y repartan la exposición.",,,,
-LAM-EOM-METEXP-S4-20,EOM-METEXP-S4,20,subportada-momento,discusion,0,DISCUSIÓN,,,,,
-LAM-EOM-METEXP-S4-21,EOM-METEXP-S4,21,contenido,discusion,15,"Los dos cuerpos, lado a lado","Un equipo de cada cuerpo expone su método.
+Tienen las tres fichas y la tabla geomecánica.",,,"el impreso del encargo, con sus dos preguntas",IMG-EOM-CUADRO-ENCARGO
+L-EOM-METEXP-S1-25,EOM-METEXP-S1,25,contenido,aplicacion,20,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-COMO-TRABAJAMOS
+L-EOM-METEXP-S1-26,EOM-METEXP-S1,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S1-27,EOM-METEXP-S1,27,contenido,discusion,14,Empecemos por el número de la tabla,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-PUESTA-COMUN
+L-EOM-METEXP-S1-28,EOM-METEXP-S1,28,contenido,discusion,6,"Una última, antes de cerrar",No se entrega nada: se conversa.,,,"lo que cuesta y lo que rinde, y la salida hacia el TC1",IMG-EOM-PUENTE-TC1
+L-EOM-METEXP-S1-29,EOM-METEXP-S1,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S1-30,EOM-METEXP-S1,30,contenido,reflexion,10,Antes de irnos,"Volvamos a las preguntas que dejaste al inicio, frente a la fotografía del frente.
 
-Al exponer y al comentar:   AFIRMO…    ME APOYO EN…    ME PREGUNTO…",,,,
-LAM-EOM-METEXP-S4-22,EOM-METEXP-S4,22,contenido,discusion,5,Lo que hay que fijar,"El sublevel stoping confía en la roca; el block caving no la sostiene, la hunde.
-El volumen decide: el hundimiento solo se paga con tonelaje.
-Y una vez iniciado el hundimiento, no se puede parar.",,,,
-LAM-EOM-METEXP-S4-23,EOM-METEXP-S4,23,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
-LAM-EOM-METEXP-S4-24,EOM-METEXP-S4,24,contenido,reflexion,4,Titular,Escribe un titular de una línea sobre qué se gana y qué se pierde al hundir un bloque.,,,,
-LAM-EOM-METEXP-S4-25,EOM-METEXP-S4,25,contenido,reflexion,6,¿Qué me llevo?,"¿Podemos describir los dos métodos y decir qué hace cada uno con el vacío?
-Para la próxima sesión: sublevel caving y explotación superficial.",,,,
-LAM-EOM-METEXP-S4-26,EOM-METEXP-S4,26,tapa,,0,,,,,,
+La próxima sesión: el ciclo de minado y sus cinco operaciones unitarias, en el orden en que se ejecutan.
+
+Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
+L-EOM-METEXP-S1-31,EOM-METEXP-S1,31,tapa,,0,,,,,,
+L-EOM-METEXP-S2-01,EOM-METEXP-S2,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S2-02,EOM-METEXP-S2,2,subportada-sesion,,0,Sesión N°2,El ciclo de minado: operaciones unitarias y su secuencia,,,,
+L-EOM-METEXP-S2-03,EOM-METEXP-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S2-04,EOM-METEXP-S2,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S2-05,EOM-METEXP-S2,5,contenido,conexion,4,De dónde venimos,"La sesión pasada terminamos sabiendo qué mide la veta y cuánto se abre la labor.
+
+Hoy entramos en esa labor abierta: qué se hace dentro, y en qué orden.",,,el puente de la sesión 1 a la sesión 2,IMG-EOM-S2-DE-DONDE
+L-EOM-METEXP-S2-06,EOM-METEXP-S2,6,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-S2-RUTA
+L-EOM-METEXP-S2-07,EOM-METEXP-S2,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S2-08,EOM-METEXP-S2,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa este frente.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que pasó aquí antes · qué te PREGUNTAS sobre lo que viene después",,,"un frente real con el jumbo trabajando, sin nada que dé la respuesta",IMG-EOM-FRENTE-PERFORACION
+L-EOM-METEXP-S2-09,EOM-METEXP-S2,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S2-10,EOM-METEXP-S2,10,tema,adquisicion,5,Qué hace una operación unitaria,,C-EOM-METEXP-S2-1,1-3,"material que entra, operación, material que sale",IMG-EOM-S2-QUE-ES-OPERACION
+L-EOM-METEXP-S2-11,EOM-METEXP-S2,11,tema,adquisicion,5,"Las cinco, una por una",,C-EOM-METEXP-S2-1,4-7,las cinco operaciones con lo que le hacen al material,IMG-EOM-S2-CINCO
+L-EOM-METEXP-S2-12,EOM-METEXP-S2,12,tema,adquisicion,4,"Cinco productos, cinco medidas",,C-EOM-METEXP-S2-1,8-10,"qué equipo, qué insumo y cómo se mide cada operación",IMG-EOM-S2-EQUIPO-MEDIDA
+L-EOM-METEXP-S2-13,EOM-METEXP-S2,13,tema,adquisicion,5,El orden lo manda la necesidad,,C-EOM-METEXP-S2-2,1-3,la cadena: sin uno no hay el siguiente,IMG-EOM-S2-CADENA
+L-EOM-METEXP-S2-14,EOM-METEXP-S2,14,tema,adquisicion,4,Cada paso deja listo al siguiente,,C-EOM-METEXP-S2-2,4-6,el scooptram sacando el material roto del frente,IMG-EOM-SCOOP-CARGANDO
+L-EOM-METEXP-S2-15,EOM-METEXP-S2,15,tema,adquisicion,5,"Un círculo, no una lista",,C-EOM-METEXP-S2-2,7-9,las cinco en anillo: la quinta devuelve a la primera,IMG-EOM-S2-CICLO-ORDEN
+L-EOM-METEXP-S2-16,EOM-METEXP-S2,16,tema,adquisicion,5,Lo que acompaña al ciclo entero,,C-EOM-METEXP-S2-3,1-4,"ventilar, desatar y regar rodeando al ciclo, no dentro",IMG-EOM-S2-PERMANENTES
+L-EOM-METEXP-S2-17,EOM-METEXP-S2,17,tema,adquisicion,4,Desatar no es un paso: es una condición,,C-EOM-METEXP-S2-3,5-8,"el orden después del disparo: ventilar, desatar, limpiar, sostener",IMG-EOM-DESATADO
+L-EOM-METEXP-S2-18,EOM-METEXP-S2,18,tema,adquisicion,4,Un frente es un instante del ciclo,,C-EOM-METEXP-S2-4,1-4,una labor ya sostenida con pernos y malla,IMG-EOM-SOSTENIMIENTO
+L-EOM-METEXP-S2-19,EOM-METEXP-S2,19,tema,adquisicion,4,Del bloc al reporte del ciclo,,C-EOM-METEXP-S2-4,5-8,la pregunta que ubica cada anotación,IMG-EOM-S2-BLOC-REPORTE
+L-EOM-METEXP-S2-20,EOM-METEXP-S2,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S2-21,EOM-METEXP-S2,21,contenido,aplicacion,7,El bloc del ayudante,"Entró hace tres semanas. El jefe de guardia le dio un bloc y le dijo que anotara todo lo que fuera viendo.
+
+Caminó la guardia entera y llenó una hoja con nueve anotaciones, en el orden en que las vio.
+
+Hoy tiene que pasarlas al reporte del ciclo.",,,"la cuadrilla en el frente, con el trazo marcado",IMG-EOM-FRENTE-DISPARADO
+L-EOM-METEXP-S2-22,EOM-METEXP-S2,22,contenido,aplicacion,6,Las nueve anotaciones,"Lo único que lo tiene trabado: anotó dos veces lo mismo, en dos momentos distintos de la guardia, y no sabe cuál borrar.",,,el bloc con las nueve anotaciones tal como las escribió,IMG-EOM-S2-BLOC
+L-EOM-METEXP-S2-23,EOM-METEXP-S2,23,contenido,aplicacion,7,El encargo,"En parejas, sobre el cuadro que se les entrega. Veinte minutos.
+
+Todo lo que anotó pasó de verdad. Y aun así el reporte del ciclo no se llena copiando el bloc.",,,el cuadro de tres columnas que hay que llenar,IMG-EOM-S2-ENCARGO
+L-EOM-METEXP-S2-24,EOM-METEXP-S2,24,contenido,aplicacion,20,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S2-COMO-TRABAJAMOS
+L-EOM-METEXP-S2-25,EOM-METEXP-S2,25,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S2-26,EOM-METEXP-S2,26,contenido,discusion,14,Empecemos por las que sí tocan el material,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S2-PUESTA-COMUN
+L-EOM-METEXP-S2-27,EOM-METEXP-S2,27,contenido,discusion,6,"Una última, antes de cerrar",No se entrega nada: se conversa.,,,la salida hacia la sesión 3 y hacia el TC1,IMG-EOM-S2-PUENTE
+L-EOM-METEXP-S2-28,EOM-METEXP-S2,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S2-29,EOM-METEXP-S2,29,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía del frente.
+
+La próxima sesión: qué equipo entra en cada operación y qué controla el técnico en cada una.
+
+Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
+L-EOM-METEXP-S2-30,EOM-METEXP-S2,30,tapa,,0,,,,,,
+L-EOM-METEXP-S3-01,EOM-METEXP-S3,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S3-02,EOM-METEXP-S3,2,subportada-sesion,,0,Sesión N°3,"Equipos, materiales y controles operativos por operación unitaria",,,,
+L-EOM-METEXP-S3-03,EOM-METEXP-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S3-04,EOM-METEXP-S3,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S3-05,EOM-METEXP-S3,5,contenido,conexion,4,De dónde venimos,"La sesión pasada cerramos las cinco operaciones y el orden en que se ejecutan.
+
+Hoy: con qué se hace cada una, y qué comprueba el técnico antes de dar por buena.",,,el puente de la sesión 2 a la sesión 3,IMG-EOM-S3-DE-DONDE
+L-EOM-METEXP-S3-06,EOM-METEXP-S3,6,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-S3-RUTA
+L-EOM-METEXP-S3-07,EOM-METEXP-S3,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S3-08,EOM-METEXP-S3,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa este equipo trabajando.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que necesitó la labor para que entrara · qué te PREGUNTAS",,,un scooptram real cargando material roto en el frente,IMG-EOM-SCOOP-CARGANDO
+L-EOM-METEXP-S3-09,EOM-METEXP-S3,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S3-10,EOM-METEXP-S3,10,tema,adquisicion,5,El equipo de cada operación,,C-EOM-METEXP-S3-1,1-3,qué equipo y qué insumo lleva cada operación,IMG-EOM-S3-EQUIPO-OP
+L-EOM-METEXP-S3-11,EOM-METEXP-S3,11,tema,adquisicion,5,El jumbo y lo que perfora,,C-EOM-METEXP-S3-1,4-6,un jumbo real perforando el frente de una labor,IMG-EOM-FRENTE-PERFORACION
+L-EOM-METEXP-S3-12,EOM-METEXP-S3,12,tema,adquisicion,5,El equipo no dice qué operación es,,C-EOM-METEXP-S3-1,7-9,la labor ya sostenida con pernos y malla,IMG-EOM-SOSTENIMIENTO
+L-EOM-METEXP-S3-13,EOM-METEXP-S3,13,tema,adquisicion,5,Mecanizado y convencional,,C-EOM-METEXP-S3-2,1-4,qué separa el equipo convencional del mecanizado,IMG-EOM-S3-MEC-CONV
+L-EOM-METEXP-S3-14,EOM-METEXP-S3,14,tema,adquisicion,5,Lo que cada uno le pide a la labor,,C-EOM-METEXP-S3-2,5-8,"los tres filtros: sección, energía y recorrido",IMG-EOM-S3-ADMITE
+L-EOM-METEXP-S3-15,EOM-METEXP-S3,15,tema,adquisicion,5,El material que consume cada operación,,C-EOM-METEXP-S3-3,1-3,"un taladro cargado en corte: explosivo, cebo y taco",IMG-EOM-CARGA-TALADRO
+L-EOM-METEXP-S3-16,EOM-METEXP-S3,16,tema,adquisicion,5,Lo que el técnico comprueba,,C-EOM-METEXP-S3-3,4-8,qué controla el técnico en cada operación y qué pasa si falla,IMG-EOM-S3-CONTROL
+L-EOM-METEXP-S3-17,EOM-METEXP-S3,17,tema,adquisicion,5,Dos labores de la misma guardia,,C-EOM-METEXP-S3-4,1-4,las dos labores del caso comparadas dato a dato,IMG-EOM-S3-DOS-LABORES
+L-EOM-METEXP-S3-18,EOM-METEXP-S3,18,tema,adquisicion,5,Lo que no cambia entre las dos,,C-EOM-METEXP-S3-4,5-8,"el desate va en las dos: cambia el equipo, no la obligación",IMG-EOM-S3-DESATE
+L-EOM-METEXP-S3-19,EOM-METEXP-S3,19,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S3-20,EOM-METEXP-S3,20,contenido,aplicacion,7,El requerimiento de la guardia,"Un técnico con tres meses recibe dos labores para la misma guardia.
+
+Llena el primer requerimiento con cuidado. Para el segundo copia la misma lista, porque —dice— las operaciones son las mismas en las dos.
+
+El jefe de guardia no lo firma.",,,"la cuadrilla en el frente, con el trazo marcado",IMG-EOM-FRENTE-DISPARADO
+L-EOM-METEXP-S3-21,EOM-METEXP-S3,21,contenido,aplicacion,6,Las dos labores,"Una rampa ancha con energía al frente. Una galería angosta sobre veta, sin energía.",,,las dos labores comparadas dato a dato,IMG-EOM-S3-DOS-LABORES
+L-EOM-METEXP-S3-22,EOM-METEXP-S3,22,contenido,aplicacion,7,El encargo,"En parejas, sobre la lista de almacén. Veinte minutos.
+
+Se MARCA, no se escribe. Al lado de cada marca, una palabra: por qué ese y no el otro.",,,el cuadro de dos columnas que hay que marcar,IMG-EOM-S3-ENCARGO
+L-EOM-METEXP-S3-23,EOM-METEXP-S3,23,contenido,aplicacion,20,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S3-COMO-TRABAJAMOS
+L-EOM-METEXP-S3-24,EOM-METEXP-S3,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S3-25,EOM-METEXP-S3,25,contenido,discusion,14,Empecemos por la perforación de cada una,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S3-PUESTA-COMUN
+L-EOM-METEXP-S3-26,EOM-METEXP-S3,26,contenido,discusion,6,"Una última, antes de cerrar",No se entrega nada: se conversa.,,,la salida hacia la sesión 4 y hacia el TC1,IMG-EOM-S3-PUENTE
+L-EOM-METEXP-S3-27,EOM-METEXP-S3,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S3-28,EOM-METEXP-S3,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente al equipo trabajando.
+
+La próxima sesión: por qué una mina elige un método de explotación y no otro.
+
+Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
+L-EOM-METEXP-S3-29,EOM-METEXP-S3,29,tapa,,0,,,,,,
+L-EOM-METEXP-S4-01,EOM-METEXP-S4,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S4-02,EOM-METEXP-S4,2,subportada-sesion,,0,Sesión N°4,Métodos de explotación subterránea: labores y condiciones de aplicación,,,,
+L-EOM-METEXP-S4-03,EOM-METEXP-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S4-04,EOM-METEXP-S4,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S4-05,EOM-METEXP-S4,5,contenido,conexion,4,De dónde venimos,"La sesión pasada cerramos con qué se hace cada operación y qué comprueba el técnico.
+
+Hoy: por qué esa labor se abre así y no de otra manera.",,,el puente de la sesión 3 a la sesión 4,IMG-EOM-S4-DE-DONDE
+L-EOM-METEXP-S4-06,EOM-METEXP-S4,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-S4-RUTA
+L-EOM-METEXP-S4-07,EOM-METEXP-S4,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S4-08,EOM-METEXP-S4,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Mira la fotografía sin buscar el nombre de nada.
+
+Escribe tres líneas: qué VEO · qué PIENSO · qué ME PREGUNTO.",,,labores de una explotación subterránea real,IMG-EOM-FORMA-LABORES
+L-EOM-METEXP-S4-09,EOM-METEXP-S4,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S4-10,EOM-METEXP-S4,10,tema,adquisicion,6,Un método se reconoce por sus labores,,C-EOM-METEXP-S4-1,1-4,"la rampa, los subniveles y la chimenea en sección",IMG-EOM-SLS
+L-EOM-METEXP-S4-11,EOM-METEXP-S4,11,tema,adquisicion,6,"El corte, la galería y lo que cuesta preparar",,C-EOM-METEXP-S4-1,5-8,"los cortes que suben, el relleno debajo y la galería base",IMG-EOM-CORTE-RELLENO
+L-EOM-METEXP-S4-12,EOM-METEXP-S4,12,tema,adquisicion,6,Cuatro datos deciden el método,,C-EOM-METEXP-S4-2,1-4,la nota del macizo de 0 a 100 en cinco tramos,IMG-EOM-RMR-ESCALA
+L-EOM-METEXP-S4-13,EOM-METEXP-S4,13,tema,adquisicion,6,"Lo que admite el terreno, no la costumbre",,C-EOM-METEXP-S4-2,5-8,"las condiciones que pide cada método, contrastadas",IMG-EOM-S4-CONDICIONES
+L-EOM-METEXP-S4-14,EOM-METEXP-S4,14,tema,adquisicion,5,El hueco que queda y el hueco que se rellena,,C-EOM-METEXP-S4-3,1-4,los dos métodos lado a lado: qué pasa con el hueco,IMG-EOM-S4-HUECO
+L-EOM-METEXP-S4-15,EOM-METEXP-S4,15,tema,adquisicion,5,Lo que cambia no es el ciclo,,C-EOM-METEXP-S4-3,5-8,qué cambia y qué se mantiene entre los dos métodos,IMG-EOM-S4-LO-QUE-CAMBIA
+L-EOM-METEXP-S4-16,EOM-METEXP-S4,16,tema,adquisicion,5,Un plano no dice el método,,C-EOM-METEXP-S4-4,1-4,"el orden de lectura: labores primero, ficha después",IMG-EOM-S4-LEER-PLANO
+L-EOM-METEXP-S4-17,EOM-METEXP-S4,17,tema,adquisicion,6,Cómo se sostiene la respuesta,,C-EOM-METEXP-S4-4,5-8,"la labor sugiere, la ficha confirma, y dos datos bastan",IMG-EOM-S4-SOSTENER
+L-EOM-METEXP-S4-18,EOM-METEXP-S4,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S4-19,EOM-METEXP-S4,19,contenido,aplicacion,7,Dos planos sobre la mesa,"El planificador compara dos zonas de la misma unidad.
+
+«El año pasado un practicante me pidió el mismo requerimiento de madera para las dos. Se lo aprobé sin mirar. En la zona norte no se usó ni un puntal y en la sur nos quedamos cortos a media guardia.»
+
+Se va a una reunión y deja los dos planos sobre la mesa.",,,"las dos zonas anotadas en el plano, sin nombre de método",IMG-EOM-S4-DOS-PLANOS
+L-EOM-METEXP-S4-20,EOM-METEXP-S4,20,contenido,aplicacion,7,Las dos zonas,,,,"la ficha y las labores de cada zona, lado a lado",IMG-EOM-S4-DOS-ZONAS
+L-EOM-METEXP-S4-21,EOM-METEXP-S4,21,contenido,aplicacion,6,El encargo,"En parejas, sobre una sola hoja. Quince minutos.
+
+Se MARCA, no se escribe: cada indicio a su zona, y los que valen para las dos, en las dos.
+
+Después, una línea por zona: el método y DOS datos del plano que lo sostienen.",,,la lista de indicios con sus dos casillas,IMG-EOM-S4-ENCARGO
+L-EOM-METEXP-S4-22,EOM-METEXP-S4,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S4-COMO-TRABAJAMOS
+L-EOM-METEXP-S4-23,EOM-METEXP-S4,23,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L-EOM-METEXP-S4-24,EOM-METEXP-S4,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S4-25,EOM-METEXP-S4,25,contenido,discusion,10,Empecemos por la zona norte,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S4-PUESTA-COMUN
+L-EOM-METEXP-S4-26,EOM-METEXP-S4,26,contenido,discusion,10,Ahora la zona sur,"Mismo recorrido, otra zona.
+
+¿Qué labor la delató? ¿Qué dato de la ficha lo confirma?
+
+Y el indicio que marcaron en las dos: ¿por qué ese no decide nada?",,,"la ficha y las labores de cada zona, lado a lado",IMG-EOM-S4-DOS-ZONAS
+L-EOM-METEXP-S4-27,EOM-METEXP-S4,27,contenido,discusion,5,"Una última, antes de cerrar",,,,la pregunta del planificador y el puente a la sesión 5,IMG-EOM-S4-PUENTE
+L-EOM-METEXP-S4-28,EOM-METEXP-S4,28,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S4-29,EOM-METEXP-S4,29,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+La próxima sesión: con qué operación sigue un frente según cómo lo dejó la guardia anterior, y qué se detiene si se altera el orden.
+
+Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
+L-EOM-METEXP-S4-30,EOM-METEXP-S4,30,tapa,,0,,,,,,
+L-EOM-METEXP-S5-01,EOM-METEXP-S5,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S5-02,EOM-METEXP-S5,2,subportada-sesion,,0,Sesión N°5,Interdependencia de las operaciones unitarias y continuidad del ciclo,,,,
+L-EOM-METEXP-S5-03,EOM-METEXP-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S5-04,EOM-METEXP-S5,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S5-05,EOM-METEXP-S5,5,contenido,conexion,4,De dónde venimos,"La sesión pasada cerramos los métodos: qué se aplica en cada zona y en qué se reconoce.
+
+Hoy: cómo se retoma un ciclo que otra guardia dejó a medias.",,,el puente de la sesión 4 a la sesión 5,IMG-EOM-S5-DE-DONDE
+L-EOM-METEXP-S5-06,EOM-METEXP-S5,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-S5-RUTA
+L-EOM-METEXP-S5-07,EOM-METEXP-S5,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S5-08,EOM-METEXP-S5,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Mira la fotografía sin buscar el nombre de nada.
+
+Escribe tres líneas: qué VEO · qué PIENSO · qué ME PREGUNTO.",,,"la cuadrilla en un frente, con el trazo marcado",IMG-EOM-FRENTE-DISPARADO
+L-EOM-METEXP-S5-09,EOM-METEXP-S5,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S5-10,EOM-METEXP-S5,10,tema,adquisicion,6,Ninguna labor se recibe en cero,,C-EOM-METEXP-S5-1,1-4,el estado en que queda un frente después del disparo,IMG-EOM-FICHA-S2-RAMPA
+L-EOM-METEXP-S5-11,EOM-METEXP-S5,11,tema,adquisicion,6,Lo que el frente dice sin que nadie lo escriba,,C-EOM-METEXP-S5-1,5-8,una labor sostenida: pernos con sus platinas y malla,IMG-EOM-SOSTENIMIENTO
+L-EOM-METEXP-S5-12,EOM-METEXP-S5,12,tema,adquisicion,6,Con qué operación sigue,,C-EOM-METEXP-S5-2,1-4,el ciclo completo con sus cinco operaciones,IMG-EOM-CICLO-COMPLETO
+L-EOM-METEXP-S5-13,EOM-METEXP-S5,13,tema,adquisicion,6,Ventilar y desatar no son la que sigue,,C-EOM-METEXP-S5-2,5-8,"el orden después del disparo: ventilar, desatar, limpiar",IMG-EOM-DESATADO
+L-EOM-METEXP-S5-14,EOM-METEXP-S5,14,tema,adquisicion,5,Cada operación necesita a la anterior,,C-EOM-METEXP-S5-3,1-4,qué entrega cada operación a la siguiente,IMG-EOM-S5-CADENA
+L-EOM-METEXP-S5-15,EOM-METEXP-S5,15,tema,adquisicion,5,Lo que se detiene tiene nombre,,C-EOM-METEXP-S5-3,5-8,qué se detiene al saltarse cada paso del ciclo,IMG-EOM-S5-QUE-SE-DETIENE
+L-EOM-METEXP-S5-16,EOM-METEXP-S5,16,tema,adquisicion,5,El reporte se llena con lo que se recibe,,C-EOM-METEXP-S5-4,1-4,las cuatro casillas del reporte de guardia entrante,IMG-EOM-S5-REPORTE
+L-EOM-METEXP-S5-17,EOM-METEXP-S5,17,tema,adquisicion,6,«Falta el dato» vale más que suponerlo,,C-EOM-METEXP-S5-4,5-8,qué se anota cuando el parte anterior no alcanza,IMG-EOM-S5-FALTA-EL-DATO
+L-EOM-METEXP-S5-18,EOM-METEXP-S5,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S5-19,EOM-METEXP-S5,19,contenido,aplicacion,8,El parte que recibí,"El jefe de guardia que sale los espera en la bocamina con la movilidad esperando.
+
+«Se los cuento rápido», les dice, y les señala el parte con el dedo. Tres labores, una línea cada una.
+
+Al pie, con otra letra y más apretado, alguien escribió: «ver piso».",,,"el parte de la guardia saliente, con la nota a mano",IMG-EOM-S5-EL-PARTE
+L-EOM-METEXP-S5-20,EOM-METEXP-S5,20,contenido,aplicacion,7,Las tres labores,,,,el estado en que quedó cada una de las tres labores,IMG-EOM-S5-TRES-LABORES
+L-EOM-METEXP-S5-21,EOM-METEXP-S5,21,contenido,aplicacion,5,El encargo,"En parejas, sobre el reporte de guardia entrante. Quince minutos.
+
+Una fila por labor: cómo la recibo · con qué operación continúo · qué se detiene si me salto la anterior.
+
+Donde el parte no alcance, se marca «falta el dato» y se nombra cuál. Y se firma.",,,las cuatro casillas que hay que llenar por labor,IMG-EOM-S5-ENCARGO
+L-EOM-METEXP-S5-22,EOM-METEXP-S5,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S5-COMO-TRABAJAMOS
+L-EOM-METEXP-S5-23,EOM-METEXP-S5,23,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L-EOM-METEXP-S5-24,EOM-METEXP-S5,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S5-25,EOM-METEXP-S5,25,contenido,discusion,12,Empecemos por el frente 340,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S5-PUESTA-COMUN
+L-EOM-METEXP-S5-26,EOM-METEXP-S5,26,contenido,discusion,13,"«Ver piso», antes de cerrar","Esa línea no la escribió el jefe de guardia: la escribió el capataz, y no dice qué encontró.
+
+¿Se puede llenar la fila del tajeo 12 con eso? ¿Y qué se anota si no se puede?",,,la nota del capataz y lo que obliga a anotar,IMG-EOM-S5-VER-PISO
+L-EOM-METEXP-S5-27,EOM-METEXP-S5,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S5-28,EOM-METEXP-S5,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+Con esta sesión cierra el bloque 1. La próxima clase se sustenta el Trabajo Colaborativo 1, y ahí van juntas las cinco operaciones, el método y el orden de la guardia.
+
+Antes de esa clase: terminar el informe y la presentación de cuatro láminas.",,,,
+L-EOM-METEXP-S5-29,EOM-METEXP-S5,29,tapa,,0,,,,,,
+L-EOM-METEXP-S7-01,EOM-METEXP-S7,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S7-02,EOM-METEXP-S7,2,subportada-sesion,,0,Sesión N°7,"Clasificación geomecánica del macizo rocoso, sostenimiento y abertura máxima admisible",,,,
+L-EOM-METEXP-S7-03,EOM-METEXP-S7,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S7-04,EOM-METEXP-S7,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S7-05,EOM-METEXP-S7,5,contenido,conexion,4,De dónde venimos,"El bloque 1 cerró con el Trabajo Colaborativo 1: el ciclo, los métodos y las labores de cada uno.
+
+Hoy abre el bloque 2: hasta dónde admite la roca que se abra esa labor.",,,el puente del bloque 1 al bloque 2,IMG-EOM-S7-DE-DONDE
+L-EOM-METEXP-S7-06,EOM-METEXP-S7,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-S7-RUTA
+L-EOM-METEXP-S7-07,EOM-METEXP-S7,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S7-08,EOM-METEXP-S7,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Mira la fotografía sin buscar el nombre de nada.
+
+Escribe tres líneas: qué VEO · qué PIENSO · qué ME PREGUNTO.",,,un frente real con la malla puesta y la caja mineralizada a la vista,IMG-EOM-FRENTE-VETA
+L-EOM-METEXP-S7-09,EOM-METEXP-S7,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S7-10,EOM-METEXP-S7,10,tema,adquisicion,6,"La tabla trae dos aberturas, no una",,C-EOM-METEXP-S7-1,1-4,"la tabla de la labor: calidad, abertura sin sostener y abertura que habilita el sostenimiento",IMG-EOM-TABLA-GEOMEC
+L-EOM-METEXP-S7-11,EOM-METEXP-S7,11,tema,adquisicion,6,La caja y el mineral no sacan la misma nota,,C-EOM-METEXP-S7-1,5-8,"las dos notas que declara la tabla, y cuál manda",IMG-EOM-S7-CAJAS-MINERAL
+L-EOM-METEXP-S7-12,EOM-METEXP-S7,12,tema,adquisicion,6,Lo que mide la veta contra lo que aguanta el terreno,,C-EOM-METEXP-S7-2,1-4,la comparación entre potencia y abertura admisible,IMG-EOM-S7-POTENCIA-ABERTURA
+L-EOM-METEXP-S7-13,EOM-METEXP-S7,13,tema,adquisicion,6,Sostener no asegura el hueco: lo habilita,,C-EOM-METEXP-S7-2,5-8,"con el mismo RMR, qué abertura habilita cada sostenimiento",IMG-EOM-SOST-ABERTURA
+L-EOM-METEXP-S7-14,EOM-METEXP-S7,14,tema,adquisicion,5,El equipo también pone un ancho,,C-EOM-METEXP-S7-3,1-4,"potencia, ancho de minado y sección: qué es cada una y quién la decide",IMG-EOM-TRES-MEDIDAS-TABLA
+L-EOM-METEXP-S7-15,EOM-METEXP-S7,15,tema,adquisicion,5,Desmonte que entra sin que nadie se equivoque,,C-EOM-METEXP-S7-3,5-8,"lo que mide la veta, lo que se rompe y lo que entra de más",IMG-EOM-S7-DILUCION
+L-EOM-METEXP-S7-16,EOM-METEXP-S7,16,tema,adquisicion,5,"Un tramo, un renglón",,C-EOM-METEXP-S7-4,1-4,el orden en que se escribe la instrucción de un tramo,IMG-EOM-S7-INSTRUCCION
+L-EOM-METEXP-S7-17,EOM-METEXP-S7,17,tema,adquisicion,6,Cuando el ancho no cabe ni sostenido,,C-EOM-METEXP-S7-4,5-8,"las tres salidas según si el ancho cabe, cabe sostenido o no cabe",IMG-EOM-S7-NO-CABE
+L-EOM-METEXP-S7-18,EOM-METEXP-S7,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S7-19,EOM-METEXP-S7,19,contenido,aplicacion,8,La veta que no cabe,"El maestro los espera al pie de la chimenea, con la barretilla al hombro.
+
+«Díganme uno y yo rompo, que tengo que llegar a los tres disparos del turno.»",,,los tres tramos del tajeo con su potencia y el RMR de sus cajas,IMG-EOM-S7-LEVANTAMIENTO
+L-EOM-METEXP-S7-20,EOM-METEXP-S7,20,contenido,aplicacion,7,La tabla clavada en la entrada,,,,"la tabla geomecánica de la labor, con sus dos aberturas por fila",IMG-EOM-S7-TABLA-LABOR
+L-EOM-METEXP-S7-21,EOM-METEXP-S7,21,contenido,aplicacion,5,El encargo,"En parejas, sobre el formato de la pizarra de labor. Veinte minutos.
+
+Un renglón por tramo: la abertura que admite · la potencia · el ancho que se rompe · el sostenimiento que va antes.
+
+Firma y fecha: el maestro la va a ejecutar.",,,las cuatro casillas que hay que llenar por tramo,IMG-EOM-S7-ENCARGO
+L-EOM-METEXP-S7-22,EOM-METEXP-S7,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S7-COMO-TRABAJAMOS
+L-EOM-METEXP-S7-23,EOM-METEXP-S7,23,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L-EOM-METEXP-S7-24,EOM-METEXP-S7,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S7-25,EOM-METEXP-S7,25,contenido,discusion,12,Empecemos por el tramo primero,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S7-PUESTA-COMUN
+L-EOM-METEXP-S7-26,EOM-METEXP-S7,26,contenido,discusion,13,El tramo más angosto,"Sesenta centímetros de veta, y es el que más desmonte saca del tajeo.
+
+¿Por qué, si es el que menos mineral tiene?",,,lo que parece y lo que pasa en el tramo angosto,IMG-EOM-S7-TRAMO-ANGOSTO
+L-EOM-METEXP-S7-27,EOM-METEXP-S7,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S7-28,EOM-METEXP-S7,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+Antes pensaba que un ancho de minado se decidía… ahora pienso que…
+
+La próxima sesión: qué le exige cada labor al equipo que entra en ella.",,,,
+L-EOM-METEXP-S7-29,EOM-METEXP-S7,29,tapa,,0,,,,,,
+L-EOM-METEXP-S8-01,EOM-METEXP-S8,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S8-02,EOM-METEXP-S8,2,subportada-sesion,,0,Sesión N°8,Requerimientos operativos de los equipos mineros,,,,
+L-EOM-METEXP-S8-03,EOM-METEXP-S8,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S8-04,EOM-METEXP-S8,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S8-05,EOM-METEXP-S8,5,contenido,conexion,4,De dónde venimos,"La sesión pasada: cuánto se puede abrir una labor según lo que admite la roca.
+
+Hoy: qué le exige esa misma labor al equipo que va a entrar en ella.",,,el puente de la sesión 7 a la sesión 8,IMG-EOM-S8-DE-DONDE
+L-EOM-METEXP-S8-06,EOM-METEXP-S8,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-S8-RUTA
+L-EOM-METEXP-S8-07,EOM-METEXP-S8,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S8-08,EOM-METEXP-S8,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Mira la fotografía sin buscar el nombre de nada.
+
+Escribe tres líneas: qué VEO · qué PIENSO · qué ME PREGUNTO.",,,"un scooptram cargando en el frente, con la manga de ventilación al fondo",IMG-EOM-SCOOP-CARGANDO
+L-EOM-METEXP-S8-09,EOM-METEXP-S8,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S8-10,EOM-METEXP-S8,10,tema,adquisicion,6,Cinco cosas que exige una labor,,C-EOM-METEXP-S8-1,1-4,las cinco exigencias de una labor y qué es cada una,IMG-EOM-S8-CINCO
+L-EOM-METEXP-S8-11,EOM-METEXP-S8,11,tema,adquisicion,6,Con cuatro de cinco no se trabaja,,C-EOM-METEXP-S8-1,5-8,qué pasa cuando una sola exigencia no se cumple,IMG-EOM-S8-UNA-NO-BASTA
+L-EOM-METEXP-S8-12,EOM-METEXP-S8,12,tema,adquisicion,6,Cada número sale de una ficha,,C-EOM-METEXP-S8-2,1-4,"la silueta del scooptram con sus piezas, sacada del dibujo del fabricante",IMG-EOM-SCOOP-PERFIL
+L-EOM-METEXP-S8-13,EOM-METEXP-S8,13,tema,adquisicion,6,Ningún equipo manda en las cinco,,C-EOM-METEXP-S8-2,5-8,qué equipo impone cada línea y de qué dato de su ficha sale,IMG-EOM-S8-QUIEN-MANDA
+L-EOM-METEXP-S8-14,EOM-METEXP-S8,14,tema,adquisicion,5,"Mismo hueco, distinta exigencia",,C-EOM-METEXP-S8-3,1-4,qué cambia y qué no entre una rampa positiva y una negativa,IMG-EOM-S8-SENTIDO
+L-EOM-METEXP-S8-15,EOM-METEXP-S8,15,tema,adquisicion,5,El agua siempre va al fondo,,C-EOM-METEXP-S8-3,5-8,los cuatro pasos del agua según el sentido de la rampa,IMG-EOM-S8-AGUA
+L-EOM-METEXP-S8-16,EOM-METEXP-S8,16,tema,adquisicion,5,La hoja que se manda a construir,,C-EOM-METEXP-S8-4,1-4,la hoja de condiciones y qué lleva cada línea,IMG-EOM-S8-HOJA
+L-EOM-METEXP-S8-17,EOM-METEXP-S8,17,tema,adquisicion,6,Un dato que no está no se supone,,C-EOM-METEXP-S8-4,5-8,suponer el dato frente a solicitarlo y marcar la línea,IMG-EOM-S8-DATO
+L-EOM-METEXP-S8-18,EOM-METEXP-S8,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S8-19,EOM-METEXP-S8,19,contenido,aplicacion,8,La rampa cambió de signo,"El superintendente tacha «positiva» a mano y escribe «negativa» encima.
+
+«La sección no la muevo y el doce por ciento tampoco. Pero esta hoja se llenó pensando en la rampa de antes.»",,,"la hoja ya firmada, con el tachón a mano",IMG-EOM-S8-EL-TACHON
+L-EOM-METEXP-S8-20,EOM-METEXP-S8,20,contenido,aplicacion,7,Lo que hay sobre la mesa,,,,"los tres equipos del caso, con lo que trae su ficha y lo que no",IMG-EOM-S8-TRES-EQUIPOS
+L-EOM-METEXP-S8-21,EOM-METEXP-S8,21,contenido,aplicacion,5,El encargo,"En parejas, sobre la hoja de condiciones. Veinte minutos.
+
+Las cinco líneas, cada una con el valor exigido y el equipo que lo impone. Marquen las que hay que rehacer.
+
+Al pie, la línea de dato solicitado. Y la firma.",,,las cinco líneas que hay que llenar y marcar,IMG-EOM-S8-ENCARGO
+L-EOM-METEXP-S8-22,EOM-METEXP-S8,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S8-COMO-TRABAJAMOS
+L-EOM-METEXP-S8-23,EOM-METEXP-S8,23,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L-EOM-METEXP-S8-24,EOM-METEXP-S8,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S8-25,EOM-METEXP-S8,25,contenido,discusion,12,Empecemos por la sección,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S8-PUESTA-COMUN
+L-EOM-METEXP-S8-26,EOM-METEXP-S8,26,contenido,discusion,13,Hacia dónde corre el agua,"No se movió ni un centímetro de la rampa ni un punto de la gradiente.
+
+¿Y el agua? ¿Sale sola, o hay que sacarla?",,,"hacia dónde va el agua en cada sentido, y qué hace falta en el fondo",IMG-EOM-S8-HACIA-DONDE
+L-EOM-METEXP-S8-27,EOM-METEXP-S8,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S8-28,EOM-METEXP-S8,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+Antes pensaba que una labor se construía por su tamaño… ahora pienso que…
+
+La próxima sesión: qué equipo entra en cada labor, y cuál no puede.",,,,
+L-EOM-METEXP-S8-29,EOM-METEXP-S8,29,tapa,,0,,,,,,
+L-EOM-METEXP-S9-01,EOM-METEXP-S9,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S9-02,EOM-METEXP-S9,2,subportada-sesion,,0,Sesión N°9,Asignación de equipos por labor en minería subterránea,,,,
+L-EOM-METEXP-S9-03,EOM-METEXP-S9,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S9-04,EOM-METEXP-S9,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S9-05,EOM-METEXP-S9,5,contenido,conexion,4,De dónde venimos,"La sesión pasada escribimos qué le exige una labor al equipo que entra en ella.
+
+Hoy: cuál de los equipos que hay en almacén cumple esa exigencia, y cuál no.",,,el puente de la sesión 8 a la sesión 9,IMG-EOM-S9-DE-DONDE
+L-EOM-METEXP-S9-06,EOM-METEXP-S9,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-S9-RUTA
+L-EOM-METEXP-S9-07,EOM-METEXP-S9,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S9-08,EOM-METEXP-S9,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Mira la fotografía sin buscar el nombre de nada.
+
+Escribe tres líneas: qué VEO · qué PIENSO · qué ME PREGUNTO.",,,"un jumbo perforando dentro de una labor, con el trazo marcado",IMG-EOM-FRENTE-PERFORACION
+L-EOM-METEXP-S9-09,EOM-METEXP-S9,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S9-10,EOM-METEXP-S9,10,tema,adquisicion,6,"Cuatro labores, cuatro cosas distintas",,C-EOM-METEXP-S9-1,1-4,qué es cada una de las cuatro labores y qué se hace en ella,IMG-EOM-S9-CUATRO-LABORES
+L-EOM-METEXP-S9-11,EOM-METEXP-S9,11,tema,adquisicion,6,La labor no se adapta al equipo,,C-EOM-METEXP-S9-1,5-8,"excavar y luego ver qué entra, frente a leer la ficha y asignar lo que cabe",IMG-EOM-S9-LABOR-MANDA
+L-EOM-METEXP-S9-12,EOM-METEXP-S9,12,tema,adquisicion,6,Dónde entra cada equipo,,C-EOM-METEXP-S9-2,1-4,la matriz de equipo por labor: dónde entra y dónde no,IMG-EOM-S9-DONDE-ENTRA
+L-EOM-METEXP-S9-13,EOM-METEXP-S9,13,tema,adquisicion,6,Que falle en una no lo inhabilita,,C-EOM-METEXP-S9-2,5-8,con qué se limpia según la sección: el winche trabaja donde el scooptram no entra,IMG-EOM-CARGUIO-SECCION
+L-EOM-METEXP-S9-14,EOM-METEXP-S9,14,tema,adquisicion,5,No es que vaya lento,,C-EOM-METEXP-S9-3,1-4,decir «demora más» frente a nombrar la exigencia que no se cumple,IMG-EOM-S9-NO-ES-LENTO
+L-EOM-METEXP-S9-15,EOM-METEXP-S9,15,tema,adquisicion,5,Una observación se prueba,,C-EOM-METEXP-S9-3,5-8,los cuatro pasos para sostener una observación con datos,IMG-EOM-S9-COMO-SE-PRUEBA
+L-EOM-METEXP-S9-16,EOM-METEXP-S9,16,tema,adquisicion,5,"Se devuelve observado, no se desobedece",,C-EOM-METEXP-S9-4,1-4,"devolver a tiempo, y observar solo lo que no procede",IMG-EOM-S9-DEVOLVER
+L-EOM-METEXP-S9-17,EOM-METEXP-S9,17,tema,adquisicion,6,"Aprobar, declarar y firmar",,C-EOM-METEXP-S9-4,5-8,"lo que también se escribe: el visto bueno, la labor sin equipo, la firma",IMG-EOM-S9-APROBAR
+L-EOM-METEXP-S9-18,EOM-METEXP-S9,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S9-19,EOM-METEXP-S9,19,contenido,aplicacion,8,El programa ya está firmado,"«Está firmado, sí. Pero firmado no es lo mismo que revisado.»
+
+«Yo lo armé el viernes a las seis con lo que había en el sistema. Si algo no procede, me lo devuelven observado antes de las diez.»",,,"la estructura del programa semanal firmado, con sus cuatro labores",IMG-EOM-S9-EL-PROGRAMA
+L-EOM-METEXP-S9-20,EOM-METEXP-S9,20,contenido,aplicacion,7,Lo que hay en almacén,,,,"las seis máquinas disponibles esta semana, sin veredicto",IMG-EOM-S9-SEIS-MAQUINAS
+L-EOM-METEXP-S9-21,EOM-METEXP-S9,21,contenido,aplicacion,5,El encargo,"En parejas, sobre el propio programa. Veinte minutos.
+
+Visto bueno u observación en cada asignación. Al margen de cada observación, la exigencia que no se cumple y el dato de la ficha que lo prueba.
+
+Abajo, la labor que queda sin poder trabajar. Firma y fecha.",,,las cuatro asignaciones que hay que marcar,IMG-EOM-S9-ENCARGO
+L-EOM-METEXP-S9-22,EOM-METEXP-S9,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S9-COMO-TRABAJAMOS
+L-EOM-METEXP-S9-23,EOM-METEXP-S9,23,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L-EOM-METEXP-S9-24,EOM-METEXP-S9,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S9-25,EOM-METEXP-S9,25,contenido,discusion,12,Empecemos por el frente 285,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S9-PUESTA-COMUN
+L-EOM-METEXP-S9-26,EOM-METEXP-S9,26,contenido,discusion,13,Cuatro observaciones que no eran,"«El mes pasado me devolvieron el programa con seis observaciones, cuatro no eran, y perdimos media guardia discutiendo mientras las máquinas estaban paradas arriba.»
+
+¿Por qué observar de más cuesta lo mismo que no observar?",,,los dos errores y lo que cuesta cada uno,IMG-EOM-S9-OBSERVAR-DE-MAS
+L-EOM-METEXP-S9-27,EOM-METEXP-S9,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S9-28,EOM-METEXP-S9,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+Antes pensaba que un programa firmado se cumplía… ahora pienso que…
+
+La próxima sesión: el tajo abierto, sus labores y su ciclo de minado.",,,,
+L-EOM-METEXP-S9-29,EOM-METEXP-S9,29,tapa,,0,,,,,,
+L-EOM-METEXP-S10-01,EOM-METEXP-S10,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S10-02,EOM-METEXP-S10,2,subportada-sesion,,0,Sesión N°10,Explotación superficial: labores y ciclo de minado a tajo abierto,,,,
+L-EOM-METEXP-S10-03,EOM-METEXP-S10,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S10-04,EOM-METEXP-S10,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S10-05,EOM-METEXP-S10,5,contenido,conexion,4,De dónde venimos,"Nueve sesiones bajo tierra: frente, tajeo, rampa y chimenea.
+
+Hoy salimos a la superficie. El ciclo es el mismo, y una de sus cinco operaciones se queda abajo.",,,el puente de lo subterráneo a cielo abierto,IMG-EOM-S10-DE-DONDE
+L-EOM-METEXP-S10-06,EOM-METEXP-S10,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-S10-RUTA
+L-EOM-METEXP-S10-07,EOM-METEXP-S10,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S10-08,EOM-METEXP-S10,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Lee lo que la guardia vio durante el día, sin ponerle nombre a nada.
+
+Escribe tres líneas: qué VEO · qué PIENSO · qué ME PREGUNTO.",,,"la secuencia de lo que se vio en la guardia, sin nombrar operaciones",IMG-EOM-S10-LO-QUE-SE-VIO
+L-EOM-METEXP-S10-09,EOM-METEXP-S10,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S10-10,EOM-METEXP-S10,10,tema,adquisicion,6,Las labores del tajo,,C-EOM-METEXP-S10-1,1-4,las labores del tajo abierto y qué recibe o saca cada una,IMG-EOM-S10-LABORES
+L-EOM-METEXP-S10-11,EOM-METEXP-S10,11,tema,adquisicion,6,"Lo mismo, con otro nombre",,C-EOM-METEXP-S10-1,5-8,cómo se llama abajo y cómo arriba cada cosa,IMG-EOM-S10-ARRIBA-ABAJO
+L-EOM-METEXP-S10-12,EOM-METEXP-S10,12,tema,adquisicion,6,El ciclo también empieza perforando,,C-EOM-METEXP-S10-2,1-4,las operaciones en superficie con su equipo y su labor,IMG-EOM-S10-CICLO
+L-EOM-METEXP-S10-13,EOM-METEXP-S10,13,tema,adquisicion,6,"Misma función, otro tamaño",,C-EOM-METEXP-S10-2,5-8,"la misma función abajo y arriba, con el equipo de cada lado",IMG-EOM-S10-MISMO-DISTINTO
+L-EOM-METEXP-S10-14,EOM-METEXP-S10,14,tema,adquisicion,5,"De cinco, arriba hay cuatro",,C-EOM-METEXP-S10-3,1-4,las cinco operaciones del ciclo con el sostenimiento marcado aparte,IMG-EOM-S10-CUATRO-DE-CINCO
+L-EOM-METEXP-S10-15,EOM-METEXP-S10,15,tema,adquisicion,5,Lo que sostiene el talud,,C-EOM-METEXP-S10-3,5-8,la estabilidad como diseño y no como operación,IMG-EOM-S10-TALUD
+L-EOM-METEXP-S10-16,EOM-METEXP-S10,16,tema,adquisicion,5,"El parte, fila por fila",,C-EOM-METEXP-S10-4,1-4,"con qué se llena cada fila, y qué lleva la que no ocurrió",IMG-EOM-S10-PARTE-FILAS
+L-EOM-METEXP-S10-17,EOM-METEXP-S10,17,tema,adquisicion,6,Lo que no cambia el material,,C-EOM-METEXP-S10-4,5-8,el criterio para separar operación unitaria de servicio de mina,IMG-EOM-S10-SERVICIOS
+L-EOM-METEXP-S10-18,EOM-METEXP-S10,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S10-19,EOM-METEXP-S10,19,contenido,aplicacion,8,El parte de arriba,"«Es igual, solo que aquí no hay techo», les dijo el jefe de guardia, y no explicó nada más.
+
+Al cierre, uno del equipo se quedó mirando la última fila sin saber qué poner.",,,"el formato de parte de superficie, en blanco",IMG-EOM-S10-EL-FORMATO
+L-EOM-METEXP-S10-20,EOM-METEXP-S10,20,contenido,aplicacion,7,Lo que hay en la unidad,,,,los equipos de la unidad con el dato que los distingue,IMG-EOM-S10-LOS-EQUIPOS
+L-EOM-METEXP-S10-21,EOM-METEXP-S10,21,contenido,aplicacion,5,El encargo,"En parejas, sobre el parte de guardia. Veinte minutos.
+
+Cada operación con su equipo y la labor donde ocurrió. La fila que quede vacía, con el porqué escrito al margen.
+
+Lo que no es operación unitaria, abajo, en servicios de mina. Firma del que llena.",,,"las cinco filas que hay que llenar, y la que se queda vacía",IMG-EOM-S10-ENCARGO
+L-EOM-METEXP-S10-22,EOM-METEXP-S10,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S10-COMO-TRABAJAMOS
+L-EOM-METEXP-S10-23,EOM-METEXP-S10,23,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L-EOM-METEXP-S10-24,EOM-METEXP-S10,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S10-25,EOM-METEXP-S10,25,contenido,discusion,12,Empecemos por el carguío,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S10-PUESTA-COMUN
+L-EOM-METEXP-S10-26,EOM-METEXP-S10,26,contenido,discusion,13,¿Qué sostiene el talud?,"Nadie puso un perno en todo el día, y el banco lleva quince metros de alto.
+
+Si ninguna operación del ciclo lo sostiene, ¿qué lo sostiene? ¿Y quién responde de que se cumpla?",,,la pregunta del cierre y lo que abre,IMG-EOM-S10-QUE-SOSTIENE
+L-EOM-METEXP-S10-27,EOM-METEXP-S10,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S10-28,EOM-METEXP-S10,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, sobre lo que vio la guardia.
+
+Antes pensaba que a cielo abierto se trabajaba distinto… ahora pienso que…
+
+La próxima sesión: qué equipo va en cada labor del tajo, y qué se reporta cuando no corresponde.",,,,
+L-EOM-METEXP-S10-29,EOM-METEXP-S10,29,tapa,,0,,,,,,
+L-EOM-METEXP-S11-01,EOM-METEXP-S11,1,portada,,0,MÉTODOS DE EXPLOTACIÓN,SEDE ABQ,,,,
+L-EOM-METEXP-S11-02,EOM-METEXP-S11,2,subportada-sesion,,0,Sesión N°11,"Asignación de equipos, destino del material y reporte de desviaciones",,,,
+L-EOM-METEXP-S11-03,EOM-METEXP-S11,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-METEXP-S11-04,EOM-METEXP-S11,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-METEXP-S11-05,EOM-METEXP-S11,5,contenido,conexion,4,De dónde venimos,"La sesión pasada llenamos el parte de lo que pasó en la guardia.
+
+Hoy: por qué no salió lo que debía salir, y qué se escribe cuando eso ocurre.",,,el puente de la sesión 10 a la sesión 11,IMG-EOM-S11-DE-DONDE
+L-EOM-METEXP-S11-06,EOM-METEXP-S11,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-S11-RUTA
+L-EOM-METEXP-S11-07,EOM-METEXP-S11,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-METEXP-S11-08,EOM-METEXP-S11,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Mira las dos cifras del cierre de guardia, sin explicarlas todavía.
+
+Escribe tres líneas: qué VEO · qué PIENSO · qué ME PREGUNTO.",,,"las dos cifras del cierre de guardia, sin explicación",IMG-EOM-S11-DOS-CIFRAS
+L-EOM-METEXP-S11-09,EOM-METEXP-S11,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-METEXP-S11-10,EOM-METEXP-S11,10,tema,adquisicion,6,Un pase es una cucharada,,C-EOM-METEXP-S11-1,1-4,de qué dependen los pases que llenan un camión,IMG-EOM-S11-PASES
+L-EOM-METEXP-S11-11,EOM-METEXP-S11,11,tema,adquisicion,6,"Un pase de menos, toda la guardia",,C-EOM-METEXP-S11-1,5-8,lo que cuesta un pase de menos multiplicado por los viajes,IMG-EOM-S11-PASE-DE-MENOS
+L-EOM-METEXP-S11-12,EOM-METEXP-S11,12,tema,adquisicion,6,Del banco salen varios materiales,,C-EOM-METEXP-S11-2,1-4,"la ley de corte separando mineral de desmonte, y el destino de cada uno",IMG-EOM-S11-LEY-DE-CORTE
+L-EOM-METEXP-S11-13,EOM-METEXP-S11,13,tema,adquisicion,6,El destino equivocado no se ve,,C-EOM-METEXP-S11-2,5-8,los tres destinos equivocados y por qué ninguno aparece en el tonelaje,IMG-EOM-S11-DESTINO
+L-EOM-METEXP-S11-14,EOM-METEXP-S11,14,tema,adquisicion,5,Cada camión tiene su ruta y su piso,,C-EOM-METEXP-S11-3,1-4,los cuatro pasos para decidir si una asignación procede,IMG-EOM-S11-RUTA-Y-PISO
+L-EOM-METEXP-S11-15,EOM-METEXP-S11,15,tema,adquisicion,5,Asignar mal rompe el programa,,C-EOM-METEXP-S11-3,5-8,el equipo fuera de ruta y los viajes que no se hicieron,IMG-EOM-S11-ROMPE-PROGRAMA
+L-EOM-METEXP-S11-16,EOM-METEXP-S11,16,tema,adquisicion,5,"Qué pasó, con qué se prueba, qué se pide",,C-EOM-METEXP-S11-4,1-4,las tres cosas que lleva cada desviación,IMG-EOM-S11-TRES-BLOQUES
+L-EOM-METEXP-S11-17,EOM-METEXP-S11,17,tema,adquisicion,6,Se reporta igual,,C-EOM-METEXP-S11-4,5-8,"cuatro creencias sobre el reporte, y lo que es en cada caso",IMG-EOM-S11-REPORTAR-IGUAL
+L-EOM-METEXP-S11-18,EOM-METEXP-S11,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-METEXP-S11-19,EOM-METEXP-S11,19,contenido,aplicacion,8,Faltan cuatro mil setecientas veinte,"«No me digan que faltó gente, porque vinieron todos. Y no se malogró nada, ya lo pregunté.»
+
+«Tengo reunión en quince minutos. Explíquenmelas con lo que está ahí, y déjenme algo escrito que yo pueda mandar.»",,,los tres papeles que el jefe de mina pone sobre la mesa,IMG-EOM-S11-TRES-PAPELES
+L-EOM-METEXP-S11-20,EOM-METEXP-S11,20,contenido,aplicacion,7,Lo que dicen los papeles,,,,"lo que declaran las fichas y lo que anota el reporte, por separado",IMG-EOM-S11-FLOTA
+L-EOM-METEXP-S11-21,EOM-METEXP-S11,21,contenido,aplicacion,5,El encargo,"En parejas, sobre el formato de reporte. Veinte minutos.
+
+Tres desviaciones, cada una con qué se desvió, con qué dato se prueba y qué se pide corregir.
+
+Al pie, la cuenta de los pases escrita a mano. Firma, fecha y guardia.",,,los tres bloques del reporte y el pie de la cuenta,IMG-EOM-S11-ENCARGO
+L-EOM-METEXP-S11-22,EOM-METEXP-S11,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden",IMG-EOM-S11-COMO-TRABAJAMOS
+L-EOM-METEXP-S11-23,EOM-METEXP-S11,23,cotejo,aplicacion,0,Los cinco de siempre,,,,,
+L-EOM-METEXP-S11-24,EOM-METEXP-S11,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-METEXP-S11-25,EOM-METEXP-S11,25,contenido,discusion,12,Empecemos por la primera,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-S11-PUESTA-COMUN
+L-EOM-METEXP-S11-26,EOM-METEXP-S11,26,contenido,discusion,13,La que no resta toneladas,"De las tres que escribieron, una no le quita ni una tonelada a la guardia.
+
+¿Cuál es? ¿Y por qué se reporta igual?",,,la pregunta del cierre y lo que abre,IMG-EOM-S11-NO-RESTA
+L-EOM-METEXP-S11-27,EOM-METEXP-S11,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-METEXP-S11-28,EOM-METEXP-S11,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a las dos cifras.
+
+Antes pensaba que un faltante se explicaba en el banco… ahora pienso que…
+
+Con esta sesión cierra el bloque 2. La próxima clase se sustenta el Trabajo Colaborativo 2.",,,,
+L-EOM-METEXP-S11-29,EOM-METEXP-S11,29,tapa,,0,,,,,,
+L-EOM-SOST-S1-01,EOM-SOST-S1,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S1-02,EOM-SOST-S1,2,subportada-sesion,,0,Sesión N°1,Sostenimiento activo: pernos y cable bolting,,,,
+L-EOM-SOST-S1-03,EOM-SOST-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S1-04,EOM-SOST-S1,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-SOST-S1-05,EOM-SOST-S1,5,contenido,conexion,5,El curso y cómo se califica,"Doce sesiones para una sola pregunta: qué sostenimiento le toca a cada labor, y cuánto material hay que pedir.
+
+Se califica con seis notas. La mitad sale de dos trabajos en equipo; la otra mitad, de dos exámenes y dos cuestionarios.
+
+Los trabajos en equipo cierran cada bloque: uno en la sesión 6 y otro en la 12.",,,el 100 % de la nota repartido en sus seis eventos,IMG-EOM-EVALUACION
+L-EOM-SOST-S1-06,EOM-SOST-S1,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos de la sesión con sus minutos: 20 · 45 · 40 · 20 · 10,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S1-07,EOM-SOST-S1,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S1-08,EOM-SOST-S1,8,contenido,conexion,7,Veo · Pienso · Me pregunto,"Miren la fotografía treinta segundos, sin hablar.
+
+Qué ven. Qué piensan que está pasando ahí. Qué se preguntan.
+
+Escriban tres líneas. Volvemos a ellas al final.",,,labor sostenida: pernos con sus platinas y malla sobre la roca,IMG-EOM-SOSTENIMIENTO
+L-EOM-SOST-S1-09,EOM-SOST-S1,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S1-10,EOM-SOST-S1,10,tema,adquisicion,4,Dos maneras de sostener,,C-EOM-SOST-S1-1,1-3,el refuerzo cosiendo la roca desde adentro y el soporte recibiendo la carga afuera,IMG-EOM-SOST-S1-REFUERZO-SOPORTE
+L-EOM-SOST-S1-11,EOM-SOST-S1,11,tema,adquisicion,4,Cuál es cuál,,C-EOM-SOST-S1-1,4-6,los elementos repartidos en dos columnas: refuerzo y soporte,IMG-EOM-SOST-S1-DOS-COLUMNAS
+L-EOM-SOST-S1-12,EOM-SOST-S1,12,tema,adquisicion,4,"Primero se refuerza, después se retiene",,C-EOM-SOST-S1-1,7-9,"la secuencia de instalación: perno primero, malla después",IMG-EOM-SOST-S1-SECUENCIA
+L-EOM-SOST-S1-13,EOM-SOST-S1,13,tema,adquisicion,4,El split set: anclaje por fricción,,C-EOM-SOST-S1-2,1-3,"un split set instalado y su corte, con el tubo apretando contra el taladro",IMG-EOM-SOST-S1-SPLIT-SET
+L-EOM-SOST-S1-14,EOM-SOST-S1,14,tema,adquisicion,4,El perno helicoidal: anclaje con resina o cemento,,C-EOM-SOST-S1-2,4-6,la barra helicoidal con su extremo biselado y los cartuchos en el taladro,IMG-EOM-SOST-S1-HELICOIDAL
+L-EOM-SOST-S1-15,EOM-SOST-S1,15,tema,adquisicion,4,"El hydrabolt, y lo que cierra todo perno",,C-EOM-SOST-S1-2,7-9,"el detalle acotado de placa, tuerca y taladro: lo que cierra cualquier perno contra la roca",IMG-EOM-SOST-S1-HELICOIDAL
+L-EOM-SOST-S1-16,EOM-SOST-S1,16,tema,adquisicion,4,El cable: acero trenzado y lechada,,C-EOM-SOST-S1-3,1-4,"el cable por dentro: hebras trenzadas, hebra principal y diámetro nominal",IMG-EOM-SOST-S1-CABLE-TRENZADO
+L-EOM-SOST-S1-17,EOM-SOST-S1,17,tema,adquisicion,4,"Cuándo trabaja el cable, y qué lo cierra",,C-EOM-SOST-S1-3,5-8,"los tres pasos de la instalación: el cabezal, la lechada que llena el taladro y la cuña de la boca",IMG-EOM-SOST-S1-CABLE
+L-EOM-SOST-S1-18,EOM-SOST-S1,18,tema,adquisicion,4,La cuña que hay que pasar,,C-EOM-SOST-S1-4,1-4,"la cuña de roca suelta creciendo con el ancho de la labor, y el perno pasándola",IMG-EOM-SOST-S1-CUNA
+L-EOM-SOST-S1-19,EOM-SOST-S1,19,tema,adquisicion,4,Lo que manda el estándar,,C-EOM-SOST-S1-4,5-7,la tabla de largo de perno por sección de labor,IMG-EOM-SOST-S1-LARGO-POR-SECCION
+L-EOM-SOST-S1-20,EOM-SOST-S1,20,tema,adquisicion,5,Hasta dónde llega el técnico,,C-EOM-SOST-S1-4,8-10,"quién calcula y quién lee: geomecánica fija el parámetro, el técnico lo aplica",IMG-EOM-SOST-S1-QUIEN-DECIDE
+L-EOM-SOST-S1-21,EOM-SOST-S1,21,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S1-22,EOM-SOST-S1,22,contenido,aplicacion,7,El vale de las tres labores,"Son las tres y media. El almacenero tiene el vale en la mano y el camión sale a las cuatro.
+
+El vale pide lo mismo para tres labores distintas: perno helicoidal de siete pies y malla.
+
+Y guarda el vale del mes pasado del mismo tajeo, donde figura otra cosa: carretes de acero y lechada de cemento.
+
+«Este mes vino distinto. Yo despacho lo que dice el papel.»",,,"el vale tal como llega: las tres labores con el mismo pedido, y al margen el vale del mes pasado",IMG-EOM-SOST-S1-VALE
+L-EOM-SOST-S1-23,EOM-SOST-S1,23,contenido,aplicacion,6,Las tres labores,"Tajeo de la veta Rosario: se abre seis metros entre caja y caja.
+
+Rampa de acceso: cuatro por cuatro.
+
+Crucero: tres por tres.
+
+En el pasillo del almacén siguen dos carretes de aquel pedido, sin abrir.",,,"las tres labores con su sección, dibujadas a la misma escala",IMG-EOM-SOST-S1-TRES-LABORES
+L-EOM-SOST-S1-24,EOM-SOST-S1,24,contenido,aplicacion,7,El encargo,"En parejas, dieciocho minutos, sobre el vale que se les entrega.
+
+Por cada labor: qué elemento va y con qué especificación. Al costado, una letra: R si es refuerzo, S si es soporte.
+
+Y dos líneas al final: por qué el tajeo lleva otro largo de perno, y por qué el cable del vale anterior no hace falta acá.",,,el vale con sus tres filas y las dos líneas del final,IMG-EOM-SOST-S1-ENCARGO
+L-EOM-SOST-S1-25,EOM-SOST-S1,25,contenido,aplicacion,18,A trabajar,,,,"los tres pasos del encargo, en orden, con sus minutos",IMG-EOM-SOST-S1-COMO-TRABAJAMOS
+L-EOM-SOST-S1-26,EOM-SOST-S1,26,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S1-27,EOM-SOST-S1,27,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S1-28,EOM-SOST-S1,28,contenido,discusion,14,Empecemos por el tajeo,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-SOST-S1-PUESTA-COMUN
+L-EOM-SOST-S1-29,EOM-SOST-S1,29,contenido,discusion,6,"Una última, antes de cerrar",,,,quién responde por lo que sale de almacén,IMG-EOM-SOST-S1-QUIEN-RESPONDE
+L-EOM-SOST-S1-30,EOM-SOST-S1,30,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S1-31,EOM-SOST-S1,31,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía de la labor sostenida.
+
+¿Cuál de los elementos que ves ahí es refuerzo, y cuál soporte?
+
+La próxima sesión: la malla, el shotcrete, el cuadro y la cimbra, y en qué labor prefiere cada uno la cartilla.",,,las tres preguntas del cierre,IMG-EOM-SOST-S1-REFLEXION
+L-EOM-SOST-S1-32,EOM-SOST-S1,32,tapa,,0,,,,,,
+L-EOM-SOST-S2-01,EOM-SOST-S2,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S2-02,EOM-SOST-S2,2,subportada-sesion,,0,Sesión N°2,"Sostenimiento pasivo: malla, shotcrete, cuadros y cimbras",,,,
+L-EOM-SOST-S2-03,EOM-SOST-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S2-04,EOM-SOST-S2,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-SOST-S2-05,EOM-SOST-S2,5,contenido,conexion,4,De dónde venimos,"La sesión pasada vimos el refuerzo: el perno y el cable, lo que entra dentro del taladro y cose la roca.
+
+Hoy entra la otra mitad: lo que queda por fuera y retiene el bloque que igual se soltó.",,,el puente de la sesión 1 a la sesión 2,IMG-EOM-SOST-S2-DE-DONDE-VENIMOS
+L-EOM-SOST-S2-06,EOM-SOST-S2,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos: 20 · 45 · 40 · 20 · 10,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S2-07,EOM-SOST-S2,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S2-08,EOM-SOST-S2,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fotografía treinta segundos, sin hablar.
+
+Qué ven. Qué piensan que está pasando ahí. Qué se preguntan.
+
+Escriban tres líneas. Volvemos a ellas al final.",,,"labor sostenida con cuadros de madera o cimbras, vista desde el frente",IMG-EOM-SOST-S2-VPM
+L-EOM-SOST-S2-09,EOM-SOST-S2,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S2-10,EOM-SOST-S2,10,tema,adquisicion,4,La malla: qué retiene y con qué se especifica,,C-EOM-SOST-S2-1,1-4,"malla electrosoldada instalada sobre los pernos, con su traslape",IMG-EOM-SOST-S2-MALLA
+L-EOM-SOST-S2-11,EOM-SOST-S2,11,tema,adquisicion,5,El shotcrete: concreto lanzado contra la roca,,C-EOM-SOST-S2-1,5-7,detalles técnicos del shotcrete vía húmeda sobre la roca,IMG-EOM-SOST-S2-SHOTCRETE-DETALLE
+L-EOM-SOST-S2-12,EOM-SOST-S2,12,tema,adquisicion,5,La distancia manda: rebote y resistencia,,C-EOM-SOST-S2-1,8-10,la distancia de la boquilla a la roca en el lanzado,IMG-EOM-SOST-S2-SHOTCRETE-DISTANCIA
+L-EOM-SOST-S2-13,EOM-SOST-S2,13,tema,adquisicion,4,El cuadro de madera y sus piezas,,C-EOM-SOST-S2-2,1-3,"el cuadro con sus dos postes, su sombrero y su guardacabeza",IMG-EOM-SOST-S2-CUADRO
+L-EOM-SOST-S2-14,EOM-SOST-S2,14,tema,adquisicion,5,La cimbra: arco de acero en dos cuerpos,,C-EOM-SOST-S2-2,4-6,las planchas de unión que empalman los dos cuerpos del arco,IMG-EOM-SOST-S2-CIMBRA-PLANCHAS
+L-EOM-SOST-S2-15,EOM-SOST-S2,15,tema,adquisicion,5,"Espaciamiento, terreno y guardacabeza",,C-EOM-SOST-S2-2,7-9,la cimbra acotada con su tabla de viga H por sección de labor,IMG-EOM-SOST-S2-CIMBRA-ESPEC
+L-EOM-SOST-S2-16,EOM-SOST-S2,16,tema,adquisicion,4,Qué prefiere la cartilla en cada condición,,C-EOM-SOST-S2-3,1-4,"qué soporte aparece según la condición de la roca, y por qué",IMG-EOM-SOST-S2-CARTILLA-PREFIERE
+L-EOM-SOST-S2-17,EOM-SOST-S2,17,tema,adquisicion,4,Una fila trae el elemento y su espaciamiento,,C-EOM-SOST-S2-3,5-8,"lo que devuelve una fila: elemento, espaciamiento y refuerzo",IMG-EOM-SOST-S2-FILA-COMPLETA
+L-EOM-SOST-S2-18,EOM-SOST-S2,18,tema,adquisicion,4,Firme no es lo mismo que conforme,,C-EOM-SOST-S2-4,1-4,cuadro comparado entre quedó firme y cumple el estándar,IMG-EOM-SOST-S2-FIRME-VS-ESTANDAR
+L-EOM-SOST-S2-19,EOM-SOST-S2,19,tema,adquisicion,5,Cómo se recibe un tramo,,C-EOM-SOST-S2-4,5-8,"los cuatro pasos de la recepción, de leer la fila a anotar lo no conforme",IMG-EOM-SOST-S2-RECEPCION
+L-EOM-SOST-S2-20,EOM-SOST-S2,20,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S2-21,EOM-SOST-S2,21,contenido,aplicacion,7,Cuatro tramos ya sostenidos,"El supervisor los manda a caminar cuatro tramos del nivel 4 con el cuaderno de instalación.
+
+En cada uno se instaló algo distinto, y el parte dice lo que se puso.
+
+La valorización del contratista entra el lunes y quiere el cuaderno cerrado antes.",,,los cuatro tramos con lo instalado y lo que anotó el parte,IMG-EOM-SOST-S2-CUATRO-TRAMOS
+L-EOM-SOST-S2-22,EOM-SOST-S2,22,contenido,aplicacion,6,Lo que dijo el capataz,"«Ese último lo armó el turno de noche, y quedó igual de firme que los cuadros, así que no le den vueltas.»
+
+Al fondo de ese cuarto tramo, el techo tiene una boca de un metro por donde ya cayó material una vez.",,,la frase del capataz y la pregunta que abre,IMG-EOM-SOST-S2-UNA-ULTIMA
+L-EOM-SOST-S2-23,EOM-SOST-S2,23,contenido,aplicacion,7,El encargo,"En parejas, dieciocho minutos, sobre el cuaderno que se les entrega.
+
+Una fila por tramo: el elemento instalado, su especificación y su espaciamiento, y si corresponden a esa condición de labor.
+
+Debajo, una línea: cuál de los cuatro no se recibe, y qué tiene que pasar para recibirlo.",,,el cuaderno con sus cuatro filas y las dos líneas del final,IMG-EOM-SOST-S2-CUADERNO
+L-EOM-SOST-S2-24,EOM-SOST-S2,24,contenido,aplicacion,18,A trabajar,,,,"los tres pasos del encargo, en orden, con sus minutos",IMG-EOM-SOST-S2-COMO-TRABAJAMOS
+L-EOM-SOST-S2-25,EOM-SOST-S2,25,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S2-26,EOM-SOST-S2,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S2-27,EOM-SOST-S2,27,contenido,discusion,14,Empecemos por el cuarto tramo,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-SOST-S2-PUESTA-COMUN
+L-EOM-SOST-S2-28,EOM-SOST-S2,28,contenido,discusion,6,"Una última, antes de cerrar",,,,por qué «quedó igual de firme» no es un criterio de recepción,IMG-EOM-SOST-S2-UNA-ULTIMA
+L-EOM-SOST-S2-29,EOM-SOST-S2,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S2-30,EOM-SOST-S2,30,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+De los cuatro elementos de hoy, ¿cuál lleva espaciamiento y cuál no?
+
+La próxima sesión: cómo se mide la roca y hasta dónde llega una zona.",,,las tres preguntas del cierre,IMG-EOM-SOST-S2-REFLEXION
+L-EOM-SOST-S2-31,EOM-SOST-S2,31,tapa,,0,,,,,,
+L-EOM-SOST-S3-01,EOM-SOST-S3,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S3-02,EOM-SOST-S3,2,subportada-sesion,,0,Sesión N°3,Caracterización y zonificación: dónde cambia el macizo,,,,
+L-EOM-SOST-S3-03,EOM-SOST-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S3-04,EOM-SOST-S3,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-SOST-S3-05,EOM-SOST-S3,5,contenido,conexion,4,De dónde venimos,"Las dos sesiones pasadas vimos los elementos: qué es cada uno y cómo se instala.
+
+Hoy entra lo que decide cuál va: la roca. Cómo se mide, y hasta dónde llega una zona.",,,el puente de los elementos a la roca,IMG-EOM-SOST-S3-DE-DONDE-VENIMOS
+L-EOM-SOST-S3-06,EOM-SOST-S3,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos: 20 · 45 · 40 · 20 · 10,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S3-07,EOM-SOST-S3,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S3-08,EOM-SOST-S3,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fotografía treinta segundos, sin hablar.
+
+¿Cuántas fracturas contarían en un metro cuadrado de esa caja?
+
+Escriban tres líneas. Volvemos a ellas al final.",,,"frente de labor real, con el fracturamiento de la caja a la vista",IMG-EOM-FRENTE-VETA
+L-EOM-SOST-S3-09,EOM-SOST-S3,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S3-10,EOM-SOST-S3,10,tema,adquisicion,5,La celda: un metro por lado,,C-EOM-SOST-S3-1,1-4,la celda marcada y los cuatro rangos de fracturamiento,IMG-EOM-SOST-S3-LA-CELDA
+L-EOM-SOST-S3-11,EOM-SOST-S3,11,tema,adquisicion,5,Lo que dice la picota,,C-EOM-SOST-S3-1,5-8,las cuatro condiciones superficiales con su prueba,IMG-EOM-SOST-S3-PICOTA
+L-EOM-SOST-S3-12,EOM-SOST-S3,12,tema,adquisicion,5,"El agua, y los tres datos juntos",,C-EOM-SOST-S3-1,9-12,"seco, goteo o flujo, y la regla del mismo punto y la misma fecha",IMG-EOM-SOST-S3-AGUA-Y-FECHA
+L-EOM-SOST-S3-13,EOM-SOST-S3,13,tema,adquisicion,5,El cruce que da la casilla,,C-EOM-SOST-S3-2,1-4,"la matriz de la cartilla: estructura en filas, condición en columnas",IMG-EOM-SOST-CARTILLA-MATRIZ
+L-EOM-SOST-S3-14,EOM-SOST-S3,14,tema,adquisicion,5,Sin los dos datos no hay casilla,,C-EOM-SOST-S3-2,5-8,qué pasa cuando falta uno de los dos datos,IMG-EOM-SOST-S3-SIN-DOS-DATOS
+L-EOM-SOST-S3-15,EOM-SOST-S3,15,tema,adquisicion,5,"Mapear por celdas, no por galería",,C-EOM-SOST-S3-3,1-4,la galería con sus celdas y el metraje de cada una,IMG-EOM-SOST-S3-MAPEO-POR-CELDAS
+L-EOM-SOST-S3-16,EOM-SOST-S3,16,tema,adquisicion,5,Un mapeo también envejece,,C-EOM-SOST-S3-3,5-7,los tres pasos por los que un mapeo deja de describir la labor,IMG-EOM-SOST-S3-MAPEO-ENVEJECE
+L-EOM-SOST-S3-17,EOM-SOST-S3,17,tema,adquisicion,5,Qué es una zona,,C-EOM-SOST-S3-4,1-4,"tres zonas seguidas, cada una con su comportamiento",IMG-EOM-SOST-S3-QUE-ES-UNA-ZONA
+L-EOM-SOST-S3-18,EOM-SOST-S3,18,tema,adquisicion,5,Qué mueve el límite,,C-EOM-SOST-S3-4,5-8,qué parte una zona y qué no,IMG-EOM-SOST-S3-LIMITES
+L-EOM-SOST-S3-19,EOM-SOST-S3,19,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S3-20,EOM-SOST-S3,20,contenido,aplicacion,9,Cuatro celdas en ciento veinte metros,"La galería 340 lleva ciento veinte metros de avance, y el asistente que salió de vacaciones dejó cuatro celdas mapeadas en su cuaderno.
+
+El jefe de geomecánica pide el reparto antes de la reunión de las cinco.
+
+«El año pasado pedimos para toda una galería como si fuera una sola. Los treinta últimos metros se cerraron.»",,,las cuatro celdas con sus datos y la falla de los treinta metros,IMG-EOM-SOST-S3-CUATRO-CELDAS
+L-EOM-SOST-S3-21,EOM-SOST-S3,21,contenido,aplicacion,9,El encargo,"En parejas, veinte minutos, sobre el cuaderno que se les entrega.
+
+La casilla GSI de cada una de las cuatro celdas. Cuántas zonas hay en los ciento veinte metros, y el metraje donde empieza y termina cada una.
+
+Y al lado de cada límite, qué lo produce.",,,"el formato del reparto: casillas, zonas con su metraje y motivos",IMG-EOM-SOST-S3-REPARTO
+L-EOM-SOST-S3-22,EOM-SOST-S3,22,contenido,aplicacion,20,A trabajar,,,,"los tres pasos del encargo, en orden, con sus minutos",IMG-EOM-SOST-S3-COMO-TRABAJAMOS
+L-EOM-SOST-S3-23,EOM-SOST-S3,23,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S3-24,EOM-SOST-S3,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S3-25,EOM-SOST-S3,25,contenido,discusion,14,Empecemos por las casillas,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-SOST-S3-PUESTA-COMUN
+L-EOM-SOST-S3-26,EOM-SOST-S3,26,contenido,discusion,6,"Una última, antes de cerrar",,,,"las celdas 1 y 2 dieron lo mismo, ¿por qué el límite va igual entre ellas?",IMG-EOM-SOST-S3-UNA-ULTIMA
+L-EOM-SOST-S3-27,EOM-SOST-S3,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S3-28,EOM-SOST-S3,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía del frente.
+
+Si tuvieras que mapear ese frente, ¿por dónde empezarías?
+
+La próxima sesión: de la casilla GSI a la calidad del macizo y su banda de RMR.",,,las tres preguntas del cierre,IMG-EOM-SOST-S3-REFLEXION
+L-EOM-SOST-S3-29,EOM-SOST-S3,29,tapa,,0,,,,,,
+L-EOM-SOST-S4-01,EOM-SOST-S4,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S4-02,EOM-SOST-S4,2,subportada-sesion,,0,Sesión N°4,De la casilla GSI a la calidad del macizo y su banda RMR,,,,
+L-EOM-SOST-S4-03,EOM-SOST-S4,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S4-04,EOM-SOST-S4,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-SOST-S4-05,EOM-SOST-S4,5,contenido,conexion,4,De dónde venimos,"La sesión pasada aprendimos a medir la roca y a ubicar su casilla en la cartilla.
+
+Hoy vemos qué sale de esa casilla, y qué se hace cuando dos papeles no dicen lo mismo.",,,el puente de la casilla a la calidad,IMG-EOM-SOST-S4-DE-DONDE-VENIMOS
+L-EOM-SOST-S4-06,EOM-SOST-S4,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos: 20 · 45 · 40 · 20 · 10,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S4-07,EOM-SOST-S4,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S4-08,EOM-SOST-S4,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fotografía treinta segundos, sin hablar.
+
+Si tuvieran que decir de qué calidad es esa roca, ¿en qué se fijarían?
+
+Escriban tres líneas. Volvemos a ellas al final.",,,"frente de labor real, con la roca a la vista",IMG-EOM-FRENTE-DISPARADO
+L-EOM-SOST-S4-09,EOM-SOST-S4,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S4-10,EOM-SOST-S4,10,tema,adquisicion,6,La letra sale del cruce,,C-EOM-SOST-S4-1,1-4,"la matriz de la cartilla, con la letra en cada casilla",IMG-EOM-SOST-CARTILLA-MATRIZ
+L-EOM-SOST-S4-11,EOM-SOST-S4,11,tema,adquisicion,6,Cada letra trae su banda de RMR,,C-EOM-SOST-S4-1,5-8,"las seis calidades con su banda, de la A a la F",IMG-EOM-SOST-S4-LETRAS-Y-BANDAS
+L-EOM-SOST-S4-12,EOM-SOST-S4,12,tema,adquisicion,6,Las clases del RMR y las letras,,C-EOM-SOST-S4-2,1-4,las cinco clases y las seis letras sobre la misma escala,IMG-EOM-SOST-S4-CLASES-VS-LETRAS
+L-EOM-SOST-S4-13,EOM-SOST-S4,13,tema,adquisicion,5,Dónde la cartilla afina,,C-EOM-SOST-S4-2,5-8,por qué un informe en clases no se lleva directo a la fila,IMG-EOM-SOST-S4-CARTILLA-AFINA
+L-EOM-SOST-S4-14,EOM-SOST-S4,14,tema,adquisicion,6,Un mapeo describe el día en que se hizo,,C-EOM-SOST-S4-3,1-4,qué envejece un mapeo y qué no,IMG-EOM-SOST-S4-VIGENCIA
+L-EOM-SOST-S4-15,EOM-SOST-S4,15,tema,adquisicion,5,Firmado no es lo mismo que vigente,,C-EOM-SOST-S4-3,5-7,lo que dice una firma y lo que dice una fecha,IMG-EOM-SOST-S4-FIRMADO-NO-ES-VIGENTE
+L-EOM-SOST-S4-16,EOM-SOST-S4,16,tema,adquisicion,6,Dos fuentes que no coinciden,,C-EOM-SOST-S4-4,1-4,los cuatro pasos para decidir con qué dato se pide,IMG-EOM-SOST-S4-DOS-FUENTES
+L-EOM-SOST-S4-17,EOM-SOST-S4,17,tema,adquisicion,5,Mientras se regulariza la firma,,C-EOM-SOST-S4-4,5-7,"qué se sostiene mientras tanto, y qué manda el art. 213",IMG-EOM-SOST-S4-MIENTRAS-TANTO
+L-EOM-SOST-S4-18,EOM-SOST-S4,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S4-19,EOM-SOST-S4,19,contenido,aplicacion,7,El informe está firmado,"Sobre la mesa hay dos papeles que no dicen lo mismo del subnivel 720.
+
+Uno lleva firma y sello de enero. El otro es el cuaderno del martes, y no lo ha firmado nadie.
+
+El pedido de material sale mañana a primera hora.",,,las dos fuentes enfrentadas: qué dice cada una y de cuándo es,IMG-EOM-SOST-S4-EL-INFORME
+L-EOM-SOST-S4-20,EOM-SOST-S4,20,contenido,aplicacion,6,Lo que pasó en medio,"«Desde enero la labor avanzó cuarenta metros, y por ahí pasó el contacto con la caja piso.»
+
+«En la 715, el año pasado, se sostuvo con un informe de ocho meses atrás. Esa labor ya no existe.»",,,la línea de tiempo entre el informe y el mapeo,IMG-EOM-SOST-S4-LO-QUE-PASO-EN-MEDIO
+L-EOM-SOST-S4-21,EOM-SOST-S4,21,contenido,aplicacion,7,El encargo,"En parejas, dieciocho minutos, sobre el papel que se les entrega.
+
+La casilla GSI del mapeo del martes, su calidad y su banda de RMR. Qué calidad se deduce del informe de enero.
+
+Y dos líneas: con cuál se pide el material y por qué, y qué se hace mientras se regulariza la firma.",,,el papel del pedido con sus cinco líneas,IMG-EOM-SOST-S4-PAPEL-DEL-PEDIDO
+L-EOM-SOST-S4-22,EOM-SOST-S4,22,contenido,aplicacion,18,A trabajar,,,,"los tres pasos del encargo, en orden, con sus minutos",IMG-EOM-SOST-S4-COMO-TRABAJAMOS
+L-EOM-SOST-S4-23,EOM-SOST-S4,23,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S4-24,EOM-SOST-S4,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S4-25,EOM-SOST-S4,25,contenido,discusion,14,Empecemos por la casilla del martes,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-SOST-S4-PUESTA-COMUN
+L-EOM-SOST-S4-26,EOM-SOST-S4,26,contenido,discusion,6,"Una última, antes de cerrar",,,,qué hace que un cuaderno sin firmar pese más que un informe sellado,IMG-EOM-SOST-S4-UNA-ULTIMA
+L-EOM-SOST-S4-27,EOM-SOST-S4,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S4-28,EOM-SOST-S4,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+Si mañana te dan un informe de hace un año, ¿qué le preguntas primero?
+
+La próxima sesión: la roca y la labor deciden juntas el sostenimiento.",,,las tres preguntas del cierre,IMG-EOM-SOST-S4-REFLEXION
+L-EOM-SOST-S4-29,EOM-SOST-S4,29,tapa,,0,,,,,,
+L-EOM-SOST-S5-01,EOM-SOST-S5,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S5-02,EOM-SOST-S5,2,subportada-sesion,,0,Sesión N°5,Selección del sostenimiento: la roca y la labor deciden juntas,,,,
+L-EOM-SOST-S5-03,EOM-SOST-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S5-04,EOM-SOST-S5,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-SOST-S5-05,EOM-SOST-S5,5,contenido,conexion,4,De dónde venimos,"Ya sabemos qué elementos hay, cómo se mide la roca y qué calidad sale de la casilla.
+
+Hoy entra lo que falta: la labor también vota. Y al final, cierra el bloque.",,,lo que ya tenemos y lo que falta,IMG-EOM-SOST-S5-DE-DONDE-VENIMOS
+L-EOM-SOST-S5-06,EOM-SOST-S5,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos: 20 · 45 · 40 · 20 · 10,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S5-07,EOM-SOST-S5,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S5-08,EOM-SOST-S5,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fotografía treinta segundos, sin hablar.
+
+¿Esta labor se queda o se cierra? ¿En qué se nota?
+
+Escriban tres líneas. Volvemos a ellas al final.",,,"labor sostenida real, con sus pernos y su malla a la vista",IMG-EOM-SOSTENIMIENTO
+L-EOM-SOST-S5-09,EOM-SOST-S5,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S5-10,EOM-SOST-S5,10,tema,adquisicion,6,Dos familias de labores,,C-EOM-SOST-S5-1,1-4,"avance y explotación, con sus ejemplos",IMG-EOM-SOST-S5-AVANCE-VS-EXPLOTACION
+L-EOM-SOST-S5-11,EOM-SOST-S5,11,tema,adquisicion,6,La que se queda y la que se cierra,,C-EOM-SOST-S5-1,5-8,"temporal frente a permanente, con el corte del año",IMG-EOM-SOST-S5-TEMPORAL-VS-PERMANENTE
+L-EOM-SOST-S5-12,EOM-SOST-S5,12,tema,adquisicion,6,Las cuatro llaves de la cartilla,,C-EOM-SOST-S5-2,1-4,lo que hay que anotar antes de buscar la fila,IMG-EOM-SOST-S5-CUATRO-LLAVES
+L-EOM-SOST-S5-13,EOM-SOST-S5,13,tema,adquisicion,5,Qué decide cada llave,,C-EOM-SOST-S5-2,5-8,"dónde entra cada una, y qué fila se lee si falta",IMG-EOM-SOST-S5-DONDE-ENTRA-CADA-LLAVE
+L-EOM-SOST-S5-14,EOM-SOST-S5,14,tema,adquisicion,6,Lo que devuelve la fila,,C-EOM-SOST-S5-3,1-4,"elemento, espaciamiento y refuerzo, los tres juntos",IMG-EOM-SOST-S5-FILA-DEVUELVE
+L-EOM-SOST-S5-15,EOM-SOST-S5,15,tema,adquisicion,5,"El espaciamiento se copia, no se ajusta",,C-EOM-SOST-S5-3,5-7,los tres pasos del espaciamiento hasta las cantidades,IMG-EOM-SOST-S5-ESPACIAMIENTO-SE-COPIA
+L-EOM-SOST-S5-16,EOM-SOST-S5,16,tema,adquisicion,6,Cuando la tabla no alcanza,,C-EOM-SOST-S5-4,1-4,lo que la cartilla no cubre y a dónde remite,IMG-EOM-SOST-S5-FUERA-DE-LA-TABLA
+L-EOM-SOST-S5-17,EOM-SOST-S5,17,tema,adquisicion,5,Las labores de infraestructura,,C-EOM-SOST-S5-4,5-8,"las que llevan estándar propio, según las notas 6 y 7",IMG-EOM-SOST-S5-INFRAESTRUCTURA
+L-EOM-SOST-S5-18,EOM-SOST-S5,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S5-19,EOM-SOST-S5,19,contenido,aplicacion,7,"La misma roca, cuatro labores","El nivel 12 tiene cuatro labores abiertas, y el mapeo de la semana les dio a las cuatro exactamente lo mismo.
+
+El capataz mira el cuadro y se impacienta: «es la misma roca en las cuatro, pongan lo mismo y terminamos».
+
+El jefe de geomecánica quiere el cuadro firmado hoy.",,,el mapeo común a las cuatro labores,IMG-EOM-SOST-S5-MAPEO-COMUN
+L-EOM-SOST-S5-20,EOM-SOST-S5,20,contenido,aplicacion,6,Las cuatro labores,"Un crucero que se cierra con el bloque. La galería principal, por donde sale todo el mineral del nivel.
+
+Un tajeo de dos metros de ancho, con la veta parada. Y la cámara de bombeo, con la bomba adentro.",,,"las cuatro labores con su sección, cuánto se quedan y quién entra",IMG-EOM-SOST-S5-CUATRO-LABORES
+L-EOM-SOST-S5-21,EOM-SOST-S5,21,contenido,aplicacion,7,El encargo,"En parejas, veinte minutos, sobre el cuadro que se les entrega.
+
+Una fila por labor: tipo, ancho de minado, temporalidad, y el sostenimiento con su espaciamiento.
+
+Y marquen con un asterisco la que no sale de la tabla, escribiendo al margen qué le falta.",,,el cuadro de las cuatro labores por llenar,IMG-EOM-SOST-S5-CUADRO-ENCARGO
+L-EOM-SOST-S5-22,EOM-SOST-S5,22,contenido,aplicacion,18,A trabajar,,,,"los tres pasos del encargo, en orden, con sus minutos",IMG-EOM-SOST-S5-COMO-TRABAJAMOS
+L-EOM-SOST-S5-23,EOM-SOST-S5,23,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S5-24,EOM-SOST-S5,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S5-25,EOM-SOST-S5,25,contenido,discusion,14,Empecemos por el crucero y la galería,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-SOST-S5-PUESTA-COMUN
+L-EOM-SOST-S5-26,EOM-SOST-S5,26,contenido,discusion,6,"Una última, antes de cerrar",,,,"la misma roca dio cuatro respuestas distintas, ¿qué las separó?",IMG-EOM-SOST-S5-UNA-ULTIMA
+L-EOM-SOST-S5-27,EOM-SOST-S5,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S5-28,EOM-SOST-S5,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+De las cuatro llaves, ¿cuál se te olvidaría con más facilidad?
+
+La próxima sesión cierra el bloque: el trabajo colaborativo, con tres zonas de un nivel.",,,las tres preguntas del cierre,IMG-EOM-SOST-S5-REFLEXION
+L-EOM-SOST-S5-29,EOM-SOST-S5,29,tapa,,0,,,,,,
+L-EOM-SOST-S7-01,EOM-SOST-S7,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S7-02,EOM-SOST-S7,2,subportada-sesion,,0,Sesión N°7,Del mapeo geomecánico al sostenimiento estándar de la labor,,,,
+L-EOM-SOST-S7-03,EOM-SOST-S7,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S7-04,EOM-SOST-S7,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-SOST-S7-05,EOM-SOST-S7,5,contenido,conexion,4,De dónde venimos,"El bloque anterior terminó sabiendo qué elemento le toca a cada labor.
+
+Este bloque responde la otra mitad: cuánto material hay que pedir. Y empieza por la hoja de la que sale todo.",,,el puente entre el bloque 1 y el bloque 2,IMG-EOM-SOST-S7-DE-DONDE-VENIMOS
+L-EOM-SOST-S7-06,EOM-SOST-S7,6,contenido,conexion,2,Ruta de aprendizaje,,,,los cinco momentos con sus minutos: 20 · 45 · 40 · 20 · 10,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S7-07,EOM-SOST-S7,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S7-08,EOM-SOST-S7,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fotografía treinta segundos, sin hablar.
+
+Para pedir el material de esa labor, ¿qué necesitarían saber antes?
+
+Escriban tres líneas. Volvemos a ellas al final.",,,"frente de labor real, antes de sostener",IMG-EOM-FRENTE-PERFORACION
+L-EOM-SOST-S7-09,EOM-SOST-S7,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S7-10,EOM-SOST-S7,10,tema,adquisicion,6,Lo que trae el parte de mapeo,,C-EOM-SOST-S7-1,1-4,los datos del parte y de dónde sale cada uno,IMG-EOM-SOST-S7-EL-PARTE-DE-MAPEO
+L-EOM-SOST-S7-11,EOM-SOST-S7,11,tema,adquisicion,5,"Lo que no trae, y hay que buscar",,C-EOM-SOST-S7-1,5-7,"tipo y sección, avance por disparo y longitud pendiente",IMG-EOM-SOST-S7-LO-QUE-FALTA-DEL-PLANO
+L-EOM-SOST-S7-12,EOM-SOST-S7,12,tema,adquisicion,6,El estándar de la unidad,,C-EOM-SOST-S7-2,1-4,qué fija el estándar y por qué la cartilla remite a él,IMG-EOM-SOST-S7-QUE-ES-EL-ESTANDAR
+L-EOM-SOST-S7-13,EOM-SOST-S7,13,tema,adquisicion,5,Quién lo escribe y quién lo lee,,C-EOM-SOST-S7-2,5-7,"geomecánica lo aprueba, el técnico lo aplica",IMG-EOM-SOST-S7-QUIEN-LO-APRUEBA
+L-EOM-SOST-S7-14,EOM-SOST-S7,14,tema,adquisicion,6,La ficha de partida,,C-EOM-SOST-S7-3,1-4,los seis datos de los que sale todo el pedido,IMG-EOM-SOST-S7-FICHA-DE-PARTIDA
+L-EOM-SOST-S7-15,EOM-SOST-S7,15,tema,adquisicion,6,Un dato mal escrito se multiplica,,C-EOM-SOST-S7-3,5-7,"del espaciamiento a la fila, y de la fila al tramo",IMG-EOM-SOST-S7-UN-DATO-MAL-ESCRITO
+L-EOM-SOST-S7-16,EOM-SOST-S7,16,tema,adquisicion,6,El espaciamiento no se estira,,C-EOM-SOST-S7-4,1-4,"los cuatro motivos, con el artículo 214 g) al pie",IMG-EOM-SOST-S7-NO-SE-ESTIRA
+L-EOM-SOST-S7-17,EOM-SOST-S7,17,tema,adquisicion,5,Lo que hereda la guardia siguiente,,C-EOM-SOST-S7-4,5-7,un tramo que cree sostenido y no lo está,IMG-EOM-SOST-S7-LA-GUARDIA-SIGUIENTE
+L-EOM-SOST-S7-18,EOM-SOST-S7,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S7-19,EOM-SOST-S7,19,contenido,aplicacion,8,La ficha de la que se parte,"La galería 480 entra a sostenerse el lunes, y hay que dejar la ficha con la que después se pide el material.
+
+El planeador la necesita hoy. «Lo que ustedes escriban acá es de donde salen las cantidades.»",,,lo que se sabe de la galería y de dónde sale cada dato,IMG-EOM-SOST-S7-LA-GALERIA-480
+L-EOM-SOST-S7-20,EOM-SOST-S7,20,contenido,aplicacion,7,El parte de la guardia anterior,"Sobre otro tramo de la misma galería, alguien anotó un espaciamiento mayor al del estándar.
+
+Al costado escribió: «no alcanzó el material».",,,el parte con su espaciamiento fuera de estándar y su excusa,IMG-EOM-SOST-S7-EL-PARTE-ANTERIOR
+L-EOM-SOST-S7-21,EOM-SOST-S7,21,contenido,aplicacion,8,El encargo,"En parejas, quince minutos, sobre la ficha que se les entrega.
+
+Seis casillas: casilla GSI; calidad y banda de RMR; tipo y sección de labor; sostenimiento que corresponde; espaciamiento; longitud de perno.
+
+Y una línea: por qué no se usa el espaciamiento que anotó la guardia anterior.",,,la ficha de partida por llenar,IMG-EOM-SOST-S7-FICHA-ENCARGO
+L-EOM-SOST-S7-22,EOM-SOST-S7,22,contenido,aplicacion,15,A trabajar,,,,"los tres pasos del encargo, en orden, con sus minutos",IMG-EOM-SOST-S7-COMO-TRABAJAMOS
+L-EOM-SOST-S7-23,EOM-SOST-S7,23,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S7-24,EOM-SOST-S7,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S7-25,EOM-SOST-S7,25,contenido,discusion,14,Empecemos por la casilla y la calidad,,,,el orden de la puesta en común y el formato de respuesta,IMG-EOM-SOST-S7-PUESTA-COMUN
+L-EOM-SOST-S7-26,EOM-SOST-S7,26,contenido,discusion,6,"Una última, antes de cerrar",,,,qué se arrastra hasta el pedido si el espaciamiento sale mal,IMG-EOM-SOST-S7-UNA-ULTIMA
+L-EOM-SOST-S7-27,EOM-SOST-S7,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S7-28,EOM-SOST-S7,28,contenido,reflexion,10,Antes de irnos,"Vuelve a las tres líneas que escribiste al inicio, frente a la fotografía.
+
+De los seis datos de la ficha, ¿cuál no está en el parte de mapeo?
+
+La próxima sesión: el perímetro que se sostiene y los pernos de una fila.",,,las tres preguntas del cierre,IMG-EOM-SOST-S7-REFLEXION
+L-EOM-SOST-S7-29,EOM-SOST-S7,29,tapa,,0,,,,,,
+L-EOM-SOST-S8-01,EOM-SOST-S8,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S8-02,EOM-SOST-S8,2,subportada-sesion,,0,Sesión N°8,Cálculo del perno: la cuña que cuelga y el factor de seguridad,,,,
+L-EOM-SOST-S8-03,EOM-SOST-S8,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S8-04,EOM-SOST-S8,4,contenido,conexion,4,¿Cómo llegas hoy?,,,,la escala de ánimo con la que abre cada sesión,IMG-ESCALA-ANIMO
+L-EOM-SOST-S8-05,EOM-SOST-S8,5,contenido,conexion,4,De dónde venimos,La sesión pasada dejamos la ficha de partida con sus seis datos. Hoy resolvemos el que no sale de ningún documento cuando la sección de la labor no figura en el estándar.,,,lo que la S7 dejó resuelto y lo que falta,IMG-EOM-SOST-S8-DE-DONDE-VENIMOS
+L-EOM-SOST-S8-06,EOM-SOST-S8,6,contenido,conexion,3,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S8-07,EOM-SOST-S8,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S8-08,EOM-SOST-S8,8,contenido,conexion,6,Veo · Pienso · Me pregunto,"Miren la cuña que cuelga de la corona y los pernos que la atraviesan.
+
+¿Quién decidió que fueran de ese largo? ¿Y qué pasaría con un perno que terminara dentro de la cuña?",,,la cuña sostenida con pernos que la pasan,IMG-EOM-SOST-S8-LA-CUNA-CON-PERNOS
+L-EOM-SOST-S8-09,EOM-SOST-S8,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S8-10,EOM-SOST-S8,10,tema,adquisicion,5,La roca que cae no es todo el macizo,,C-EOM-SOST-S8-1,1-4,la altura de cuña que le toca a cada ancho de labor,IMG-EOM-SOST-S8-LA-MITAD-DEL-ANCHO
+L-EOM-SOST-S8-11,EOM-SOST-S8,11,tema,adquisicion,5,Lo que pesa lo que cuelga,,C-EOM-SOST-S8-1,5-8,"la cuenta del peso muerto, resuelta para la rampa",IMG-EOM-SOST-S8-EL-PESO-DE-LA-CUNA
+L-EOM-SOST-S8-12,EOM-SOST-S8,12,tema,adquisicion,7,Un perno solo trabaja fuera de la cuña,,C-EOM-SOST-S8-2,1-5,lo que ancla cada perno de la fila pasada la cuña,IMG-EOM-SOST-S8-FUERA-DE-LA-CUNA
+L-EOM-SOST-S8-13,EOM-SOST-S8,13,tema,adquisicion,6,Lo que aporta cada uno,,C-EOM-SOST-S8-2,6-8,el aporte de cada perno y la capacidad de la fila,IMG-EOM-SOST-S8-LO-QUE-APORTA-CADA-UNO
+L-EOM-SOST-S8-14,EOM-SOST-S8,14,tema,adquisicion,7,El factor de seguridad,,C-EOM-SOST-S8-3,1-3,la división y los dos mínimos que hay que pasar,IMG-EOM-SOST-S8-EL-FACTOR-DE-SEGURIDAD
+L-EOM-SOST-S8-15,EOM-SOST-S8,15,tema,adquisicion,8,"Si no pasa, qué se cambia",,C-EOM-SOST-S8-3,4-8,alargar el perno frente a juntar más pernos,IMG-EOM-SOST-S8-SI-NO-PASA
+L-EOM-SOST-S8-16,EOM-SOST-S8,16,tema,adquisicion,7,De dónde sale el estándar de la unidad,,C-EOM-SOST-S8-4,1-7,"los cuatro pasos, y qué se hace si la sección no figura",IMG-EOM-SOST-S8-DE-DONDE-SALE-EL-ESTANDAR
+L-EOM-SOST-S8-17,EOM-SOST-S8,17,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S8-18,EOM-SOST-S8,18,contenido,aplicacion,6,La rampa que se ensancha,"La rampa 210 se abrió de tres por tres y ahora tiene que pasar a cuatro cincuenta por cuatro cincuenta: llega un scoop de seis yardas y volquetes de treinta toneladas.
+
+El estándar de la unidad llega hasta cuatro por cuatro. «De cuatro cincuenta no hay», dice el jefe de guardia, «y el geomecánico está en la otra unidad hasta el jueves.»",,,la labor del caso y hasta dónde llega el estándar,IMG-EOM-SOST-S8-LA-RAMPA-210
+L-EOM-SOST-S8-19,EOM-SOST-S8,19,contenido,aplicacion,5,Lo que hay para decidir,,,,los cinco datos del caso y de dónde sale cada uno,IMG-EOM-SOST-S8-LOS-DATOS
+L-EOM-SOST-S8-20,EOM-SOST-S8,20,contenido,aplicacion,4,El encargo,,,,las ocho líneas que entrega cada pareja,IMG-EOM-SOST-S8-FICHA-ENCARGO
+L-EOM-SOST-S8-21,EOM-SOST-S8,21,contenido,aplicacion,23,A trabajar,,,,el reparto de los veinte minutos,IMG-EOM-SOST-S8-COMO-TRABAJAMOS
+L-EOM-SOST-S8-22,EOM-SOST-S8,22,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S8-23,EOM-SOST-S8,23,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S8-24,EOM-SOST-S8,24,contenido,discusion,12,Empecemos por la cuña,,,,el orden de la puesta en común,IMG-EOM-SOST-S8-PUESTA-COMUN
+L-EOM-SOST-S8-25,EOM-SOST-S8,25,contenido,discusion,8,Lo que instaló una rampa de verdad,"La rampa Yumpag, de Buenaventura, tiene esta misma sección. Instalaron perno helicoidal de ocho pies espaciado a metro y medio.
+
+Comprobado con lo que acabamos de hacer, su factor de seguridad da 3,00.",,,la sección real y el factor que resulta de comprobarla,IMG-EOM-SOST-S8-LO-QUE-SE-INSTALO
+L-EOM-SOST-S8-26,EOM-SOST-S8,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S8-27,EOM-SOST-S8,27,contenido,reflexion,10,Antes de irnos,,,,las tres preguntas del cierre,IMG-EOM-SOST-S8-REFLEXION
+L-EOM-SOST-S8-28,EOM-SOST-S8,28,tapa,,0,,,,,,
+L-EOM-SOST-S9-01,EOM-SOST-S9,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S9-02,EOM-SOST-S9,2,subportada-sesion,,0,Sesión N°9,"El requerimiento del tramo: perímetro, filas, malla y accesorios",,,,
+L-EOM-SOST-S9-03,EOM-SOST-S9,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S9-04,EOM-SOST-S9,4,contenido,conexion,4,¿Cómo llegas hoy?,,,,la escala de ánimo con la que abre cada sesión,IMG-ESCALA-ANIMO
+L-EOM-SOST-S9-05,EOM-SOST-S9,5,contenido,conexion,4,De dónde venimos,"Ayer resolvimos qué perno va en la labor y cada cuánto. Hoy eso se convierte en un vale: cuántos pernos, cuántos metros de malla y con qué accesorios.",,,lo que la S8 resolvió y lo que falta,IMG-EOM-SOST-S9-DE-DONDE-VENIMOS
+L-EOM-SOST-S9-06,EOM-SOST-S9,6,contenido,conexion,3,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S9-07,EOM-SOST-S9,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S9-08,EOM-SOST-S9,8,contenido,conexion,6,Veo · Pienso · Me pregunto,"Esta es la malla de pernos de una rampa real, con sus cotas en metros.
+
+¿Cuántos pernos hay en un metro de esa labor? ¿Y cómo lo contarían para pedirlos?",,,la malla acotada de una mina real,IMG-EOM-SOST-S9-LA-MALLA-REAL
+L-EOM-SOST-S9-09,EOM-SOST-S9,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S9-10,EOM-SOST-S9,10,tema,adquisicion,6,El contorno que lleva sostenimiento,,C-EOM-SOST-S9-1,1-5,qué parte del contorno lleva perno y cuál no,IMG-EOM-SOST-S9-EL-CONTORNO
+L-EOM-SOST-S9-11,EOM-SOST-S9,11,tema,adquisicion,5,Los pernos de una fila,,C-EOM-SOST-S9-1,6-8,la división del perímetro entre el espaciamiento,IMG-EOM-SOST-S9-LOS-PERNOS-DE-UNA-FILA
+L-EOM-SOST-S9-12,EOM-SOST-S9,12,tema,adquisicion,5,Cuántas filas tiene el tramo,,C-EOM-SOST-S9-2,1-2,la división de la longitud entre el espaciamiento,IMG-EOM-SOST-S9-LAS-FILAS-DEL-TRAMO
+L-EOM-SOST-S9-13,EOM-SOST-S9,13,tema,adquisicion,6,"El total, con su longitud al costado",,C-EOM-SOST-S9-2,3-7,cada línea del pedido de pernos y de dónde sale,IMG-EOM-SOST-S9-EL-TOTAL-DE-PERNOS
+L-EOM-SOST-S9-14,EOM-SOST-S9,14,tema,adquisicion,6,Los metros de malla del contorno,,C-EOM-SOST-S9-3,1-3,"el área del contorno, y por qué todavía no es el pedido",IMG-EOM-SOST-S9-LOS-METROS-DE-MALLA
+L-EOM-SOST-S9-15,EOM-SOST-S9,15,tema,adquisicion,6,Por qué las hojas se montan una sobre otra,,C-EOM-SOST-S9-3,4-5,"la malla instalada, con el traslape entre hojas y la platina",IMG-EOM-SOST-S2-MALLA
+L-EOM-SOST-S9-16,EOM-SOST-S9,16,tema,adquisicion,5,El traslape se suma aparte,,C-EOM-SOST-S9-3,6-7,por qué va en su propia línea y no dentro del área,IMG-EOM-SOST-S9-EL-TRASLAPE
+L-EOM-SOST-S9-17,EOM-SOST-S9,17,tema,adquisicion,6,Lo que va con cada perno,,C-EOM-SOST-S9-4,1-8,"platina, tuerca y cartuchos, con su cuenta por perno",IMG-EOM-SOST-S9-LOS-ACCESORIOS
+L-EOM-SOST-S9-18,EOM-SOST-S9,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S9-19,EOM-SOST-S9,19,contenido,aplicacion,6,La galería 615,"Ciento veinte metros de galería de cuatro por cuatro, con el perno ya resuelto: siete pies, espaciados a uno coma dos.
+
+El pedido anterior cuadraba, y aun así a los sesenta metros la cuadrilla se quedó sin malla y la labor paró tres guardias.",,,la labor del caso y lo que pasó con el pedido anterior,IMG-EOM-SOST-S9-LA-GALERIA-615
+L-EOM-SOST-S9-20,EOM-SOST-S9,20,contenido,aplicacion,5,El pedido que falló,,,,lo que decía cada línea y lo que pasó en la labor,IMG-EOM-SOST-S9-EL-PEDIDO-VIEJO
+L-EOM-SOST-S9-21,EOM-SOST-S9,21,contenido,aplicacion,4,El encargo,,,,las ocho líneas que entrega cada pareja,IMG-EOM-SOST-S9-FICHA-ENCARGO
+L-EOM-SOST-S9-22,EOM-SOST-S9,22,contenido,aplicacion,23,A trabajar,,,,el reparto de los veinte minutos,IMG-EOM-SOST-S9-COMO-TRABAJAMOS
+L-EOM-SOST-S9-23,EOM-SOST-S9,23,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S9-24,EOM-SOST-S9,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S9-25,EOM-SOST-S9,25,contenido,discusion,12,Empecemos por el perímetro,,,,el orden de la puesta en común,IMG-EOM-SOST-S9-PUESTA-COMUN
+L-EOM-SOST-S9-26,EOM-SOST-S9,26,contenido,discusion,8,"Una última, antes de cerrar",,,,la frase del jefe y la pregunta del cierre dirigido,IMG-EOM-SOST-S9-UNA-ULTIMA
+L-EOM-SOST-S9-27,EOM-SOST-S9,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S9-28,EOM-SOST-S9,28,contenido,reflexion,10,Antes de irnos,,,,las tres preguntas del cierre,IMG-EOM-SOST-S9-REFLEXION
+L-EOM-SOST-S9-29,EOM-SOST-S9,29,tapa,,0,,,,,,
+L-EOM-SOST-S10-01,EOM-SOST-S10,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S10-02,EOM-SOST-S10,2,subportada-sesion,,0,Sesión N°10,Control de calidad de la instalación,,,,
+L-EOM-SOST-S10-03,EOM-SOST-S10,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S10-04,EOM-SOST-S10,4,contenido,conexion,4,¿Cómo llegas hoy?,,,,la escala de ánimo con la que abre cada sesión,IMG-ESCALA-ANIMO
+L-EOM-SOST-S10-05,EOM-SOST-S10,5,contenido,conexion,4,De dónde venimos,"La sesión pasada armamos el pedido. Hoy el material ya está puesto en la labor, y toca decir si quedó como se pidió.",,,lo que la S9 pidió y lo que hoy se recibe,IMG-EOM-SOST-S10-DE-DONDE-VENIMOS
+L-EOM-SOST-S10-06,EOM-SOST-S10,6,contenido,conexion,3,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S10-07,EOM-SOST-S10,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S10-08,EOM-SOST-S10,8,contenido,conexion,6,Veo · Pienso · Me pregunto,"Este trabajador está tirando de un perno que ya está instalado.
+
+¿Qué está midiendo? ¿Y por qué habría que hacerlo, si el proveedor ya certificó el material?",,,"la prueba de arranque hecha en la labor, sobre un perno del techo",IMG-EOM-PULL-TEST-LABOR
+L-EOM-SOST-S10-09,EOM-SOST-S10,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S10-10,EOM-SOST-S10,10,tema,adquisicion,6,El perno se verifica instalado,,C-EOM-SOST-S10-1,1-3,el equipo de prueba de arranque montado sobre el perno,IMG-EOM-PRUEBA-ARRANQUE-EQUIPO
+L-EOM-SOST-S10-11,EOM-SOST-S10,11,tema,adquisicion,6,Lo que se mira en un perno puesto,,C-EOM-SOST-S10-1,4-8,cuatro observaciones de campo y lo que significa cada una,IMG-EOM-SOST-S10-LO-QUE-SE-MIRA-EN-UN-PERNO
+L-EOM-SOST-S10-12,EOM-SOST-S10,12,tema,adquisicion,6,El espesor del lanzado,,C-EOM-SOST-S10-2,1-2,"el espesor de concreto sobre la roca, con la malla y el perno",IMG-EOM-SOST-S2-SHOTCRETE-DETALLE
+L-EOM-SOST-S10-13,EOM-SOST-S10,13,tema,adquisicion,6,El rebote y lo que delata,De diez a quince por ciento de rebote es lo normal en vía húmeda. Más que eso avisa de distancia de lanzado o de mezcla equivocada.,C-EOM-SOST-S10-2,3-5,la distancia de la boquilla a la roca y su efecto en el rebote,IMG-EOM-SOST-S2-SHOTCRETE-DISTANCIA
+L-EOM-SOST-S10-14,EOM-SOST-S10,14,tema,adquisicion,5,Las probetas y los veintiocho días,,C-EOM-SOST-S10-2,6-8,por qué la resistencia no se juzga el día de la recepción,IMG-EOM-SOST-S10-LAS-PROBETAS
+L-EOM-SOST-S10-15,EOM-SOST-S10,15,tema,adquisicion,6,Lo que obliga el reglamento,,C-EOM-SOST-S10-3,1-4,el art. 214 b) con sus dos números,IMG-EOM-SOST-S10-LO-QUE-OBLIGA-EL-REGLAMENTO
+L-EOM-SOST-S10-16,EOM-SOST-S10,16,tema,adquisicion,5,Registrar no es archivar,,C-EOM-SOST-S10-3,5-7,guardar el papel frente a dejar escrito el resultado,IMG-EOM-SOST-S10-REGISTRAR-NO-ES-ARCHIVAR
+L-EOM-SOST-S10-17,EOM-SOST-S10,17,tema,adquisicion,5,El material y la instalación no son lo mismo,,C-EOM-SOST-S10-4,1-7,de qué habla cada documento y quién lo firma,IMG-EOM-SOST-S10-MATERIAL-VS-INSTALACION
+L-EOM-SOST-S10-18,EOM-SOST-S10,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S10-19,EOM-SOST-S10,19,contenido,aplicacion,7,El certificado del proveedor,"El contratista llega con la carpeta a las diez y la valorización se firma hoy.
+
+«Con esto está conforme», dice el supervisor. «El material es el que pidieron.» De los pernos trae la guía de remisión y las platinas de repuesto. No trae nada más.",,,lo que trae el contratista y el tramo que hay que recibir,IMG-EOM-SOST-S10-EL-CERTIFICADO
+L-EOM-SOST-S10-20,EOM-SOST-S10,20,contenido,aplicacion,6,Lo que se ve caminando el tramo,,,,las cuatro cosas que ven en la labor,IMG-EOM-SOST-S10-CAMINANDO-EL-TRAMO
+L-EOM-SOST-S10-21,EOM-SOST-S10,21,contenido,aplicacion,4,El acta de recepción,,,,"una fila por verificación, y la línea de la firma",IMG-EOM-SOST-S10-ACTA-ENCARGO
+L-EOM-SOST-S10-22,EOM-SOST-S10,22,contenido,aplicacion,21,A trabajar,,,,el reparto de los dieciocho minutos,IMG-EOM-SOST-S10-COMO-TRABAJAMOS
+L-EOM-SOST-S10-23,EOM-SOST-S10,23,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S10-24,EOM-SOST-S10,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S10-25,EOM-SOST-S10,25,contenido,discusion,12,Empecemos por los dos pernos flojos,,,,el orden de la puesta en común,IMG-EOM-SOST-S10-PUESTA-COMUN
+L-EOM-SOST-S10-26,EOM-SOST-S10,26,contenido,discusion,8,"Una última, antes de cerrar",,,,la pregunta de fondo del cierre dirigido,IMG-EOM-SOST-S10-UNA-ULTIMA
+L-EOM-SOST-S10-27,EOM-SOST-S10,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S10-28,EOM-SOST-S10,28,contenido,reflexion,10,Antes de irnos,,,,las tres preguntas del cierre,IMG-EOM-SOST-S10-REFLEXION
+L-EOM-SOST-S10-29,EOM-SOST-S10,29,tapa,,0,,,,,,
+L-EOM-SOST-S11-01,EOM-SOST-S11,1,portada,,0,SOSTENIMIENTO DE LABORES MINERAS,SEDE ABQ,,,,
+L-EOM-SOST-S11-02,EOM-SOST-S11,2,subportada-sesion,,0,Sesión N°11,Recaracterización y corrección del requerimiento,,,,
+L-EOM-SOST-S11-03,EOM-SOST-S11,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-SOST-S11-04,EOM-SOST-S11,4,contenido,conexion,4,¿Cómo llegas hoy?,,,,la escala de ánimo con la que abre cada sesión,IMG-ESCALA-ANIMO
+L-EOM-SOST-S11-05,EOM-SOST-S11,5,contenido,conexion,4,De dónde venimos,"La sesión pasada recibimos el tramo y firmamos el acta. Hoy han pasado cinco meses, el sostenimiento está puesto, y el terreno se movió igual.",,,lo que la S10 cerró y lo que hoy vuelve a abrirse,IMG-EOM-SOST-S11-DE-DONDE-VENIMOS
+L-EOM-SOST-S11-06,EOM-SOST-S11,6,contenido,conexion,3,Ruta de aprendizaje,,,,los cinco momentos con sus minutos,IMG-EOM-SOST-RUTA
+L-EOM-SOST-S11-07,EOM-SOST-S11,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-SOST-S11-08,EOM-SOST-S11,8,contenido,conexion,6,Veo · Pienso · Me pregunto,"Esa cinta va tendida entre las cabezas de dos pernos, en una labor que ya está sostenida.
+
+¿Qué mide? ¿Y por qué habría que volver a medirla meses después?",,,la cinta de convergencia entre cabezas de perno,IMG-EOM-SOST-S11-LA-CINTA-DE-CONVERGENCIA
+L-EOM-SOST-S11-09,EOM-SOST-S11,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-SOST-S11-10,EOM-SOST-S11,10,tema,adquisicion,6,El terreno sigue trabajando,,C-EOM-SOST-S11-1,1-4,cuatro señales y lo que avisa cada una,IMG-EOM-SOST-S11-LAS-SENALES
+L-EOM-SOST-S11-11,EOM-SOST-S11,11,tema,adquisicion,6,Lo que la malla intacta no prueba,,C-EOM-SOST-S11-1,5-8,por qué una malla entera no dice que el sostenimiento aguante,IMG-EOM-SOST-S11-LO-QUE-NO-PRUEBA-LA-MALLA
+L-EOM-SOST-S11-12,EOM-SOST-S11,12,tema,adquisicion,6,"Recaracterizar la misma celda, hoy",,C-EOM-SOST-S11-2,1-3,los cuatro pasos de volver a levantar los datos,IMG-EOM-SOST-S11-RECARACTERIZAR
+L-EOM-SOST-S11-13,EOM-SOST-S11,13,tema,adquisicion,6,La casilla nueva devuelve otra fila,,C-EOM-SOST-S11-2,4-7,los tres datos comparados entre el mapeo y hoy,IMG-EOM-SOST-S11-LA-FILA-NUEVA
+L-EOM-SOST-S11-14,EOM-SOST-S11,14,tema,adquisicion,6,Corregir no es pedir otra vez desde cero,,C-EOM-SOST-S11-3,1-4,pedir de cero frente a corregir,IMG-EOM-SOST-S11-CORREGIR-NO-ES-PEDIR
+L-EOM-SOST-S11-15,EOM-SOST-S11,15,tema,adquisicion,5,"Tres columnas, no un solo total",,C-EOM-SOST-S11-3,5-7,"lo que se mantiene, lo que se anula y lo que se pide de más",IMG-EOM-SOST-S11-TRES-COLUMNAS
+L-EOM-SOST-S11-16,EOM-SOST-S11,16,tema,adquisicion,5,Reforzar encima o retirar,,C-EOM-SOST-S11-4,1-6,lo que gana y lo que arriesga cada salida,IMG-EOM-SOST-S11-REFORZAR-O-RETIRAR
+L-EOM-SOST-S11-17,EOM-SOST-S11,17,tema,adquisicion,5,Cómo entra la gente a hacerlo,,C-EOM-SOST-S11-4,7-8,lo que se decide en oficina y lo que no,IMG-EOM-SOST-S11-COMO-ENTRA-LA-GENTE
+L-EOM-SOST-S11-18,EOM-SOST-S11,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-SOST-S11-19,EOM-SOST-S11,19,contenido,aplicacion,7,La galería del nivel 9,"Se sostuvo hace cinco meses y por ahí pasa la locomotora cuatro veces por guardia.
+
+El lunes el motorista reportó que le caían piedras chicas sobre la vía. Cuando entran a ver, la malla está entera.",,,la labor del caso y lo que encuentran al entrar,IMG-EOM-SOST-S11-LA-GALERIA-NIVEL-9
+L-EOM-SOST-S11-20,EOM-SOST-S11,20,contenido,aplicacion,5,Lo que dice la ficha de entonces,,,,los tres datos del mapeo original,IMG-EOM-SOST-S11-LA-FICHA-VIEJA
+L-EOM-SOST-S11-21,EOM-SOST-S11,21,contenido,aplicacion,4,El encargo,,,,las seis líneas que entrega cada pareja,IMG-EOM-SOST-S11-FICHA-ENCARGO
+L-EOM-SOST-S11-22,EOM-SOST-S11,22,contenido,aplicacion,22,A trabajar,,,,el reparto de los veinte minutos,IMG-EOM-SOST-S11-COMO-TRABAJAMOS
+L-EOM-SOST-S11-23,EOM-SOST-S11,23,cotejo,aplicacion,2,Los cinco de siempre,,,,,IMG-LISTA-COTEJO
+L-EOM-SOST-S11-24,EOM-SOST-S11,24,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-SOST-S11-25,EOM-SOST-S11,25,contenido,discusion,12,Empecemos por la casilla de hoy,,,,el orden de la puesta en común,IMG-EOM-SOST-S11-PUESTA-COMUN
+L-EOM-SOST-S11-26,EOM-SOST-S11,26,contenido,discusion,8,"Una última, antes de cerrar",,,,la pregunta de fondo del cierre dirigido,IMG-EOM-SOST-S11-UNA-ULTIMA
+L-EOM-SOST-S11-27,EOM-SOST-S11,27,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-SOST-S11-28,EOM-SOST-S11,28,contenido,reflexion,10,Antes de irnos,,,,las tres preguntas del cierre,IMG-EOM-SOST-S11-REFLEXION
+L-EOM-SOST-S11-29,EOM-SOST-S11,29,tapa,,0,,,,,,
+L-EOM-FMEQ-S1-01,EOM-FMEQ-S1,1,portada,,0,FUNDAMENTOS MECÁNICOS DE EQUIPOS MINEROS,,,,,
+L-EOM-FMEQ-S1-02,EOM-FMEQ-S1,2,subportada-sesion,,0,Sesión N°1,Sistema de potencia en equipos mineros,,,,
+L-EOM-FMEQ-S1-03,EOM-FMEQ-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-FMEQ-S1-04,EOM-FMEQ-S1,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-FMEQ-S1-05,EOM-FMEQ-S1,5,contenido,conexion,2,El curso en una lámina,"Dos bloques. Cada uno cierra con un trabajo colaborativo que vale el 25 % de la nota.
+
+Bloque 1 · los equipos de una mina subterránea.
+Bloque 2 · los equipos de una operación a tajo abierto.",,,los dos bloques con sus sesiones y sus dos TC,IMG-EOM-FMEQ-CURSO-BLOQUES
+L-EOM-FMEQ-S1-06,EOM-FMEQ-S1,6,contenido,conexion,2,Cómo se califica,"La mitad de la nota sale de los dos trabajos colaborativos.
+
+TC1 25 % · TC2 25 % · Examen parcial 20 % · Examen final 20 % · Cuestionarios 10 %
+
+Nota mínima aprobatoria: 13.",,,peso de cada evento calificado,IMG-EOM-EVALUACION
+L-EOM-FMEQ-S1-07,EOM-FMEQ-S1,7,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-FMEQ-RUTA
+L-EOM-FMEQ-S1-08,EOM-FMEQ-S1,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-FMEQ-S1-09,EOM-FMEQ-S1,9,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa este equipo trabajando.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que le está costando más al equipo · qué te PREGUNTAS",,,"un equipo empujando contra el material, con la cuchara metida",IMG-EOM-SCOOP-CARGANDO
+L-EOM-FMEQ-S1-10,EOM-FMEQ-S1,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-FMEQ-S1-11,EOM-FMEQ-S1,11,tema,adquisicion,5,La cadena de la fuerza,,C-EOM-FMEQ-S1-1,1-3,"los eslabones del tren de potencia en orden, del motor a la rueda",IMG-EOM-FMEQ-S1-CADENA
+L-EOM-FMEQ-S1-12,EOM-FMEQ-S1,12,tema,adquisicion,4,Del árbol a la rueda,,C-EOM-FMEQ-S1-1,4-6,"qué hace el árbol, qué reparte el diferencial y qué reduce el mando final",IMG-EOM-FMEQ-S1-ARBOL-RUEDA
+L-EOM-FMEQ-S1-13,EOM-FMEQ-S1,13,tema,adquisicion,5,Qué recibe y qué entrega cada eslabón,,C-EOM-FMEQ-S1-1,7-9,"la cadena leída como recibe y entrega, eslabón por eslabón",IMG-EOM-FMEQ-S1-RECIBE-ENTREGA
+L-EOM-FMEQ-S1-14,EOM-FMEQ-S1,14,tema,adquisicion,4,Par y vueltas: qué se multiplica,,C-EOM-FMEQ-S1-2,1-3,"lo que se gana de fuerza se pierde de velocidad, y al revés",IMG-EOM-FMEQ-S1-PAR-VUELTAS
+L-EOM-FMEQ-S1-15,EOM-FMEQ-S1,15,tema,adquisicion,5,Marcha corta y marcha larga,,C-EOM-FMEQ-S1-2,4-6,"qué da cada marcha y dónde se usa, en las dos condiciones de la labor",IMG-EOM-FMEQ-S1-MARCHAS
+L-EOM-FMEQ-S1-16,EOM-FMEQ-S1,16,tema,adquisicion,4,El último eslabón manda,,C-EOM-FMEQ-S1-2,7-9,"cuánto llega a la rueda de lo que entregó el motor, y qué pasa si uno patina",IMG-EOM-FMEQ-S1-ULTIMO-ESLABON
+L-EOM-FMEQ-S1-17,EOM-FMEQ-S1,17,tema,adquisicion,5,Qué hace el motor mientras no avanza,,C-EOM-FMEQ-S1-3,1-4,las tres descripciones posibles del motor y qué dice cada una,IMG-EOM-FMEQ-S1-SINTOMA-MOTOR
+L-EOM-FMEQ-S1-18,EOM-FMEQ-S1,18,tema,adquisicion,4,"Vacío en plano, cargado en rampa",,C-EOM-FMEQ-S1-3,5-7,la misma máquina en las dos condiciones y qué revela cada una,IMG-EOM-FMEQ-S1-VACIO-CARGADO
+L-EOM-FMEQ-S1-19,EOM-FMEQ-S1,19,tema,adquisicion,5,El eslabón que recibe y no entrega,,C-EOM-FMEQ-S1-4,1-3,la pregunta de recibe y entrega aplicada a un par de eslabones,IMG-EOM-FMEQ-S1-MOTOR-CONVERTIDOR
+L-EOM-FMEQ-S1-20,EOM-FMEQ-S1,20,tema,adquisicion,4,Hasta dónde llega el reporte,,C-EOM-FMEQ-S1-4,4-7,qué nombra el técnico y qué diagnostica el mecánico,IMG-EOM-FMEQ-S1-REPORTE-LIMITE
+L-EOM-FMEQ-S1-21,EOM-FMEQ-S1,21,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-FMEQ-S1-22,EOM-FMEQ-S1,22,contenido,aplicacion,7,El minetruck del nivel 4,"Ayer el operador lo dejó en el taller con una nota: subiendo la rampa cargado, el motor sube de vueltas y la máquina no avanza. En plano y vacío camina bien.
+
+El jefe de mantenimiento escribió en el parte «falta de fuerza del motor».",,,"los hechos del caso, sin la respuesta",IMG-EOM-FMEQ-S1-CASO-FICHA
+L-EOM-FMEQ-S1-23,EOM-FMEQ-S1,23,contenido,aplicacion,6,Antes de resolver,"—A las cuatro tengo al proveedor en línea y pido un solo componente.
+
+La última vez pidieron el equivocado y el nivel trabajó tres semanas con winche.",,,la pregunta que abre y lo que está en juego,IMG-EOM-FMEQ-S1-ANTES-DE-RESOLVER
+L-EOM-FMEQ-S1-24,EOM-FMEQ-S1,24,contenido,aplicacion,7,El encargo,"En equipos de 3, sobre una hoja en blanco. Cuarenta minutos.
+
+Tienen la nota del operador y el parte de mantenimiento.",,,las cuatro filas de la hoja en blanco,IMG-EOM-FMEQ-S1-ENCARGO
+L-EOM-FMEQ-S1-25,EOM-FMEQ-S1,25,contenido,aplicacion,20,A trabajar,,,,"los pasos del trabajo en equipo, en orden",IMG-EOM-FMEQ-S1-COMO-TRABAJAMOS
+L-EOM-FMEQ-S1-26,EOM-FMEQ-S1,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-FMEQ-S1-27,EOM-FMEQ-S1,27,contenido,discusion,14,Empecemos por el eslabón,,,,el orden de la puesta en común y el formato de la respuesta,IMG-EOM-FMEQ-S1-PUESTA-COMUN
+L-EOM-FMEQ-S1-28,EOM-FMEQ-S1,28,contenido,discusion,6,"Una última, antes de cerrar",No se entrega nada: se conversa.,,,adónde va esto: la sesión siguiente y el colaborativo del bloque,IMG-EOM-FMEQ-S1-PUENTE-S2
+L-EOM-FMEQ-S1-29,EOM-FMEQ-S1,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-FMEQ-S1-30,EOM-FMEQ-S1,30,contenido,reflexion,10,Antes de irnos,"Vuelve a las preguntas que dejaste al inicio, frente al equipo trabajando.
+
+Antes pensaba… ahora pienso…
+
+La próxima sesión: el sistema hidráulico, y qué sostiene una carga con el motor apagado.",,,,
+L-EOM-FMEQ-S1-31,EOM-FMEQ-S1,31,tapa,,0,,,,,,
+L-EOM-FMEQ-S2-01,EOM-FMEQ-S2,1,portada,,0,FUNDAMENTOS MECÁNICOS DE EQUIPOS MINEROS,,,,,
+L-EOM-FMEQ-S2-02,EOM-FMEQ-S2,2,subportada-sesion,,0,Sesión N°2,Sistema hidráulico y sistema de enfriamiento en equipos de minería,,,,
+L-EOM-FMEQ-S2-03,EOM-FMEQ-S2,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-FMEQ-S2-04,EOM-FMEQ-S2,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-FMEQ-S2-05,EOM-FMEQ-S2,5,contenido,conexion,4,De dónde venimos,"La sesión pasada seguimos la fuerza que mueve el equipo, del motor a la rueda.
+
+Hoy vamos por la otra: la que levanta la carga y la sostiene ahí.",,,el puente de la sesión 1 a la sesión 2,IMG-EOM-FMEQ-S2-DE-DONDE
+L-EOM-FMEQ-S2-06,EOM-FMEQ-S2,6,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-FMEQ-RUTA
+L-EOM-FMEQ-S2-07,EOM-FMEQ-S2,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-FMEQ-S2-08,EOM-FMEQ-S2,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa este equipo con el brazo levantado.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que mantiene ese brazo arriba · qué te PREGUNTAS",,,"un equipo con el brazo levantado, sostenido por el circuito",IMG-EOM-JUMBO
+L-EOM-FMEQ-S2-09,EOM-FMEQ-S2,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-FMEQ-S2-10,EOM-FMEQ-S2,10,tema,adquisicion,6,El recorrido del aceite,,C-EOM-FMEQ-S2-1,1-4,"tanque, bomba, válvula y cilindro en orden, con el retorno por el filtro",IMG-EOM-FMEQ-S2-CIRCUITO
+L-EOM-FMEQ-S2-11,EOM-FMEQ-S2,11,tema,adquisicion,6,Caudal y presión: qué hace cada uno,,C-EOM-FMEQ-S2-1,5-8,las dos magnitudes del circuito y por qué el aceite sostiene,IMG-EOM-FMEQ-S2-CAUDAL-PRESION
+L-EOM-FMEQ-S2-12,EOM-FMEQ-S2,12,tema,adquisicion,6,Qué retiene la carga con el motor apagado,,C-EOM-FMEQ-S2-2,1-4,"qué pasa en el circuito al apagarse, hasta llegar a la energía residual",IMG-EOM-FMEQ-S2-RETENCION
+L-EOM-FMEQ-S2-13,EOM-FMEQ-S2,13,tema,adquisicion,5,Por dónde sale esa energía,,C-EOM-FMEQ-S2-2,5-7,las dos formas de liberarla: por el mando y por la unión,IMG-EOM-FMEQ-S2-ENERGIA-RESIDUAL
+L-EOM-FMEQ-S2-14,EOM-FMEQ-S2,14,tema,adquisicion,6,El aceite y su temperatura,,C-EOM-FMEQ-S2-3,1-4,"qué le pasa al aceite en frío, en rango y caliente",IMG-EOM-FMEQ-S2-VISCOSIDAD
+L-EOM-FMEQ-S2-15,EOM-FMEQ-S2,15,tema,adquisicion,5,Por qué una carga baja sola,,C-EOM-FMEQ-S2-3,5-7,"la cadena que lleva de la fuga interna a la deriva, y qué prueba",IMG-EOM-FMEQ-S2-DERIVA
+L-EOM-FMEQ-S2-16,EOM-FMEQ-S2,16,tema,adquisicion,6,Antes de apagar: bajar o apoyar,,C-EOM-FMEQ-S2-4,1-3,"los tres primeros pasos de la secuencia, en orden",IMG-EOM-FMEQ-S2-SECUENCIA
+L-EOM-FMEQ-S2-17,EOM-FMEQ-S2,17,tema,adquisicion,5,"Aliviar, bloquear y guardar la llave",,C-EOM-FMEQ-S2-4,4-7,los pasos que siguen y por qué el orden no se negocia,IMG-EOM-FMEQ-S2-BLOQUEO-ORDEN
+L-EOM-FMEQ-S2-18,EOM-FMEQ-S2,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-FMEQ-S2-19,EOM-FMEQ-S2,19,contenido,aplicacion,7,La que amaneció más abajo,"Anoche, con la canastilla arriba a cuatro metros veinte, el motor se apagó y no volvió a arrancar. La plataforma quedó cruzada en el único acceso al frente.
+
+El aceite quedó caliente: la máquina trabajó toda la tarde.",,,"los hechos del caso, sin la respuesta",IMG-EOM-FMEQ-S2-CASO-FICHA
+L-EOM-FMEQ-S2-20,EOM-FMEQ-S2,20,contenido,aplicacion,6,Antes de resolver,"—Está apagada desde anoche —dice el operador nuevo—, ya no debe tener presión. Aflojo la manguera y baja sola.
+
+La guardia entra a las siete por ese mismo acceso.",,,la pregunta que abre y lo que aprieta,IMG-EOM-FMEQ-S2-ANTES-DE-RESOLVER
+L-EOM-FMEQ-S2-21,EOM-FMEQ-S2,21,contenido,aplicacion,7,El encargo,"En equipos de 3, sobre una hoja en blanco. Cuarenta minutos.
+
+La cuarta fila es una secuencia numerada: el orden se califica.",,,las cuatro filas de la hoja en blanco,IMG-EOM-FMEQ-S2-ENCARGO
+L-EOM-FMEQ-S2-22,EOM-FMEQ-S2,22,contenido,aplicacion,20,A trabajar,,,,"los pasos del trabajo en equipo, en orden",IMG-EOM-FMEQ-S2-COMO-TRABAJAMOS
+L-EOM-FMEQ-S2-23,EOM-FMEQ-S2,23,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-FMEQ-S2-24,EOM-FMEQ-S2,24,contenido,discusion,14,Empecemos por la secuencia,,,,el orden de la puesta en común y el formato de la respuesta,IMG-EOM-FMEQ-S2-PUESTA-COMUN
+L-EOM-FMEQ-S2-25,EOM-FMEQ-S2,25,contenido,discusion,6,"Una última, antes de cerrar","No se entrega nada: se conversa.
+
+¿Qué habría pasado si el operador nuevo aflojaba la manguera antes de que llegaran ustedes?",,,adónde va esto: la sesión siguiente y el colaborativo del bloque,IMG-EOM-FMEQ-S2-PUENTE-S3
+L-EOM-FMEQ-S2-26,EOM-FMEQ-S2,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-FMEQ-S2-27,EOM-FMEQ-S2,27,contenido,reflexion,10,Antes de irnos,"Vuelve a lo que escribiste al inicio, frente al equipo con el brazo levantado.
+
+Antes pensaba… ahora pienso…
+
+La próxima sesión: los componentes críticos del scooptram y del minetruck, y el formato de pre-uso que debería recogerlos.",,,,
+L-EOM-FMEQ-S2-28,EOM-FMEQ-S2,28,tapa,,0,,,,,,
+L-EOM-FMEQ-S5-01,EOM-FMEQ-S5,1,portada,,0,FUNDAMENTOS MECÁNICOS DE EQUIPOS MINEROS,,,,,
+L-EOM-FMEQ-S5-02,EOM-FMEQ-S5,2,subportada-sesion,,0,Sesión N°5,Diagnóstico de fallas en equipos de minería,,,,
+L-EOM-FMEQ-S5-03,EOM-FMEQ-S5,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-FMEQ-S5-04,EOM-FMEQ-S5,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-FMEQ-S5-05,EOM-FMEQ-S5,5,contenido,conexion,4,De dónde venimos,"Cuatro sesiones nombrando componentes: qué es cada pieza y qué hace.
+
+Hoy el equipo habla solo, y hay que decidir si entra a la labor.",,,el puente de las cuatro sesiones anteriores a esta,IMG-EOM-FMEQ-S5-DE-DONDE
+L-EOM-FMEQ-S5-06,EOM-FMEQ-S5,6,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-FMEQ-RUTA
+L-EOM-FMEQ-S5-07,EOM-FMEQ-S5,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-FMEQ-S5-08,EOM-FMEQ-S5,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa esta labor ya sostenida.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que tuvo que pasar antes de esto · qué te PREGUNTAS",,,"una labor sostenida con pernos y malla, ya terminada",IMG-EOM-SOSTENIMIENTO
+L-EOM-FMEQ-S5-09,EOM-FMEQ-S5,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-FMEQ-S5-10,EOM-FMEQ-S5,10,tema,adquisicion,6,Lo que avisa el tablero,,C-EOM-FMEQ-S5-1,1-4,los testigos de color y las tres señales que trae este equipo,IMG-EOM-FMEQ-S5-TABLERO
+L-EOM-FMEQ-S5-11,EOM-FMEQ-S5,11,tema,adquisicion,6,Lo que solo se ve en el pre-uso,,C-EOM-FMEQ-S5-1,5-8,qué muestra el tablero y qué recoge el pre-uso,IMG-EOM-FMEQ-S5-TABLERO-PREUSO
+L-EOM-FMEQ-S5-12,EOM-FMEQ-S5,12,tema,adquisicion,6,Cada señal tiene su sistema,,C-EOM-FMEQ-S5-2,1-4,la correspondencia entre cada señal y el sistema que la origina,IMG-EOM-FMEQ-S5-SENAL-SISTEMA
+L-EOM-FMEQ-S5-13,EOM-FMEQ-S5,13,tema,adquisicion,5,Cuando salen varias a la vez,,C-EOM-FMEQ-S5-2,5-7,cómo se agrupan las señales antes de contarlas,IMG-EOM-FMEQ-S5-MISMO-SISTEMA
+L-EOM-FMEQ-S5-14,EOM-FMEQ-S5,14,tema,adquisicion,6,La que detiene y la que se reporta,,C-EOM-FMEQ-S5-3,1-4,qué separa una señal que detiene de una que se reporta,IMG-EOM-FMEQ-S5-DETIENE-REPORTA
+L-EOM-FMEQ-S5-15,EOM-FMEQ-S5,15,tema,adquisicion,5,Que salga siempre no la vuelve falsa,,C-EOM-FMEQ-S5-3,5-7,qué pasa con un cuadro de señales y con la que sale siempre,IMG-EOM-FMEQ-S5-CUADRO-SENALES
+L-EOM-FMEQ-S5-16,EOM-FMEQ-S5,16,tema,adquisicion,6,Qué lleva el reporte,,C-EOM-FMEQ-S5-4,1-3,"lo que se escribe: lo observado, el sistema y la medida",IMG-EOM-FMEQ-S5-QUE-LLEVA
+L-EOM-FMEQ-S5-17,EOM-FMEQ-S5,17,tema,adquisicion,5,"A quién va, y qué lo prueba",,C-EOM-FMEQ-S5-4,4-7,a quién se entrega el reporte y qué lo hace válido,IMG-EOM-FMEQ-S5-A-QUIEN
+L-EOM-FMEQ-S5-18,EOM-FMEQ-S5,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-FMEQ-S5-19,EOM-FMEQ-S5,19,contenido,aplicacion,7,Ese siempre sale,"El empernador arranca con tres testigos encendidos, y lleva diez minutos prendido: todavía está frío.
+
+—Dos de esos salen siempre desde que le cambiaron el sensor.",,,"los hechos del caso, sin la respuesta",IMG-EOM-FMEQ-S5-CASO-FICHA
+L-EOM-FMEQ-S5-20,EOM-FMEQ-S5,20,contenido,aplicacion,6,Antes de resolver,"—Son diez pernos, media hora y salgo.
+
+El frente quedó limpio anoche y lleva dos guardias sin sostener. El disparo está programado para las siete.",,,la pregunta que abre y lo que aprieta,IMG-EOM-FMEQ-S5-ANTES-DE-RESOLVER
+L-EOM-FMEQ-S5-21,EOM-FMEQ-S5,21,contenido,aplicacion,7,El encargo,"En equipos de 3, sobre una hoja en blanco. Cuarenta minutos.
+
+La cuarta fila es el reporte: se escribe como se entrega.",,,las cuatro filas de la hoja en blanco,IMG-EOM-FMEQ-S5-ENCARGO
+L-EOM-FMEQ-S5-22,EOM-FMEQ-S5,22,contenido,aplicacion,20,A trabajar,,,,"los pasos del trabajo en equipo, en orden",IMG-EOM-FMEQ-S5-COMO-TRABAJAMOS
+L-EOM-FMEQ-S5-23,EOM-FMEQ-S5,23,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-FMEQ-S5-24,EOM-FMEQ-S5,24,contenido,discusion,14,Empecemos por los que decidieron distinto,,,,el orden de la puesta en común y el formato de la respuesta,IMG-EOM-FMEQ-S5-PUESTA-COMUN
+L-EOM-FMEQ-S5-25,EOM-FMEQ-S5,25,contenido,discusion,6,"Una última, antes de cerrar","No se entrega nada: se conversa.
+
+¿Qué habría hecho falta para que esos testigos dejaran de salir siempre?",,,adónde va esto: el colaborativo que cierra el bloque,IMG-EOM-FMEQ-S5-PUENTE-TC1
+L-EOM-FMEQ-S5-26,EOM-FMEQ-S5,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-FMEQ-S5-27,EOM-FMEQ-S5,27,contenido,reflexion,10,Antes de irnos,"Vuelve a lo que escribiste al inicio, frente a la labor sostenida.
+
+Antes pensaba… ahora pienso…
+
+La próxima sesión es el trabajo colaborativo: una labor con cinco equipos, y una decisión por cada uno.",,,,
+L-EOM-FMEQ-S5-28,EOM-FMEQ-S5,28,tapa,,0,,,,,,
+L-EOM-FMEQ-S11-01,EOM-FMEQ-S11,1,portada,,0,FUNDAMENTOS MECÁNICOS DE EQUIPOS MINEROS,,,,,
+L-EOM-FMEQ-S11-02,EOM-FMEQ-S11,2,subportada-sesion,,0,Sesión N°11,Mantenimiento preventivo en equipos mineros,,,,
+L-EOM-FMEQ-S11-03,EOM-FMEQ-S11,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-FMEQ-S11-04,EOM-FMEQ-S11,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-FMEQ-S11-05,EOM-FMEQ-S11,5,contenido,conexion,4,De dónde venimos,"La sesión pasada el hallazgo estaba en el equipo: una varilla en el máximo.
+
+Hoy el equipo puede estar trabajando ahora mismo, y el hallazgo está en sus papeles.",,,el puente de la sesión anterior a esta,IMG-EOM-FMEQ-S11-DE-DONDE
+L-EOM-FMEQ-S11-06,EOM-FMEQ-S11,6,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-FMEQ-RUTA
+L-EOM-FMEQ-S11-07,EOM-FMEQ-S11,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-FMEQ-S11-08,EOM-FMEQ-S11,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa este equipo trabajando en el banco.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que habría que pedir para saber si debe estar ahí · qué te PREGUNTAS",,,"un equipo minero en plena operación, sin nada aparente",IMG-EOM-SCOOP-CARGANDO
+L-EOM-FMEQ-S11-09,EOM-FMEQ-S11,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-FMEQ-S11-10,EOM-FMEQ-S11,10,tema,adquisicion,6,Preventivo y programado no son lo mismo,,C-EOM-FMEQ-S11-1,1-4,"quién manda cada uno, con qué regla y cómo se reconoce",IMG-EOM-FMEQ-S11-PREVENTIVO-PROGRAMADO
+L-EOM-FMEQ-S11-11,EOM-FMEQ-S11,11,tema,adquisicion,5,Se cumplen por separado,,C-EOM-FMEQ-S11-1,5-7,por qué estar al día en uno no dice nada del otro,IMG-EOM-FMEQ-S11-POR-SEPARADO
+L-EOM-FMEQ-S11-12,EOM-FMEQ-S11,12,tema,adquisicion,6,Qué prueba cada documento,,C-EOM-FMEQ-S11-2,1-4,la cartilla del equipo frente al programa de la unidad,IMG-EOM-FMEQ-S11-DOS-DOCUMENTOS
+L-EOM-FMEQ-S11-13,EOM-FMEQ-S11,13,tema,adquisicion,5,Pedir uno solo deja media verificación,,C-EOM-FMEQ-S11-2,5-7,el hallazgo que aparece al comparar los dos documentos,IMG-EOM-FMEQ-S11-MEDIA-VERIFICACION
+L-EOM-FMEQ-S11-14,EOM-FMEQ-S11,14,tema,adquisicion,6,La cuenta del horómetro,,C-EOM-FMEQ-S11-3,1-4,"el intervalo de la cartilla, la lectura de hoy y la diferencia",IMG-EOM-FMEQ-S11-HOROMETRO
+L-EOM-FMEQ-S11-15,EOM-FMEQ-S11,15,tema,adquisicion,5,Lo que no se ve mirando la máquina,,C-EOM-FMEQ-S11-3,5-7,"por qué un preventivo vencido no se ve, y qué lo hace visible",IMG-EOM-FMEQ-S11-NO-SE-VE
+L-EOM-FMEQ-S11-16,EOM-FMEQ-S11,16,tema,adquisicion,6,El trabajo que se reprograma,,C-EOM-FMEQ-S11-4,1-4,cuándo una reprogramación deja de ser demora y pasa a ser hallazgo,IMG-EOM-FMEQ-S11-REPROGRAMADO
+L-EOM-FMEQ-S11-17,EOM-FMEQ-S11,17,tema,adquisicion,6,Hasta dónde llega el técnico,,C-EOM-FMEQ-S11-4,5-7,qué le toca al técnico y qué es decisión de mantenimiento,IMG-EOM-FMEQ-S11-HASTA-DONDE
+L-EOM-FMEQ-S11-18,EOM-FMEQ-S11,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-FMEQ-S11-19,EOM-FMEQ-S11,19,contenido,aplicacion,7,La cartilla está al día,"El camión 12 tiene la cartilla del preventivo firmada: el PM-500 se le hizo hace cuarenta horas de horómetro.
+
+En el programa de la semana aparece otro trabajo, que no es preventivo.",,,"los hechos del caso, sin la respuesta",IMG-EOM-FMEQ-S11-CASO-FICHA
+L-EOM-FMEQ-S11-20,EOM-FMEQ-S11,20,contenido,aplicacion,6,Antes de resolver,"—El equipo está al día —dice el supervisor de la contrata—, el preventivo está al día.
+
+El operador viene anotando hace un mes que la tolva baja sola cuando la deja levantada.",,,la pregunta que abre y lo que aprieta,IMG-EOM-FMEQ-S11-ANTES-DE-RESOLVER
+L-EOM-FMEQ-S11-21,EOM-FMEQ-S11,21,contenido,aplicacion,7,El encargo,"En equipos de 3, sobre una hoja en blanco. Cuarenta minutos.
+
+La conclusión se califica con el documento que la sostiene, no sola.",,,las cuatro filas de la hoja en blanco,IMG-EOM-FMEQ-S11-ENCARGO
+L-EOM-FMEQ-S11-22,EOM-FMEQ-S11,22,contenido,aplicacion,20,A trabajar,,,,"los pasos del trabajo en equipo, en orden",IMG-EOM-FMEQ-S11-COMO-TRABAJAMOS
+L-EOM-FMEQ-S11-23,EOM-FMEQ-S11,23,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-FMEQ-S11-24,EOM-FMEQ-S11,24,contenido,discusion,14,Empecemos por los que respondieron distinto,,,,el orden de la puesta en común y el formato de la respuesta,IMG-EOM-FMEQ-S11-PUESTA-COMUN
+L-EOM-FMEQ-S11-25,EOM-FMEQ-S11,25,contenido,discusion,6,"Una última, antes de cerrar","No se entrega nada: se conversa.
+
+¿Cuántas veces más habría que reprogramar ese trabajo para que alguien lo viera?",,,adónde va esto: el colaborativo que cierra el bloque,IMG-EOM-FMEQ-S11-PUENTE-TC2
+L-EOM-FMEQ-S11-26,EOM-FMEQ-S11,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-FMEQ-S11-27,EOM-FMEQ-S11,27,contenido,reflexion,10,Antes de irnos,"Vuelve a lo que escribiste al inicio, frente al equipo trabajando.
+
+Antes pensaba… ahora pienso…
+
+La próxima sesión es el trabajo colaborativo: cuatro equipos de un tajo, y una decisión por cada uno.",,,,
+L-EOM-FMEQ-S11-28,EOM-FMEQ-S11,28,tapa,,0,,,,,,
+L-EOM-EQPERF-S1-01,EOM-EQPERF-S1,1,portada,,0,EQUIPOS Y ACCESORIOS DE PERFORACIÓN,,,,,
+L-EOM-EQPERF-S1-02,EOM-EQPERF-S1,2,subportada-sesion,,0,Sesión N°1,"Fundamento de la perforación: percusión, rotación, empuje y barrido",,,,
+L-EOM-EQPERF-S1-03,EOM-EQPERF-S1,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-EQPERF-S1-04,EOM-EQPERF-S1,4,contenido,conexion,3,¿Cómo llegas hoy?,"Marca en la escala cómo llegas a esta primera clase.
+
+No hay respuesta correcta: sirve para saber con qué grupo empezamos.",,,"escala de ánimo de cinco caras, de la plantilla común",IMG-ESCALA-ANIMO
+L-EOM-EQPERF-S1-05,EOM-EQPERF-S1,5,contenido,conexion,2,El curso en una lámina,"Veinticuatro sesiones. Trece de perforación subterránea —siete de frentes y seis de taladros largos— y siete de perforación superficial.
+
+Cuatro sesiones son de sustentación: dos por cada trabajo colaborativo.",,,"barra de los dos bloques del curso, con sus tramos y las sesiones de sustentación marcadas",
+L-EOM-EQPERF-S1-06,EOM-EQPERF-S1,6,contenido,conexion,2,Cómo se califica,"Conocimiento, la mitad: dos cuestionarios de verificación, examen parcial y examen final.
+
+Habilidades, la otra mitad: dos trabajos colaborativos, con rúbrica.
+
+La nota mínima aprobatoria es trece.",,,cuadro del sistema de evaluación con los seis eventos y su peso,IMG-EOM-EVALUACION
+L-EOM-EQPERF-S1-07,EOM-EQPERF-S1,7,contenido,conexion,2,Ruta de aprendizaje,"Cada sesión recorre cinco momentos: conexión, adquisición, aplicación, discusión y reflexión.
+
+El trabajo con casos ocurre en la aplicación, y se pone en común en la discusión.",,,"los cinco momentos de la ruta, en secuencia",IMG-EOM-RUTA-S1
+L-EOM-EQPERF-S1-08,EOM-EQPERF-S1,8,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-EQPERF-S1-09,EOM-EQPERF-S1,9,contenido,conexion,8,Veo · Pienso · Me pregunto,"Miren la fotografía. Dos montones de detrito recogidos del piso de un mismo frente, debajo de dos taladros vecinos.
+
+Anoten qué ven, qué piensan y qué se preguntan. Guarden lo que escribieron: volvemos a esto al final de la clase.",,,"fotografía de dos montones de detrito de perforación al pie de un frente: uno grueso y húmedo, otro de polvo fino",
+L-EOM-EQPERF-S1-10,EOM-EQPERF-S1,10,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-EQPERF-S1-11,EOM-EQPERF-S1,11,tema,adquisicion,5,Qué pasa dentro del taladro,,C-EOM-EQPERF-S1-2,1,"corte de un taladro con la broca en el fondo, señalando el golpe, el giro, el empuje y la salida del detrito",
+L-EOM-EQPERF-S1-12,EOM-EQPERF-S1,12,tema,adquisicion,4,La percusión: el golpe que rompe,,C-EOM-EQPERF-S1-1,1,esquema del pistón golpeando la culata y la onda de choque viajando por la barra hasta la broca,
+L-EOM-EQPERF-S1-13,EOM-EQPERF-S1,13,tema,adquisicion,5,La rotación: diente nuevo en cada golpe,,C-EOM-EQPERF-S1-1,2,vista frontal del fondo del taladro con las huellas de los botones y el giro entre golpe y golpe,
+L-EOM-EQPERF-S1-14,EOM-EQPERF-S1,14,tema,adquisicion,4,El empuje: mantener el contacto,,C-EOM-EQPERF-S1-1,3,"esquema de la broca apoyada en el fondo, con la fuerza de avance señalada",
+L-EOM-EQPERF-S1-15,EOM-EQPERF-S1,15,tema,adquisicion,5,El barrido: sacar el ripio del fondo,,C-EOM-EQPERF-S1-1,4,corte del taladro con el fluido bajando por el interior de la barra y el detrito subiendo por fuera,
+L-EOM-EQPERF-S1-16,EOM-EQPERF-S1,16,tema,adquisicion,4,"Los cuatro a la vez, no por turnos",,C-EOM-EQPERF-S1-2,2-4,esquema del ciclo con los cuatro elementos actuando simultáneamente,
+L-EOM-EQPERF-S1-17,EOM-EQPERF-S1,17,tema,adquisicion,5,Lo que deja cada falla: el detrito,,C-EOM-EQPERF-S1-3,1,fotografía comparada de detrito grueso y húmedo junto a detrito de polvo fino,
+L-EOM-EQPERF-S1-18,EOM-EQPERF-S1,18,tema,adquisicion,4,Lo que deja cada falla: el acero,,C-EOM-EQPERF-S1-3,3-4,fotografía de una broca con botones aplastados y de una barra recuperada tras trabarse,
+L-EOM-EQPERF-S1-19,EOM-EQPERF-S1,19,tema,adquisicion,5,"El avance, leído como señal",,C-EOM-EQPERF-S1-3,2,"tres curvas de avance contra profundidad: pareja, en caída progresiva, y alta que se detiene",
+L-EOM-EQPERF-S1-20,EOM-EQPERF-S1,20,tema,adquisicion,4,"Cuando falla uno, arrastra a los otros",,C-EOM-EQPERF-S1-4,1-4,"esquema de dependencias entre los cuatro elementos, con las flechas de arrastre",
+L-EOM-EQPERF-S1-21,EOM-EQPERF-S1,21,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-EQPERF-S1-22,EOM-EQPERF-S1,22,contenido,aplicacion,7,El frente del martes,"El maestro perforó el frente y se fue a las diez. En la cartilla dejó tres taladros marcados con un aspa y ninguna nota.
+
+El primero entró parejo de principio a fin.",,,frente de avance con la cartilla en la caja y tres taladros marcados,
+L-EOM-EQPERF-S1-23,EOM-EQPERF-S1,23,contenido,aplicacion,6,Los tres taladros,"El segundo está a treinta centímetros del primero, en la misma fila. Con la barra ya metida unos ochenta centímetros, cayó el avance. Dejó polvo fino, tibio al tacto, y la barra terminó trabada.
+
+El tercero entró rapidísimo el primer medio metro y después el avance se detuvo. Quedó corto. La broca volvió con los botones aplastados.
+
+El maestro dice que hay una zona dura y que le dieron una broca reafilada. El ayudante dice que bajó la válvula de agua y que el compresor andaba flojo.",,,"los tres montones de detrito y los dos aceros devueltos, dispuestos como en el frente",
+L-EOM-EQPERF-S1-24,EOM-EQPERF-S1,24,contenido,aplicacion,7,El encargo,"En equipos de cuatro, sobre la hoja de observación que se les entrega.
+
+Para cada taladro: qué elemento no estaba haciendo su trabajo y qué le pasó por eso al acero. Y qué habría bastado mirar para darse cuenta antes de que la barra se trabara.
+
+Hay un renglón que hay que llenar sí o sí: lo que no se puede afirmar.",,,"la hoja de observación de perforación, con sus tres filas y el renglón de cierre",
+L-EOM-EQPERF-S1-25,EOM-EQPERF-S1,25,contenido,aplicacion,20,A trabajar,"Veinte minutos. Tienen la hoja, el registro de la línea de aire y el reporte del turno saliente.
+
+Un integrante por taladro; el cuarto arma el cierre.",,,"cómo trabajamos: equipos, materiales y tiempo",
+L-EOM-EQPERF-S1-26,EOM-EQPERF-S1,26,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-EQPERF-S1-27,EOM-EQPERF-S1,27,contenido,discusion,14,Empecemos por el primero,"¿Para qué sirve el taladro que salió bien?
+
+Del segundo: ¿barrido o rotación? Las dos se pueden defender. Escuchemos las dos y veamos en qué terminan.
+
+Del tercero: ¿por qué entró rápido y después no?
+
+Y la pregunta que ordena todo: ¿la roca puede cambiar en treinta centímetros?",,,"los tres taladros en la cartilla, para señalar mientras se discute",
+L-EOM-EQPERF-S1-28,EOM-EQPERF-S1,28,contenido,discusion,6,Lo que no se puede afirmar,"El registro de la línea de aire muestra dos horas por debajo de lo normal. Nadie anotó a qué hora se perforó cada taladro.
+
+¿Qué se puede decir con eso, y qué no?
+
+Decir «no hay cómo saberlo» es una respuesta técnica, no una evasiva.",,,"el registro de la línea de aire, sin horas de perforación anotadas",
+L-EOM-EQPERF-S1-29,EOM-EQPERF-S1,29,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-EQPERF-S1-30,EOM-EQPERF-S1,30,contenido,reflexion,10,Antes de irnos,"Vuelvan a lo que escribieron al inicio, frente a la fotografía de los dos detritos. ¿Qué agregarían ahora?
+
+La próxima sesión: la malla del frente y por qué el taco cambia según la posición del taladro.
+
+Antes de esa clase: la lectura del bloque asincrónico en el EVA.",,,,
+L-EOM-EQPERF-S1-31,EOM-EQPERF-S1,31,tapa,,0,,,,,,
+L-EOM-FMEQ-S3-01,EOM-FMEQ-S3,1,portada,,0,FUNDAMENTOS MECÁNICOS DE EQUIPOS MINEROS,,,,,
+L-EOM-FMEQ-S3-02,EOM-FMEQ-S3,2,subportada-sesion,,0,Sesión N°3,Partes críticas del scooptram/minetruck,,,,
+L-EOM-FMEQ-S3-03,EOM-FMEQ-S3,3,subportada-momento,conexion,0,CONEXIÓN,,,,,
+L-EOM-FMEQ-S3-04,EOM-FMEQ-S3,4,contenido,conexion,3,¿Cómo llegas hoy?,"Responde con los dedos de la mano.
+
+¿Cuál de estas nueve figuras eres tú hoy?",,,escala de ánimo de nueve figuras,IMG-ESCALA-ANIMO
+L-EOM-FMEQ-S3-05,EOM-FMEQ-S3,5,contenido,conexion,4,De dónde venimos,"Dos sesiones sobre sistemas: el que mueve el equipo y el que levanta la carga.
+
+Hoy bajamos a las máquinas que los llevan adentro, una por una.",,,el puente de las dos sesiones anteriores a esta,IMG-EOM-FMEQ-S3-DE-DONDE
+L-EOM-FMEQ-S3-06,EOM-FMEQ-S3,6,contenido,conexion,2,Ruta de aprendizaje,"Así vamos a trabajar hoy, y cuánto dura cada tramo.",,,Conexión 20 · Adquisición 45 · Aplicación 40 · Discusión 20 · Reflexión 10,IMG-EOM-FMEQ-RUTA
+L-EOM-FMEQ-S3-07,EOM-FMEQ-S3,7,triangulacion,conexion,3,Lo que vamos a lograr hoy,,,,,
+L-EOM-FMEQ-S3-08,EOM-FMEQ-S3,8,contenido,conexion,8,Veo · Pienso · Me pregunto,"Observa este equipo entrando a la labor.
+
+Escribe tres líneas:
+qué VES · qué PIENSAS que habría que revisar antes de que arranque · qué te PREGUNTAS",,,"un minetruck avanzando por una labor, con el operador en la cabina",IMG-EOM-FMEQ-S3-MINETRUCK-LABOR
+L-EOM-FMEQ-S3-09,EOM-FMEQ-S3,9,subportada-momento,adquisicion,0,ADQUISICIÓN,,,,,
+L-EOM-FMEQ-S3-10,EOM-FMEQ-S3,10,tema,adquisicion,6,Los componentes del scooptram,,C-EOM-FMEQ-S3-1,1-4,"los diez componentes del scooptram numerados sobre la máquina, con su leyenda",IMG-EOM-FMEQ-S3-SCOOPTRAM-FIG
+L-EOM-FMEQ-S3-11,EOM-FMEQ-S3,11,tema,adquisicion,6,Los componentes del minetruck,,C-EOM-FMEQ-S3-1,5-8,"los nueve componentes del minetruck rotulados sobre la máquina, con su leyenda",IMG-EOM-FMEQ-S3-MINETRUCK-FIG
+L-EOM-FMEQ-S3-12,EOM-FMEQ-S3,12,tema,adquisicion,6,Qué hace cada componente crítico,,C-EOM-FMEQ-S3-2,1-4,la función de los cilindros y de la articulación central,IMG-EOM-FMEQ-S3-FUNCION-COMPONENTES
+L-EOM-FMEQ-S3-13,EOM-FMEQ-S3,13,tema,adquisicion,5,Los dos frenos no son el mismo,,C-EOM-FMEQ-S3-2,5-7,"freno de parqueo y freno de servicio, y qué pasa si falla cada uno",IMG-EOM-FMEQ-S3-FRENOS
+L-EOM-FMEQ-S3-14,EOM-FMEQ-S3,14,tema,adquisicion,6,Carguío y acarreo,,C-EOM-FMEQ-S3-3,1-4,qué hace cada familia con la carga y con qué componente lo hace,IMG-EOM-FMEQ-S3-CARGUIO-ACARREO
+L-EOM-FMEQ-S3-15,EOM-FMEQ-S3,15,tema,adquisicion,5,Lo que comparten y lo que no,,C-EOM-FMEQ-S3-3,5-7,qué llevan igual las dos familias y qué las separa,IMG-EOM-FMEQ-S3-COMPARTEN
+L-EOM-FMEQ-S3-16,EOM-FMEQ-S3,16,tema,adquisicion,6,El hueco tiene dos direcciones,,C-EOM-FMEQ-S3-4,1-4,"un componente sin línea y una línea sin componente, y qué produce cada uno",IMG-EOM-FMEQ-S3-COMPONENTE-LINEA
+L-EOM-FMEQ-S3-17,EOM-FMEQ-S3,17,tema,adquisicion,5,El formato se hace por equipo,,C-EOM-FMEQ-S3-4,5-7,"por qué un formato de flota deja huecos, y qué dice el margen del papel",IMG-EOM-FMEQ-S3-FORMATO-POR-EQUIPO
+L-EOM-FMEQ-S3-18,EOM-FMEQ-S3,18,subportada-momento,aplicacion,0,APLICACIÓN,,,,,
+L-EOM-FMEQ-S3-19,EOM-FMEQ-S3,19,contenido,aplicacion,7,Qué le sobra y qué le falta a este papel,"Catorce equipos en la unidad, y todos usan el mismo formato de pre-uso: uno solo, impreso, que el prevencionista armó el año pasado para toda la flota.
+
+Anoche los dos vinieron completos y firmados.",,,"los hechos del caso, sin la respuesta",IMG-EOM-FMEQ-S3-CASO-FICHA
+L-EOM-FMEQ-S3-20,EOM-FMEQ-S3,20,contenido,aplicacion,6,Antes de resolver,"En el del minetruck, entre las líneas conforme: «cilindros de volteo de cuchara».
+
+En el del scooptram, escrito a mano al margen: «el freno de parqueo tarda en soltar».",,,la pregunta que abre y lo que aprieta,IMG-EOM-FMEQ-S3-ANTES-DE-RESOLVER
+L-EOM-FMEQ-S3-21,EOM-FMEQ-S3,21,contenido,aplicacion,7,El encargo,"En equipos de 3, sobre una hoja en blanco. Cuarenta minutos.
+
+El jefe de seguridad los quiere a las once con el formato corregido.",,,las cuatro filas de la hoja en blanco,IMG-EOM-FMEQ-S3-ENCARGO
+L-EOM-FMEQ-S3-22,EOM-FMEQ-S3,22,contenido,aplicacion,20,A trabajar,,,,"los pasos del trabajo en equipo, en orden",IMG-EOM-FMEQ-S3-COMO-TRABAJAMOS
+L-EOM-FMEQ-S3-23,EOM-FMEQ-S3,23,subportada-momento,discusion,0,DISCUSIÓN,,,,,
+L-EOM-FMEQ-S3-24,EOM-FMEQ-S3,24,contenido,discusion,14,Empecemos por el que se quedó sin línea,,,,el orden de la puesta en común y el formato de la respuesta,IMG-EOM-FMEQ-S3-PUESTA-COMUN
+L-EOM-FMEQ-S3-25,EOM-FMEQ-S3,25,contenido,discusion,6,"Una última, antes de cerrar","No se entrega nada: se conversa.
+
+¿Cuántas veces habrá firmado alguien esa línea que no existe?",,,adónde va esto: la sesión siguiente y el colaborativo del bloque,IMG-EOM-FMEQ-S3-PUENTE-S4
+L-EOM-FMEQ-S3-26,EOM-FMEQ-S3,26,subportada-momento,reflexion,0,REFLEXIÓN,,,,,
+L-EOM-FMEQ-S3-27,EOM-FMEQ-S3,27,contenido,reflexion,10,Antes de irnos,"Vuelve a lo que escribiste al inicio, frente al equipo entrando a la labor.
+
+Antes pensaba… ahora pienso…
+
+La próxima sesión: jumbo, simba y empernador. Tres máquinas parecidas que no se revisan igual.",,,,
+L-EOM-FMEQ-S3-28,EOM-FMEQ-S3,28,tapa,,0,,,,,,

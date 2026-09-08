@@ -311,6 +311,35 @@ si ninguna pasó: usar la mejor y REPORTAR las fallas
 
 ---
 
+---
+
+## 8. El prompt y el modelo (lo que costó descubrir)
+
+**El prompt corto gana, y no por estilo.** El largo pelea contra la fuente —*«conviértelo en vector plano, quita el achurado, rellena en colores planos»*— y el resultado pierde lo que hacía buena a la figura. El corto se apoya en ella: *«coloréala, es para material académico»*. **La fidelidad la da la imagen adjunta, no la longitud de la instrucción.** El proyecto ya lo tenía escrito en `PROMPT_CALIDAD` y en la columna `solo_calidad`.
+
+**Una tarea por prompt.** Pidiendo dibujo *y* letra grande a la vez, el modelo sacrifica una: comprimió un dibujo un 33 % para meter los rótulos. Separado —el modelo dibuja, el script rotula— salen los dos bien. De ahí el tipo `composicion`: paneles sin texto y el rótulo puesto después, exacto.
+
+**Lo que no se nombra, se queda.** Al acortar un prompt desaparecieron las letras del autor de la lista de cosas a borrar, y volvieron al dibujo. Corto no es incompleto: cada cosa que debe desaparecer se nombra una vez.
+
+**Dar el número.** El prompt de equipos dice *«mide {ratio} veces más de ancho que de alto: respeta esa proporción»*. Pedirlo en prosa no funciona igual.
+
+**El lienzo no es cosmético.** Un lienzo cuadrado deformó una veta de 54° a 65°: el modelo estira para llenar el marco. **El `size` se elige por el aspecto de la referencia**, y si no llena, se le pide que deje blanco.
+
+### Qué modelo
+
+| | |
+|---|---|
+| **`gpt-image-2`** | El que OpenAI recomienda para API. Es el que usa el proyecto |
+| **`chatgpt-image-latest`** | El modelo anterior de ChatGPT. **Para colorear conservando el trazo dio mejor resultado**: acuarela, achurado intacto, textura de mineral |
+
+**El recomendado no es el mejor para toda tarea.** Se prueba por tarea antes de fijarlo.
+
+### Lo que cuesta
+
+Alta calidad ≈ **0,133 USD** por imagen a 1024×1024, más a 1536×1024. Una sesión de trabajo real gastó **~26 llamadas ≈ 5 USD, y 9 no produjeron nada**.
+
+> **El bucle de tres intentos solo se justifica cuando hay una cota oficial contra la que medir.** Para colorear un grabado no compra nada y triplica el gasto: ahí, un intento. La columna `intentos` lo decide por figura.
+
 ## 6. REGISTRO DE ERRORES (para mejorar el proceso)
 
 Errores reales cometidos generando estas imágenes, su causa y la corrección. **Cada uno se convirtió en una regla o en un check.**
@@ -343,6 +372,15 @@ Errores reales cometidos generando estas imágenes, su causa y la corrección. *
 | 24 | Pedí a la IA una **escena realista** de galería (roca, túnel en 3D) | Interpreté "que se vean piso y paredes" como ambientación pictórica | El entregable **siempre es vista plana**: piso y paredes son **líneas del plano** + achurado a plumilla del lado de la roca |
 | 25 | Al agregar el contexto, **la corrección de proporción quedó midiendo la escena** en vez del equipo | Cambié el pipeline y el check siguió igual (mismo patrón del #19) | Separar equipo y roca por **saturación** (equipo en pastel, roca en gris) y aplicar el factor `objetivo ÷ aspecto_del_equipo` a toda la escena |
 | 26 | **El contexto cambia el sesgo del modelo** | Sin galería comprimía el perfil (2.97–3.35 vs 3.90); con galería lo **estiró** a 4.42 | Nunca asumir que un ajuste de estilo es "solo estético": **revalidar la proporción cada vez que cambia el prompt** |
+| 27 | Di por buena la **legibilidad sin medirla** | El verificador imprimía «rótulo de 52 px → 14,6 pt» **suponiendo** que el modelo había obedecido la instrucción de tamaño; las cotas medían 35 px, o sea 9,8 pt | **Medir el glifo en el entregable**, no en el prompt. Segundo check obligatorio: piso de **14 pt proyectados** (§11), junto al de proporción |
+| 28 | Al medir el glifo tomé el **punto decimal** | Usé el componente compacto más pequeño; el punto de «2.90» mide 8 px aunque los dígitos midan 35 | Medir **palabras**, no glifos sueltos: dilatar en horizontal, etiquetar, y tomar la **mediana** de la altura de los bloques |
+| 29 | El **control lo medí a mano**, con otro recorte que el verificador | El script leía 86,2° en la referencia mientras el control decía 57,5°: el **marco del escaneo** le arrastraba el eje de la PCA | **El control y la verificación salen de la MISMA función**, corrida sobre la referencia. Un control tomado a mano no vale. *(Es el error 19 otra vez: validar también el check.)* |
+| 30 | Descarté una fuente **por su calidad**, no por su validez | Dije que una figura de 350×240 px con marca de agua «no daba ni para referencia», y cerré una búsqueda que sí tenía salida | La referencia no tiene que ser buena: tiene que ser **cierta y citable**. Lo que sobra —cotas, marca de agua, marco— **se quita en el paso del modelo**, que es para lo que existe el híbrido. Una fuente solo se descarta por no ser citable o por no mostrar lo que hace falta |
+| 31 | Los dos números daban bien y el **dibujo estaba mal** | El arco del buzamiento abarcaba el ángulo **obtuso**; el ángulo de la veta y el tamaño de letra pasaban igual | La **inspección visual va dentro del bucle** (§5), no después. Y mientras no se confirme, el pendiente **se declara en la ficha** de la imagen y esta no entra a la lámina |
+| 32 | **Reescribí el método que ya existía** | Construí un generador y una tabla propios sin mirar `gen_ia.py`, que ya resolvía lo mismo | Antes de escribir un pipeline, **leer el que ya está**. `equipos.csv` ya tenía una fila de *plano de mina*: el método nunca fue solo para equipos |
+| 33 | **Medí tinta que no era la figura, siete veces** | Marco del escaneo, marco del panel, achurado del grabado, rótulos, flechas de cota y hasta el punto decimal de «2.90». Cada vez lo parché distinto | La solución general estaba escrita en `solo_equipo()`: **aislar el objeto por saturación y medir solo eso**. Con ella, la veta pasó al primer intento con 2 % |
+| 34 | **Rechazaba en vez de corregir** | Tres intentos tirados por un 17 % de desvío que se arreglaba escalando ×0,85 | **Corregir la proporción** dentro del ±30 %, como hace `gen_ia.py`: *la IA pone el estilo, nosotros ponemos la proporción* |
+| 35 | **Exigí letra legible a una pieza sin letra** | Los paneles van sin rótulo por diseño —lo pone el montaje— y el check los reprobaba por no tener texto | El piso de 14 pt aplica a **lo que se proyecta**, no a las piezas intermedias |
 
 **Patrón común de los errores 2–6:** intentar separar **dos cosas co-ubicadas** (cota vs. equipo) usando **posición o forma**. No se puede: la cota se mide *hasta* el equipo. Hay que usar un rasgo que sí las distinga (a dónde va el extremo).
 

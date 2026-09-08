@@ -17,11 +17,11 @@ Complementa al [§03](03_pipeline-de-plantillas.md) —que dice qué plantillas 
                     ↓
    ②  LOS APRENDIZAJES ESPERADOS              10 o 20, uno por sesión
                     ↓
-   ③  LOS DOS CASOS DE LA SESIÓN           caso A y caso B, otros datos
+   ③  LOS CASOS DE LA SESIÓN                   caso A y caso B — EOM, uno solo
                     ↓
    ④  LA CONCRECIÓN DE LA LISTA               una línea: qué es «completo» hoy
                     ↓
-   ⑤  LOS PUNTOS CLAVE                        3 a 5, del temario oficial
+   ⑤  LOS PUNTOS CLAVE                        3 a 4 momentos de la sesión
                     ↓
    ⑥  EL RECURSO AUTÓNOMO DEL BLOQUE       lectura + video + autoevaluación
                     ↓
@@ -29,6 +29,9 @@ Complementa al [§03](03_pipeline-de-plantillas.md) —que dice qué plantillas 
 ```
 
 **Cada paso se hace para el anterior.** Si un paso no sirve al de arriba, sobra.
+
+> **Los pasos ① y ② se hacen para todo el curso de una vez. Del ③ al ⑥ se cierra sesión por sesión.** Se termina la sesión 1 entera —caso, lista, puntos clave y PPT— antes de tocar la sesión 2. Hacer los diez casos, luego las diez listas y luego los diez PPT deja diez sesiones a medias y ninguna terminada, y obliga a releer el caso cada vez que se vuelve a él.
+> *(EOM · Métodos de explotación, 2026-09-02.)*
 
 ### El orden no se salta, y menos por el final
 
@@ -81,6 +84,32 @@ Sale de aquí:
 | El caso de TC1 y el de TC2, **uno cada uno, un solo caso** | `casos.csv` · `alcance = colaborativo` |
 | Las dos rúbricas: 5 criterios × 4 puntos = 20 | `rubricas.csv` |
 | Qué indicador evalúa cada criterio | `rubricas.csv · indicador_id` |
+| **El aprendizaje esperado de cada bloque** | `bloques.csv · aprendizaje_esperado` |
+
+### El aprendizaje esperado del bloque
+
+**Cada colaborativo tiene el suyo, y se escribe junto con el caso.** Es lo que el bloque
+promete y lo que su TC evalúa — no es de la sesión de evaluación: esa lo **sustenta**.
+
+Se redacta **en función del caso**, y tiene que **cubrir los tres criterios de contenido**
+de su rúbrica. La prueba es partirlo en tres y ver que cada tramo cae en uno:
+
+```
+Identifica el método… a partir de los indicios     →  c1 · Comprensión del problema
+nombra el equipo, el material y el control…        →  c2 · Desarrollo técnico
+señala con qué operación continúa… y qué se detiene →  c3 · Conclusiones y análisis
+```
+
+Si un tramo no cae en ningún criterio, sobra. Si un criterio se queda sin tramo, el
+aprendizaje promete menos de lo que la rúbrica califica.
+
+**Los verbos no superan a los indicadores del curso**, igual que en los aprendizajes de
+sesión: el colaborativo exige más por el **objeto** —dos casos, más elementos, una
+decisión que sustentar—, nunca por el verbo.
+
+**Y se leen como pareja.** Puestos uno debajo del otro, el del Bloque 1 y el del Bloque 2
+deben mostrar la progresión del curso en dos frases. Si dicen casi lo mismo, uno de los
+dos colaborativos no está aportando nada nuevo.
 
 **Comprobación:** `python revisar_tc.py <CARRERA>`.
 
@@ -119,7 +148,18 @@ Cada aprendizaje esperado tiene que **tributar a un criterio** de TC1 o de TC2. 
 
 ---
 
-## ③ Dos casos por sesión
+## ③ Los casos de la sesión
+
+> **Aquí las dos carreras no hacen lo mismo, y conviene saberlo antes de escribir nada.**
+>
+> | | Cuántos casos por sesión | Por qué |
+> |---|---|---|
+> | **SI** · Jorge Canchiz, 2026-09-01 | **Dos: caso A y caso B** | Mismo procedimiento, otra empresa y otros datos. Dos equipos no se copian y la Discusión puede cruzarlos |
+> | **EOM** · Erick Salazar, 2026-09-02 | **Uno solo** | El caso de sesión no lleva nota; sin nota no hay nada que copiar, y partir el grupo duplica el material y parte la puesta en común |
+>
+> **Todo lo demás de este paso vale igual para las dos.** Lo que sigue está escrito para dos casos: donde diga «caso A y caso B», EOM lee «el caso».
+>
+> **Está sin cerrar.** Son dos decisiones de líder, tomadas con un día de diferencia y sobre la misma regla común. Lo zanja el director de sede; hasta entonces cada carrera sigue la suya, y aquí queda escrito para que dentro de seis meses se sepa que fue una decisión y no un descuido.
 
 ### Antes de escribir una sola línea: leer el aprendizaje esperado
 
@@ -226,7 +266,7 @@ Tres razones, y ninguna es estética:
 | | Dónde vive |
 |---|---|
 | Descripción, pregunta gatilladora, producto | `casos.csv` · `alcance = sesion` |
-| El texto de cada caso | `casos.csv · caso_a` y `caso_b` |
+| El texto de cada caso | `casos.csv · caso_a` y `caso_b` — EOM llena solo `caso_a` |
 
 **Y el caso de sesión tributa al colaborativo:** la suma de los casos de un bloque construye el caso del TC que lo cierra ([§04](04_matriz-y-distribucion.md)).
 
@@ -252,12 +292,30 @@ Es **una sola lista**, la misma en las 24 sesiones de los 35 cursos y en las tre
 
 ## ⑤ Los puntos clave
 
-**De 3 a 5 por sesión**, y cada uno con su `origen`:
+**De 3 a 4 por sesión**, y cada uno con su `origen`:
 
 - **`oficial`** — baja del temario de la triangulación
 - **`propuesto`** — con quién lo aprobó y cuándo
 
 **Un punto clave sin origen es uno que alguien inventó.**
+
+### Cómo se enuncia
+
+**Un punto clave es un momento de la sesión, no un título de contenido.** Es lo que hay que hacer en clase para que el aprendizaje esperado ocurra, y en ese orden.
+
+Se enuncia **solo la actividad**: sin sujeto y sin el medio.
+
+```
+✘  Qué declara la ficha de una labor            ← título de contenido, no momento
+✘  El alumno identificará la potencia mediante   ← sobra el sujeto y sobra el medio
+   imágenes de labores reales
+✔  Identificación de la forma, la potencia y     ← la actividad, y nada más
+   el buzamiento de una veta
+```
+
+**El medio va en `recursos`**, que para eso existe: imágenes, ficha técnica, esquemas, el caso de la sesión. Y **ninguna palabra que no se entienda sola**: el enunciado se proyecta, no se explica.
+
+**El último punto clave es el caso de la sesión.** Los anteriores lo hacen resoluble.
 
 Se eligen **para que la lista de cotejo se pueda marcar**. Si un ítem de la lista no tiene un punto clave que lo enseñe, o sobra el ítem o falta el contenido — y si falta contenido, se pide y **lo aprueba el instructor líder**; no se añade por cuenta propia ([§05](05_diseno-de-sesion.md)).
 

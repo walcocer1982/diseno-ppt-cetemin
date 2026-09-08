@@ -25,9 +25,14 @@ DESTREZAS = {
     "analizar", "aplicar", "clasificar", "argumentar-fundamentar",
 }
 # Conectores con que entra una tecnica metodologica (Latorre, p.5)
+# Latorre da ejemplos, no una lista cerrada: la tecnica entra con un conector, y
+# cualquier gerundio de accion lo es. Se amplio al aparecer «realizando la
+# inspeccion de pre-uso y revisando los registros», que es tecnica declarada y
+# el script daba por ausente.
 CONECTORES = ("a traves de", "a través de", "por medio de", "mediante",
               "haciendo", "utilizando", "siguiendo", "comparando",
-              "reconociendo", "marcando", "llenando")
+              "reconociendo", "marcando", "llenando", "realizando",
+              "revisando", "verificando", "inspeccionando", "elaborando")
 # Rotulos que delatan que el riesgo o la incertidumbre se anunciaron
 ROTULOS = ("lo que esta en juego", "lo que está en juego", "la incertidumbre",
            "el riesgo es", "donde esta el debate", "dónde está el debate",
@@ -97,11 +102,17 @@ def revisar(carrera: str) -> int:
             if i not in indicadores:
                 mal(f"cita un indicador inexistente: {i}")
 
-        # 7-8 · bloque y producto. Los casos A y B A/B NO aplican al colaborativo:
+        # 7-8 · bloque y producto. Los casos A y B NO aplican al colaborativo:
         # son de los casos de sesion (decision del 01/09/2026).
         for campo, etq in (("bloque_id", "bloque"), ("producto", "producto")):
             if not (c.get(campo) or "").strip():
                 mal(f"sin {etq}")
+
+        # 10 · el colaborativo va con UN SOLO caso (§13): es el mismo para toda
+        # la clase. El caso A y el caso B son de los casos de sesion.
+        if (c.get("caso_a") or "").strip() or (c.get("caso_b") or "").strip():
+            mal("el colaborativo no lleva caso A y caso B: es un solo caso para "
+                "toda la clase (§13); esos son de los casos de sesion")
 
         # 11 · formato narrativo
         if not es_narrativo(desc):
@@ -135,7 +146,13 @@ def revisar(carrera: str) -> int:
             # un criterio puede evaluar mas de un indicador: se separan por ";".
             # Sin esto, "IND-2;IND-3" se leia como un indicador inexistente.
             todos = {i.strip() for f in filas for i in f["indicador_id"].split(";")}
-            ajenos = todos - set(inds) - {"transversal"}
+            # La casilla vacia NO es un indicador ajeno: es un criterio que no
+            # cuelga de ninguno, y se reporta como tal. Confundirlos hacia que el
+            # aviso dijera "indicador ajeno: ['']", que no se entiende.
+            sin = sum(1 for f in filas if not f["indicador_id"].strip())
+            if sin:
+                mal(f"{sin} de {len(filas)} criterios sin indicador_id: no se sabe que evaluan")
+            ajenos = {i for i in todos if i} - set(inds) - {"transversal"}
             if ajenos:
                 mal(f"criterios que evaluan un indicador ajeno al caso: {sorted(ajenos)}")
 

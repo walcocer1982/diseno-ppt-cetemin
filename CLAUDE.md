@@ -60,6 +60,12 @@ Nunca se usa el sufijo como clave; se compara el identificador completo.
 
    > Lo que se protege no es el texto: es **poder reconstruir por qué el sílabo dice una cosa y la base dice otra**. Sin ese rastro, dentro de seis meses nadie sabe si fue una mejora o un descuido.
 3. **Nada inventado por IA para equipos técnicos.** Nunca texto→imagen: ahí inventa geometrías falsas. La fuente es siempre el dibujo del fabricante (§10). El camino correcto es el **híbrido**: imagen→imagen partiendo del dibujo real, con **verificación contra las cotas oficiales** y regeneración si no pasa (así se resolvió el jumbo Boomer S1).
+
+   > **Y no vale solo para equipos: vale para todo lo FÍSICO.** Una veta, un cuerpo mineralizado, una labor, el macizo, un frente, el sostenimiento — todo eso existe, está fotografiado o dibujado en algún plano, y de ahí sale. **Dibujarlo es inventarlo**, aunque el dibujo salga limpio y con la paleta correcta. *(Erick, 2026-09-02, señalando la lámina «La forma del cuerpo mineralizado» de la S1.)*
+   >
+   > **Se dibuja solo lo que no tiene cuerpo:** flujos, secuencias, ciclos, tablas comparativas, escalas numéricas y el armazón de la sesión —ruta, encargo, puesta en común, sistema de evaluación—. Ahí no hay nada que fotografiar y el dibujo es la forma correcta.
+   >
+   > **Una fuente no se descarta por su calidad**, solo por no ser citable o por no mostrar lo que hace falta. Una figura de 350 px con marca de agua sirve: la referencia tiene que ser **cierta, no bonita** — lo que sobra se quita en el paso del modelo. Y **material sin procedencia no es fuente**: ni los PPT oficiales de CETEMIN, ni TikTok, ni Scribd, ni un sitio que prohíba republicar.
 4. **La precisión no se confía, se mide.** Lo que hace legítimo usar el modelo no es que acierte, sino que el resultado **se comprueba contra las cotas del catálogo** y se corrige la proporción. Sin ese control, generar sería inventar. Con él, el modelo pone el estilo y nosotros ponemos la métrica.
 5. **Al dibujar un equipo, paso 0 = revisar TODAS las vistas** del catálogo (perfil, frontal, planta) antes de trazar nada. La firma de una pieza cambia con la vista: una rueda es círculo en perfil y rectángulo en planta.
 6. **Ante una contradicción entre documentos**, manda el Reglamento Interno v03 (§09).
@@ -83,7 +89,9 @@ Nunca se usa el sufijo como clave; se compara el identificador completo.
 
 **La regla de ubicación:** `00_` guarda el *cómo* (doctrina estable), `05_` guarda el *qué* (el diseño vivo, en tablas), y `03_`/`04_` guardan *lo que resulta* (generado desde `05_`). Por eso el procedimiento de imágenes es el §10, el registro de qué imagen sirve a qué punto clave está en `05_Base-de-datos/contenido_imagen.csv`, y los archivos en `04_Recursos-graficos/`.
 
-**Ninguna imagen entra a un PPT sin estar `verificada`** en `05_Base-de-datos/imagenes.csv`, y ninguna se genera sin que un contenido la pida. Los archivos van en carpetas planas por tipo — **nunca carpetas de imágenes por curso**: la relación curso↔imagen la lleva la tabla de enlace, que permite reusar una misma imagen en varios cursos.
+**Ninguna imagen entra a un PPT sin estar `verificada`** en `05_Base-de-datos/imagenes.csv`, y ninguna se genera sin que un contenido la pida. **Nunca carpetas de imágenes por curso**: la relación curso↔imagen la lleva la tabla de enlace, que permite reusar una misma imagen en varios cursos.
+
+**Dentro de la carrera, los esquemas se ordenan por sesión** *(Erick, 2026-09-02)*: `esquemas/s1/`, `s2/`, … y **`esquemas/comun/`** para lo que sirve a más de una. Cincuenta archivos en una sola carpeta no se navegan. La regla de arriba se mantiene porque `comun/` es la válvula: **si una imagen la usan dos sesiones, va a `comun/`, no se duplica**. Fotos, planos, siluetas y equipos siguen planos por tipo — ahí el reuso entre carreras es lo normal.
 
 ## Generar imágenes
 
