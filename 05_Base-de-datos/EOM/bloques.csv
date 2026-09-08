@@ -1,0 +1,23 @@
+bloque_id,curso_id,numero,colaborativo,aprendizaje_esperado
+EOM-MINPET-B1,EOM-MINPET,1,TC1,
+EOM-MINPET-B2,EOM-MINPET,2,TC2,
+EOM-CART-B1,EOM-CART,1,TC1,
+EOM-CART-B2,EOM-CART,2,TC2,
+EOM-PROSP-B1,EOM-PROSP,1,TC1,
+EOM-PROSP-B2,EOM-PROSP,2,TC2,
+EOM-GEOYAC-B1,EOM-GEOYAC,1,TC1,
+EOM-GEOYAC-B2,EOM-GEOYAC,2,TC2,
+EOM-METEXP-B1,EOM-METEXP,1,TC1,"Identifica el método de explotación aplicado en una labor a partir de los indicios del frente, nombra el equipo, el material y el control que corresponde a cada operación unitaria de su ciclo, y señala con qué operación continúa la guardia y qué se detiene si el orden se altera."
+EOM-METEXP-B2,EOM-METEXP,2,TC2,"Identifica el método de explotación y las operaciones unitarias de una operación subterránea y de una a tajo abierto, distinguiendo un ciclo del otro; señala qué equipo corresponde a cada labor según lo que ella exige, y reporta —con el dato que lo sustenta— cuando lo que se propone hacer no corresponde a las condiciones del terreno o al equipo disponible."
+EOM-FMEQ-B1,EOM-FMEQ,1,TC1,"Verifica la condición mecánica de un equipo de carguío y uno de perforación en mina subterránea: describe el sistema hidráulico y de lubricación que interviene, libera la energía residual antes de inspeccionar, realiza la inspección de pre-uso, comprueba el preventivo y el programado, reconoce la condición que detiene la actividad y reporta el riesgo, la medida de control y el efecto sobre la secuencia de la labor."
+EOM-FMEQ-B2,EOM-FMEQ,2,TC2,"Verifica la condición mecánica de un equipo de servicios y uno de perforación en tajo abierto: describe los sistemas que intervienen, realiza su inspección de pre-uso, comprueba si el mantenimiento preventivo y el programado están hechos y registrados, reconoce la condición que impide ejecutar la actividad y reporta el riesgo y la medida de control al turno entrante y al área de mantenimiento."
+EOM-SOST-B1,EOM-SOST,1,TC1,
+EOM-SOST-B2,EOM-SOST,2,TC2,
+EOM-EQPERF-B1,EOM-EQPERF,1,TC1,"Describe la malla de perforación de un frente subterráneo y por qué el taco cambia según la posición del taladro, describe los aceros que su equipo necesita y las condiciones que la labor exige para perforarla, y explica en metros perforados por metro de avance lo que cuesta cambiar de malla."
+EOM-EQPERF-B2,EOM-EQPERF,2,TC2,"Describe la malla y los parámetros de perforación que corresponden al terreno real de un banco y no a los que trae la orden, relaciona el desgaste de la broca y el ajuste del equipo con los parámetros que se aplicaron, y explica en dólares por metro perforado por qué el costo baja al subir la velocidad de penetración."
+EOM-EXPLOS-B1,EOM-EXPLOS,1,TC1,
+EOM-EXPLOS-B2,EOM-EXPLOS,2,TC2,
+EOM-EQTRANS-B1,EOM-EQTRANS,1,TC1,
+EOM-EQTRANS-B2,EOM-EQTRANS,2,TC2,
+EOM-PROD-B1,EOM-PROD,1,TC1,
+EOM-PROD-B2,EOM-PROD,2,TC2,

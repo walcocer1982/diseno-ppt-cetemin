@@ -1,0 +1,7 @@
+﻿indicador_id,capacidad_id,descripcion
+IND-SI-SGCSSMA-1,CAP-SI-SGCSSMA,"Describe la estructura del Sistema Integrado de Gestión, el contexto de la organización y las responsabilidades de la alta dirección, considerando las normas ISO 9001, ISO 14001 e ISO 45001."
+IND-SI-SGCSSMA-2,CAP-SI-SGCSSMA,"Describe la planificación del Sistema Integrado de Gestión y los recursos, la competencia y la información documentada que lo sostienen, considerando las normas ISO y la normativa nacional vigente."
+IND-SI-SGCSSMA-3,CAP-SI-SGCSSMA,"Describe el control operacional del Sistema Integrado de Gestión, la jerarquía de controles y la gestión de contratistas y emergencias, considerando las normas ISO y la normativa nacional vigente."
+IND-SI-SGCSSMA-4,CAP-SI-SGCSSMA,"Describe la evaluación del desempeño y la mejora del Sistema Integrado de Gestión —seguimiento, auditoría interna, revisión por la dirección y acción correctiva—, considerando las normas ISO y la normativa nacional vigente."
+IND-SI-IMPAMB-1,CAP-SI-IMPAMB,"Describe el proceso de la elaboración de la matriz de aspectos e impactos ambientales, considerando la normativa vigente nacional e internacional."
+IND-SI-IMPAMB-2,CAP-SI-IMPAMB,Describe la gestión y los controles de manejo de residuos sólidos considerando la normativa vigente nacional.

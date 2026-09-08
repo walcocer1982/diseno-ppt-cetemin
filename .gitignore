@@ -1,0 +1,113 @@
+# =============================================================
+#  Qué NO se versiona
+#
+#  A Git va el MÉTODO: doctrina, base de datos, guiones, scripts
+#  y las imágenes terminadas. Todo eso son unos pocos MB.
+#
+#  NO van las FUENTES pesadas (insumos, catálogos, tesis): se
+#  distribuyen por el Drive institucional o se vuelven a
+#  descargar desde su URL, que está citada en la base de datos.
+# =============================================================
+
+# --- Credenciales: NUNCA -------------------------------------
+.env
+.env.*
+!.env.example
+*.key
+tokens.json
+uso.jsonl
+
+# --- Insumos originales: 4,9 GB ------------------------------
+# Hay archivos de hasta 1,6 GB; GitHub rechaza los de más de 100 MB.
+01_Insumos/
+
+# --- Material de inducción del instructor --------------------
+# Pertenece al proceso de GTH (inducción al puesto), no al diseño
+# instruccional. El repositorio que clonan los líderes es para
+# DISEÑAR CURSOS. Se conserva en local y va por el Drive institucional.
+02_Instructor-nuevo/
+
+# --- Bandeja de entrada --------------------------------------
+# OJO: la carpeta real se llama "Entrada" (sin guion bajo) y pesa 3,6 GB,
+# con PDF de mas de 100 MB que GitHub rechaza. Se cubren los dos nombres.
+Entrada/
+_Entrada/*
+!_Entrada/.gitkeep
+!_Entrada/00_LEEME.md
+
+# --- Catálogos de fabricante y tesis (material de terceros) ---
+# ~35 MB. Se citan en 05_Base-de-datos/imagenes.csv con su URL:
+# quien los necesite los descarga. No se redistribuyen por el repo.
+04_Recursos-graficos/*/equipos/**/*.pdf
+04_Recursos-graficos/*/planos/*.pdf
+
+# --- Intermedios de generación -------------------------------
+# Los crudos que devuelve el modelo antes de verificar.
+**/_*_crudo.png
+**/_planos_detectados/
+
+# --- Python ---------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Archivos de bloqueo de Office ----------------------------
+# Word y Excel crean "~$nombre.docx" mientras el archivo esta abierto.
+~$*
+
+# --- Sistema operativo ----------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Descartado y trabajo intermedio ---------------------------
+# Lo que se apartó al ordenar: se conserva en local por si hace
+# falta revisarlo, pero no viaja en el repositorio.
+04_Recursos-graficos/_descartado/
+
+# Archivos de proceso: referencias y pasos intermedios de una
+# imagen. El entregable se queda; el camino hasta él, no.
+**/_*.png
+**/_*.jpg
+**/_*.py
+
+# --- Entregables: se GENERAN, no se versionan ------------------
+# El PPT y el guion salen de la base con `python 05_Base-de-datos/disenar.py`.
+# Versionarlos duplica la fuente y los deja desincronizarse en silencio,
+# que es justo lo que este proyecto evita. Quien clone, genera.
+03_Entregables-diseño/*/*.pptx
+03_Entregables-diseño/*/*.md
+!03_Entregables-diseño/00_LEEME.md
+!03_Entregables-diseño/*/01_*.md
+
+# Documentos de trabajo del Curso 1 (auditorias, tramites): se escriben a mano,
+# no se generan, y tienen que viajar por Git para llegar al director.
+!03_Entregables-diseño/Curso1_Métodos-de-explotacion/*.md
+# Lo mismo vale para cualquier curso: los tramites y las auditorias se escriben
+# a mano y tienen que llegar al director. Se listan por FAMILIA de documento,
+# no por carpeta, para no repetir la excepcion en cada curso nuevo.
+!03_Entregables-diseño/*/TRAMITE-*.md
+!03_Entregables-diseño/*/HALLAZGOS-*.md
+!03_Entregables-diseño/*/TC*_estructura.md
+# Los PPT del ciclo viven en <CARRERA> - Ciclo N/<curso>/PPT/ — tres niveles,
+# que el patron de arriba no alcanzaba. Pesan 6 MB cada uno y se generan.
+03_Entregables-diseño/**/*.pptx
+
+
+# --- Configuracion del editor: LOCAL, no viaja -----------------
+# Cada instructor tiene su maquina. El settings.json de aqui excluye Entrada
+# y 01_Insumos del vigilante de archivos (si no, el Explorer se queda con la
+# foto vieja y los entregables recien generados no aparecen). Es una decision
+# de entorno, no de diseno: no debe cambiarle el editor a los demas.
+.vscode/
+
+# crudos del bucle de imagen: intentos descartados, no son entregable
+_crudos/
+
+# --- Estado local del guardian de PPT -------------------------
+# Son los SHA-1 de los PPT DE ESTA MAQUINA: sirven para detectar
+# que alguien edito un PPT a mano y no volver a generarlo encima.
+# En otro clon no corresponden a nada.
+05_Base-de-datos/huellas_ppt.json
+

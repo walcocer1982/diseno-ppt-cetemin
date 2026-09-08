@@ -1,0 +1,21 @@
+indicador_id,capacidad_id,descripcion
+IND-EOM-METEXP-1,CAP-EOM-METEXP,"Identifica las cinco operaciones unitarias del ciclo de minado, con su equipo, material y control."
+IND-EOM-METEXP-2,CAP-EOM-METEXP,Identifica los métodos de explotación subterránea y superficial por sus labores y por las condiciones del yacimiento en que se aplican.
+IND-EOM-METEXP-3,CAP-EOM-METEXP,"Identifica qué equipo corresponde a cada labor del método, y reporta cuando el asignado no corresponde."
+IND-EOM-SOST-1,CAP-EOM-SOST,Describe los tipos de sostenimiento de las labores mineras de acuerdo con sus características y especificaciones técnicas.
+IND-EOM-SOST-2,CAP-EOM-SOST,"Explica el tipo de sostenimiento seleccionado de acuerdo a la calidad del macizo rocoso y tipo de labor minera, utilizando la metodología del GSI."
+IND-EOM-SOST-3,CAP-EOM-SOST,Calcula los recursos a utilizar en el sostenimiento de las labores mineras de acuerdo a la información y parámetros obtenidos en el mapeo geomecánico.
+IND-EOM-FMEQ-1,CAP-EOM-FMEQ,"Describe los sistemas y los componentes críticos de los equipos de perforación, carguío, sostenimiento, transporte y servicios que intervienen en la labor, y la función de cada uno, según el manual de operación."
+IND-EOM-FMEQ-2,CAP-EOM-FMEQ,"Realiza la inspección de pre-uso del equipo y verifica que su mantenimiento preventivo y programado estén realizados y registrados, e identifica los ítems observados que afectan a la tarea asignada, según el procedimiento de la operación."
+IND-EOM-FMEQ-3,CAP-EOM-FMEQ,"Reconoce las condiciones mecánicas que impiden iniciar o continuar la actividad y las asocia al sistema o componente que las origina, según el manual de operación."
+IND-EOM-FMEQ-4,CAP-EOM-FMEQ,"Describe el riesgo que la condición observada representa para el personal de la labor, la medida de control que corresponde y el reporte al turno entrante y al área de mantenimiento, según el DS 024-2016-EM."
+IND-EOM-EQPERF-1,CAP-EOM-EQPERF,Explica los parámetros de diseño de la perforación en minería subterránea y superficial de acuerdo con los estándares y procedimientos operativos.
+IND-EOM-EQPERF-2,CAP-EOM-EQPERF,Describe los equipos y accesorios de perforación subterránea y superficial de acuerdo con las características del macizo rocoso y a las especificaciones técnicas.
+IND-EOM-EQPERF-3,CAP-EOM-EQPERF,"Describe las maniobras de los equipos de perforación subterránea y superficial de acuerdo con las condiciones de labor, especificaciones técnicas y manual del operador."
+IND-EOM-EQPERF-4,CAP-EOM-EQPERF,"Explica el costo de perforación por metro a partir del consumo de aceros y del rendimiento del equipo, de acuerdo con los reportes de operación."
+IND-EOM-EXPLOS-1,CAP-EOM-EXPLOS,Explica las propiedades de los explosivos y accesorios de voladura (subterránea y superficial) de acuerdo con las especificaciones técnicas.
+IND-EOM-EXPLOS-2,CAP-EOM-EXPLOS,Explica las características de los explosivos y accesorios de voladura subterránea de acuerdo con sus características técnicas y condiciones de la labor.
+IND-EOM-EXPLOS-3,CAP-EOM-EXPLOS,Describe la distribución de carga y secuencia de salida de voladura subterránea de acuerdo con las condiciones de la labor y los procedimientos operativos.
+IND-EOM-EXPLOS-4,CAP-EOM-EXPLOS,Explica las características de los explosivos y accesorios de voladura superficial de acuerdo con sus características técnicas y condiciones de la labor.
+IND-EOM-EXPLOS-5,CAP-EOM-EXPLOS,Describe la distribución de carga y secuencia de salida de voladura superficial de acuerdo con las condiciones de la labor y los procedimientos operativos.
+IND-EOM-EXPLOS-6,CAP-EOM-EXPLOS,Explica los controles de calidad del explosivo y accesorios de voladura (subterránea y superficial) de acuerdo con sus características técnicas del producto y condiciones de la labor.

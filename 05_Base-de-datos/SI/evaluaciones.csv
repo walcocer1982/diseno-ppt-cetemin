@@ -1,0 +1,9 @@
+evaluacion_id,curso_id,bloque_id,evento,dimension,instrumento,peso
+EV-SI-SGCSSMA-CV1,SI-SGCSSMA,SI-SGCSSMA-B1,CV1,Conocimiento,Cuestionario en plataforma,2.5
+EV-SI-SGCSSMA-CV2,SI-SGCSSMA,SI-SGCSSMA-B1,CV2,Conocimiento,Cuestionario en plataforma,2.5
+EV-SI-SGCSSMA-EP,SI-SGCSSMA,SI-SGCSSMA-B1,EP,Conocimiento,Cuestionario en plataforma,20
+EV-SI-SGCSSMA-CV3,SI-SGCSSMA,SI-SGCSSMA-B2,CV3,Conocimiento,Cuestionario en plataforma,2.5
+EV-SI-SGCSSMA-CV4,SI-SGCSSMA,SI-SGCSSMA-B2,CV4,Conocimiento,Cuestionario en plataforma,2.5
+EV-SI-SGCSSMA-EF,SI-SGCSSMA,SI-SGCSSMA-B2,EF,Conocimiento,Cuestionario en plataforma,20
+EV-SI-SGCSSMA-TC1,SI-SGCSSMA,SI-SGCSSMA-B1,TC1,Habilidades,Rúbrica de sustentación,25
+EV-SI-SGCSSMA-TC2,SI-SGCSSMA,SI-SGCSSMA-B2,TC2,Habilidades,Rúbrica de sustentación,25

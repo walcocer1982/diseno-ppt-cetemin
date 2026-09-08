@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Transcripción CETEMIN",
+  "version": "1.0",
+  "description": "Guarda la transcripción del video de YouTube que tienes abierto, en el formato que espera videos_yt.py. No le pide nada a YouTube: lee lo que ya está en pantalla.",
+  "permissions": ["downloads", "scripting", "activeTab"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "action": {
+    "default_title": "Guardar transcripción de este video"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

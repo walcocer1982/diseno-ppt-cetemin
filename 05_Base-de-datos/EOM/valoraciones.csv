@@ -1,0 +1,3 @@
+caso_id,curso_id,c1_alineacion,c2_autenticidad,c3_colaboracion,c4_rubrica,total,nivel
+CASO-EOM-METEXP-1,EOM-METEXP,4,4,4,4,16,Bueno
+CASO-EOM-METEXP-2,EOM-METEXP,4,4,4,4,16,Bueno

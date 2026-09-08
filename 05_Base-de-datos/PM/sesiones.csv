@@ -1,0 +1,13 @@
+sesion_id,curso_id,bloque_id,nro_sesion,tema,tipo_sesion,aprendizaje_esperado
+PM-MAT-S1,PM-MAT,PM-MAT-B1,1,Fracciones,adquisicion,Resolver problemas aplicados al procesamiento de minerales que involucren el uso de fracciones.
+PM-MAT-S2,PM-MAT,PM-MAT-B1,2,Conversión de unidades,adquisicion,Resolver problemas aplicados al procesamiento de minerales que involucren el uso de conversión de unidades.
+PM-MAT-S3,PM-MAT,PM-MAT-B1,3,Regla de tres,adquisicion,Resolver problemas aplicados al procesamiento de minerales que involucren el uso de regla de tres.
+PM-MAT-S4,PM-MAT,PM-MAT-B1,4,Introducción a porcentajes,adquisicion,Resolver problemas aplicados al procesamiento de minerales que involucren el uso de porcentajes.
+PM-MAT-S5,PM-MAT,PM-MAT-B1,5,Porcentajes en procesos metalúrgicos,adquisicion,Aplicar porcentajes en problemas aritméticos relacionados con la determinación de componentes en el procesamiento de minerales.
+PM-MAT-S6,PM-MAT,PM-MAT-B1,6,Evaluación de trabajo colaborativo 1,evaluacion,Sustentar la resolución del Caso 1 (composición mineralógica) aplicando lo aprendido en el bloque.
+PM-MAT-S7,PM-MAT,PM-MAT-B2,7,Áreas y volúmenes,adquisicion,Resolver problemas relacionados con el cálculo de áreas y volúmenes en el contexto de procesamiento de minerales.
+PM-MAT-S8,PM-MAT,PM-MAT-B2,8,Densidad y gravedad específica,adquisicion,Resolver problemas relacionados con la densidad y la gravedad específica en el procesamiento de minerales.
+PM-MAT-S9,PM-MAT,PM-MAT-B2,9,Ecuaciones lineales,adquisicion,Resolver ecuaciones lineales aplicadas en problemas del procesamiento de minerales.
+PM-MAT-S10,PM-MAT,PM-MAT-B2,10,Concentración de minerales,adquisicion,Resolver problemas aplicados a la concentración de minerales utilizando fórmulas adecuadas.
+PM-MAT-S11,PM-MAT,PM-MAT-B2,11,Balance metalúrgico,adquisicion,Resolver problemas de balance metalúrgico aplicando conocimientos de álgebra.
+PM-MAT-S12,PM-MAT,PM-MAT-B2,12,Evaluación de trabajo colaborativo 2,evaluacion,Sustentar la resolución del Caso 2 (volumen de molino y balance metalúrgico) aplicando lo aprendido en el bloque.

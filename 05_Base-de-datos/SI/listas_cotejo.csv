@@ -1,0 +1,106 @@
+cotejo_id,caso_id,sesion_id,curso_id,n,item,observable
+COT-SI-SGCSSMA-S1-1,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Los ocho documentos clasificados por el sistema al que sirven, señalando los que sirven a más de uno y los dos que no son del sistema; y cada uno ubicado en la cláusula que lo exige"
+COT-SI-IMPAMB-S1-1,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,1,DESARROLLO TÉCNICO,Las salidas de la operación listadas y emparejadas con el cambio que produce cada una; y cada control que la empresa ya tiene ubicado sobre la salida o sobre el cambio ya producido
+COT-SI-SGCSSMA-S1-2,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,2,CONCLUSIONES,Dice qué queda sin cubrir en la empresa del caso y por qué guardar por sistema y no por área cambia el resultado
+COT-SI-IMPAMB-S1-2,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,2,CONCLUSIONES,"Dice qué salida queda sin ningún control que actúe sobre ella, y que el control que la empresa enseña primero no actúa sobre lo que genera"
+COT-SI-SGCSSMA-S1-3,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ve qué documento va a qué sistema y a qué cláusula
+COT-SI-IMPAMB-S1-3,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,3,ORGANIZACIÓN DEL PRODUCTO,"Las cuatro filas se siguen sin la explicación oral: se ve qué sale, qué cambio produce cada cosa, sobre cuál de los dos actúa cada control y qué queda sin él"
+COT-SI-SGCSSMA-S1-4,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-IMPAMB-S1-4,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S1-5,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-IMPAMB-S1-5,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S2-1,CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Los ocho hechos clasificados en cuestión externa, interna o ninguna; y cada parte interesada hallada con lo que espera de la empresa"
+COT-SI-SGCSSMA-S2-2,CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,SI-SGCSSMA,2,CONCLUSIONES,Dice qué partes interesadas dejó fuera la hoja de gerencia y qué se le escapa a la empresa por no tenerlas
+COT-SI-SGCSSMA-S2-3,CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué hecho es externo, cuál interno y quién espera qué"
+COT-SI-SGCSSMA-S2-4,CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S2-5,CASO-SI-SGCSSMA-S2,SI-SGCSSMA-S2,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S3-1,CASO-SI-SGCSSMA-S3,SI-SGCSSMA-S3,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Los ocho hechos separados en dentro y fuera del alcance declarado; y cada actividad ubicada en el mapa como proceso operativo, de apoyo o de dirección"
+COT-SI-SGCSSMA-S3-2,CASO-SI-SGCSSMA-S3,SI-SGCSSMA-S3,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué queda sin gestionar por estar fuera del alcance, y qué proceso falta o no tiene responsable"
+COT-SI-SGCSSMA-S3-3,CASO-SI-SGCSSMA-S3,SI-SGCSSMA-S3,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué está dentro, qué está fuera y dónde va cada proceso"
+COT-SI-SGCSSMA-S3-4,CASO-SI-SGCSSMA-S3,SI-SGCSSMA-S3,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S3-5,CASO-SI-SGCSSMA-S3,SI-SGCSSMA-S3,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S4-1,CASO-SI-SGCSSMA-S4,SI-SGCSSMA-S4,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Los seis requisitos marcados sobre la política que les tocó, cada uno con la frase del documento que lo cumple o la constancia de que no está"
+COT-SI-SGCSSMA-S4-2,CASO-SI-SGCSSMA-S4,SI-SGCSSMA-S4,SI-SGCSSMA,2,CONCLUSIONES,"Dice si la política está integrada y qué le falta para estarlo, y quién tendría que firmarla"
+COT-SI-SGCSSMA-S4-3,CASO-SI-SGCSSMA-S4,SI-SGCSSMA-S4,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué requisito cumple y cuál no, y por qué"
+COT-SI-SGCSSMA-S4-4,CASO-SI-SGCSSMA-S4,SI-SGCSSMA-S4,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S4-5,CASO-SI-SGCSSMA-S4,SI-SGCSSMA-S4,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S5-1,CASO-SI-SGCSSMA-S5,SI-SGCSSMA-S5,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"El órgano que corresponde, con el número de trabajadores que lo decide; los asuntos consultados y los que no; y los obstáculos a la participación que aparecen en los hechos"
+COT-SI-SGCSSMA-S5-2,CASO-SI-SGCSSMA-S5,SI-SGCSSMA-S5,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué le falta a esta empresa para cumplir la cláusula 5.4, y qué pasa mientras siga así"
+COT-SI-SGCSSMA-S5-3,CASO-SI-SGCSSMA-S5,SI-SGCSSMA-S5,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué órgano toca, qué se consultó y qué estorba"
+COT-SI-SGCSSMA-S5-4,CASO-SI-SGCSSMA-S5,SI-SGCSSMA-S5,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S5-5,CASO-SI-SGCSSMA-S5,SI-SGCSSMA-S5,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S6-1,CASO-SI-SGCSSMA-S6,SI-SGCSSMA-S6,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Lo que identifica cada norma sobre esa actividad, lo que la empresa no identificó o anotó al revés, y cada control ubicado en su nivel de la jerarquía del artículo 96"
+COT-SI-SGCSSMA-S6-2,CASO-SI-SGCSSMA-S6,SI-SGCSSMA-S6,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué control debió venir antes y por qué, y qué le falta a esta empresa para cumplir la cláusula 6.1"
+COT-SI-SGCSSMA-S6-3,CASO-SI-SGCSSMA-S6,SI-SGCSSMA-S6,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ve qué identifica cada norma y en qué nivel cae cada control
+COT-SI-SGCSSMA-S6-4,CASO-SI-SGCSSMA-S6,SI-SGCSSMA-S6,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S6-5,CASO-SI-SGCSSMA-S6,SI-SGCSSMA-S6,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S7-1,CASO-SI-SGCSSMA-S7,SI-SGCSSMA-S7,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Los hechos separados entre los que incumplen y los que no, cada incumplimiento con la norma y el artículo que lo manda, y el hecho que parece estar bien y no lo está"
+COT-SI-SGCSSMA-S7-2,CASO-SI-SGCSSMA-S7,SI-SGCSSMA-S7,SI-SGCSSMA,2,CONCLUSIONES,Dice qué le puede pasar a la empresa por cada incumplimiento y quién se lo puede exigir
+COT-SI-SGCSSMA-S7-3,CASO-SI-SGCSSMA-S7,SI-SGCSSMA-S7,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué hecho incumple, qué artículo lo manda y qué acarrea"
+COT-SI-SGCSSMA-S7-4,CASO-SI-SGCSSMA-S7,SI-SGCSSMA-S7,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S7-5,CASO-SI-SGCSSMA-S7,SI-SGCSSMA-S7,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S8-1,CASO-SI-SGCSSMA-S8,SI-SGCSSMA-S8,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Cada objetivo revisado contra los cuatro elementos —indicador, meta, plazo y responsable—, y el programa anual revisado contra lo que la cláusula 6.1 identificó, con responsable, fecha y recursos"
+COT-SI-SGCSSMA-S8-2,CASO-SI-SGCSSMA-S8,SI-SGCSSMA-S8,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué objetivo no se puede evaluar y por qué, y qué le falta al programa anual para servir este año"
+COT-SI-SGCSSMA-S8-3,CASO-SI-SGCSSMA-S8,SI-SGCSSMA-S8,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ve qué elemento le falta a cada objetivo y qué deja fuera el programa
+COT-SI-SGCSSMA-S8-4,CASO-SI-SGCSSMA-S8,SI-SGCSSMA-S8,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S8-5,CASO-SI-SGCSSMA-S8,SI-SGCSSMA-S8,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S9-1,CASO-SI-SGCSSMA-S9,SI-SGCSSMA-S9,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Las condiciones de la capacitación revisadas una por una —cuándo, jornada, costo, quién la dicta, sobre qué riesgos— cada incumplimiento con su artículo, y el hecho que prueba si el trabajador quedó competente"
+COT-SI-SGCSSMA-S9-2,CASO-SI-SGCSSMA-S9,SI-SGCSSMA-S9,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué le falta a esta empresa para que su gente sea competente y consciente, y por dónde empezaría"
+COT-SI-SGCSSMA-S9-3,CASO-SI-SGCSSMA-S9,SI-SGCSSMA-S9,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ve qué condición se incumple y con qué hecho se prueba
+COT-SI-SGCSSMA-S9-4,CASO-SI-SGCSSMA-S9,SI-SGCSSMA-S9,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S9-5,CASO-SI-SGCSSMA-S9,SI-SGCSSMA-S9,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S10-1,CASO-SI-SGCSSMA-S10,SI-SGCSSMA-S10,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Los documentos separados de los registros, qué falló en el control de cada uno —aprobación, ubicación, versión vigente y plazo de conservación—, y dónde falló la comunicación con el artículo que lo manda"
+COT-SI-SGCSSMA-S10-2,CASO-SI-SGCSSMA-S10,SI-SGCSSMA-S10,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué le puede pasar a la empresa el viernes, y qué habría evitado llegar hasta aquí"
+COT-SI-SGCSSMA-S10-3,CASO-SI-SGCSSMA-S10,SI-SGCSSMA-S10,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué es documento, qué es registro y qué falló en cada uno"
+COT-SI-SGCSSMA-S10-4,CASO-SI-SGCSSMA-S10,SI-SGCSSMA-S10,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S10-5,CASO-SI-SGCSSMA-S10,SI-SGCSSMA-S10,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S13-1,CASO-SI-SGCSSMA-S13,SI-SGCSSMA-S13,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Cada tarea con el documento que le correspondía —estándar, PETS, ATS o permiso—, cuál falta o se usa mal, y los controles que manda contrastados con el peligro que hay"
+COT-SI-SGCSSMA-S13-2,CASO-SI-SGCSSMA-S13,SI-SGCSSMA-S13,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué habría que corregir para que el documento sirva en el frente, y por dónde empezaría"
+COT-SI-SGCSSMA-S13-3,CASO-SI-SGCSSMA-S13,SI-SGCSSMA-S13,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué documento toca, cuál falta y qué control queda corto"
+COT-SI-SGCSSMA-S13-4,CASO-SI-SGCSSMA-S13,SI-SGCSSMA-S13,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S13-5,CASO-SI-SGCSSMA-S13,SI-SGCSSMA-S13,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S14-1,CASO-SI-SGCSSMA-S14,SI-SGCSSMA-S14,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Qué cambió y quién debió evaluarlo antes, el peligro nuevo que apareció, el control aplicado ubicado en su nivel de la jerarquía, y el que correspondía según lo ya identificado"
+COT-SI-SGCSSMA-S14-2,CASO-SI-SGCSSMA-S14,SI-SGCSSMA-S14,SI-SGCSSMA,2,CONCLUSIONES,Dice qué riesgo residual queda con el control actual y qué haría falta para bajarlo
+COT-SI-SGCSSMA-S14-3,CASO-SI-SGCSSMA-S14,SI-SGCSSMA-S14,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve el cambio, el peligro nuevo y el nivel de cada control"
+COT-SI-SGCSSMA-S14-4,CASO-SI-SGCSSMA-S14,SI-SGCSSMA-S14,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S14-5,CASO-SI-SGCSSMA-S14,SI-SGCSSMA-S14,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S15-1,CASO-SI-SGCSSMA-S15,SI-SGCSSMA-S15,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"El criterio de operación de cada proceso con su origen, el que falta o está mal tomado, y lo que falla en el control de la producción: identificación, trazabilidad, validación o preservación"
+COT-SI-SGCSSMA-S15-2,CASO-SI-SGCSSMA-S15,SI-SGCSSMA-S15,SI-SGCSSMA,2,CONCLUSIONES,Dice qué se pierde con cada falla y qué tendría que existir para cerrarla
+COT-SI-SGCSSMA-S15-3,CASO-SI-SGCSSMA-S15,SI-SGCSSMA-S15,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué proceso, qué criterio, de dónde sale y qué falla"
+COT-SI-SGCSSMA-S15-4,CASO-SI-SGCSSMA-S15,SI-SGCSSMA-S15,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S15-5,CASO-SI-SGCSSMA-S15,SI-SGCSSMA-S15,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S16-1,CASO-SI-SGCSSMA-S16,SI-SGCSSMA-S16,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Los requisitos que faltó comunicar al proveedor o verificar antes de contratar, cada uno con el artículo o la cláusula que lo manda, y el hecho del caso que lo prueba"
+COT-SI-SGCSSMA-S16-2,CASO-SI-SGCSSMA-S16,SI-SGCSSMA-S16,SI-SGCSSMA,2,CONCLUSIONES,Dice de quién es la responsabilidad de lo ocurrido y qué habría que dejar establecido antes del próximo contrato
+COT-SI-SGCSSMA-S16-3,CASO-SI-SGCSSMA-S16,SI-SGCSSMA-S16,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué faltó, quién debía hacerlo y con qué se sostiene"
+COT-SI-SGCSSMA-S16-4,CASO-SI-SGCSSMA-S16,SI-SGCSSMA-S16,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S16-5,CASO-SI-SGCSSMA-S16,SI-SGCSSMA-S16,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S17-1,CASO-SI-SGCSSMA-S17,SI-SGCSSMA-S17,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Lo que la ley exige y el plan no cubre, cada cosa con su artículo, las personas que quedan fuera, y el hecho del caso que lo prueba"
+COT-SI-SGCSSMA-S17-2,CASO-SI-SGCSSMA-S17,SI-SGCSSMA-S17,SI-SGCSSMA,2,CONCLUSIONES,Dice qué debería probar el próximo simulacro y qué tendría que cambiar del plan después
+COT-SI-SGCSSMA-S17-3,CASO-SI-SGCSSMA-S17,SI-SGCSSMA-S17,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué falta, a quién deja fuera y con qué se sostiene"
+COT-SI-SGCSSMA-S17-4,CASO-SI-SGCSSMA-S17,SI-SGCSSMA-S17,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S17-5,CASO-SI-SGCSSMA-S17,SI-SGCSSMA-S17,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S18-1,CASO-SI-SGCSSMA-S18,SI-SGCSSMA-S18,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Lo que el tablero mide y lo que no, con el artículo que obliga a medirlo, y la revisión de si los números sostienen la conclusión que la empresa saca de ellos"
+COT-SI-SGCSSMA-S18-2,CASO-SI-SGCSSMA-S18,SI-SGCSSMA-S18,SI-SGCSSMA,2,CONCLUSIONES,Propone dos indicadores proactivos para esta empresa y dice qué permitiría corregir cada uno
+COT-SI-SGCSSMA-S18-3,CASO-SI-SGCSSMA-S18,SI-SGCSSMA-S18,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué se mide, qué falta y qué dice el artículo"
+COT-SI-SGCSSMA-S18-4,CASO-SI-SGCSSMA-S18,SI-SGCSSMA-S18,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S18-5,CASO-SI-SGCSSMA-S18,SI-SGCSSMA-S18,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S19-1,CASO-SI-SGCSSMA-S19,SI-SGCSSMA-S19,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Lo que falla en la evaluación del cumplimiento legal y en la auditoría, cada cosa con el artículo o la cláusula que lo manda, y el hecho del caso que lo prueba"
+COT-SI-SGCSSMA-S19-2,CASO-SI-SGCSSMA-S19,SI-SGCSSMA-S19,SI-SGCSSMA,2,CONCLUSIONES,Dice qué debería pasar con los hallazgos y con la matriz legal después de esta auditoría
+COT-SI-SGCSSMA-S19-3,CASO-SI-SGCSSMA-S19,SI-SGCSSMA-S19,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué falla, con qué se sostiene y qué corresponde hacer"
+COT-SI-SGCSSMA-S19-4,CASO-SI-SGCSSMA-S19,SI-SGCSSMA-S19,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S19-5,CASO-SI-SGCSSMA-S19,SI-SGCSSMA-S19,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S20-1,CASO-SI-SGCSSMA-S20,SI-SGCSSMA-S20,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"Las entradas que faltaron y las salidas que no sirven, cada una con la cláusula o el artículo que la manda, y el hecho del caso que lo prueba"
+COT-SI-SGCSSMA-S20-2,CASO-SI-SGCSSMA-S20,SI-SGCSSMA-S20,SI-SGCSSMA,2,CONCLUSIONES,Dice qué exige la ley peruana que aquí no se cumplió y qué tendría que traer la próxima revisión
+COT-SI-SGCSSMA-S20-3,CASO-SI-SGCSSMA-S20,SI-SGCSSMA-S20,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué entró, qué faltó y qué salió de la revisión"
+COT-SI-SGCSSMA-S20-4,CASO-SI-SGCSSMA-S20,SI-SGCSSMA-S20,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S20-5,CASO-SI-SGCSSMA-S20,SI-SGCSSMA-S20,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S21-1,CASO-SI-SGCSSMA-S21,SI-SGCSSMA-S21,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"El nivel de causa al que llegó la investigación, la causa que quedó sin identificar, y la clasificación de lo que hicieron como corrección o como acción correctiva, con el hecho que lo prueba"
+COT-SI-SGCSSMA-S21-2,CASO-SI-SGCSSMA-S21,SI-SGCSSMA-S21,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué exige la ley que aquí no se hizo y qué acción correctiva correspondía, con su nivel de la jerarquía"
+COT-SI-SGCSSMA-S21-3,CASO-SI-SGCSSMA-S21,SI-SGCSSMA-S21,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ven los tres niveles de causa y qué se hizo en cada caso
+COT-SI-SGCSSMA-S21-4,CASO-SI-SGCSSMA-S21,SI-SGCSSMA-S21,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S21-5,CASO-SI-SGCSSMA-S21,SI-SGCSSMA-S21,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-SGCSSMA-S22-1,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,1,DESARROLLO TÉCNICO,"El origen de cada mejora del año contrastado con las nueve entradas del artículo 46, las entradas que la empresa no está usando, y los documentos que se duplican o se contradicen"
+COT-SI-SGCSSMA-S22-2,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,2,CONCLUSIONES,"Dice qué integraría primero y por qué, señalando qué se elimina, qué se unifica y qué se conserva aparte"
+COT-SI-SGCSSMA-S22-3,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ve de dónde vino cada mejora y qué documento sobra
+COT-SI-SGCSSMA-S22-4,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-SGCSSMA-S22-5,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
