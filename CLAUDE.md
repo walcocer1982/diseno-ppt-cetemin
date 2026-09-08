@@ -8,7 +8,7 @@ Rediseño del diseño instruccional de los **35 cursos TP** de la Escuela de Min
 |---|---|---|
 | **PM** · Procesos Metalúrgicos | Harley Pereyra | `04_Recursos-graficos/PM/` |
 | **SI** · Seguridad Industrial | Jorge Canchiz | `04_Recursos-graficos/SI/` |
-| **EOM** · Exploración y Operación Minera | Erick Salazar | `04_Recursos-graficos/EOM/` |
+| **EOM** · Exploración y Operación Minera | Walter Vilcapuma — Erick Salazar acompaña | `04_Recursos-graficos/EOM/` |
 
 Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpeta** de datos: `05_Base-de-datos/EOM|PM|SI/`. No puede pisar el trabajo de otro.
 
