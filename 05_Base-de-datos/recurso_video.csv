@@ -1,0 +1,6 @@
+uso_id,video_id,curso_id,recurso,tramo,anexo,minutos,nota
+USO-001,V-001,SI-SGCSSMA,CV1,completo,A,10,"Cláusulas 1-3 no auditables · consulta y participación · peligro y riesgo · incidente, accidente y cuasi accidente"
+USO-002,V-002,SI-SGCSSMA,CV2,12:22-17:05,A,5,Siete tipos de requisito legal · objetivos de SST con su indicador
+USO-003,V-003,SI-SGCSSMA,CV3,10:28-17:30,A,5,Compras y contratistas · preparación y respuesta ante emergencias
+USO-004,V-004,SI-SGCSSMA,CV4,completo,A,9,Seguimiento y medición · evaluación del cumplimiento · auditoría interna · revisión por la dirección
+USO-005,V-005,SI-SGCSSMA,CV4,completo,B,6,Incidentes y no conformidades · acciones correctivas · causa raíz · mejora continua

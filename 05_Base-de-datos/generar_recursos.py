@@ -232,9 +232,15 @@ def main(argv) -> int:
         meta, bloques = leer(md)
         doc = construir(meta, bloques)
         caps = sum(1 for t, _ in bloques if t == "capitulo")
-        palabras = sum(len(c.split()) for t, c in bloques if t == "parrafo")
+        # Se cuenta TODO lo que el alumno lee: parrafos, vinetas, recuadros,
+        # titulos y tambien las TABLAS. Contarlas fuera daba 1000 palabras de
+        # menos que Word y subestimaba el tiempo de lectura (2026-09-08).
+        palabras = sum(len(c.split()) for t, c in bloques
+                       if t in ("parrafo", "capitulo", "apartado"))
         palabras += sum(len(" ".join(c).split()) for t, c in bloques
                         if t in ("vinetas", "recuadro"))
+        palabras += sum(len(" ".join(" ".join(f) for f in c).split())
+                        for t, c in bloques if t == "tabla")
         nombre = "%s Recurso autónomo.docx" % md.stem.upper()
         carpeta = DEST / md.stem.upper()
         carpeta.mkdir(parents=True, exist_ok=True)
@@ -243,10 +249,19 @@ def main(argv) -> int:
         except PermissionError:
             print("   %-4s NO se pudo escribir: %s está abierto" % (md.stem, nombre))
             continue
-        # 120 palabras por minuto es lectura tecnica con comprension, no lectura
-        # de novela: es la referencia con la que se calibran los 90 minutos.
+        # 60 palabras por minuto. Los alumnos llegan de todo el Peru y con
+        # formaciones muy distintas: unos leen a 350 ppm y otros a 50. La cifra
+        # NO es el promedio -- a 120 o a 200 el promedio termina y el lento no
+        # llega nunca. Se calibra sobre el lector lento, con margen para releer
+        # un apartado. DECISION de Jorge Canchiz (instructor lider SI): 75 el
+        # 2026-09-07, bajada a 60 el 2026-09-08 al comprobar que el contador
+        # dejaba fuera las tablas y subestimaba el texto real.
+        #
+        # El tope de palabras NO es fijo: sale del video. Primero se elige el
+        # video, se restan sus minutos de los 90, y lo que queda por 60 da las
+        # palabras que puede tener el cuadernillo.
         print("   %-4s %d capítulos · %d palabras · ~%d min de lectura · %s"
-              % (md.stem.upper(), caps, palabras, round(palabras / 120), nombre))
+              % (md.stem.upper(), caps, palabras, round(palabras / 60), nombre))
     print("   destino: %s" % DEST)
     return 0
 
