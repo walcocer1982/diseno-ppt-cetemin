@@ -12,7 +12,7 @@ Rediseño del diseño instruccional de los **35 cursos TP** de la Escuela de Min
 
 Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpeta** de datos: `05_Base-de-datos/EOM|PM|SI/`. No puede pisar el trabajo de otro.
 
-**Lo que NO se separa:** la doctrina (`00_Base-de-conocimiento/`), los scripts, y tres tablas comunes en la raíz de la base —`cursos.csv` (ficha oficial de los 35), `imagenes.csv` y `equipos.csv` (catálogos, para que una silueta se reuse entre carreras)—. La **estructura de columnas tampoco se cambia por cuenta propia**.
+**Lo que NO se separa:** la doctrina (`00_Base-de-conocimiento/`), los scripts, y tres tablas comunes en la raíz de la base —`cursos.csv` (ficha oficial de los 35), `imagenes.csv` y `figuras.csv` (catálogos, para que una silueta se reuse entre carreras)—. La **estructura de columnas tampoco se cambia por cuenta propia**.
 
 **Las tablas de la carrera guardan filas de varios cursos: se filtran AL LEERLAS, no al usarlas.**
 `05_Base-de-datos/SI/sesiones.csv` tiene las sesiones de los ocho cursos de SI, y lo mismo pasa con
@@ -86,6 +86,10 @@ Nunca se usa el sufijo como clave; se compara el identificador completo.
 | `06_Bitacora/` | **Un MD por día de trabajo**, con fecha por nombre. Lo que se decidió, lo que se descubrió y por qué. No lleva el detalle de lo hecho —eso está en los archivos— sino **lo que no se puede reconstruir leyendo el resultado** |
 
 **No versionado en Git:** `01_Insumos/` (4,9 GB, va por Drive institucional), `_Entrada/`, los `.env` y los PDF de catálogo. Ver `.gitignore`.
+
+**Y los PPT de sesión tampoco — pero esos hay que respaldarlos a mano.** Los `.pptx` de `03_Entregables-diseño/` quedan fuera de Git porque son binarios de varios MB: cada vez que se guardan, Git almacena una copia entera y el repositorio crece sin freno. El problema es que **ya no son regenerables**: la regla 7 dice que el instructor líder ordena sus láminas a mano, y ese orden no está en la base. Un PPT ordenado a mano y no respaldado **se pierde con el disco**.
+
+> Por eso: **todo PPT con orden manual va a la carpeta institucional de Drive**, en el mismo sitio que `01_Insumos/`. No es opcional ni es tarea del final del curso — se sube cuando se termina de ordenar. En setiembre de 2026 había 31 PPT de EOM (283 MB) sin ninguna copia fuera de la máquina de su autor.
 
 **La regla de ubicación:** `00_` guarda el *cómo* (doctrina estable), `05_` guarda el *qué* (el diseño vivo, en tablas), y `03_`/`04_` guardan *lo que resulta* (generado desde `05_`). Por eso el procedimiento de imágenes es el §10, el registro de qué imagen sirve a qué punto clave está en `05_Base-de-datos/contenido_imagen.csv`, y los archivos en `04_Recursos-graficos/`.
 

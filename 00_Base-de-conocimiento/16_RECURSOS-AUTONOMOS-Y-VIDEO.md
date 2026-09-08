@@ -96,7 +96,7 @@ El script **mide, no aprueba**. Imprime señales para descartar rápido y contra
 
 ### El catálogo es compartido
 
-`videos.csv` va en la **raíz** de `05_Base-de-datos/`, junto a `imagenes.csv` y `equipos.csv` — no en la carpeta de cada carrera. Un video de gestión de riesgos que verifique SI lo enlaza EOM sin volver a verificarlo. Las tres carreras comparten temas, y ese reuso es lo que hace manejable el volumen.
+`videos.csv` va en la **raíz** de `05_Base-de-datos/`, junto a `imagenes.csv` y `figuras.csv` — no en la carpeta de cada carrera. Un video de gestión de riesgos que verifique SI lo enlaza EOM sin volver a verificarlo. Las tres carreras comparten temas, y ese reuso es lo que hace manejable el volumen.
 
 Las **transcripciones crudas no se versionan**: son material del canal y son regenerables. Van a `01_Insumos/transcripciones/`, fuera de Git. Al repositorio van `videos.csv` —la verificación, que es lo que se comparte— y la síntesis dentro del cuadernillo.
 

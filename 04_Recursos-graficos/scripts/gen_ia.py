@@ -26,7 +26,7 @@ from config import cliente, MODELO_IMAGEN
 RAIZ = Path(__file__).resolve().parent.parent
 
 # El catalogo de equipos ya NO vive en el codigo: esta en
-# 05_Base-de-datos/equipos.csv. Dar de alta un equipo es AGREGAR UNA FILA,
+# 05_Base-de-datos/figuras.csv. Dar de alta un equipo o una figura es AGREGAR UNA FILA,
 # no editar este script. Asi el script queda comun a las tres carreras y
 # no se toca nunca.
 CATALOGO = Path(__file__).resolve().parents[2] / "05_Base-de-datos" / "figuras.csv"

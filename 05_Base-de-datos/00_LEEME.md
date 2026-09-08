@@ -12,7 +12,7 @@ De aquí se **genera** todo lo demás —planes de sesión, PPT, vistas para Not
 05_Base-de-datos/
 ├── cursos.csv        ← COMÚN · la ficha oficial de los 35 (anexo 9A)
 ├── imagenes.csv      ← COMÚN · el catálogo, para que una silueta se reuse
-├── equipos.csv       ← COMÚN · qué equipo se dibuja y con qué control
+├── figuras.csv       ← COMÚN · qué se dibuja (equipo o figura) y con qué control
 ├── EOM/   ← Erick Salazar
 ├── PM/    ← Harley Pereyra
 └── SI/    ← Jorge Canchiz

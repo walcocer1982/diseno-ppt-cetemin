@@ -27,7 +27,7 @@ QUÉ CAMBIÓ, Y POR QUÉ (Erick, 2026-09-02)
         figura delante, no la longitud de la instrucción.
 
     2 · EL ENCARGO VIVE EN UNA TABLA, NO EN EL CÓDIGO. Antes era un diccionario
-        aquí dentro, que es justo lo que la convención de `equipos.csv` prohíbe:
+        aquí dentro, que es justo lo que la convención de `figuras.csv` prohíbe:
         «dar de alta un equipo es AGREGAR UNA FILA, no editar este script».
         Ahora sale de `05_Base-de-datos/figuras.csv`.
 
