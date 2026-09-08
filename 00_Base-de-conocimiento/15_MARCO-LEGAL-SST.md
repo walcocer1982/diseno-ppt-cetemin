@@ -463,6 +463,62 @@ Verificado el **2026-09-04**.
 
 > **Un matiz que hay que enseñar:** el índice de frecuencia cuenta **accidentes incapacitantes y fatales**, no todo accidente registrado. Un caso que use «accidentes registrados» debe decirlo, o el número no significa lo que parece.
 
+### Maquinaria, equipos y herramientas · **artículos 374, 375 y 376**
+
+Es el **Capítulo V del Título correspondiente (arts. 374 a 379)**, y es el que sostiene todo lo que el curso de *Fundamentos mecánicos de equipos mineros* enseña sobre inspección y mantenimiento.
+
+| | Lo que obliga |
+|---|---|
+| **374** | La instalación, operación y mantenimiento de equipos mecánicos **fijos y móviles** debe hacerse **de acuerdo a las especificaciones de los fabricantes**, con especial atención a su **programa de mantenimiento**, descarga de gases contaminantes, calidad de repuestos y **lubricación**. El trabajador que opera los equipos debe ser **seleccionado, capacitado y autorizado** por el titular |
+| **375 c)** | **Elaborar programas de inspecciones y mantenimiento** para las maquinarias, equipos y herramientas |
+| **375 a)** | Mantener maquinarias, equipos, herramientas y materiales **en condiciones estandarizadas de seguridad** |
+| **375 d)** | Los equipos peligrosos —winches de izaje, compresoras, ventiladores, locomotoras, **camiones**, bombas, entre otros— solo los maneja el trabajador **capacitado y especialmente autorizado** |
+| **376 e)** | **Queda prohibido dejar la llave de contacto en los equipos** *(modificado por D.S. 023-2017-EM)* |
+
+> **Lo que el reglamento NO dice.** No existe un artículo que mande, con esas palabras, un *«check-list de pre-uso»* por operador. La obligación llega por el **374** —hacerlo como manda el fabricante, y el fabricante sí lo manda en su manual— y por el **375 c)** —el programa de inspecciones—. Al redactar un caso, se cita así y no se inventa un artículo que no está.
+
+### Bloqueo y señalización · **artículo 346**
+
+Capítulo XI, arts. 346 a 351. Es el artículo que nombra el peligro con su nombre:
+
+> El titular debe **identificar las fuentes de energía eléctrica, neumática, hidráulica, mecánica, química y térmica** durante las actividades de construcción, montaje, operación, **mantenimiento, limpieza, ajustes**, emergencias y otras, y está obligado a establecer estándares y procedimientos para su **bloqueo y señalización**, *«a fin de evitar accidentes de trabajo por el accionamiento involuntario de equipos por la **energía residual** o el arranque involuntario de equipos y maquinarias»*.
+
+**Energía residual** es la razón por la que un balde se queda arriba con el motor apagado y baja solo cuando alguien toca algo. Es el mecanismo de los accidentes de Huanzala 2013, Hualgayoc 2013 y Viburnum 2009, y es el eje del TC2 de `EOM-FMEQ`.
+
+### Sostenimiento e ingeniería del macizo rocoso · **artículos 213 y 214**
+
+Abre el **Título Cuarto · Gestión de las operaciones mineras**, capítulo I, subcapítulo I. Es el suelo legal de todo el curso `EOM-SOST`.
+
+| | Lo que obliga |
+|---|---|
+| **213** | En labores horizontales, inclinadas o verticales se procede al **sostenimiento sistemático inmediato**, sobre la base de los **estudios geomecánicos**, **antes de continuar las perforaciones** en el frente de avance, aplicando el principio de *«labor avanzada, labor sostenida»*, en lo que sea aplicable |
+| **214 b)** | Registrar **mensualmente** los ensayos y pruebas de control de calidad, respecto de **no menos del 1 %** del sostenimiento aplicado en dicho periodo *(modificado por D.S. 023-2017-EM)* |
+| **214 d)** | Los **PETS** de temas geomecánicos incluyen materiales y estándares, y los actualiza el **área de Geomecánica** cuando cambian las condiciones geomecánicas de la labor |
+| **214 g)** | Mantener el **ancho y la altura de los tajeos dentro de los parámetros** establecidos en los cálculos de geomecánica de cada unidad |
+| **214 i)** | **Refugios peatonales cada 50 m** en galerías y demás labores; las galerías principales de transporte, además, con áreas de cruce señalizadas |
+
+> **El 214 g) es el que sostiene el diseño de la S1.** El ancho de la labor no lo decide quien avanza: sale de los cálculos de geomecánica, y mantenerse dentro de ellos es obligación reglamentaria. Por eso el estándar es de geomecánica: ella lo escribe, lo firma y aprueba lo que se sale de él. El técnico lo **ejecuta** —y cuando su sección no figura en la tabla, calcula y lo somete; lo que el artículo prohíbe no es que calcule, es que cambie por su cuenta un parámetro firmado *(reencuadrado el 2026-09-07, OBS-EOM-SOST-26; antes decía que el técnico «lee el estándar y no lo calcula», que negaba lo que enseña la S8)*.
+>
+> **Y el 213 explica la nota 2 de la cartilla GSI**, que dice *«el tiempo de colocación del sostenimiento: de manera inmediata, no aplica Tiempo de Autosoporte»*. No es criterio de la mina: es cómo esa unidad cumple el artículo.
+
+**Dos trampas que la verificación destapó, y las dos habrían llegado a una lámina:**
+
+**1 · El umbral de 20 horas no está en el reglamento.** La *Guía de criterios geomecánicos* de Osinergmin dice que si el tiempo de auto sostenimiento resulta menor o igual a 20 horas «se deberá aplicar el artículo 213°». El artículo **no menciona ninguna hora**: manda sostenimiento inmediato, sin umbral. Las 20 horas son el **criterio de aplicación de la guía**, no texto de la norma, y así hay que citarlo.
+
+**2 · El porcentaje de control de calidad cambió, y mucho.** El texto original de 2016 pedía registro **trimestral** de **no menos del 20 %** del sostenimiento aplicado. El D.S. 023-2017-EM lo sustituyó por registro **mensual** de **no menos del 1 %**. Quien cite la versión de 2016 enseña una exigencia veinte veces mayor que la vigente.
+
+---
+
+### Vías, rampas y carreteras de alivio · **artículos 215 y 262 h)**
+
+| | Lo que obliga |
+|---|---|
+| **215** | Para la circulación de vehículos al salir a superficie, el titular **construirá carreteras de alivio** en las vías con **pendientes mayores al cinco por ciento (5 %)** —rampas, accesos o zigzag—, diagonales a las vías existentes y en lugares preestablecidos, cuando resulte necesario del IPERC. Sirven *«para ayudar a la reducción de la velocidad de la maquinaria y controlarla hasta detenerla»* |
+| **262 h)** | Construir **carreteras de alivio o rampas de emergencia** en las vías principales existentes —accesos y zigzags— con gradientes positivas, como producto de la identificación de peligros *(modificado por D.S. 023-2017-EM)* |
+| **262 e)** | El **muro de seguridad** no debe ser menor de **¾ de la altura de la llanta más grande** de los vehículos que circulan |
+
+> La **rampa de emergencia** de un tajo no es una buena práctica opcional: por encima del 5 % de pendiente es obligación reglamentaria. Es lo que el TC1 de `EOM-FMEQ` pide reconocer sin explicarlo.
+
 ---
 
 ## Dos cosas que la verificación corrigió
@@ -482,12 +538,11 @@ Verificado el **2026-09-04**.
 | Ley 29783 | PDF oficial publicado por la Autoridad Regional de Salud de Arequipa (29 pp.) |
 | DS 005-2012-TR | PDF en la plataforma del Estado Peruano, `gob.pe` (45 pp.) |
 | RM 050-2013-TR | PDF con los tres anexos completos (92 pp.) |
-| DS 024-2016-EM | **Verificado el 2026-09-02** contra el *Reglamento de Seguridad y Salud Ocupacional en Minería, edición 2026 con modificatorias*, publicado por el **MINEM** (328 pp.) |
+| DS 024-2016-EM | **Verificado el 2026-09-02** contra el *Reglamento de Seguridad y Salud Ocupacional en Minería, edición 2026 con modificatorias*, publicado por el **MINEM** (328 pp.). **Ampliado el 2026-09-04** con los arts. 215, 262, 346, 374, 375 y 376, extraídos del texto consolidado del reglamento, y con los **arts. 213 y 214** (con su modificación por el D.S. 023-2017-EM), verificados contra el PDF oficial del DS 024-2016-EM publicado en `cdn.www.gob.pe` (186 pp.) |
 | Ley 29783 · **arts. 38 y 39** | **Verificado el 2026-09-03** contra el mismo PDF de la Autoridad Regional de Salud de Arequipa. Se buscó además «Plan Anual» y «Programa Anual» en todo el texto de la Ley: **no aparecen** |
 | Ley 29783 · **arts. 27, 35 d) y 49** | **Verificado el 2026-09-03**, mismo PDF de Arequipa |
 | Ley 29783 · **arts. 43, 44, 45, 46, 47, 68 y 69** | **Verificado el 2026-09-04**, mismo PDF de Arequipa, leídos literales |
 | DS 005-2012-TR · **arts. 27 a 29, 32, 34, 36, 37, 42, 81, 83 a 91 y 98** | **Verificado el 2026-09-03** contra el PDF del *Reglamento de la Ley 29783* publicado por la **ONPE** (61 pp.), con los artículos leídos literales |
 | DS 024-2016-EM · **arts. 7 y 36** | **Verificado el 2026-09-04** contra la reproducción del articulado de *Revista Seguridad Minera*, contrastada con una segunda fuente. Las definiciones y el artículo 36 coinciden literalmente en ambas; **el número de anexo del formato PETAR no se dio por verificado** |
 | DS 024-2016-EM · **Capítulos IX y X** | **Verificado el 2026-09-03** contra el cuadro comparativo *DS 055-2010-EM / DS 024-2016-EM* publicado por **Pacífico Seguros** (52 pp.), que transcribe el articulado del Título Tercero en columnas. Los artículos **95, 96, 97, 98 y 99** se leyeron literales, no de memoria |
-
 **Ya no queda nada sin contrastar.** El 2026-09-02 se descargó el reglamento oficial del MINEM y las tres fórmulas coinciden **exactamente** con lo que el proyecto venía usando: el factor es **1 000 000**, el IF cuenta **incapacitantes + mortales** —no todo accidente registrado— y el IA es **IF × IS ÷ 1000**. El matiz que el proyecto ya enseñaba está en la definición literal.

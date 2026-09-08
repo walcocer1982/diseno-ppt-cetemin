@@ -6,6 +6,25 @@ Qué se movió, qué se decidió y **por qué**. Lo más reciente arriba.
 
 ---
 
+## 2026-09-04 · Los trámites viajan por Git en todos los cursos, no solo en el Curso 1
+
+El `.gitignore` excluye los `.md` de `03_Entregables-diseño/` porque **se generan desde la base** — versionarlos duplicaría la fuente. La excepción estaba escrita para una sola carpeta: `Curso1_Métodos-de-explotacion/*.md`.
+
+Al escribir el trámite de la capacidad de **Fundamentos mecánicos** apareció el problema: el documento quedaba invisible para Git, y **un trámite que no llega al director no sirve de nada**.
+
+La excepción pasa a listarse **por familia de documento y no por carpeta**:
+
+```
+!03_Entregables-diseño/*/TRAMITE-*.md
+!03_Entregables-diseño/*/HALLAZGOS-*.md
+```
+
+> **Por qué por familia.** Escrita por carpeta, la excepción hay que acordarse de repetirla en cada curso nuevo — y el modo de fallar es silencioso: el archivo existe en la máquina de quien lo escribió y no en la de nadie más. `TRAMITE-` y `HALLAZGOS-` son documentos que se escriben a mano y no se generan nunca, así que el motivo de la regla general no les alcanza.
+
+La regla de fondo **no cambia**: lo que sale de `disenar.py` sigue sin versionarse. La excepción del Curso 1 se conserva tal cual, porque ahí hay documentos con otros nombres (`APRENDIZAJES-ESPERADOS.md`, los `TC*_estructura.md`) que ya viajaban.
+
+---
+
 ## 2026-08-12 · La rúbrica es la nota, y limpieza de archivos
 
 ### `rubricas.csv` gana `indicador_id` y `puntos_max`

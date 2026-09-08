@@ -1,0 +1,22 @@
+# =============================================================
+#  Qué es BINARIO y no se toca
+#
+#  Git, en Windows, convierte finales de línea en lo que cree que
+#  es texto. Un .docx, un .xlsx o un .pdf a los que les cambien
+#  bytes dejan de abrir. Aquí se declara qué NO se convierte.
+#  Salió de ver el aviso «LF will be replaced by CRLF» sobre un PDF.
+# =============================================================
+
+*.pdf   binary
+*.docx  binary
+*.xlsx  binary
+*.pptx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+
+# Los CSV de la base son texto y viajan con finales de línea del
+# sistema; asi los abren Excel y el editor de cada instructor.
+*.csv   text
+*.md    text
+*.py    text

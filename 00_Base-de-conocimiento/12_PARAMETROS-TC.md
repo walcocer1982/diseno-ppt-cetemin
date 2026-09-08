@@ -251,9 +251,14 @@ DESTREZAS = {
     "analizar", "aplicar", "clasificar", "argumentar-fundamentar",
 }
 # Conectores con que entra una tecnica metodologica (Latorre, p.5)
+# Latorre da ejemplos, no una lista cerrada: la tecnica entra con un conector, y
+# cualquier gerundio de accion lo es. Se amplio al aparecer «realizando la
+# inspeccion de pre-uso y revisando los registros», que es tecnica declarada y
+# el script daba por ausente.
 CONECTORES = ("a traves de", "a través de", "por medio de", "mediante",
               "haciendo", "utilizando", "siguiendo", "comparando",
-              "reconociendo", "marcando", "llenando")
+              "reconociendo", "marcando", "llenando", "realizando",
+              "revisando", "verificando", "inspeccionando", "elaborando")
 # Rotulos que delatan que el riesgo o la incertidumbre se anunciaron
 ROTULOS = ("lo que esta en juego", "lo que está en juego", "la incertidumbre",
            "el riesgo es", "donde esta el debate", "dónde está el debate",
@@ -352,7 +357,14 @@ def revisar(carrera: str) -> int:
             total = sum(int(f.get("puntos_max") or 0) for f in filas)
             if total != PUNTOS_TOTAL:
                 mal(f"la rubrica suma {total} puntos, debe sumar {PUNTOS_TOTAL}")
-            ajenos = {f["indicador_id"] for f in filas} - set(inds) - {"transversal"}
+            todos = {i.strip() for f in filas for i in f["indicador_id"].split(";")}
+            # La casilla vacia NO es un indicador ajeno: es un criterio que no
+            # cuelga de ninguno, y se reporta como tal. Confundirlos hacia que el
+            # aviso dijera "indicador ajeno: ['']", que no se entiende.
+            sin = sum(1 for f in filas if not f["indicador_id"].strip())
+            if sin:
+                mal(f"{sin} de {len(filas)} criterios sin indicador_id: no se sabe que evaluan")
+            ajenos = {i for i in todos if i} - set(inds) - {"transversal"}
             if ajenos:
                 mal(f"criterios que evaluan un indicador ajeno al caso: {sorted(ajenos)}")
 
@@ -373,6 +385,83 @@ if __name__ == "__main__":
 **Lo que no puede comprobar todavía:** la destreza y la técnica, hasta que existan las columnas. El script ya está preparado — cuando se añadan, empieza a validarlas sin tocar el código.
 
 ---
+
+---
+
+## El orden en que se diseña un caso
+
+**Aplica a los 70 colaborativos y a los casos de sesión de las tres carreras.**
+
+```
+1. El indicador          →  fija el verbo. No se toca
+2. El nivel de exigencia →  hasta dónde llega el caso (DOK)
+3. El entregable         →  las casillas que el estudiante llena, con su nivel
+4. La rúbrica            →  sale de las casillas
+5. Los datos necesarios  →  los que hacen falta para llenarlas
+6. La fuente real        →  la que traiga esos datos
+7. El relato             →  reparte esos datos, y ninguno más
+```
+
+**El relato es lo último.** Escrito primero, pide lo que suena interesante en vez de lo que el estudiante puede responder con lo enseñado.
+
+### Los dos marcos, que no son el mismo
+
+| | Para qué sirve | Quién lo fija |
+|---|---|---|
+| **Taxonomía de Bloom** | planificar la **enseñanza**: el verbo del indicador y del aprendizaje esperado | el 7A, intocable |
+| **Profundidad del Conocimiento (DOK, Webb)** | diseñar la **evaluación**: cuánto razonamiento exige la tarea | el diseñador del caso |
+
+**Son ejes distintos, y confundirlos bloquea el diseño.** Un indicador que dice *identifica* está en Bloom 1 y no se mueve — pero su caso puede llegar a DOK 3 sin salirse del verbo. La exigencia no se sube cambiando el verbo: se sube **profundizando la tarea**.
+
+| DOK | Qué exige | En un caso |
+|---|---|---|
+| **1** Memoria | recordar, definir, identificar | copiar un dato que el relato da |
+| **2** Habilidad y concepto | comparar, clasificar, ordenar | cruzar dos fuentes del caso |
+| **3** Razonamiento estratégico | **justificar con evidencia**, resolver con más de una salida defendible | decidir con lo que hay y sustentarlo |
+| **4** Pensamiento extendido | investigación sostenida en el tiempo | **no cabe en un TC de 2 horas** |
+
+**Un colaborativo de dos horas remata en DOK 3, y en una sola casilla.** Si hay dos, no alcanza el tiempo. El resto reparte entre 1 y 2. Esa casilla de DOK 3 es la que separa un 4 de un 3 en la rúbrica.
+
+> **La trampa:** DOK mide cuánto razonamiento y transferencia exige la tarea, **no cuán difícil suena**. Añadir variables, cifras y tecnicismos alarga el caso sin profundizarlo. Un caso lleno de datos puede estar entero en DOK 1.
+
+### Las nueve reglas
+
+**1 · Todo lo que hay que juzgar está en el caso.** Si el estudiante debe detectar un error, ese error tiene que estar escrito donde él lo lee — no mencionado ni descrito. **Lo que vive en la nota del instructor, para el alumno no existe.**
+
+**2 · Un caso no es una tarea.** «Revisa esto», «analiza aquello» no obligan a nada. Hace falta un plazo, algo en juego y una decisión que tomar.
+
+**3 · Densidad no es dificultad.** Más variables, más cifras y más tecnicismos hacen el caso más largo, no más profundo.
+
+**4 · El verbo y la profundidad son ejes distintos.** Ver arriba.
+
+**5 · El riesgo se cuenta, no se rotula — y no se resuelve.** Va como anécdota o detalle al pasar, y debe doler **sin decir qué falló**. Si el caso nombra el desenlace, o si un papel del caso trae escrita la conclusión, la casilla se resuelve sola y el DOK cae.
+
+**6 · Toda salida que el estudiante pueda proponer tiene que existir en el caso.** Si puede pedir un recurso, el caso dice si está disponible y dónde. Si no, la respuesta correcta queda en el aire.
+
+**7 · Las casillas son el encargo.** El estudiante debe saber qué produce sin que nadie se lo explique: va en boca del personaje **y** en el formato que llena.
+
+**8 · Los datos técnicos se verifican en fuente antes de escribir.** Un dato plausible pero mal puesto invalida el caso entero, aunque todo lo demás esté bien.
+
+**9 · Los formatos comunes no se renombran.** Las cinco categorías de rúbrica, los eventos y los pesos son iguales en los 35 cursos. Lo que cambia es lo que se escribe dentro.
+
+### El chequeo, antes de darlo por bueno
+
+1. ¿**Cada casilla** se puede llenar con lo que el caso cuenta?
+2. ¿**Sobra algún dato**? Lo que no alimenta ninguna casilla es decoración, o distractor a propósito.
+3. ¿La casilla más exigente admite **dos respuestas defendibles**? Si solo tiene una, no es exigente: es una casilla larga.
+
+Y el último, que es el que más falla:
+
+> **Léelo como el estudiante, con solo lo que se le entrega.** Si no queda claro qué tiene que producir y con qué, no está terminado — por muy bien que cumpla los catorce parámetros.
+
+> **De dónde sale esta sección.** De los errores cometidos al diseñar los dos colaborativos de EOM · Métodos de explotación: el caso escrito antes que el entregable, las trampas que vivían en la nota del instructor y no en el relato, la densidad confundida con dificultad, una escala de niveles improvisada cuando ya existía la de Webb, y el encargo que se quedó en la tabla de diseño. Nueve de esos errores tienen en común lo mismo: **lo que el alumno necesitaba se quedó del lado del diseñador.**
+
+### Marcos de referencia
+
+- Wiggins, G. y McTighe, J. — *Understanding by Design* (diseño inverso): resultados deseados → evidencias de desempeño → experiencias de aprendizaje. Las evaluaciones se diseñan **antes** que las sesiones.
+- Webb, N. — *Depth of Knowledge*: los cuatro niveles de profundidad, para diseñar la evaluación.
+- Latorre, M. (2018) — destrezas, procesos mentales y técnicas metodológicas.
+- Cobo, G. y Valdivia, S. (2017) — *El estudio de casos*, IDU-PUCP: realismo, incertidumbre y riesgo.
 
 ## Lo que hay que decidir entre los tres
 

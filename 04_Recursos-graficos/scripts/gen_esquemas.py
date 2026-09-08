@@ -23,7 +23,12 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
 
 RAIZ = Path(__file__).resolve().parents[2]
-SALIDA = RAIZ / "04_Recursos-graficos/EOM/esquemas"
+SALIDA = RAIZ / "04_Recursos-graficos/EOM/esquemas/comun"
+# CARPETAS. Los esquemas de EOM se ordenan por CURSO y luego por sesion:
+# metexp/s1..s11, sost/s1..., y comun/ para lo que sirve a mas de uno.
+# Antes colgaban de la raiz por sesion, cuando EOM tenia un solo curso
+# disenado; con el segundo, «s1» era ambiguo. Ver OBS-EOM-SOST-18.
+
 
 AZUL, AMBAR, BLANCO, GRIS = "#0D2632", "#FFC505", "#FFFFFF", "#8A9AA3"
 FUENTE = "Arial"        # Oswald es la de marca pero no está instalada como TTF del sistema

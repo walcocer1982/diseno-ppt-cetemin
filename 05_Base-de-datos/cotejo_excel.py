@@ -205,10 +205,30 @@ for ciclo in sorted(os.listdir(base_ent)) if os.path.isdir(base_ent) else []:
             q = os.path.join(p, cur, "Instrumentos de evaluación")
             if os.path.isdir(q):
                 dest = q
+# Y la otra forma de ordenar. SI reparte por ciclo —"SI - Ciclo II/<curso>/"—, pero EOM
+# guarda cada curso en "Curso<n>_<Nombre>/", con sus instrumentos en "Recursos de
+# evaluacion/", que es donde generar_tc.py deja el TC1 y el TC2. Las dos conviven a
+# proposito (CLAUDE.md), asi que el script busca en las dos y no obliga a nadie a
+# reordenar sus carpetas para poder imprimir una lista.
+NOMBRE_XLSX = "16_Lista-de-cotejo.xlsx"
+if dest is None:
+    import re, unicodedata
+    def _sin_tildes(txt):
+        return "".join(c for c in unicodedata.normalize("NFKD", txt)
+                       if not unicodedata.combining(c))
+    slug = re.sub("[^A-Za-z0-9-]", "", _sin_tildes(nombre).replace(" ", "-")).lower()
+    for h in sorted(os.listdir(base_ent)) if os.path.isdir(base_ent) else []:
+        if os.path.isdir(os.path.join(base_ent, h)) and _sin_tildes(h).lower().endswith(slug):
+            if re.match(r"^Curso\d+_", h) or dest is None:
+                dest = os.path.join(base_ent, h, "Recursos de evaluacion")
+    if dest:
+        NOMBRE_XLSX = "Lista de cotejo.xlsx"
+        if not os.path.isdir(dest):
+            os.makedirs(dest)
 if dest is None:
     raise SystemExit("no encuentro la carpeta de instrumentos de %s" % CURSO)
 
-OUT = os.path.join(dest, "16_Lista-de-cotejo.xlsx")
+OUT = os.path.join(dest, NOMBRE_XLSX)
 wb.save(OUT)
-print("generado: 16_Lista-de-cotejo.xlsx  ·  una sola hoja, %d equipos, 5 criterios × 0-4" % N_EQUIPOS)
+print("generado: %s  ·  una sola hoja, %d equipos, 5 criterios × 0-4" % (NOMBRE_XLSX, N_EQUIPOS))
 print("  sirve para cualquier sesión: la sesión, la fecha y la consigna van en blanco")

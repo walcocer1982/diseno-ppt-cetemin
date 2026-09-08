@@ -39,6 +39,11 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+# La consola de Windows usa cp1252 y este script imprime ✘ (U+2718): sin
+# esto revienta con UnicodeEncodeError antes del primer resultado.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 RAIZ = Path(__file__).resolve().parent
 CRITERIOS_ESPERADOS = 5
 NIVELES = ["nivel_4", "nivel_3", "nivel_2", "nivel_1"]
@@ -94,10 +99,14 @@ def revisar(carrera: str) -> None:
     for r in rubricas:
         por_caso[r["caso_id"]].append(r)
 
-    # 1 · COBERTURA
-    caso_ids = {c["caso_id"] for c in casos}
+    # 1 · COBERTURA — solo los colaborativos llevan rubrica de 5 criterios.
+    # Los casos de sesion (alcance=sesion) no, y contarlos daba un ✘ falso
+    # que acaba ensenando a ignorar el aviso.
+    colaborativos = [c for c in casos
+                     if c.get("alcance", "colaborativo") == "colaborativo"]
+    caso_ids = {c["caso_id"] for c in colaborativos}
     sin_rubrica = caso_ids - set(por_caso)
-    huerfanas = set(por_caso) - caso_ids
+    huerfanas = set(por_caso) - {c["caso_id"] for c in casos}
     bloques_sin_caso = [b["bloque_id"] for b in bloques
                         if b.get("curso_id") in {c["curso_id"] for c in casos}
                         and not any(c.get("bloque_id") == b["bloque_id"] for c in casos)]

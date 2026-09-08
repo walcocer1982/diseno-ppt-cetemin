@@ -13,7 +13,7 @@ Enfoque HIBRIDO:
 Uso:   python gen_ia.py jumbo            (las dos vistas)
        python gen_ia.py jumbo perfil     (solo una)
 """
-import csv, sys, base64
+import csv, sys, base64, math
 from pathlib import Path
 import numpy as np
 from scipy import ndimage as ndi
@@ -29,7 +29,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 # 05_Base-de-datos/equipos.csv. Dar de alta un equipo es AGREGAR UNA FILA,
 # no editar este script. Asi el script queda comun a las tres carreras y
 # no se toca nunca.
-CATALOGO = Path(__file__).resolve().parents[2] / "05_Base-de-datos" / "equipos.csv"
+CATALOGO = Path(__file__).resolve().parents[2] / "05_Base-de-datos" / "figuras.csv"
 
 
 def cargar_equipos() -> dict:
@@ -39,10 +39,17 @@ def cargar_equipos() -> dict:
             eq = equipos.setdefault(r["equipo"], dict(carpeta=r["carpeta"],
                                                       carrera=r["carrera"], vistas={}))
             eq["vistas"][r["vista"]] = dict(
-                referencia=r["referencia"], control=float(r["control"]),
+                referencia=r["referencia"], control=float(r["control"] or 0),
                 tam=r["tam"] or None, origen=r["origen"],
                 vista=r["descripcion_vista"], partes=r["partes"],
-                solo_calidad=bool(r["solo_calidad"]))
+                solo_calidad=bool(r["solo_calidad"]),
+                # columnas nuevas: una FIGURA de fuente no es un equipo, pero pasa
+                # por el mismo bucle. Lo unico que cambia es COMO se aisla lo que
+                # se mide y donde se guarda.
+                tipo=r.get("tipo") or "equipo",
+                salida=r.get("salida", ""), medida=r.get("medida") or "saturacion",
+                pt_minimo=float(r["pt_minimo"]) if r.get("pt_minimo") else 0.0,
+                rotulos=r.get("rotulos", ""), pie=r.get("pie", ""))
     return equipos
 
 
@@ -103,6 +110,60 @@ def solo_equipo(png: Path):
         keep = [i + 1 for i in range(nn) if sz[i] >= mayor * 0.02]
         m = ndi.binary_fill_holes(np.isin(lb, keep))
     return m
+
+
+def solo_cuerpo(png: Path):
+    """Lo mismo que solo_equipo() pero para una FIGURA de fuente.
+
+    Misma idea y misma razon: se mide el OBJETO, no la escena. En un equipo el
+    objeto va en pastel y la roca en gris; en estas figuras el cuerpo mineralizado
+    va coloreado y la roca en gris arena. La firma es identica, asi que el criterio
+    tambien: lo que tiene saturacion es el cuerpo.
+
+    Esto es lo que evita las seis veces que hoy medi tinta que no era la figura
+    —el marco del escaneo, el marco del panel, el achurado del grabado, los
+    rotulos, las flechas de cota y hasta el punto decimal de un numero—.
+    """
+    a = np.array(Image.open(png).convert("RGB")).astype(int)
+    sat = a.max(2) - a.min(2)
+    m = sat > 40
+    m = ndi.binary_closing(m, np.ones((9, 9)))
+    m = ndi.binary_opening(m, np.ones((5, 5)))
+    lb, nn = ndi.label(m, structure=np.ones((3, 3)))
+    if nn:
+        sz = ndi.sum(np.ones_like(lb), lb, index=range(1, nn + 1))
+        keep = [i + 1 for i in range(nn) if sz[i] >= sz.max() * 0.02]
+        m = ndi.binary_fill_holes(np.isin(lb, keep))
+    return m
+
+
+def angulo_de(m):
+    """Inclinacion dominante del cuerpo, por PCA. Sirve cuando lo que hay que
+    conservar no es una proporcion sino un angulo — la veta, por ejemplo."""
+    ys, xs = np.where(m)
+    if ys.size < 200:
+        return None
+    x = xs - xs.mean(); y = (-ys) - (-ys).mean()
+    vals, vecs = np.linalg.eigh(np.cov(np.vstack([x, y])))
+    d = vecs[:, int(np.argmax(vals))]
+    return float(np.degrees(np.arctan2(d[1], d[0])) % 180)
+
+
+def glifo_pt(png: Path, ancho_hueco_in=6):
+    """Altura de PALABRA en pt proyectados (§11). Solo aplica a lo que lleva
+    texto: los paneles van sin rotulos y se saltan este control."""
+    a = np.array(Image.open(png).convert("RGB")).astype(int)
+    W = a.shape[1]
+    R, G, B = a[..., 0], a[..., 1], a[..., 2]
+    tinta = ((R > 130) & (G < 120) & (B < 120)) | (a.mean(2) < 130)
+    lb, n = ndi.label(ndi.binary_dilation(tinta, np.ones((3, 15))), np.ones((3, 3)))
+    altos = sorted(h for sl in ndi.find_objects(lb)
+                   for h, w in [(sl[0].stop - sl[0].start, sl[1].stop - sl[1].start)]
+                   if 16 <= h <= 130 and 0.4 <= w / h <= 12)
+    if not altos:
+        return None
+    px = altos[len(altos) // 2]
+    return dict(px=px, pt=ancho_hueco_in * px / W * 72)
 
 
 def a_mascara(png: Path, estilo="silueta"):
@@ -212,8 +273,171 @@ def una_vista(eq, vista, intentos=3, calidad="medium", estilo="color"):
     return mejor[0]
 
 
+
+# ══════════════════════════════════════════════════════════════════════════
+#  FIGURAS DE FUENTE
+#
+#  Una figura de tesis o un grabado antiguo no es un equipo, pero el problema
+#  es el mismo y por eso pasa por el mismo bucle: la fuente es correcta y es
+#  ilegible al proyectar, el modelo la mejora, y hay que comprobar que no la
+#  deformo. Cambian tres cosas, y solo tres:
+#
+#    · como se AISLA lo que se mide  -> solo_cuerpo() en vez de solo_equipo()
+#    · que se COMPARA                -> aspecto o angulo, segun la columna
+#    · donde se GUARDA               -> tal cual, sin lienzo 16:9 ni transparencia
+#
+#  Lo demas —el control que sale de la fuente, la tolerancia del 12 %, la
+#  correccion de proporcion, el limite de estirado del 30 % y declarar cuando
+#  ninguno pasa— es exactamente el metodo de los equipos, que ya estaba
+#  resuelto. (Erick, 2026-09-02: «revisa como se hacen las imagenes de los
+#  equipos». Tenia razon: yo estaba reescribiendo lo que ya existia.)
+# ══════════════════════════════════════════════════════════════════════════
+
+PROMPT_FIGURA = """Colorea esta figura como material academico.
+
+{vista}
+
+Conserva el dibujo tal cual: no cambies ninguna linea, ninguna forma ni ninguna
+inclinacion, y no anadas ni quites nada. Si no llena el marco, deja blanco antes
+que deformarlo.
+
+Para colorearla: {partes}.
+
+Quita la marca de agua y las letras sueltas del autor. Fondo blanco, sin marco.
+"""
+
+
+def una_figura(nombre, vista, intentos=3, calidad="high"):
+    cfg = EQUIPOS[nombre]; v = cfg["vistas"][vista]
+    ref = RAIZ / cfg["carpeta"] / v["referencia"]
+    sal = RAIZ / v["salida"]
+    if not ref.exists():
+        print("  falta la referencia:", ref); return None
+
+    por_angulo = v["medida"] == "angulo"
+    print("\n=== %s ===" % nombre)
+    print("  referencia: %s   control=%.2f (%s)" % (ref.name, v["control"], v["origen"]))
+    print("  se mide el CUERPO por saturacion, no la escena")
+
+    prompt = PROMPT_FIGURA.format(vista=v["vista"], partes=v["partes"])
+    cli = cliente(); mejor = None
+
+    for i in range(1, intentos + 1):
+        with open(ref, "rb") as fh:
+            r = cli.images.edit(model=MODELO_IMAGEN, image=[fh], prompt=prompt,
+                                size=v["tam"] or "1536x1024", quality=calidad)
+        crudo = sal.parent / ("_%s_crudo.png" % nombre)
+        crudo.parent.mkdir(parents=True, exist_ok=True)
+        crudo.write_bytes(base64.b64decode(r.data[0].b64_json))
+
+        m = solo_cuerpo(crudo)
+        d = medir(m)
+        if d is None:
+            print("  intento %d: no se encontro cuerpo con color" % i); continue
+        val = angulo_de(m) if por_angulo else d["asp"]
+        err = abs(val - v["control"]) / v["control"]
+        print("  intento %d: %s=%.2f  (control %.2f, desvio %.0f%%)"
+              % (i, "angulo" if por_angulo else "aspecto", val, v["control"], err * 100))
+
+        im = Image.open(crudo).convert("RGB")
+        # CORRECCION DE PROPORCION, igual que en los equipos: el aspecto correcto
+        # lo sabemos, asi que se reescala en vez de tirar el intento. Para un
+        # angulo el factor sale de la tangente: estirar en x lo tumba.
+        factor = (math.tan(math.radians(v["control"])) / math.tan(math.radians(val))
+                  if por_angulo else v["control"] / val)
+        if not (0.77 <= factor <= 1.30):
+            print("     descartado: exigiria estirar x%.2f" % factor); continue
+        if abs(factor - 1) > 0.03:
+            im = im.resize((max(int(round(im.width * factor)), 1), im.height), Image.LANCZOS)
+            print("     corregido x%.3f -> %dx%d" % (factor, im.width, im.height))
+
+        if mejor is None or err < mejor[1]:
+            mejor = (im.copy(), err, i, val)
+        if err <= 0.12:
+            break
+
+    if mejor is None:
+        print("  -> NINGUN intento fue utilizable. No se entrega imagen."); return None
+    im, err, i, val = mejor
+    im.save(sal)
+    print("  -> %s  (intento %d, desvio %.1f%%)"
+          % (sal.relative_to(RAIZ.parent), i, err * 100))
+    if v["pt_minimo"]:
+        g = glifo_pt(sal)
+        print("     letra %s" % ("%d px = %.1f pt" % (g["px"], g["pt"]) if g else "no medible"))
+        if g and g["pt"] < v["pt_minimo"]:
+            print("     NO LLEGA al piso de %.0f pt (§11): sobra contenido" % v["pt_minimo"])
+    return sal
+
+
+# ── montaje de varios paneles en una imagen de lamina ─────────────────────
+W_LAMINA, CUERPO_PX, NOTA_PX = 1500, 52, 42
+MARINO, GRIS = (13, 38, 50), (108, 122, 130)
+
+
+def _tipo(px, bold=False):
+    from PIL import ImageFont
+    return ImageFont.truetype(r"C:\Windows\Fonts\%s" % ("arialbd.ttf" if bold else "arial.ttf"), px)
+
+
+def _sin_aire(im, margen=12):
+    a = np.array(im.convert("L")); t = np.where(a < 235)
+    if t[0].size == 0:
+        return im
+    return im.crop((max(t[1].min() - margen, 0), max(t[0].min() - margen, 0),
+                    min(t[1].max() + margen, im.width), min(t[0].max() + margen, im.height)))
+
+
+def componer(nombre):
+    """Monta paneles ya verificados en una imagen de lamina.
+
+    Componer es maquetacion; inventar la geometria de un panel seria lo
+    prohibido. Si falta un panel esto se detiene: no rellena el hueco."""
+    from PIL import ImageDraw
+    v = next(iter(EQUIPOS[nombre]["vistas"].values()))
+    ids = [x.strip() for x in v["referencia"].split(";")]
+    rot = [x.split("|") for x in v["rotulos"].split(";")]
+    rutas = [RAIZ / next(iter(EQUIPOS[i]["vistas"].values()))["salida"] for i in ids]
+    faltan = [i for i, r in zip(ids, rutas) if not r.exists()]
+    if faltan:
+        print("Faltan paneles: %s" % ", ".join(faltan))
+        for i in faltan:
+            print("    python gen_ia.py %s" % i)
+        return 1
+
+    ims = [_sin_aire(Image.open(r).convert("RGB")) for r in rutas]
+    hueco = int(W_LAMINA / len(ims)); alto = int(hueco * 0.82)
+    # se igualan por ALTURA: por ancho, la veta quedaria enana junto al manto
+    ims = [im.resize((min(int(im.width * alto / im.height), hueco - 30), alto), Image.LANCZOS)
+           for im in ims]
+    y_rot = 40 + alto + 40
+    H = y_rot + CUERPO_PX + 18 + NOTA_PX * 3 + 70
+    lienzo = Image.new("RGB", (W_LAMINA, H), (255, 255, 255))
+    d = ImageDraw.Draw(lienzo)
+    for i, (im, (titulo, pie)) in enumerate(zip(ims, rot)):
+        cx = int(hueco * (i + 0.5))
+        lienzo.paste(im, (cx - im.width // 2, 40 + (alto - im.height) // 2))
+        d.text((cx, y_rot), titulo, font=_tipo(CUERPO_PX, True), fill=MARINO, anchor="ma")
+        d.multiline_text((cx, y_rot + CUERPO_PX + 16), pie.replace("\\n", "\n"),
+                         font=_tipo(NOTA_PX), fill=MARINO, anchor="ma", align="center", spacing=10)
+    d.text((W_LAMINA // 2, H - 52), v["pie"], font=_tipo(NOTA_PX - 6), fill=GRIS, anchor="ma")
+    sal = RAIZ / v["salida"]
+    sal.parent.mkdir(parents=True, exist_ok=True)
+    lienzo.save(sal)
+    print("ENTREGABLE  %s   %dx%d" % (sal.relative_to(RAIZ.parent), lienzo.width, lienzo.height))
+    print("  rotulo %d px -> %.1f pt proyectados" % (CUERPO_PX, 6 * CUERPO_PX / W_LAMINA * 72))
+    return 0
+
+
 if __name__ == "__main__":
     eq = sys.argv[1] if len(sys.argv) > 1 else "jumbo"
+    if eq not in EQUIPOS:
+        sys.exit("no esta en figuras.csv: " + eq)
+    primera = next(iter(EQUIPOS[eq]["vistas"].values()))
+    if primera["tipo"] in ("panel", "figura", "composicion"):
+        v0 = next(iter(EQUIPOS[eq]["vistas"]))
+        sys.exit(componer(eq) if primera["tipo"] == "composicion"
+                 else (0 if una_figura(eq, v0) else 1))
     vistas = [sys.argv[2]] if len(sys.argv) > 2 else list(EQUIPOS[eq]["vistas"])
     estilo = "color"
     print(f"Modelo: {MODELO_IMAGEN}   estilo: {estilo}")
