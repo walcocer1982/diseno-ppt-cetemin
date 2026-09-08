@@ -26,19 +26,81 @@ Son **los cinco de la rúbrica del colaborativo, un escalón más abajo**. La se
 
 | | Criterio | **Logrado (3)** es… | **Destacado (4)** añade… |
 |---|---|---|---|
-| 1 | **DESARROLLO TÉCNICO** | Resuelve el problema en su totalidad, utilizando métodos o formas aprendidas en clase | el sustento es **verificable**: la norma con su artículo, el parámetro técnico o la consecuencia específica |
-| 2 | **CONCLUSIONES** | La conclusión se desprende del desarrollo y responde a la(s) pregunta(s) del caso | identifica el hecho que, **presentándose como conforme, no lo es**, y describe la discrepancia |
-| 3 | **ORGANIZACIÓN DEL PRODUCTO** | El producto está ordenado, tiene claridad y coherencia | expone el **recorrido completo** y puede seguirse sin la explicación oral |
-| 4 | **SUSTENTACIÓN ORAL** | Los integrantes exponen la parte que les corresponde, con orden y claridad | **cualquier integrante responde consultas** sobre una parte que no expuso |
-| 5 | **TIEMPO DE EXPOSICIÓN** | Se ajusta al tiempo asignado sin desviaciones | se ajusta dentro del 10 % del tiempo asignado |
+| 1 | **COMPRENSIÓN DEL PROBLEMA** | Identifica qué pide el caso y con qué datos cuenta | **señala qué dato falta** o qué supuesto habría que confirmar |
+| 2 | **DESARROLLO TÉCNICO** | Resuelve el problema en su totalidad, utilizando métodos o formas aprendidas en clase | el sustento es **verificable**: la norma con su artículo, el parámetro técnico o la consecuencia específica |
+| 3 | **CONCLUSIONES** | La conclusión se desprende del desarrollo y responde a la(s) pregunta(s) del caso | identifica el hecho que, **presentándose como conforme, no lo es**, y describe la discrepancia |
+| 4 | **ORGANIZACIÓN Y PRESENTACIÓN DEL PRODUCTO** | El producto está ordenado, tiene claridad y coherencia | expone el **recorrido completo** y puede seguirse sin la explicación oral |
+| 5 | **SUSTENTACIÓN ORAL** | Los integrantes exponen la parte que les corresponde, con orden y claridad, **dentro del tiempo asignado** | **cualquier integrante responde consultas** sobre una parte que no expuso |
 
-> **Los enunciados de Logrado los redactó Jorge Canchiz el 2026-09-02** y son la versión que manda. Viven en `CRITERIOS`, dentro de `05_Base-de-datos/cotejo_excel.py`: **se cambian ahí y se regenera**. Editarlos en el `.xlsx` no sirve — se pierden en la siguiente generación.
+> **Los enunciados de Logrado los redactó Jorge Canchiz el 2026-09-02.** No hace falta que los redacte él: se pueden proponer, pero **siempre hay que comprobar que son coherentes y que cumplen todo lo que este documento exige** — que el Destacado añada algo y no repita el Logrado con otras palabras, que midan forma y no contenido, y que sigan siendo los cinco de la rúbrica del colaborativo un escalón más abajo. Viven en `CRITERIOS`, dentro de `05_Base-de-datos/cotejo_excel.py`: **se cambian ahí y se regenera**. Editarlos en el `.xlsx` no sirve — se pierden en la siguiente generación.
 
-**El criterio 1 es el que lleva la cobertura.** *«En su totalidad»* es lo que hace que un equipo que resuelve tres pasos de cuatro no pueda estar Logrado, por ordenado y coherente que sea su producto. Sin esa palabra, ningún criterio mediría si respondieron todo.
+**El criterio 2 es el que lleva la cobertura.** *«En su totalidad»* es lo que hace que un equipo que resuelve tres pasos de cuatro no pueda estar Logrado, por ordenado y coherente que sea su producto. Sin esa palabra, ningún criterio mediría si respondieron todo.
 
 **Y siguen siendo de forma, no de contenido.** Por eso el mismo juego sirve en un caso de flotación de PM, uno de sostenimiento de EOM y uno de sistemas de gestión de SI. Esa es toda la razón por la que hay un solo instrumento y no setecientos.
 
-> **El criterio 5 funciona con cualquier duración**, así que la misma vara sirve para los 2 minutos de la sustentación de sesión y para los 8 del colaborativo. Sobre 2 minutos: Destacado hasta ±12 s, Logrado hasta ±30 s, En proceso hasta ±60 s.
+> **El tiempo dejó de ser un criterio y es una condición del 5.** Un criterio entero para el reloj le daba el 20 % de la nota; como condición baja junto con la exposición, y quien se pasa del tiempo ya está en el nivel 2 por otras razones. La vara sirve para cualquier duración: los 2 minutos de la sustentación de sesión y los 12 del colaborativo. Sobre 2 minutos, «dentro del tiempo asignado» admite ±12 s.
+
+## Los criterios 4 y 5 son transversales: se escriben aquí una vez
+
+**No miden contenido del curso.** El 4 mide cómo llega el producto a la pantalla y el 5
+cómo se sustenta, así que el mismo texto sirve en un caso de flotación de PM, uno de
+sostenimiento de EOM y uno de sistemas de gestión de SI. **Esta es su única redacción:**
+la rúbrica de cada colaborativo la copia de aquí y no la reescribe. Si cada curso los
+redacta a su manera, en un año hay setenta versiones de «Sustentación oral» y ninguna
+manda.
+
+Tres palabras hacen que sirvan en cualquier curso: **producto** en vez del entregable
+concreto, **sustento** en vez de la fuente concreta —la norma con su artículo, el
+parámetro técnico o la consecuencia específica— y **consultas** en vez de preguntas de
+una especialidad.
+
+### Criterio 4 · Organización y presentación del producto
+
+| | |
+|---|---|
+| **4** | Cada lámina corresponde a una sección del producto y lleva su contenido en cuadro o esquema, con su sustento a la vista, **y se entiende sin que el expositor la explique**. |
+| **3** | Cada lámina corresponde a una sección del producto y lleva su contenido en **cuadro o esquema**, con su sustento a la vista. |
+| **2** | Cada lámina corresponde a una sección del producto y **lleva su contenido en texto corrido**, con su sustento a la vista. |
+| **1** | Cada lámina corresponde a una sección del producto y **vuelca sus párrafos, sin** el sustento a la vista. |
+
+**Lo que baja es cómo llega el contenido a la pantalla:** cuadro o esquema → texto corrido
+→ párrafos volcados. **No se cuentan láminas.** Contarlas no prueba nada: seis láminas en
+blanco sacarían un 4, y un equipo que resuelve en cinco quedaría penalizado por resumir
+bien.
+
+### Criterio 5 · Sustentación oral
+
+| | |
+|---|---|
+| **4** | Todos los integrantes exponen la parte que les corresponde con orden y claridad, dentro del tiempo asignado, y **cualquiera** responde consultas **sobre una parte que no expuso**. |
+| **3** | **Todos los** integrantes exponen la parte que les corresponde con orden y claridad, **dentro** del tiempo asignado, y el equipo responde las consultas del instructor. |
+| **2** | **Algunos integrantes exponen** la parte que les corresponde con orden y claridad, se **pasan** del tiempo asignado, y el equipo responde **algunas** consultas del instructor. |
+| **1** | **Un integrante expone** la parte que le corresponde, se **pasa** del tiempo asignado, y el equipo responde las consultas del instructor **con imprecisión**. |
+
+> **La negrita no es decorativa.** Marca lo que cambia respecto del nivel de al lado, para
+> que el evaluador busque la palabra en vez de leer cuatro párrafos y decidir cuál se
+> parece más. Se calcula comparando cada nivel con su vecino, así que el mismo texto da
+> siempre la misma marca. En la base los niveles se guardan en **texto plano**: la negrita
+> es presentación, no dato.
+
+## Cómo se escribe un nivel
+
+Los cuatro niveles de un criterio **son la misma frase con una variable movida**, no cuatro
+redacciones distintas. Si hay que leerse cuatro párrafos para decidir, el instrumento no
+compara: interpreta, y con equipos distintos califica distinto.
+
+| | |
+|---|---|
+| **La variable** | Una sola por criterio. Baja por **cantidad** —cuatro, tres, dos— o por **calidad** —cuadro o esquema, texto corrido, párrafos volcados— |
+| **El 3** | Hace todo lo que se pidió |
+| **El 4** | Hace todo **y una frase más**: la lectura que no se le pidió |
+| **El 1** | Describe lo que el equipo **sí hizo**, nunca lo que falta. Puede llevar «con apoyo del instructor» |
+| **El largo** | Parecido en los cuatro. Un nivel 4 de 88 palabras y un nivel 1 de 15 es la señal de que no comparten esqueleto |
+| **Las palabras** | Las del oficio. Ni lenguaje de folleto ni tecnicismo innecesario |
+
+Lo que cuenta la variable **tiene que probar algo**. Contar unidades de análisis —brechas
+resueltas, preguntas respondidas, integrantes que exponen— dice algo del trabajo; contar
+páginas o láminas, no.
 
 ### La escala
 
@@ -198,6 +260,9 @@ N_EQUIPOS = 8
 # Los enunciados de LOGRADO son los que Jorge Canchiz escribio a mano el 2026-09-02.
 # Se cambian AQUI, no en el xlsx: editando el xlsx se pierden al regenerar.
 CRITERIOS = [
+ ("COMPRENSIÓN DEL PROBLEMA",
+  "Identifica qué pide el caso y con qué datos cuenta, sin dar por supuesto lo que no está",
+  "distingue el dato que el caso entrega del que hay que deducir"),
  ("DESARROLLO TÉCNICO",
   "Resuelve el problema en su totalidad, utilizando métodos o formas aprendidas en clase",
   "el sustento es verificable: la norma con su artículo, el parámetro técnico o la "
@@ -205,15 +270,13 @@ CRITERIOS = [
  ("CONCLUSIONES",
   "La conclusión se desprende del desarrollo y responde a la(s) pregunta(s) del caso",
   "identifica el hecho que, presentándose como conforme, no lo es, y describe la discrepancia"),
- ("ORGANIZACIÓN DEL PRODUCTO",
+ ("ORGANIZACIÓN Y PRESENTACIÓN DEL PRODUCTO",
   "El producto está ordenado, tiene claridad y coherencia",
   "expone el recorrido completo y puede seguirse sin la explicación oral"),
  ("SUSTENTACIÓN ORAL",
-  "los integrantes exponen la parte que les corresponde, con orden y claridad",
+  "los integrantes exponen la parte que les corresponde, con orden y claridad, dentro del "
+  "tiempo asignado",
   "cualquier integrante responde consultas sobre una parte que no expuso"),
- ("TIEMPO DE EXPOSICIÓN",
-  "se ajusta al tiempo asignado sin desviaciones",
-  "se ajusta dentro del 10 % del tiempo asignado"),
 ]
 NIVELES = [("0", "No presenta"), ("1", "En inicio"), ("2", "En proceso"),
            ("3", "Logrado"), ("4", "Destacado")]

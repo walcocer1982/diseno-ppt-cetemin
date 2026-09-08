@@ -51,7 +51,7 @@
 
 **Pregunta gatilladora:** ¿Sobre qué está actuando lo que esta empresa ya hizo?
 
-**Producto:** Cuatro filas en una hoja en blanco: lo que sale · el cambio que produce · sobre qué actúa cada control · qué queda sin control.
+**Producto:** Un cuadro de cuatro filas: lo que sale · el cambio que produce · sobre qué actúa cada control · qué queda sin control.
 
 ### Los dos casos, uno frente al otro
 
@@ -64,7 +64,7 @@ El viernes 22 se entrega la estructura del techo de la sala de bombas, y el clie
 | Al terminar el turno se lavan los ocho mixers. El agua sale con cemento y arena, corre por una zanja hasta un pozo de sedimentación y el pozo se limpia los viernes. El mes pasado se colmató un miércoles y el agua siguió de largo hasta la acequia de riego; el regante del sector vino a reclamar y se le pagó el jornal perdido. No se anotó en ninguna parte. | De la habilitación salen retazos de plancha y viruta, que se juntan en una esquina del patio sobre tierra. Cuando llueve, del montón corre un agua rojiza que se mete bajo el cerco. En marzo un vecino reclamó que se le manchó el muro; se le pintó el muro y no se registró. |
 | Contra el polvo, la planta compró una cisterna que riega la carretera tres veces al día. Ernesto la muestra en cada visita: es lo primero que enseña. La faja sigue descubierta. | Contra el humo, el taller instaló dos extractores en el techo. Delia los enciende antes de que llegue cualquier visita. Los puestos de soldadura siguen sin cortina ni campana. |
 
-*Mitad de los equipos con el caso A, mitad con el B. Cuatro filas: 1 · qué sale de la operación · 2 · qué cambio produce cada una · 3 · sobre cuál de los dos actúa cada control existente · 4 · qué salida queda sin control. Equipos de 4 · 28 min.*
+*Mitad de los equipos con el caso A, mitad con el B. El cuadro de la sesión: 1 · qué sale de la operación · 2 · qué cambio produce cada una · 3 · sobre cuál de los dos actúa cada control existente · 4 · qué salida queda sin control. Equipos de 4 · 28 min.*
 
 ### Lista de cotejo · qué es «completo» hoy
 
@@ -167,7 +167,7 @@ Los cinco ítems son fijos (§14). Lo que cambia por sesión es esta línea, y s
 ### APLICACIÓN · 40 min
 
 **21. Indicaciones del encargo**  ·  4'
-  Cuatro filas en una hoja en blanco. Nada más: todo lo que necesitas está en el relato.
+  Un cuadro de cuatro filas. Nada más: todo lo que necesitas está en el relato.
   1 · Qué sale de la operación hacia el entorno.
   2 · Qué cambio produce cada una de esas cosas.
   3 · Sobre cuál de los dos actúa cada control que la empresa ya tiene.

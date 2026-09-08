@@ -121,13 +121,27 @@ def generar(curso_id: str) -> Path:
     ses = {int(r["nro_sesion"]): r for r in leer(datos, "sesiones.csv") if r["curso_id"] == curso_id}
     if not ses:
         raise SystemExit("No hay sesiones de %s en %s/sesiones.csv" % (curso_id, carrera))
-    indic = {int(r["indicador_id"].split("-")[-1]): r["descripcion"]
-             for r in leer(datos, "indicadores.csv")}
-    casos = leer(datos, "casos.csv")
-    cotejo = leer(datos, "listas_cotejo.csv")
-    conten = leer(datos, "contenidos.csv")
-    lams = leer(datos, "laminas.csv")
-    rubs = leer(datos, "rubricas.csv")
+    # Solo los indicadores DE ESTE CURSO. indicadores.csv no tiene columna de curso:
+    # el curso va dentro del id, IND-<curso>-<n>. Sin este filtro, la clave era el
+    # numero final y el IND-SI-IMPAMB-1 pisaba al IND-SI-SGCSSMA-1: la matriz mostraba
+    # los indicadores de otro curso encima de las sesiones de este.
+    prefijo = "IND-%s-" % curso_id
+    indic = {int(r["indicador_id"].rsplit("-", 1)[-1]): r["descripcion"]
+             for r in leer(datos, "indicadores.csv")
+             if r["indicador_id"].startswith(prefijo)}
+    if not indic:
+        raise SystemExit("No hay indicadores de %s en %s/indicadores.csv"
+                         % (curso_id, carrera))
+    # Las tablas de la carrera guardan las filas de TODOS sus cursos. Se filtran AQUI,
+    # al leer, y no en cada uso: basta olvidar un uso para que se cuele otro curso, y
+    # eso ya ocurrio dos veces --el contador de avance sumaba sesiones ajenas, y los
+    # indicadores de SI-IMPAMB se escribieron encima de los de SI-SGCSSMA--.
+    suyo = {r["sesion_id"] for r in ses.values()}
+    casos = [c for c in leer(datos, "casos.csv") if c.get("curso_id") == curso_id]
+    cotejo = [c for c in leer(datos, "listas_cotejo.csv") if c.get("sesion_id") in suyo]
+    conten = [c for c in leer(datos, "contenidos.csv") if c.get("sesion_id") in suyo]
+    lams = [l for l in leer(datos, "laminas.csv") if l.get("sesion_id") in suyo]
+    rubs = [r for r in leer(datos, "rubricas.csv") if r.get("curso_id") == curso_id]
 
     xls = ubicar_matriz(curso_id)
     wb = openpyxl.load_workbook(xls)
@@ -149,8 +163,9 @@ def generar(curso_id: str) -> Path:
 
     # ── los dos colaborativos
     if f_tc:
-        for k, caso in enumerate(sorted([c for c in casos if c.get("alcance") == "colaborativo"],
-                                        key=lambda c: c["caso_id"])):
+        mios = [c for c in casos if c.get("alcance") == "colaborativo"
+                and c.get("curso_id") == curso_id]
+        for k, caso in enumerate(sorted(mios, key=lambda c: c["caso_id"])):
             r = f_tc + 1 + k
             n = len([x for x in rubs if x["caso_id"] == caso["caso_id"]])
             ws.cell(r, 1).value = caso["caso_id"].split("-")[-1]

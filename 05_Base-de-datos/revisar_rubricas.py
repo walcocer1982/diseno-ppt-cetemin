@@ -37,6 +37,12 @@ import re
 import sys
 import unicodedata
 from collections import defaultdict
+
+for _f in (sys.stdout, sys.stderr):      # la consola de Windows no imprime ✘ en cp1252
+    try:
+        _f.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
@@ -45,11 +51,12 @@ NIVELES = ["nivel_4", "nivel_3", "nivel_2", "nivel_1"]
 MIN_PALABRAS = 4          # menos que esto es un adjetivo, no un descriptor
 MIN_SOLAPE = 0.12         # por debajo, la rubrica no habla del curso
 
-# Los criterios 4 y 5 son los MISMOS en los 70 TC — verificado en las dos
-# rubricas oficiales de PM · Matematica: identicos palabra por palabra entre
-# el caso 1 y el caso 2. Los criterios 1-3 los nombra el caso.
-FIJOS = {"4": "Presentación PPT: contenido y diseño",
-         "5": "Presentación oral: dominio y claridad"}
+# Los criterios 4 y 5 son los MISMOS en los 70 TC: no miden contenido del curso,
+# asi que se escriben una vez en el §14 y cada rubrica los copia. Los titulos son
+# los del curso piloto SI-SGCSSMA, cerrado el 2026-09-07 y modelo de los demas:
+# un curso nuevo se adapta a el, nunca al reves.
+FIJOS = {"4": "Organización y presentación del producto",
+         "5": "Sustentación oral"}
 
 VACIAS = {"excelente", "muy bueno", "bueno", "regular", "malo", "deficiente",
           "satisfactorio", "aceptable", "insuficiente", "si", "no", "logrado",
@@ -95,7 +102,11 @@ def revisar(carrera: str) -> None:
         por_caso[r["caso_id"]].append(r)
 
     # 1 · COBERTURA
-    caso_ids = {c["caso_id"] for c in casos}
+    # Solo los COLABORATIVOS llevan rubrica. El trabajo de sesion se devuelve con la
+    # lista de cotejo, que no es una rubrica y no da nota (§14). Exigirsela a los 24
+    # casos de sesion era una expectativa de un modelo anterior, y el aviso permanente
+    # tapaba los hallazgos de verdad.
+    caso_ids = {c["caso_id"] for c in casos if c.get("alcance") == "colaborativo"}
     sin_rubrica = caso_ids - set(por_caso)
     huerfanas = set(por_caso) - caso_ids
     bloques_sin_caso = [b["bloque_id"] for b in bloques
@@ -170,9 +181,14 @@ def revisar(carrera: str) -> None:
         print(f"\n7 · TRAZABILIDAD\n   ✘  {len(sin_ind)} de {len(rubricas)} criterios sin indicador_id")
         return
 
+    # Un criterio puede tributar a varios indicadores, separados por «;». Leer el
+    # campo entero como una sola clave daba 0 pts en TODOS los indicadores y los
+    # declaraba inexistentes, con el dato perfectamente bien. revisar_tc.py ya lo
+    # partia desde el commit 8dfaf7c; el arreglo no habia llegado hasta aqui.
     cuenta = defaultdict(int)
     for r in rubricas:
-        cuenta[r["indicador_id"]] += 1
+        for i in (x.strip() for x in r["indicador_id"].split(";") if x.strip()):
+            cuenta[i] += 1
     total = len(rubricas) * 4
     print(f"\n7 · TRAZABILIDAD  ({total} puntos entre los dos TC)")
     for ind in indicadores:

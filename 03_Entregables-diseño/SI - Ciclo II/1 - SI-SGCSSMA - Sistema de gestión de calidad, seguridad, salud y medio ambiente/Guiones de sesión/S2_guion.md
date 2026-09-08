@@ -59,7 +59,7 @@
 
 **Pregunta gatilladora:** El servicio se entregó a tiempo, conforme y firmado. ¿Dónde se rompió?
 
-**Producto:** Tres cuadros y una línea: el ciclo con los nueve hechos · la etapa donde se rompió · las partes interesadas · el contexto. En hoja en blanco.
+**Producto:** Tres cuadros y una línea: el ciclo con los nueve hechos · la etapa donde se rompió · las partes interesadas · el contexto.
 
 ### Los dos casos, uno frente al otro
 

@@ -23,7 +23,7 @@ Son **dos** partes, y el §13 obliga a comprobar que cada una tenga un punto cla
 
 ## El encargo — el mismo en los dos casos
 
-Cuatro pasos, cuatro filas en una hoja en blanco. **Sin plantilla, sin anexos, sin extractos de norma**: lo único que el equipo recibe es el relato (§13).
+Cuatro pasos, un cuadro de cuatro filas — una por paso. **Sin plantilla, sin anexos, sin extractos de norma**: lo único que el equipo recibe es el relato (§13).
 
 | | Paso |
 |---|---|

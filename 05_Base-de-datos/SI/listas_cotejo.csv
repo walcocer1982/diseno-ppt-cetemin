@@ -4,7 +4,7 @@ COT-SI-IMPAMB-S1-1,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,1,DESARROLLO TÉCNIC
 COT-SI-SGCSSMA-S1-2,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,2,CONCLUSIONES,Dice qué queda sin cubrir en la empresa del caso y por qué guardar por sistema y no por área cambia el resultado
 COT-SI-IMPAMB-S1-2,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,2,CONCLUSIONES,"Dice qué salida queda sin ningún control que actúe sobre ella, y que el control que la empresa enseña primero no actúa sobre lo que genera"
 COT-SI-SGCSSMA-S1-3,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ve qué documento va a qué sistema y a qué cláusula
-COT-SI-IMPAMB-S1-3,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,3,ORGANIZACIÓN DEL PRODUCTO,"Las cuatro filas se siguen sin la explicación oral: se ve qué sale, qué cambio produce cada cosa, sobre cuál de los dos actúa cada control y qué queda sin él"
+COT-SI-IMPAMB-S1-3,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve qué sale, qué cambio produce cada cosa, sobre cuál de los dos actúa cada control y qué queda sin él"
 COT-SI-SGCSSMA-S1-4,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
 COT-SI-IMPAMB-S1-4,CASO-SI-IMPAMB-S1,SI-IMPAMB-S1,SI-IMPAMB,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
 COT-SI-SGCSSMA-S1-5,CASO-SI-SGCSSMA-S1,SI-SGCSSMA-S1,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
@@ -104,3 +104,13 @@ COT-SI-SGCSSMA-S22-2,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,2,CONCLUSIONE
 COT-SI-SGCSSMA-S22-3,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,3,ORGANIZACIÓN DEL PRODUCTO,El cuadro se sigue sin la explicación oral: se ve de dónde vino cada mejora y qué documento sobra
 COT-SI-SGCSSMA-S22-4,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
 COT-SI-SGCSSMA-S22-5,CASO-SI-SGCSSMA-S22,SI-SGCSSMA-S22,SI-SGCSSMA,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-IMPAMB-S2-1,CASO-SI-IMPAMB-S2,SI-IMPAMB-S2,SI-IMPAMB,1,DESARROLLO TÉCNICO,"Las entradas y salidas listadas en los DOS niveles: las de la actividad tal como está escrita en la matriz, y las de cada tarea en que se parte"
+COT-SI-IMPAMB-S2-2,CASO-SI-IMPAMB-S2,SI-IMPAMB-S2,SI-IMPAMB,2,CONCLUSIONES,"Dice qué aspectos aparecen al partir la actividad que la fila única no registraba, y por qué una matriz llena y firmada puede estar incompleta"
+COT-SI-IMPAMB-S2-3,CASO-SI-IMPAMB-S2,SI-IMPAMB-S2,SI-IMPAMB,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve la actividad como está escrita, las tareas en que se parte, lo que entra y sale de cada una, y lo que aparece"
+COT-SI-IMPAMB-S2-4,CASO-SI-IMPAMB-S2,SI-IMPAMB-S2,SI-IMPAMB,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-IMPAMB-S2-5,CASO-SI-IMPAMB-S2,SI-IMPAMB-S2,SI-IMPAMB,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados
+COT-SI-IMPAMB-S3-1,CASO-SI-IMPAMB-S3,SI-IMPAMB-S3,SI-IMPAMB,1,DESARROLLO TÉCNICO,"Los aspectos de la operación listados, cada uno con la condición en que ocurre —normal, anormal o emergencia— y el momento al que pertenece"
+COT-SI-IMPAMB-S3-2,CASO-SI-IMPAMB-S3,SI-IMPAMB-S3,SI-IMPAMB,2,CONCLUSIONES,"Dice qué requisito legal le aplica a la descarga, y si el que la empresa cita en su informe es el suyo"
+COT-SI-IMPAMB-S3-3,CASO-SI-IMPAMB-S3,SI-IMPAMB-S3,SI-IMPAMB,3,ORGANIZACIÓN DEL PRODUCTO,"El cuadro se sigue sin la explicación oral: se ve el aspecto, en qué condición ocurre, de qué momento es y qué requisito legal le aplica"
+COT-SI-IMPAMB-S3-4,CASO-SI-IMPAMB-S3,SI-IMPAMB-S3,SI-IMPAMB,4,SUSTENTACIÓN ORAL,"Los integrantes exponen la parte que les toca, con orden y claridad"
+COT-SI-IMPAMB-S3-5,CASO-SI-IMPAMB-S3,SI-IMPAMB-S3,SI-IMPAMB,5,TIEMPO DE EXPOSICIÓN,Se ajusta a los 2 minutos asignados

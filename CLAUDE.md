@@ -14,6 +14,27 @@ Cada líder diseña **los cursos de su carrera** y trabaja en **su propia carpet
 
 **Lo que NO se separa:** la doctrina (`00_Base-de-conocimiento/`), los scripts, y tres tablas comunes en la raíz de la base —`cursos.csv` (ficha oficial de los 35), `imagenes.csv` y `equipos.csv` (catálogos, para que una silueta se reuse entre carreras)—. La **estructura de columnas tampoco se cambia por cuenta propia**.
 
+**Las tablas de la carrera guardan filas de varios cursos: se filtran AL LEERLAS, no al usarlas.**
+`05_Base-de-datos/SI/sesiones.csv` tiene las sesiones de los ocho cursos de SI, y lo mismo pasa con
+casos, contenidos, láminas, rúbricas e indicadores. Un script que carga la tabla entera y filtra en
+cada uso funciona mientras nadie añada un uso nuevo — y el día que se olvida uno, **el curso ajeno
+entra sin error, sin aviso y con el archivo generado tan campante**.
+
+Ha ocurrido dos veces en `generar_matriz.py`: el contador de avance sumaba sesiones de otro curso e
+inflaba el progreso, y los indicadores de SI-IMPAMB se escribieron encima de los de SI-SGCSSMA
+porque la clave era solo el número final del identificador. Ninguna de las dos dio error.
+
+Por eso el filtro va en la lectura, para que la variable **no pueda** contener filas ajenas:
+
+```python
+suyo   = {r["sesion_id"] for r in ses.values()}
+casos  = [c for c in leer(datos, "casos.csv")         if c.get("curso_id") == curso_id]
+cotejo = [c for c in leer(datos, "listas_cotejo.csv") if c.get("sesion_id") in suyo]
+```
+
+Y ojo con los identificadores: `IND-SI-SGCSSMA-1` e `IND-SI-IMPAMB-1` **comparten el número final**.
+Nunca se usa el sufijo como clave; se compara el identificador completo.
+
 ## Antes de trabajar, lee la base
 
 `00_Base-de-conocimiento/` es la doctrina del proyecto — 15 documentos numerados con [índice propio](00_Base-de-conocimiento/00_INDICE.md). **Léela antes de proponer nada.** Los más citados:

@@ -8,6 +8,45 @@ Cómo generar las imágenes de equipos mineros (jumbo, scooptram, dumper, celdas
 
 ---
 
+## Fotografías reales: de dónde salen y hasta dónde se retocan
+
+**Decisión de Jorge Canchiz, 2026-09-07, para SI-IMPAMB y lo que venga detrás:** el estudiante
+no puede ver solo cuadros. Junto al esquema tiene que ver **la cosa**: el almacén de residuos,
+el recipiente rotulado, el manifiesto, el relleno. Y esa foto **tiene que ser real**.
+
+### De dónde salen, por orden
+
+| | Fuente | Cómo se cita |
+|---|---|---|
+| **1** | **Documentos y memorias públicas de empresas del sector** | atribución **visible en la propia lámina**, como la política de STRACON en la S4 de SI-SGCSSMA |
+| **2** | **Repositorios académicos peruanos** — tesis con fotografía de campo | autor, título, universidad y enlace en `imagenes.csv`, como las fotos de EOM |
+| **3** | Dominio público y Wikimedia Commons, para lo genérico | relación de créditos junto al archivo |
+
+### La línea que no se cruza
+
+**No se generan fotografías con IA.** Ni de equipos, ni de instalaciones, ni de situaciones. Una
+foto inventada que *parece* real es peor que un esquema honesto: el estudiante la toma por
+evidencia. Y en un curso donde la norma fija lo visual —los seis colores de la NTP 900.058, el
+rótulo del recipiente, el formato del manifiesto— una imagen plausible pero equivocada **enseña
+justo lo contrario de la clase**.
+
+**Sí se puede mejorar la foto real**: nitidez, ruido, contraste, encuadre, tamaño. Lo que no se
+puede es **añadir detalle que la foto no tenía**. Ojo con el reescalado generativo, que inventa
+texto, rótulos y bordes donde había una mancha: si al ampliar aparece un letrero legible que en
+el original no se leía, ese letrero es inventado y la imagen se descarta.
+
+> **La prueba:** poner el original y el retoque uno al lado del otro. Si hay algo en el retoque
+> que no estaba en el original, se pasó de la raya.
+
+### Cuando la foto no alcanza
+
+Hay datos que ninguna foto libre va a dar con la fidelidad que la norma exige. En ese caso van
+**las dos cosas**: la fotografía real de la situación **y** el esquema al lado con el dato
+normativo. No es lo mismo enseñar cómo se ve un almacén que enseñar qué color va en cada
+recipiente.
+
+---
+
 ## 0. De dónde sale el equipo: primero la tesis, después el catálogo
 
 **No se elige el equipo "de memoria" ni por lo que salga primero en el buscador.** El equipo que se dibuja tiene que ser uno que **realmente se use en una operación peruana**, y eso se averigua antes de tocar ningún dibujo.

@@ -2,18 +2,31 @@
 @subtitulo: Preparación del Cuestionario de Verificación 2
 @curso: SI-SGCSSMA · Sistema de gestión de calidad, seguridad, salud y medio ambiente
 @prepara: Sesiones 7 a 10 · cláusulas 6.1.3, 6.2 y 7
-@tiempo: 90 minutos de lectura · 45 minutos de cuestionario
+@tiempo: 90 minutos de recurso (80 de lectura + 5 de video) · 45 minutos de cuestionario
 @cuando: Después de la sesión 6 y antes de la sesión 7
 
 ## Antes de empezar
 
-Igual que la lectura anterior, esto se lee **antes** de las clases que prepara — las sesiones 7 a 10 —, y el cuestionario se responde a continuación, en el mismo bloque de 135 minutos: **90 de lectura y 45 de cuestionario**. Todas las preguntas se contestan con lo que está aquí.
+Igual que la lectura anterior, esto se lee **antes** de las clases que prepara — las sesiones 7 a 10 —, y el cuestionario se responde a continuación, en el mismo bloque de 135 minutos: **85 de lectura, 5 de video y 45 de cuestionario**. Todas las preguntas se contestan con lo que está aquí —el video incluido, porque el **Anexo A** resume lo que muestra en cada minuto—.
 
 En el primer cuadernillo viste **hasta dónde llega el sistema** y **qué puede salir mal**. Este recorre lo que sigue: qué le **obliga** a la empresa desde fuera, qué se **propone** ella misma, y con qué **gente, dinero, palabras y papeles** sostiene lo uno y lo otro. Son las cláusulas **6.1.3**, **6.2** y toda la **7**.
 
 Aquí la ley peruana pesa más que en el cuadernillo anterior, y no por gusto: en estos temas la norma ISO dice «hazlo» y la ley peruana dice **cuánto, cuándo, quién paga y por cuántos años**. Cada artículo que se cita está verificado contra el texto publicado.
 
-Cada apartado cierra con el recuadro **«Lo que se pregunta»**. Si uno no te cuadra, vuelve al apartado antes de seguir.
+Al terminar cada apartado, comprueba que puedes explicarlo con tus palabras. Si no, vuelve sobre él antes de seguir.
+
+## El video de este cuadernillo
+
+De este video mira **solo el tramo 12:22 – 17:05**, que son menos de cinco minutos:
+
+> **«Cláusula 6 · ISO 45001:2018 — Planificación»**, del canal Procem Consultores
+> https://youtu.be/Pr2wlMiW_NY
+
+Ese tramo cubre dos cosas de este cuadernillo: **los siete tipos de requisito legal** (12:29) y **los objetivos de SST con su indicador** (14:42). Lo anterior del video es la cláusula 6.1, que ya viste en el cuadernillo 1.
+
+Un aviso: el video habla **solo de la ISO 45001**, y **no trata el programa anual peruano** ni el DS 005-2012. Eso va por lectura, en el apartado 2.4.
+
+El **Anexo A**, al final, tiene el resumen minuto a minuto.
 
 ## Capítulo 1 — Los requisitos legales: lo que no se negocia
 
@@ -29,11 +42,6 @@ Tiene sentido si piensas en el objeto de cada norma. Al cliente le importa que e
 
 Y hay una parte del título que se olvida: **«y otros requisitos»**. No es relleno. Otros requisitos son los que la empresa se echa encima aunque ninguna ley se lo mande: lo que firmó en un contrato con el cliente, lo que acordó con el sindicato, lo que se comprometió con la comunidad, el estándar corporativo de su casa matriz. Vuelve la idea del cuadernillo anterior: **lo que la empresa adopta pasa a ser exigible dentro de su propio sistema**, y el auditor lo revisa igual que la ley.
 
-> **Lo que se pregunta**
-> Que la 6.1.3 está en la ISO 45001 y en la ISO 14001, y no en la ISO 9001.
-> Cómo se llama en cada una, y por dónde entra lo legal en la ISO 9001.
-> Qué son los «otros requisitos», con ejemplos.
-
 ### 1.2 Identificar, acceder y mantener actualizado
 
 La cláusula pide tres verbos, y son tres cosas distintas que se confunden todo el tiempo.
@@ -46,12 +54,9 @@ La cláusula pide tres verbos, y son tres cosas distintas que se confunden todo 
 
 Dos cosas más que la cláusula exige y que suelen quedarse fuera. La primera: el resultado **se guarda como información documentada** — la matriz o el listado legal es un documento del sistema, con su responsable y su fecha de revisión. La segunda, y es la que da sentido a todo lo demás: **los requisitos legales se tienen en cuenta al establecer, implementar y mantener el sistema**. Una matriz legal que nadie usa para decidir nada es un adorno caro. Si la ley obliga a cuatro capacitaciones al año, eso tiene que aparecer en el programa anual; si obliga a exámenes médicos, tiene que haber presupuesto.
 
-> **Lo que se pregunta**
-> Los tres verbos de la cláusula y qué significa cada uno.
-> Que el resultado se guarda como información documentada.
-> Que los requisitos legales se tienen en cuenta al diseñar el sistema, no solo se listan.
-
 ### 1.3 Cuáles obligan en el Perú
+
+> **En el video:** los siete tipos de requisito legal, en **12:29**.
 
 Cuatro normas y un orden que hay que tener claro.
 
@@ -67,11 +72,6 @@ La confusión más común de este apartado es creer que en minería «manda el D
 Y al revés también importa: **fuera de minería, el DS 024 no aplica**. Una planta pesquera o una constructora no tienen que hacer IPERC de línea base con el Anexo 8, porque ese anexo es minero. Tienen que identificar peligros y evaluar riesgos, que es otra cosa y lo pide la Ley y la norma ISO.
 
 El DS 024, además, **alcanza también a los contratistas** que trabajan en la unidad minera: no basta con que el titular cumpla.
-
-> **Lo que se pregunta**
-> Las cuatro normas y qué es cada una.
-> Que la Ley 29783 obliga a todo empleador, sea del rubro que sea.
-> Que el DS 024 no reemplaza a la Ley: se le suma, y solo en minería.
 
 ### 1.4 Lo que la ley pide y suele faltar
 
@@ -95,11 +95,6 @@ El **estudio de línea base** del artículo 37 no es un trámite de arranque. La
 
 Y el **mapa de riesgos** del artículo 35 e) tiene dos condiciones que se incumplen a la vez: se elabora **con participación** de los trabajadores, sus representantes y el comité —no lo dibuja el jefe de seguridad solo— y **debe exhibirse en un lugar visible**. Guardado en una carpeta no cumple.
 
-> **Lo que se pregunta**
-> Qué obliga cada artículo de la tabla, sobre todo el 22, el 29, el 30, el 35 b) y el 37.
-> Que el estudio de línea base es la referencia para medir la mejora continua.
-> Que el mapa de riesgos se elabora con participación y se exhibe.
-
 ### 1.5 Quién lo exige, y qué pasa si falta
 
 La norma ISO no fiscaliza a nadie. La ley sí, y con nombre propio.
@@ -118,14 +113,11 @@ Ese último punto es el que más se confunde: **la paralización no es una conse
 
 Y si los hechos parecen delito, la inspección los **remite al Ministerio Público** (**artículo 99**).
 
-> **Lo que se pregunta**
-> Quién fiscaliza y con qué artículo.
-> Que una denuncia del trabajador basta para que llegue la inspección.
-> Que la sanción empieza con el acta de infracción, y que la paralización responde al riesgo grave e inminente, no a la multa.
-
 ## Capítulo 2 — Los objetivos y el programa anual
 
 ### 2.1 Qué tiene que cumplir un objetivo del sistema
+
+> **En el video:** los objetivos de SST y su indicador, de **14:42** a **17:03**.
 
 La **cláusula 6.2** pide establecer objetivos, y les pone condiciones: que sean **coherentes con la política**, **medibles**, que se **comuniquen**, que se **hagan seguimiento** y que se **actualicen**.
 
@@ -140,11 +132,6 @@ La ley peruana pide lo mismo y lo escribe con cinco condiciones, en el **artícu
 | e | **Evaluados y actualizados periódicamente** |
 
 Fíjate en la a) y en la e), que son las que más se incumplen. La **a)** descarta el objetivo copiado de otra empresa: tiene que ser apropiado **a este tamaño y a esta actividad**. La **e)** descarta el objetivo que se fija en enero y se mira en diciembre: se evalúa y se actualiza durante el año, no al final.
-
-> **Lo que se pregunta**
-> Que la cláusula 6.2 pide objetivos coherentes con la política y medibles.
-> Las cinco condiciones del artículo 81 del DS 005-2012-TR.
-> Que el objetivo se evalúa y actualiza periódicamente, no una vez al año.
 
 ### 2.2 Las cuatro partes de un objetivo
 
@@ -161,11 +148,6 @@ Dos precisiones que se preguntan. La primera: el indicador **incluye la fórmula
 
 La segunda vuelve a la cláusula 5.3 del cuadernillo anterior: **el responsable no puede ser «la gerencia» ni «el área de seguridad»**. Asignar es poner nombre. Un objetivo cuyo dueño es un área no tiene dueño.
 
-> **Lo que se pregunta**
-> Las cuatro partes de un objetivo: indicador, meta, plazo y responsable.
-> Que el indicador dice cómo se calcula, no solo qué se mide.
-> Que el responsable es una persona con nombre, no un área.
-
 ### 2.3 Objetivos de calidad, de ambiente y de seguridad
 
 Cada norma tiene sus objetivos típicos, y conviene reconocerlos:
@@ -177,11 +159,6 @@ Cada norma tiene sus objetivos típicos, y conviene reconocerlos:
 Y una regla que amarra este capítulo con el anterior: **cada objetivo cuelga de un riesgo o de un aspecto ya identificado**. Si el IPERC dice que el riesgo más alto es la caída de altura y el objetivo del año es reducir el consumo de papel, el sistema está mirando a otro lado. Los objetivos son la respuesta a lo que la planificación encontró, no una lista aparte.
 
 Esto es lo que hace que la cláusula 6 se lea entera: **6.1 identifica lo que puede salir mal, 6.2 decide qué se va a hacer al respecto**. Separarlas es el error que produce sistemas con IPERC impecables y objetivos que no tienen nada que ver.
-
-> **Lo que se pregunta**
-> Ejemplos de objetivo típico en cada una de las tres normas.
-> Que cada objetivo cuelga de un riesgo o de un aspecto ya identificado.
-> Que la 6.1 identifica y la 6.2 decide qué hacer.
 
 ### 2.4 El programa anual, y quién lo aprueba
 
@@ -204,11 +181,6 @@ Y una precisión que se pasa por alto: los incisos **a) y c) deben exhibirse en 
 
 **Quién lo aprueba.** El **comité de seguridad y salud**, por el **artículo 42 c) de la Ley 29783**. No la gerencia. La gerencia lo financia y responde por él, pero **la aprobación es función del comité** — junto con la del Reglamento Interno (inciso b) y la de la Programación Anual del Servicio de SST (inciso d).
 
-> **Lo que se pregunta**
-> Que el Programa Anual sale del artículo 32 f) del DS 005, no de la Ley.
-> Los seis documentos que se exhiben, y que la política y el IPERC van en lugar visible.
-> Que quien aprueba el Programa Anual es el comité, artículo 42 c).
-
 ### 2.5 Los cinco errores del programa anual
 
 Se repiten tanto que conviene reconocerlos de memoria:
@@ -218,10 +190,6 @@ Se repiten tanto que conviene reconocerlos de memoria:
 - **Programar sobre procesos o equipos que ya no existen.** Es la huella del punto anterior.
 - **Dejar fuera los riesgos altos que el IPERC ya identificó.** Es el error de fondo: el programa tiene que atacar lo que la planificación encontró.
 - **Medir el indicador recién en diciembre.** Choca de frente con el artículo 81 e): los objetivos se evalúan y actualizan **periódicamente**. Un indicador que se mira una vez al año no permite corregir nada, solo enterarse.
-
-> **Lo que se pregunta**
-> Los errores típicos del programa anual, sobre todo dejar fuera los riesgos altos del IPERC.
-> Que medir el indicador solo en diciembre incumple el artículo 81 e).
 
 ## Capítulo 3 — Las personas: recursos, competencia y conciencia
 
@@ -238,11 +206,6 @@ Recursos, en concreto, son cuatro cosas:
 
 La ley peruana refuerza el primero y el segundo desde dos artículos que conviene tener juntos. El **artículo 27 de la Ley 29783** obliga a establecer **programas de capacitación y entrenamiento como parte de la jornada laboral**. Y el **artículo 49 f)** obliga a garantizar el **real y efectivo** trabajo del comité paritario **asignándole los recursos necesarios**. Un comité sin horas, sin local y sin presupuesto cumple en el papel y no funciona; ese artículo existe precisamente para eso.
 
-> **Lo que se pregunta**
-> Qué pide la cláusula 7.1 y cuáles son los cuatro tipos de recurso.
-> Que la capacitación va dentro de la jornada — artículo 27.
-> Que la ley obliga a dar recursos al comité para que su trabajo sea real y efectivo — artículo 49 f).
-
 ### 3.2 Qué es la competencia, y cómo se demuestra
 
 **Competencia es poder hacer la tarea sin dañarse ni dañar.** La cláusula 7.2 la apoya en tres patas: **educación, formación y experiencia**. No es un diploma: es la combinación de las tres aplicada a un puesto concreto.
@@ -255,11 +218,6 @@ El procedimiento tiene un orden que se pregunta:
 4. **Y se conserva la evidencia.** Certificados, constancias, registros de entrenamiento, evaluaciones.
 
 El error clásico es invertir el primer paso: mirar el currículum del que ya está contratado y declarar que el puesto pide justo eso. Así ninguna brecha aparece nunca, y el sistema no detecta que el operador de montacargas no tiene licencia.
-
-> **Lo que se pregunta**
-> Qué es la competencia y sobre qué tres cosas se apoya.
-> Que primero se define lo que exige el puesto y después se compara con la persona — artículo 27.
-> Que la brecha se cierra capacitando, entrenando, reasignando o contratando.
 
 ### 3.3 Cuándo hay que capacitar a un trabajador
 
@@ -276,11 +234,6 @@ Y encima de esos momentos, una cantidad mínima: **no menos de cuatro capacitaci
 Dos detalles que se preguntan. El primero está en el momento 1: **cualquiera sea la modalidad o duración del contrato**. El practicante, el contratado por tres semanas y el de temporada se capacitan igual que el estable. El segundo es el momento 3: **cambiar de tecnología obliga a capacitar** aunque el trabajador siga en el mismo puesto haciendo lo mismo de siempre. Equipo nuevo, capacitación nueva.
 
 El **artículo 27 del DS 005-2012-TR** lo remata: la formación se centra **en el puesto específico o la función**, en los cambios de función, en los cambios de tecnología o equipos, y en **la adaptación a la evolución de los riesgos**.
-
-> **Lo que se pregunta**
-> Los tres momentos del artículo 49 g).
-> Que las capacitaciones no son menos de cuatro al año — artículo 35 b).
-> Que el momento de la contratación aplica cualquiera sea la modalidad o duración del contrato.
 
 ### 3.4 Las reglas que la ley le pone a la capacitación
 
@@ -300,11 +253,6 @@ Tres prácticas comunes se caen solas con esta tabla, y no es opinión: **cobrar
 
 Un apunte para no equivocarse: el **Programa Anual de Capacitación** como documento con nombre propio es del **DS 024, artículo 26 b)**, y por lo tanto **solo obliga en minería**. Fuera de minería lo que obliga es todo lo de la tabla de arriba.
 
-> **Lo que se pregunta**
-> Que la capacitación va dentro de la jornada y que fuera de ella se remunera.
-> Que el costo lo asume íntegramente el empleador, en ningún caso el trabajador.
-> Que los programas atienden de manera específica los riesgos de cada puesto.
-
 ### 3.5 Capacitar y tomar conciencia no son lo mismo
 
 Dos cláusulas seguidas y una distinción que se pregunta siempre.
@@ -319,11 +267,6 @@ Y la **ISO 45001** añade lo suyo, que es lo más fuerte de la cláusula: el tra
 Eso enlaza con el **artículo 63 de la Ley 29783**: el empleador **da las instrucciones para que los trabajadores puedan interrumpir sus actividades** —e incluso abandonar el lugar— ante un peligro inminente que constituya riesgo importante o intolerable, y **no se reanudan las labores mientras el riesgo no se haya reducido o controlado**.
 
 Fíjate en el matiz: el derecho existe en la ley, pero **si el trabajador no sabe que lo tiene, no lo ejerce**. Por eso la conciencia no es un adorno del sistema — es lo que convierte un derecho escrito en una conducta real.
-
-> **Lo que se pregunta**
-> La diferencia entre capacitar y tomar conciencia.
-> Los tres contenidos de la cláusula 7.3: la política, en qué contribuye cada uno y qué implica no cumplir.
-> Que la ISO 45001 añade el derecho a apartarse del peligro grave e inminente sin represalias, y que el artículo 63 lo respalda.
 
 ## Capítulo 4 — Lo que se comunica y lo que queda escrito
 
@@ -346,11 +289,6 @@ El equivalente nacional es el **artículo 37 del DS 005-2012-TR**, y son **tres 
 
 **El inciso c) es el que se incumple sin darse cuenta.** Un buzón de sugerencias que nadie abre **recibe pero no atiende**, y tener el procedimiento escrito no basta: la norma pide **respuesta**. Enlaza directo con la consulta y participación del cuadernillo anterior — una sugerencia sin respuesta es exactamente el obstáculo a participar que la cláusula 5.4 manda eliminar.
 
-> **Lo que se pregunta**
-> Las cuatro decisiones que pide la cláusula 7.4: qué, a quién, cuándo y cómo.
-> Las tres obligaciones del artículo 37 del DS 005.
-> Que recibir no es atender: el inciso c) exige respuesta.
-
 ### 4.2 Documento y registro
 
 La norma los llama a los dos **información documentada**, pero se comportan de forma distinta y esa diferencia se pregunta siempre.
@@ -366,11 +304,6 @@ La regla de oro es la última fila y explica todo lo demás: **un documento se a
 
 Vuelve la idea del primer cuadernillo: **el registro es lo único que existe** cuando un cliente audita o un inspector pregunta. El documento dice lo que la empresa se propuso hacer; el registro dice lo que hizo.
 
-> **Lo que se pregunta**
-> La diferencia entre documento y registro, con ejemplos de cada uno.
-> Que el documento lleva versión y el registro lleva fecha.
-> Que el documento se actualiza y el registro se conserva sin corregir.
-
 ### 4.3 El control de la información documentada
 
 La **cláusula 7.5** pone reglas al ciclo de vida de un documento, y son cinco:
@@ -382,11 +315,6 @@ La **cláusula 7.5** pone reglas al ciclo de vida de un documento, y son cinco:
 - **La obsoleta se retira, o se marca** claramente si hay que conservarla por alguna razón legal.
 
 El fallo más común es el tercero y el cuarto juntos: se emite la versión nueva, se archiva bien, y **nadie recoge las copias viejas que están en uso**. El auditor lo encuentra en dos minutos, porque va al puesto de trabajo y mira qué papel tiene el operario en la mano.
-
-> **Lo que se pregunta**
-> Las reglas de la cláusula 7.5: aprobar, identificar, distribuir, desplazar la versión anterior y retirar la obsoleta.
-> Que se distribuye a quien la usa, en el puesto de trabajo.
-> Que la versión obsoleta se retira o se marca.
 
 ### 4.4 Los ocho registros obligatorios en el Perú
 
@@ -409,11 +337,6 @@ La segunda, sobre quién más tiene que llevarlos: por el **artículo 34**, la *
 
 Los formatos referenciales de estos registros los fija el Ministerio de Trabajo: son los de la **RM 050-2013-TR**, y pueden llevarse **en medios físicos o digitales**.
 
-> **Lo que se pregunta**
-> Los ocho registros del artículo 33.
-> Que el de accidentes incluye la investigación y las medidas correctivas.
-> Que la empresa principal lleva el registro de accidentes de los tercerizados que trabajan en sus instalaciones — artículo 34.
-
 ### 4.5 Cuánto se conserva cada registro, y quién puede leerlo
 
 Tres plazos, y se preguntan de memoria. Son del **artículo 35 del DS 005-2012-TR**:
@@ -432,7 +355,21 @@ La lógica de los veinte años es la enfermedad ocupacional: una hipoacusia o un
 
 Es la misma idea que recorre todo el sistema: la información del sistema **circula**, no se archiva. Pero el dato médico de una persona es suyo, y para eso hace falta su permiso por escrito.
 
-> **Lo que se pregunta**
-> Los tres plazos de conservación: 20, 10 y 5 años, y qué registro va en cada uno.
-> Que hay archivo activo de los últimos 12 meses.
-> Que los trabajadores pueden consultar los registros, salvo la información de salud, que requiere autorización escrita.
+## Anexo A — Qué muestra el video, minuto a minuto
+
+Video **V-002** · «Cláusula 6 · ISO 45001:2018 — Planificación» · Procem Consultores · tramo asignado **12:22 – 17:05** · https://youtu.be/Pr2wlMiW_NY
+
+Es un **resumen nuestro**, no la transcripción. Está aquí para que puedas responder el cuestionario aunque el video deje de estar disponible.
+
+| Minuto | Qué explica |
+|---|---|
+| **12:29** | **Determinación de los requisitos legales y otros requisitos.** Los **legales** pueden ser de siete tipos: legislación nacional, regional o internacional (con estatutos y reglamentos); decretos y directivas; disposiciones de los reguladores; permisos, licencias u otras autorizaciones; sentencias de tribunales judiciales o administrativos; tratados, convenciones y protocolos; y convenios colectivos |
+| **13:09** | **Otros requisitos**, los que no son ley: los que la propia organización se fija, las condiciones contractuales, los acuerdos con los empleados, con las partes interesadas y con las autoridades de salud, las normas no reglamentarias y de consenso, las directrices y los principios voluntarios |
+| **14:42** | **Cláusula 6.2 · Objetivos de SST.** Se establecen para mantener y mejorar el desempeño, y **se vinculan a los riesgos y oportunidades** y a los criterios de desempeño que la organización identificó como necesarios |
+| **15:15** | Los objetivos **pueden integrarse con otros objetivos del negocio** y se establecen en las funciones y niveles pertinentes |
+| **15:26** | Tres alturas, con el mismo ejemplo del ruido: **estratégico** (eliminar la exposición al ruido), **táctico** a nivel de instalación o proyecto (reducir el ruido en la fuente) y **operacional** a nivel de actividad (confinar máquinas individuales) |
+| **16:05** | La medición puede ser **cualitativa o cuantitativa**; las cualitativas salen de encuestas, entrevistas y observaciones |
+| **16:20** | **No hace falta un objetivo para cada riesgo y oportunidad** que se determine |
+| **16:27** | **Planificación para lograr los objetivos.** Se puede planificar de manera individual o colectiva, y un plan puede servir a varios objetivos |
+| **16:44** | Hay que **examinar los recursos** que hace falta —financieros, humanos, de equipo, de infraestructura— |
+| **16:54** | **Cuando sea posible, cada objetivo se asocia a un indicador**, que puede ser estratégico, táctico u operacional |

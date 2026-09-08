@@ -131,9 +131,9 @@ Verificado en las dos rúbricas oficiales de PM · Matemática aplicada: **los c
 |---|---|---|
 | 1 | Comprensión del problema | Entiende qué le piden y con qué datos |
 | 2 | **Desarrollo técnico** | El núcleo del curso: cálculos en PM, operaciones y equipos en EOM, controles en SI |
-| 3 | Conclusiones y análisis de resultados | Interpreta lo que obtuvo |
-| 4 | Presentación PPT: contenido y diseño | 🔒 El producto entregado |
-| 5 | Presentación oral: dominio y claridad | 🔒 Si el grupo domina lo que presentó |
+| 3 | Conclusiones | Interpreta lo que obtuvo |
+| 4 | Organización y presentación del producto | 🔒 El producto entregado |
+| 5 | Sustentación oral | 🔒 Si el grupo domina lo que presentó, y si se ajustó al tiempo |
 
 Los tres primeros siguen el recorrido de resolver un problema: **entender → resolver → interpretar**. Se ve comparando los dos casos de PM: *comprensión → cálculos → conclusiones* y *determinar el volumen → calcular el balance → analizar resultados*. Mismo recorrido, distinto contenido.
 
@@ -141,12 +141,14 @@ Los tres primeros siguen el recorrido de resolver un problema: **entender → re
 
 ### Los criterios 4 y 5 miden contenido, no oratoria
 
-Los títulos son los oficiales y **no se cambian**. Lo que sí se cuida es qué piden los descriptores, porque son **8 de los 20 puntos** — el 40 % de la nota del colaborativo:
+**Los títulos vigentes son los del curso piloto SI-SGCSSMA**, cerrado el 2026-09-07: es el modelo que siguen los demás cursos, y un curso nuevo se adapta a él, nunca al revés. Sustituyen a los de admisiones 2024 —*Conclusiones y análisis de resultados*, *Presentación PPT: contenido y diseño* y *Presentación oral: dominio y claridad*—, y el cambio está registrado en `observaciones.csv`. Lo que sí se cuida es qué piden los descriptores, porque son **8 de los 20 puntos** — el 40 % de la nota del colaborativo:
 
 | | Lo que **no** debe pedir | Lo que **sí** debe pedir |
 |---|---|---|
 | **4 · PPT** | que sea *"visualmente atractivo"* | que **muestre el procedimiento**: datos, cálculos por etapa, resultados y las tablas que los respaldan |
-| **5 · Oral** | que sea *"fluida"*, que respete el tiempo | que **responda preguntas técnicas** sobre lo que presentó |
+| **5 · Oral** | que sea *"fluida"* | que **responda consultas técnicas** sobre lo que presentó, y que se ajuste al **tiempo asignado** |
+
+> **El tiempo entró al criterio 5 el 2026-09-07**, por decisión de Jorge Canchiz. Antes era un criterio propio y se llevaba el 20 % de la nota por el reloj; como condición baja junto con la exposición, y quien se pasa del tiempo ya está en el nivel 2 por otras razones.
 
 **Por qué:** la oratoria y el diseño gráfico los evalúa el curso al que le corresponde ese indicador. Un curso técnico que gasta 8 puntos en presentación premia al equipo con buen PowerPoint por encima del equipo que entendió el proceso.
 

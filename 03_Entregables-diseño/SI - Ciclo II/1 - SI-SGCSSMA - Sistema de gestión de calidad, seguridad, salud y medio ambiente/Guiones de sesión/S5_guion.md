@@ -58,7 +58,7 @@
 
 **Pregunta gatilladora:** El cliente las aprobó a las dos. ¿Eso las pone en regla?
 
-**Producto:** Cuadro de cuatro filas, una por paso del encargo, en hoja en blanco. Los hechos van por su número.
+**Producto:** Un cuadro de cuatro filas, una por paso del encargo. Los hechos van por su número.
 
 ### Los dos casos, uno frente al otro
 

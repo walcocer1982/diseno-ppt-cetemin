@@ -61,7 +61,7 @@
 
 **Pregunta gatilladora:** Faltan dos documentos de ocho. ¿Es solo eso lo que le falta a esta carpeta?
 
-**Producto:** Cuadro de cinco filas, una por paso del encargo, en hoja en blanco. Se sustenta en 2 minutos.
+**Producto:** Un cuadro de cinco filas, una por paso del encargo. Se sustenta en 2 minutos.
 
 ### Los dos casos, uno frente al otro
 
@@ -209,7 +209,7 @@ Los cinco ítems son fijos (§14). Lo que cambia por sesión es esta línea, y s
   VERDE — es de una sola letra
   ÁMBAR — sirve a dos o más
   ROJO — no logramos ubicarlo
-  Cinco filas en una hoja en blanco, una por paso. El relato completo lo tienen en el chat.
+  Un cuadro de cinco filas, una por paso. El relato completo lo tienen en el chat.
   *rutina: Semáforo*
 
 **26. cotejo**  ·  ✅ `IMG-LISTA-COTEJO`
